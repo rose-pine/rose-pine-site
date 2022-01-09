@@ -4,6 +4,9 @@ module.exports = {
 	content: ['./src/**/*.svelte', './src/**/*.html'],
 	theme: {
 		extend: {
+			fontSize: {
+				md: '15px',
+			},
 			fontFamily: {
 				sans: ['Inter', ...fontFamily.sans],
 				display: ['Pier Sans', 'Inter', ...fontFamily.sans],
