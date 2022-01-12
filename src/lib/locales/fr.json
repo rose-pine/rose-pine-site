@@ -3,5 +3,26 @@
 		"themes": "Thèmes",
 		"palette": "Palette",
 		"languages": "Langues"
+	},
+	"page": {
+		"home": {
+			"title": "Quelque chose de beau",
+			"description": "Pin naturel, fausse fourrure et un peu d'ambiance soho pour le minimaliste chic",
+			"cta": "Découvrir",
+			"feature": {
+				"subtle": {
+					"title": "Esthétique subtile",
+					"description": "Offrez à vos yeux une pause bien méritée avec notre palette douce et confortable"
+				},
+				"adaptive": {
+					"title": "Humeurs adaptatives",
+					"description": "Profitez de variantes adaptées à chaque heure de votre journée"
+				},
+				"community": {
+					"title": "Animé par la communauté",
+					"description": "Vous avez contribué à apporter Rosé Pine à plus de {number} de vos applications préférées"
+				}
+			}
+		}
 	}
 }

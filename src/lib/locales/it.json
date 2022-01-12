@@ -3,5 +3,26 @@
 		"themes": "Temi",
 		"palette": "Tavolozza",
 		"languages": "Lingue"
+	},
+	"page": {
+		"home": {
+			"title": "Qualcosa di bello",
+			"description": "Tutto pino naturale, pelliccia sintetica e un po' di vibrazioni soho per il minimalista di classe",
+			"cta": "Scoprire",
+			"feature": {
+				"subtle": {
+					"title": "Estetica sottile",
+					"description": "Dai ai tuoi occhi una meritata pausa con la nostra palette morbida e confortevole"
+				},
+				"adaptive": {
+					"title": "Stati d'animo adattivi",
+					"description": "Goditi le varianti su misura per ogni ora della tua giornata"
+				},
+				"community": {
+					"title": "Guidato dalla comunità",
+					"description": "Hai contribuito a portare Rosé Pine su oltre {number} delle tue app preferite"
+				}
+			}
+		}
 	}
 }
