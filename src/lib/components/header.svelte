@@ -1,15 +1,20 @@
 <script>
 	import { _, locale } from 'svelte-i18n'
 	import { page } from '$app/stores'
+
+	$: menu = [
+		[$_('navigation.themes'), '/themes'],
+		[$_('navigation.palette'), '/palette'],
+	]
 </script>
 
-<header>
+<header class="mx-auto w-full max-w-6xl">
 	<div
-		class="px-6 md:px-10 space-x-6 h-16 bg-base border-b flex items-center justify-between"
+		class="px-6 md:px-10 space-x-6 h-16 bg-base flex items-center justify-between"
 	>
 		<a
 			href="/"
-			class="-ml-1 p-1 rounded flex items-center shrink-0 focus:outline-none focus:ring focus:ring-highlight-high"
+			class="-ml-2 px-2 py-1 rounded-md flex items-center shrink-0 hover:bg-highlight-low focus:outline-none focus:ring focus:ring-highlight-high"
 		>
 			<!-- prettier-ignore -->
 			<svg viewBox="0 0 198 188" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-3 w-4 h-4">
@@ -22,30 +27,24 @@
 		</a>
 
 		<nav class="cursor-default">
-			<ul class="space-x-3 md:space-x-4 flex items-center">
-				<li>
-					<a
-						href="/themes"
-						class="p-1 text-md text-subtle rounded hover:underline hover:underline-offset-[3px] hover:decoration-highlight-high focus:outline-none focus:ring focus:ring-highlight-high"
-						class:active={$page.url.pathname === '/themes'}
-						>{$_('navigation.themes')}</a
-					>
-				</li>
-				<li>
-					<a
-						href="/palette"
-						class="p-1 text-md text-subtle rounded hover:underline hover:underline-offset-[3px] hover:decoration-highlight-high focus:outline-none focus:ring focus:ring-highlight-high"
-						class:active={$page.url.pathname === '/palette'}
-						>{$_('navigation.palette')}</a
-					>
-				</li>
+			<ul class="space-x-3 flex items-center">
+				{#each menu as [name, href]}
+					<li>
+						<a
+							{href}
+							class="px-2 py-1 text-sm sm:text-md text-subtle rounded-md hover:bg-highlight-low focus:outline-none focus:ring focus:ring-highlight-high"
+							class:active={$page.url.pathname === href}>{name}</a
+						>
+					</li>
+				{/each}
+
 				<li class="pl-1">
 					<div class="relative flex items-center">
 						<label for="languages" class="sr-only">Languages</label>
 						<select
 							id="languages"
 							bind:value={$locale}
-							class="pr-8 pl-2 py-1 leading-normal text-md text-subtle bg-overlay rounded appearance-none focus:outline-none focus:ring focus:ring-highlight-high"
+							class="pr-7 pl-2 py-1 leading-normal text-sm text-subtle bg-highlight-low rounded-md appearance-none focus:outline-none focus:ring focus:ring-highlight-high"
 						>
 							<option value={$locale}>{$_('navigation.languages')}</option>
 							<!-- disable selected locale to ensure the selected shows "Languages" -->
@@ -55,7 +54,7 @@
 						</select>
 						<span
 							aria-hidden="true"
-							class="mr-2 text-subtle border-t-[6px] border-t-muted border-x-4 border-x-transparent inline-block align-middle absolute right-0 z-10"
+							class="mt-px mr-2 text-subtle border-t-[6px] border-t-muted border-x-4 border-x-transparent inline-block align-middle absolute right-0 z-10"
 						/>
 					</div>
 				</li>
@@ -66,6 +65,6 @@
 
 <style>
 	.active {
-		@apply text-text underline underline-offset-[3px] decoration-highlight-high;
+		@apply text-text;
 	}
 </style>
