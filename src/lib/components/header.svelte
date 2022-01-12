@@ -1,4 +1,5 @@
 <script>
+	import { _, locale } from 'svelte-i18n'
 	import { page } from '$app/stores'
 </script>
 
@@ -26,15 +27,37 @@
 					<a
 						href="/themes"
 						class="p-1 text-md text-subtle rounded hover:underline hover:underline-offset-[3px] hover:decoration-highlight-high focus:outline-none focus:ring focus:ring-highlight-high"
-						class:active={$page.url.pathname === '/themes'}>Themes</a
+						class:active={$page.url.pathname === '/themes'}
+						>{$_('navigation.themes')}</a
 					>
 				</li>
 				<li>
 					<a
 						href="/palette"
 						class="p-1 text-md text-subtle rounded hover:underline hover:underline-offset-[3px] hover:decoration-highlight-high focus:outline-none focus:ring focus:ring-highlight-high"
-						class:active={$page.url.pathname === '/palette'}>Palette</a
+						class:active={$page.url.pathname === '/palette'}
+						>{$_('navigation.palette')}</a
 					>
+				</li>
+				<li class="pl-1">
+					<div class="relative flex items-center">
+						<label for="languages" class="sr-only">Languages</label>
+						<select
+							id="languages"
+							bind:value={$locale}
+							class="pr-8 pl-2 py-1 leading-normal text-md text-subtle bg-overlay rounded appearance-none focus:outline-none focus:ring focus:ring-highlight-high"
+						>
+							<option value={$locale}>{$_('navigation.languages')}</option>
+							<!-- disable selected locale to ensure the selected shows "Languages" -->
+							<option value="en" disabled={$locale === 'en'}>English</option>
+							<option value="fr" disabled={$locale === 'fr'}>Française</option>
+							<option value="it" disabled={$locale === 'it'}>Italiana</option>
+						</select>
+						<span
+							aria-hidden="true"
+							class="mr-2 text-subtle border-t-[6px] border-t-muted border-x-4 border-x-transparent inline-block align-middle absolute right-0 z-10"
+						/>
+					</div>
 				</li>
 			</ul>
 		</nav>
