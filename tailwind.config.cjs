@@ -5,7 +5,7 @@ module.exports = {
 	theme: {
 		extend: {
 			fontSize: {
-				md: '15px',
+				md: ['15px', '15px'],
 			},
 			fontFamily: {
 				sans: ['Inter', ...fontFamily.sans],
@@ -29,6 +29,10 @@ module.exports = {
 					med: 'var(--highlight-med)',
 					high: 'var(--highlight-high)',
 				},
+			},
+			boxShadow: {
+				DEFAULT: '0 10px 30px -20px rgba(87, 82, 121, 0.2)',
+				lg: '0 10px 40px -15px rgba(87, 82, 121, 0.2)',
 			},
 			borderColor: (theme) => ({
 				DEFAULT: theme('colors.highlight.low', 'currentColor'),
