@@ -6,9 +6,18 @@
 			name="description"
 			content="All natural pine, faux fur and a bit of soho vibes for the classy minimalist"
 		/>
-		<link rel="icon" href="/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" href="/favicon.png" />
 		%svelte.head%
+
+		<noscript>
+			<style>
+				.showWithoutJavascript {
+					opacity: 1 !important;
+					transform: none !important;
+				}
+			</style>
+		</noscript>
 	</head>
 	<body>
 		<div id="svelte">%svelte.body%</div>
