@@ -1,6 +1,8 @@
 <script>
+	import hasMatch from 'has-match'
 	import Section from '$lib/components/section.svelte'
 	import Transition from '$lib/components/transition.svelte'
+	import Search from '$lib/components/search.svelte'
 	import {
 		BookIcon,
 		MoonIcon,
@@ -8,6 +10,11 @@
 		PaletteIcon,
 	} from '$lib/components/icons'
 	import themes from '$lib/data/themes.json'
+
+	let search = ''
+	$: filteredThemes = themes.filter((theme) =>
+		hasMatch(theme, search, ['name', 'shortname', 'keywords'])
+	)
 
 	const maintainers = [
 		...new Set(
@@ -22,7 +29,7 @@
 	<div
 		class="text-center lg:text-left flex flex-col lg:flex-row items-center justify-between"
 	>
-		<div>
+		<div class="shrink-0">
 			<Transition
 				active="delay-[100ms] duration-500 transition-[opacity,transform] ease-out"
 				from="opacity-0 translate-y-3"
@@ -73,12 +80,24 @@
 				</Transition>
 			</ul>
 		</div>
+
+		<Transition
+			active="w-full flex items-center justify-center lg:justify-end delay-[200ms] duration-500 transition-[opacity,transform] ease-out"
+			from="opacity-0 translate-y-2"
+			to="opacity-1 translate-y-0"
+		>
+			<Search
+				bind:search
+				label="Search themes"
+				placeholder={`Search ${themes.length} themes`}
+			/>
+		</Transition>
 	</div>
 
 	<ul
 		class="mt-12 mx-auto gap-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4"
 	>
-		{#each themes as theme}
+		{#each filteredThemes as theme}
 			<Transition
 				active="delay-100 duration-500 transition-[opacity,transform] ease-out"
 				from="opacity-0 translate-y-6"

@@ -4,6 +4,7 @@ specifiers:
   '@sveltejs/adapter-auto': ^1.0.0-next.10
   '@sveltejs/kit': next
   autoprefixer: ^10.4.2
+  has-match: ^1.0.3
   postcss: ^8.4.5
   prettier: ^2.5.1
   prettier-plugin-svelte: ^2.5.1
@@ -16,6 +17,7 @@ specifiers:
   typescript: ^4.5.4
 
 dependencies:
+  has-match: 1.0.3
   svelte-i18n: 3.3.13_svelte@3.46.0
 
 devDependencies:
@@ -717,6 +719,11 @@ packages:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
     dev: true
+
+  /has-match/1.0.3:
+    resolution: {integrity: sha512-ClHDdLU+oKA8nW1ZHm0l14RdDor9ILcRMLE3LuhD+0yCkBZyUKLNGodB88CWiZUmYn8QLOK6QAsELB2LuZ8LGQ==}
+    engines: {node: '>=12'}
+    dev: false
 
   /has/1.0.3:
     resolution: {integrity: sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==}
