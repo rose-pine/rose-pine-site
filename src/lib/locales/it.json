@@ -34,6 +34,11 @@
 			"search": {
 				"label": "Ricerca temi",
 				"placeholder": "Ricerca {number} temi"
+			},
+			"no-match": {
+				"title": "Nessun risultato trovato",
+				"action": "Contribuire con qualcosa di nuovo",
+				"message": "o prova una nuova ricerca"
 			}
 		}
 	},

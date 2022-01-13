@@ -34,6 +34,11 @@
 			"search": {
 				"label": "Chercher thèmes",
 				"placeholder": "Chercher {number} thèmes"
+			},
+			"no-match": {
+				"title": "Aucun résultat",
+				"action": "Apporter quelque chose de nouveau",
+				"message": "ou essayez une nouvelle recherche"
 			}
 		}
 	},
