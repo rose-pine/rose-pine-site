@@ -34,6 +34,7 @@
 
 <script>
 	import Header from '$lib/components/header.svelte'
+	import Footer from '$lib/components/footer.svelte'
 </script>
 
 <Header />
@@ -41,6 +42,8 @@
 <main>
 	<slot />
 </main>
+
+<Footer />
 
 <style lang="postcss" global>
 	@import url('https://rsms.me/inter/inter.css');
