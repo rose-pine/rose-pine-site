@@ -8,6 +8,7 @@
 		SeedingIcon,
 		SquaresFilledIcon,
 	} from '$lib/components/icons'
+	import themes from '$lib/data/themes.json'
 </script>
 
 <Section class="min-h-[85vh] flex items-center">
@@ -93,7 +94,7 @@
 			</h3>
 			<p class="md:max-w-xs text-subtle">
 				{$_('page.home.feature.community.description', {
-					values: { number: 50 },
+					values: { number: Math.floor(themes.length / 10) * 10 },
 				})}
 			</p>
 		</li>
