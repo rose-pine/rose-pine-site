@@ -23,6 +23,23 @@
 					"description": "You helped bring Rosé Pine to over {number} of your favourite apps"
 				}
 			}
+		},
+		"themes": {
+			"title": "Themes",
+			"description": "Hand-crafted collection of soho vibes",
+			"stats": {
+				"ports": "{number} Ports",
+				"maintainers": "{number} Maintainers"
+			},
+			"search": {
+				"label": "Search themes",
+				"placeholder": "Search {number} themes"
+			}
+		}
+	},
+	"component": {
+		"search": {
+			"focus-help": "(Press \"/\" to focus)"
 		}
 	}
 }

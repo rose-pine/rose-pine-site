@@ -23,6 +23,23 @@
 					"description": "Vous avez contribué à apporter Rosé Pine à plus de {number} de vos applications préférées"
 				}
 			}
+		},
+		"themes": {
+			"title": "Thèmes",
+			"description": "Collection artisanale d'ambiances soho",
+			"stats": {
+				"ports": "{number} Ports",
+				"maintainers": "{number} Mainteneurs"
+			},
+			"search": {
+				"label": "Chercher thèmes",
+				"placeholder": "Chercher {number} thèmes"
+			}
+		}
+	},
+	"component": {
+		"search": {
+			"focus-help": "(Presse \"/\" se concentrer)"
 		}
 	}
 }

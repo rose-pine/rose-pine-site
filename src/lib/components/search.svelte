@@ -1,4 +1,5 @@
 <script>
+	import { _ } from 'svelte-i18n'
 	import { SearchIcon } from '$lib/components/icons'
 
 	export let search = ''
@@ -19,7 +20,7 @@
 		type="text"
 		bind:this={element}
 		id="search"
-		placeholder={`${placeholder} (Press "/" to focus)`}
+		placeholder={`${placeholder} ${$_('component.search.focus-help')}`}
 		bind:value={search}
 		class="w-full h-10 py-3 pr-3 text-sm text-text placeholder-muted font-medium bg-transparent selection:bg-highlight-high focus:outline-none"
 	/>

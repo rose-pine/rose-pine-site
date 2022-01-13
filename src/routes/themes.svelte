@@ -1,4 +1,5 @@
 <script>
+	import { _ } from 'svelte-i18n'
 	import hasMatch from 'has-match'
 	import Section from '$lib/components/section.svelte'
 	import Transition from '$lib/components/transition.svelte'
@@ -35,7 +36,9 @@
 				from="opacity-0 translate-y-3"
 				to="opacity-1 translate-y-0"
 			>
-				<h2 class="font-display tracking-wide text-4xl">Themes</h2>
+				<h2 class="font-display tracking-wide text-4xl">
+					{$_('page.themes.title')}
+				</h2>
 			</Transition>
 
 			<Transition
@@ -44,7 +47,7 @@
 				to="opacity-1 translate-y-0"
 			>
 				<p class="mt-6 font-medium text-subtle">
-					Hand-crafted collection of soho vibes
+					{$_('page.themes.description')}
 				</p>
 			</Transition>
 
@@ -60,8 +63,11 @@
 						<PaletteIcon class="text-rose w-4 h-4" />
 						<span
 							class="text-sm font-medium bg-clip-text text-transparent bg-gradient-to-r from-rose to-iris"
-							>{themes.length} Ports</span
 						>
+							{$_('page.themes.stats.ports', {
+								values: { number: themes.length },
+							})}
+						</span>
 					</li>
 				</Transition>
 
@@ -74,8 +80,11 @@
 						<BookIcon class="text-iris w-4 h-4" />
 						<span
 							class="text-sm font-medium bg-clip-text text-transparent bg-gradient-to-r from-iris to-foam"
-							>{maintainers.length} Maintainers</span
 						>
+							{$_('page.themes.stats.maintainers', {
+								values: { number: maintainers.length },
+							})}
+						</span>
 					</li>
 				</Transition>
 			</ul>
@@ -88,8 +97,10 @@
 		>
 			<Search
 				bind:search
-				label="Search themes"
-				placeholder={`Search ${themes.length} themes`}
+				label={$_('page.themes.search.label')}
+				placeholder={$_('page.themes.search.placeholder', {
+					values: { number: themes.length },
+				})}
 			/>
 		</Transition>
 	</div>

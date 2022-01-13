@@ -23,6 +23,23 @@
 					"description": "Hai contribuito a portare Rosé Pine su oltre {number} delle tue app preferite"
 				}
 			}
+		},
+		"themes": {
+			"title": "Temi",
+			"description": "Collezione artigianale di vibrazioni soho",
+			"stats": {
+				"ports": "{number} Porti",
+				"maintainers": "{number} Manutentrici"
+			},
+			"search": {
+				"label": "Ricerca temi",
+				"placeholder": "Ricerca {number} temi"
+			}
+		}
+	},
+	"component": {
+		"search": {
+			"focus-help": "(Premere \"/\" focalizzare)"
 		}
 	}
 }
