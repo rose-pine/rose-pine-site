@@ -11,8 +11,10 @@
 	import themes from '$lib/data/themes.json'
 </script>
 
-<Section class="min-h-[85vh] flex items-center">
-	<div class="grid lg:grid-cols-[1fr,minmax(0,1fr)] gap-12">
+<Section>
+	<div
+		class="min-h-[calc(100vh-14rem)] grid lg:grid-cols-[1fr,minmax(0,1fr)] gap-12 items-center"
+	>
 		<div class="space-y-6 lg:space-y-12 text-center lg:text-left">
 			<Transition
 				active="delay-[200ms] duration-500 transition-[opacity,transform] ease-out"
@@ -53,7 +55,7 @@
 	</div>
 </Section>
 
-<Section class="bg-surface">
+<Section backgroundColor="var(--surface)">
 	<ul class="grid grid-cols-1 sm:grid-cols-3 gap-6">
 		<li class="space-y-4">
 			<div
