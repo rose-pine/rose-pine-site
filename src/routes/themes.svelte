@@ -60,7 +60,7 @@
 					to="opacity-1 translate-y-0"
 				>
 					<li class="space-x-1 flex items-center">
-						<PaletteIcon class="text-rose w-4 h-4" />
+						<PaletteIcon color="var(--rose)" size={16} />
 						<span
 							class="text-sm font-medium bg-clip-text text-transparent bg-gradient-to-r from-rose to-iris"
 						>
@@ -77,7 +77,7 @@
 					to="opacity-1 translate-y-0"
 				>
 					<li class="space-x-1 flex items-center">
-						<BookIcon class="text-iris w-4 h-4" />
+						<BookIcon color="var(--iris)" size={16} />
 						<span
 							class="text-sm font-medium bg-clip-text text-transparent bg-gradient-to-r from-iris to-foam"
 						>
@@ -141,10 +141,10 @@
 							</p>
 
 							<div class="mt-4 space-x-3 flex items-center">
-								<MoonIcon class="w-4 h-4 text-subtle" />
+								<MoonIcon color="var(--subtle)" size={16} />
 
 								{#if theme.variants}
-									<SunIcon class="w-5 h-5 text-gold" />
+									<SunIcon color="var(--gold)" size={20} />
 								{/if}
 							</div>
 						</a>

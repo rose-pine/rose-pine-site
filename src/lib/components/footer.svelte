@@ -16,7 +16,7 @@
 				aria-label="GitHub"
 				class="w-6 h-6 flex items-center justify-center rounded hover:bg-highlight-low focus:outline-none focus:ring focus:ring-highlight-high"
 			>
-				<GithubIcon class="w-5 h-5" />
+				<GithubIcon size={20} />
 			</a>
 
 			<div class="text-xs text-highlight-high">|</div>
@@ -26,7 +26,7 @@
 				aria-label="Twitter"
 				class="w-6 h-6 flex items-center justify-center rounded hover:bg-highlight-low focus:outline-none focus:ring focus:ring-highlight-high"
 			>
-				<TwitterIcon class="w-[18px] h-[18px]" />
+				<TwitterIcon size={18} />
 			</a>
 		</div>
 	</div>

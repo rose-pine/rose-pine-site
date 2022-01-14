@@ -59,7 +59,7 @@
 			<div
 				class="w-14 h-14 text-2xl text-surface dark:text-iris bg-iris dark:bg-base rounded-full flex items-center justify-center"
 			>
-				<SeedingIcon class="w-6 h-6" />
+				<SeedingIcon size={24} />
 			</div>
 			<h3 class="font-display font-bold text-xl">
 				{$_('page.home.feature.subtle.title')}
@@ -73,7 +73,7 @@
 			<div
 				class="w-14 h-14 text-2xl text-surface dark:text-foam bg-foam dark:bg-base rounded-full flex items-center justify-center"
 			>
-				<SquaresFilledIcon class="w-6 h-6" />
+				<SquaresFilledIcon size={24} />
 			</div>
 			<h3 class="font-display font-bold text-xl">
 				{$_('page.home.feature.adaptive.title')}
@@ -87,7 +87,7 @@
 			<div
 				class="w-14 h-14 text-2xl text-surface dark:text-gold bg-gold dark:bg-base rounded-full flex items-center justify-center"
 			>
-				<GrainIcon class="w-6 h-6" />
+				<GrainIcon size={24} />
 			</div>
 			<h3 class="font-display font-bold text-xl">
 				{$_('page.home.feature.community.title')}

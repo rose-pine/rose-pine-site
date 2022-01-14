@@ -1,5 +1,14 @@
+<script>
+	export let color = undefined
+	export let size = 15
+	export let width = undefined
+	export let height = undefined
+</script>
+
 <svg
-	class={$$restProps.class}
+	{color}
+	width={width ?? size}
+	height={height ?? size}
 	viewBox="0 0 24 24"
 	stroke-width="1.5"
 	stroke="currentColor"

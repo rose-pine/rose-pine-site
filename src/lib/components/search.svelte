@@ -13,7 +13,7 @@
 >
 	<label for="search" class="pl-3">
 		<span class="sr-only">{label}</span>
-		<SearchIcon class="w-5 h-5 text-subtle" />
+		<SearchIcon color="var(--subtle)" size={20} />
 	</label>
 
 	<input
