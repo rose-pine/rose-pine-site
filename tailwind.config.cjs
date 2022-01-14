@@ -5,7 +5,7 @@ module.exports = {
 	theme: {
 		extend: {
 			fontSize: {
-				md: ['15px', '15px'],
+				md: '15px',
 			},
 			fontFamily: {
 				sans: ['Inter', ...fontFamily.sans],

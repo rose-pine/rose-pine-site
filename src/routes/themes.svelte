@@ -106,11 +106,11 @@
 	</div>
 
 	<ul
-		class="mt-12 mx-auto gap-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4"
+		class="mt-12 mx-auto gap-2 sm:gap-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4"
 	>
 		{#if filteredThemes.length < 1}
-			<div
-				class="mx-auto py-12 w-full max-w-lg h-full col-span-full bg-gradient-to-br from-surface dark:from-overlay via-base to-surface dark:to-base bg-[length:200%_200%] bg-left-top hover:bg-right-bottom shadow dark:shadow-none duration-200 transition-all ease-in-out rounded-2xl flex flex-col items-center"
+			<li
+				class="mx-auto py-8 sm:py-12 w-full max-w-lg h-full col-span-full bg-gradient-to-br from-surface dark:from-overlay via-base to-surface dark:to-base bg-[length:200%_200%] bg-left-top hover:bg-right-bottom shadow dark:shadow-none duration-200 transition-all ease-in-out rounded-2xl flex flex-col items-center"
 			>
 				<p class="font-display">{$_('page.themes.no-result.heading')}</p>
 				<p class="mt-4 text-sm font-medium">
@@ -121,7 +121,7 @@
 					>
 					{$_('page.themes.no-result.content')}
 				</p>
-			</div>
+			</li>
 		{:else}
 			{#each filteredThemes as theme}
 				<Transition
@@ -129,13 +129,13 @@
 					from="opacity-0 translate-y-6"
 					to="opacity-1 translate-y-0"
 				>
-					<li>
+					<li class="h-full">
 						<a
 							href={theme.repo}
-							class="py-12 h-full bg-gradient-to-br from-surface dark:from-overlay via-base to-surface dark:to-base bg-[length:200%_200%] bg-left-top hover:bg-right-bottom shadow dark:shadow-none duration-200 transition-[background-position,box-shadow] ease-in-out rounded-2xl flex flex-col items-center focus:outline-none focus:ring focus:ring-highlight-high"
+							class="px-1 py-8 sm:py-12 h-full bg-gradient-to-br from-surface dark:from-overlay via-base to-surface dark:to-base bg-[length:200%_200%] bg-left-top hover:bg-right-bottom shadow dark:shadow-none duration-200 transition-[background-position,box-shadow] ease-in-out rounded-2xl flex flex-col items-center focus:outline-none focus:ring focus:ring-highlight-high"
 						>
 							<p
-								class="font-display font-semibold text-lg text-center tracking-wide"
+								class="font-display font-semibold text-md sm:text-lg text-center tracking-wide"
 							>
 								{theme.shortname || theme.name}
 							</p>
