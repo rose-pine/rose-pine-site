@@ -1,6 +1,6 @@
 <script>
 	import { _, locale } from 'svelte-i18n'
-	import { page } from '$app/stores'
+	import NavItem from '$lib/components/nav-item.svelte'
 
 	$: menu = [
 		[$_('navigation.themes'), '/themes'],
@@ -28,13 +28,9 @@
 
 		<nav class="cursor-default">
 			<ul class="space-x-3 flex items-center">
-				{#each menu as [name, href]}
+				{#each menu as [label, href]}
 					<li>
-						<a
-							{href}
-							class="px-2 py-1 text-sm sm:text-md text-subtle rounded-md hover:bg-highlight-low focus:outline-none focus:ring focus:ring-highlight-high"
-							class:active={$page.url.pathname === href}>{name}</a
-						>
+						<NavItem {href} {label} />
 					</li>
 				{/each}
 
@@ -62,9 +58,3 @@
 		</nav>
 	</div>
 </header>
-
-<style>
-	.active {
-		@apply text-text;
-	}
-</style>
