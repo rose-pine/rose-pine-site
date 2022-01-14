@@ -1,6 +1,9 @@
 <script>
-	import { _, locale } from 'svelte-i18n'
+	import { _ } from 'svelte-i18n'
 	import NavItem from '$lib/components/nav-item.svelte'
+	import LocaleSwitcher from './locale-switcher.svelte'
+
+	let open = false
 
 	$: menu = [
 		[$_('page.themes.nav'), '/themes'],
@@ -26,7 +29,8 @@
 			<h1 class="font-display font-bold text-lg">Rosé Pine</h1>
 		</a>
 
-		<nav class="cursor-default">
+		<!-- full navigation -->
+		<nav class="cursor-default hidden sm:block">
 			<ul class="space-x-3 flex items-center">
 				{#each menu as [label, href]}
 					<li>
@@ -35,26 +39,33 @@
 				{/each}
 
 				<li class="pl-1">
-					<div class="relative flex items-center">
-						<label for="languages" class="sr-only">
-							{$_('component.language.label')}
-						</label>
-						<select
-							id="languages"
-							bind:value={$locale}
-							class="pr-7 pl-2 py-1 leading-normal text-sm text-subtle bg-highlight-low rounded-md appearance-none focus:outline-none focus:ring focus:ring-highlight-high"
-						>
-							<option value={$locale}>{$_('component.language.label')}</option>
-							<!-- disable selected locale to ensure the selected shows "Languages" -->
-							<option value="en" disabled={$locale === 'en'}>English</option>
-							<option value="fr" disabled={$locale === 'fr'}>Française</option>
-							<option value="it" disabled={$locale === 'it'}>Italiana</option>
-						</select>
-						<span
-							aria-hidden="true"
-							class="mt-px mr-2 text-subtle border-t-[6px] border-t-muted border-x-4 border-x-transparent inline-block align-middle absolute right-0 z-10"
-						/>
-					</div>
+					<LocaleSwitcher />
+				</li>
+			</ul>
+		</nav>
+
+		<!-- small navigation -->
+		<nav
+			class="group cursor-default min-w-[64px] text-right block sm:hidden relative"
+		>
+			<button
+				on:click={() => (open = !open)}
+				class="px-2 py-1 text-sm sm:text-md text-subtle bg-highlight-low rounded-md hover:bg-highlight-med focus:outline-none focus:ring focus:ring-highlight-high"
+			>
+				Menu
+			</button>
+
+			<ul
+				class="p-2 min-w-[128px] space-y-1 text-left bg-surface rounded-md shadow hidden group-hover:block group-focus:block group-focus-within:block absolute z-50 right-0"
+			>
+				{#each menu as [label, href]}
+					<li class="flex items-center">
+						<NavItem {href} {label} />
+					</li>
+				{/each}
+
+				<li class="pt-1">
+					<LocaleSwitcher />
 				</li>
 			</ul>
 		</nav>
