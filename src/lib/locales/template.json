@@ -1,0 +1,59 @@
+{
+	"page": {
+		"home": {
+			"nav": "page.home.nav",
+			"title": "page.home.title",
+			"description": "page.home.description",
+			"primary-action": "page.home.primary.action",
+			"section": {
+				"feature": {
+					"subtle": {
+						"heading": "page.home.section.feature.subtle.heading",
+						"content": "page.home.section.feature.subtle.content"
+					},
+					"adaptive": {
+						"heading": "page.home.section.feature.adaptive.heading",
+						"content": "page.home.section.feature.adaptive.content"
+					},
+					"community": {
+						"heading": "page.home.section.feature.community.heading",
+						"content": "page.home.section.feature.community.content"
+					}
+				}
+			}
+		},
+		"themes": {
+			"nav": "page.themes.nav",
+			"title": "page.themes.title",
+			"description": "page.themes.description",
+			"stat": {
+				"ports": "page.themes.stats.ports",
+				"maintainers": "page.themes.stats.maintainers"
+			},
+			"search": {
+				"label": "page.themes.search.label",
+				"placeholder": "page.themes.search.placeholder"
+			},
+			"no-result": {
+				"heading": "page.themes.no-result.heading",
+				"content-prefix": "page.themes.no-result.content-prefix",
+				"content": "page.themes.no-result.content"
+			}
+		},
+		"palette": {
+			"nav": "page.palette.nav",
+			"title": "page.palette.title",
+			"description": "page.palette.description"
+		}
+	},
+	"component": {
+		"language": {
+			"label": "component.language.label"
+		},
+		"search": {
+			"label": "component.search.label",
+			"placeholder": "component.search.placeholder",
+			"focus-help": "component.search.focus-help"
+		}
+	}
+}

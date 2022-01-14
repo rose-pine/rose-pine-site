@@ -4,10 +4,12 @@
 	import en from '$lib/locales/en.json'
 	import fr from '$lib/locales/fr.json'
 	import it from '$lib/locales/it.json'
+	import template from '$lib/locales/template.json'
 
 	addMessages('en', en)
 	addMessages('fr', fr)
 	addMessages('it', it)
+	addMessages('template', template)
 
 	// get locale on client and server
 	// https://github.com/kaisermann/svelte-i18n/issues/166#issuecomment-1001009977
