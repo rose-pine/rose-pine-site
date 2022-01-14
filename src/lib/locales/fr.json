@@ -1,33 +1,32 @@
 {
-	"navigation": {
-		"themes": "Thèmes",
-		"palette": "Palette",
-		"languages": "Langues"
-	},
 	"page": {
 		"home": {
+			"nav": "Accueil",
 			"title": "Quelque chose de beau",
 			"description": "Pin naturel, fausse fourrure et un peu d'ambiance soho pour le minimaliste chic",
-			"cta": "Découvrir",
-			"feature": {
-				"subtle": {
-					"title": "Esthétique subtile",
-					"description": "Offrez à vos yeux une pause bien méritée avec notre palette douce et confortable"
-				},
-				"adaptive": {
-					"title": "Humeurs adaptatives",
-					"description": "Profitez de variantes adaptées à chaque heure de votre journée"
-				},
-				"community": {
-					"title": "Animé par la communauté",
-					"description": "Vous avez contribué à apporter Rosé Pine à plus de {number} de vos applications préférées"
+			"primary-action": "Découvrir",
+			"section": {
+				"feature": {
+					"subtle": {
+						"heading": "Esthétique subtile",
+						"content": "Offrez à vos yeux une pause bien méritée avec notre palette douce et confortable"
+					},
+					"adaptive": {
+						"heading": "Humeurs adaptatives",
+						"content": "Profitez de variantes adaptées à chaque heure de votre journée"
+					},
+					"community": {
+						"heading": "Animé par la communauté",
+						"content": "Vous avez contribué à apporter Rosé Pine à plus de {number} de vos applications préférées"
+					}
 				}
 			}
 		},
 		"themes": {
+			"nav": "Thèmes",
 			"title": "Thèmes",
 			"description": "Collection artisanale d'ambiances soho",
-			"stats": {
+			"stat": {
 				"ports": "{number} Ports",
 				"maintainers": "{number} Mainteneurs"
 			},
@@ -35,15 +34,25 @@
 				"label": "Chercher thèmes",
 				"placeholder": "Chercher {number} thèmes"
 			},
-			"no-match": {
-				"title": "Aucun résultat",
-				"action": "Apporter quelque chose de nouveau",
-				"message": "ou essayez une nouvelle recherche"
+			"no-result": {
+				"heading": "Aucun résultat",
+				"content-prefix": "Apporter quelque chose de nouveau",
+				"content": "ou essayez une nouvelle recherche"
 			}
+		},
+		"palette": {
+			"nav": "Palette",
+			"title": "Palette",
+			"description": "Couleurs limitées, créations infinies"
 		}
 	},
 	"component": {
+		"language": {
+			"label": "Langues"
+		},
 		"search": {
+			"label": "Chercher",
+			"placeholder": "Chercher...",
 			"focus-help": "(Presse \"/\" se concentrer)"
 		}
 	}

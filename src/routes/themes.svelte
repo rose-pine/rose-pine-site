@@ -64,7 +64,7 @@
 						<span
 							class="text-sm font-medium bg-clip-text text-transparent bg-gradient-to-r from-rose to-iris"
 						>
-							{$_('page.themes.stats.ports', {
+							{$_('page.themes.stat.ports', {
 								values: { number: themes.length },
 							})}
 						</span>
@@ -81,7 +81,7 @@
 						<span
 							class="text-sm font-medium bg-clip-text text-transparent bg-gradient-to-r from-iris to-foam"
 						>
-							{$_('page.themes.stats.maintainers', {
+							{$_('page.themes.stat.maintainers', {
 								values: { number: maintainers.length },
 							})}
 						</span>
@@ -112,14 +112,14 @@
 			<div
 				class="mx-auto py-12 w-full max-w-lg h-full col-span-full bg-gradient-to-br from-surface dark:from-overlay via-base to-surface dark:to-base bg-[length:200%_200%] bg-left-top hover:bg-right-bottom shadow dark:shadow-none duration-200 transition-all ease-in-out rounded-2xl flex flex-col items-center"
 			>
-				<p class="font-display">{$_('page.themes.no-match.title')}</p>
+				<p class="font-display">{$_('page.themes.no-result.heading')}</p>
 				<p class="mt-4 text-sm font-medium">
 					<a
 						href="#!"
 						class="text-iris underline underline-offset-4 decoration-wavy decoration-subtle rounded focus:outline-none focus:ring focus:ring-highlight-high"
-						>{$_('page.themes.no-match.action')}</a
+						>{$_('page.themes.no-result.content-prefix')}</a
 					>
-					{$_('page.themes.no-match.message')}
+					{$_('page.themes.no-result.content')}
 				</p>
 			</div>
 		{:else}

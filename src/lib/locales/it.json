@@ -1,33 +1,32 @@
 {
-	"navigation": {
-		"themes": "Temi",
-		"palette": "Tavolozza",
-		"languages": "Lingue"
-	},
 	"page": {
 		"home": {
+			"nav": "Casa",
 			"title": "Qualcosa di bello",
 			"description": "Tutto pino naturale, pelliccia sintetica e un po' di vibrazioni soho per il minimalista di classe",
-			"cta": "Scoprire",
-			"feature": {
-				"subtle": {
-					"title": "Estetica sottile",
-					"description": "Dai ai tuoi occhi una meritata pausa con la nostra palette morbida e confortevole"
-				},
-				"adaptive": {
-					"title": "Stati d'animo adattivi",
-					"description": "Goditi le varianti su misura per ogni ora della tua giornata"
-				},
-				"community": {
-					"title": "Guidato dalla comunità",
-					"description": "Hai contribuito a portare Rosé Pine su oltre {number} delle tue app preferite"
+			"primary-action": "Scoprire",
+			"section": {
+				"feature": {
+					"subtle": {
+						"heading": "Estetica sottile",
+						"content": "Dai ai tuoi occhi una meritata pausa con la nostra palette morbida e confortevole"
+					},
+					"adaptive": {
+						"heading": "Stati d'animo adattivi",
+						"content": "Goditi le varianti su misura per ogni ora della tua giornata"
+					},
+					"community": {
+						"heading": "Guidato dalla comunità",
+						"content": "Hai contribuito a portare Rosé Pine su oltre {number} delle tue app preferite"
+					}
 				}
 			}
 		},
 		"themes": {
+			"nav": "Temi",
 			"title": "Temi",
 			"description": "Collezione artigianale di vibrazioni soho",
-			"stats": {
+			"stat": {
 				"ports": "{number} Porti",
 				"maintainers": "{number} Manutentrici"
 			},
@@ -35,15 +34,25 @@
 				"label": "Ricerca temi",
 				"placeholder": "Ricerca {number} temi"
 			},
-			"no-match": {
-				"title": "Nessun risultato trovato",
-				"action": "Contribuire con qualcosa di nuovo",
-				"message": "o prova una nuova ricerca"
+			"no-result": {
+				"heading": "Nessun risultato trovato",
+				"content-prefix": "Contribuire con qualcosa di nuovo",
+				"content": "o prova una nuova ricerca"
 			}
+		},
+		"palette": {
+			"nav": "Tavolozza",
+			"title": "Tavolozza",
+			"description": "Colori limitati, creazioni infinite"
 		}
 	},
 	"component": {
+		"language": {
+			"label": "Lingue"
+		},
 		"search": {
+			"label": "Ricerca",
+			"placeholder": "Ricerca...",
 			"focus-help": "(Premere \"/\" focalizzare)"
 		}
 	}

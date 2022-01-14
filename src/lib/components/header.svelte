@@ -3,8 +3,8 @@
 	import NavItem from '$lib/components/nav-item.svelte'
 
 	$: menu = [
-		[$_('navigation.themes'), '/themes'],
-		[$_('navigation.palette'), '/palette'],
+		[$_('page.themes.nav'), '/themes'],
+		[$_('page.palette.nav'), '/palette'],
 	]
 </script>
 
@@ -36,13 +36,15 @@
 
 				<li class="pl-1">
 					<div class="relative flex items-center">
-						<label for="languages" class="sr-only">Languages</label>
+						<label for="languages" class="sr-only">
+							{$_('component.language.label')}
+						</label>
 						<select
 							id="languages"
 							bind:value={$locale}
 							class="pr-7 pl-2 py-1 leading-normal text-sm text-subtle bg-highlight-low rounded-md appearance-none focus:outline-none focus:ring focus:ring-highlight-high"
 						>
-							<option value={$locale}>{$_('navigation.languages')}</option>
+							<option value={$locale}>{$_('component.language.label')}</option>
 							<!-- disable selected locale to ensure the selected shows "Languages" -->
 							<option value="en" disabled={$locale === 'en'}>English</option>
 							<option value="fr" disabled={$locale === 'fr'}>Française</option>

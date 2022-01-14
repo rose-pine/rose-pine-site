@@ -1,33 +1,32 @@
 {
-	"navigation": {
-		"themes": "Themes",
-		"palette": "Palette",
-		"languages": "Languages"
-	},
 	"page": {
 		"home": {
+			"nav": "Home",
 			"title": "Something beautiful",
 			"description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist",
-			"cta": "Discover",
-			"feature": {
-				"subtle": {
-					"title": "Subtle aesthetics",
-					"description": "Give your eyes a well-deserved break with our soft, comfy palette"
-				},
-				"adaptive": {
-					"title": "Adaptive moods",
-					"description": "Enjoy variants tailored for every hour of your day"
-				},
-				"community": {
-					"title": "Community driven",
-					"description": "You helped bring Rosé Pine to over {number} of your favourite apps"
+			"primary-action": "Discover",
+			"section": {
+				"feature": {
+					"subtle": {
+						"heading": "Subtle aesthetics",
+						"content": "Give your eyes a well-deserved break with our soft, comfy palette"
+					},
+					"adaptive": {
+						"heading": "Adaptive moods",
+						"content": "Enjoy variants tailored for every hour of your day"
+					},
+					"community": {
+						"heading": "Community driven",
+						"content": "You helped bring Rosé Pine to over {number} of your favourite apps"
+					}
 				}
 			}
 		},
 		"themes": {
+			"nav": "Themes",
 			"title": "Themes",
 			"description": "Hand-crafted collection of soho vibes",
-			"stats": {
+			"stat": {
 				"ports": "{number} Ports",
 				"maintainers": "{number} Maintainers"
 			},
@@ -35,15 +34,25 @@
 				"label": "Search themes",
 				"placeholder": "Search {number} themes"
 			},
-			"no-match": {
-				"title": "No matches found",
-				"action": "Contribute something new",
-				"message": "or try a new search"
+			"no-result": {
+				"heading": "No matches found",
+				"content-prefix": "Contribute something new",
+				"content": "or try a new search"
 			}
+		},
+		"palette": {
+			"nav": "Palette",
+			"title": "Palette",
+			"description": "Limited colours, endless creations"
 		}
 	},
 	"component": {
+		"language": {
+			"label": "Languages"
+		},
 		"search": {
+			"label": "Search",
+			"placeholder": "Search...",
 			"focus-help": "(Press \"/\" to focus)"
 		}
 	}

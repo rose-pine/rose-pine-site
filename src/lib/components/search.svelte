@@ -3,8 +3,8 @@
 	import { SearchIcon } from '$lib/components/icons'
 
 	export let search = ''
-	export let label = 'Search'
-	export let placeholder = ''
+	export let label = $_('component.search.label')
+	export let placeholder = $_('component.search.placeholder')
 	let element
 </script>
 
