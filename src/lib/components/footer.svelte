@@ -2,7 +2,7 @@
 	import { GithubIcon, TwitterIcon } from './icons'
 </script>
 
-<footer class="mx-auto w-full max-w-6xl">
+<footer class="mx-auto w-full max-w-content">
 	<div
 		class="px-6 md:px-10 space-x-6 h-32 bg-base flex items-center justify-between"
 	>

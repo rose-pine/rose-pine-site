@@ -4,7 +4,7 @@
 </script>
 
 <section {id} class="py-20 w-full" style:background-color={backgroundColor}>
-	<div class="mx-auto px-6 md:px-10 w-full max-w-6xl">
+	<div class="mx-auto px-6 md:px-10 w-full max-w-content">
 		<slot />
 	</div>
 </section>

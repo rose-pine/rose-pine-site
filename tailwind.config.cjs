@@ -4,6 +4,9 @@ module.exports = {
 	content: ['./src/**/*.svelte', './src/**/*.html'],
 	theme: {
 		extend: {
+			maxWidth: {
+				content: '72rem',
+			},
 			fontSize: {
 				md: '15px',
 			},

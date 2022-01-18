@@ -11,7 +11,7 @@
 	]
 </script>
 
-<header class="mx-auto w-full max-w-6xl">
+<header class="mx-auto w-full max-w-content">
 	<div
 		class="px-6 md:px-10 space-x-6 h-16 bg-base flex items-center justify-between"
 	>
