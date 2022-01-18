@@ -12,7 +12,7 @@ module.exports = {
 			},
 			fontFamily: {
 				sans: ['Inter', ...fontFamily.sans],
-				display: ['Pier Sans', 'Inter', ...fontFamily.sans],
+				display: ['"Pier Sans"', 'Inter', ...fontFamily.sans],
 			},
 			colors: {
 				base: 'var(--base)',
