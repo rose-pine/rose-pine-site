@@ -183,7 +183,7 @@
 	},
 	{
 		"name": "st",
-		"repo": "",
+		"repo": "https://github.com/rose-pine/st",
 		"maintainers": [
 			{ "name": "Miguel R. Ávila", "url": "https://github.com/MiguelRAvila" }
 		],
@@ -527,6 +527,32 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": ["app"]
+		"keywords": ["app", "mobile"]
+	},
+	{
+		"name": "Helix",
+		"repo": "https://github.com/rose-pine/helix",
+		"maintainers": [
+			{
+				"name": "Ray Gervais",
+				"url": "https://github.com/raygervais"
+			},
+			{
+				"name": "Chris Ha",
+				"url": "https://github.com/chunghh"
+			}
+		],
+		"keywords": ["editor"]
+	},
+	{
+		"name": "WriteFreely",
+		"repo": "https://github.com/rose-pine/writefreely",
+		"maintainers": [
+			{
+				"name": "ThatOneCalculator",
+				"url": "https://github.com/thatonecalculator"
+			}
+		],
+		"keywords": ["web"]
 	}
 ]
