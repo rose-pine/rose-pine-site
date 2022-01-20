@@ -94,7 +94,7 @@
 									{/if}
 								</button>
 							</td>
-							<td class="pl-6 font-mono text-sm text-right">
+							<td class="pl-6 pr-2 font-mono text-sm text-right">
 								<button on:click={() => copy([variant, role], color.hsl)}>
 									{#if copied[0] === variant && copied[1] === role && copied[2] === color.hsl}
 										<span class="text-rose">copied</span>
