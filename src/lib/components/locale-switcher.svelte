@@ -15,8 +15,8 @@
 		<option value={$locale}>{$_('component.language.label')}</option>
 		<!-- disable selected locale to ensure the selected shows "Languages" -->
 		<option value="en" disabled={$locale === 'en'}>English</option>
-		<option value="fr" disabled={$locale === 'fr'}>Française</option>
-		<option value="it" disabled={$locale === 'it'}>Italiana</option>
+		<option value="fr" disabled={$locale === 'fr'}>Français</option>
+		<option value="it" disabled={$locale === 'it'}>Italiano</option>
 	</select>
 
 	<span
