@@ -131,6 +131,8 @@
 				>
 					<li class="h-full">
 						<a
+							rel="external"
+							target="_blank"
 							href={theme.repo}
 							class="px-1 py-8 sm:py-12 h-full bg-gradient-to-br from-surface dark:from-overlay via-base to-surface dark:to-base bg-[length:200%_200%] bg-left-top hover:bg-right-bottom shadow dark:shadow-none duration-200 transition-[background-position,box-shadow] ease-in-out rounded-2xl flex flex-col items-center focus:outline-none focus:ring focus:ring-highlight-high"
 						>
