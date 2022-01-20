@@ -70,13 +70,6 @@
 		"variants": true
 	},
 	{
-		"name": "Kakoune",
-		"repo": "https://gitea.nulo.in/Nulo/rose-pine.kak",
-		"maintainers": [{ "name": "Nulo", "url": "https://nulo.in" }],
-		"keywords": ["editor"],
-		"variants": true
-	},
-	{
 		"name": "Neovim",
 		"repo": "https://github.com/rose-pine/neovim",
 		"maintainers": [{ "name": "mvllow", "url": "https://github.com/mvllow" }],
