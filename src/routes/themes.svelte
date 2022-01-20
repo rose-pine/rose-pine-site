@@ -110,12 +110,14 @@
 	>
 		{#if filteredThemes.length < 1}
 			<li
-				class="mx-auto py-8 sm:py-12 w-full max-w-lg h-full col-span-full bg-gradient-to-br from-surface dark:from-overlay via-base to-surface dark:to-base bg-[length:200%_200%] bg-left-top hover:bg-right-bottom shadow dark:shadow-none duration-200 transition-all ease-in-out rounded-2xl flex flex-col items-center"
+				class="mx-auto py-8 sm:py-12 w-full max-w-lg h-full col-span-full bg-gradient-to-br from-surface dark:from-overlay via-base to-surface dark:to-base bg-[length:200%_200%] bg-left-top shadow dark:shadow-none duration-200 transition-all ease-in-out rounded-2xl flex flex-col items-center"
 			>
 				<p class="font-display">{$_('page.themes.no-result.heading')}</p>
 				<p class="mt-4 text-sm font-medium">
 					<a
-						href="#!"
+						rel="external"
+						target="_blank"
+						href="https://github.com/rose-pine/.github/blob/main/contributing.md"
 						class="text-iris underline underline-offset-4 decoration-wavy decoration-subtle rounded focus:outline-none focus:ring focus:ring-highlight-high"
 						>{$_('page.themes.no-result.content-prefix')}</a
 					>
