@@ -43,7 +43,11 @@
 		"palette": {
 			"nav": "Tavolozza",
 			"title": "Tavolozza",
-			"description": "Colori limitati, creazioni infinite"
+			"description": "Colori curati, creazioni infinite",
+			"switch": {
+				"swatches": "Campioni",
+				"ingredients": "Ingredienti"
+			}
 		}
 	},
 	"component": {

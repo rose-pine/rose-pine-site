@@ -10,7 +10,7 @@ const config = {
 		target: '#svelte',
 		vite: {
 			ssr: {
-				noExternal: ['has-match'],
+				noExternal: ['has-match', '@rose-pine/palette'],
 			},
 		},
 	},

@@ -74,8 +74,11 @@
 		--foam: #56949f;
 		--iris: #907aa9;
 		--highlight-low: rgba(110, 106, 134, 0.05);
+		--highlight-low-blend: rgb(244, 237, 232);
 		--highlight-med: rgba(110, 106, 134, 0.08);
+		--highlight-med-blend: rgb(223, 218, 217);
 		--highlight-high: rgba(110, 106, 134, 0.15);
+		--highlight-high-blend: rgb(206, 202, 205);
 	}
 
 	@media (prefers-color-scheme: dark) {
@@ -93,8 +96,11 @@
 			--foam: #9ccfd8;
 			--iris: #c4a7e7;
 			--highlight-low: rgba(110, 106, 134, 0.1);
+			--highlight-low-blend: rgb(33, 32, 46);
 			--highlight-med: rgba(110, 106, 134, 0.2);
+			--highlight-med-blend: rgb(64, 61, 82);
 			--highlight-high: rgba(110, 106, 134, 0.4);
+			--highlight-high-blend: rgb(82, 79, 103);
 		}
 	}
 

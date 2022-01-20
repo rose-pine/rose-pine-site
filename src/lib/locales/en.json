@@ -43,7 +43,11 @@
 		"palette": {
 			"nav": "Palette",
 			"title": "Palette",
-			"description": "Limited colours, endless creations"
+			"description": "Curated colours, endless creations",
+			"switch": {
+				"swatches": "Swatches",
+				"ingredients": "Ingredients"
+			}
 		}
 	},
 	"component": {

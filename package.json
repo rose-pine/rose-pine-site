@@ -11,20 +11,21 @@
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
 	},
 	"dependencies": {
+		"@rose-pine/palette": "^2.0.0-6",
 		"has-match": "^1.0.3",
 		"svelte-i18n": "^3.3.13"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^1.0.0-next.10",
+		"@sveltejs/adapter-auto": "^1.0.0-next.11",
 		"@sveltejs/kit": "next",
 		"autoprefixer": "^10.4.2",
 		"postcss": "^8.4.5",
 		"prettier": "^2.5.1",
-		"prettier-plugin-svelte": "^2.5.1",
-		"svelte": "^3.46.0",
-		"svelte-check": "^2.2.12",
-		"svelte-preprocess": "^4.10.1",
-		"tailwindcss": "^3.0.13",
+		"prettier-plugin-svelte": "^2.6.0",
+		"svelte": "^3.46.2",
+		"svelte-check": "^2.3.0",
+		"svelte-preprocess": "^4.10.2",
+		"tailwindcss": "^3.0.15",
 		"tslib": "^2.3.1",
 		"typescript": "^4.5.4"
 	},

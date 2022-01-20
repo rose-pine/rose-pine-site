@@ -29,8 +29,11 @@ module.exports = {
 				iris: 'var(--iris)',
 				highlight: {
 					low: 'var(--highlight-low)',
+					'low-blend': 'var(--highlight-low-blend)',
 					med: 'var(--highlight-med)',
+					'med-blend': 'var(--highlight-med-blend)',
 					high: 'var(--highlight-high)',
+					'high-blend': 'var(--highlight-high-blend)',
 				},
 			},
 			boxShadow: {

@@ -43,7 +43,11 @@
 		"palette": {
 			"nav": "page.palette.nav",
 			"title": "page.palette.title",
-			"description": "page.palette.description"
+			"description": "page.palette.description",
+			"switch": {
+				"swatches": "page.palette.switch.swatches",
+				"ingredients": "page.palette.switch.ingredients"
+			}
 		}
 	},
 	"component": {
