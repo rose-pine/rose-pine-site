@@ -547,5 +547,17 @@
 			}
 		],
 		"keywords": ["web"]
+	},
+	{
+		"name": "YouTube",
+		"repo": "https://github.com/artilate/youtube",
+		"maintainers": [
+			{
+				"name": "artilate",
+				"url": "https://github.com/artilate"
+			}
+		],
+		"keywords": ["web"],
+		"variants": true
 	}
 ]
