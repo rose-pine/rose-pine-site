@@ -5,14 +5,16 @@
 	const variants = Object.keys(palette.variants)
 	const roles = Object.keys(palette.roles)
 
-	let copied = ['', '']
+	let copiedItem = ''
+	let timeout = setTimeout
 
-	function copy(point: [string, string], thing: string) {
+	function copy(item, itemId) {
 		if (browser) {
-			navigator.clipboard.writeText(thing).then(() => (copied = point))
+			navigator.clipboard.writeText(item).then(() => (copiedItem = itemId))
 
-			setTimeout(() => {
-				copied = ['', '']
+			clearTimeout(timeout)
+			timeout = setTimeout(() => {
+				copiedItem = ''
 			}, 600)
 		}
 	}
@@ -47,23 +49,20 @@
 						: role}
 
 				<button
-					on:click={() => copy([variant, role], color.hex)}
+					on:click={() => copy(color.hex, `${variant}.${role}.hex`)}
 					class="h-full bg-gradient-to-br from-surface dark:from-overlay via-base to-surface dark:to-base bg-[length:200%_200%] bg-left-top hover:bg-right-bottom shadow dark:shadow-none duration-200 transition-[background-position,box-shadow] ease-in-out rounded-2xl flex flex-col items-center focus:outline-none focus:ring focus:ring-highlight-high"
 				>
 					<div class="w-full h-10 rounded-t-2xl" style:background={color.hex} />
 					<p
 						class="px-2 py-6 font-display font-semibold text-sm md:text-md text-center tracking-wide"
 					>
-						{#if copied[0] === variant && copied[1] === role}
+						{#if copiedItem === `${variant}.${role}.hex`}
 							<span class="text-rose">copied</span>
 						{:else}
 							<span>{colorName}</span>
 						{/if}
 					</p>
 				</button>
-
-				<!-- <span class="font-medium text-md tracking-wide">{role}</span> -->
-				<!-- {current.hex} -->
 			{/each}
 		</div>
 	</div>
