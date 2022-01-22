@@ -5,16 +5,16 @@
 	const variants = Object.keys(palette.variants)
 	const roles = Object.keys(palette.roles)
 
-	let copied = ['', '', '']
+	let copiedItem = ''
+	let copiedTimeout = setTimeout
 
-	function copy(point: [string, string], thing: string) {
+	function copy(item, itemId) {
 		if (browser) {
-			navigator.clipboard
-				.writeText(thing)
-				.then(() => (copied = [...point, thing]))
+			navigator.clipboard.writeText(item).then(() => (copiedItem = itemId))
 
-			setTimeout(() => {
-				copied = ['', '', '']
+			clearTimeout(copiedTimeout)
+			copiedTimeout = setTimeout(() => {
+				copiedItem = ''
 			}, 600)
 		}
 	}
@@ -77,8 +77,10 @@
 								</div>
 							</td>
 							<td class="pl-6 font-mono text-sm text-right">
-								<button on:click={() => copy([variant, role], color.hex)}>
-									{#if copied[0] === variant && copied[1] === role && copied[2] === color.hex}
+								<button
+									on:click={() => copy(color.hex, `${variant}.${role}.hex`)}
+								>
+									{#if copiedItem === `${variant}.${role}.hex`}
 										<span class="text-rose">copied</span>
 									{:else}
 										<span>{color.hex}</span>
@@ -86,8 +88,10 @@
 								</button>
 							</td>
 							<td class="pl-6 font-mono text-sm text-right">
-								<button on:click={() => copy([variant, role], color.rgb)}>
-									{#if copied[0] === variant && copied[1] === role && copied[2] === color.rgb}
+								<button
+									on:click={() => copy(color.rgb, `${variant}.${role}.rgb`)}
+								>
+									{#if copiedItem === `${variant}.${role}.rgb`}
 										<span class="text-rose">copied</span>
 									{:else}
 										<span>{color.rgb}</span>
@@ -95,8 +99,10 @@
 								</button>
 							</td>
 							<td class="pl-6 pr-2 font-mono text-sm text-right">
-								<button on:click={() => copy([variant, role], color.hsl)}>
-									{#if copied[0] === variant && copied[1] === role && copied[2] === color.hsl}
+								<button
+									on:click={() => copy(color.hsl, `${variant}.${role}.hsl`)}
+								>
+									{#if copiedItem === `${variant}.${role}.hsl`}
 										<span class="text-rose">copied</span>
 									{:else}
 										<span>{color.hsl}</span>
