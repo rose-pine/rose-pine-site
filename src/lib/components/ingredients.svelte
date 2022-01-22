@@ -6,14 +6,14 @@
 	const roles = Object.keys(palette.roles)
 
 	let copiedItem = ''
-	let timeout = setTimeout
+	let copiedTimeout = setTimeout
 
 	function copy(item, itemId) {
 		if (browser) {
 			navigator.clipboard.writeText(item).then(() => (copiedItem = itemId))
 
-			clearTimeout(timeout)
-			timeout = setTimeout(() => {
+			clearTimeout(copiedTimeout)
+			copiedTimeout = setTimeout(() => {
 				copiedItem = ''
 			}, 600)
 		}
