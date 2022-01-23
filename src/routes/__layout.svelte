@@ -16,7 +16,7 @@
 	if (browser) {
 		// init on client side only
 		init({
-			fallbackLocale: 'en',
+			fallbackLocale: localStorage.getItem('locale') || 'en',
 			initialLocale: getLocaleFromQueryString('lang'),
 		})
 	} else {
