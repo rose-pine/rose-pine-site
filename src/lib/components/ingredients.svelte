@@ -29,8 +29,8 @@
 			: 'Rosé Pine'}
 
 	<div class="py-20">
-		<div class="py-6 bg-surface rounded-md">
-			<div class="pb-6 px-6">
+		<div class="p-6 bg-surface rounded-md">
+			<div class="pb-6">
 				<h4
 					id="{variant}-ingredients"
 					class="leading-none font-display font-semibold text-lg tracking-wide max-w-full"
