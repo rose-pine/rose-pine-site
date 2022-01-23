@@ -1,5 +1,12 @@
 <script>
 	import { _, locale } from 'svelte-i18n'
+	import { browser } from '$app/env'
+
+	$: {
+		if (browser) {
+			localStorage.setItem('locale', $locale)
+		}
+	}
 </script>
 
 <div class="relative flex items-center">
@@ -13,7 +20,7 @@
 		class="pr-7 pl-2 py-1 w-full leading-normal text-sm text-subtle bg-highlight-low rounded-md appearance-none focus:outline-none focus:ring focus:ring-highlight-high"
 	>
 		<option value={$locale}>{$_('component.language.label')}</option>
-		<!-- disable selected locale to ensure the selected shows "Languages" -->
+		<!-- disable selected locale to ensure element displays "Languages" -->
 		<option value="en" disabled={$locale === 'en'}>English</option>
 		<option value="fr" disabled={$locale === 'fr'}>Français</option>
 		<option value="it" disabled={$locale === 'it'}>Italiano</option>
