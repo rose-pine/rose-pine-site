@@ -559,5 +559,17 @@
 		],
 		"keywords": ["web"],
 		"variants": true
+	},
+	{
+		"name": "Misskey",
+		"repo": "https://github.com/rose-pine/misskey",
+		"maintainers": [
+			{
+				"name": "ThatOneCalculator",
+				"url": "https://github.com/thatonecalculator"
+			}
+		],
+		"keywords": ["web"],
+		"variants": true
 	}
 ]
