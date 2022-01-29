@@ -22,7 +22,7 @@
 				to="opacity-1 translate-y-0"
 			>
 				<h2 class="font-display text-5xl lg:text-8xl">
-					{$_('page.home.title')}
+					{@html $_('page.home.title')}
 				</h2>
 			</Transition>
 
