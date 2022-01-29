@@ -24,6 +24,7 @@
 		<option value="en" disabled={$locale === 'en'}>English</option>
 		<option value="fr" disabled={$locale === 'fr'}>Français</option>
 		<option value="it" disabled={$locale === 'it'}>Italiano</option>
+		<option value="de" disabled={$locale === 'de'}>Deutsch</option>
 	</select>
 
 	<span
