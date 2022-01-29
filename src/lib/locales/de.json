@@ -1,0 +1,63 @@
+{
+	"page": {
+		"home": {
+			"nav": "Start",
+			"title": "Etwas Wunderschönes",
+			"description": "Natürliche Kiefer, Kunstpelz und ein ein paar Soho Vibes für den stilvollen Minimalisten",
+			"primary-action": "Entdecke mehr",
+			"section": {
+				"feature": {
+					"subtle": {
+						"heading": "Subtile Ästhetik",
+						"content": "Erlaube deinen Augen eine wohlverdiente Pause mit unserer sanften und komfortablen Farbpalette"
+					},
+					"adaptive": {
+						"heading": "Verschiedene Stimmungen",
+						"content": "Genieße Variationen passend zu jeder Stunde des Tages"
+					},
+					"community": {
+						"heading": "Realisiert von Euch",
+						"content": "Ihr habt geholfen Rosé Pine für über {number} Apps herauszubringen"
+					}
+				}
+			}
+		},
+		"themes": {
+			"nav": "Themes",
+			"title": "Themes",
+			"description": "Eine mit Liebe gestaltete Sammlung voller Soho Vibes",
+			"stat": {
+				"ports": "{number} Portierungen",
+				"maintainers": "{number} Unterstützer"
+			},
+			"search": {
+				"label": "Suche Themes",
+				"placeholder": "Suche aus {number} Themes"
+			},
+			"no-result": {
+				"heading": "Keine Ergebnisse gefunden",
+				"content-prefix": "Erstelle selbst etwas",
+				"content": "oder versuche einen anderen Suchbegriff"
+			}
+		},
+		"palette": {
+			"nav": "Palette",
+			"title": "Palette",
+			"description": "Ausgewählte Farben, endlose Kreationsmöglichkeiten",
+			"switch": {
+				"swatches": "Farben",
+				"ingredients": "Zusammensetzung"
+			}
+		}
+	},
+	"component": {
+		"language": {
+			"label": "Sprachen"
+		},
+		"search": {
+			"label": "Suche",
+			"placeholder": "Suche...",
+			"focus-help": "(Drücke \"/\" zum fokussieren)"
+		}
+	}
+}
