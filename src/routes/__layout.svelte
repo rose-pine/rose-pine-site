@@ -10,7 +10,7 @@
 	addMessages('en', en)
 	addMessages('fr', fr)
 	addMessages('it', it)
-  addMessages('de', de)
+	addMessages('de', de)
 	addMessages('template', template)
 
 	// get locale on client and server
