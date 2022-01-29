@@ -4,7 +4,7 @@
 	import en from '$lib/locales/en.json'
 	import fr from '$lib/locales/fr.json'
 	import it from '$lib/locales/it.json'
-  import de from '$lib/locales/de.json'
+	import de from '$lib/locales/de.json'
 	import template from '$lib/locales/template.json'
 
 	addMessages('en', en)
