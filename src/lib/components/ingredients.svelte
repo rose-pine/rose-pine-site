@@ -81,7 +81,7 @@
 					{variantName}
 				</h4>
 
-				<div class="relative flex items-center pl-1">
+				<div class="pl-1 relative flex items-center">
 					<label for="color-format" class="sr-only">
 						{$_('component.ingredients.format-select.label')}
 					</label>
