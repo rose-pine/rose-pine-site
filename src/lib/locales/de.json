@@ -58,6 +58,16 @@
 			"label": "Suche",
 			"placeholder": "Suche...",
 			"focus-help": "(Drücke \"/\" zum fokussieren)"
+		},
+		"ingredients": {
+			"format-select": {
+				"label": "Farbformat",
+				"options": {
+					"format": "Format",
+					"default": "Default",
+					"unstyled": "Ungestylt"
+				}
+			}
 		}
 	}
 }

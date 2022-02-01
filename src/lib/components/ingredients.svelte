@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { _ } from 'svelte-i18n'
 	import palette from '@rose-pine/palette'
 	import { browser } from '$app/env'
 
@@ -82,7 +83,7 @@
 
 				<div class="relative flex items-center pl-1">
 					<label for="color-format" class="sr-only">
-						<!-- {$_('component.language.label')} -->
+						{$_('component.ingredients.format-select.label')}
 					</label>
 
 					<select
@@ -90,13 +91,15 @@
 						bind:value={colorFormat}
 						class="pr-7 pl-2 py-1 w-full leading-normal text-sm text-subtle bg-highlight-low rounded-md appearance-none focus:outline-none focus:ring focus:ring-highlight-high"
 					>
-						<option value={colorFormat}>Format</option>
+						<option value={colorFormat}
+							>{$_('component.ingredients.format-select.options.format')}
+						</option>
 						<option value="default" disabled={colorFormat === 'default'}
-							>Default</option
-						>
+							>{$_('component.ingredients.format-select.options.default')}
+						</option>
 						<option value="unstyled" disabled={colorFormat === 'unstyled'}
-							>Unstyled</option
-						>
+							>{$_('component.ingredients.format-select.options.unstyled')}
+						</option>
 					</select>
 
 					<span

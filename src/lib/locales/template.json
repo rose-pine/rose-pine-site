@@ -58,6 +58,16 @@
 			"label": "component.search.label",
 			"placeholder": "component.search.placeholder",
 			"focus-help": "component.search.focus-help"
+		},
+		"ingredients": {
+			"format-select": {
+				"label": "component.ingredients.format-select.label",
+				"options": {
+					"format": "component.ingredients.format-select.options.format",
+					"default": "component.ingredients.format-select.options.default",
+					"unstyled": "component.ingredients.format-select.options.unstyled"
+				}
+			}
 		}
 	}
 }
