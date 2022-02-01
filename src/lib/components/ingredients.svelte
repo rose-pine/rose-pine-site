@@ -17,12 +17,12 @@
 		}
 	}
 
-	const formats = ['default', 'unstyled']
-	type Formats = 'default' | 'unstyled'
-	let colorFormat: Formats = 'default'
+	const formats = ['default', 'unstyled'] as const
+	type Format = typeof formats[number]
+	let colorFormat: Format = 'default'
 
 	if (browser) {
-		colorFormat = localStorage.getItem('color-format') || 'default'
+		colorFormat = (localStorage.getItem('color-format') as Format) || 'default'
 		if (!formats.includes(colorFormat)) {
 			colorFormat = 'default'
 		}
