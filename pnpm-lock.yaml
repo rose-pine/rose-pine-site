@@ -24,7 +24,7 @@ dependencies:
 
 devDependencies:
   '@sveltejs/adapter-static': 1.0.0-next.26
-  '@sveltejs/kit': 1.0.0-next.234_svelte@3.46.2
+  '@sveltejs/kit': 1.0.0-next.252_svelte@3.46.2
   autoprefixer: 10.4.2_postcss@8.4.5
   postcss: 8.4.5
   prettier: 2.5.1
@@ -133,8 +133,8 @@ packages:
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.234_svelte@3.46.2:
-    resolution: {integrity: sha512-vnXLkk4GakytCM+TxFVVXfvJaXq/vY6AWpaUAKr1ZsQD2LSKteoaBlca1qI7fCRwccaPSkI+DOc+bNdgGiBBSQ==}
+  /@sveltejs/kit/1.0.0-next.252_svelte@3.46.2:
+    resolution: {integrity: sha512-cUreghq9H4WZyqwR/whBP1w+IQbR/VYKCmOduBYykj1lSeVZrUIlX+usxpNTtOCmekP7RPGDhQHfYyb58FbD3g==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
