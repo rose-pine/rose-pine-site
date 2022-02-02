@@ -17,7 +17,7 @@
 	<select
 		id="languages"
 		bind:value={$locale}
-		class="pr-7 pl-2 py-1 w-full leading-normal text-sm text-subtle bg-highlight-low rounded-md appearance-none focus:outline-none focus:ring focus:ring-highlight-high"
+		class="w-full appearance-none rounded-md bg-highlight-low py-1 pr-7 pl-2 text-sm leading-normal text-subtle focus:outline-none focus:ring focus:ring-highlight-high"
 	>
 		<option value={$locale}>{$_('component.language.label')}</option>
 		<!-- disable selected locale to ensure element displays "Languages" -->
@@ -29,6 +29,6 @@
 
 	<span
 		aria-hidden="true"
-		class="mt-px mr-2 text-subtle border-t-[6px] border-t-muted border-x-4 border-x-transparent inline-block align-middle absolute right-0 z-10"
+		class="absolute right-0 z-10 mt-px mr-2 inline-block border-x-4 border-t-[6px] border-x-transparent border-t-muted align-middle text-subtle"
 	/>
 </div>

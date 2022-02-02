@@ -31,12 +31,12 @@
 	<div class="py-20">
 		<h4
 			id="{variant}-swatches"
-			class="pb-6 leading-none font-display font-semibold text-lg tracking-wide"
+			class="pb-6 font-display text-lg font-semibold leading-none tracking-wide"
 		>
 			{variantName}
 		</h4>
 
-		<div class="grid gap-4 sm:gap-6 grid-cols-3 md:grid-cols-6">
+		<div class="grid grid-cols-3 gap-4 sm:gap-6 md:grid-cols-6">
 			{#each roles as role}
 				{@const color = palette.variants[variant][role]}
 				{@const colorName =
@@ -50,11 +50,11 @@
 
 				<button
 					on:click={() => copy(color.hex, `${variant}.${role}.hex`)}
-					class="h-full bg-gradient-to-br from-surface dark:from-overlay via-base to-surface dark:to-base bg-[length:200%_200%] bg-left-top hover:bg-right-bottom shadow dark:shadow-none duration-200 transition-[background-position,box-shadow] ease-in-out rounded-2xl flex flex-col items-center focus:outline-none focus:ring focus:ring-highlight-high"
+					class="flex h-full flex-col items-center rounded-2xl bg-gradient-to-br from-surface via-base to-surface bg-[length:200%_200%] bg-left-top shadow transition-[background-position,box-shadow] duration-200 ease-in-out hover:bg-right-bottom focus:outline-none focus:ring focus:ring-highlight-high dark:from-overlay dark:to-base dark:shadow-none"
 				>
-					<div class="w-full h-10 rounded-t-2xl" style:background={color.hex} />
+					<div class="h-10 w-full rounded-t-2xl" style:background={color.hex} />
 					<p
-						class="px-2 py-6 font-display font-semibold text-sm md:text-md text-center tracking-wide"
+						class="px-2 py-6 text-center font-display text-sm font-semibold tracking-wide md:text-md"
 					>
 						{#if copiedItem === `${variant}.${role}.hex`}
 							<span class="text-rose">copied</span>

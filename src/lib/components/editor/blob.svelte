@@ -53,4 +53,4 @@
 	}
 </script>
 
-<div class="h-3.5 rounded-full shrink-0 {sizeMap[size]} {colorMap[color]}" />
+<div class="h-3.5 shrink-0 rounded-full {sizeMap[size]} {colorMap[color]}" />

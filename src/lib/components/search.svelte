@@ -9,7 +9,7 @@
 </script>
 
 <div
-	class="space-x-3 mt-12 lg:mt-0 w-full max-w-sm h-10 bg-surface border-2 border-transparent rounded-full shadow-none flex items-center transition-shadow overflow-hidden focus-within:border-highlight-med focus:shadow"
+	class="mt-12 flex h-10 w-full max-w-sm items-center space-x-3 overflow-hidden rounded-full border-2 border-transparent bg-surface shadow-none transition-shadow focus-within:border-highlight-med focus:shadow lg:mt-0"
 >
 	<label for="search" class="pl-3">
 		<span class="sr-only">{label}</span>
@@ -22,7 +22,7 @@
 		id="search"
 		placeholder={`${placeholder} ${$_('component.search.focus-help')}`}
 		bind:value={search}
-		class="w-full h-10 py-3 pr-3 text-sm text-text placeholder-muted font-medium bg-transparent selection:bg-highlight-high focus:outline-none"
+		class="h-10 w-full bg-transparent py-3 pr-3 text-sm font-medium text-text placeholder-muted selection:bg-highlight-high focus:outline-none"
 	/>
 </div>
 

@@ -13,11 +13,11 @@
 
 <header class="mx-auto w-full max-w-content">
 	<div
-		class="px-6 md:px-10 space-x-6 h-16 bg-base flex items-center justify-between"
+		class="flex h-16 items-center justify-between space-x-6 bg-base px-6 md:px-10"
 	>
 		<a
 			href="/"
-			class="-ml-2 px-2 py-1 rounded-md flex items-center shrink-0 hover:bg-highlight-low focus:outline-none focus:ring focus:ring-highlight-high"
+			class="-ml-2 flex shrink-0 items-center rounded-md px-2 py-1 hover:bg-highlight-low focus:outline-none focus:ring focus:ring-highlight-high"
 		>
 			<!-- prettier-ignore -->
 			<svg viewBox="0 0 198 188" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-3 w-4 h-4">
@@ -26,12 +26,12 @@
 				<path fill="var(--rose)" fill-rule="evenodd" clip-rule="evenodd" d="M116.172 22.0991C111.969 13.1397 105.096 5.32759 95.9178 0L83.9001 20.9265C83.5434 21.5477 83.2015 22.1733 82.8743 22.8031C70.8317 12.8076 54.2791 8.62488 38.0001 13.0102L51.0053 61.8058C55.7428 79.5809 69.4827 92.5279 86.0109 97.068L85.9999 97.1091C90.3717 98.2868 94.7632 98.8465 99.0818 98.8417C103.405 98.8478 107.802 98.2881 112.178 97.1091L112.167 97.0679C128.696 92.5279 142.435 79.5809 147.173 61.8058L160.178 13.0102C144.287 8.72929 128.135 12.6132 116.172 22.0991Z" />
 			</svg>
 
-			<h1 class="font-display font-bold text-lg">Rosé Pine</h1>
+			<h1 class="font-display text-lg font-bold">Rosé Pine</h1>
 		</a>
 
 		<!-- full navigation -->
-		<nav class="cursor-default hidden sm:block">
-			<ul class="space-x-3 flex items-center">
+		<nav class="hidden cursor-default sm:block">
+			<ul class="flex items-center space-x-3">
 				{#each menu as [label, href]}
 					<li>
 						<NavItem {href} {label} />
@@ -46,17 +46,17 @@
 
 		<!-- small navigation -->
 		<nav
-			class="group cursor-default min-w-[64px] text-right block sm:hidden relative"
+			class="group relative block min-w-[64px] cursor-default text-right sm:hidden"
 		>
 			<button
 				on:click={() => (open = !open)}
-				class="px-2 py-1 text-sm sm:text-md text-subtle bg-highlight-low rounded-md hover:bg-highlight-med focus:outline-none focus:ring focus:ring-highlight-high"
+				class="rounded-md bg-highlight-low px-2 py-1 text-sm text-subtle hover:bg-highlight-med focus:outline-none focus:ring focus:ring-highlight-high sm:text-md"
 			>
 				Menu
 			</button>
 
 			<ul
-				class="p-2 min-w-[128px] space-y-1 text-left bg-surface rounded-md shadow hidden group-hover:block group-focus:block group-focus-within:block absolute z-50 right-0"
+				class="absolute right-0 z-50 hidden min-w-[128px] space-y-1 rounded-md bg-surface p-2 text-left shadow group-focus-within:block group-hover:block group-focus:block"
 			>
 				{#each menu as [label, href]}
 					<li class="flex items-center">

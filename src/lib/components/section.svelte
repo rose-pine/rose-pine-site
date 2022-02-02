@@ -3,8 +3,8 @@
 	export let backgroundColor = undefined
 </script>
 
-<section {id} class="py-20 w-full" style:background-color={backgroundColor}>
-	<div class="mx-auto px-6 md:px-10 w-full max-w-content">
+<section {id} class="w-full py-20" style:background-color={backgroundColor}>
+	<div class="mx-auto w-full max-w-content px-6 md:px-10">
 		<slot />
 	</div>
 </section>

@@ -28,7 +28,7 @@
 
 <Section>
 	<div
-		class="text-center lg:text-left flex flex-col lg:flex-row items-center justify-between"
+		class="flex flex-col items-center justify-between text-center lg:flex-row lg:text-left"
 	>
 		<div class="shrink-0">
 			<Transition
@@ -36,7 +36,7 @@
 				from="opacity-0 translate-y-3"
 				to="opacity-1 translate-y-0"
 			>
-				<h2 class="font-display tracking-wide text-4xl">
+				<h2 class="font-display text-4xl tracking-wide">
 					{$_('page.themes.title')}
 				</h2>
 			</Transition>
@@ -52,17 +52,17 @@
 			</Transition>
 
 			<ul
-				class="mt-2 space-x-3 select-none cursor-default flex items-center justify-center lg:justify-start"
+				class="mt-2 flex cursor-default select-none items-center justify-center space-x-3 lg:justify-start"
 			>
 				<Transition
 					active="delay-[300ms] duration-500 transition-[opacity,transform] ease-out"
 					from="opacity-0 translate-y-2"
 					to="opacity-1 translate-y-0"
 				>
-					<li class="space-x-1 flex items-center">
+					<li class="flex items-center space-x-1">
 						<PaletteIcon color="var(--rose)" size={16} />
 						<span
-							class="text-sm font-medium bg-clip-text text-transparent bg-gradient-to-r from-rose to-iris"
+							class="bg-gradient-to-r from-rose to-iris bg-clip-text text-sm font-medium text-transparent"
 						>
 							{$_('page.themes.stat.ports', {
 								values: { number: themes.length },
@@ -76,10 +76,10 @@
 					from="opacity-0 translate-y-2"
 					to="opacity-1 translate-y-0"
 				>
-					<li class="space-x-1 flex items-center">
+					<li class="flex items-center space-x-1">
 						<BookIcon color="var(--iris)" size={16} />
 						<span
-							class="text-sm font-medium bg-clip-text text-transparent bg-gradient-to-r from-iris to-foam"
+							class="bg-gradient-to-r from-iris to-foam bg-clip-text text-sm font-medium text-transparent"
 						>
 							{$_('page.themes.stat.maintainers', {
 								values: { number: maintainers.length },
@@ -106,11 +106,11 @@
 	</div>
 
 	<ul
-		class="mt-12 mx-auto gap-2 sm:gap-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4"
+		class="mx-auto mt-12 grid grid-cols-2 gap-2 sm:grid-cols-3 sm:gap-6 md:grid-cols-4 lg:grid-cols-4"
 	>
 		{#if filteredThemes.length < 1}
 			<li
-				class="mx-auto py-8 sm:py-12 w-full max-w-lg h-full col-span-full bg-gradient-to-br from-surface dark:from-overlay via-base to-surface dark:to-base bg-[length:200%_200%] bg-left-top shadow dark:shadow-none duration-200 transition-all ease-in-out rounded-2xl flex flex-col items-center"
+				class="col-span-full mx-auto flex h-full w-full max-w-lg flex-col items-center rounded-2xl bg-gradient-to-br from-surface via-base to-surface bg-[length:200%_200%] bg-left-top py-8 shadow transition-all duration-200 ease-in-out dark:from-overlay dark:to-base dark:shadow-none sm:py-12"
 			>
 				<p class="font-display">{$_('page.themes.no-result.heading')}</p>
 				<p class="mt-4 text-sm font-medium">
@@ -118,7 +118,7 @@
 						rel="external"
 						target="_blank"
 						href="https://github.com/rose-pine/.github/blob/main/contributing.md"
-						class="text-iris underline underline-offset-4 decoration-wavy decoration-subtle rounded focus:outline-none focus:ring focus:ring-highlight-high"
+						class="rounded text-iris underline decoration-subtle decoration-wavy underline-offset-4 focus:outline-none focus:ring focus:ring-highlight-high"
 						>{$_('page.themes.no-result.content-prefix')}</a
 					>
 					{$_('page.themes.no-result.content')}

@@ -72,16 +72,16 @@
 			: 'Rosé Pine'}
 
 	<div class="py-20">
-		<div class="p-6 bg-surface rounded-md">
-			<div class="pb-6 flex items-center justify-between">
+		<div class="rounded-md bg-surface p-6">
+			<div class="flex items-center justify-between pb-6">
 				<h4
 					id="{variant}-ingredients"
-					class="leading-none font-display font-semibold text-lg tracking-wide max-w-full"
+					class="max-w-full font-display text-lg font-semibold leading-none tracking-wide"
 				>
 					{variantName}
 				</h4>
 
-				<div class="pl-1 relative flex items-center">
+				<div class="relative flex items-center pl-1">
 					<label for="color-format" class="sr-only">
 						{$_('component.ingredients.format-select.label')}
 					</label>
@@ -89,7 +89,7 @@
 					<select
 						id="color-format"
 						bind:value={colorFormat}
-						class="pr-7 pl-2 py-1 w-full leading-normal text-sm text-subtle bg-highlight-low rounded-md appearance-none focus:outline-none focus:ring focus:ring-highlight-high"
+						class="w-full appearance-none rounded-md bg-highlight-low py-1 pr-7 pl-2 text-sm leading-normal text-subtle focus:outline-none focus:ring focus:ring-highlight-high"
 					>
 						<option value={colorFormat}
 							>{$_('component.ingredients.format-select.options.format')}
@@ -104,7 +104,7 @@
 
 					<span
 						aria-hidden="true"
-						class="mt-px mr-2 text-subtle border-t-[6px] border-t-muted border-x-4 border-x-transparent inline-block align-middle absolute right-0 z-10"
+						class="absolute right-0 z-10 mt-px mr-2 inline-block border-x-4 border-t-[6px] border-x-transparent border-t-muted align-middle text-subtle"
 					/>
 				</div>
 			</div>
@@ -141,16 +141,16 @@
 								<td class="pl-2 text-left">
 									<div class="flex items-center">
 										<div
-											class="mr-3 w-[18px] h-[18px] border rounded-full"
+											class="mr-3 h-[18px] w-[18px] rounded-full border"
 											style:background={colors.default[variant][role].hex}
 											style:border-color={borderColor}
 										/>
-										<span class="font-medium text-md tracking-wide"
+										<span class="text-md font-medium tracking-wide"
 											>{colorName}</span
 										>
 									</div>
 								</td>
-								<td class="pl-6 font-mono text-sm text-right">
+								<td class="pl-6 text-right font-mono text-sm">
 									<button
 										on:click={() => copy(color.hex, `${variant}.${role}.hex`)}
 									>
@@ -161,7 +161,7 @@
 										{/if}
 									</button>
 								</td>
-								<td class="pl-6 font-mono text-sm text-right">
+								<td class="pl-6 text-right font-mono text-sm">
 									<button
 										on:click={() => copy(color.rgb, `${variant}.${role}.rgb`)}
 									>
@@ -172,7 +172,7 @@
 										{/if}
 									</button>
 								</td>
-								<td class="pl-6 pr-2 font-mono text-sm text-right">
+								<td class="pl-6 pr-2 text-right font-mono text-sm">
 									<button
 										on:click={() => copy(color.hsl, `${variant}.${role}.hsl`)}
 									>

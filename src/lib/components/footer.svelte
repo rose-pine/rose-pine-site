@@ -4,17 +4,17 @@
 
 <footer class="mx-auto w-full max-w-content">
 	<div
-		class="px-6 md:px-10 space-x-6 h-32 bg-base flex items-center justify-between"
+		class="flex h-32 items-center justify-between space-x-6 bg-base px-6 md:px-10"
 	>
 		<p class="text-sm text-muted">
 			&copy; {new Date().getFullYear()} Rosé Pine
 		</p>
 
-		<div class="space-x-4 flex items-center">
+		<div class="flex items-center space-x-4">
 			<a
 				href="https://github.com/rose-pine"
 				aria-label="GitHub"
-				class="w-6 h-6 flex items-center justify-center rounded hover:bg-highlight-low focus:outline-none focus:ring focus:ring-highlight-high"
+				class="flex h-6 w-6 items-center justify-center rounded hover:bg-highlight-low focus:outline-none focus:ring focus:ring-highlight-high"
 			>
 				<GithubIcon size={20} />
 			</a>
@@ -24,7 +24,7 @@
 			<a
 				href="https://twitter.com/rosepinetheme"
 				aria-label="Twitter"
-				class="w-6 h-6 flex items-center justify-center rounded hover:bg-highlight-low focus:outline-none focus:ring focus:ring-highlight-high"
+				class="flex h-6 w-6 items-center justify-center rounded hover:bg-highlight-low focus:outline-none focus:ring focus:ring-highlight-high"
 			>
 				<TwitterIcon size={18} />
 			</a>

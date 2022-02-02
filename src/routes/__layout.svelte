@@ -120,7 +120,7 @@
 	}
 
 	body {
-		@apply text-text bg-base antialiased;
+		@apply bg-base text-text antialiased;
 	}
 
 	/* TODO: handle reduce motion on a case by case basis */

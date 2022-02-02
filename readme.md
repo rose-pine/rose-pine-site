@@ -1,6 +1,7 @@
 ## Contributing
+
 > **Work in progress**
-> 
+>
 > With the launch of our new website, we are working hard to polish up documentation and guides. Pull requests are welcome 😌
 
 ### Themes

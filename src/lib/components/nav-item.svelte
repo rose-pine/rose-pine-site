@@ -8,7 +8,7 @@
 
 <a
 	{href}
-	class="px-2 py-1 w-full text-sm sm:text-md text-subtle rounded-md hover:bg-highlight-low focus:outline-none focus:ring focus:ring-highlight-high"
+	class="w-full rounded-md px-2 py-1 text-sm text-subtle hover:bg-highlight-low focus:outline-none focus:ring focus:ring-highlight-high sm:text-md"
 	class:active={showActive && $page.url.pathname === href}
 >
 	{label}

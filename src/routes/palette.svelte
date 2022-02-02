@@ -10,7 +10,7 @@
 
 <Section>
 	<div
-		class="text-center lg:text-left flex flex-col lg:flex-row items-center justify-between"
+		class="flex flex-col items-center justify-between text-center lg:flex-row lg:text-left"
 	>
 		<div class="shrink-0">
 			<Transition
@@ -18,7 +18,7 @@
 				from="opacity-0 translate-y-3"
 				to="opacity-1 translate-y-0"
 			>
-				<h2 class="font-display tracking-wide text-4xl">
+				<h2 class="font-display text-4xl tracking-wide">
 					{$_('page.palette.title')}
 				</h2>
 			</Transition>
@@ -40,11 +40,11 @@
 			to="opacity-1 translate-y-0"
 		>
 			<div
-				class="mt-6 bg-surface divide-x divide-highlight-med-blend border border-highlight-med-blend rounded-md inline-flex items-center overflow-hidden"
+				class="mt-6 inline-flex items-center divide-x divide-highlight-med-blend overflow-hidden rounded-md border border-highlight-med-blend bg-surface"
 			>
 				<button
 					on:click={() => (view = Swatches)}
-					class="px-4 py-2 font-medium text-sm focus:outline-none focus:ring focus:ring-inset focus:ring-highlight-high"
+					class="px-4 py-2 text-sm font-medium focus:outline-none focus:ring focus:ring-inset focus:ring-highlight-high"
 					style:color={view === Swatches ? 'var(--text)' : 'var(--subtle)'}
 					style:background-color={view === Swatches
 						? 'var(--surface)'
@@ -55,7 +55,7 @@
 
 				<button
 					on:click={() => (view = Ingredients)}
-					class="px-4 py-2 font-medium text-sm focus:outline-none focus:ring focus:ring-inset focus:ring-highlight-high"
+					class="px-4 py-2 text-sm font-medium focus:outline-none focus:ring focus:ring-inset focus:ring-highlight-high"
 					style:color={view === Ingredients ? 'var(--text)' : 'var(--subtle)'}
 					style:background-color={view === Ingredients
 						? 'var(--surface)'
