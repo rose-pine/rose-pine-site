@@ -7,7 +7,6 @@ const config = {
 
 	kit: {
 		adapter: adapter(),
-		target: '#svelte',
 		vite: {
 			ssr: {
 				noExternal: ['has-match', '@rose-pine/palette'],
