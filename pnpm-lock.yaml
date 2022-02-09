@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@rose-pine/palette': ^2.1.0
-  '@sveltejs/adapter-static': ^1.0.0-next.26
+  '@sveltejs/adapter-netlify': ^1.0.0-next.44
   '@sveltejs/kit': next
   autoprefixer: ^10.4.2
   has-match: ^1.0.3
@@ -23,7 +23,7 @@ dependencies:
   svelte-i18n: 3.3.13_svelte@3.46.2
 
 devDependencies:
-  '@sveltejs/adapter-static': 1.0.0-next.26
+  '@sveltejs/adapter-netlify': 1.0.0-next.44
   '@sveltejs/kit': 1.0.0-next.260_svelte@3.46.2
   autoprefixer: 10.4.2_postcss@8.4.5
   postcss: 8.4.5
@@ -93,6 +93,10 @@ packages:
       tslib: 2.3.1
     dev: false
 
+  /@iarna/toml/2.2.5:
+    resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
+    dev: true
+
   /@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
     engines: {node: '>= 8'}
@@ -127,9 +131,11 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /@sveltejs/adapter-static/1.0.0-next.26:
-    resolution: {integrity: sha512-LXR0HkPygZ+m9wJhFqbYWbJ0jquhgUK6vL/8AwnqbAZGGtQFloMpf49WOANk7MiLBeY6L97W5jPLSxHiDW3T0Q==}
+  /@sveltejs/adapter-netlify/1.0.0-next.44:
+    resolution: {integrity: sha512-GY3w4K4gW+wXo6lGes7gFcPPaUt9kY2xCfhcNfwDvbOf0PsasZD5WatAPtEE9Xz5WTtQLEEgXljVMqsPkpb75Q==}
     dependencies:
+      '@iarna/toml': 2.2.5
+      esbuild: 0.13.15
       tiny-glob: 0.2.9
     dev: true
 
