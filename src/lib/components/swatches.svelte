@@ -1,23 +1,9 @@
 <script lang="ts">
 	import palette from '@rose-pine/palette'
-	import { browser } from '$app/env'
+	import { clipboard } from '$lib/store'
 
 	const variants = Object.keys(palette.variants)
 	const roles = Object.keys(palette.roles)
-
-	let copiedItem = ''
-	let copiedTimeout = setTimeout
-
-	function copy(item, itemId) {
-		if (browser) {
-			navigator.clipboard.writeText(item).then(() => (copiedItem = itemId))
-
-			clearTimeout(copiedTimeout)
-			copiedTimeout = setTimeout(() => {
-				copiedItem = ''
-			}, 600)
-		}
-	}
 </script>
 
 {#each variants as variant}
@@ -49,14 +35,14 @@
 						: role}
 
 				<button
-					on:click={() => copy(color.hex, `${variant}.${role}.hex`)}
+					on:click={() => clipboard.copy(color.hex, `${variant}.${role}.hex`)}
 					class="flex h-full flex-col items-center rounded-2xl bg-gradient-to-br from-surface via-base to-surface bg-[length:200%_200%] bg-left-top shadow transition-[background-position,box-shadow] duration-200 ease-in-out hover:bg-right-bottom focus:outline-none focus:ring focus:ring-highlight-high dark:from-overlay dark:to-base dark:shadow-none"
 				>
 					<div class="h-10 w-full rounded-t-2xl" style:background={color.hex} />
 					<p
 						class="px-2 py-6 text-center font-display text-sm font-semibold tracking-wide md:text-md"
 					>
-						{#if copiedItem === `${variant}.${role}.hex`}
+						{#if $clipboard.pos === `${variant}.${role}.hex`}
 							<span class="text-rose">copied</span>
 						{:else}
 							<span>{colorName}</span>

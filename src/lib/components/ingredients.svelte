@@ -2,20 +2,7 @@
 	import { _ } from 'svelte-i18n'
 	import palette from '@rose-pine/palette'
 	import { browser } from '$app/env'
-
-	let copiedItem = ''
-	let copiedTimeout = setTimeout
-
-	function copy(item, itemId) {
-		if (browser) {
-			navigator.clipboard.writeText(item).then(() => (copiedItem = itemId))
-
-			clearTimeout(copiedTimeout)
-			copiedTimeout = setTimeout(() => {
-				copiedItem = ''
-			}, 600)
-		}
-	}
+	import { clipboard } from '$lib/store'
 
 	const formats = ['default', 'unstyled'] as const
 	type Format = typeof formats[number]
@@ -34,8 +21,11 @@
 		}
 	}
 
-	function format(color, mode?: Formats) {
-		if (mode === 'unstyled')
+	function format(
+		color: { hex: string; rgb: string; hsl: string },
+		format?: Format
+	) {
+		if (format === 'unstyled')
 			return {
 				hex: color.hex.replace('#', ''),
 				rgb: color.rgb.replace('rgb(', '').replace(')', ''),
@@ -152,9 +142,10 @@
 								</td>
 								<td class="pl-6 text-right font-mono text-sm">
 									<button
-										on:click={() => copy(color.hex, `${variant}.${role}.hex`)}
+										on:click={() =>
+											clipboard.copy(color.hex, `${variant}.${role}.hex`)}
 									>
-										{#if copiedItem === `${variant}.${role}.hex`}
+										{#if $clipboard.pos === `${variant}.${role}.hex`}
 											<span class="text-rose">copied</span>
 										{:else}
 											<span>{color.hex}</span>
@@ -163,9 +154,10 @@
 								</td>
 								<td class="pl-6 text-right font-mono text-sm">
 									<button
-										on:click={() => copy(color.rgb, `${variant}.${role}.rgb`)}
+										on:click={() =>
+											clipboard.copy(color.rgb, `${variant}.${role}.rgb`)}
 									>
-										{#if copiedItem === `${variant}.${role}.rgb`}
+										{#if $clipboard.pos === `${variant}.${role}.rgb`}
 											<span class="text-rose">copied</span>
 										{:else}
 											<span>{color.rgb}</span>
@@ -174,9 +166,10 @@
 								</td>
 								<td class="pl-6 pr-2 text-right font-mono text-sm">
 									<button
-										on:click={() => copy(color.hsl, `${variant}.${role}.hsl`)}
+										on:click={() =>
+											clipboard.copy(color.hsl, `${variant}.${role}.hsl`)}
 									>
-										{#if copiedItem === `${variant}.${role}.hsl`}
+										{#if $clipboard.pos === `${variant}.${role}.hsl`}
 											<span class="text-rose">copied</span>
 										{:else}
 											<span>{color.hsl}</span>
