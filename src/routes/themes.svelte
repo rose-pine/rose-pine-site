@@ -2,7 +2,6 @@
 	import { _ } from 'svelte-i18n'
 	import hasMatch from 'has-match'
 	import Section from '$lib/components/section.svelte'
-	import Transition from '$lib/components/transition.svelte'
 	import Search from '$lib/components/search.svelte'
 	import {
 		BookIcon,
@@ -31,69 +30,53 @@
 		class="flex flex-col items-center justify-between text-center lg:flex-row lg:text-left"
 	>
 		<div class="shrink-0">
-			<Transition
-				active="delay-[100ms] duration-500 transition-[opacity,transform] ease-out"
-				from="opacity-0 translate-y-3"
-				to="opacity-1 translate-y-0"
-			>
-				<h2 class="font-display text-4xl tracking-wide">
-					{$_('page.themes.title')}
-				</h2>
-			</Transition>
+			<h2 class="animate-enter font-display text-4xl tracking-wide">
+				{$_('page.themes.title')}
+			</h2>
 
-			<Transition
-				active="delay-[200ms] duration-500 transition-[opacity,transform] ease-out"
-				from="opacity-0 translate-y-3"
-				to="opacity-1 translate-y-0"
+			<p
+				class="animate-enter mt-6 font-medium text-subtle"
+				style="--stagger: 1"
 			>
-				<p class="mt-6 font-medium text-subtle">
-					{$_('page.themes.description')}
-				</p>
-			</Transition>
+				{$_('page.themes.description')}
+			</p>
 
 			<ul
 				class="mt-2 flex cursor-default select-none items-center justify-center space-x-3 lg:justify-start"
 			>
-				<Transition
-					active="delay-[300ms] duration-500 transition-[opacity,transform] ease-out"
-					from="opacity-0 translate-y-2"
-					to="opacity-1 translate-y-0"
+				<li
+					class="animate-enter flex items-center space-x-1"
+					style="--stagger: 2"
 				>
-					<li class="flex items-center space-x-1">
-						<PaletteIcon color="var(--rose)" size={16} />
-						<span
-							class="bg-gradient-to-r from-rose to-iris bg-clip-text text-sm font-medium text-transparent"
-						>
-							{$_('page.themes.stat.ports', {
-								values: { number: themes.length },
-							})}
-						</span>
-					</li>
-				</Transition>
+					<PaletteIcon color="var(--rose)" size={16} />
+					<span
+						class="bg-gradient-to-r from-rose to-iris bg-clip-text text-sm font-medium text-transparent"
+					>
+						{$_('page.themes.stat.ports', {
+							values: { number: themes.length },
+						})}
+					</span>
+				</li>
 
-				<Transition
-					active="delay-[350ms] duration-500 transition-[opacity,transform] ease-out"
-					from="opacity-0 translate-y-2"
-					to="opacity-1 translate-y-0"
+				<li
+					class="animate-enter flex items-center space-x-1"
+					style="--stagger: 2.25"
 				>
-					<li class="flex items-center space-x-1">
-						<BookIcon color="var(--iris)" size={16} />
-						<span
-							class="bg-gradient-to-r from-iris to-foam bg-clip-text text-sm font-medium text-transparent"
-						>
-							{$_('page.themes.stat.maintainers', {
-								values: { number: maintainers.length },
-							})}
-						</span>
-					</li>
-				</Transition>
+					<BookIcon color="var(--iris)" size={16} />
+					<span
+						class="bg-gradient-to-r from-iris to-foam bg-clip-text text-sm font-medium text-transparent"
+					>
+						{$_('page.themes.stat.maintainers', {
+							values: { number: maintainers.length },
+						})}
+					</span>
+				</li>
 			</ul>
 		</div>
 
-		<Transition
-			active="w-full flex items-center justify-center lg:justify-end delay-[200ms] duration-500 transition-[opacity,transform] ease-out"
-			from="opacity-0 translate-y-2"
-			to="opacity-1 translate-y-0"
+		<div
+			class="animate-enter flex w-full items-center justify-center lg:justify-end"
+			style="--stagger: 1"
 		>
 			<Search
 				bind:search
@@ -102,11 +85,12 @@
 					values: { number: themes.length },
 				})}
 			/>
-		</Transition>
+		</div>
 	</div>
 
 	<ul
-		class="mx-auto mt-12 grid grid-cols-2 gap-2 sm:grid-cols-3 sm:gap-6 md:grid-cols-4 lg:grid-cols-4"
+		class="animate-enter mx-auto mt-12 grid grid-cols-2 gap-2 sm:grid-cols-3 sm:gap-6 md:grid-cols-4 lg:grid-cols-4"
+		style="--stagger: 2"
 	>
 		{#if filteredThemes.length < 1}
 			<li
@@ -126,34 +110,28 @@
 			</li>
 		{:else}
 			{#each filteredThemes as theme}
-				<Transition
-					active="delay-100 duration-500 transition-[opacity,transform] ease-out"
-					from="opacity-0 translate-y-6"
-					to="opacity-1 translate-y-0"
-				>
-					<li class="h-full">
-						<a
-							rel="external"
-							target="_blank"
-							href={theme.repo}
-							class="px-1 py-8 sm:py-12 h-full bg-gradient-to-br from-surface dark:from-overlay via-base to-surface dark:to-base bg-[length:200%_200%] bg-left-top hover:bg-right-bottom shadow dark:shadow-none duration-200 transition-[background-position,box-shadow] ease-in-out rounded-2xl flex flex-col items-center focus:outline-none focus:ring focus:ring-highlight-high"
+				<li class="h-full">
+					<a
+						rel="external"
+						target="_blank"
+						href={theme.repo}
+						class="px-1 py-8 sm:py-12 h-full bg-gradient-to-br from-surface dark:from-overlay via-base to-surface dark:to-base bg-[length:200%_200%] bg-left-top hover:bg-right-bottom shadow dark:shadow-none duration-200 transition-[background-position,box-shadow] ease-in-out rounded-2xl flex flex-col items-center focus:outline-none focus:ring focus:ring-highlight-high"
+					>
+						<p
+							class="font-display font-semibold text-md sm:text-lg text-center tracking-wide"
 						>
-							<p
-								class="font-display font-semibold text-md sm:text-lg text-center tracking-wide"
-							>
-								{theme.shortname || theme.name}
-							</p>
+							{theme.shortname || theme.name}
+						</p>
 
-							<div class="mt-4 space-x-3 flex items-center">
-								<MoonIcon color="var(--subtle)" size={16} />
+						<div class="mt-4 space-x-3 flex items-center">
+							<MoonIcon color="var(--subtle)" size={16} />
 
-								{#if theme.variants}
-									<SunIcon color="var(--gold)" size={20} />
-								{/if}
-							</div>
-						</a>
-					</li>
-				</Transition>
+							{#if theme.variants}
+								<SunIcon color="var(--gold)" size={20} />
+							{/if}
+						</div>
+					</a>
+				</li>
 			{/each}
 		{/if}
 	</ul>

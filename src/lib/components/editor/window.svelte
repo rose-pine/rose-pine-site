@@ -1,11 +1,5 @@
-<script>
-	import Transition from '$lib/components/transition.svelte'
-</script>
-
-<Transition
-	active="mx-auto w-full max-w-lg lg:max-w-xl h-80 lg:h-96 border border-highlight-med bg-base rounded-2xl self-center relative overflow-hidden delay-[400ms] duration-500 transition-[opacity,transform,box-shadow]"
-	from="opacity-0 translate-y-3 shadow-none"
-	to="opacity-1 translate-y-0 shadow-lg dark:shadow-none"
+<div
+	class="relative mx-auto h-80 w-full max-w-lg self-center overflow-hidden rounded-2xl border border-highlight-med bg-base lg:h-96 lg:max-w-xl"
 >
 	<div class="flex h-14 items-center px-6">
 		<div class="flex items-center space-x-2">
@@ -15,9 +9,7 @@
 		</div>
 	</div>
 
-	<div>
-		<slot />
-	</div>
+	<slot />
 
 	<div
 		class="absolute bottom-0 flex h-8 w-full items-center rounded-b-2xl bg-surface px-6"
@@ -32,4 +24,4 @@
 			<span>main</span>
 		</div>
 	</div>
-</Transition>
+</div>

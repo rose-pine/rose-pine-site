@@ -1,7 +1,6 @@
 <script>
 	import { _ } from 'svelte-i18n'
 	import Section from '$lib/components/section.svelte'
-	import Transition from '$lib/components/transition.svelte'
 	import Editor from '$lib/components/editor/index.svelte'
 	import {
 		GrainIcon,
@@ -16,42 +15,34 @@
 		class="grid min-h-[calc(100vh-14rem)] items-center gap-12 lg:grid-cols-[1fr,minmax(0,1fr)]"
 	>
 		<div class="space-y-6 text-center lg:space-y-12 lg:text-left">
-			<Transition
-				active="delay-[200ms] duration-500 transition-[opacity,transform] ease-out"
-				from="opacity-0 translate-y-3"
-				to="opacity-1 translate-y-0"
+			<h2
+				class="animate-enter font-display text-5xl lg:text-8xl"
+				style="--stagger: 1"
 			>
-				<h2 class="font-display text-5xl lg:text-8xl">
-					{@html $_('page.home.title')}
-				</h2>
-			</Transition>
+				{@html $_('page.home.title')}
+			</h2>
 
-			<Transition
-				active="delay-[400ms] duration-500 transition-[opacity,transform] ease-out"
-				from="opacity-0 translate-y-3"
-				to="opacity-1 translate-y-0"
+			<p
+				class="animate-enter mx-auto max-w-sm text-lg text-subtle lg:mx-0 lg:max-w-md lg:text-xl"
+				style="--stagger: 2"
 			>
-				<p
-					class="mx-auto max-w-sm text-lg text-subtle lg:mx-0 lg:max-w-md lg:text-xl"
-				>
-					{$_('page.home.description')}
-				</p>
-			</Transition>
+				{$_('page.home.description')}
+			</p>
 
-			<Transition
-				active="delay-[600ms] duration-500 transition-[opacity,transform] ease-out"
-				from="opacity-0 translate-y-3"
-				to="opacity-1 translate-y-0"
-			>
+			<div class="animate-enter" style="--stagger: 3">
 				<a
 					href="/themes"
 					class="rounded-full bg-highlight-med px-6 py-2.5 font-medium transition-colors duration-150 hover:bg-highlight-high focus:outline-none focus:ring focus:ring-highlight-high"
-					>{$_('page.home.primary-action')} <span class="ml-1">→</span></a
 				>
-			</Transition>
+					{$_('page.home.primary-action')} <span class="ml-1">→</span>
+				</a>
+			</div>
 		</div>
 
-		<Editor />
+		<!-- TODO: why is overflow-hidden necessary here?  -->
+		<div class="animate-enter overflow-hidden" style="--stagger: 2">
+			<Editor />
+		</div>
 	</div>
 </Section>
 

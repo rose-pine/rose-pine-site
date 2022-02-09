@@ -1,7 +1,6 @@
 <script>
 	import { _ } from 'svelte-i18n'
 	import Section from '$lib/components/section.svelte'
-	import Transition from '$lib/components/transition.svelte'
 	import Swatches from '$lib/components/swatches.svelte'
 	import Ingredients from '$lib/components/ingredients.svelte'
 
@@ -13,31 +12,21 @@
 		class="flex flex-col items-center justify-between text-center lg:flex-row lg:text-left"
 	>
 		<div class="shrink-0">
-			<Transition
-				active="delay-[100ms] duration-500 transition-[opacity,transform] ease-out"
-				from="opacity-0 translate-y-3"
-				to="opacity-1 translate-y-0"
-			>
-				<h2 class="font-display text-4xl tracking-wide">
-					{$_('page.palette.title')}
-				</h2>
-			</Transition>
+			<h2 class="animate-enter font-display text-4xl tracking-wide">
+				{$_('page.palette.title')}
+			</h2>
 
-			<Transition
-				active="delay-[200ms] duration-500 transition-[opacity,transform] ease-out"
-				from="opacity-0 translate-y-3"
-				to="opacity-1 translate-y-0"
+			<p
+				class="animate-enter mt-6 font-medium text-subtle"
+				style="--stagger: 1"
 			>
-				<p class="mt-6 font-medium text-subtle">
-					{$_('page.palette.description')}
-				</p>
-			</Transition>
+				{$_('page.palette.description')}
+			</p>
 		</div>
 
-		<Transition
-			active="w-full flex items-center justify-center lg:justify-end delay-[200ms] duration-500 transition-[opacity,transform] ease-out"
-			from="opacity-0 translate-y-2"
-			to="opacity-1 translate-y-0"
+		<div
+			class="animate-enter flex w-full items-center justify-center lg:justify-end"
+			style="--stagger: 1"
 		>
 			<div
 				class="mt-6 inline-flex items-center divide-x divide-highlight-med-blend overflow-hidden rounded-md border border-highlight-med-blend bg-surface"
@@ -64,14 +53,10 @@
 					{$_('page.palette.switch.ingredients')}
 				</button>
 			</div>
-		</Transition>
+		</div>
 	</div>
 
-	<Transition
-		active="delay-100 duration-500 transition-[opacity,transform] ease-out"
-		from="opacity-0 translate-y-6"
-		to="opacity-1 translate-y-0"
-	>
+	<div class="animate-enter" style="--stagger: 2">
 		<svelte:component this={view} />
-	</Transition>
+	</div>
 </Section>

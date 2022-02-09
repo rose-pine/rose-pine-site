@@ -123,6 +123,24 @@
 		@apply bg-base text-text antialiased;
 	}
 
+	.animate-enter {
+		opacity: 0;
+		animation: enter 500ms forwards;
+		animation-delay: calc(var(--stagger) * 200ms);
+	}
+
+	@keyframes enter {
+		0% {
+			opacity: 0;
+			transform: translateY(10px);
+		}
+
+		to {
+			opacity: 1;
+			transform: none;
+		}
+	}
+
 	/* TODO: handle reduce motion on a case by case basis */
 	@media (prefers-reduced-motion: reduce) {
 		* {
