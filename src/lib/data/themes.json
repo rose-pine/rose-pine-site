@@ -571,5 +571,17 @@
 		],
 		"keywords": ["web"],
 		"variants": true
+	},
+	{
+		"name": "Tilix",
+		"repo": "https://github.com/annappropriate/rose-pine-tilix",
+		"maintainers": [
+			{
+				"name": "Anna Z",
+				"url": "https://github.com/annappropriate"
+			}
+		],
+		"keywords": ["terminal"],
+		"variants": true
 	}
 ]
