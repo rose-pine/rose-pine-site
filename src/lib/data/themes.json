@@ -583,5 +583,17 @@
 		],
 		"keywords": ["terminal"],
 		"variants": true
+	},
+	{
+		"name": "fzf",
+		"repo": "https://github.com/rose-pine/fzf",
+		"maintainers": [
+			{
+				"name": "ThatOneCalculator",
+				"url": "https://github.com/github"
+			}
+		],
+		"keywords": ["system"],
+		"variants": true
 	}
 ]
