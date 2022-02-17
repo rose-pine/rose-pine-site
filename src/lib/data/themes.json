@@ -593,7 +593,19 @@
 				"url": "https://github.com/github"
 			}
 		],
-		"keywords": ["system"],
+		"keywords": ["app", "terminal"],
 		"variants": true
+	},
+	{
+		"name": "cava",
+		"repo": "https://github.com/rose-pine/cava",
+		"maintainers": [
+			{
+				"name": "ThatOneCalculator",
+				"url": "https://github.com/github"
+			}
+		],
+		"keywords": ["app", "terminal"],
+		"variants": false
 	}
 ]
