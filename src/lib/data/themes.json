@@ -606,6 +606,6 @@
 			}
 		],
 		"keywords": ["app", "terminal"],
-		"variants": false
+		"variants": true
 	}
 ]
