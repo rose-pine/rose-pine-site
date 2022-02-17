@@ -595,5 +595,17 @@
 		],
 		"keywords": ["system"],
 		"variants": true
+	},
+	{
+		"name": "whoogle",
+		"repo": "https://github.com/rose-pine/whoogle",
+		"maintainers": [
+			{
+				"name": "ThatOneCalculator",
+				"url": "https://github.com/github"
+			}
+		],
+		"keywords": ["web"],
+		"variants": true
 	}
 ]
