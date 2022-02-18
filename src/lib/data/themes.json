@@ -619,5 +619,16 @@
 		],
 		"keywords": ["web"],
 		"variants": true
+	},
+	{
+		"name": "Termux",
+		"repo": "https://github.com/rose-pine/termux",
+		"maintainers": [
+			{
+				"name": "ThatOneCalculator",
+				"url": "https://github.com/thatonecalculator"
+			}
+		],
+		"keywords": ["terminal", "mobile"]
 	}
 ]
