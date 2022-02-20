@@ -629,6 +629,7 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": ["terminal", "mobile"]
+		"keywords": ["terminal", "mobile"],
+		"variants": true
 	}
 ]
