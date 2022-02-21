@@ -123,11 +123,17 @@
 							{theme.shortname || theme.name}
 						</p>
 
+						<div class="flex-1" />
+
 						<div class="mt-4 space-x-3 flex items-center">
-							<MoonIcon color="var(--subtle)" size={16} />
+							<div class="w-5 h-5 flex items-center justify-center">
+								<MoonIcon color="var(--subtle)" size={16} />
+							</div>
 
 							{#if theme.variants}
-								<SunIcon color="var(--gold)" size={20} />
+								<div class="w-5 h-5 flex items-center justify-center">
+									<SunIcon color="var(--gold)" size={20} />
+								</div>
 							{/if}
 						</div>
 					</a>
