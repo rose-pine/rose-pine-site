@@ -1,11 +1,14 @@
 <script context="module">
 	import { addMessages, getLocaleFromQueryString, init } from 'svelte-i18n'
 	import { browser } from '$app/env'
+	import { getSafeStorage } from '$lib/util'
 	import en from '$lib/locales/en.json'
 	import fr from '$lib/locales/fr.json'
 	import it from '$lib/locales/it.json'
 	import de from '$lib/locales/de.json'
 	import template from '$lib/locales/template.json'
+
+	const locales = ['en', 'fr', 'it', 'de', 'template']
 
 	addMessages('en', en)
 	addMessages('fr', fr)
@@ -18,7 +21,7 @@
 	if (browser) {
 		// init on client side only
 		init({
-			fallbackLocale: localStorage.getItem('locale') || 'en',
+			fallbackLocale: getSafeStorage('locale', locales) || 'en',
 			initialLocale: getLocaleFromQueryString('lang'),
 		})
 	} else {

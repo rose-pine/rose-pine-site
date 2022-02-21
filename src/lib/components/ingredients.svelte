@@ -1,29 +1,19 @@
 <script lang="ts">
 	import { _ } from 'svelte-i18n'
 	import palette from '@rose-pine/palette'
-	import { browser } from '$app/env'
 	import { clipboard } from '$lib/store'
+	import { getSafeStorage, setSafeStorage } from '$lib/util'
 
-	const formats = ['default', 'unstyled'] as const
-	type Format = typeof formats[number]
-	let colorFormat: Format = 'default'
+	const formats = ['default', 'unstyled']
+	let colorFormat: typeof formats[number] = 'default'
 
-	if (browser) {
-		colorFormat = (localStorage.getItem('color-format') as Format) || 'default'
-		if (!formats.includes(colorFormat)) {
-			colorFormat = 'default'
-		}
-	}
+	colorFormat = getSafeStorage('color-format', formats) || 'default'
 
-	$: {
-		if (browser) {
-			localStorage.setItem('color-format', colorFormat)
-		}
-	}
+	$: setSafeStorage('color-format', colorFormat)
 
 	function format(
 		color: { hex: string; rgb: string; hsl: string },
-		format?: Format
+		format?: typeof formats[number]
 	) {
 		if (format === 'unstyled')
 			return {
