@@ -1,12 +1,8 @@
 <script>
 	import { _, locale } from 'svelte-i18n'
-	import { browser } from '$app/env'
+	import { setSafeStorage } from '$lib/util'
 
-	$: {
-		if (browser) {
-			localStorage.setItem('locale', $locale)
-		}
-	}
+	$: setSafeStorage('locale', $locale)
 </script>
 
 <div class="relative flex items-center">
