@@ -30,18 +30,17 @@
 		})
 	}
 
-	// FIXME: this currently breaks static builds (and netlify adapter is causing issues)
 	/** @type {import('@sveltejs/kit').Load} */
-	// export const load = ({ url }) => {
-	// 	if (!browser) {
-	// 		// init on server side only
-	// 		init({
-	// 			fallbackLocale: 'en',
-	// 			initialLocale: url.searchParams.get('lang'),
-	// 		})
-	// 	}
-	// 	return {}
-	// }
+	export const load = ({ params }) => {
+		if (!browser) {
+			// init on server side only
+			init({
+				fallbackLocale: 'en',
+				initialLocale: params.lang,
+			})
+		}
+		return {}
+	}
 </script>
 
 <script>
