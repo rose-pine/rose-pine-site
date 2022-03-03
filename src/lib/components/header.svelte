@@ -1,7 +1,7 @@
 <script>
 	import { _ } from 'svelte-i18n'
 	import NavItem from '$lib/components/nav-item.svelte'
-	import LocaleSwitcher from './locale-switcher.svelte'
+	import LocaleSwitcher from '$lib/components/locale-switcher.svelte'
 
 	let open = false
 

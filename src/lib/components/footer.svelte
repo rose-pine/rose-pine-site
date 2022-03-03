@@ -1,5 +1,5 @@
 <script>
-	import { GithubIcon, TwitterIcon } from './icons'
+	import { GithubIcon, TwitterIcon } from '$lib/components/icons'
 </script>
 
 <footer class="mx-auto w-full max-w-content">
