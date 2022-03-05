@@ -17,8 +17,9 @@
 		"svelte-i18n": "^3.3.13"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-netlify": "^1.0.0-next.49",
-		"@sveltejs/kit": "next",
+		"@rgossiaux/svelte-headlessui": "^1.0.0-beta.10",
+		"@sveltejs/adapter-netlify": "^1.0.0-next.50",
+		"@sveltejs/kit": "^1.0.0-next.294",
 		"autoprefixer": "^10.4.2",
 		"postcss": "^8.4.7",
 		"prettier": "^2.5.1",
