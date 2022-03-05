@@ -1,6 +1,7 @@
 <script>
 	import { _ } from 'svelte-i18n'
 	import NavItem from '$lib/components/nav-item.svelte'
+	import CommandPalette from '$lib/components/command-palette.svelte'
 	import LocaleSwitcher from '$lib/components/locale-switcher.svelte'
 
 	let open = false
@@ -28,6 +29,10 @@
 
 			<h1 class="font-display text-lg font-bold">Rosé Pine</h1>
 		</a>
+
+		<div class="mr-3 flex items-center">
+			<CommandPalette />
+		</div>
 
 		<!-- full navigation -->
 		<nav class="hidden cursor-default sm:block">
