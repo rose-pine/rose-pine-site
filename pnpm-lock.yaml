@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@rose-pine/palette': ^2.1.0
   '@sveltejs/adapter-netlify': ^1.0.0-next.49
-  '@sveltejs/kit': next
+  '@sveltejs/kit': ^1.0.0-next.294
   autoprefixer: ^10.4.2
   has-match: ^1.0.3
   postcss: ^8.4.7
@@ -24,7 +24,7 @@ dependencies:
 
 devDependencies:
   '@sveltejs/adapter-netlify': 1.0.0-next.49
-  '@sveltejs/kit': 1.0.0-next.291_svelte@3.46.4
+  '@sveltejs/kit': 1.0.0-next.294_svelte@3.46.4
   autoprefixer: 10.4.2_postcss@8.4.7
   postcss: 8.4.7
   prettier: 2.5.1
@@ -139,8 +139,8 @@ packages:
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.291_svelte@3.46.4:
-    resolution: {integrity: sha512-mFd1EJbxoyPGiomYwYhZnjNLPYahCC2gHfKvPetguL/7BCHcyUjjYQbwTTmjVxtgBs0oLzKVA9bt45gpr9JqBQ==}
+  /@sveltejs/kit/1.0.0-next.294_svelte@3.46.4:
+    resolution: {integrity: sha512-whTYeri/oaV672KErlhCAvAawlsnd8iu/MQmjdu85TApDYolLe8FDTg6GQ55+0IJbx1N7dOer/HopWzKudPgFA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
