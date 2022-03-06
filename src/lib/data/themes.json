@@ -597,7 +597,7 @@
 		"variants": true
 	},
 	{
-		"name": "cava",
+		"name": "Cava",
 		"repo": "https://github.com/rose-pine/cava",
 		"maintainers": [
 			{
@@ -631,5 +631,29 @@
 		],
 		"keywords": ["terminal", "mobile"],
 		"variants": true
+	},
+	{
+		"name": "highlight.js",
+		"repo": "https://github.com/rose-pine/hljs",
+		"maintainers": [
+			{
+				"name": "ThatOneCalculator",
+				"url": "https://github.com/thatonecalculator"
+			}
+		],
+		"keywords": ["web"],
+		"variants": false
+	},
+	{
+		"name": "zer0bin",
+		"repo": "https://github.com/rose-pine/zer0bin",
+		"maintainers": [
+			{
+				"name": "ThatOneCalculator",
+				"url": "https://github.com/thatonecalculator"
+			}
+		],
+		"keywords": ["web"],
+		"variants": false
 	}
 ]

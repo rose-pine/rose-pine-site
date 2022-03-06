@@ -6,7 +6,7 @@
 
 ### Themes
 
-Add a new entry to `./src/lib/data/themes.json`
+Add a new entry to [`./src/lib/data/themes.json`](https://github.com/rose-pine/rose-pine-site/blob/main/src/lib/data/themes.json)
 
 ### Translations
 
