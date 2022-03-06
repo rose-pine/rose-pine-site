@@ -634,7 +634,6 @@
 	},
 	{
 		"name": "highlight.js",
-		"shortname": "hljs",
 		"repo": "https://github.com/rose-pine/hljs",
 		"maintainers": [
 			{
