@@ -655,5 +655,21 @@
 		],
 		"keywords": ["web"],
 		"variants": false
+	},
+	{
+		"name": "Github Readme Stats",
+		"repo": "https://github.com/rose-pine/github-readme-stats",
+		"maintainers": [
+			{
+				"name": "ThatOneCalculator",
+				"url": "https://github.com/thatonecalculator"
+			},
+			{
+				"name": "Rick Staa",
+				"url": "https://github.com/rickstaa"
+			}
+		],
+		"keywords": ["web"],
+		"variants": false
 	}
 ]
