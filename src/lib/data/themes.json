@@ -671,5 +671,17 @@
 		],
 		"keywords": ["web"],
 		"variants": false
+	},
+	{
+		"name": "DuckDuckGo",
+		"repo": "https://github.com/cobcobs/duckduckgo",
+		"maintainers": [
+			{
+				"name": "cobcobs",
+				"url": "https://github.com/cobcobs"
+			}
+		],
+		"keywords": ["web"],
+		"variants": true
 	}
 ]
