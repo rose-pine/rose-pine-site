@@ -683,5 +683,17 @@
 		],
 		"keywords": ["web"],
 		"variants": true
+	},
+	{
+		"name": "Hundred Rabbits",
+		"repo": "https://github.com/artilate/hundredrabbits",
+		"maintainers": [
+			{
+				"name": "artilate",
+				"url": "https://github.com/artilate"
+			}
+		],
+		"keywords": ["app"],
+		"variants": true
 	}
 ]
