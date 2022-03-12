@@ -4,33 +4,18 @@
 		"shortname": "VSCode",
 		"repo": "https://github.com/rose-pine/vscode",
 		"maintainers": [
-			{
-				"name": "mvllow",
-				"url": "https://github.com/mvllow"
-			},
-			{
-				"name": "fvrests",
-				"url": "https://github.com/fvrests"
-			}
+			{ "name": "mvllow", "url": "https://github.com/mvllow" },
+			{ "name": "fvrests", "url": "https://github.com/fvrests" }
 		],
-		"keywords": [
-			"editor"
-		],
+		"keywords": ["editor"],
 		"variants": true,
 		"featured": true
 	},
 	{
 		"name": "Hyper",
 		"repo": "https://github.com/rose-pine/hyper",
-		"maintainers": [
-			{
-				"name": "fvrests",
-				"url": "https://github.com/fvrests"
-			}
-		],
-		"keywords": [
-			"terminal"
-		],
+		"maintainers": [{ "name": "fvrests", "url": "https://github.com/fvrests" }],
+		"keywords": ["terminal"],
 		"variants": true,
 		"featured": true
 	},
@@ -43,9 +28,7 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"system"
-		],
+		"keywords": ["system"],
 		"variants": true,
 		"featured": true
 	},
@@ -57,14 +40,9 @@
 				"name": "ThatOneCalculator",
 				"url": "https://github.com/thatonecalculator"
 			},
-			{
-				"name": "ng-hai",
-				"url": "https://github.com/ng-hai"
-			}
+			{ "name": "ng-hai", "url": "https://github.com/ng-hai" }
 		],
-		"keywords": [
-			"design"
-		]
+		"keywords": ["design"]
 	},
 	{
 		"name": "Atom",
@@ -75,49 +53,27 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"editor"
-		]
+		"keywords": ["editor"]
 	},
 	{
 		"name": "Emacs",
 		"repo": "https://github.com/thongpv87/rose-pine-emacs",
-		"maintainers": [
-			{
-				"name": "Caelie"
-			}
-		],
-		"keywords": [
-			"editor"
-		],
+		"maintainers": [{ "name": "Caelie" }],
+		"keywords": ["editor"],
 		"variants": true
 	},
 	{
 		"name": "IntelliJ",
 		"repo": "https://github.com/jmorjsm/rose-pine-intellij",
-		"maintainers": [
-			{
-				"name": "jmorjsm",
-				"url": "https://github.com/jmorjsm"
-			}
-		],
-		"keywords": [
-			"editor"
-		],
+		"maintainers": [{ "name": "jmorjsm", "url": "https://github.com/jmorjsm" }],
+		"keywords": ["editor"],
 		"variants": true
 	},
 	{
 		"name": "Neovim",
 		"repo": "https://github.com/rose-pine/neovim",
-		"maintainers": [
-			{
-				"name": "mvllow",
-				"url": "https://github.com/mvllow"
-			}
-		],
-		"keywords": [
-			"editor"
-		],
+		"maintainers": [{ "name": "mvllow", "url": "https://github.com/mvllow" }],
+		"keywords": ["editor"],
 		"variants": true,
 		"featured": true
 	},
@@ -130,36 +86,22 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"editor"
-		]
+		"keywords": ["editor"]
 	},
 	{
 		"name": "Vim",
 		"repo": "https://github.com/iandwelker/rose-pine-vim",
 		"maintainers": [
-			{
-				"name": "iandwelker",
-				"url": "https://github.com/iandwelker"
-			}
+			{ "name": "iandwelker", "url": "https://github.com/iandwelker" }
 		],
-		"keywords": [
-			"editor"
-		],
+		"keywords": ["editor"],
 		"variants": true
 	},
 	{
 		"name": "XCode",
 		"repo": "https://github.com/ldakhoa/rose-pine-xcode",
-		"maintainers": [
-			{
-				"name": "ldakhoa",
-				"url": "https://github.com/ldakhoa"
-			}
-		],
-		"keywords": [
-			"editor"
-		],
+		"maintainers": [{ "name": "ldakhoa", "url": "https://github.com/ldakhoa" }],
+		"keywords": ["editor"],
 		"variants": true
 	},
 	{
@@ -171,9 +113,7 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"terminal"
-		],
+		"keywords": ["terminal"],
 		"variants": true
 	},
 	{
@@ -185,9 +125,7 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"terminal"
-		]
+		"keywords": ["terminal"]
 	},
 	{
 		"name": "Gnome Terminal",
@@ -198,36 +136,20 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"terminal"
-		]
+		"keywords": ["terminal"]
 	},
 	{
 		"name": "iTerm",
 		"repo": "https://github.com/rose-pine/iterm",
-		"maintainers": [
-			{
-				"name": "mvllow",
-				"url": "https://github.com/mvllow"
-			}
-		],
-		"keywords": [
-			"terminal"
-		],
+		"maintainers": [{ "name": "mvllow", "url": "https://github.com/mvllow" }],
+		"keywords": ["terminal"],
 		"variants": true
 	},
 	{
 		"name": "Kitty",
 		"repo": "https://github.com/rose-pine/kitty",
-		"maintainers": [
-			{
-				"name": "mvllow",
-				"url": "https://github.com/mvllow"
-			}
-		],
-		"keywords": [
-			"terminal"
-		],
+		"maintainers": [{ "name": "mvllow", "url": "https://github.com/mvllow" }],
+		"keywords": ["terminal"],
 		"variants": true
 	},
 	{
@@ -239,9 +161,7 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"terminal"
-		]
+		"keywords": ["terminal"]
 	},
 	{
 		"name": "MinTTY",
@@ -252,35 +172,21 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"terminal"
-		]
+		"keywords": ["terminal"]
 	},
 	{
 		"name": "st",
 		"repo": "https://github.com/rose-pine/st",
 		"maintainers": [
-			{
-				"name": "Miguel R. Ávila",
-				"url": "https://github.com/MiguelRAvila"
-			}
+			{ "name": "Miguel R. Ávila", "url": "https://github.com/MiguelRAvila" }
 		],
-		"keywords": [
-			"terminal"
-		]
+		"keywords": ["terminal"]
 	},
 	{
 		"name": "Terminal.app",
 		"repo": "https://github.com/rose-pine/terminal.app",
-		"maintainers": [
-			{
-				"name": "mvllow",
-				"url": "https://github.com/mvllow"
-			}
-		],
-		"keywords": [
-			"terminal"
-		],
+		"maintainers": [{ "name": "mvllow", "url": "https://github.com/mvllow" }],
+		"keywords": ["terminal"],
 		"variants": true
 	},
 	{
@@ -292,36 +198,24 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"terminal"
-		]
+		"keywords": ["terminal"]
 	},
 	{
 		"name": "Termite",
 		"repo": "https://github.com/rose-pine/termite",
 		"maintainers": [
-			{
-				"name": "Jimmysit0",
-				"url": "https://github.com/Jimmysit0"
-			}
+			{ "name": "Jimmysit0", "url": "https://github.com/Jimmysit0" }
 		],
-		"keywords": [
-			"terminal"
-		],
+		"keywords": ["terminal"],
 		"variants": true
 	},
 	{
 		"name": "Windows Terminal",
 		"repo": "https://github.com/rose-pine/windows-terminal",
 		"maintainers": [
-			{
-				"name": "Jimmysit0",
-				"url": "https://github.com/Jimmysit0"
-			}
+			{ "name": "Jimmysit0", "url": "https://github.com/Jimmysit0" }
 		],
-		"keywords": [
-			"terminal"
-		],
+		"keywords": ["terminal"],
 		"variants": true
 	},
 	{
@@ -333,9 +227,7 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"terminal"
-		]
+		"keywords": ["terminal"]
 	},
 	{
 		"name": "Desmos Desktop",
@@ -346,36 +238,22 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"productivity"
-		]
+		"keywords": ["productivity"]
 	},
 	{
 		"name": "Matplotlib",
 		"repo": "https://github.com/h4pZ/rose-pine-matplotlib",
-		"maintainers": [
-			{
-				"name": "h4pz",
-				"url": "https://github.com/h4pz"
-			}
-		],
-		"keywords": [
-			"productivity"
-		],
+		"maintainers": [{ "name": "h4pz", "url": "https://github.com/h4pz" }],
+		"keywords": ["productivity"],
 		"variants": true
 	},
 	{
 		"name": "Obsidian",
 		"repo": "https://github.com/mimishahzad/rose-pine-moon-obsidian",
 		"maintainers": [
-			{
-				"name": "mimishahzad",
-				"url": "https://github.com/mimishahzad"
-			}
+			{ "name": "mimishahzad", "url": "https://github.com/mimishahzad" }
 		],
-		"keywords": [
-			"productivity"
-		]
+		"keywords": ["productivity"]
 	},
 	{
 		"name": "Typora",
@@ -386,50 +264,29 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"productivity"
-		]
+		"keywords": ["productivity"]
 	},
 	{
 		"name": "Zathura",
 		"repo": "https://github.com/edunfelt/zathura",
 		"maintainers": [
-			{
-				"name": "edunfelt",
-				"url": "https://github.com/edunfelt"
-			}
+			{ "name": "edunfelt", "url": "https://github.com/edunfelt" }
 		],
-		"keywords": [
-			"productivity"
-		],
+		"keywords": ["productivity"],
 		"variants": true
 	},
 	{
 		"name": "Amfora",
 		"repo": "https://github.com/rose-pine/amfora",
-		"maintainers": [
-			{
-				"name": "mvllow",
-				"url": "https://github.com/mvllow"
-			}
-		],
-		"keywords": [
-			"app"
-		],
+		"maintainers": [{ "name": "mvllow", "url": "https://github.com/mvllow" }],
+		"keywords": ["app"],
 		"variants": true
 	},
 	{
 		"name": "Bear Blog",
 		"repo": "https://github.com/rose-pine/bear-blog",
-		"maintainers": [
-			{
-				"name": "mvllow",
-				"url": "https://github.com/mvllow"
-			}
-		],
-		"keywords": [
-			"web"
-		]
+		"maintainers": [{ "name": "mvllow", "url": "https://github.com/mvllow" }],
+		"keywords": ["web"]
 	},
 	{
 		"name": "Dark Reader",
@@ -440,9 +297,7 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"web"
-		]
+		"keywords": ["web"]
 	},
 	{
 		"name": "Discord",
@@ -453,9 +308,7 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"web"
-		],
+		"keywords": ["web"],
 		"variants": true
 	},
 	{
@@ -467,9 +320,7 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"app"
-		]
+		"keywords": ["app"]
 	},
 	{
 		"name": "Mastodon",
@@ -480,9 +331,7 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"web"
-		]
+		"keywords": ["web"]
 	},
 	{
 		"name": "Monkeytype",
@@ -493,23 +342,14 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"web"
-		],
+		"keywords": ["web"],
 		"variants": true
 	},
 	{
 		"name": "Prism",
 		"repo": "https://github.com/rose-pine/prism",
-		"maintainers": [
-			{
-				"name": "fvrests",
-				"url": "https://github.com/fvrests"
-			}
-		],
-		"keywords": [
-			"web"
-		],
+		"maintainers": [{ "name": "fvrests", "url": "https://github.com/fvrests" }],
+		"keywords": ["web"],
 		"variants": true
 	},
 	{
@@ -521,9 +361,7 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"web"
-		]
+		"keywords": ["web"]
 	},
 	{
 		"name": "Revolt",
@@ -534,28 +372,20 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"web"
-		],
+		"keywords": ["web"],
 		"variants": true
 	},
 	{
 		"name": "Slack",
 		"repo": "https://github.com/rose-pine/slack",
 		"maintainers": [
-			{
-				"name": "fvrests",
-				"url": "https://github.com/fvrests"
-			},
+			{ "name": "fvrests", "url": "https://github.com/fvrests" },
 			{
 				"name": "ThatOneCalculator",
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"app",
-			"web"
-		],
+		"keywords": ["app", "web"],
 		"variants": true
 	},
 	{
@@ -567,22 +397,15 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"web"
-		]
+		"keywords": ["web"]
 	},
 	{
 		"name": "bspwm",
 		"repo": "https://github.com/rose-pine/bspwm",
 		"maintainers": [
-			{
-				"name": "Jimmysit0",
-				"url": "https://github.com/Jimmysit0"
-			}
+			{ "name": "Jimmysit0", "url": "https://github.com/Jimmysit0" }
 		],
-		"keywords": [
-			"system"
-		],
+		"keywords": ["system"],
 		"variants": true
 	},
 	{
@@ -594,9 +417,7 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"system"
-		]
+		"keywords": ["system"]
 	},
 	{
 		"name": "KDE",
@@ -607,9 +428,7 @@
 				"url": "https://github.com/maybork"
 			}
 		],
-		"keywords": [
-			"system"
-		]
+		"keywords": ["system"]
 	},
 	{
 		"name": "Linux TTY",
@@ -620,36 +439,24 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"system"
-		]
+		"keywords": ["system"]
 	},
 	{
 		"name": "Base16",
 		"repo": "https://github.com/edunfelt/base16-rose-pine-scheme",
 		"maintainers": [
-			{
-				"name": "edunfelt",
-				"url": "https://github.com/edunfelt"
-			}
+			{ "name": "edunfelt", "url": "https://github.com/edunfelt" }
 		],
-		"keywords": [
-			"design"
-		],
+		"keywords": ["design"],
 		"variants": true
 	},
 	{
 		"name": "Cmus",
 		"repo": "https://github.com/Iorvethe/cmus",
 		"maintainers": [
-			{
-				"name": "Iorvethe",
-				"url": "https://github.com/Iorvethe"
-			}
+			{ "name": "Iorvethe", "url": "https://github.com/Iorvethe" }
 		],
-		"keywords": [
-			"system"
-		]
+		"keywords": ["system"]
 	},
 	{
 		"name": "Discord RPC Maker",
@@ -660,9 +467,7 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"web"
-		],
+		"keywords": ["web"],
 		"variants": true
 	},
 	{
@@ -674,9 +479,7 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"system"
-		]
+		"keywords": ["system"]
 	},
 	{
 		"name": "Instatus",
@@ -687,22 +490,13 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"web"
-		]
+		"keywords": ["web"]
 	},
 	{
 		"name": "Google Chrome",
 		"repo": "https://github.com/rose-pine/google-chrome",
-		"maintainers": [
-			{
-				"name": "fvrests",
-				"url": "https://github.com/fvrests"
-			}
-		],
-		"keywords": [
-			"app"
-		],
+		"maintainers": [{ "name": "fvrests", "url": "https://github.com/fvrests" }],
+		"keywords": ["app"],
 		"variants": true
 	},
 	{
@@ -714,9 +508,7 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"system"
-		],
+		"keywords": ["system"],
 		"variants": true
 	},
 	{
@@ -728,10 +520,7 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"app",
-			"mobile"
-		]
+		"keywords": ["app", "mobile"]
 	},
 	{
 		"name": "Helix",
@@ -746,9 +535,7 @@
 				"url": "https://github.com/chunghh"
 			}
 		],
-		"keywords": [
-			"editor"
-		]
+		"keywords": ["editor"]
 	},
 	{
 		"name": "WriteFreely",
@@ -759,9 +546,7 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"web"
-		]
+		"keywords": ["web"]
 	},
 	{
 		"name": "YouTube",
@@ -772,9 +557,7 @@
 				"url": "https://github.com/artilate"
 			}
 		],
-		"keywords": [
-			"web"
-		],
+		"keywords": ["web"],
 		"variants": true
 	},
 	{
@@ -786,9 +569,7 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"web"
-		],
+		"keywords": ["web"],
 		"variants": true
 	},
 	{
@@ -800,9 +581,7 @@
 				"url": "https://github.com/annappropriate"
 			}
 		],
-		"keywords": [
-			"terminal"
-		],
+		"keywords": ["terminal"],
 		"variants": true
 	},
 	{
@@ -814,10 +593,7 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"app",
-			"terminal"
-		],
+		"keywords": ["app", "terminal"],
 		"variants": true
 	},
 	{
@@ -829,10 +605,7 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"app",
-			"terminal"
-		],
+		"keywords": ["app", "terminal"],
 		"variants": true
 	},
 	{
@@ -844,9 +617,7 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"web"
-		],
+		"keywords": ["web"],
 		"variants": true
 	},
 	{
@@ -858,10 +629,7 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"terminal",
-			"mobile"
-		],
+		"keywords": ["terminal", "mobile"],
 		"variants": true
 	},
 	{
@@ -873,9 +641,7 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"web"
-		],
+		"keywords": ["web"],
 		"variants": false
 	},
 	{
@@ -887,9 +653,7 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": [
-			"web"
-		],
+		"keywords": ["web"],
 		"variants": false
 	},
 	{
@@ -905,9 +669,7 @@
 				"url": "https://github.com/rickstaa"
 			}
 		],
-		"keywords": [
-			"web"
-		],
+		"keywords": ["web"],
 		"variants": false
 	},
 	{
@@ -919,9 +681,7 @@
 				"url": "https://github.com/cobcobs"
 			}
 		],
-		"keywords": [
-			"web"
-		],
+		"keywords": ["web"],
 		"variants": true
 	},
 	{
@@ -933,9 +693,7 @@
 				"url": "https://github.com/artilate"
 			}
 		],
-		"keywords": [
-			"app"
-		],
+		"keywords": ["app"],
 		"variants": true
 	}
 ]
