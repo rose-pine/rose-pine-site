@@ -320,7 +320,8 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": ["app"]
+		"keywords": ["app"],
+		"variants": true
 	},
 	{
 		"name": "Mastodon",
