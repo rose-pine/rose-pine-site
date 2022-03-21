@@ -696,5 +696,17 @@
 		],
 		"keywords": ["app"],
 		"variants": true
+	},
+	{
+		"name": "Cider",
+		"repo": "https://github.com/artilate/cider",
+		"maintainers": [
+			{
+				"name": "artilate",
+				"url": "https://github.com/artilate"
+			}
+		],
+		"keywords": ["app", "music"],
+		"variants": false
 	}
 ]
