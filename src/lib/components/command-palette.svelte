@@ -1,5 +1,6 @@
 <script lang="ts">
 	import palette from '@rose-pine/palette'
+	import { locale, locales } from 'svelte-i18n'
 	import hasMatch from 'has-match'
 	import {
 		Dialog,
@@ -14,12 +15,35 @@
 		ExternalLinkIcon,
 		GithubAltIcon,
 		HomeIcon,
+		LanguageIcon,
 		PaletteIcon,
 		SearchIcon,
 		TwitterAltIcon,
 	} from '$lib/components/icons'
 	import themes from '$lib/data/themes.json'
+	import { setSafeStorage } from '$lib/util'
 	import { clipboard } from '$lib/store'
+
+	// HACK: Workaround for not being able to modify $locale except for top level
+	let htmlLocale = $locale
+	$: $locale = htmlLocale
+	$: setSafeStorage('locale', $locale)
+
+	const normalizedPages = [
+		{ name: 'Home', href: '/', icon: HomeIcon },
+		{ name: 'Themes', href: '/themes', icon: BoatIcon },
+		{ name: 'Palette', href: '/palette', icon: PaletteIcon },
+		{
+			name: 'GitHub',
+			href: 'https://github.com/rose-pine',
+			icon: GithubAltIcon,
+		},
+		{
+			name: 'Twitter',
+			href: 'https://twitter.com/rosepinetheme',
+			icon: TwitterAltIcon,
+		},
+	]
 
 	const normalizedThemes = themes.map(({ name, shortname, repo }) => ({
 		name,
@@ -47,6 +71,25 @@
 		})
 	)
 
+	// TODO: Move this to global state and utilise in site navigation
+	const languages = {
+		en: 'English',
+		fr: 'Français',
+		it: 'Italiano',
+		de: 'Deutsch',
+	}
+
+	const normalizedLocales = $locales.flatMap((locale) => {
+		return {
+			name: languages[locale],
+			hint: `Change language to ${locale}`,
+			action: () => {
+				htmlLocale = locale
+			},
+			icon: LanguageIcon,
+		}
+	})
+
 	interface Group {
 		name: string
 		items: {
@@ -63,21 +106,7 @@
 	const groups: Group[] = [
 		{
 			name: 'Pages',
-			items: [
-				{ name: 'Home', href: '/', icon: HomeIcon },
-				{ name: 'Themes', href: '/themes', icon: BoatIcon },
-				{ name: 'Palette', href: '/palette', icon: PaletteIcon },
-				{
-					name: 'GitHub',
-					href: 'https://github.com/rose-pine',
-					icon: GithubAltIcon,
-				},
-				{
-					name: 'Twitter',
-					href: 'https://twitter.com/rosepinetheme',
-					icon: TwitterAltIcon,
-				},
-			],
+			items: normalizedPages,
 		},
 		{
 			name: 'Themes',
@@ -86,6 +115,10 @@
 		{
 			name: 'Palette',
 			items: normalizedPalette,
+		},
+		{
+			name: 'Locale',
+			items: normalizedLocales,
 		},
 	]
 
@@ -152,7 +185,7 @@
 			<ul class="mt-14 max-h-[44vh] overflow-y-scroll py-2">
 				{#if !hasResult}
 					<li class="px-2">
-						<span class="list-item text-iris">No results found</span>
+						<span class="list-item text-subtle">No results found</span>
 					</li>
 				{/if}
 				{#each filteredGroups as group}
