@@ -22,7 +22,7 @@
 	} from '$lib/components/icons'
 	import themes from '$lib/data/themes.json'
 	import { setSafeStorage } from '$lib/util'
-	import { clipboard, languages } from '$lib/store'
+	import { clipboard, languages, showCommandPalette } from '$lib/store'
 
 	$: setSafeStorage('locale', $locale)
 
@@ -123,15 +123,13 @@
 		return workingGroup.items.length ? workingGroup : []
 	})
 
-	let isOpen = false
-
 	function handleKeydown(event: KeyboardEvent) {
 		if (event.key === 'Escape') {
-			isOpen = false
+			$showCommandPalette = false
 			return
 		}
 		if ((event.ctrlKey || event.metaKey) && event.key === 'k') {
-			isOpen = !isOpen
+			$showCommandPalette = !$showCommandPalette
 			return
 		}
 	}
@@ -139,7 +137,10 @@
 
 <svelte:window on:keydown={handleKeydown} />
 
-<Dialog open={isOpen} on:close={() => (isOpen = false)}>
+<Dialog
+	open={$showCommandPalette}
+	on:close={() => ($showCommandPalette = false)}
+>
 	<DialogOverlay class="fixed inset-0 bg-zinc-900/50" />
 
 	<div

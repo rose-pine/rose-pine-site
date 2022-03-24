@@ -3,6 +3,8 @@
 	import NavItem from '$lib/components/nav-item.svelte'
 	import CommandPalette from '$lib/components/command-palette.svelte'
 	import LocaleSwitcher from '$lib/components/locale-switcher.svelte'
+	import { SearchIcon } from '$lib/components/icons'
+	import { showCommandPalette } from '$lib/store'
 
 	let open = false
 
@@ -34,45 +36,56 @@
 			<CommandPalette />
 		</div>
 
-		<!-- full navigation -->
-		<nav class="hidden cursor-default sm:block">
-			<ul class="flex items-center space-x-3">
-				{#each menu as [label, href]}
-					<li>
-						<NavItem {href} {label} />
+		<div class="flex shrink-0 items-center">
+			<!-- full navigation -->
+			<nav class="hidden cursor-default sm:block">
+				<ul class="flex items-center space-x-3">
+					{#each menu as [label, href]}
+						<li>
+							<NavItem {href} {label} />
+						</li>
+					{/each}
+
+					<li class="pl-1">
+						<LocaleSwitcher />
 					</li>
-				{/each}
+				</ul>
+			</nav>
 
-				<li class="pl-1">
-					<LocaleSwitcher />
-				</li>
-			</ul>
-		</nav>
-
-		<!-- small navigation -->
-		<nav
-			class="group relative block min-w-[64px] cursor-default text-right sm:hidden"
-		>
-			<button
-				on:click={() => (open = !open)}
-				class="rounded-md bg-highlight-low px-2 py-1 text-sm text-subtle hover:bg-highlight-med focus:outline-none focus:ring focus:ring-highlight-high sm:text-md"
+			<!-- small navigation -->
+			<nav
+				class="group relative block min-w-[64px] cursor-default text-right sm:hidden"
 			>
-				Menu
-			</button>
+				<button
+					on:click={() => (open = !open)}
+					class="rounded-md bg-highlight-low px-2 py-1 text-sm text-subtle hover:bg-highlight-med focus:outline-none focus:ring focus:ring-highlight-high sm:text-md"
+				>
+					Menu
+				</button>
 
-			<ul
-				class="absolute right-0 z-50 hidden min-w-[128px] space-y-1 rounded-md bg-surface p-2 text-left shadow group-focus-within:block group-hover:block group-focus:block"
-			>
-				{#each menu as [label, href]}
-					<li class="flex items-center">
-						<NavItem {href} {label} />
+				<ul
+					class="absolute right-0 z-50 hidden min-w-[128px] space-y-1 rounded-md bg-surface p-2 text-left shadow group-focus-within:block group-hover:block group-focus:block"
+				>
+					{#each menu as [label, href]}
+						<li class="flex items-center">
+							<NavItem {href} {label} />
+						</li>
+					{/each}
+
+					<li class="pt-1">
+						<LocaleSwitcher />
 					</li>
-				{/each}
+				</ul>
+			</nav>
 
-				<li class="pt-1">
-					<LocaleSwitcher />
-				</li>
-			</ul>
-		</nav>
+			<div class="pl-3">
+				<button
+					on:click={() => ($showCommandPalette = true)}
+					class="flex h-8 w-8 items-center justify-center rounded-full bg-highlight-low text-subtle focus:outline-none focus:ring focus:ring-highlight-high"
+				>
+					<SearchIcon />
+				</button>
+			</div>
+		</div>
 	</div>
 </header>
