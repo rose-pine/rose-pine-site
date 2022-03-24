@@ -708,5 +708,17 @@
 		],
 		"keywords": ["app", "music"],
 		"variants": false
-	}
+	},
+  {
+		"name": "colorls",
+		"repo": "https://github.com/bietdoikiem/colorls",
+		"maintainers": [
+			{
+				"name": "bietdoikiem",
+				"url": "https://github.com/bietdoikiem"
+			}
+		],
+		"keywords": ["terminal"],
+		"variants": false
+  } 
 ]
