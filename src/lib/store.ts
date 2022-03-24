@@ -1,7 +1,14 @@
-import { writable } from 'svelte/store'
+import { readable, writable } from 'svelte/store'
 import { browser } from '$app/env'
 
-function copy() {
+export const languages = readable({
+	en: 'English',
+	fr: 'Français',
+	it: 'Italiano',
+	de: 'Deutsch',
+})
+
+function createClipboard() {
 	const { subscribe, set } = writable({ value: '', pos: '' })
 	let timeout: any = setTimeout
 
@@ -20,4 +27,4 @@ function copy() {
 	}
 }
 
-export const clipboard = copy()
+export const clipboard = createClipboard()

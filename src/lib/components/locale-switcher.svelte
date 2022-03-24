@@ -1,6 +1,7 @@
 <script>
 	import { _, locale } from 'svelte-i18n'
 	import { setSafeStorage } from '$lib/util'
+	import { languages } from '$lib/store'
 
 	$: setSafeStorage('locale', $locale)
 </script>
@@ -17,10 +18,11 @@
 	>
 		<option value={$locale}>{$_('component.language.label')}</option>
 		<!-- disable selected locale to ensure element displays "Languages" -->
-		<option value="en" disabled={$locale === 'en'}>English</option>
-		<option value="fr" disabled={$locale === 'fr'}>Français</option>
-		<option value="it" disabled={$locale === 'it'}>Italiano</option>
-		<option value="de" disabled={$locale === 'de'}>Deutsch</option>
+		{#each Object.keys($languages) as language}
+			<option value={language} disabled={$locale === language}>
+				{$languages[language]}
+			</option>
+		{/each}
 	</select>
 
 	<span

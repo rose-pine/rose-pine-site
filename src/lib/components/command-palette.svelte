@@ -22,7 +22,7 @@
 	} from '$lib/components/icons'
 	import themes from '$lib/data/themes.json'
 	import { setSafeStorage } from '$lib/util'
-	import { clipboard } from '$lib/store'
+	import { clipboard, languages } from '$lib/store'
 
 	// HACK: Workaround for not being able to modify $locale except for top level
 	let htmlLocale = $locale
@@ -71,14 +71,6 @@
 			}
 		})
 	)
-
-	// TODO: Move this to global state and utilise in site navigation
-	const languages = {
-		en: 'English',
-		fr: 'Français',
-		it: 'Italiano',
-		de: 'Deutsch',
-	}
 
 	const normalizedLocales = $locales.flatMap((locale) => {
 		return {
