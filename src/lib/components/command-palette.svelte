@@ -83,7 +83,7 @@
 	const normalizedLocales = $locales.flatMap((locale) => {
 		return {
 			name: languages[locale],
-			hint: `Change language to ${locale}`,
+			hint: `Change language to ${languages[locale]}`,
 			action: () => {
 				htmlLocale = locale
 			},
