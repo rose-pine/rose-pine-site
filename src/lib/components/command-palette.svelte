@@ -1,6 +1,6 @@
 <script lang="ts">
 	import palette from '@rose-pine/palette'
-	import { locale, locales } from 'svelte-i18n'
+	import { _, locale, locales } from 'svelte-i18n'
 	import hasMatch from 'has-match'
 	import {
 		Dialog,
@@ -29,10 +29,11 @@
 	$: $locale = htmlLocale
 	$: setSafeStorage('locale', $locale)
 
+	// FIXME: Translations do not update until page refresh
 	const normalizedPages = [
-		{ name: 'Home', href: '/', icon: HomeIcon },
-		{ name: 'Themes', href: '/themes', icon: BoatIcon },
-		{ name: 'Palette', href: '/palette', icon: PaletteIcon },
+		{ name: $_('page.home.nav'), href: '/', icon: HomeIcon },
+		{ name: $_('page.themes.nav'), href: '/themes', icon: BoatIcon },
+		{ name: $_('page.palette.nav'), href: '/palette', icon: PaletteIcon },
 		{
 			name: 'GitHub',
 			href: 'https://github.com/rose-pine',
