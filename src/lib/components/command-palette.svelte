@@ -26,8 +26,7 @@
 
 	$: setSafeStorage('locale', $locale)
 
-	// FIXME: Translations do not update until page refresh
-	const normalizedPages = [
+	$: normalizedPages = [
 		{ name: $_('page.home.nav'), href: '/', icon: HomeIcon },
 		{ name: $_('page.themes.nav'), href: '/themes', icon: BoatIcon },
 		{ name: $_('page.palette.nav'), href: '/palette', icon: PaletteIcon },
@@ -91,7 +90,8 @@
 		}[]
 	}
 
-	const groups: Group[] = [
+	let groups: Group[] = []
+	$: groups = [
 		{
 			name: 'Pages',
 			items: normalizedPages,
