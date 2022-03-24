@@ -24,9 +24,6 @@
 	import { setSafeStorage } from '$lib/util'
 	import { clipboard, languages } from '$lib/store'
 
-	// HACK: Workaround for not being able to modify $locale except for top level
-	let htmlLocale = $locale
-	$: $locale = htmlLocale
 	$: setSafeStorage('locale', $locale)
 
 	// FIXME: Translations do not update until page refresh
@@ -72,13 +69,11 @@
 		})
 	)
 
-	const normalizedLocales = $locales.flatMap((locale) => {
+	const normalizedLocales = $locales.flatMap((lang) => {
 		return {
-			name: languages[locale],
-			hint: `Change language to ${languages[locale]}`,
-			action: () => {
-				htmlLocale = locale
-			},
+			name: $languages[lang],
+			hint: `Change language to ${$languages[lang]}`,
+			action: () => locale.set(lang),
 			icon: LanguageIcon,
 		}
 	})
