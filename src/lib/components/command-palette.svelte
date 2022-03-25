@@ -27,17 +27,17 @@
 	$: setSafeStorage('locale', $locale)
 
 	$: normalizedPages = [
-		{ name: $_('page.home.nav'), href: '/', icon: HomeIcon },
-		{ name: $_('page.themes.nav'), href: '/themes', icon: BoatIcon },
-		{ name: $_('page.palette.nav'), href: '/palette', icon: PaletteIcon },
+		{ name: $_('page.home.nav'), url: '/', icon: HomeIcon },
+		{ name: $_('page.themes.nav'), url: '/themes', icon: BoatIcon },
+		{ name: $_('page.palette.nav'), url: '/palette', icon: PaletteIcon },
 		{
 			name: 'GitHub',
-			href: 'https://github.com/rose-pine',
+			url: 'https://github.com/rose-pine',
 			icon: GithubIcon,
 		},
 		{
 			name: 'Twitter',
-			href: 'https://twitter.com/rosepinetheme',
+			url: 'https://twitter.com/rosepinetheme',
 			icon: TwitterIcon,
 		},
 	]
@@ -45,7 +45,7 @@
 	const normalizedThemes = themes.map(({ name, shortname, repo }) => ({
 		name,
 		shortname,
-		href: repo,
+		url: repo,
 		icon: BookIcon,
 	}))
 
@@ -55,8 +55,8 @@
 
 			let formattedRole = role
 			if (role === 'highlightLow') formattedRole = 'highlight low'
-			if (role === 'highlightMed') formattedRole = 'highlight med'
-			if (role === 'highlightHigh') formattedRole = 'highlight high'
+			else if (role === 'highlightMed') formattedRole = 'highlight med'
+			else if (role === 'highlightHigh') formattedRole = 'highlight high'
 
 			return {
 				name: `${variant}/${formattedRole}`,
@@ -68,14 +68,12 @@
 		})
 	)
 
-	const normalizedLocales = $locales.flatMap((lang) => {
-		return {
-			name: $languages[lang],
-			hint: `Change language to ${$languages[lang]}`,
-			action: () => locale.set(lang),
-			icon: LanguageIcon,
-		}
-	})
+	const normalizedLocales = $locales.flatMap((lang) => ({
+		name: $languages[lang],
+		hint: `Change language to ${$languages[lang]}`,
+		action: () => locale.set(lang),
+		icon: LanguageIcon,
+	}))
 
 	interface Group {
 		name: string
@@ -86,6 +84,7 @@
 			icon: any
 			iconColor?: string
 			href?: string
+			repo?: string
 			action?: () => void
 		}[]
 	}
@@ -185,57 +184,59 @@
 							{group.name}
 						</h3>
 
-						{#each group.items as item}
-							<li class="px-2">
-								{#if item.href}
-									<a
-										href={item.href}
-										on:focus={() =>
-											(placeholder = item.hint || `Goto ${item.name}`)}
-										on:mouseover={() =>
-											(placeholder = item.hint || `Goto ${item.name}`)}
-										class="list-item"
-										target={item.href.includes('http') ? '_blank' : ''}
-									>
-										<div class="shrink-0 text-subtle">
-											{#if item.icon}
-												<svelte:component
-													this={item.icon}
-													size={18}
-													color={item.iconColor ? item.iconColor : null}
-												/>
-											{/if}
-										</div>
-										<span class="shrink-0">{item.name}</span>
-										{#if item.href.includes('http')}
-											<div class="flex w-full text-muted">
-												<div class="flex-1" />
-												<ExternalLinkIcon size={15} />
+						{#each group.items as item, i}
+							{#if i < 10}
+								<li class="px-2">
+									{#if item.url}
+										<a
+											href={item.url}
+											on:focus={() =>
+												(placeholder = item.hint || `Goto ${item.name}`)}
+											on:mouseover={() =>
+												(placeholder = item.hint || `Goto ${item.name}`)}
+											class="list-item"
+											target={item.url.includes('http') ? '_blank' : ''}
+										>
+											<div class="shrink-0 text-subtle">
+												{#if item.icon}
+													<svelte:component
+														this={item.icon}
+														size={18}
+														color={item.iconColor ? item.iconColor : null}
+													/>
+												{/if}
 											</div>
-										{/if}
-									</a>
-								{:else if item.action}
-									<button
-										on:click={item.action}
-										on:focus={() =>
-											(placeholder = item.hint || `Goto ${item.name}`)}
-										on:mouseover={() =>
-											(placeholder = item.hint || `Goto ${item.name}`)}
-										class="list-item"
-									>
-										<div class="text-subtle">
-											{#if item.icon}
-												<svelte:component
-													this={item.icon}
-													size={18}
-													color={item.iconColor ? item.iconColor : null}
-												/>
+											<span class="shrink-0">{item.name}</span>
+											{#if item.url.includes('http')}
+												<div class="flex w-full text-muted">
+													<div class="flex-1" />
+													<ExternalLinkIcon size={15} />
+												</div>
 											{/if}
-										</div>
-										<span>{item.name}</span>
-									</button>
-								{/if}
-							</li>
+										</a>
+									{:else if item.action}
+										<button
+											on:click={item.action}
+											on:focus={() =>
+												(placeholder = item.hint || `Goto ${item.name}`)}
+											on:mouseover={() =>
+												(placeholder = item.hint || `Goto ${item.name}`)}
+											class="list-item"
+										>
+											<div class="text-subtle">
+												{#if item.icon}
+													<svelte:component
+														this={item.icon}
+														size={18}
+														color={item.iconColor ? item.iconColor : null}
+													/>
+												{/if}
+											</div>
+											<span>{item.name}</span>
+										</button>
+									{/if}
+								</li>
+							{/if}
 						{/each}
 					{/if}
 				{/each}
