@@ -24,6 +24,9 @@
 	import { setSafeStorage } from '$lib/util'
 	import { clipboard, languages, showCommandPalette } from '$lib/store'
 
+	const variants = Object.keys(palette.variants)
+	const roles = Object.keys(palette.roles)
+
 	$: setSafeStorage('locale', $locale)
 
 	$: normalizedPages = [
@@ -49,8 +52,8 @@
 		icon: BookIcon,
 	}))
 
-	const normalizedPalette = Object.keys(palette.variants).flatMap((variant) =>
-		Object.keys(palette.roles).flatMap((role) => {
+	const normalizedPalette = variants.flatMap((variant) => {
+		return roles.flatMap((role) => {
 			const color = palette.variants[variant][role]
 
 			let formattedRole = role
