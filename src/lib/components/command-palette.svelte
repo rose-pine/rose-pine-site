@@ -13,12 +13,12 @@
 		BookIcon,
 		DotIcon,
 		ExternalLinkIcon,
-		GithubAltIcon,
+		GithubIcon,
 		HomeIcon,
 		LanguageIcon,
 		PaletteIcon,
 		SearchIcon,
-		TwitterAltIcon,
+		TwitterIcon,
 	} from '$lib/components/icons'
 	import themes from '$lib/data/themes.json'
 	import { setSafeStorage } from '$lib/util'
@@ -33,12 +33,12 @@
 		{
 			name: 'GitHub',
 			href: 'https://github.com/rose-pine',
-			icon: GithubAltIcon,
+			icon: GithubIcon,
 		},
 		{
 			name: 'Twitter',
 			href: 'https://twitter.com/rosepinetheme',
-			icon: TwitterAltIcon,
+			icon: TwitterIcon,
 		},
 	]
 
