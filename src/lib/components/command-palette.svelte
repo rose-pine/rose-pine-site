@@ -45,12 +45,14 @@
 		},
 	]
 
-	const normalizedThemes = themes.map(({ name, shortname, repo }) => ({
-		name,
-		shortname,
-		url: repo,
-		icon: BookIcon,
-	}))
+	const normalizedThemes = themes
+		.filter((_, i) => i < 5)
+		.map(({ name, shortname, repo }) => ({
+			name,
+			shortname,
+			url: repo,
+			icon: BookIcon,
+		}))
 
 	const normalizedPalette = variants.flatMap((variant) => {
 		return roles.flatMap((role) => {
@@ -69,7 +71,7 @@
 				iconColor: color.hex,
 			}
 		})
-	)
+	})
 
 	const normalizedLocales = $locales.flatMap((lang) => ({
 		name: $languages[lang],
@@ -187,59 +189,57 @@
 							{group.name}
 						</h3>
 
-						{#each group.items as item, i}
-							{#if i < 10}
-								<li class="px-2">
-									{#if item.url}
-										<a
-											href={item.url}
-											on:focus={() =>
-												(placeholder = item.hint || `Goto ${item.name}`)}
-											on:mouseover={() =>
-												(placeholder = item.hint || `Goto ${item.name}`)}
-											class="list-item"
-											target={item.url.includes('http') ? '_blank' : ''}
-										>
-											<div class="shrink-0 text-subtle">
-												{#if item.icon}
-													<svelte:component
-														this={item.icon}
-														size={18}
-														color={item.iconColor ? item.iconColor : null}
-													/>
-												{/if}
-											</div>
-											<span class="shrink-0">{item.name}</span>
-											{#if item.url.includes('http')}
-												<div class="flex w-full text-muted">
-													<div class="flex-1" />
-													<ExternalLinkIcon size={15} />
-												</div>
+						{#each group.items as item}
+							<li class="px-2">
+								{#if item.url}
+									<a
+										href={item.url}
+										on:focus={() =>
+											(placeholder = item.hint || `Goto ${item.name}`)}
+										on:mouseover={() =>
+											(placeholder = item.hint || `Goto ${item.name}`)}
+										class="list-item"
+										target={item.url.includes('http') ? '_blank' : ''}
+									>
+										<div class="shrink-0 text-subtle">
+											{#if item.icon}
+												<svelte:component
+													this={item.icon}
+													size={18}
+													color={item.iconColor ? item.iconColor : null}
+												/>
 											{/if}
-										</a>
-									{:else if item.action}
-										<button
-											on:click={item.action}
-											on:focus={() =>
-												(placeholder = item.hint || `Goto ${item.name}`)}
-											on:mouseover={() =>
-												(placeholder = item.hint || `Goto ${item.name}`)}
-											class="list-item"
-										>
-											<div class="text-subtle">
-												{#if item.icon}
-													<svelte:component
-														this={item.icon}
-														size={18}
-														color={item.iconColor ? item.iconColor : null}
-													/>
-												{/if}
+										</div>
+										<span class="shrink-0">{item.name}</span>
+										{#if item.url.includes('http')}
+											<div class="flex w-full text-muted">
+												<div class="flex-1" />
+												<ExternalLinkIcon size={15} />
 											</div>
-											<span>{item.name}</span>
-										</button>
-									{/if}
-								</li>
-							{/if}
+										{/if}
+									</a>
+								{:else if item.action}
+									<button
+										on:click={item.action}
+										on:focus={() =>
+											(placeholder = item.hint || `Goto ${item.name}`)}
+										on:mouseover={() =>
+											(placeholder = item.hint || `Goto ${item.name}`)}
+										class="list-item"
+									>
+										<div class="text-subtle">
+											{#if item.icon}
+												<svelte:component
+													this={item.icon}
+													size={18}
+													color={item.iconColor ? item.iconColor : null}
+												/>
+											{/if}
+										</div>
+										<span>{item.name}</span>
+									</button>
+								{/if}
+							</li>
 						{/each}
 					{/if}
 				{/each}
