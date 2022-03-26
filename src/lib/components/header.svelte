@@ -4,7 +4,7 @@
 	import CommandPalette from '$lib/components/command-palette.svelte'
 	import LocaleSwitcher from '$lib/components/locale-switcher.svelte'
 	import { SearchIcon } from '$lib/components/icons'
-	import { showCommandPalette } from '$lib/store'
+	import { commandPaletteIsOpen } from '$lib/store'
 
 	let open = false
 
@@ -80,7 +80,7 @@
 
 			<div class="pl-3">
 				<button
-					on:click={() => ($showCommandPalette = true)}
+					on:click={() => commandPaletteIsOpen.set(true)}
 					class="flex h-8 w-8 items-center justify-center rounded-full bg-highlight-low text-subtle focus:outline-none focus:ring focus:ring-highlight-high"
 				>
 					<SearchIcon />
