@@ -1,5 +1,5 @@
 <script>
-	import { GithubIcon, TwitterIcon } from '$lib/components/icons'
+	import { GithubLogoIcon, TwitterLogoIcon } from '$lib/components/icons'
 </script>
 
 <footer class="mx-auto w-full max-w-content">
@@ -16,7 +16,7 @@
 				aria-label="GitHub"
 				class="flex h-6 w-6 items-center justify-center rounded hover:bg-highlight-low focus:outline-none focus:ring focus:ring-highlight-high"
 			>
-				<GithubIcon size={20} />
+				<GithubLogoIcon size={20} />
 			</a>
 
 			<div class="text-xs text-highlight-high">|</div>
@@ -26,7 +26,7 @@
 				aria-label="Twitter"
 				class="flex h-6 w-6 items-center justify-center rounded hover:bg-highlight-low focus:outline-none focus:ring focus:ring-highlight-high"
 			>
-				<TwitterIcon size={18} />
+				<TwitterLogoIcon size={18} />
 			</a>
 		</div>
 	</div>
