@@ -72,7 +72,7 @@
 	:root {
 		--base: #faf4ed;
 		--surface: #fffaf3;
-		--overlay: #f2e9de;
+		--overlay: #f2e9e1;
 		--muted: #9893a5;
 		--subtle: #797593;
 		--text: #575279;
