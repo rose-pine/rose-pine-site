@@ -123,6 +123,7 @@
 							<li class="px-2">
 								<a
 									href={item.url}
+									target={item.url.includes('http') ? '_blank' : ''}
 									class="group flex items-center space-x-1 rounded px-2 py-2 hover:bg-highlight-low focus:outline-none focus:ring-2 focus:ring-highlight-high"
 								>
 									<div class="pr-1">
