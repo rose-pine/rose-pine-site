@@ -113,7 +113,9 @@
 			<ul class="max-h-96 overflow-y-auto py-4 text-sm">
 				{#each filteredGroups as group}
 					{#if group.items.length > 0}
-						<h3 class="px-4 pt-4 pb-2 text-xs font-semibold text-subtle">
+						<h3
+							class="px-4 pt-4 pb-2 text-xs font-semibold text-subtle first:pt-0"
+						>
 							{group.name}
 						</h3>
 
