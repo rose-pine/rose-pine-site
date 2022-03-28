@@ -720,5 +720,17 @@
 		],
 		"keywords": ["terminal"],
 		"variants": false
-  } 
+  }, 
+	{
+		"name": "Blink Shell",
+		"repo": "https://github.com/ng-hai/rose-pine-blinksh",
+		"maintainers": [
+			{
+				"name": "Hai Nguyen",
+				"url": "https://github.com/ng-hai"
+			}
+		],
+		"keywords": ["app", "terminal", "mobile"],
+		"variants": true
+	}
 ]
