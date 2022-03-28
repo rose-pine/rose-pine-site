@@ -63,7 +63,7 @@
 
 				<div class="relative flex items-center pl-1">
 					<label for="color-format" class="sr-only">
-						{$_('component.ingredients.format-select.label')}
+						{$_('component.ingredients.format.label')}
 					</label>
 
 					<select
@@ -72,13 +72,13 @@
 						class="w-full appearance-none rounded-md bg-highlight-low py-1 pr-7 pl-2 text-sm leading-normal text-subtle focus:outline-none focus:ring focus:ring-highlight-high"
 					>
 						<option value={colorFormat}
-							>{$_('component.ingredients.format-select.options.format')}
+							>{$_('component.ingredients.format.label')}
 						</option>
 						<option value="default" disabled={colorFormat === 'default'}
-							>{$_('component.ingredients.format-select.options.default')}
+							>{$_('component.ingredients.format.options.default')}
 						</option>
 						<option value="unstyled" disabled={colorFormat === 'unstyled'}
-							>{$_('component.ingredients.format-select.options.unstyled')}
+							>{$_('component.ingredients.format.options.unstyled')}
 						</option>
 					</select>
 
@@ -136,7 +136,7 @@
 											clipboard.copy(color.hex, `${variant}.${role}.hex`)}
 									>
 										{#if $clipboard.pos === `${variant}.${role}.hex`}
-											<span class="text-rose">copied</span>
+											<span class="text-rose">{$_('common.copied')}</span>
 										{:else}
 											<span>{color.hex}</span>
 										{/if}
@@ -148,7 +148,7 @@
 											clipboard.copy(color.rgb, `${variant}.${role}.rgb`)}
 									>
 										{#if $clipboard.pos === `${variant}.${role}.rgb`}
-											<span class="text-rose">copied</span>
+											<span class="text-rose">{$_('common.copied')}</span>
 										{:else}
 											<span>{color.rgb}</span>
 										{/if}
@@ -160,7 +160,7 @@
 											clipboard.copy(color.hsl, `${variant}.${role}.hsl`)}
 									>
 										{#if $clipboard.pos === `${variant}.${role}.hsl`}
-											<span class="text-rose">copied</span>
+											<span class="text-rose">{$_('common.copied')}</span>
 										{:else}
 											<span>{color.hsl}</span>
 										{/if}

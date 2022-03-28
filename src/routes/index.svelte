@@ -34,7 +34,7 @@
 					href="/themes"
 					class="rounded-full bg-highlight-med px-6 py-2.5 font-medium transition-colors duration-150 hover:bg-highlight-high focus:outline-none focus:ring focus:ring-highlight-high"
 				>
-					{$_('page.home.primary-action')} <span class="ml-1">→</span>
+					{$_('page.home.action.primary')} <span class="ml-1">→</span>
 				</a>
 			</div>
 		</div>
@@ -55,10 +55,10 @@
 				<SeedingIcon size={24} />
 			</div>
 			<h3 class="font-display text-xl font-bold">
-				{$_('page.home.section.feature.subtle.heading')}
+				{$_('page.home.feature.1.heading')}
 			</h3>
 			<p class="text-subtle sm:max-w-xs">
-				{$_('page.home.section.feature.subtle.content')}
+				{$_('page.home.feature.1.content')}
 			</p>
 		</li>
 
@@ -69,10 +69,10 @@
 				<SquaresFilledIcon size={24} />
 			</div>
 			<h3 class="font-display text-xl font-bold">
-				{$_('page.home.section.feature.adaptive.heading')}
+				{$_('page.home.feature.2.heading')}
 			</h3>
 			<p class="text-subtle md:max-w-xs">
-				{$_('page.home.section.feature.adaptive.content')}
+				{$_('page.home.feature.2.content')}
 			</p>
 		</li>
 
@@ -83,10 +83,10 @@
 				<GrainIcon size={24} />
 			</div>
 			<h3 class="font-display text-xl font-bold">
-				{$_('page.home.section.feature.community.heading')}
+				{$_('page.home.feature.3.heading')}
 			</h3>
 			<p class="text-subtle md:max-w-xs">
-				{$_('page.home.section.feature.community.content', {
+				{$_('page.home.feature.3.content', {
 					values: { number: Math.floor(themes.length / 10) * 10 },
 				})}
 			</p>

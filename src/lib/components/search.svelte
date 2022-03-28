@@ -2,10 +2,9 @@
 	import { _ } from 'svelte-i18n'
 	import { SearchIcon } from '$lib/components/icons'
 
-	export let search = ''
-	export let label = $_('component.search.label')
-	export let placeholder = $_('component.search.placeholder')
-	export let showFocusHelp = true
+	export let query = ''
+	export let label = $_('common.search.label')
+	export let placeholder = $_('common.search.label')
 	let element
 </script>
 
@@ -18,13 +17,11 @@
 	</label>
 
 	<input
+		id="search"
 		type="text"
 		bind:this={element}
-		id="search"
-		placeholder={`${placeholder} ${
-			showFocusHelp ? $_('component.search.focus-help') : ''
-		}`}
-		bind:value={search}
+		bind:value={query}
+		{placeholder}
 		class="h-10 w-full bg-transparent py-3 pr-3 text-sm font-medium text-text placeholder-muted selection:bg-highlight-high focus:outline-none"
 	/>
 </div>
