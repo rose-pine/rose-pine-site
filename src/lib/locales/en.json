@@ -4,21 +4,21 @@
 			"nav": "Home",
 			"title": "Something beautiful",
 			"description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist",
-			"primary-action": "Discover",
-			"section": {
-				"feature": {
-					"subtle": {
-						"heading": "Subtle aesthetics",
-						"content": "Give your eyes a well-deserved break with our soft, comfy palette"
-					},
-					"adaptive": {
-						"heading": "Adaptive moods",
-						"content": "Enjoy variants tailored for every hour of your day"
-					},
-					"community": {
-						"heading": "Community driven",
-						"content": "You helped bring Rosé Pine to over {number} of your favourite apps"
-					}
+			"action": {
+				"primary": "Discover"
+			},
+			"feature": {
+				"1": {
+					"heading": "Subtle aesthetics",
+					"content": "Give your eyes a well-deserved break with our soft, comfy palette"
+				},
+				"2": {
+					"heading": "Adaptive moods",
+					"content": "Enjoy variants tailored for every hour of your day"
+				},
+				"3": {
+					"heading": "Community driven",
+					"content": "You helped bring Rosé Pine to over {number} of your favourite apps"
 				}
 			}
 		},
@@ -26,44 +26,42 @@
 			"nav": "Themes",
 			"title": "Themes",
 			"description": "Hand-crafted collection of soho vibes",
-			"stat": {
+			"action": {
+				"contribute": "Contribute something new"
+			},
+			"snippet": {
 				"ports": "{number} Ports",
 				"maintainers": "{number} Maintainers"
 			},
 			"search": {
 				"label": "Search themes",
-				"placeholder": "Search {number} themes"
-			},
-			"no-result": {
-				"heading": "No matches found",
-				"content-prefix": "Contribute something new",
-				"content": "or try a new search"
+				"placeholder": "Search {number} themes (Press \"{key}\" to focus)"
 			}
 		},
 		"palette": {
 			"nav": "Palette",
 			"title": "Palette",
 			"description": "Curated colours, endless creations",
-			"switch": {
+			"action": {
 				"swatches": "Swatches",
 				"ingredients": "Ingredients"
 			}
 		}
 	},
-	"component": {
-		"language": {
-			"label": "Languages"
-		},
+	"common": {
+		"copied": "Copied",
+		"languages": "Languages",
 		"search": {
 			"label": "Search",
-			"placeholder": "Search...",
-			"focus-help": "(Press \"/\" to focus)"
-		},
+			"empty": "No matches found",
+			"focus": "Press \"{key}\" to focus"
+		}
+	},
+	"component": {
 		"ingredients": {
-			"format-select": {
-				"label": "Color format",
+			"format": {
+				"label": "Format",
 				"options": {
-					"format": "Format",
 					"default": "Default",
 					"unstyled": "Unstyled"
 				}

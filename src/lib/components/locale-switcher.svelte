@@ -8,7 +8,7 @@
 
 <div class="relative flex items-center">
 	<label for="languages" class="sr-only">
-		{$_('component.language.label')}
+		{$_('common.languages')}
 	</label>
 
 	<select
@@ -16,7 +16,7 @@
 		bind:value={$locale}
 		class="w-full appearance-none rounded-md bg-highlight-low py-1 pr-7 pl-2 text-sm leading-normal text-subtle focus:outline-none focus:ring focus:ring-highlight-high"
 	>
-		<option value={$locale}>{$_('component.language.label')}</option>
+		<option value={$locale}>{$_('common.languages')}</option>
 		<!-- disable selected locale to ensure element displays "Languages" -->
 		{#each Object.keys($languages) as language}
 			<option value={language} disabled={$locale === language}>
