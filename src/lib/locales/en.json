@@ -1,13 +1,13 @@
 {
-	"page": {
+	"pages": {
 		"home": {
 			"nav": "Home",
 			"title": "Something beautiful",
 			"description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist",
-			"action": {
+			"buttons": {
 				"primary": "Discover"
 			},
-			"feature": {
+			"feature_grid": {
 				"1": {
 					"heading": "Subtle aesthetics",
 					"content": "Give your eyes a well-deserved break with our soft, comfy palette"
@@ -26,46 +26,44 @@
 			"nav": "Themes",
 			"title": "Themes",
 			"description": "Hand-crafted collection of soho vibes",
-			"action": {
-				"contribute": "Contribute something new"
-			},
-			"snippet": {
+			"stats": {
 				"ports": "{number} Ports",
 				"maintainers": "{number} Maintainers"
 			},
 			"search": {
 				"label": "Search themes",
-				"placeholder": "Search {number} themes (Press \"{key}\" to focus)"
+				"placeholder": "Search {number} themes (Press \"{key}\" to focus)",
+				"empty_prompt": "Contribute something new"
 			}
 		},
 		"palette": {
 			"nav": "Palette",
 			"title": "Palette",
 			"description": "Curated colours, endless creations",
-			"action": {
-				"swatches": "Swatches",
-				"ingredients": "Ingredients"
-			}
-		}
-	},
-	"common": {
-		"copied": "Copied",
-		"languages": "Languages",
-		"search": {
-			"label": "Search",
-			"empty": "No matches found",
-			"focus": "Press \"{key}\" to focus"
-		}
-	},
-	"component": {
-		"ingredients": {
-			"format": {
-				"label": "Format",
-				"options": {
+			"buttons": {
+				"copied": "Copied",
+				"format": {
+					"label": "Format",
 					"default": "Default",
 					"unstyled": "Unstyled"
-				}
+				},
+				"ingredients": "Ingredients",
+				"swatches": "Swatches"
 			}
 		}
+	},
+	"global_search": {
+		"headings": {
+			"pages": "Pages",
+			"themes": "Themes",
+			"socials": "Socials"
+		},
+		"search": {
+			"label": "Search",
+			"empty": "No matches found"
+		}
+	},
+	"languages": {
+		"label": "Languages"
 	}
 }
