@@ -1,10 +1,10 @@
 {
-	"pages": {
+	"page": {
 		"home": {
 			"nav": "Home",
 			"title": "Something beautiful",
 			"description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist",
-			"buttons": {
+			"button": {
 				"primary": "Discover"
 			},
 			"feature_grid": {
@@ -26,13 +26,14 @@
 			"nav": "Themes",
 			"title": "Themes",
 			"description": "Hand-crafted collection of soho vibes",
-			"stats": {
+			"stat": {
 				"ports": "{number} Ports",
 				"maintainers": "{number} Maintainers"
 			},
 			"search": {
 				"label": "Search themes",
 				"placeholder": "Search {number} themes (Press \"{key}\" to focus)",
+				"empty": "No matches found",
 				"empty_prompt": "Contribute something new"
 			}
 		},
@@ -40,7 +41,7 @@
 			"nav": "Palette",
 			"title": "Palette",
 			"description": "Curated colours, endless creations",
-			"buttons": {
+			"button": {
 				"copied": "Copied",
 				"format": {
 					"label": "Format",
@@ -53,10 +54,10 @@
 		}
 	},
 	"global_search": {
-		"headings": {
+		"heading": {
 			"pages": "Pages",
 			"themes": "Themes",
-			"socials": "Socials"
+			"social": "Social"
 		},
 		"search": {
 			"label": "Search",

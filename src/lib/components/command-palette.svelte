@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { _ } from 'svelte-i18n'
 	import { Dialog, DialogOverlay } from '@rgossiaux/svelte-headlessui'
 	import {
 		BoatIcon,
@@ -15,9 +16,9 @@
 	let query = ''
 
 	const pages = [
-		{ name: 'Home', url: '/', icon: HomeIcon },
-		{ name: 'Themes', url: '/themes', icon: BoatIcon },
-		{ name: 'Palette', url: '/palette', icon: PaletteIcon },
+		{ name: $_('page.home.nav'), url: '/', icon: HomeIcon },
+		{ name: $_('page.themes.nav'), url: '/themes', icon: BoatIcon },
+		{ name: $_('page.palette.nav'), url: '/palette', icon: PaletteIcon },
 	]
 
 	const socials = [
@@ -55,9 +56,9 @@
 	type Group = { name: string; items: Item[] }
 
 	const groups: Group[] = [
-		{ name: 'Pages', items: pages },
-		{ name: 'Themes', items: themes },
-		{ name: 'Socials', items: socials },
+		{ name: $_('global_search.heading.pages'), items: pages },
+		{ name: $_('global_search.heading.themes'), items: themes },
+		{ name: $_('global_search.heading.social'), items: socials },
 	]
 
 	// Return limited number of items when there is no query
@@ -105,7 +106,7 @@
 				id="search"
 				bind:value={query}
 				class="h-12 w-full border-0 bg-transparent px-2 text-sm placeholder-subtle focus:outline-none"
-				placeholder="Search..."
+				placeholder={`${$_('global_search.search.label')}...`}
 			/>
 		</div>
 
@@ -146,7 +147,7 @@
 		{/if}
 
 		{#if query.length && !hasResults}
-			<p class="p-4 text-sm text-subtle">No results found</p>
+			<p class="p-4 text-sm text-subtle">{$_('global_search.search.empty')}</p>
 		{/if}
 	</div>
 </Dialog>

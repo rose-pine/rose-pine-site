@@ -4,21 +4,21 @@
 			"nav": "Casa",
 			"title": "Qualcosa di bello",
 			"description": "Pino tutto naturale, pelliccia sintetica e un po' di vibrazioni soho per il minimalista di classe",
-			"primary-action": "Scoprire",
-			"section": {
-				"feature": {
-					"subtle": {
-						"heading": "Estetica sottile",
-						"content": "Dai ai tuoi occhi una meritata pausa con la nostra palette morbida e confortevole"
-					},
-					"adaptive": {
-						"heading": "Stati d'animo adattivi",
-						"content": "Goditi le varianti su misura per ogni ora della tua giornata"
-					},
-					"community": {
-						"heading": "Guidato dalla comunità",
-						"content": "Hai contribuito a portare Rosé Pine su oltre {number} delle tue app preferite"
-					}
+			"button": {
+				"primary": "Scoprire"
+			},
+			"feature_grid": {
+				"1": {
+					"heading": "Estetica sottile",
+					"content": "Dai ai tuoi occhi una meritata pausa con la nostra palette morbida e confortevole"
+				},
+				"2": {
+					"heading": "Stati d'animo adattivi",
+					"content": "Goditi le varianti su misura per ogni ora della tua giornata"
+				},
+				"3": {
+					"heading": "Guidato dalla comunità",
+					"content": "Hai contribuito a portare Rosé Pine su oltre {number} delle tue app preferite"
 				}
 			}
 		},
@@ -32,42 +32,39 @@
 			},
 			"search": {
 				"label": "Ricerca temi",
-				"placeholder": "Ricerca {number} temi"
-			},
-			"no-result": {
-				"heading": "Nessun risultato trovato",
-				"content-prefix": "Contribuire con qualcosa di nuovo",
-				"content": "o prova una nuova ricerca"
+				"placeholder": "Ricerca {number} temi (Premere \"/\" focalizzare)",
+				"empty": "Nessun risultato trovato",
+				"empty_prompt": "Contribuire con qualcosa di nuovo"
 			}
 		},
 		"palette": {
 			"nav": "Tavolozza",
 			"title": "Tavolozza",
 			"description": "Colori curati, creazioni infinite",
-			"switch": {
-				"swatches": "Campioni",
-				"ingredients": "Ingredienti"
+			"button": {
+				"copied": "Copiato",
+				"format": {
+					"label": "Formato",
+					"default": "Predefinito",
+					"unstyled": "Senza stile"
+				},
+				"ingredients": "Ingredienti",
+				"swatches": "Campioni"
 			}
 		}
 	},
-	"component": {
-		"language": {
-			"label": "Lingue"
+	"global_search": {
+		"heading": {
+			"pages": "Pagine",
+			"themes": "Temi",
+			"social": "Sociale"
 		},
 		"search": {
 			"label": "Ricerca",
-			"placeholder": "Ricerca...",
-			"focus-help": "(Premere \"/\" focalizzare)"
-		},
-		"ingredients": {
-			"format-select": {
-				"label": "Formato colore",
-				"options": {
-					"format": "Formato",
-					"default": "Predefinito",
-					"unstyled": "Senza stile"
-				}
-			}
+			"empty": "Nessun risultato trovato"
 		}
+	},
+	"languages": {
+		"label": "Lingue"
 	}
 }

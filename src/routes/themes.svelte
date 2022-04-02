@@ -52,7 +52,7 @@
 					<span
 						class="bg-gradient-to-r from-rose to-iris bg-clip-text text-sm font-medium text-transparent"
 					>
-						{$_('page.themes.snippet.ports', {
+						{$_('page.themes.stat.ports', {
 							values: { number: themes.length },
 						})}
 					</span>
@@ -66,7 +66,7 @@
 					<span
 						class="bg-gradient-to-r from-iris to-foam bg-clip-text text-sm font-medium text-transparent"
 					>
-						{$_('page.themes.snippet.maintainers', {
+						{$_('page.themes.stat.maintainers', {
 							values: { number: maintainers.length },
 						})}
 					</span>
@@ -96,14 +96,14 @@
 			<li
 				class="col-span-full mx-auto flex h-full w-full max-w-lg flex-col items-center rounded-2xl bg-gradient-to-br from-surface via-base to-surface bg-[length:200%_200%] bg-left-top py-8 shadow transition-all duration-200 ease-in-out dark:from-overlay dark:to-base dark:shadow-none sm:py-12"
 			>
-				<p class="font-display">{$_('common.search.empty')}</p>
+				<p class="font-display">{$_('page.themes.search.empty')}</p>
 				<a
 					rel="external"
 					target="_blank"
 					href="https://github.com/rose-pine/.github/blob/main/contributing.md"
 					class="mt-4 text-sm text-rose underline underline-offset-2"
 				>
-					{$_('page.themes.action.contribute')}
+					{$_('page.themes.search.empty_prompt')}
 				</a>
 			</li>
 		{:else}

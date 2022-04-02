@@ -39,7 +39,7 @@
 						? 'var(--surface)'
 						: 'var(--highlight-med)'}
 				>
-					{$_('page.palette.action.swatches')}
+					{$_('page.palette.button.swatches')}
 				</button>
 
 				<button
@@ -50,7 +50,7 @@
 						? 'var(--surface)'
 						: 'var(--highlight-med)'}
 				>
-					{$_('page.palette.action.ingredients')}
+					{$_('page.palette.button.ingredients')}
 				</button>
 			</div>
 		</div>
