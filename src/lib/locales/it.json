@@ -54,6 +54,8 @@
 		}
 	},
 	"global_search": {
+		"title": "Ricerca nel sito",
+		"description": "I risultati si aggiorneranno mentre digiti",
 		"heading": {
 			"pages": "Pagine",
 			"themes": "Temi",

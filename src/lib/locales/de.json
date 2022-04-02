@@ -54,6 +54,8 @@
 		}
 	},
 	"global_search": {
+		"title": "Seitensuche",
+		"description": "Die Ergebnisse werden während der Eingabe aktualisiert",
 		"heading": {
 			"pages": "Seiten",
 			"themes": "Themes",

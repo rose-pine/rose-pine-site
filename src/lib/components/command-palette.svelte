@@ -1,6 +1,11 @@
 <script lang="ts">
 	import { _ } from 'svelte-i18n'
-	import { Dialog, DialogOverlay } from '@rgossiaux/svelte-headlessui'
+	import {
+		Dialog,
+		DialogOverlay,
+		DialogTitle,
+		DialogDescription,
+	} from '@rgossiaux/svelte-headlessui'
 	import {
 		BoatIcon,
 		BookIcon,
@@ -94,6 +99,14 @@
 	class="fixed inset-0 z-20 overflow-y-auto p-4 pt-[25vh]"
 >
 	<DialogOverlay class="fixed inset-0 bg-zinc-900/50" />
+
+	<DialogTitle class="sr-only">
+		{$_('global_search.title')}
+	</DialogTitle>
+
+	<DialogDescription class="sr-only">
+		{$_('global_search.description')}
+	</DialogDescription>
 
 	<div
 		class="relative mx-auto max-w-md divide-y divide-highlight-low overflow-hidden rounded-xl border bg-surface shadow-lg"
