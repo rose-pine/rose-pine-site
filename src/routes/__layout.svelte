@@ -61,6 +61,7 @@
 		font-style: normal;
 		font-weight: bold;
 		src: url('/fonts/PierSans-Bold.otf') format('opentype');
+		font-display: swap;
 	}
 
 	@tailwind base;

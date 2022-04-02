@@ -7,6 +7,11 @@
 	let view = Swatches
 </script>
 
+<svelte:head>
+	<title>Rosé Pine | {$_('page.palette.nav')}</title>
+	<meta name="description" content={$_('page.palette.description')} />
+</svelte:head>
+
 <Section>
 	<div
 		class="flex flex-col items-center justify-between text-center lg:flex-row lg:text-left"

@@ -10,15 +10,16 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1, maximum-scale=1"
 		/>
-		<meta property="og:image" content="/og.jpg" />
+		<meta property="og:image" content="%svelte.assets%/og.jpg" />
 		<meta property="og:locale" content="en" />
 		<meta property="og:locale:alternate" content="fr" />
 		<meta property="og:locale:alternate" content="it" />
-		<link rel="icon" href="/favicon.png" />
+		<meta property="og:locale:alternate" content="de" />
+		<link rel="icon" href="%svelte.assets%/favicon.png" />
 		<title>Rosé Pine</title>
 		%svelte.head%
 	</head>
 	<body>
-		<div id="svelte">%svelte.body%</div>
+		<div>%svelte.body%</div>
 	</body>
 </html>

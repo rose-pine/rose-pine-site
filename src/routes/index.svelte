@@ -10,6 +10,11 @@
 	import themes from '$lib/data/themes.json'
 </script>
 
+<svelte:head>
+	<title>Rosé Pine | {$_('page.home.nav')}</title>
+	<meta name="description" content={$_('page.home.description')} />
+</svelte:head>
+
 <Section>
 	<div
 		class="grid min-h-[calc(100vh-14rem)] items-center gap-12 lg:grid-cols-[1fr,minmax(0,1fr)]"
