@@ -11,7 +11,7 @@
 		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
 		"prepare": "husky install",
-    "test": "ava"
+		"test": "ava"
 	},
 	"dependencies": {
 		"@rose-pine/palette": "^2.1.0",
