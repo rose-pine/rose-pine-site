@@ -4,21 +4,21 @@
 			"nav": "Home",
 			"title": "Something beautiful",
 			"description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist",
-			"primary-action": "Discover",
-			"section": {
-				"feature": {
-					"subtle": {
-						"heading": "Subtle aesthetics",
-						"content": "Give your eyes a well-deserved break with our soft, comfy palette"
-					},
-					"adaptive": {
-						"heading": "Adaptive moods",
-						"content": "Enjoy variants tailored for every hour of your day"
-					},
-					"community": {
-						"heading": "Community driven",
-						"content": "You helped bring Rosé Pine to over {number} of your favourite apps"
-					}
+			"button": {
+				"primary": "Discover"
+			},
+			"feature_grid": {
+				"1": {
+					"heading": "Subtle aesthetics",
+					"content": "Give your eyes a well-deserved break with our soft, comfy palette"
+				},
+				"2": {
+					"heading": "Adaptive moods",
+					"content": "Enjoy variants tailored for every hour of your day"
+				},
+				"3": {
+					"heading": "Community driven",
+					"content": "You helped bring Rosé Pine to over {number} of your favourite apps"
 				}
 			}
 		},
@@ -32,42 +32,39 @@
 			},
 			"search": {
 				"label": "Search themes",
-				"placeholder": "Search {number} themes"
-			},
-			"no-result": {
-				"heading": "No matches found",
-				"content-prefix": "Contribute something new",
-				"content": "or try a new search"
+				"placeholder": "Search {number} themes (Press \"{key}\" to focus)",
+				"empty": "No matches found",
+				"empty_prompt": "Contribute something new"
 			}
 		},
 		"palette": {
 			"nav": "Palette",
 			"title": "Palette",
 			"description": "Curated colours, endless creations",
-			"switch": {
-				"swatches": "Swatches",
-				"ingredients": "Ingredients"
+			"button": {
+				"copied": "Copied",
+				"format": {
+					"label": "Format",
+					"default": "Default",
+					"unstyled": "Unstyled"
+				},
+				"ingredients": "Ingredients",
+				"swatches": "Swatches"
 			}
 		}
 	},
-	"component": {
-		"language": {
-			"label": "Languages"
+	"global_search": {
+		"heading": {
+			"pages": "Pages",
+			"themes": "Themes",
+			"social": "Social"
 		},
 		"search": {
 			"label": "Search",
-			"placeholder": "Search...",
-			"focus-help": "(Press \"/\" to focus)"
-		},
-		"ingredients": {
-			"format-select": {
-				"label": "Color format",
-				"options": {
-					"format": "Format",
-					"default": "Default",
-					"unstyled": "Unstyled"
-				}
-			}
+			"empty": "No matches found"
 		}
+	},
+	"languages": {
+		"label": "Languages"
 	}
 }

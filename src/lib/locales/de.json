@@ -4,21 +4,21 @@
 			"nav": "Start",
 			"title": "Etwas Wunder&#173;schönes",
 			"description": "Natürliche Kiefer, Kunstpelz und ein ein paar Soho Vibes für den stilvollen Minimalisten",
-			"primary-action": "Entdecke mehr",
-			"section": {
-				"feature": {
-					"subtle": {
-						"heading": "Subtile Ästhetik",
-						"content": "Erlaube deinen Augen eine wohlverdiente Pause mit unserer sanften und komfortablen Farbpalette"
-					},
-					"adaptive": {
-						"heading": "Verschiedene Stimmungen",
-						"content": "Genieße Variationen passend zu jeder Stunde des Tages"
-					},
-					"community": {
-						"heading": "Realisiert von Euch",
-						"content": "Ihr habt geholfen Rosé Pine für über {number} Apps herauszubringen"
-					}
+			"button": {
+				"primary": "Entdecke mehr"
+			},
+			"feature_grid": {
+				"1": {
+					"heading": "Subtile Ästhetik",
+					"content": "Erlaube deinen Augen eine wohlverdiente Pause mit unserer sanften und komfortablen Farbpalette"
+				},
+				"2": {
+					"heading": "Verschiedene Stimmungen",
+					"content": "Genieße Variationen passend zu jeder Stunde des Tages"
+				},
+				"3": {
+					"heading": "Realisiert von Euch",
+					"content": "Ihr habt geholfen Rosé Pine für über {number} Apps herauszubringen"
 				}
 			}
 		},
@@ -32,42 +32,39 @@
 			},
 			"search": {
 				"label": "Suche Themes",
-				"placeholder": "Suche aus {number} Themes"
-			},
-			"no-result": {
-				"heading": "Keine Ergebnisse gefunden",
-				"content-prefix": "Erstelle selbst etwas",
-				"content": "oder versuche einen anderen Suchbegriff"
+				"placeholder": "Suche aus {number} Themes (Drücke \"/\" zum fokussieren)",
+				"empty": "Keine Ergebnisse gefunden",
+				"empty_prompt": "Erstelle selbst etwas"
 			}
 		},
 		"palette": {
 			"nav": "Palette",
 			"title": "Palette",
 			"description": "Ausgewählte Farben, endlose Kreationsmöglichkeiten",
-			"switch": {
-				"swatches": "Farben",
-				"ingredients": "Zusammensetzung"
+			"button": {
+				"copied": "Kopiert",
+				"format": {
+					"label": "Format",
+					"default": "Default",
+					"unstyled": "Ungestylt"
+				},
+				"ingredients": "Zusammensetzung",
+				"swatches": "Farben"
 			}
 		}
 	},
-	"component": {
-		"language": {
-			"label": "Sprachen"
+	"global_search": {
+		"heading": {
+			"pages": "Seiten",
+			"themes": "Themes",
+			"social": "Sozial"
 		},
 		"search": {
 			"label": "Suche",
-			"placeholder": "Suche...",
-			"focus-help": "(Drücke \"/\" zum fokussieren)"
-		},
-		"ingredients": {
-			"format-select": {
-				"label": "Farbformat",
-				"options": {
-					"format": "Format",
-					"default": "Default",
-					"unstyled": "Ungestylt"
-				}
-			}
+			"empty": "Keine Ergebnisse gefunden"
 		}
+	},
+	"languages": {
+		"label": "Sprachen"
 	}
 }

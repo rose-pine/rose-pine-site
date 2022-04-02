@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { _ } from 'svelte-i18n'
 	import palette from '@rose-pine/palette'
 	import { clipboard } from '$lib/store'
 
@@ -43,7 +44,7 @@
 						class="px-2 py-6 text-center font-display text-sm font-semibold tracking-wide md:text-md"
 					>
 						{#if $clipboard.pos === `${variant}.${role}.hex`}
-							<span class="text-rose">copied</span>
+							<span class="text-rose">{$_('page.palette.button.copied')}</span>
 						{:else}
 							<span>{colorName}</span>
 						{/if}

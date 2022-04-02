@@ -4,21 +4,21 @@
 			"nav": "Accueil",
 			"title": "Quelque chose de beau",
 			"description": "Pin naturel, fausse fourrure et un peu d'ambiance soho pour le minimaliste chic",
-			"primary-action": "Découvrir",
-			"section": {
-				"feature": {
-					"subtle": {
-						"heading": "Esthétique subtile",
-						"content": "Offrez à vos yeux une pause bien méritée avec notre palette douce et confortable"
-					},
-					"adaptive": {
-						"heading": "Humeurs adaptatives",
-						"content": "Profitez de variantes adaptées à chaque heure de votre journée"
-					},
-					"community": {
-						"heading": "Animé par la communauté",
-						"content": "Vous avez contribué à apporter Rosé Pine à plus de {number} de vos applications préférées"
-					}
+			"button": {
+				"primary": "Découvrir"
+			},
+			"feature_grid": {
+				"1": {
+					"heading": "Esthétique subtile",
+					"content": "Offrez à vos yeux une pause bien méritée avec notre palette douce et confortable"
+				},
+				"2": {
+					"heading": "Humeurs adaptatives",
+					"content": "Profitez de variantes adaptées à chaque heure de votre journée"
+				},
+				"3": {
+					"heading": "Animé par la communauté",
+					"content": "Vous avez contribué à apporter Rosé Pine à plus de {number} de vos applications préférées"
 				}
 			}
 		},
@@ -32,42 +32,39 @@
 			},
 			"search": {
 				"label": "Chercher thèmes",
-				"placeholder": "Chercher {number} thèmes"
-			},
-			"no-result": {
-				"heading": "Aucun résultat",
-				"content-prefix": "Apporter quelque chose de nouveau",
-				"content": "ou essayez une nouvelle recherche"
+				"placeholder": "Chercher {number} thèmes (Presse \"/\" se concentrer)",
+				"empty": "Aucun résultat",
+				"empty_prompt": "Apporter quelque chose de nouveau"
 			}
 		},
 		"palette": {
 			"nav": "Palette",
 			"title": "Palette",
 			"description": "Couleurs organisées, créations infinies",
-			"switch": {
-				"swatches": "Échantillons",
-				"ingredients": "Ingrédients"
+			"button": {
+				"copied": "Copié",
+				"format": {
+					"label": "Format",
+					"default": "Défaut",
+					"unstyled": "Sans style"
+				},
+				"ingredients": "Ingrédients",
+				"swatches": "Échantillons"
 			}
 		}
 	},
-	"component": {
-		"language": {
-			"label": "Langues"
+	"global_search": {
+		"heading": {
+			"pages": "Pages",
+			"themes": "Thèmes",
+			"social": "Social"
 		},
 		"search": {
 			"label": "Chercher",
-			"placeholder": "Chercher...",
-			"focus-help": "(Presse \"/\" se concentrer)"
-		},
-		"ingredients": {
-			"format-select": {
-				"label": "Format de couleur",
-				"options": {
-					"format": "Format",
-					"default": "Défaut",
-					"unstyled": "Sans style"
-				}
-			}
+			"empty": "Aucun résultat"
 		}
+	},
+	"languages": {
+		"label": "Langues"
 	}
 }

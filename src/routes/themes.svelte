@@ -11,9 +11,9 @@
 	} from '$lib/components/icons'
 	import themes from '$lib/data/themes.json'
 
-	let search = ''
+	let query = ''
 	$: filteredThemes = themes.filter((theme) =>
-		hasMatch(theme, search, ['name', 'shortname', 'keywords'])
+		hasMatch(theme, query, ['name', 'shortname', 'keywords'])
 	)
 
 	const maintainers = [
@@ -79,10 +79,10 @@
 			style="--stagger: 1"
 		>
 			<Search
-				bind:search
+				bind:query
 				label={$_('page.themes.search.label')}
 				placeholder={$_('page.themes.search.placeholder', {
-					values: { number: themes.length },
+					values: { number: themes.length, key: '/' },
 				})}
 			/>
 		</div>
@@ -96,17 +96,15 @@
 			<li
 				class="col-span-full mx-auto flex h-full w-full max-w-lg flex-col items-center rounded-2xl bg-gradient-to-br from-surface via-base to-surface bg-[length:200%_200%] bg-left-top py-8 shadow transition-all duration-200 ease-in-out dark:from-overlay dark:to-base dark:shadow-none sm:py-12"
 			>
-				<p class="font-display">{$_('page.themes.no-result.heading')}</p>
-				<p class="mt-4 text-sm font-medium">
-					<a
-						rel="external"
-						target="_blank"
-						href="https://github.com/rose-pine/.github/blob/main/contributing.md"
-						class="rounded text-iris underline decoration-subtle decoration-wavy underline-offset-4 focus:outline-none focus:ring focus:ring-highlight-high"
-						>{$_('page.themes.no-result.content-prefix')}</a
-					>
-					{$_('page.themes.no-result.content')}
-				</p>
+				<p class="font-display">{$_('page.themes.search.empty')}</p>
+				<a
+					rel="external"
+					target="_blank"
+					href="https://github.com/rose-pine/.github/blob/main/contributing.md"
+					class="mt-4 text-sm text-rose underline underline-offset-2"
+				>
+					{$_('page.themes.search.empty_prompt')}
+				</a>
 			</li>
 		{:else}
 			{#each filteredThemes as theme}
@@ -120,7 +118,7 @@
 						<p
 							class="font-display font-semibold text-md sm:text-lg text-center tracking-wide"
 						>
-							{theme.shortname || theme.name}
+							{theme.name}
 						</p>
 
 						<div class="flex-1" />

@@ -10,4 +10,4 @@ Add a new entry to [`./src/lib/data/themes.json`](https://github.com/rose-pine/r
 
 ### Translations
 
-Append `?lang=template` to the url of any page to show translation keys
+We would love help adding more translations! We'll be adding more information on how to contribute soon, but feel free to duplicate in existing language and go from there :)
