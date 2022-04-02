@@ -21,9 +21,9 @@
 	let query = ''
 
 	const pages = [
-		{ name: $_('page.home.nav'), url: '/', icon: HomeIcon },
-		{ name: $_('page.themes.nav'), url: '/themes', icon: BoatIcon },
-		{ name: $_('page.palette.nav'), url: '/palette', icon: PaletteIcon },
+		{ name: 'page.home.nav', url: '/', icon: HomeIcon },
+		{ name: 'page.themes.nav', url: '/themes', icon: BoatIcon },
+		{ name: 'page.palette.nav', url: '/palette', icon: PaletteIcon },
 	]
 
 	const socials = [
@@ -61,9 +61,9 @@
 	type Group = { name: string; items: Item[] }
 
 	const groups: Group[] = [
-		{ name: $_('global_search.heading.pages'), items: pages },
-		{ name: $_('global_search.heading.themes'), items: themes },
-		{ name: $_('global_search.heading.social'), items: socials },
+		{ name: 'global_search.heading.pages', items: pages },
+		{ name: 'global_search.heading.themes', items: themes },
+		{ name: 'global_search.heading.social', items: socials },
 	]
 
 	// Return limited number of items when there is no query
@@ -130,7 +130,7 @@
 						<h3
 							class="px-4 pt-4 pb-2 text-xs font-semibold text-subtle first:pt-0"
 						>
-							{group.name}
+							{group.name.includes('.') ? $_(group.name) : group.name}
 						</h3>
 
 						{#each group.items as item}
@@ -147,9 +147,13 @@
 											color="var(--subtle)"
 										/>
 									</div>
-									<span class="font-medium">{item.name}</span>
+									<span class="font-medium">
+										{item.name.includes('.') ? $_(item.name) : item.name}
+									</span>
 									{#if item.description}
-										<span class="text-subtle">{item.description}</span>
+										<span class="text-subtle">
+											{item.description}
+										</span>
 									{/if}
 								</a>
 							</li>
