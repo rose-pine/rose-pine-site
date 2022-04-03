@@ -8,7 +8,7 @@ export const languages = readable({
 	de: 'Deutsch',
 })
 
-export const commandPaletteIsOpen = writable(false)
+export const commandMenuIsOpen = writable(false)
 
 function createClipboard() {
 	const { subscribe, set } = writable({ value: '', pos: '' })

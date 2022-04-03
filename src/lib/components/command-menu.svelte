@@ -15,7 +15,7 @@
 		SearchIcon,
 		TwitterIcon,
 	} from '$lib/components/icons'
-	import { commandPaletteIsOpen } from '$lib/store'
+	import { commandMenuIsOpen } from '$lib/store'
 	import rawThemes from '$lib/data/themes.json'
 
 	let query = ''
@@ -88,14 +88,14 @@
 	on:keydown={(e) => {
 		// Toggle command palette via keyboard shortcut
 		if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
-			commandPaletteIsOpen.set(!$commandPaletteIsOpen)
+			commandMenuIsOpen.set(!$commandMenuIsOpen)
 		}
 	}}
 />
 
 <Dialog
-	open={$commandPaletteIsOpen}
-	on:close={() => commandPaletteIsOpen.set(false)}
+	open={$commandMenuIsOpen}
+	on:close={() => commandMenuIsOpen.set(false)}
 	class="fixed inset-0 z-20 overflow-y-auto p-4 pt-[25vh]"
 >
 	<DialogOverlay class="fixed inset-0 bg-zinc-900/50" />
