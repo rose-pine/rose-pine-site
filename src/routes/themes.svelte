@@ -26,7 +26,7 @@
 </script>
 
 <svelte:head>
-	<title>Rosé Pine | {$_('page.themes.nav')}</title>
+	<title>{$_('page.themes.nav')} | Rosé Pine</title>
 	<meta name="description" content={$_('page.themes.description')} />
 </svelte:head>
 
