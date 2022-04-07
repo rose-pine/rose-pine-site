@@ -134,6 +134,7 @@
 									<button
 										on:click={() =>
 											clipboard.copy(color.hex, `${variant}.${role}.hex`)}
+										class="rounded-md px-2 py-1 hover:bg-highlight-med focus:outline-none focus:ring focus:ring-highlight-high"
 									>
 										{#if $clipboard.pos === `${variant}.${role}.hex`}
 											<span class="text-rose">
@@ -148,6 +149,7 @@
 									<button
 										on:click={() =>
 											clipboard.copy(color.rgb, `${variant}.${role}.rgb`)}
+										class="rounded-md px-2 py-1 hover:bg-highlight-med focus:outline-none focus:ring focus:ring-highlight-high"
 									>
 										{#if $clipboard.pos === `${variant}.${role}.rgb`}
 											<span class="text-rose">
@@ -162,6 +164,7 @@
 									<button
 										on:click={() =>
 											clipboard.copy(color.hsl, `${variant}.${role}.hsl`)}
+										class="rounded-md px-2 py-1 hover:bg-highlight-med focus:outline-none focus:ring focus:ring-highlight-high"
 									>
 										{#if $clipboard.pos === `${variant}.${role}.hsl`}
 											<span class="text-rose">
