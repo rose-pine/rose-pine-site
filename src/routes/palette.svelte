@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-	<title>Rosé Pine | {$_('page.palette.nav')}</title>
+	<title>{$_('page.palette.nav')} | Rosé Pine</title>
 	<meta name="description" content={$_('page.palette.description')} />
 </svelte:head>
 
