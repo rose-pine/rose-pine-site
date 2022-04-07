@@ -16,7 +16,7 @@
 	"dependencies": {
 		"@rose-pine/palette": "^2.1.0",
 		"has-match": "^1.0.3",
-		"svelte-i18n": "^3.3.13"
+		"svelte-i18n": "^3.4.0"
 	},
 	"devDependencies": {
 		"@rgossiaux/svelte-headlessui": "^1.0.0-beta.12",
@@ -26,14 +26,14 @@
 		"ava": "^4.1.0",
 		"husky": "^7.0.4",
 		"postcss": "^8.4.12",
-		"prettier": "^2.6.0",
+		"prettier": "^2.6.2",
 		"prettier-plugin-tailwindcss": "^0.1.8",
-		"svelte": "^3.46.4",
-		"svelte-check": "^2.4.6",
-		"svelte-preprocess": "^4.10.4",
+		"svelte": "^3.46.6",
+		"svelte-check": "^2.5.0",
+		"svelte-preprocess": "^4.10.5",
 		"tailwindcss": "^3.0.23",
 		"tslib": "^2.3.1",
-		"typescript": "^4.6.2"
+		"typescript": "^4.6.3"
 	},
 	"prettier": {
 		"semi": false,
