@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@rgossiaux/svelte-headlessui': ^1.0.0-beta.12
   '@rose-pine/palette': ^2.1.0
-  '@sveltejs/adapter-netlify': ^1.0.0-next.51
+  '@sveltejs/adapter-static': ^1.0.0-next.29
   '@sveltejs/kit': ^1.0.0-next.302
   autoprefixer: ^10.4.4
   ava: ^4.1.0
@@ -22,12 +22,12 @@ specifiers:
 
 dependencies:
   '@rose-pine/palette': 2.1.0
+  '@sveltejs/adapter-static': 1.0.0-next.29
   has-match: 1.0.3
   svelte-i18n: 3.3.13_svelte@3.46.4
 
 devDependencies:
   '@rgossiaux/svelte-headlessui': 1.0.0-beta.12_svelte@3.46.4
-  '@sveltejs/adapter-netlify': 1.0.0-next.51
   '@sveltejs/kit': 1.0.0-next.302_svelte@3.46.4
   autoprefixer: 10.4.4_postcss@8.4.12
   ava: 4.1.0
@@ -122,13 +122,6 @@ packages:
       tslib: 2.3.1
     dev: false
 
-  /@iarna/toml/2.2.5:
-    resolution:
-      {
-        integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==,
-      }
-    dev: true
-
   /@nodelib/fs.scandir/2.1.5:
     resolution:
       {
@@ -189,16 +182,14 @@ packages:
     engines: { node: '>=12' }
     dev: false
 
-  /@sveltejs/adapter-netlify/1.0.0-next.51:
+  /@sveltejs/adapter-static/1.0.0-next.29:
     resolution:
       {
-        integrity: sha512-P7/cW/0z8zd8J6DOI2yxKZG0+HRMMuzfOf0yzFXX0vRwBePhKlZ/H4qhTOo2NrCmj3Len545o+ugj5gyMXl1+g==,
+        integrity: sha512-0hjGnfT3BRyoHnzJ2w0/xL+xICRpKneDTm45ZzggiRrc0r71WJfF6toGeg8N4QUQnj8EJ3Itm453gsS1kt7VUQ==,
       }
     dependencies:
-      '@iarna/toml': 2.2.5
-      esbuild: 0.14.27
       tiny-glob: 0.2.9
-    dev: true
+    dev: false
 
   /@sveltejs/kit/1.0.0-next.302_svelte@3.46.4:
     resolution:
@@ -1457,6 +1448,7 @@ packages:
       {
         integrity: sha512-40oNTM9UfG6aBmuKxk/giHn5nQ8RVz/SS4Ir6zgzOv9/qC3kKZ9v4etGTcJbEl/NyVQH7FGU7d+X1egr57Md2Q==,
       }
+    dev: false
 
   /globby/11.1.0:
     resolution:
@@ -1492,6 +1484,7 @@ packages:
       {
         integrity: sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==,
       }
+    dev: false
 
   /graceful-fs/4.2.9:
     resolution:
@@ -1531,6 +1524,15 @@ packages:
       function-bind: 1.1.1
     dev: true
 
+  /husky/7.0.4:
+    resolution:
+      {
+        integrity: sha512-vbaCKN2QLtP/vD4yvs6iz6hBEo6wkSzs8HpRah1Z6aGmF2KW5PdYuAd7uX5a+OyBZHBhd+TFLqgjUgytQr4RvQ==,
+      }
+    engines: { node: '>=12' }
+    hasBin: true
+    dev: true
+
   /ignore-by-default/2.0.0:
     resolution:
       {
@@ -1545,14 +1547,6 @@ packages:
         integrity: sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ==,
       }
     engines: { node: '>= 4' }
-
-  /husky/7.0.4:
-    resolution:
-      {
-        integrity: sha512-vbaCKN2QLtP/vD4yvs6iz6hBEo6wkSzs8HpRah1Z6aGmF2KW5PdYuAd7uX5a+OyBZHBhd+TFLqgjUgytQr4RvQ==,
-      }
-    engines: { node: '>=12' }
-    hasBin: true
     dev: true
 
   /import-fresh/3.3.0:
@@ -2784,6 +2778,7 @@ packages:
     dependencies:
       globalyzer: 0.1.0
       globrex: 0.1.2
+    dev: false
 
   /to-regex-range/5.0.1:
     resolution:
