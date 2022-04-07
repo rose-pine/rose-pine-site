@@ -1,10 +1,10 @@
-<script>
+<script lang="ts">
 	import { _ } from 'svelte-i18n'
 	import NavItem from '$lib/components/nav-item.svelte'
-	import CommandPalette from '$lib/components/command-palette.svelte'
+	import CommandMenu from '$lib/components/command-menu.svelte'
 	import LocaleSwitcher from '$lib/components/locale-switcher.svelte'
 	import { SearchIcon } from '$lib/components/icons'
-	import { commandPaletteIsOpen } from '$lib/store'
+	import { commandMenuIsOpen } from '$lib/store'
 
 	let open = false
 
@@ -33,7 +33,7 @@
 		</a>
 
 		<div class="mr-3 flex items-center">
-			<CommandPalette />
+			<CommandMenu />
 		</div>
 
 		<div class="flex shrink-0 items-center">
@@ -80,7 +80,7 @@
 
 			<div class="pl-3">
 				<button
-					on:click={() => commandPaletteIsOpen.set(true)}
+					on:click={() => commandMenuIsOpen.set(true)}
 					class="flex h-8 w-8 items-center justify-center rounded-full bg-highlight-low text-subtle focus:outline-none focus:ring focus:ring-highlight-high"
 				>
 					<SearchIcon />
