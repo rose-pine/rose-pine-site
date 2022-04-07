@@ -18,15 +18,24 @@
 	import { commandMenuIsOpen } from '$lib/store'
 	import rawThemes from '$lib/data/themes.json'
 
+	interface Item {
+		icon: any
+		name: string
+		url: string
+		shortname?: string
+		description?: string
+	}
+
 	let query = ''
 
-	const pages = [
-		{ name: 'page.home.nav', url: '/', icon: HomeIcon },
-		{ name: 'page.themes.nav', url: '/themes', icon: BoatIcon },
-		{ name: 'page.palette.nav', url: '/palette', icon: PaletteIcon },
+	let pages: Item[] = []
+	$: pages = [
+		{ name: $_('page.home.nav'), url: '/', icon: HomeIcon },
+		{ name: $_('page.themes.nav'), url: '/themes', icon: BoatIcon },
+		{ name: $_('page.palette.nav'), url: '/palette', icon: PaletteIcon },
 	]
 
-	const socials = [
+	const socials: Item[] = [
 		{
 			name: 'GitHub',
 			url: 'https://github.com/rose-pine',
@@ -40,7 +49,7 @@
 	]
 
 	const matchDomain = /(?:[\w-]+\.)+[\w-]+/
-	const themes = rawThemes.map(({ name, shortname, repo }) => ({
+	const themes: Item[] = rawThemes.map(({ name, shortname, repo }) => ({
 		name,
 		shortname: shortname || '',
 		description: repo.includes('github.com')
@@ -50,20 +59,13 @@
 		icon: BookIcon,
 	}))
 
-	interface Item {
-		icon: any
-		name: string
-		url: string
-		shortname?: string
-		description?: string
-	}
-
 	type Group = { name: string; items: Item[] }
 
-	const groups: Group[] = [
-		{ name: 'global_search.heading.pages', items: pages },
-		{ name: 'global_search.heading.themes', items: themes },
-		{ name: 'global_search.heading.social', items: socials },
+	let groups: Group[] = []
+	$: groups = [
+		{ name: $_('global_search.heading.pages'), items: pages },
+		{ name: $_('global_search.heading.themes'), items: themes },
+		{ name: $_('global_search.heading.social'), items: socials },
 	]
 
 	// Return limited number of items when there is no query
@@ -130,7 +132,7 @@
 						<h3
 							class="px-4 pt-4 pb-2 text-xs font-semibold text-subtle first:pt-0"
 						>
-							{group.name.includes('.') ? $_(group.name) : group.name}
+							{group.name}
 						</h3>
 
 						{#each group.items as item}
@@ -148,7 +150,7 @@
 										/>
 									</div>
 									<span class="font-medium">
-										{item.name.includes('.') ? $_(item.name) : item.name}
+										{item.name}
 									</span>
 									{#if item.description}
 										<span class="text-subtle">
