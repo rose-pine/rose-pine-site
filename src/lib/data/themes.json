@@ -325,6 +325,18 @@
 		"variants": true
 	},
 	{
+		"name": "JSON Viewer",
+		"repo": "https://github.com/emlez/json-viewer",
+		"maintainers": [
+			{
+				"name": "emlez",
+				"url": "https://github.com/emlez"
+			}
+		],
+		"keywords": ["web"],
+		"variants": true
+	},
+	{
 		"name": "KDE",
 		"repo": "https://github.com/maybork/kde",
 		"maintainers": [{ "name": "maybork", "url": "https://github.com/maybork" }],
