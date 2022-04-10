@@ -629,6 +629,18 @@
 		"keywords": ["design"]
 	},
 	{
+		"name": "WezTerm",
+		"repo": "https://github.com/neapsix/wezterm",
+		"maintainers": [
+			{
+				"name": "neapsix",
+				"url": "https://github.com/neapsix"
+			}
+		],
+		"keywords": ["terminal"],
+		"variants": true
+	},
+	{
 		"name": "Whoogle",
 		"repo": "https://github.com/rose-pine/whoogle",
 		"maintainers": [
