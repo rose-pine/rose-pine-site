@@ -327,13 +327,15 @@
 	{
 		"name": "JSON Viewer",
 		"repo": "https://github.com/emlez/json-viewer",
-		"maintainers": [
-			{
-				"name": "emlez",
-				"url": "https://github.com/emlez"
-			}
-		],
+		"maintainers": [{ "name": "emlez", "url": "https://github.com/emlez" }],
 		"keywords": ["web"],
+		"variants": true
+	},
+	{
+		"name": "Kakoune",
+		"repo": "https://gitea.nulo.in/Nulo/rose-pine.kak",
+		"maintainers": [{ "name": "Nulo", "url": "https://nulo.in" }],
+		"keywords": ["editor"],
 		"variants": true
 	},
 	{
@@ -631,12 +633,7 @@
 	{
 		"name": "WezTerm",
 		"repo": "https://github.com/neapsix/wezterm",
-		"maintainers": [
-			{
-				"name": "neapsix",
-				"url": "https://github.com/neapsix"
-			}
-		],
+		"maintainers": [{ "name": "neapsix", "url": "https://github.com/neapsix" }],
 		"keywords": ["terminal"],
 		"variants": true
 	},
