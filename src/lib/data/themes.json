@@ -509,6 +509,20 @@
 		"variants": true
 	},
 	{
+		"name": "Spotify",
+		"repo": "https://github.com/nicoleajoy/rose-pine-spotify",
+		"maintainers": [
+			{
+				"name": "Nicole Ajoy",
+				"url": "https://github.com/nicoleajoy"
+			}
+		],
+		"keywords": [
+			"app"
+		],
+		"variants": true
+	},
+	{
 		"name": "st",
 		"repo": "https://github.com/rose-pine/st",
 		"maintainers": [
