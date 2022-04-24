@@ -219,6 +219,19 @@
 		"keywords": ["web"],
 		"variants": false
 	},
+		{
+		"name": "Gitkraken",
+		"repo": "https://github.com/diorcula/gitkraken",
+		"maintainers": [
+			{
+				"name": "Diorcula",
+				"url": "https://github.com/diorcula"
+			}
+			
+		],
+		"keywords": ["productivity"],
+		"variants": true
+	},
 	{
 		"name": "Gnome Terminal",
 		"repo": "https://github.com/rose-pine/gnome-terminal",
