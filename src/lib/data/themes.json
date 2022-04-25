@@ -220,8 +220,8 @@
 		"variants": false
 	},
 		{
-		"name": "Gitkraken",
-		"repo": "https://github.com/diorcula/gitkraken",
+		"name": "GitKraken",
+		"repo": "https://github.com/rose-pine/gitkraken",
 		"maintainers": [
 			{
 				"name": "Diorcula",
