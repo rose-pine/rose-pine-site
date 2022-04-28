@@ -373,7 +373,8 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"keywords": ["terminal"]
+		"keywords": ["terminal"],
+		"variants": true
 	},
 	{
 		"name": "Linux TTY",
