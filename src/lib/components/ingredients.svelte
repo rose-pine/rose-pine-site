@@ -125,7 +125,7 @@
 											style:background={colors.default[variant][role].hex}
 											style:border-color={borderColor}
 										/>
-										<span class="text-md font-medium tracking-wide"
+										<span class="text-md font-medium capitalize tracking-wide"
 											>{colorName}</span
 										>
 									</div>

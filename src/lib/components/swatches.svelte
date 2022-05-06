@@ -41,7 +41,7 @@
 				>
 					<div class="h-10 w-full rounded-t-2xl" style:background={color.hex} />
 					<p
-						class="px-2 py-6 text-center font-display text-sm font-semibold tracking-wide md:text-md"
+						class="px-2 py-6 text-center font-display text-sm font-semibold capitalize tracking-wide md:text-md"
 					>
 						{#if $clipboard.pos === `${variant}.${role}.hex`}
 							<span class="text-rose">{$_('page.palette.button.copied')}</span>
