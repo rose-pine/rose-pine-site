@@ -2,8 +2,6 @@ import fs from 'node:fs'
 import path from 'node:path'
 import test from 'ava'
 
-const LOCALES_PATH = path.join(process.cwd(), 'src/lib/locales/')
-
 const removeValues = (obj) => {
 	for (const k in obj) {
 		if (typeof obj[k] === 'object' && obj[k] !== null) {
