@@ -6,6 +6,7 @@
 	import fr from '$lib/locales/fr.json'
 	import it from '$lib/locales/it.json'
 	import de from '$lib/locales/de.json'
+	import '../app.css'
 
 	const locales = ['en', 'fr', 'it', 'de']
 
@@ -53,102 +54,3 @@
 </main>
 
 <Footer />
-
-<style lang="postcss" global>
-	@import url('https://rsms.me/inter/inter.css');
-	@font-face {
-		font-family: 'Pier Sans';
-		font-style: normal;
-		font-weight: bold;
-		src: url('/fonts/PierSans-Bold.otf') format('opentype');
-		font-display: swap;
-	}
-
-	@tailwind base;
-	@tailwind components;
-	@tailwind utilities;
-
-	:root {
-		--base: #faf4ed;
-		--surface: #fffaf3;
-		--overlay: #f2e9e1;
-		--muted: #9893a5;
-		--subtle: #797593;
-		--text: #575279;
-		--love: #b4637a;
-		--gold: #ea9d34;
-		--rose: #d7827e;
-		--pine: #286983;
-		--foam: #56949f;
-		--iris: #907aa9;
-		--highlight-low: rgba(110, 106, 134, 0.05);
-		--highlight-low-blend: rgb(244, 237, 232);
-		--highlight-med: rgba(110, 106, 134, 0.08);
-		--highlight-med-blend: rgb(223, 218, 217);
-		--highlight-high: rgba(110, 106, 134, 0.15);
-		--highlight-high-blend: rgb(206, 202, 205);
-	}
-
-	@media (prefers-color-scheme: dark) {
-		:root {
-			--base: #191724;
-			--surface: #1f1d2e;
-			--overlay: #26233a;
-			--muted: #6e6a86;
-			--subtle: #908caa;
-			--text: #e0def4;
-			--love: #eb6f92;
-			--gold: #f6c177;
-			--rose: #ebbcba;
-			--pine: #31748f;
-			--foam: #9ccfd8;
-			--iris: #c4a7e7;
-			--highlight-low: rgba(110, 106, 134, 0.1);
-			--highlight-low-blend: rgb(33, 32, 46);
-			--highlight-med: rgba(110, 106, 134, 0.2);
-			--highlight-med-blend: rgb(64, 61, 82);
-			--highlight-high: rgba(110, 106, 134, 0.4);
-			--highlight-high-blend: rgb(82, 79, 103);
-		}
-	}
-
-	::selection {
-		@apply bg-highlight-med;
-	}
-
-	html {
-		@apply bg-base;
-	}
-
-	body {
-		@apply bg-base text-text antialiased;
-	}
-
-	.animate-enter {
-		opacity: 0;
-		animation: enter 500ms forwards;
-		animation-delay: calc(var(--stagger) * 200ms);
-	}
-
-	@keyframes enter {
-		0% {
-			opacity: 0;
-			transform: translateY(10px);
-		}
-
-		to {
-			opacity: 1;
-			transform: none;
-		}
-	}
-
-	/* TODO: handle reduce motion on a case by case basis */
-	@media (prefers-reduced-motion: reduce) {
-		* {
-			animation-delay: 0.01ms !important;
-			animation-duration: 0.01ms !important;
-			animation-iteration-count: 1 !important;
-			transition-duration: 0.01ms !important;
-		}
-	}
-</style>
