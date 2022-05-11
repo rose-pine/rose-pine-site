@@ -34,3 +34,4 @@ const hasTranslations = test.macro({
 test(hasTranslations, 'fr', 'en')
 test(hasTranslations, 'it', 'en')
 test(hasTranslations, 'de', 'en')
+test(hasTranslations, 'nl', 'en')
