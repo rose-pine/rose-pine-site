@@ -6,14 +6,16 @@
 	import fr from '$lib/locales/fr.json'
 	import it from '$lib/locales/it.json'
 	import de from '$lib/locales/de.json'
+	import nl from '$lib/locales/nl.json'
 	import '../app.css'
 
-	const locales = ['en', 'fr', 'it', 'de']
+	const locales = ['en', 'fr', 'it', 'de', 'nl']
 
 	addMessages('en', en)
 	addMessages('fr', fr)
 	addMessages('it', it)
 	addMessages('de', de)
+	addMessages('nl', nl)
 
 	// get locale on client and server
 	// https://github.com/kaisermann/svelte-i18n/issues/166#issuecomment-1001009977
