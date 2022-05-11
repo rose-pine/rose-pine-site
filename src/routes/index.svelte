@@ -1,5 +1,6 @@
 <script>
 	import { _ } from 'svelte-i18n'
+	import Meta from '$lib/components/meta.svelte'
 	import Section from '$lib/components/section.svelte'
 	import Editor from '$lib/components/editor/index.svelte'
 	import {
@@ -10,10 +11,7 @@
 	import themes from '$lib/data/themes.json'
 </script>
 
-<svelte:head>
-	<title>{$_('page.home.nav')} | Rosé Pine</title>
-	<meta name="description" content={$_('page.home.description')} />
-</svelte:head>
+<Meta title={$_('page.home.nav')} description={$_('page.home.description')} />
 
 <Section>
 	<div
