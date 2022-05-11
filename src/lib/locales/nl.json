@@ -1,30 +1,30 @@
 {
 	"page": {
 		"home": {
-			"nav": "Home",
-			"title": "Something beautiful",
-			"description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist",
+			"nav": "Start",
+			"title": "Iets prachtig",
+			"description": "Natuurlijke denne, nepbont en een beetje Soho vibes voor de stijlvolle minimalist",
 			"button": {
-				"primary": "Discover"
+				"primary": "Ontdek"
 			},
 			"feature_grid": {
 				"1": {
-					"heading": "Subtle aesthetics",
-					"content": "Give your eyes a well-deserved break with our soft, comfy palette"
+					"heading": "Subtiele sfeer",
+					"content": "Geef je ogen een welverdiende pauze met onze zachte, comfortable palet"
 				},
 				"2": {
-					"heading": "Adaptive moods",
-					"content": "Enjoy variants tailored for every hour of your day"
+					"heading": "Veelzijdige stemmingen",
+					"content": "Geniet van op maat gemaakte varianten voor elk uur van je dag"
 				},
 				"3": {
-					"heading": "Community driven",
-					"content": "You helped bring Rosé Pine to over {number} of your favourite apps"
+					"heading": "Samen gerealiseerd",
+					"content": "Jullie hielpen Rosé Pine naar meer dan {number} van je favoriete apps te brengen"
 				}
 			}
 		},
 		"themes": {
-			"nav": "Themes",
-			"title": "Themes",
+			"nav": "Thema's",
+			"title": "Thema's",
 			"description": "Hand-crafted collection of soho vibes",
 			"stat": {
 				"ports": "{number} Ports",
@@ -38,8 +38,8 @@
 			}
 		},
 		"palette": {
-			"nav": "Palette",
-			"title": "Palette",
+			"nav": "Palet",
+			"title": "Palet",
 			"description": "Curated colours, endless creations",
 			"button": {
 				"copied": "Copied",
@@ -57,16 +57,16 @@
 		"title": "Site search",
 		"description": "Results will update as you type",
 		"heading": {
-			"pages": "Pages",
-			"themes": "Themes",
+			"pages": "Pagina's",
+			"themes": "Thema's",
 			"social": "Social"
 		},
 		"search": {
-			"label": "Search",
-			"empty": "No matches found"
+			"label": "Zoek",
+			"empty": "Geen overeenkomsten gevonden"
 		}
 	},
 	"languages": {
-		"label": "Languages"
+		"label": "Talen"
 	}
 }
