@@ -3,7 +3,7 @@
 		"home": {
 			"nav": "Start",
 			"title": "Iets prachtig",
-			"description": "Natuurlijke denne, nepbont en een beetje Soho vibes voor de stijlvolle minimalist",
+			"description": "Natuurlijke denne, nepbont en een beetje soho vibes voor de stijlvolle minimalist",
 			"button": {
 				"primary": "Ontdek"
 			},
@@ -25,37 +25,37 @@
 		"themes": {
 			"nav": "Thema's",
 			"title": "Thema's",
-			"description": "Hand-crafted collection of soho vibes",
+			"description": "Hand gemaakte collectie van soho vibes",
 			"stat": {
 				"ports": "{number} Ports",
-				"maintainers": "{number} Maintainers"
+				"maintainers": "{number} Onderhouders"
 			},
 			"search": {
-				"label": "Search themes",
-				"placeholder": "Search {number} themes (Press \"{key}\" to focus)",
-				"empty": "No matches found",
-				"empty_prompt": "Contribute something new"
+				"label": "Zoek thema's",
+				"placeholder": "Zoek {number} thema's (Druk \"{key}\" voor focus)",
+				"empty": "Geen overeenkomsten gevonden",
+				"empty_prompt": "Voeg iets nieuws toe"
 			}
 		},
 		"palette": {
 			"nav": "Palet",
 			"title": "Palet",
-			"description": "Curated colours, endless creations",
+			"description": "Samengestelde kleuren, oneindige mogelijkheden",
 			"button": {
-				"copied": "Copied",
+				"copied": "Gekopieerd",
 				"format": {
-					"label": "Format",
-					"default": "Default",
-					"unstyled": "Unstyled"
+					"label": "Formaat",
+					"default": "Standaard",
+					"unstyled": "Ongestyled"
 				},
-				"ingredients": "Ingredients",
-				"swatches": "Swatches"
+				"ingredients": "Composities",
+				"swatches": "Kleuren"
 			}
 		}
 	},
 	"global_search": {
-		"title": "Site search",
-		"description": "Results will update as you type",
+		"title": "Site zoekopdracht",
+		"description": "Resultaten worden upgedate terwijl je typt",
 		"heading": {
 			"pages": "Pagina's",
 			"themes": "Thema's",
