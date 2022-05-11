@@ -6,6 +6,7 @@ export const languages = readable({
 	fr: 'Français',
 	it: 'Italiano',
 	de: 'Deutsch',
+	nl: 'Dutch',
 })
 
 export const commandMenuIsOpen = writable(false)
