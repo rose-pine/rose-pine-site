@@ -1,6 +1,7 @@
 <script>
 	import { _ } from 'svelte-i18n'
 	import hasMatch from 'has-match'
+	import Meta from '$lib/components/meta.svelte'
 	import Section from '$lib/components/section.svelte'
 	import Search from '$lib/components/search.svelte'
 	import {
@@ -10,6 +11,8 @@
 		PaletteIcon,
 	} from '$lib/components/icons'
 	import themes from '$lib/data/themes.json'
+	import PageHeading from '$lib/components/page-heading.svelte'
+	import GradientLabel from '$lib/components/gradient-label.svelte'
 
 	let query = ''
 	$: filteredThemes = themes.filter((theme) =>
@@ -25,73 +28,47 @@
 	]
 </script>
 
-<svelte:head>
-	<title>{$_('page.themes.nav')} | Rosé Pine</title>
-	<meta name="description" content={$_('page.themes.description')} />
-</svelte:head>
+<Meta
+	title={$_('page.themes.nav')}
+	description={$_('page.themes.description')}
+/>
 
 <Section>
-	<div
-		class="flex flex-col items-center justify-between text-center lg:flex-row lg:text-left"
+	<PageHeading
+		title={$_('page.themes.title')}
+		description={$_('page.themes.description')}
+		items={[
+			{
+				icon: PaletteIcon,
+				iconColor: 'var(--rose)',
+				text: $_('page.themes.stat.ports', {
+					values: { number: themes.length },
+				}),
+				gradient: 'from-rose to-iris',
+			},
+			{
+				icon: BookIcon,
+				iconColor: 'var(--iris)',
+				text: $_('page.themes.stat.maintainers', {
+					values: { number: maintainers.length },
+				}),
+				gradient: 'from-iris to-foam',
+			},
+		]}
 	>
-		<div class="shrink-0">
-			<h2 class="animate-enter font-display text-4xl tracking-wide">
-				{$_('page.themes.title')}
-			</h2>
+		<svelte:fragment slot="item" let:item>
+			<svelte:component this={item.icon} color={item.iconColor} size={16} />
+			<GradientLabel gradient={item.gradient}>{item.text}</GradientLabel>
+		</svelte:fragment>
 
-			<p
-				class="animate-enter mt-6 font-medium text-subtle"
-				style="--stagger: 1"
-			>
-				{$_('page.themes.description')}
-			</p>
-
-			<ul
-				class="mt-2 flex cursor-default select-none items-center justify-center space-x-3 lg:justify-start"
-			>
-				<li
-					class="animate-enter flex items-center space-x-1"
-					style="--stagger: 2"
-				>
-					<PaletteIcon color="var(--rose)" size={16} />
-					<span
-						class="bg-gradient-to-r from-rose to-iris bg-clip-text text-sm font-medium text-transparent"
-					>
-						{$_('page.themes.stat.ports', {
-							values: { number: themes.length },
-						})}
-					</span>
-				</li>
-
-				<li
-					class="animate-enter flex items-center space-x-1"
-					style="--stagger: 2.25"
-				>
-					<BookIcon color="var(--iris)" size={16} />
-					<span
-						class="bg-gradient-to-r from-iris to-foam bg-clip-text text-sm font-medium text-transparent"
-					>
-						{$_('page.themes.stat.maintainers', {
-							values: { number: maintainers.length },
-						})}
-					</span>
-				</li>
-			</ul>
-		</div>
-
-		<div
-			class="animate-enter flex w-full items-center justify-center lg:justify-end"
-			style="--stagger: 1"
-		>
-			<Search
-				bind:query
-				label={$_('page.themes.search.label')}
-				placeholder={$_('page.themes.search.placeholder', {
-					values: { number: themes.length, key: '/' },
-				})}
-			/>
-		</div>
-	</div>
+		<Search
+			bind:query
+			label={$_('page.themes.search.label')}
+			placeholder={$_('page.themes.search.placeholder', {
+				values: { number: themes.length, key: '/' },
+			})}
+		/>
+	</PageHeading>
 
 	<ul
 		class="animate-enter mx-auto mt-12 grid grid-cols-2 gap-2 sm:grid-cols-3 sm:gap-6 md:grid-cols-4 lg:grid-cols-4"
