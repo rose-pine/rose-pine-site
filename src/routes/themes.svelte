@@ -1,15 +1,10 @@
 <script>
 	import { _ } from 'svelte-i18n'
 	import hasMatch from 'has-match'
+	import { Notebook, Sun, Moon, Palette } from 'tabler-icons-svelte'
 	import Meta from '$lib/components/meta.svelte'
 	import Section from '$lib/components/section.svelte'
 	import Search from '$lib/components/search.svelte'
-	import {
-		BookIcon,
-		MoonIcon,
-		SunIcon,
-		PaletteIcon,
-	} from '$lib/components/icons'
 	import themes from '$lib/data/themes.json'
 	import PageHeading from '$lib/components/page-heading.svelte'
 	import GradientLabel from '$lib/components/gradient-label.svelte'
@@ -39,7 +34,7 @@
 		description={$_('page.themes.description')}
 		items={[
 			{
-				icon: PaletteIcon,
+				icon: Palette,
 				iconColor: 'var(--rose)',
 				text: $_('page.themes.stat.ports', {
 					values: { number: themes.length },
@@ -47,7 +42,7 @@
 				gradient: 'from-rose to-iris',
 			},
 			{
-				icon: BookIcon,
+				icon: Notebook,
 				iconColor: 'var(--iris)',
 				text: $_('page.themes.stat.maintainers', {
 					values: { number: maintainers.length },
@@ -107,12 +102,12 @@
 
 						<div class="mt-4 space-x-3 flex items-center">
 							<div class="w-5 h-5 flex items-center justify-center">
-								<MoonIcon color="var(--subtle)" size={16} />
+								<Moon color="var(--subtle)" size={16} />
 							</div>
 
 							{#if theme.variants}
 								<div class="w-5 h-5 flex items-center justify-center">
-									<SunIcon color="var(--gold)" size={20} />
+									<Sun color="var(--gold)" size={20} />
 								</div>
 							{/if}
 						</div>

@@ -7,14 +7,14 @@
 		DialogDescription,
 	} from '@rgossiaux/svelte-headlessui'
 	import {
-		BoatIcon,
-		BookIcon,
-		GithubIcon,
-		HomeIcon,
-		PaletteIcon,
-		SearchIcon,
-		TwitterIcon,
-	} from '$lib/components/icons'
+		Sailboat,
+		BrandGithub,
+		BrandTwitter,
+		Home,
+		Notebook,
+		Palette,
+		Search,
+	} from 'tabler-icons-svelte'
 	import { commandMenuIsOpen } from '$lib/store'
 	import rawThemes from '$lib/data/themes.json'
 
@@ -30,21 +30,21 @@
 
 	let pages: Item[] = []
 	$: pages = [
-		{ name: $_('page.home.nav'), url: '/', icon: HomeIcon },
-		{ name: $_('page.themes.nav'), url: '/themes', icon: BoatIcon },
-		{ name: $_('page.palette.nav'), url: '/palette', icon: PaletteIcon },
+		{ name: $_('page.home.nav'), url: '/', icon: Home },
+		{ name: $_('page.themes.nav'), url: '/themes', icon: Sailboat },
+		{ name: $_('page.palette.nav'), url: '/palette', icon: Palette },
 	]
 
 	const socials: Item[] = [
 		{
 			name: 'GitHub',
 			url: 'https://github.com/rose-pine',
-			icon: GithubIcon,
+			icon: BrandGithub,
 		},
 		{
 			name: 'Twitter',
 			url: 'https://twitter.com/rosepinetheme',
-			icon: TwitterIcon,
+			icon: BrandTwitter,
 		},
 	]
 
@@ -56,7 +56,7 @@
 			? `on GitHub`
 			: `on ${repo.match(matchDomain)}`,
 		url: repo,
-		icon: BookIcon,
+		icon: Notebook,
 	}))
 
 	type Group = { name: string; items: Item[] }
@@ -115,7 +115,7 @@
 	>
 		<div class="flex items-center px-4">
 			<label for="search">
-				<SearchIcon size={18} color="var(--subtle)" />
+				<Search size={18} color="var(--subtle)" />
 			</label>
 			<input
 				id="search"

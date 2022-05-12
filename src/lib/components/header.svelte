@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { _ } from 'svelte-i18n'
+	import { Search } from 'tabler-icons-svelte'
 	import NavItem from '$lib/components/nav-item.svelte'
 	import CommandMenu from '$lib/components/command-menu.svelte'
 	import LocaleSwitcher from '$lib/components/locale-switcher.svelte'
-	import { SearchIcon } from '$lib/components/icons'
 	import { commandMenuIsOpen } from '$lib/store'
 
 	let open = false
@@ -83,7 +83,7 @@
 					on:click={() => commandMenuIsOpen.set(true)}
 					class="flex h-8 w-8 items-center justify-center rounded-full bg-highlight-low text-subtle focus:outline-none focus:ring focus:ring-highlight-high"
 				>
-					<SearchIcon />
+					<Search size={16} />
 				</button>
 			</div>
 		</div>
