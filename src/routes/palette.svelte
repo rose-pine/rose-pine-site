@@ -1,6 +1,5 @@
 <script>
 	import { _ } from 'svelte-i18n'
-	import Meta from '$lib/components/meta.svelte'
 	import Section from '$lib/components/section.svelte'
 	import PageHeading from '$lib/components/page-heading.svelte'
 	import Swatches from '$lib/components/swatches.svelte'
@@ -9,18 +8,13 @@
 	let view = Swatches
 </script>
 
-<Meta
-	title={$_('page.palette.nav')}
-	description={$_('page.palette.description')}
-/>
-
 <Section>
 	<PageHeading
 		title={$_('page.palette.title')}
 		description={$_('page.palette.description')}
 	>
 		<div
-			class="mt-6 inline-flex items-center divide-x divide-highlight-med-blend overflow-hidden rounded-md border border-highlight-med-blend bg-surface"
+			class="inline-flex items-center divide-x divide-highlight-med-blend overflow-hidden rounded-md border border-highlight-med-blend bg-surface"
 		>
 			<button
 				on:click={() => (view = Swatches)}

@@ -1,13 +1,17 @@
 <script>
 	import { _ } from 'svelte-i18n'
-	import Meta from '$lib/components/meta.svelte'
 	import Section from '$lib/components/section.svelte'
+	import Button from '$lib/components/button.svelte'
 	import Editor from '$lib/components/editor/index.svelte'
 	import { Grain, Seeding, SquaresFilled } from 'tabler-icons-svelte'
 	import themes from '$lib/data/themes.json'
+	import PageHeading from '$lib/components/page-heading.svelte'
 </script>
 
-<Meta title={$_('page.home.nav')} description={$_('page.home.description')} />
+<PageHeading
+	metaTitle={$_('page.home.nav')}
+	metaDescription={$_('page.home.description')}
+/>
 
 <Section>
 	<div
@@ -29,12 +33,10 @@
 			</p>
 
 			<div class="animate-enter" style="--stagger: 3">
-				<a
-					href="/themes"
-					class="rounded-full bg-highlight-med px-6 py-2.5 font-medium transition-colors duration-150 hover:bg-highlight-high focus:outline-none focus:ring focus:ring-highlight-high"
-				>
-					{$_('page.home.button.primary')} <span class="ml-1">→</span>
-				</a>
+				<Button href="/themes">
+					<span>{$_('page.home.button.primary')}</span>
+					<span>&rarr;</span>
+				</Button>
 			</div>
 		</div>
 
