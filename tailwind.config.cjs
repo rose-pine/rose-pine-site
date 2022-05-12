@@ -11,8 +11,8 @@ module.exports = {
 				md: '15px',
 			},
 			fontFamily: {
-				sans: ['Inter', ...fontFamily.sans],
-				display: ['"Pier Sans"', 'Inter', ...fontFamily.sans],
+				sans: ['Inter var', 'Inter', ...fontFamily.sans],
+				display: ['"Pier Sans"', 'Inter var', 'Inter', ...fontFamily.sans],
 			},
 			colors: {
 				base: 'var(--base)',

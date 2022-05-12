@@ -1,5 +1,5 @@
 <script>
-	import { GithubLogoIcon, TwitterLogoIcon } from '$lib/components/icons'
+	import { BrandGithub, BrandTwitter } from 'tabler-icons-svelte'
 </script>
 
 <footer class="mx-auto w-full max-w-content">
@@ -14,9 +14,9 @@
 			<a
 				href="https://github.com/rose-pine"
 				aria-label="GitHub"
-				class="flex h-6 w-6 items-center justify-center rounded hover:bg-highlight-low focus:outline-none focus:ring focus:ring-highlight-high"
+				class="flex h-8 w-8 items-center justify-center rounded hover:bg-highlight-low focus:outline-none focus:ring focus:ring-highlight-high"
 			>
-				<GithubLogoIcon size={20} />
+				<BrandGithub size={18} />
 			</a>
 
 			<div class="text-xs text-highlight-high">|</div>
@@ -24,9 +24,9 @@
 			<a
 				href="https://twitter.com/rosepinetheme"
 				aria-label="Twitter"
-				class="flex h-6 w-6 items-center justify-center rounded hover:bg-highlight-low focus:outline-none focus:ring focus:ring-highlight-high"
+				class="flex h-8 w-8 items-center justify-center rounded hover:bg-highlight-low focus:outline-none focus:ring focus:ring-highlight-high"
 			>
-				<TwitterLogoIcon size={18} />
+				<BrandTwitter size={18} />
 			</a>
 		</div>
 	</div>

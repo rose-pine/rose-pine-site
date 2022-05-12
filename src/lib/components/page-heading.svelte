@@ -5,7 +5,7 @@
 </script>
 
 <div
-	class="flex flex-col items-center justify-between text-center lg:flex-row lg:text-left"
+	class="flex flex-col items-center justify-between pb-20 text-center lg:flex-row lg:text-left"
 >
 	<div class="shrink-0">
 		<h2 class="animate-enter font-display text-4xl tracking-wide">

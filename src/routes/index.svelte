@@ -3,11 +3,7 @@
 	import Meta from '$lib/components/meta.svelte'
 	import Section from '$lib/components/section.svelte'
 	import Editor from '$lib/components/editor/index.svelte'
-	import {
-		GrainIcon,
-		SeedingIcon,
-		SquaresFilledIcon,
-	} from '$lib/components/icons'
+	import { Grain, Seeding, SquaresFilled } from 'tabler-icons-svelte'
 	import themes from '$lib/data/themes.json'
 </script>
 
@@ -55,7 +51,7 @@
 			<div
 				class="flex h-14 w-14 items-center justify-center rounded-full bg-iris text-2xl text-surface dark:bg-base dark:text-iris"
 			>
-				<SeedingIcon size={24} />
+				<Seeding size={24} />
 			</div>
 			<h3 class="font-display text-xl font-bold">
 				{$_('page.home.feature_grid.1.heading')}
@@ -69,7 +65,7 @@
 			<div
 				class="flex h-14 w-14 items-center justify-center rounded-full bg-foam text-2xl text-surface dark:bg-base dark:text-foam"
 			>
-				<SquaresFilledIcon size={24} />
+				<SquaresFilled size={24} />
 			</div>
 			<h3 class="font-display text-xl font-bold">
 				{$_('page.home.feature_grid.2.heading')}
@@ -83,7 +79,7 @@
 			<div
 				class="flex h-14 w-14 items-center justify-center rounded-full bg-gold text-2xl text-surface dark:bg-base dark:text-gold"
 			>
-				<GrainIcon size={24} />
+				<Grain size={24} />
 			</div>
 			<h3 class="font-display text-xl font-bold">
 				{$_('page.home.feature_grid.3.heading')}
