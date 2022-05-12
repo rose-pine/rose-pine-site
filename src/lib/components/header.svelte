@@ -1,10 +1,13 @@
 <script lang="ts">
-	import { _ } from 'svelte-i18n'
+	import { _, locale } from 'svelte-i18n'
 	import { Search } from 'tabler-icons-svelte'
 	import NavItem from '$lib/components/nav-item.svelte'
 	import CommandMenu from '$lib/components/command-menu.svelte'
-	import LocaleSwitcher from '$lib/components/locale-switcher.svelte'
-	import { commandMenuIsOpen } from '$lib/store'
+	import Select from '$lib/components/select.svelte'
+	import { commandMenuIsOpen, languages } from '$lib/store'
+	import { setSafeStorage } from '$lib/util'
+
+	$: setSafeStorage('locale', $locale)
 
 	let open = false
 
@@ -46,8 +49,16 @@
 						</li>
 					{/each}
 
-					<li class="pl-1">
-						<LocaleSwitcher />
+					<li>
+						<Select
+							id="languages"
+							bind:value={$locale}
+							label={$_('languages.label')}
+							options={Object.keys($languages).map((language) => [
+								$languages[language],
+								language,
+							])}
+						/>
 					</li>
 				</ul>
 			</nav>
@@ -72,8 +83,16 @@
 						</li>
 					{/each}
 
-					<li class="pt-1">
-						<LocaleSwitcher />
+					<li>
+						<Select
+							id="languages"
+							bind:value={$locale}
+							label={$_('languages.label')}
+							options={Object.keys($languages).map((language) => [
+								$languages[language],
+								language,
+							])}
+						/>
 					</li>
 				</ul>
 			</nav>

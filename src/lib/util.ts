@@ -1,6 +1,20 @@
+import type { Color } from '@rose-pine/palette'
 import { browser } from '$app/env'
 
-function getSafeStorage(key: string, safeValues: string[]): string {
+export type ColorFormat = 'default' | 'unstyled'
+export const formatColor = (color: Color, format: ColorFormat): Color => {
+	if (format === 'unstyled') {
+		return {
+			hex: color.hex.replace('#', ''),
+			rgb: color.rgb.replace('rgb(', '').replace(')', ''),
+			hsl: color.hsl.replace('hsl(', '').replace(')', ''),
+		}
+	}
+
+	return color
+}
+
+export const getSafeStorage = (key: string, safeValues: string[]): string => {
 	if (!browser) return
 
 	const value = localStorage.getItem(key)
@@ -13,10 +27,8 @@ function getSafeStorage(key: string, safeValues: string[]): string {
 	return value
 }
 
-function setSafeStorage(key: string, value: string) {
+export const setSafeStorage = (key: string, value: string) => {
 	if (!browser) return
 
 	localStorage.setItem(key, value)
 }
-
-export { getSafeStorage, setSafeStorage }

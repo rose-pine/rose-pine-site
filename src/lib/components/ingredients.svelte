@@ -1,59 +1,33 @@
 <script lang="ts">
 	import { _ } from 'svelte-i18n'
 	import palette from '@rose-pine/palette'
+	import Select from '$lib/components/select.svelte'
 	import { clipboard } from '$lib/store'
-	import { getSafeStorage, setSafeStorage } from '$lib/util'
+	import { formatColor, getSafeStorage, setSafeStorage } from '$lib/util'
+	import type { ColorFormat } from '$lib/util'
 
-	const formats = ['default', 'unstyled']
-	let colorFormat: typeof formats[number] = 'default'
-
-	colorFormat = getSafeStorage('color-format', formats) || 'default'
+	let colorFormat =
+		(getSafeStorage('color-format', ['default', 'unstyled']) as ColorFormat) ||
+		'default'
 
 	$: setSafeStorage('color-format', colorFormat)
-
-	function format(
-		color: { hex: string; rgb: string; hsl: string },
-		format?: typeof formats[number]
-	) {
-		if (format === 'unstyled')
-			return {
-				hex: color.hex.replace('#', ''),
-				rgb: color.rgb.replace('rgb(', '').replace(')', ''),
-				hsl: color.hsl.replace('hsl(', '').replace(')', ''),
-			}
-
-		return color
-	}
-
-	let colors = { default: {}, unstyled: {} }
 
 	const variants = Object.keys(palette.variants)
 	const roles = Object.keys(palette.roles)
 
-	variants.map((variant) => {
-		colors.default[variant] = {}
-		colors.unstyled[variant] = {}
-
-		roles.map((role) => {
-			let currentColor = palette.variants[variant][role]
-
-			colors.default[variant][role] = format(currentColor, 'default')
-			colors.unstyled[variant][role] = format(currentColor, 'unstyled')
-		})
-	})
+	const variantNames = {
+		main: 'Rosé Pine',
+		moon: 'Rosé Pine Moon',
+		dawn: 'Rosé Pine Dawn',
+	}
 </script>
 
-{#each variants as variant}
-	{@const variantName =
-		variant === 'moon'
-			? 'Rosé Pine Moon'
-			: variant === 'dawn'
-			? 'Rosé Pine Dawn'
-			: 'Rosé Pine'}
+<div class="space-y-40">
+	{#each variants as variant}
+		{@const variantName = variantNames[variant]}
 
-	<div class="py-20">
-		<div class="rounded-md bg-surface p-6">
-			<div class="flex items-center justify-between pb-6">
+		<div class="-mx-6 rounded-md bg-surface p-6 sm:mx-0">
+			<div class="flex items-center justify-between space-x-1 pb-6">
 				<h4
 					id="{variant}-ingredients"
 					class="max-w-full font-display text-lg font-semibold leading-none tracking-wide"
@@ -61,33 +35,17 @@
 					{variantName}
 				</h4>
 
-				<div class="relative flex items-center pl-1">
-					<label for="color-format" class="sr-only">
-						{$_('page.palette.button.format.label')}
-					</label>
-
-					<select
-						id="color-format"
-						bind:value={colorFormat}
-						class="w-full appearance-none rounded-md bg-highlight-low py-1 pr-7 pl-2 text-sm leading-normal text-subtle focus:outline-none focus:ring focus:ring-highlight-high"
-					>
-						<option value={colorFormat}
-							>{$_('page.palette.button.format.label')}
-						</option>
-						<option value="default" disabled={colorFormat === 'default'}
-							>{$_('page.palette.button.format.default')}
-						</option>
-						<option value="unstyled" disabled={colorFormat === 'unstyled'}
-							>{$_('page.palette.button.format.unstyled')}
-						</option>
-					</select>
-
-					<span
-						aria-hidden="true"
-						class="absolute right-0 z-10 mt-px mr-2 inline-block border-x-4 border-t-[6px] border-x-transparent border-t-muted align-middle text-subtle"
-					/>
-				</div>
+				<Select
+					id="color-format"
+					bind:value={colorFormat}
+					label={$_('page.palette.button.format.label')}
+					options={[
+						[$_('page.palette.button.format.default'), 'default'],
+						[$_('page.palette.button.format.unstyled'), 'unstyled'],
+					]}
+				/>
 			</div>
+
 			<div class="overflow-x-scroll">
 				<table class="w-full min-w-max">
 					<thead>
@@ -101,19 +59,9 @@
 
 					<tbody>
 						{#each roles as role}
-							{@const color = colors[colorFormat][variant][role]}
-							{@const colorName =
-								role === 'highlightLow'
-									? 'highlight low'
-									: role === 'highlightMed'
-									? 'highlight med'
-									: role === 'highlightHigh'
-									? 'highlight high'
-									: role}
-							{@const borderColor =
-								colorName.length > 4 || colorName === 'base'
-									? 'var(--muted)'
-									: color.hex}
+							{@const currentColor = palette.variants[variant][role]}
+							{@const formattedColor = formatColor(currentColor, colorFormat)}
+							{@const colorName = role.replace(/([A-Z])/g, ' $1')}
 
 							<tr
 								class="h-9 odd:bg-surface even:bg-base hover:bg-highlight-low"
@@ -121,19 +69,21 @@
 								<td class="pl-2 text-left">
 									<div class="flex items-center">
 										<div
-											class="mr-3 h-[18px] w-[18px] rounded-full border"
-											style:background={colors.default[variant][role].hex}
-											style:border-color={borderColor}
+											class="mr-3 h-[18px] w-[18px] rounded-full border border-highlight-high"
+											style:background={currentColor.hex}
 										/>
-										<span class="text-md font-medium capitalize tracking-wide"
-											>{colorName}</span
-										>
+										<span class="text-md font-medium capitalize tracking-wide">
+											{colorName}
+										</span>
 									</div>
 								</td>
 								<td class="pl-6 text-right font-mono text-sm">
 									<button
 										on:click={() =>
-											clipboard.copy(color.hex, `${variant}.${role}.hex`)}
+											clipboard.copy(
+												formattedColor.hex,
+												`${variant}.${role}.hex`
+											)}
 										class="rounded-md px-2 py-1 hover:bg-highlight-med focus:outline-none focus:ring focus:ring-highlight-high"
 									>
 										{#if $clipboard.pos === `${variant}.${role}.hex`}
@@ -141,14 +91,17 @@
 												{$_('page.palette.button.copied')}
 											</span>
 										{:else}
-											<span>{color.hex}</span>
+											<span>{formattedColor.hex}</span>
 										{/if}
 									</button>
 								</td>
 								<td class="pl-6 text-right font-mono text-sm">
 									<button
 										on:click={() =>
-											clipboard.copy(color.rgb, `${variant}.${role}.rgb`)}
+											clipboard.copy(
+												formattedColor.rgb,
+												`${variant}.${role}.rgb`
+											)}
 										class="rounded-md px-2 py-1 hover:bg-highlight-med focus:outline-none focus:ring focus:ring-highlight-high"
 									>
 										{#if $clipboard.pos === `${variant}.${role}.rgb`}
@@ -156,14 +109,17 @@
 												{$_('page.palette.button.copied')}
 											</span>
 										{:else}
-											<span>{color.rgb}</span>
+											<span>{formattedColor.rgb}</span>
 										{/if}
 									</button>
 								</td>
 								<td class="pl-6 pr-2 text-right font-mono text-sm">
 									<button
 										on:click={() =>
-											clipboard.copy(color.hsl, `${variant}.${role}.hsl`)}
+											clipboard.copy(
+												formattedColor.hsl,
+												`${variant}.${role}.hsl`
+											)}
 										class="rounded-md px-2 py-1 hover:bg-highlight-med focus:outline-none focus:ring focus:ring-highlight-high"
 									>
 										{#if $clipboard.pos === `${variant}.${role}.hsl`}
@@ -171,7 +127,7 @@
 												{$_('page.palette.button.copied')}
 											</span>
 										{:else}
-											<span>{color.hsl}</span>
+											<span>{formattedColor.hsl}</span>
 										{/if}
 									</button>
 								</td>
@@ -181,5 +137,5 @@
 				</table>
 			</div>
 		</div>
-	</div>
-{/each}
+	{/each}
+</div>
