@@ -457,6 +457,18 @@
 		"keywords": ["productivity"]
 	},
 	{
+		"name": "Pleroma",
+		"repo": "https://github.com/rose-pine/pleroma",
+		"maintainers": [
+			{
+				"name": "ThatOneCalculator",
+				"url": "https://github.com/thatonecalculator"
+			}
+		],
+		"keywords": ["web"],
+		"variants": false
+	},
+	{
 		"name": "Prism",
 		"repo": "https://github.com/rose-pine/prism",
 		"maintainers": [{ "name": "fvrests", "url": "https://github.com/fvrests" }],
