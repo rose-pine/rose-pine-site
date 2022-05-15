@@ -1,14 +1,6 @@
 import type { Color } from '@rose-pine/palette'
 import { browser } from '$app/env'
 
-export const toCamelCase = (phrase: string) => {
-	return phrase
-		.replace(/(?:^\w|[A-Z]|\b\w)/g, (word, index) =>
-			index == 0 ? word.toLowerCase() : word.toUpperCase()
-		)
-		.replace(/\s+/g, '')
-}
-
 export type ColorFormat = 'default' | 'unstyled'
 export const formatColor = (color: Color, format: ColorFormat): Color => {
 	if (format === 'unstyled') {

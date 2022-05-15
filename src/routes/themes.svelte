@@ -6,7 +6,6 @@
 	import Search from '$lib/components/search.svelte'
 	import themes from '$lib/data/themes.json'
 	import PageHeading from '$lib/components/page-heading.svelte'
-	import GradientLabel from '$lib/components/gradient-label.svelte'
 
 	let query = ''
 	$: filteredThemes = themes.filter((theme) =>

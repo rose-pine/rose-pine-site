@@ -12,7 +12,7 @@
 		{rel}
 		{href}
 		{target}
-		class="inline-flex items-center space-x-2 rounded-full border bg-highlight-low px-6 py-2.5 text-md font-medium tracking-wide transition-colors duration-150 hover:bg-highlight-med focus:outline-none focus:ring focus:ring-highlight-high"
+		class="inline-flex items-center space-x-2 rounded-full bg-highlight-med px-6 py-2.5 text-md font-medium tracking-wide transition-colors duration-150 hover:bg-highlight-high focus:outline-none focus:ring focus:ring-highlight-high"
 		><slot /></a
 	>
 {:else if action}

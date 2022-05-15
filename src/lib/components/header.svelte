@@ -14,7 +14,6 @@
 	$: menu = [
 		[$_('page.themes.nav'), '/themes'],
 		[$_('page.palette.nav'), '/palette'],
-		['Docs', '/docs'],
 	]
 </script>
 
