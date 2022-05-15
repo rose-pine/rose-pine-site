@@ -2,12 +2,10 @@
 	import { _ } from 'svelte-i18n'
 	import hasMatch from 'has-match'
 	import { Notebook, Sun, Moon, Palette } from 'tabler-icons-svelte'
-	import Meta from '$lib/components/meta.svelte'
 	import Section from '$lib/components/section.svelte'
 	import Search from '$lib/components/search.svelte'
 	import themes from '$lib/data/themes.json'
 	import PageHeading from '$lib/components/page-heading.svelte'
-	import GradientLabel from '$lib/components/gradient-label.svelte'
 
 	let query = ''
 	$: filteredThemes = themes.filter((theme) =>
@@ -22,11 +20,6 @@
 		),
 	]
 </script>
-
-<Meta
-	title={$_('page.themes.nav')}
-	description={$_('page.themes.description')}
-/>
 
 <Section>
 	<PageHeading
@@ -53,7 +46,11 @@
 	>
 		<svelte:fragment slot="item" let:item>
 			<svelte:component this={item.icon} color={item.iconColor} size={16} />
-			<GradientLabel gradient={item.gradient}>{item.text}</GradientLabel>
+			<span
+				class="bg-gradient-to-r {item.gradient} bg-clip-text text-sm font-medium text-transparent"
+			>
+				{item.text}
+			</span>
 		</svelte:fragment>
 
 		<Search

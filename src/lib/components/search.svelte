@@ -9,7 +9,7 @@
 </script>
 
 <div
-	class="mt-12 flex h-10 w-full max-w-sm items-center space-x-3 overflow-hidden rounded-full border-2 border-transparent bg-surface shadow-none transition-shadow focus-within:border-highlight-med focus:shadow lg:mt-0"
+	class="flex h-10 w-full max-w-sm items-center space-x-3 overflow-hidden rounded-full border-2 border-transparent bg-surface shadow-none transition-shadow focus-within:border-highlight-med focus:shadow lg:mt-0"
 >
 	<label for="search" class="pl-3">
 		<span class="sr-only">{label}</span>
