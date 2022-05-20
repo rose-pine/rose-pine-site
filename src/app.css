@@ -22,32 +22,26 @@
 	--love: #b4637a;
 	--love-low: rgba(180, 99, 122, 0.1);
 	--love-med: rgba(180, 99, 122, 0.15);
-	--love-high: rgba(180, 99, 122, 0.2);
 
 	--gold: #ea9d34;
 	--gold-low: rgba(234, 157, 52, 0.1);
 	--gold-med: rgba(234, 157, 52, 0.15);
-	--gold-high: rgba(234, 157, 52, 0.2);
 
 	--rose: #d7827e;
 	--rose-low: rgba(215, 130, 126, 0.1);
 	--rose-med: rgba(215, 130, 126, 0.15);
-	--rose-high: rgba(215, 130, 126, 0.2);
 
 	--pine: #286983;
 	--pine-low: rgba(40, 105, 131, 0.1);
 	--pine-med: rgba(40, 105, 131, 0.2);
-	--pine-high: rgba(40, 105, 131, 0.3);
 
 	--foam: #56949f;
 	--foam-low: rgba(86, 148, 159, 0.1);
 	--foam-med: rgba(86, 148, 159, 0.15);
-	--foam-high: rgba(86, 148, 159, 0.2);
 
 	--iris: #907aa9;
 	--iris-low: rgba(144, 122, 169, 0.1);
 	--iris-med: rgba(144, 122, 169, 0.15);
-	--iris-high: rgba(144, 122, 169, 0.2);
 
 	--highlight-low: rgba(110, 106, 134, 0.05);
 	--highlight-low-blend: rgb(244, 237, 232);
@@ -71,32 +65,26 @@
 		--love: #eb6f92;
 		--love-low: rgba(235, 111, 146, 0.1);
 		--love-med: rgba(235, 111, 146, 0.15);
-		--love-high: rgba(235, 111, 146, 0.2);
 
 		--gold: #f6c177;
 		--gold-low: rgba(246, 193, 119, 0.1);
 		--gold-med: rgba(246, 193, 119, 0.15);
-		--gold-high: rgba(246, 193, 119, 0.2);
 
 		--rose: #ebbcba;
 		--rose-low: rgba(235, 188, 186, 0.1);
 		--rose-med: rgba(235, 188, 186, 0.15);
-		--rose-high: rgba(235, 188, 186, 0.2);
 
 		--pine: #31748f;
 		--pine-low: rgba(49, 116, 143, 0.1);
 		--pine-med: rgba(49, 116, 143, 0.15);
-		--pine-high: rgba(49, 116, 143, 0.2);
 
 		--foam: #9ccfd8;
 		--foam-low: rgba(156, 207, 216, 0.1);
 		--foam-med: rgba(156, 207, 216, 0.15);
-		--foam-high: rgba(156, 207, 216, 0.2);
 
 		--iris: #c4a7e7;
 		--iris-low: rgba(196, 167, 231, 0.1);
 		--iris-med: rgba(196, 167, 231, 0.15);
-		--iris-high: rgba(196, 167, 231, 0.2);
 
 		--highlight-low: rgba(110, 106, 134, 0.1);
 		--highlight-low-blend: rgb(33, 32, 46);
