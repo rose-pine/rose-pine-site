@@ -16,7 +16,8 @@
 
 	<div class="animate-enter space-y-10" style="--stagger: 2">
 		<Banner icon={InfoCircle}>
-			Work-in-progress document. Translations are not yet available.
+			We are moving to a different internationalisation library and will update
+			this document once complete.
 		</Banner>
 
 		<div class="space-y-10">
@@ -27,8 +28,32 @@
 					New languages
 				</h3>
 
+				<p>
+					We are working on simplifying these steps. Please open an issue if you
+					get stuck and we'll gladly help out.
+				</p>
+
 				<List>
-					<ListItem>Add a new locale</ListItem>
+					<ListItem
+						><strong>Create a new locale file</strong> inside
+						<code>src/lib/locales/</code></ListItem
+					>
+					<ListItem
+						><strong>Import your locale</strong> inside
+						<code>routes/__layout.svelte</code></ListItem
+					>
+					<ListItem
+						><strong>Declare your locale</strong> in the <code>locales</code>
+						array as well as <code>addMessages(...)</code></ListItem
+					>
+					<ListItem
+						><strong>Add your locale</strong> as a meta tag inside the head of
+						<code>src/app.html</code></ListItem
+					>
+					<ListItem
+						><strong>Test your locale</strong> for completeness within
+						<code>test/locales.js</code>
+					</ListItem>
 				</List>
 			</section>
 
@@ -40,7 +65,16 @@
 				</h3>
 
 				<List>
-					<ListItem>Modify the locale file</ListItem>
+					<ListItem
+						><strong>Ask questions</strong> if anything is unclear. Translations
+						can be complicated!</ListItem
+					>
+					<ListItem
+						><strong>Update translations</strong> within the respsective <Link
+							href="https://github.com/rose-pine/rose-pine-site/tree/main/src/lib/locales"
+							>locale file</Link
+						></ListItem
+					>
 				</List>
 			</section>
 		</div>

@@ -124,6 +124,13 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+code {
+	padding: 0.125rem 0.25rem;
+	font-size: theme('fontSize.sm');
+	background-color: var(--overlay);
+	border-radius: theme('borderRadius.md');
+}
+
 .animate-enter {
 	opacity: 0;
 	animation: enter 500ms forwards;
