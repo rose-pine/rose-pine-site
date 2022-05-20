@@ -219,15 +219,11 @@
 		"keywords": ["web"],
 		"variants": false
 	},
-		{
+	{
 		"name": "GitKraken",
 		"repo": "https://github.com/rose-pine/gitkraken",
 		"maintainers": [
-			{
-				"name": "Diorcula",
-				"url": "https://github.com/diorcula"
-			}
-			
+			{ "name": "Diorcula", "url": "https://github.com/diorcula" }
 		],
 		"keywords": ["productivity"],
 		"variants": true
@@ -538,14 +534,9 @@
 		"name": "Spotify",
 		"repo": "https://github.com/nicoleajoy/rose-pine-spotify",
 		"maintainers": [
-			{
-				"name": "Nicole Ajoy",
-				"url": "https://github.com/nicoleajoy"
-			}
+			{ "name": "Nicole Ajoy", "url": "https://github.com/nicoleajoy" }
 		],
-		"keywords": [
-			"app"
-		],
+		"keywords": ["app"],
 		"variants": true
 	},
 	{

@@ -16,7 +16,7 @@
 		Search,
 	} from 'tabler-icons-svelte'
 	import { commandMenuIsOpen } from '$lib/store'
-	import rawThemes from '$lib/data/themes.json'
+	import rawThemes from '../../themes.json'
 
 	interface Item {
 		icon: any

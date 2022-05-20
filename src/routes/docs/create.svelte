@@ -80,8 +80,9 @@
 					</ListItem>
 
 					<ListItem>
-						<strong>Add your theme</strong> to the Rosé Pine site's list of <Link
-							href="#!">themes</Link
+						<strong>Add your theme</strong> to the Rosé Pine site's <Link
+							href="https://github.com/rose-pine/rose-pine-site/blob/main/src/themes.json"
+							>list of themes</Link
 						>
 					</ListItem>
 				</List>

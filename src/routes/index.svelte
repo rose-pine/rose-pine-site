@@ -4,8 +4,8 @@
 	import Button from '$lib/components/button.svelte'
 	import Editor from '$lib/components/editor/index.svelte'
 	import { Grain, Seeding, SquaresFilled } from 'tabler-icons-svelte'
-	import themes from '$lib/data/themes.json'
 	import PageHeading from '$lib/components/page-heading.svelte'
+	import themes from '../themes.json'
 </script>
 
 <PageHeading

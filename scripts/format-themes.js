@@ -9,7 +9,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 
 const themes = JSON.parse(
-	fs.readFileSync(path.join(process.cwd(), 'src/lib/data/themes.json'), 'utf8')
+	fs.readFileSync(path.join(process.cwd(), 'src/themes.json'), 'utf8')
 )
 
 themes.sort((a, b) => {
@@ -19,6 +19,6 @@ themes.sort((a, b) => {
 })
 
 fs.writeFileSync(
-	path.join(process.cwd(), 'src/lib/data/themes.json'),
+	path.join(process.cwd(), 'src/themes.json'),
 	JSON.stringify(themes)
 )
