@@ -53,7 +53,8 @@
 					</ListItem>
 
 					<ListItem>
-						<strong>Submit your theme</strong> by <Link href="#!"
+						<strong>Submit your theme</strong> by <Link
+							href="https://github.com/rose-pine/rose-pine-theme/issues/new?assignees=&labels=new+theme&template=add-theme.yml&title=New+theme+for+%3Capp%3E"
 							>creating an issue</Link
 						> and we'll invite you to the organization
 					</ListItem>
