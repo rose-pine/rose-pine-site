@@ -50,6 +50,7 @@
 					<li>Active backgrounds, e.g. tabs, list items</li>
 					<li>Inputs, e.g. text search, checkboxes</li>
 					<li>Hover selections</li>
+					<li>Terminal black</li>
 				</svelte:fragment>
 			</RoleCard>
 
@@ -60,6 +61,7 @@
 
 				<svelte:fragment slot="list">
 					<li>Ignored content, e.g. filenames ignored by Git</li>
+					<li>Terminal bright black</li>
 				</svelte:fragment>
 
 				<svelte:fragment slot="chips">
@@ -99,6 +101,7 @@
 							>highlight med</a
 						> background
 					</li>
+					<li>Terminal white, bright white</li>
 				</svelte:fragment>
 
 				<svelte:fragment slot="chips">
@@ -112,6 +115,7 @@
 				<svelte:fragment slot="list">
 					<li>Deleted files in Git</li>
 					<li>Diagnostic errors</li>
+					<li>Terminal red, bright red</li>
 				</svelte:fragment>
 
 				<svelte:fragment slot="chips">
@@ -125,6 +129,7 @@
 				>
 				<svelte:fragment slot="list">
 					<li>Diagnostic warnings</li>
+					<li>Terminal yellow, bright yellow</li>
 				</svelte:fragment>
 
 				<svelte:fragment slot="chips">
@@ -141,6 +146,7 @@
 						Matching search background paired with <a href="#base">base</a> foreground
 					</li>
 					<li>Modified files in Git</li>
+					<li>Terminal cyan, bright cyan</li>
 				</svelte:fragment>
 
 				<svelte:fragment slot="chips">
@@ -154,6 +160,7 @@
 				>
 				<svelte:fragment slot="list">
 					<li>Renamed files in Git</li>
+					<li>Terminal green, bright green</li>
 				</svelte:fragment>
 
 				<svelte:fragment slot="chips">
@@ -166,6 +173,7 @@
 				<svelte:fragment slot="list">
 					<li>Additions in Git</li>
 					<li>Diagnostic information</li>
+					<li>Terminal blue, bright blue</li>
 				</svelte:fragment>
 
 				<svelte:fragment slot="chips">
@@ -182,6 +190,7 @@
 					<li>Merged and staged changes in Git</li>
 					<li>Diagnostic hints</li>
 					<li>Inline links</li>
+					<li>Terminal magenta, bright magenta</li>
 				</svelte:fragment>
 
 				<svelte:fragment slot="chips">
