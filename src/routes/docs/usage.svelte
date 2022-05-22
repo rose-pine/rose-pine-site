@@ -113,8 +113,8 @@
 				<svelte:fragment slot="description">Be kind; love all</svelte:fragment>
 
 				<svelte:fragment slot="list">
-					<li>Deleted files in Git</li>
 					<li>Diagnostic errors</li>
+					<li>Deleted files in Git</li>
 					<li>Terminal red, bright red</li>
 				</svelte:fragment>
 
