@@ -14,9 +14,10 @@
 		Notebook,
 		Palette,
 		Search,
+		FileDescription,
 	} from 'tabler-icons-svelte'
 	import { commandMenuIsOpen } from '$lib/store'
-	import rawThemes from '$lib/data/themes.json'
+	import rawThemes from '../../themes.json'
 
 	interface Item {
 		icon: any
@@ -33,6 +34,7 @@
 		{ name: $_('page.home.nav'), url: '/', icon: Home },
 		{ name: $_('page.themes.nav'), url: '/themes', icon: Sailboat },
 		{ name: $_('page.palette.nav'), url: '/palette', icon: Palette },
+		{ name: 'Docs', url: '/docs', icon: FileDescription },
 	]
 
 	const socials: Item[] = [

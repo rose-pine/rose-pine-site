@@ -25,37 +25,31 @@ module.exports = {
 					DEFAULT: 'var(--love)',
 					low: 'var(--love-low)',
 					med: 'var(--love-med)',
-					high: 'var(--love-high)',
 				},
 				gold: {
 					DEFAULT: 'var(--gold)',
 					low: 'var(--gold-low)',
 					med: 'var(--gold-med)',
-					high: 'var(--gold-high)',
 				},
 				rose: {
 					DEFAULT: 'var(--rose)',
 					low: 'var(--rose-low)',
 					med: 'var(--rose-med)',
-					high: 'var(--rose-high)',
 				},
 				pine: {
 					DEFAULT: 'var(--pine)',
 					low: 'var(--pine-low)',
 					med: 'var(--pine-med)',
-					high: 'var(--pine-high)',
 				},
 				foam: {
 					DEFAULT: 'var(--foam)',
 					low: 'var(--foam-low)',
 					med: 'var(--foam-med)',
-					high: 'var(--foam-high)',
 				},
 				iris: {
 					DEFAULT: 'var(--iris)',
 					low: 'var(--iris-low)',
 					med: 'var(--iris-med)',
-					high: 'var(--iris-high)',
 				},
 				highlight: {
 					low: 'var(--highlight-low)',

@@ -4,8 +4,8 @@
 	import { Notebook, Sun, Moon, Palette } from 'tabler-icons-svelte'
 	import Section from '$lib/components/section.svelte'
 	import Search from '$lib/components/search.svelte'
-	import themes from '$lib/data/themes.json'
 	import PageHeading from '$lib/components/page-heading.svelte'
+	import themes from '../themes.json'
 
 	let query = ''
 	$: filteredThemes = themes.filter((theme) =>
