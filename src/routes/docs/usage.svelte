@@ -30,7 +30,7 @@
 
 			<RoleCard role="surface">
 				<svelte:fragment slot="description"
-					>Low contrast background atop <a href="#base">base</a
+					>Secondary background atop <a href="#base">base</a
 					></svelte:fragment
 				>
 
