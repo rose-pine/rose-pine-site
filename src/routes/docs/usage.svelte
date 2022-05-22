@@ -42,7 +42,7 @@
 
 			<RoleCard role="overlay">
 				<svelte:fragment slot="description"
-					>Medium contrast background atop <a href="#surface">surface</a
+					>Tertiary background atop <a href="#surface">surface</a
 					></svelte:fragment
 				>
 
