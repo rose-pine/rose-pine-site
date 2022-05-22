@@ -125,7 +125,7 @@
 
 			<RoleCard role="gold">
 				<svelte:fragment slot="description"
-					>Wealth is not gold, but the feeling of</svelte:fragment
+					>Lemon tea on a summer morning</svelte:fragment
 				>
 				<svelte:fragment slot="list">
 					<li>Diagnostic warnings</li>
