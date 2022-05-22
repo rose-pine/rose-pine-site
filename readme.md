@@ -13,7 +13,7 @@
 
 ## Contributing
 
-PR's are welcome and appreciated!
+PRs are welcome and appreciated!
 
 ### Themes
 
