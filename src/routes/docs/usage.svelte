@@ -171,8 +171,8 @@
 			<RoleCard role="foam">
 				<svelte:fragment slot="description">Summer bubbles</svelte:fragment>
 				<svelte:fragment slot="list">
-					<li>Additions in Git</li>
 					<li>Diagnostic information</li>
+					<li>Additions in Git</li>
 					<li>Terminal blue, bright blue</li>
 				</svelte:fragment>
 
