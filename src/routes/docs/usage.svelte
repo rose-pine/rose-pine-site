@@ -187,9 +187,9 @@
 					>Smells of groundedness</svelte:fragment
 				>
 				<svelte:fragment slot="list">
-					<li>Merged and staged changes in Git</li>
 					<li>Diagnostic hints</li>
 					<li>Inline links</li>
+					<li>Merged and staged changes in Git</li>
 					<li>Terminal magenta, bright magenta</li>
 				</svelte:fragment>
 
