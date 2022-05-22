@@ -51,7 +51,7 @@
 						<code>src/app.html</code></ListItem
 					>
 					<ListItem
-						><strong>Test your locale</strong> for completeness within
+						><strong>Test your locale</strong> within
 						<code>test/locales.js</code>
 					</ListItem>
 				</List>
