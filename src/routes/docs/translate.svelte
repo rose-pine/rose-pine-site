@@ -70,7 +70,7 @@
 						can be complicated!</ListItem
 					>
 					<ListItem
-						><strong>Update translations</strong> within the respsective <Link
+						><strong>Update translations</strong> within the respective <Link
 							href="https://github.com/rose-pine/rose-pine-site/tree/main/src/lib/locales"
 							>locale file</Link
 						></ListItem
