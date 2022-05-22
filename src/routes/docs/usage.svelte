@@ -35,7 +35,7 @@
 				>
 
 				<svelte:fragment slot="list">
-					<li>Secondary panels, e.g. editor terminals</li>
+					<li>Accessory panels, e.g. editor terminals</li>
 					<li>Inputs, e.g. text search, checkboxes</li>
 				</svelte:fragment>
 			</RoleCard>
