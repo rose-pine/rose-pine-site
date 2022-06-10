@@ -240,6 +240,13 @@
 		"keywords": ["terminal"]
 	},
 	{
+		"name": "Google",
+		"repo": "https://github.com/blueb442/rose-pine-google",
+		"maintainers": [{ "name": "blueb442", "url": "https://github.com/blueb442" }],
+		"keywords": ["app"],
+		"variants": false
+	},
+	{
 		"name": "Google Chrome",
 		"repo": "https://github.com/rose-pine/google-chrome",
 		"maintainers": [{ "name": "fvrests", "url": "https://github.com/fvrests" }],
