@@ -242,7 +242,9 @@
 	{
 		"name": "Google",
 		"repo": "https://github.com/blueb442/rose-pine-google",
-		"maintainers": [{ "name": "blueb442", "url": "https://github.com/blueb442" }],
+		"maintainers": [
+			{ "name": "blueb442", "url": "https://github.com/blueb442" }
+		],
 		"keywords": ["app"],
 		"variants": false
 	},
@@ -575,6 +577,13 @@
 			}
 		],
 		"keywords": ["editor"]
+	},
+	{
+		"name": "Tauon Music Box",
+		"repo": "https://github.com/rose-pine/tauon",
+		"maintainers": [{ "name": "Robert B." }],
+		"keywords": ["app"],
+		"variants": false
 	},
 	{
 		"name": "Terminal.app",
