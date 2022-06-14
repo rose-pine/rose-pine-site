@@ -92,6 +92,7 @@
 	on:keydown={(e) => {
 		// Toggle command palette via keyboard shortcut
 		if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+			e.preventDefault()
 			commandMenuIsOpen.set(!$commandMenuIsOpen)
 		}
 	}}
