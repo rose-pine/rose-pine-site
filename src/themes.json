@@ -112,6 +112,18 @@
 		"variants": false
 	},
 	{
+		"name": "daisyUI",
+		"repo": "https://github.com/rose-pine/daisyui",
+		"maintainers": [
+			{
+				"name": "ThatOneCalculator",
+				"url": "https://github.com/thatonecalculator"
+			}
+		],
+		"keywords": ["web"],
+		"variants": true
+	},
+	{
 		"name": "Dark Reader",
 		"repo": "https://github.com/rose-pine/dark-reader",
 		"maintainers": [
