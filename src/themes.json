@@ -112,6 +112,13 @@
 		"variants": false
 	},
 	{
+		"name": "ct.js",
+		"repo": "https://github.com/rose-pine/ct.js",
+		"maintainers": [{ "name": "Ehan", "url": "https://github.com/EhanAhamed" }],
+		"keywords": ["app", "editor"],
+		"variants": true
+	},
+	{
 		"name": "daisyUI",
 		"repo": "https://github.com/rose-pine/daisyui",
 		"maintainers": [
