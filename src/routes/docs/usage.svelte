@@ -30,8 +30,7 @@
 
 			<RoleCard role="surface">
 				<svelte:fragment slot="description"
-					>Secondary background atop <a href="#base">base</a
-					></svelte:fragment
+					>Secondary background atop <a href="#base">base</a></svelte:fragment
 				>
 
 				<svelte:fragment slot="list">
@@ -169,7 +168,8 @@
 			</RoleCard>
 
 			<RoleCard role="foam">
-				<svelte:fragment slot="description">Saltwater tidepools</svelte:fragment>
+				<svelte:fragment slot="description">Saltwater tidepools</svelte:fragment
+				>
 				<svelte:fragment slot="list">
 					<li>Diagnostic information</li>
 					<li>Additions in Git</li>
