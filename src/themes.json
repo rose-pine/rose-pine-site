@@ -115,7 +115,7 @@
 		"name": "ct.js",
 		"repo": "https://github.com/rose-pine/ct.js",
 		"maintainers": [{ "name": "Ehan", "url": "https://github.com/EhanAhamed" }],
-		"keywords": ["app"],
+		"keywords": ["app", "editor"],
 		"variants": true
 	},
 	{
