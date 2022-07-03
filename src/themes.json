@@ -226,6 +226,13 @@
 		"variants": true
 	},
 	{
+		"name": "GDevelop",
+		"repo": "https://github.com/rose-pine/GDevelop",
+		"maintainers": [{ "name": "Ehan", "url": "https://github.com/EhanAhamed" }],
+		"keywords": ["app", "editor"],
+		"variants": false
+	},
+	{
 		"name": "GitHub Readme Stats",
 		"repo": "https://github.com/rose-pine/github-readme-stats",
 		"maintainers": [
