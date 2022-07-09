@@ -604,6 +604,18 @@
 		],
 		"keywords": ["editor"]
 	},
+		{
+		"name": "SteamOS",
+		"repo": "https://github.com/rose-pine/SteamOS",
+		"maintainers": [
+			{
+				"name": "CarlTheObeseCat",
+				"url": "https://github.com/CarlTheObeseCat"
+			}
+		],
+		"keywords": ["OS"],
+		"variants": false
+	},
 	{
 		"name": "Tauon Music Box",
 		"repo": "https://github.com/rose-pine/tauon",
@@ -788,18 +800,6 @@
 			}
 		],
 		"keywords": ["web"],
-		"variants": false
-	},
-	{
-		"name": "SteamOS",
-		"repo": "https://github.com/rose-pine/SteamOS",
-		"maintainers": [
-			{
-				"name": "CarlTheObeseCat",
-				"url": "https://github.com/CarlTheObeseCat"
-			}
-		],
-		"keywords": ["OS"],
 		"variants": false
 	}
 ]
