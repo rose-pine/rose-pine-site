@@ -593,18 +593,7 @@
 		],
 		"keywords": ["web"]
 	},
-	{
-		"name": "Sublime Text",
-		"repo": "https://github.com/rose-pine/sublime-text",
-		"maintainers": [
 			{
-				"name": "ThatOneCalculator",
-				"url": "https://github.com/thatonecalculator"
-			}
-		],
-		"keywords": ["editor"]
-	},
-		{
 		"name": "SteamOS",
 		"repo": "https://github.com/rose-pine/SteamOS",
 		"maintainers": [
@@ -615,6 +604,17 @@
 		],
 		"keywords": ["OS"],
 		"variants": false
+	},
+	{
+		"name": "Sublime Text",
+		"repo": "https://github.com/rose-pine/sublime-text",
+		"maintainers": [
+			{
+				"name": "ThatOneCalculator",
+				"url": "https://github.com/thatonecalculator"
+			}
+		],
+		"keywords": ["editor"]
 	},
 	{
 		"name": "Tauon Music Box",
