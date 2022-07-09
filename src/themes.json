@@ -595,7 +595,7 @@
 	},
 			{
 		"name": "SteamOS",
-		"repo": "https://github.com/rose-pine/SteamOS",
+		"repo": "https://github.com/rose-pine/steam-os",
 		"maintainers": [
 			{
 				"name": "CarlTheObeseCat",
