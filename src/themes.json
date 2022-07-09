@@ -789,9 +789,7 @@
 		],
 		"keywords": ["web"],
 		"variants": false
-	}
-],
-[
+	},
 	{
 		"name": "SteamOS",
 		"repo": "https://github.com/rose-pine/SteamOS",
@@ -804,3 +802,5 @@
 		"keywords": ["OS"],
 		"variants": false
 	}
+]
+
