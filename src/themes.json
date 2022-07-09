@@ -594,6 +594,15 @@
 		"keywords": ["web"]
 	},
 	{
+		"name": "SteamOS",
+		"repo": "https://github.com/rose-pine/steam-os",
+		"maintainers": [
+			{ "name": "CarlTheObeseCat", "url": "https://github.com/CarlTheObeseCat" }
+		],
+		"keywords": ["OS"],
+		"variants": false
+	},
+	{
 		"name": "Sublime Text",
 		"repo": "https://github.com/rose-pine/sublime-text",
 		"maintainers": [
