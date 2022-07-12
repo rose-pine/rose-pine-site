@@ -1,7 +1,7 @@
 const { fontFamily } = require('tailwindcss/defaultTheme')
 
 module.exports = {
-	content: ['./src/**/*.svelte', './src/**/*.html'],
+	content: ['./src/**/*.{html,svelte,js,ts}'],
 	theme: {
 		extend: {
 			maxWidth: {
