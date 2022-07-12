@@ -1,16 +1,13 @@
 {
 	"name": "rose-pine-site",
-	"version": "0.0.0",
-	"license": "MIT",
+	"private": true,
 	"type": "module",
 	"scripts": {
-		"dev": "svelte-kit dev",
-		"build": "svelte-kit build",
-		"preview": "svelte-kit preview",
-		"check": "svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
-		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
-		"prepare": "husky install",
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"prepare": "svelte-kit sync && husky install",
+		"format": "prettier --write --plugin-search-dir=. .",
 		"test": "ava"
 	},
 	"dependencies": {
@@ -20,29 +17,22 @@
 		"tabler-icons-svelte": "^1.8.0"
 	},
 	"devDependencies": {
-		"@rgossiaux/svelte-headlessui": "1.0.1",
-		"@sveltejs/adapter-static": "1.0.0-next.31",
-		"@sveltejs/kit": "1.0.0-next.338",
+		"@rgossiaux/svelte-headlessui": "1.0.2",
+		"@sveltejs/adapter-static": "1.0.0-next.35",
+		"@sveltejs/kit": "1.0.0-next.370",
 		"autoprefixer": "^10.4.7",
-		"ava": "^4.2.0",
+		"ava": "^4.3.1",
 		"husky": "^8.0.1",
 		"postcss": "^8.4.14",
-		"prettier": "^2.6.2",
-		"prettier-plugin-tailwindcss": "^0.1.11",
-		"svelte": "^3.48.0",
-		"svelte-check": "^2.7.1",
-		"svelte-preprocess": "^4.10.6",
-		"tailwindcss": "^3.0.24",
+		"prettier": "^2.7.1",
+		"prettier-plugin-tailwindcss": "^0.1.12",
+		"svelte": "^3.49.0",
+		"svelte-check": "^2.8.0",
+		"svelte-preprocess": "^4.10.7",
+		"tailwindcss": "^3.1.6",
 		"tslib": "^2.4.0",
-		"typescript": "^4.6.4"
-	},
-	"prettier": {
-		"semi": false,
-		"singleQuote": true,
-		"useTabs": true,
-		"plugins": [
-			"prettier-plugin-tailwindcss"
-		]
+		"typescript": "^4.7.4",
+		"vite": "^2.9.14"
 	},
 	"lint-staged": {
 		"themes.json": "node scripts/format-themes.js",
