@@ -18,7 +18,7 @@
 	},
 	"devDependencies": {
 		"@rgossiaux/svelte-headlessui": "1.0.2",
-		"@sveltejs/adapter-static": "1.0.0-next.36",
+		"@sveltejs/adapter-netlify": "1.0.0-next.69",
 		"@sveltejs/kit": "1.0.0-next.377",
 		"autoprefixer": "^10.4.7",
 		"ava": "^4.3.1",
