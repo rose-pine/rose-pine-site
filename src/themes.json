@@ -1,17 +1,5 @@
 [
 	{
-		"name": "Alacritty",
-		"repo": "https://github.com/rose-pine/alacritty",
-		"maintainers": [
-			{
-				"name": "ThatOneCalculator",
-				"url": "https://github.com/thatonecalculator"
-			}
-		],
-		"keywords": ["terminal"],
-		"variants": true
-	},
-	{
 		"name": "Aliucord",
 		"repo": "https://github.com/rose-pine/aliucord",
 		"maintainers": [
@@ -27,6 +15,18 @@
 		"repo": "https://github.com/rose-pine/amfora",
 		"maintainers": [{ "name": "mvllow", "url": "https://github.com/mvllow" }],
 		"keywords": ["app"],
+		"variants": true
+	},
+	{
+		"name": "Alacritty",
+		"repo": "https://github.com/rose-pine/alacritty",
+		"maintainers": [
+			{
+				"name": "ThatOneCalculator",
+				"url": "https://github.com/thatonecalculator"
+			}
+		],
+		"keywords": ["terminal"],
 		"variants": true
 	},
 	{
