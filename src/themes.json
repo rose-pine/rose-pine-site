@@ -752,7 +752,7 @@
 		"keywords": ["web"]
 	},
 	{
-		"name": "XCode",
+		"name": "Xcode",
 		"repo": "https://github.com/ldakhoa/rose-pine-xcode",
 		"maintainers": [{ "name": "ldakhoa", "url": "https://github.com/ldakhoa" }],
 		"keywords": ["editor"],
