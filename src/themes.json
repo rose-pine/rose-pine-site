@@ -600,7 +600,7 @@
 			{ "name": "CarlTheObeseCat", "url": "https://github.com/CarlTheObeseCat" }
 		],
 		"keywords": ["OS"],
-		"variants": false
+		"variants": true
 	},
 	{
 		"name": "Sublime Text",
