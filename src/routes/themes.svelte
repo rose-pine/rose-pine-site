@@ -28,7 +28,7 @@
 		items={[
 			{
 				icon: Palette,
-				iconColor: 'var(--rose)',
+				iconColor: 'hsl(var(--color-rose))',
 				text: $_('page.themes.stat.ports', {
 					values: { number: themes.length },
 				}),
@@ -36,7 +36,7 @@
 			},
 			{
 				icon: Notebook,
-				iconColor: 'var(--iris)',
+				iconColor: 'hsl(var(--color-iris))',
 				text: $_('page.themes.stat.maintainers', {
 					values: { number: maintainers.length },
 				}),
@@ -68,7 +68,7 @@
 	>
 		{#if filteredThemes.length < 1}
 			<li
-				class="col-span-full mx-auto flex h-full w-full max-w-lg flex-col items-center rounded-2xl bg-gradient-to-br from-surface via-base to-surface bg-[length:200%_200%] bg-left-top py-8 shadow transition-all duration-200 ease-in-out dark:from-overlay dark:to-base dark:shadow-none sm:py-12"
+				class="col-span-full mx-auto flex h-full w-full max-w-lg flex-col items-center rounded-2xl bg-gradient-to-br from-surface via-base to-surface bg-[length:200%_200%] bg-left-top py-8 shadow transition-all dark:from-overlay dark:to-base dark:shadow-none sm:py-12"
 			>
 				<p class="font-display">{$_('page.themes.search.empty')}</p>
 				<a
@@ -87,10 +87,10 @@
 						rel="external"
 						target="_blank"
 						href={theme.repo}
-						class="flex h-full flex-col items-center rounded-2xl bg-gradient-to-br from-surface via-base to-surface bg-[length:200%_200%] bg-left-top px-1 py-8 shadow transition-[background-position,box-shadow] duration-200 ease-in-out hover:bg-right-bottom focus:outline-none focus:ring focus:ring-highlight-high dark:from-overlay dark:to-base dark:shadow-none sm:py-12"
+						class="flex h-full flex-col items-center rounded-2xl bg-gradient-to-br from-surface via-base to-surface bg-[length:200%_200%] bg-left-top px-1 py-8 shadow transition-[background-position,box-shadow] hover:bg-right-bottom focus:outline-none focus:ring dark:from-overlay dark:to-base dark:shadow-none sm:py-12"
 					>
 						<p
-							class="text-center font-display text-md font-semibold tracking-wide sm:text-lg"
+							class="text-center font-display font-semibold tracking-wide sm:text-lg"
 						>
 							{theme.name}
 						</p>
@@ -99,12 +99,12 @@
 
 						<div class="mt-4 flex items-center space-x-3">
 							<div class="flex h-5 w-5 items-center justify-center">
-								<Moon color="var(--subtle)" size={16} />
+								<Moon color="hsl(var(--color-subtle))" size={16} />
 							</div>
 
 							{#if theme.variants}
 								<div class="flex h-5 w-5 items-center justify-center">
-									<Sun color="var(--gold)" size={20} />
+									<Sun color="hsl(var(--color-gold))" size={20} />
 								</div>
 							{/if}
 						</div>

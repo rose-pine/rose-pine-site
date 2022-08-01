@@ -10,13 +10,18 @@
 		<span class="text-xs font-medium text-subtle">{label}</span>
 	</label>
 
-	<div class="relative flex items-center">
-		<select
-			{id}
-			bind:value
-			class="w-full appearance-none rounded-md bg-highlight-low py-1 pr-7 pl-2 text-sm leading-normal text-subtle focus:outline-none focus:ring focus:ring-highlight-high"
-		>
-			<option {value}>{label}</option>
+	<select
+		{id}
+		bind:value
+		class="w-full cursor-pointer appearance-none rounded-md border bg-muted/5 h-7 pl-2 pr-6 text-sm text-subtle transition hover:bg-muted/10 hover:text-text focus:outline-none focus:ring"
+	>
+		<option {value}>{label}</option>
+		{#each options as [optionLabel, optionValue]}
+			<option value={optionValue} disabled={value === optionValue}
+				>{optionLabel}</option
+			>
+		{/each}
+	</select>
 
 			{#each options as option}
 				<option value={option[1]} disabled={value === option[1]}>

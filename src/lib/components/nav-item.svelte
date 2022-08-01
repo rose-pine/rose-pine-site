@@ -7,7 +7,7 @@
 
 <a
 	{href}
-	class="w-full rounded-md px-2 py-1 text-sm text-subtle hover:bg-highlight-low focus:outline-none focus:ring focus:ring-highlight-high sm:text-md"
+	class="w-full rounded-md px-2 py-1 text-sm text-subtle hover:bg-muted/5 focus:outline-none focus:ring"
 	class:active={$page.url.pathname.includes(href)}
 >
 	{label}

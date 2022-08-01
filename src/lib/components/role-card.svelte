@@ -28,7 +28,7 @@
 
 					<div
 						title={`${variantName} ${role}`}
-						class="h-6 w-6 rounded-full border-2 border-highlight-high sm:h-8 sm:w-8"
+						class="h-6 w-6 rounded-full border-2 sm:h-8 sm:w-8"
 						style:background={palette.variants[variant][toCamelCase(role)].hex}
 					/>
 				{/each}
@@ -37,7 +37,7 @@
 
 		{#if $$slots.description}
 			<blockquote
-				class="border-l-2 border-highlight-high pl-3 text-md font-medium italic text-subtle"
+				class="border-l-2 pl-3 text-sm font-medium italic text-subtle"
 			>
 				<slot name="description" />
 			</blockquote>
@@ -45,7 +45,7 @@
 
 		{#if $$slots.list}
 			<ul
-				class="ml-[18px] list-disc text-md leading-relaxed marker:text-subtle"
+				class="ml-[18px] list-disc text-sm leading-relaxed marker:text-subtle"
 			>
 				<slot name="list" />
 			</ul>

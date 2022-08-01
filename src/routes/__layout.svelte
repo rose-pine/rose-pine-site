@@ -51,8 +51,128 @@
 
 <Header />
 
-<main class="min-h-[calc(100vh-4rem)]">
+<header class="flex justify-center px-page-gutter">
+	<div
+		class="flex h-header-height w-full max-w-content items-center justify-between space-x-3"
+	>
+		<a
+			href="/"
+			class="-ml-2 flex shrink-0 items-center space-x-3 rounded-md px-2 py-1 hover:bg-muted/10 focus:outline-none focus:ring"
+		>
+			<RosePineIcon />
+
+			<h1 class="font-display text-lg font-bold">Rosé Pine</h1>
+		</a>
+
+		<div class="flex shrink-0 items-center">
+			<!-- full navigation -->
+			<nav class="hidden cursor-default sm:block">
+				<ul class="flex items-center space-x-3">
+					{#each menu as [label, href]}
+						<li>
+							<a
+								{href}
+								class="w-full rounded-md px-2 py-1 text-sm transition hover:bg-muted/10 hover:text-text focus:outline-none focus:ring
+								{$page.url.pathname.includes(href) ? 'text-text' : 'text-subtle'}"
+							>
+								{label}
+							</a>
+						</li>
+					{/each}
+
+					<li>
+						<Select
+							id="languages"
+							bind:value={$locale}
+							label={$_('languages.label')}
+							options={Object.keys($languages).map((language) => [
+								$languages[language],
+								language,
+							])}
+						/>
+					</li>
+				</ul>
+			</nav>
+
+			<!-- small navigation -->
+			<nav
+				class="group relative block min-w-[64px] cursor-default text-right sm:hidden"
+			>
+				<button
+					on:click={() => (open = !open)}
+					class="rounded-md bg-muted/10 px-2 py-1 text-sm text-subtle hover:bg-muted/10 focus:outline-none focus:ring"
+				>
+					Menu
+				</button>
+
+				<ul
+					class="absolute right-0 z-50 hidden min-w-[128px] space-y-1 rounded-md bg-surface p-2 text-left shadow group-focus-within:block group-hover:block group-focus:block"
+				>
+					{#each menu as [label, href]}
+						<li class="flex items-center">
+							<a
+								{href}
+								class="w-full rounded-md px-2 py-1 text-sm transition hover:bg-muted/10 hover:text-text focus:outline-none focus:ring
+								{$page.url.pathname.includes(href) ? 'text-text' : 'text-subtle'}"
+							>
+								{label}
+							</a>
+						</li>
+					{/each}
+
+					<li>
+						<Select
+							id="languages"
+							bind:value={$locale}
+							label={$_('languages.label')}
+							options={Object.keys($languages).map((language) => [
+								$languages[language],
+								language,
+							])}
+						/>
+					</li>
+				</ul>
+			</nav>
+
+			<div class="pl-3">
+				<button
+					aria-label="Search"
+					on:click={() => commandMenuIsOpen.set(true)}
+					class="flex h-7 w-7 items-center justify-center rounded-md border bg-muted/5 text-subtle hover:bg-muted/10 focus:outline-none focus:ring"
+				>
+					<SearchIcon size={16} />
+				</button>
+			</div>
+		</div>
+	</div>
+</header>
+
+<main class="min-h-content">
 	<slot />
 </main>
 
-<Footer />
+<footer class="flex justify-center px-page-gutter">
+	<div
+		class="flex h-footer-height w-full max-w-content items-center justify-between space-x-3"
+	>
+		<p class="text-sm text-muted">
+			Copyright &copy; {new Date().getFullYear()} Rosé Pine. All rights reserved.
+		</p>
+
+		<div class="flex items-center space-x-4">
+			<a
+				href="https://github.com/rose-pine"
+				title="GitHub"
+				class="flex h-7 w-7 items-center justify-center rounded text-subtle hover:bg-muted/10 hover:text-text focus:outline-none focus:ring"
+				><GithubIcon size={18} /></a
+			>
+
+			<a
+				href="https://twitter.com/rosepinetheme"
+				title="Twitter"
+				class="flex h-7 w-7 items-center justify-center rounded text-subtle hover:bg-muted/10 hover:text-text focus:outline-none focus:ring"
+				><TwitterIcon size={18} /></a
+			>
+		</div>
+	</div>
+</footer>

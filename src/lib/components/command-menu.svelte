@@ -114,11 +114,11 @@
 	</DialogDescription>
 
 	<div
-		class="relative mx-auto max-w-md divide-y divide-highlight-low overflow-hidden rounded-xl border bg-surface shadow-lg"
+		class="relative mx-auto max-w-md divide-y overflow-hidden rounded-xl border bg-surface shadow-lg"
 	>
 		<div class="flex items-center px-4">
 			<label for="search">
-				<Search size={18} color="var(--subtle)" />
+				<Search size={18} color="hsl(var(--color-subtle))" />
 			</label>
 			<input
 				id="search"
@@ -143,13 +143,13 @@
 								<a
 									href={item.url}
 									target={item.url.includes('http') ? '_blank' : ''}
-									class="group flex items-center space-x-1 rounded px-2 py-2 hover:bg-highlight-low focus:outline-none focus:ring-2 focus:ring-highlight-high"
+									class="group flex items-center space-x-1 rounded px-2 py-2 hover:bg-muted/10 focus:outline-none focus:ring-2"
 								>
 									<div class="pr-1">
 										<svelte:component
 											this={item.icon}
 											size={18}
-											color="var(--subtle)"
+											color="hsl(var(--color-subtle))"
 										/>
 									</div>
 									<span class="font-medium">

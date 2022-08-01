@@ -2,9 +2,9 @@
 	import { BrandGithub, BrandTwitter } from 'tabler-icons-svelte'
 </script>
 
-<footer class="mx-auto w-full max-w-content">
+<footer class="flex justify-center px-page-gutter">
 	<div
-		class="flex h-32 items-center justify-between space-x-6 bg-base px-6 md:px-10"
+		class="flex h-footer-height w-full max-w-content items-center justify-between space-x-3"
 	>
 		<p class="text-sm text-muted">
 			&copy; {new Date().getFullYear()} Rosé Pine
@@ -14,22 +14,20 @@
 			<a
 				href="https://github.com/rose-pine"
 				aria-label="GitHub"
-				class="flex h-8 w-8 items-center justify-center rounded hover:bg-highlight-low focus:outline-none focus:ring focus:ring-highlight-high"
+				class="flex h-8 w-8 items-center justify-center rounded hover:bg-muted/5 focus:outline-none focus:ring"
 			>
 				<BrandGithub size={18} />
 			</a>
 
-			<div class="text-xs text-highlight-high">|</div>
+			<div class="h-6 w-px shrink-0 bg-muted/30" aria-hidden="true" />
 
 			<a
 				href="https://twitter.com/rosepinetheme"
 				aria-label="Twitter"
-				class="flex h-8 w-8 items-center justify-center rounded hover:bg-highlight-low focus:outline-none focus:ring focus:ring-highlight-high"
+				class="flex h-8 w-8 items-center justify-center rounded hover:bg-muted/5 focus:outline-none focus:ring"
 			>
 				<BrandTwitter size={18} />
 			</a>
 		</div>
 	</div>
 </footer>
-
-<div class="h-2 w-full bg-gradient-to-r from-love to-rose" />

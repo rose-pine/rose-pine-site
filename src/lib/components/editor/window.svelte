@@ -1,11 +1,11 @@
 <div
-	class="relative mx-auto h-80 w-full max-w-lg self-center overflow-hidden rounded-2xl border border-highlight-med bg-base lg:h-96 lg:max-w-xl"
+	class="relative mx-auto h-80 w-full max-w-lg self-center overflow-hidden rounded-2xl border bg-base lg:h-96 lg:max-w-xl"
 >
 	<div class="flex h-14 items-center px-6">
 		<div class="flex items-center space-x-2">
-			<div class="h-3.5 w-3.5 rounded-full bg-highlight-high" />
-			<div class="h-3.5 w-3.5 rounded-full bg-highlight-high" />
-			<div class="h-3.5 w-3.5 rounded-full bg-highlight-high" />
+			<div class="h-3.5 w-3.5 rounded-full bg-muted/20" />
+			<div class="h-3.5 w-3.5 rounded-full bg-muted/20" />
+			<div class="h-3.5 w-3.5 rounded-full bg-muted/20" />
 		</div>
 	</div>
 

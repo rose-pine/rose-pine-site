@@ -14,26 +14,20 @@
 		description={$_('page.palette.description')}
 	>
 		<div
-			class="inline-flex items-center divide-x divide-highlight-med-blend overflow-hidden rounded-md border border-highlight-med-blend bg-surface"
+			class="inline-flex items-center divide-x overflow-hidden rounded-md border bg-surface"
 		>
 			<button
 				on:click={() => (view = Swatches)}
-				class="px-4 py-2 text-sm font-medium focus:outline-none focus:ring focus:ring-inset focus:ring-highlight-high"
-				style:color={view === Swatches ? 'var(--text)' : 'var(--subtle)'}
-				style:background-color={view === Swatches
-					? 'var(--surface)'
-					: 'var(--highlight-med)'}
+				class="px-4 py-2 text-sm font-medium focus:outline-none focus:ring focus:ring-inset
+				{view === Swatches ? 'bg-surface text-text' : 'bg-muted/10 text-subtle'}"
 			>
 				{$_('page.palette.button.swatches')}
 			</button>
 
 			<button
 				on:click={() => (view = Ingredients)}
-				class="px-4 py-2 text-sm font-medium focus:outline-none focus:ring focus:ring-inset focus:ring-highlight-high"
-				style:color={view === Ingredients ? 'var(--text)' : 'var(--subtle)'}
-				style:background-color={view === Ingredients
-					? 'var(--surface)'
-					: 'var(--highlight-med)'}
+				class="px-4 py-2 text-sm font-medium focus:outline-none focus:ring focus:ring-inset
+				{view === Ingredients ? 'bg-surface text-text' : 'bg-muted/10 text-subtle'}"
 			>
 				{$_('page.palette.button.ingredients')}
 			</button>

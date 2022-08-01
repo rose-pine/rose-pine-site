@@ -12,9 +12,6 @@
 		| 'pine'
 		| 'foam'
 		| 'iris'
-		| 'highlight-low'
-		| 'highlight-med'
-		| 'highlight-high'
 
 	type Size = 'xs' | 'sm' | 'md' | 'lg' | 'xl' | '2xl' | '3xl' | '4xl'
 
@@ -34,9 +31,6 @@
 		pine: 'bg-pine',
 		foam: 'bg-foam',
 		iris: 'bg-iris',
-		'highlight-low': 'bg-highlight-low',
-		'highlight-med': 'bg-highlight-med',
-		'highlight-high': 'bg-highlight-high',
 	}
 
 	const sizeMap = {

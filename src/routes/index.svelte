@@ -15,7 +15,7 @@
 
 <Section>
 	<div
-		class="grid min-h-[calc(100vh-14rem)] items-center gap-12 lg:grid-cols-[1fr,minmax(0,1fr)]"
+		class="grid min-h-[calc(100vh-var(--header-height)-(var(--page-top)*3))] items-center gap-12 lg:grid-cols-[1fr,minmax(0,1fr)]"
 	>
 		<div class="space-y-6 text-center lg:space-y-12 lg:text-left">
 			<h2
@@ -47,7 +47,7 @@
 	</div>
 </Section>
 
-<Section backgroundColor="var(--surface)">
+<Section backgroundColor="hsl(var(--color-surface))">
 	<ul class="grid grid-cols-1 gap-6 sm:grid-cols-3">
 		<li class="space-y-4">
 			<div

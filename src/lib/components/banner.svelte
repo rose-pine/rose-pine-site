@@ -5,12 +5,12 @@
 	export let scheme: keyof typeof schemes = 'foam'
 
 	const schemes = {
-		love: 'bg-love-low text-love',
-		gold: 'bg-gold-low text-gold',
-		rose: 'bg-rose-low text-rose',
-		pine: 'bg-pine-low text-pine',
-		foam: 'bg-foam-low text-foam',
-		iris: 'bg-iris-low text-iris',
+		love: 'bg-love/10 text-love',
+		gold: 'bg-gold/10 text-gold',
+		rose: 'bg-rose/10 text-rose',
+		pine: 'bg-pine/10 text-pine',
+		foam: 'bg-foam/10 text-foam',
+		iris: 'bg-iris/10 text-iris',
 	}
 </script>
 
