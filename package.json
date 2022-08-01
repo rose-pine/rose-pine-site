@@ -6,7 +6,6 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"prepare": "svelte-kit sync",
 		"format": "prettier --write --plugin-search-dir=. .",
 		"test": "ava"
 	},
@@ -18,19 +17,19 @@
 	},
 	"devDependencies": {
 		"@rgossiaux/svelte-headlessui": "1.0.2",
-		"@sveltejs/adapter-netlify": "1.0.0-next.69",
-		"@sveltejs/kit": "1.0.0-next.377",
-		"autoprefixer": "^10.4.7",
+		"@sveltejs/adapter-netlify": "1.0.0-next.71",
+		"@sveltejs/kit": "1.0.0-next.401",
+		"autoprefixer": "^10.4.8",
 		"ava": "^4.3.1",
 		"postcss": "^8.4.14",
 		"prettier": "^2.7.1",
-		"prettier-plugin-tailwindcss": "^0.1.12",
+		"prettier-plugin-tailwindcss": "^0.1.13",
 		"svelte": "^3.49.0",
 		"svelte-check": "^2.8.0",
 		"svelte-preprocess": "^4.10.7",
-		"tailwindcss": "^3.1.6",
+		"tailwindcss": "^3.1.7",
 		"tslib": "^2.4.0",
 		"typescript": "^4.7.4",
-		"vite": "^3.0.0"
+		"vite": "^3.0.4"
 	}
 }
