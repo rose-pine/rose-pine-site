@@ -6,18 +6,18 @@
 </script>
 
 <li
-	class="flex flex-col space-y-3 text-md sm:flex-row sm:items-center sm:space-y-0 sm:space-x-3 {shouldShowNumber
+	class="flex flex-col space-y-3 sm:flex-row sm:items-center sm:space-y-0 sm:space-x-3 {shouldShowNumber
 		? ''
 		: 'ml-[18px] list-item list-disc'}"
 >
 	{#if shouldShowNumber}
 		<span
-			style:color="var(--base)"
-			class="flex h-9 w-6 shrink-0 items-center justify-center rounded-full bg-text text-md font-medium"
+			class="flex h-9 w-6 shrink-0 items-center justify-center rounded-full bg-text text-sm font-medium"
+			style:color="hsl(var(--color-base))"
 		>
 			{number()}
 		</span>
 	{/if}
 
-	<span><slot /></span>
+	<span class="text-sm"><slot /></span>
 </li>

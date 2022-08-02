@@ -4,69 +4,45 @@ module.exports = {
 	content: ['./src/**/*.{html,svelte,js,ts}'],
 	theme: {
 		extend: {
-			maxWidth: {
-				content: '72rem',
+			spacing: {
+				'page-top': 'var(--page-top)',
+				'page-gutter': 'var(--page-gutter)',
+				'header-height': 'var(--header-height)',
+				'footer-height': 'var(--footer-height)',
 			},
-			fontSize: {
-				md: '15px',
+			maxWidth: {
+				content: 'var(--content-width)',
+			},
+			minHeight: {
+				content: 'var(--content-height)',
 			},
 			fontFamily: {
-				sans: ['Inter var', 'Inter', ...fontFamily.sans],
-				display: ['"Pier Sans"', 'Inter var', 'Inter', ...fontFamily.sans],
+				display: ['"Pier Sans"', ...fontFamily.sans],
 			},
 			colors: {
-				base: 'var(--base)',
-				surface: 'var(--surface)',
-				overlay: 'var(--overlay)',
-				muted: 'var(--muted)',
-				subtle: 'var(--subtle)',
-				text: 'var(--text)',
-				love: {
-					DEFAULT: 'var(--love)',
-					low: 'var(--love-low)',
-					med: 'var(--love-med)',
-				},
-				gold: {
-					DEFAULT: 'var(--gold)',
-					low: 'var(--gold-low)',
-					med: 'var(--gold-med)',
-				},
-				rose: {
-					DEFAULT: 'var(--rose)',
-					low: 'var(--rose-low)',
-					med: 'var(--rose-med)',
-				},
-				pine: {
-					DEFAULT: 'var(--pine)',
-					low: 'var(--pine-low)',
-					med: 'var(--pine-med)',
-				},
-				foam: {
-					DEFAULT: 'var(--foam)',
-					low: 'var(--foam-low)',
-					med: 'var(--foam-med)',
-				},
-				iris: {
-					DEFAULT: 'var(--iris)',
-					low: 'var(--iris-low)',
-					med: 'var(--iris-med)',
-				},
-				highlight: {
-					low: 'var(--highlight-low)',
-					'low-blend': 'var(--highlight-low-blend)',
-					med: 'var(--highlight-med)',
-					'med-blend': 'var(--highlight-med-blend)',
-					high: 'var(--highlight-high)',
-					'high-blend': 'var(--highlight-high-blend)',
-				},
+				base: 'hsl(var(--color-base) / <alpha-value>)',
+				surface: 'hsl(var(--color-surface) / <alpha-value>)',
+				overlay: 'hsl(var(--color-overlay) / <alpha-value>)',
+				muted: 'hsl(var(--color-muted) / <alpha-value>)',
+				subtle: 'hsl(var(--color-subtle) / <alpha-value>)',
+				text: 'hsl(var(--color-text) / <alpha-value>)',
+				love: 'hsl(var(--color-love) / <alpha-value>)',
+				gold: 'hsl(var(--color-gold) / <alpha-value>)',
+				rose: 'hsl(var(--color-rose) / <alpha-value>)',
+				pine: 'hsl(var(--color-pine) / <alpha-value>)',
+				foam: 'hsl(var(--color-foam) / <alpha-value>)',
+				iris: 'hsl(var(--color-iris) / <alpha-value>)',
+			},
+			borderColor: {
+				DEFAULT: 'hsl(var(--color-muted) / 0.2)',
+			},
+			ringColor: {
+				DEFAULT: 'hsl(var(--color-muted) / 0.3)',
 			},
 			boxShadow: {
 				DEFAULT: '0 10px 30px -20px rgba(87, 82, 121, 0.2)',
 				lg: '0 10px 40px -15px rgba(87, 82, 121, 0.2)',
 			},
-			borderColor: (theme) => ({
-				DEFAULT: theme('colors.highlight.low', 'currentColor'),
-			}),
 		},
 	},
 	plugins: [],

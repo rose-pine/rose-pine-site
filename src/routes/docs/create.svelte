@@ -1,9 +1,8 @@
 <script>
-	import { ExternalLink, InfoCircle } from 'tabler-icons-svelte'
+	import { InfoCircleIcon } from '$lib/components/icons'
 	import Section from '$lib/components/section.svelte'
 	import PageHeading from '$lib/components/page-heading.svelte'
 	import Banner from '$lib/components/banner.svelte'
-	import Button from '$lib/components/button.svelte'
 	import Link from '$lib/components/link.svelte'
 	import ListItem from '$lib/components/list-item.svelte'
 	import List from '$lib/components/list.svelte'
@@ -14,14 +13,17 @@
 		title="Create a theme"
 		description="Contributing guide for designers and creators"
 	>
-		<Button href="https://github.com/rose-pine/rose-pine-template">
-			<span>Project Template</span>
-			<ExternalLink size={16} />
-		</Button>
+		<a
+			href="https://github.com/rose-pine/rose-pine-template"
+			target="_blank"
+			class="inline-flex h-10 items-center space-x-2.5 rounded-full bg-muted/20 px-5 font-medium tracking-wide transition hover:bg-muted/30 focus:outline-none focus:ring"
+		>
+			Project Template <span class="pl-1">&UpperRightArrow;</span>
+		</a>
 	</PageHeading>
 
 	<div class="animate-enter space-y-10" style="--stagger: 2">
-		<Banner icon={InfoCircle}>
+		<Banner icon={InfoCircleIcon}>
 			Work-in-progress document. Translations are not yet available.
 		</Banner>
 

@@ -1,8 +1,8 @@
 node_modules
 /build
 /.svelte-kit
+/.netlify
 .env
 .env.*
 !.env.example
-.netlify
 package-lock.json

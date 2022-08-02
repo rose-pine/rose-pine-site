@@ -1,122 +1,80 @@
-@import url('https://rsms.me/inter/inter.css');
 @font-face {
 	font-family: 'Pier Sans';
+	font-display: fallback;
 	font-style: normal;
 	font-weight: bold;
 	src: url('/fonts/PierSans-Bold.otf') format('opentype');
-	font-display: fallback;
 }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-	--base: #faf4ed;
-	--surface: #fffaf3;
-	--overlay: #f2e9e1;
-	--muted: #9893a5;
-	--subtle: #797593;
-	--text: #575279;
-
-	--love: #b4637a;
-	--love-low: rgba(180, 99, 122, 0.1);
-	--love-med: rgba(180, 99, 122, 0.15);
-
-	--gold: #ea9d34;
-	--gold-low: rgba(234, 157, 52, 0.1);
-	--gold-med: rgba(234, 157, 52, 0.15);
-
-	--rose: #d7827e;
-	--rose-low: rgba(215, 130, 126, 0.1);
-	--rose-med: rgba(215, 130, 126, 0.15);
-
-	--pine: #286983;
-	--pine-low: rgba(40, 105, 131, 0.1);
-	--pine-med: rgba(40, 105, 131, 0.2);
-
-	--foam: #56949f;
-	--foam-low: rgba(86, 148, 159, 0.1);
-	--foam-med: rgba(86, 148, 159, 0.15);
-
-	--iris: #907aa9;
-	--iris-low: rgba(144, 122, 169, 0.1);
-	--iris-med: rgba(144, 122, 169, 0.15);
-
-	--highlight-low: rgba(110, 106, 134, 0.05);
-	--highlight-low-blend: rgb(244, 237, 232);
-
-	--highlight-med: rgba(110, 106, 134, 0.08);
-	--highlight-med-blend: rgb(223, 218, 217);
-
-	--highlight-high: rgba(110, 106, 134, 0.15);
-	--highlight-high-blend: rgb(206, 202, 205);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
 	:root {
-		--base: #191724;
-		--surface: #1f1d2e;
-		--overlay: #26233a;
-		--muted: #6e6a86;
-		--subtle: #908caa;
-		--text: #e0def4;
+		color-scheme: light dark;
 
-		--love: #eb6f92;
-		--love-low: rgba(235, 111, 146, 0.1);
-		--love-med: rgba(235, 111, 146, 0.15);
+		--page-top: 48px;
+		--page-gutter: 24px;
 
-		--gold: #f6c177;
-		--gold-low: rgba(246, 193, 119, 0.1);
-		--gold-med: rgba(246, 193, 119, 0.15);
+		@media screen(md) {
+			--page-top: 96px;
+			--page-gutter: 48px;
+		}
 
-		--rose: #ebbcba;
-		--rose-low: rgba(235, 188, 186, 0.1);
-		--rose-med: rgba(235, 188, 186, 0.15);
+		--header-height: 72px;
+		--footer-height: 72px;
+		--content-width: 72rem;
+		--content-height: calc(100vh - var(--header-height) - var(--footer-height));
 
-		--pine: #31748f;
-		--pine-low: rgba(49, 116, 143, 0.1);
-		--pine-med: rgba(49, 116, 143, 0.15);
+		--color-base: 32deg 57% 95%;
+		--color-surface: 35deg 100% 98%;
+		--color-overlay: 33deg 43% 91%;
+		--color-muted: 257deg 9% 61%;
+		--color-subtle: 248deg 12% 52%;
+		--color-text: 248deg 19% 40%;
+		--color-love: 343deg 35% 55%;
+		--color-gold: 35deg 81% 56%;
+		--color-rose: 3deg 53% 67%;
+		--color-pine: 197deg 53% 34%;
+		--color-foam: 189deg 30% 48%;
+		--color-iris: 268deg 21% 57%;
 
-		--foam: #9ccfd8;
-		--foam-low: rgba(156, 207, 216, 0.1);
-		--foam-med: rgba(156, 207, 216, 0.15);
-
-		--iris: #c4a7e7;
-		--iris-low: rgba(196, 167, 231, 0.1);
-		--iris-med: rgba(196, 167, 231, 0.15);
-
-		--highlight-low: rgba(110, 106, 134, 0.1);
-		--highlight-low-blend: rgb(33, 32, 46);
-
-		--highlight-med: rgba(110, 106, 134, 0.2);
-		--highlight-med-blend: rgb(64, 61, 82);
-
-		--highlight-high: rgba(110, 106, 134, 0.4);
-		--highlight-high-blend: rgb(82, 79, 103);
+		@media (prefers-color-scheme: dark) {
+			--color-base: 249deg 22% 12%;
+			--color-surface: 247deg 23% 15%;
+			--color-overlay: 248deg 25% 18%;
+			--color-muted: 249deg 12% 47%;
+			--color-subtle: 248deg 15% 61%;
+			--color-text: 245deg 50% 91%;
+			--color-love: 343deg 76% 68%;
+			--color-gold: 35deg 88% 72%;
+			--color-rose: 2deg 55% 83%;
+			--color-pine: 197deg 49% 38%;
+			--color-foam: 189deg 43% 73%;
+			--color-iris: 267deg 57% 78%;
+		}
 	}
-}
 
-::selection {
-	background-color: var(--highlight-med);
-}
+	::selection {
+		background-color: theme(colors.muted / 20%);
+	}
 
-html {
-	background-color: var(--base);
-}
+	html {
+		scroll-behaviour: smooth;
 
-body {
-	color: var(--text);
-	background-color: var(--base);
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
+		@media (prefers-reduced-motion: reduce) {
+			scroll-behaviour: auto;
+		}
+	}
 
-code {
-	padding: 0.125rem 0.25rem;
-	font-size: theme('fontSize.sm');
-	background-color: var(--overlay);
-	border-radius: theme('borderRadius.md');
+	body {
+		@apply bg-base text-text antialiased;
+	}
+
+	code {
+		@apply rounded-md bg-overlay py-0.5 px-1;
+	}
 }
 
 .animate-enter {
@@ -126,7 +84,7 @@ code {
 }
 
 @keyframes enter {
-	0% {
+	from {
 		opacity: 0;
 		transform: translateY(10px);
 	}
@@ -134,15 +92,5 @@ code {
 	to {
 		opacity: 1;
 		transform: none;
-	}
-}
-
-/* TODO: handle reduce motion on a case by case basis */
-@media (prefers-reduced-motion: reduce) {
-	* {
-		animation-delay: 0.01ms !important;
-		animation-duration: 0.01ms !important;
-		animation-iteration-count: 1 !important;
-		transition-duration: 0.01ms !important;
 	}
 }

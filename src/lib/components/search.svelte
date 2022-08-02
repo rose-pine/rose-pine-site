@@ -1,6 +1,6 @@
 <script>
 	import { _ } from 'svelte-i18n'
-	import { Search } from 'tabler-icons-svelte'
+	import { SearchIcon } from '$lib/components/icons'
 
 	export let query = ''
 	export let label = $_('common.search.label')
@@ -9,11 +9,11 @@
 </script>
 
 <div
-	class="flex h-10 w-full max-w-sm items-center space-x-3 overflow-hidden rounded-full border-2 border-transparent bg-surface shadow-none transition-shadow focus-within:border-highlight-med focus:shadow lg:mt-0"
+	class="flex h-10 w-full max-w-sm items-center space-x-3 overflow-hidden rounded-full bg-surface shadow-none transition-shadow focus-within:ring focus:shadow lg:mt-0"
 >
 	<label for="search" class="pl-3">
 		<span class="sr-only">{label}</span>
-		<Search color="var(--subtle)" size={20} />
+		<span class="text-subtle"><SearchIcon size={20} /></span>
 	</label>
 
 	<input
@@ -22,7 +22,7 @@
 		bind:this={element}
 		bind:value={query}
 		{placeholder}
-		class="h-10 w-full bg-transparent py-3 pr-3 text-sm font-medium text-text placeholder-muted selection:bg-highlight-high focus:outline-none"
+		class="h-10 w-full bg-transparent py-3 pr-3 text-sm font-medium text-text placeholder-muted focus:outline-none"
 	/>
 </div>
 

@@ -4,26 +4,26 @@
 
 	const schemes = {
 		default: hoverable
-			? 'bg-highlight-low hover:bg-highlight-med text-text'
-			: 'bg-highlight-low text-text',
+			? 'bg-muted/10 hover:bg-muted/20 text-text'
+			: 'bg-muted/10 text-text',
 		love: hoverable
-			? 'bg-love-low hover:bg-love-med text-love'
-			: 'bg-love-low text-love',
+			? 'bg-love/10 hover:bg-love/20 text-love'
+			: 'bg-love/10 text-love',
 		gold: hoverable
-			? 'bg-gold-low hover:bg-gold-med text-gold'
-			: 'bg-gold-low text-gold',
+			? 'bg-gold/10 hover:bg-gold/20 text-gold'
+			: 'bg-gold/10 text-gold',
 		rose: hoverable
-			? 'bg-rose-low hover:bg-rose-med text-rose'
-			: 'bg-rose-low text-rose',
+			? 'bg-rose/10 hover:bg-rose/20 text-rose'
+			: 'bg-rose/10 text-rose',
 		pine: hoverable
-			? 'bg-pine-low hover:bg-pine-med text-pine'
-			: 'bg-pine-low text-pine',
+			? 'bg-pine/10 hover:bg-pine/20 text-pine'
+			: 'bg-pine/10 text-pine',
 		foam: hoverable
-			? 'bg-foam-low hover:bg-foam-med text-foam'
-			: 'bg-foam-low text-foam',
+			? 'bg-foam/10 hover:bg-foam/20 text-foam'
+			: 'bg-foam/10 text-foam',
 		iris: hoverable
-			? 'bg-iris-low hover:bg-iris-med text-iris'
-			: 'bg-iris-low text-iris',
+			? 'bg-iris/10 hover:bg-iris/20 text-iris'
+			: 'bg-iris/10 text-iris',
 	}
 </script>
 

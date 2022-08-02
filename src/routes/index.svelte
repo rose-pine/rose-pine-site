@@ -1,9 +1,12 @@
 <script>
 	import { _ } from 'svelte-i18n'
 	import Section from '$lib/components/section.svelte'
-	import Button from '$lib/components/button.svelte'
 	import Editor from '$lib/components/editor/index.svelte'
-	import { Grain, Seeding, SquaresFilled } from 'tabler-icons-svelte'
+	import {
+		GrainIcon,
+		SeedingIcon,
+		SquaresFilledIcon,
+	} from '$lib/components/icons'
 	import PageHeading from '$lib/components/page-heading.svelte'
 	import themes from '../themes.json'
 </script>
@@ -15,11 +18,11 @@
 
 <Section>
 	<div
-		class="grid min-h-[calc(100vh-14rem)] items-center gap-12 lg:grid-cols-[1fr,minmax(0,1fr)]"
+		class="grid min-h-[calc(100vh-var(--header-height)-(var(--page-top)*3))] items-center gap-12 lg:grid-cols-[1fr,minmax(0,1fr)]"
 	>
 		<div class="space-y-6 text-center lg:space-y-12 lg:text-left">
 			<h2
-				class="animate-enter font-display text-5xl lg:text-8xl"
+				class="animate-enter font-display text-5xl tracking-tight lg:text-8xl"
 				style="--stagger: 1"
 			>
 				{@html $_('page.home.title')}
@@ -33,10 +36,13 @@
 			</p>
 
 			<div class="animate-enter" style="--stagger: 3">
-				<Button href="/themes">
+				<a
+					href="/themes"
+					class="inline-flex h-10 items-center space-x-2.5 rounded-full bg-muted/20 px-5 font-medium tracking-wide transition hover:bg-muted/30 focus:outline-none focus:ring"
+				>
 					<span>{$_('page.home.button.primary')}</span>
 					<span>&rarr;</span>
-				</Button>
+				</a>
 			</div>
 		</div>
 
@@ -47,13 +53,13 @@
 	</div>
 </Section>
 
-<Section backgroundColor="var(--surface)">
+<Section backgroundColor="hsl(var(--color-surface))">
 	<ul class="grid grid-cols-1 gap-6 sm:grid-cols-3">
 		<li class="space-y-4">
 			<div
 				class="flex h-14 w-14 items-center justify-center rounded-full bg-iris text-2xl text-surface dark:bg-base dark:text-iris"
 			>
-				<Seeding size={24} />
+				<SeedingIcon size={24} />
 			</div>
 			<h3 class="font-display text-xl font-bold">
 				{$_('page.home.feature_grid.1.heading')}
@@ -67,7 +73,7 @@
 			<div
 				class="flex h-14 w-14 items-center justify-center rounded-full bg-foam text-2xl text-surface dark:bg-base dark:text-foam"
 			>
-				<SquaresFilled size={24} />
+				<SquaresFilledIcon size={24} />
 			</div>
 			<h3 class="font-display text-xl font-bold">
 				{$_('page.home.feature_grid.2.heading')}
@@ -81,7 +87,7 @@
 			<div
 				class="flex h-14 w-14 items-center justify-center rounded-full bg-gold text-2xl text-surface dark:bg-base dark:text-gold"
 			>
-				<Grain size={24} />
+				<GrainIcon size={24} />
 			</div>
 			<h3 class="font-display text-xl font-bold">
 				{$_('page.home.feature_grid.3.heading')}

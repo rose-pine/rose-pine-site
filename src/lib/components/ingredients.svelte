@@ -50,10 +50,10 @@
 				<table class="w-full min-w-max">
 					<thead>
 						<tr class="border-b">
-							<th class="pl-2 text-left text-md">Role</th>
-							<th class="pr-2 text-right text-md">Hex</th>
-							<th class="pr-2 text-right text-md">RGB</th>
-							<th class="pr-2 text-right text-md">HSL</th>
+							<th class="pl-2 text-left text-sm">Role</th>
+							<th class="pr-2 text-right text-sm">Hex</th>
+							<th class="pr-2 text-right text-sm">RGB</th>
+							<th class="pr-2 text-right text-sm">HSL</th>
 						</tr>
 					</thead>
 
@@ -63,16 +63,14 @@
 							{@const formattedColor = formatColor(currentColor, colorFormat)}
 							{@const colorName = role.replace(/([A-Z])/g, ' $1')}
 
-							<tr
-								class="h-9 odd:bg-surface even:bg-base hover:bg-highlight-low"
-							>
+							<tr class="h-10 bg-surface hover:bg-muted/5">
 								<td class="pl-2 text-left">
 									<div class="flex items-center">
 										<div
-											class="mr-3 h-[18px] w-[18px] rounded-full border border-highlight-high"
+											class="mr-3 h-[18px] w-[18px] rounded-full border"
 											style:background={currentColor.hex}
 										/>
-										<span class="text-md font-medium capitalize tracking-wide">
+										<span class="text-sm font-medium capitalize tracking-wide">
 											{colorName}
 										</span>
 									</div>
@@ -84,7 +82,7 @@
 												formattedColor.hex,
 												`${variant}.${role}.hex`
 											)}
-										class="rounded-md px-2 py-1 hover:bg-highlight-med focus:outline-none focus:ring focus:ring-highlight-high"
+										class="rounded-md px-2 py-1 hover:bg-muted/10 focus:outline-none focus:ring"
 									>
 										{#if $clipboard.pos === `${variant}.${role}.hex`}
 											<span class="text-rose">
@@ -102,7 +100,7 @@
 												formattedColor.rgb,
 												`${variant}.${role}.rgb`
 											)}
-										class="rounded-md px-2 py-1 hover:bg-highlight-med focus:outline-none focus:ring focus:ring-highlight-high"
+										class="rounded-md px-2 py-1 hover:bg-muted/10 focus:outline-none focus:ring"
 									>
 										{#if $clipboard.pos === `${variant}.${role}.rgb`}
 											<span class="text-rose">
@@ -120,7 +118,7 @@
 												formattedColor.hsl,
 												`${variant}.${role}.hsl`
 											)}
-										class="rounded-md px-2 py-1 hover:bg-highlight-med focus:outline-none focus:ring focus:ring-highlight-high"
+										class="rounded-md px-2 py-1 hover:bg-muted/10 focus:outline-none focus:ring"
 									>
 										{#if $clipboard.pos === `${variant}.${role}.hsl`}
 											<span class="text-rose">
