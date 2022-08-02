@@ -10,7 +10,7 @@
 	import Section from '$lib/components/section.svelte'
 	import Search from '$lib/components/search.svelte'
 	import PageHeading from '$lib/components/page-heading.svelte'
-	import themes from '../themes.json'
+	import themes from '../../themes.json'
 
 	let query = ''
 	$: filteredThemes = themes.filter((theme) =>
