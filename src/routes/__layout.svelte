@@ -45,11 +45,31 @@
 </script>
 
 <script>
-	import Header from '$lib/components/header.svelte'
-	import Footer from '$lib/components/footer.svelte'
+	import { _, locale } from 'svelte-i18n'
+	import { page } from '$app/stores'
+	import CommandMenu from '$lib/components/command-menu.svelte'
+	import Select from '$lib/components/select.svelte'
+	import {
+		GithubIcon,
+		RosePineIcon,
+		SearchIcon,
+		TwitterIcon,
+	} from '$lib/components/icons'
+	import { commandMenuIsOpen, languages } from '$lib/store'
+	import { setSafeStorage } from '$lib/util'
+
+	$: setSafeStorage('locale', $locale)
+
+	let open = false
+
+	$: menu = [
+		[$_('page.themes.nav'), '/themes'],
+		[$_('page.palette.nav'), '/palette'],
+		['Docs', '/docs'],
+	]
 </script>
 
-<Header />
+<CommandMenu />
 
 <header class="flex justify-center px-page-gutter">
 	<div

@@ -1,6 +1,6 @@
 <script>
 	import { _ } from 'svelte-i18n'
-	import { Search } from 'tabler-icons-svelte'
+	import { SearchIcon } from '$lib/components/icons'
 
 	export let query = ''
 	export let label = $_('common.search.label')
@@ -13,7 +13,7 @@
 >
 	<label for="search" class="pl-3">
 		<span class="sr-only">{label}</span>
-		<Search color="hsl(var(--color-subtle))" size={20} />
+		<span class="text-subtle"><SearchIcon size={20} /></span>
 	</label>
 
 	<input

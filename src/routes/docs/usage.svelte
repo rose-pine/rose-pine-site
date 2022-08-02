@@ -1,5 +1,5 @@
 <script>
-	import { InfoCircle } from 'tabler-icons-svelte'
+	import { InfoCircleIcon } from '$lib/components/icons'
 	import Section from '$lib/components/section.svelte'
 	import PageHeading from '$lib/components/page-heading.svelte'
 	import Banner from '$lib/components/banner.svelte'
@@ -14,7 +14,7 @@
 	/>
 
 	<div class="animate-enter space-y-6" style="--stagger: 2">
-		<Banner icon={InfoCircle}>
+		<Banner icon={InfoCircleIcon}>
 			Work-in-progress document. Translations are not yet available.
 		</Banner>
 

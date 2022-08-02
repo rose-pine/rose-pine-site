@@ -6,18 +6,19 @@
 		DialogTitle,
 		DialogDescription,
 	} from '@rgossiaux/svelte-headlessui'
-	import {
-		Sailboat,
-		BrandGithub,
-		BrandTwitter,
-		Home,
-		Notebook,
-		Palette,
-		Search,
-		FileDescription,
-	} from 'tabler-icons-svelte'
 	import { commandMenuIsOpen } from '$lib/store'
 	import rawThemes from '../../themes.json'
+	import {
+		ChevronRightIcon,
+		FileIcon,
+		GithubIcon,
+		HomeIcon,
+		NotebookIcon,
+		PaletteIcon,
+		SailboatIcon,
+		SearchIcon,
+		TwitterIcon,
+	} from './icons'
 
 	interface Item {
 		icon: any
@@ -31,22 +32,22 @@
 
 	let pages: Item[] = []
 	$: pages = [
-		{ name: $_('page.home.nav'), url: '/', icon: Home },
-		{ name: $_('page.themes.nav'), url: '/themes', icon: Sailboat },
-		{ name: $_('page.palette.nav'), url: '/palette', icon: Palette },
-		{ name: 'Docs', url: '/docs', icon: FileDescription },
+		{ name: $_('page.home.nav'), url: '/', icon: HomeIcon },
+		{ name: $_('page.themes.nav'), url: '/themes', icon: SailboatIcon },
+		{ name: $_('page.palette.nav'), url: '/palette', icon: PaletteIcon },
+		{ name: 'Docs', url: '/docs', icon: FileIcon },
 	]
 
 	const socials: Item[] = [
 		{
 			name: 'GitHub',
 			url: 'https://github.com/rose-pine',
-			icon: BrandGithub,
+			icon: GithubIcon,
 		},
 		{
 			name: 'Twitter',
 			url: 'https://twitter.com/rosepinetheme',
-			icon: BrandTwitter,
+			icon: TwitterIcon,
 		},
 	]
 
@@ -58,7 +59,7 @@
 			? `on GitHub`
 			: `on ${repo.match(matchDomain)}`,
 		url: repo,
-		icon: Notebook,
+		icon: NotebookIcon,
 	}))
 
 	type Group = { name: string; items: Item[] }
@@ -117,8 +118,8 @@
 		class="relative mx-auto max-w-md divide-y overflow-hidden rounded-xl border bg-surface shadow-lg"
 	>
 		<div class="flex items-center px-4">
-			<label for="search">
-				<Search size={18} color="hsl(var(--color-subtle))" />
+			<label for="search" class="text-subtle">
+				<SearchIcon size={18} />
 			</label>
 			<input
 				id="search"
@@ -145,12 +146,8 @@
 									target={item.url.includes('http') ? '_blank' : ''}
 									class="group flex items-center space-x-1 rounded px-2 py-2 hover:bg-muted/10 focus:outline-none focus:ring-2"
 								>
-									<div class="pr-1">
-										<svelte:component
-											this={item.icon}
-											size={18}
-											color="hsl(var(--color-subtle))"
-										/>
+									<div class="pr-1 text-subtle">
+										<svelte:component this={item.icon} size={18} />
 									</div>
 									<span class="font-medium">
 										{item.name}
@@ -160,6 +157,10 @@
 											{item.description}
 										</span>
 									{/if}
+
+									<div class="flex-1" />
+
+									<span class="text-muted"><ChevronRightIcon /></span>
 								</a>
 							</li>
 						{/each}

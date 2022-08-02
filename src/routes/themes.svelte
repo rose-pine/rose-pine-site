@@ -1,7 +1,12 @@
 <script>
 	import { _ } from 'svelte-i18n'
 	import hasMatch from 'has-match'
-	import { Notebook, Sun, Moon, Palette } from 'tabler-icons-svelte'
+	import {
+		NotebookIcon,
+		SunIcon,
+		MoonIcon,
+		PaletteIcon,
+	} from '$lib/components/icons'
 	import Section from '$lib/components/section.svelte'
 	import Search from '$lib/components/search.svelte'
 	import PageHeading from '$lib/components/page-heading.svelte'
@@ -27,7 +32,7 @@
 		description={$_('page.themes.description')}
 		items={[
 			{
-				icon: Palette,
+				icon: PaletteIcon,
 				iconColor: 'hsl(var(--color-rose))',
 				text: $_('page.themes.stat.ports', {
 					values: { number: themes.length },
@@ -35,7 +40,7 @@
 				gradient: 'from-rose to-iris',
 			},
 			{
-				icon: Notebook,
+				icon: NotebookIcon,
 				iconColor: 'hsl(var(--color-iris))',
 				text: $_('page.themes.stat.maintainers', {
 					values: { number: maintainers.length },
@@ -45,7 +50,9 @@
 		]}
 	>
 		<svelte:fragment slot="item" let:item>
-			<svelte:component this={item.icon} color={item.iconColor} size={16} />
+			<span style:color={item.iconColor}
+				><svelte:component this={item.icon} size={16} /></span
+			>
 			<span
 				class="bg-gradient-to-r {item.gradient} bg-clip-text text-sm font-medium text-transparent"
 			>
@@ -98,13 +105,13 @@
 						<div class="flex-1" />
 
 						<div class="mt-4 flex items-center space-x-3">
-							<div class="flex h-5 w-5 items-center justify-center">
-								<Moon color="hsl(var(--color-subtle))" size={16} />
+							<div class="flex h-5 w-5 items-center justify-center text-subtle">
+								<MoonIcon size={18} />
 							</div>
 
 							{#if theme.variants}
-								<div class="flex h-5 w-5 items-center justify-center">
-									<Sun color="hsl(var(--color-gold))" size={20} />
+								<div class="flex h-5 w-5 items-center justify-center text-gold">
+									<SunIcon size={20} />
 								</div>
 							{/if}
 						</div>

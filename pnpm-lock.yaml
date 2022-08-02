@@ -15,7 +15,6 @@ specifiers:
   svelte-check: ^2.8.0
   svelte-i18n: ^3.4.0
   svelte-preprocess: ^4.10.7
-  tabler-icons-svelte: ^1.8.0
   tailwindcss: ^3.1.7
   tslib: ^2.4.0
   typescript: ^4.7.4
@@ -25,7 +24,6 @@ dependencies:
   '@rose-pine/palette': 3.0.1
   has-match: 1.0.3
   svelte-i18n: 3.4.0_svelte@3.49.0
-  tabler-icons-svelte: 1.8.0_svelte@3.49.0
 
 devDependencies:
   '@rgossiaux/svelte-headlessui': 1.0.2_svelte@3.49.0
@@ -1883,14 +1881,6 @@ packages:
   /svelte/3.49.0:
     resolution: {integrity: sha512-+lmjic1pApJWDfPCpUUTc1m8azDqYCG1JN9YEngrx/hUyIcFJo6VZhj0A1Ai0wqoHcEIuQy+e9tk+4uDgdtsFA==}
     engines: {node: '>= 8'}
-
-  /tabler-icons-svelte/1.8.0_svelte@3.49.0:
-    resolution: {integrity: sha512-j8VrSMsj8dwOTGNb4LldR0S+Dh+26D0tf5vJLPJ4v23V4xiL+SUIiyQyhzf7Pclx8Vd/x7WHsi9XsMVvteTNtg==}
-    peerDependencies:
-      svelte: '>=3.31.0 <=4'
-    dependencies:
-      svelte: 3.49.0
-    dev: false
 
   /tailwindcss/3.1.7:
     resolution: {integrity: sha512-r7mgumZ3k0InfVPpGWcX8X/Ut4xBfv+1O/+C73ar/m01LxGVzWvPxF/w6xIUPEztrCoz7axfx0SMdh8FH8ZvRQ==}

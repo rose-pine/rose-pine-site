@@ -1,14 +1,14 @@
 <script lang="ts">
+	import { ChevronDownIcon } from '$lib/components/icons'
+
 	export let id: string
 	export let value: string
 	export let label: string
 	export let options: string[][]
 </script>
 
-<div class="flex flex-col">
-	<label for={id} class="sr-only">
-		<span class="text-xs font-medium text-subtle">{label}</span>
-	</label>
+<div class="relative flex shrink-0 items-center">
+	<label for={id} class="sr-only">{label}</label>
 
 	<select
 		{id}
@@ -23,16 +23,10 @@
 		{/each}
 	</select>
 
-			{#each options as option}
-				<option value={option[1]} disabled={value === option[1]}>
-					{option[0]}
-				</option>
-			{/each}
-		</select>
-
-		<span
-			aria-hidden="true"
-			class="absolute right-0 z-10 mt-px mr-2 inline-block border-x-4 border-t-[6px] border-x-transparent border-t-muted align-middle text-subtle"
-		/>
+	<div
+		aria-hidden="true"
+		class="pointer-events-none absolute right-0 z-10 mr-1.5 mt-px text-subtle"
+	>
+		<ChevronDownIcon size={14} />
 	</div>
 </div>
