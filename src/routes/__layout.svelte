@@ -50,6 +50,7 @@
 	import CommandMenu from '$lib/components/command-menu.svelte'
 	import Select from '$lib/components/select.svelte'
 	import {
+		ChevronDownIcon,
 		GithubIcon,
 		RosePineIcon,
 		SearchIcon,
@@ -84,34 +85,28 @@
 			<h1 class="font-display text-lg font-bold">Rosé Pine</h1>
 		</a>
 
-		<div class="flex shrink-0 items-center">
+		<div class="flex shrink-0 items-center space-x-3">
 			<!-- full navigation -->
-			<nav class="hidden cursor-default sm:block">
-				<ul class="flex items-center space-x-3">
-					{#each menu as [label, href]}
-						<li>
-							<a
-								{href}
-								class="w-full rounded-md px-2 py-1 text-sm transition hover:bg-muted/10 hover:text-text focus:outline-none focus:ring
+			<nav class="hidden cursor-default items-center space-x-3 sm:flex">
+				{#each menu as [label, href]}
+					<a
+						{href}
+						class="w-full rounded-md px-2 py-1 text-sm transition hover:bg-muted/10 hover:text-text focus:outline-none focus:ring
 								{$page.url.pathname.includes(href) ? 'text-text' : 'text-subtle'}"
-							>
-								{label}
-							</a>
-						</li>
-					{/each}
+					>
+						{label}
+					</a>
+				{/each}
 
-					<li>
-						<Select
-							id="languages"
-							bind:value={$locale}
-							label={$_('languages.label')}
-							options={Object.keys($languages).map((language) => [
-								$languages[language],
-								language,
-							])}
-						/>
-					</li>
-				</ul>
+				<Select
+					id="languages"
+					bind:value={$locale}
+					label={$_('languages.label')}
+					options={Object.keys($languages).map((language) => [
+						$languages[language],
+						language,
+					])}
+				/>
 			</nav>
 
 			<!-- small navigation -->
@@ -120,9 +115,15 @@
 			>
 				<button
 					on:click={() => (open = !open)}
-					class="rounded-md bg-muted/10 px-2 py-1 text-sm text-subtle hover:bg-muted/10 focus:outline-none focus:ring"
+					class="flex h-7 items-center justify-center rounded-md pl-2 pr-6 text-sm text-subtle hover:bg-muted/10 hover:text-text focus:outline-none focus:ring"
 				>
 					Menu
+					<div
+						aria-hidden="true"
+						class="pointer-events-none absolute right-0 z-10 mr-1.5 mt-px text-subtle"
+					>
+						<ChevronDownIcon size={14} />
+					</div>
 				</button>
 
 				<ul
@@ -154,15 +155,13 @@
 				</ul>
 			</nav>
 
-			<div class="pl-3">
-				<button
-					aria-label="Search"
-					on:click={() => commandMenuIsOpen.set(true)}
-					class="flex h-7 w-7 items-center justify-center rounded-md border bg-muted/5 text-subtle hover:bg-muted/10 focus:outline-none focus:ring"
-				>
-					<SearchIcon size={16} />
-				</button>
-			</div>
+			<button
+				aria-label="Search"
+				on:click={() => commandMenuIsOpen.set(true)}
+				class="flex h-7 w-7 items-center justify-center rounded-md border bg-muted/5 text-subtle hover:bg-muted/10 focus:outline-none focus:ring"
+			>
+				<SearchIcon size={16} />
+			</button>
 		</div>
 	</div>
 </header>
