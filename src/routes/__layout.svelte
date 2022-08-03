@@ -47,7 +47,7 @@
 <script>
 	import { _, locale } from 'svelte-i18n'
 	import { page } from '$app/stores'
-	import CommandMenu from '$lib/components/command-menu.svelte'
+	import CommandPalette from '$lib/components/command-palette.svelte'
 	import Select from '$lib/components/select.svelte'
 	import {
 		ChevronDownIcon,
@@ -56,7 +56,7 @@
 		SearchIcon,
 		TwitterIcon,
 	} from '$lib/components/icons'
-	import { commandMenuIsOpen, languages } from '$lib/store'
+	import { searchIsOpen, languages } from '$lib/store'
 	import { setSafeStorage } from '$lib/util'
 
 	$: setSafeStorage('locale', $locale)
@@ -70,7 +70,7 @@
 	]
 </script>
 
-<CommandMenu />
+<CommandPalette />
 
 <header class="flex justify-center px-page-gutter">
 	<div

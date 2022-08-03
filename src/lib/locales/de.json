@@ -1,4 +1,14 @@
 {
+	"common": {
+		"colors": "Farben",
+		"community": "Gemeinschaft",
+		"documentation": "Dokumentation",
+		"featured_themes": "Vorgestellten Themes",
+		"home": "Start",
+		"pages": "Seiten",
+		"palette": "Palette",
+		"themes": "Themes"
+	},
 	"page": {
 		"home": {
 			"nav": "Start",
@@ -53,18 +63,13 @@
 			}
 		}
 	},
-	"global_search": {
-		"title": "Seitensuche",
-		"description": "Die Ergebnisse werden während der Eingabe aktualisiert",
-		"heading": {
-			"pages": "Seiten",
-			"themes": "Themes",
-			"social": "Sozial"
-		},
-		"search": {
-			"label": "Suche",
-			"empty": "Keine Ergebnisse gefunden"
-		}
+	"command_palette": {
+		"title": "Suche",
+		"description": "Entdecke Sie Rosé Pine-Seiten,-Themes und -Palette",
+		"search_label": "Suchseiten, Themes, and Palette",
+		"search_no_results": "Keine Ergebnisse für \"{query}\"",
+		"search_suggestion_1": "Durchsuchen Sie alle Themes",
+		"search_suggestion_2": "Beitragen zu Rosé Pine"
 	},
 	"languages": {
 		"label": "Sprachen"

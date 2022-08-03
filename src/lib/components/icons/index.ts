@@ -1,5 +1,6 @@
 export { default as ChevronDownIcon } from './chevron-down.svelte'
 export { default as ChevronRightIcon } from './chevron-right.svelte'
+export { default as ExternalLinkIcon } from './external-link.svelte'
 export { default as FileIcon } from './file.svelte'
 export { default as GithubIcon } from './github.svelte'
 export { default as GrainIcon } from './grain.svelte'

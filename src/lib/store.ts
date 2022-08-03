@@ -9,7 +9,7 @@ export const languages = readable({
 	nl: 'Nederlands',
 })
 
-export const commandMenuIsOpen = writable(false)
+export const searchIsOpen = writable(false)
 
 function createClipboard() {
 	const { subscribe, set } = writable({ value: '', pos: '' })

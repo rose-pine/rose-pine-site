@@ -1,4 +1,14 @@
 {
+	"common": {
+		"colors": "Colori",
+		"community": "Comunità",
+		"documentation": "Documentazione",
+		"featured_themes": "Temi in primo piano",
+		"home": "Casa",
+		"pages": "Pagine",
+		"palette": "Tavolozza",
+		"themes": "Temi"
+	},
 	"page": {
 		"home": {
 			"nav": "Casa",
@@ -31,8 +41,8 @@
 				"maintainers": "{number} Manutentrici"
 			},
 			"search": {
-				"label": "Ricerca temi",
-				"placeholder": "Ricerca {number} temi (Premere \"/\" focalizzare)",
+				"label": "Cerca temi",
+				"placeholder": "Cerca {number} temi (Premere \"/\" focalizzare)",
 				"empty": "Nessun risultato trovato",
 				"empty_prompt": "Contribuire con qualcosa di nuovo"
 			}
@@ -53,18 +63,13 @@
 			}
 		}
 	},
-	"global_search": {
-		"title": "Ricerca nel sito",
-		"description": "I risultati si aggiorneranno mentre digiti",
-		"heading": {
-			"pages": "Pagine",
-			"themes": "Temi",
-			"social": "Sociale"
-		},
-		"search": {
-			"label": "Ricerca",
-			"empty": "Nessun risultato trovato"
-		}
+	"command_palette": {
+		"title": "Cerca",
+		"description": "Scopri le pagine, i temi e la tavolozza di Rosé Pine",
+		"search_label": "Cerca pagine, temi e tavolozza",
+		"search_no_results": "Nessun risultato per \"{query}\"",
+		"search_suggestion_1": "Soflia tutti i temi",
+		"search_suggestion_2": "Contribuisci a Rosé Pine"
 	},
 	"languages": {
 		"label": "Lingue"
