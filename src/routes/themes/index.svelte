@@ -19,9 +19,7 @@
 
 	const maintainers = [
 		...new Set(
-			themes
-				.flatMap((theme) => theme.maintainers)
-				.flatMap((maintainer) => maintainer.name)
+			themes.flatMap((theme) => theme.authors).flatMap((author) => author.name)
 		),
 	]
 </script>
@@ -109,7 +107,7 @@
 								<MoonIcon size={18} />
 							</div>
 
-							{#if theme.variants}
+							{#if theme.has_variants}
 								<div class="flex h-5 w-5 items-center justify-center text-gold">
 									<SunIcon size={20} />
 								</div>
