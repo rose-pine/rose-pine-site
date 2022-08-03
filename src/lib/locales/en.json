@@ -2,65 +2,53 @@
 	"common": {
 		"colors": "Colours",
 		"community": "Community",
+		"copied": "Copied",
 		"documentation": "Documentation",
 		"featured_themes": "Featured themes",
 		"home": "Home",
+		"ingredients": "Ingredients",
+		"languages": "Languages",
+		"maintainers": "Maintainers",
 		"pages": "Pages",
 		"palette": "Palette",
+		"ports": "Ports",
+		"swatches": "Swatches",
 		"themes": "Themes"
 	},
 	"page": {
 		"home": {
 			"nav": "Home",
 			"title": "Something beautiful",
-			"description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist",
-			"button": {
-				"primary": "Discover"
+			"description": "A community-enriched theme and palette featuring all natural pine, faux fur and a bit of soho vibes for the classy minimalist.",
+			"primary_action": "Discover",
+			"feature_1": {
+				"heading": "Subtle aesthetics",
+				"content": "Give your eyes a well-deserved break with our soft, comfy palette"
 			},
-			"feature_grid": {
-				"1": {
-					"heading": "Subtle aesthetics",
-					"content": "Give your eyes a well-deserved break with our soft, comfy palette"
-				},
-				"2": {
-					"heading": "Adaptive moods",
-					"content": "Enjoy variants tailored for every hour of your day"
-				},
-				"3": {
-					"heading": "Community driven",
-					"content": "You helped bring Rosé Pine to over {number} of your favourite apps"
-				}
+			"feature_2": {
+				"heading": "Adaptive moods",
+				"content": "Enjoy variants tailored for every hour of your day"
+			},
+			"feature_3": {
+				"heading": "Community driven",
+				"content": "You helped bring Rosé Pine to over {number} of your favourite apps"
 			}
 		},
 		"themes": {
 			"nav": "Themes",
 			"title": "Themes",
 			"description": "Hand-crafted collection of soho vibes",
-			"stat": {
-				"ports": "{number} Ports",
-				"maintainers": "{number} Maintainers"
-			},
-			"search": {
-				"label": "Search themes",
-				"placeholder": "Search {number} themes (Press \"{key}\" to focus)",
-				"empty": "No matches found",
-				"empty_prompt": "Contribute something new"
-			}
+			"search_label": "Search {number} themes",
+			"search_no_results": "No results for \"{query}\"",
+			"search_suggestion": "Contribute to Rosé Pine"
 		},
 		"palette": {
 			"nav": "Palette",
 			"title": "Palette",
 			"description": "Curated colours, endless creations",
-			"button": {
-				"copied": "Copied",
-				"format": {
-					"label": "Format",
-					"default": "Default",
-					"unstyled": "Unstyled"
-				},
-				"ingredients": "Ingredients",
-				"swatches": "Swatches"
-			}
+			"format_label": "Format",
+			"format_default": "Default",
+			"format_unstyled": "Unstyled"
 		}
 	},
 	"command_palette": {
@@ -70,8 +58,5 @@
 		"search_no_results": "No results for \"{query}\"",
 		"search_suggestion_1": "Browse all themes",
 		"search_suggestion_2": "Contribute to Rosé Pine"
-	},
-	"languages": {
-		"label": "Languages"
 	}
 }

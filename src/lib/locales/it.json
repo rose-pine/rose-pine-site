@@ -2,65 +2,53 @@
 	"common": {
 		"colors": "Colori",
 		"community": "Comunità",
+		"copied": "Copiato",
 		"documentation": "Documentazione",
 		"featured_themes": "Temi in primo piano",
 		"home": "Casa",
+		"ingredients": "Ingredienti",
+		"languages": "Lingue",
+		"maintainers": "Manutentrici",
 		"pages": "Pagine",
 		"palette": "Tavolozza",
+		"ports": "Porti",
+		"swatches": "Campioni",
 		"themes": "Temi"
 	},
 	"page": {
 		"home": {
 			"nav": "Casa",
 			"title": "Qualcosa di bello",
-			"description": "Pino tutto naturale, pelliccia sintetica e un po' di vibrazioni soho per il minimalista di classe",
-			"button": {
-				"primary": "Scoprire"
+			"description": "Un tema e una tavolozza migliorati dalla comunità che include pino tutto naturale, pelliccia sintetica e un po' di vibrazioni soho per il minimalista di classe",
+			"primary_action": "Scoprire",
+			"feature_1": {
+				"heading": "Estetica sottile",
+				"content": "Dai ai tuoi occhi una meritata pausa con la nostra palette morbida e confortevole"
 			},
-			"feature_grid": {
-				"1": {
-					"heading": "Estetica sottile",
-					"content": "Dai ai tuoi occhi una meritata pausa con la nostra palette morbida e confortevole"
-				},
-				"2": {
-					"heading": "Stati d'animo adattivi",
-					"content": "Goditi le varianti su misura per ogni ora della tua giornata"
-				},
-				"3": {
-					"heading": "Guidato dalla comunità",
-					"content": "Hai contribuito a portare Rosé Pine su oltre {number} delle tue app preferite"
-				}
+			"feature_2": {
+				"heading": "Stati d'animo adattivi",
+				"content": "Goditi le varianti su misura per ogni ora della tua giornata"
+			},
+			"feature_3": {
+				"heading": "Guidato dalla comunità",
+				"content": "Hai contribuito a portare Rosé Pine su oltre {number} delle tue app preferite"
 			}
 		},
 		"themes": {
 			"nav": "Temi",
 			"title": "Temi",
 			"description": "Collezione artigianale di vibrazioni soho",
-			"stat": {
-				"ports": "{number} Porti",
-				"maintainers": "{number} Manutentrici"
-			},
-			"search": {
-				"label": "Cerca temi",
-				"placeholder": "Cerca {number} temi (Premere \"/\" focalizzare)",
-				"empty": "Nessun risultato trovato",
-				"empty_prompt": "Contribuire con qualcosa di nuovo"
-			}
+			"search_label": "Cerca {number} temi",
+			"search_no_results": "Nessun risultato per \"{query}\"",
+			"search_suggestion": "Contribuisci a Rosé Pine"
 		},
 		"palette": {
 			"nav": "Tavolozza",
 			"title": "Tavolozza",
 			"description": "Colori curati, creazioni infinite",
-			"button": {
-				"copied": "Copiato",
-				"format": {
-					"label": "Formato",
-					"default": "Predefinito",
-					"unstyled": "Senza stile"
-				},
-				"ingredients": "Ingredienti",
-				"swatches": "Campioni"
-			}
+			"format_label": "Formato",
+			"format_default": "Predefinito",
+			"format_unstyled": "Senza stile"
 		}
 	},
 	"command_palette": {
@@ -70,8 +58,5 @@
 		"search_no_results": "Nessun risultato per \"{query}\"",
 		"search_suggestion_1": "Soflia tutti i temi",
 		"search_suggestion_2": "Contribuisci a Rosé Pine"
-	},
-	"languages": {
-		"label": "Lingue"
 	}
 }

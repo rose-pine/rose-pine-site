@@ -26,23 +26,25 @@
 
 <Section>
 	<PageHeading
-		title={$_('page.themes.title')}
-		description={$_('page.themes.description')}
+		title={$_('page.themes.title', { default: 'Themes' })}
+		description={$_('page.themes.description', {
+			default: 'Hand-crafted collection of soho vibes',
+		})}
 		items={[
 			{
 				icon: PaletteIcon,
 				iconColor: 'hsl(var(--color-rose))',
-				text: $_('page.themes.stat.ports', {
-					values: { number: themes.length },
-				}),
+				text: `${themes.length} ${$_('common.ports', {
+					default: `${themes.length} Ports`,
+				})}`,
 				gradient: 'from-rose to-iris',
 			},
 			{
 				icon: NotebookIcon,
 				iconColor: 'hsl(var(--color-iris))',
-				text: $_('page.themes.stat.maintainers', {
-					values: { number: maintainers.length },
-				}),
+				text: `${maintainers.length} ${$_('common.maintainers', {
+					default: `${maintainers.length} Maintainers`,
+				})}`,
 				gradient: 'from-iris to-foam',
 			},
 		]}
@@ -60,9 +62,13 @@
 
 		<Search
 			bind:query
-			label={$_('page.themes.search.label')}
-			placeholder={$_('page.themes.search.placeholder', {
-				values: { number: themes.length, key: '/' },
+			label={$_('page.themes.search_label', {
+				default: `Search {number} themes`,
+				values: { number: themes.length },
+			})}
+			placeholder={$_('page.themes.search_label', {
+				default: `Search {number} themes`,
+				values: { number: themes.length },
 			})}
 		/>
 	</PageHeading>
@@ -75,14 +81,21 @@
 			<li
 				class="col-span-full mx-auto flex h-full w-full max-w-lg flex-col items-center rounded-2xl bg-gradient-to-br from-surface via-base to-surface bg-[length:200%_200%] bg-left-top py-8 shadow transition-all dark:from-overlay dark:to-base dark:shadow-none sm:py-12"
 			>
-				<p class="font-display">{$_('page.themes.search.empty')}</p>
+				<p class="font-display">
+					{$_('page.themes.search_no_results', {
+						default: 'No results for "{query}"',
+						values: { query },
+					})}
+				</p>
 				<a
 					rel="external"
 					target="_blank"
 					href="https://github.com/rose-pine/.github/blob/main/contributing.md"
 					class="mt-4 text-sm text-rose underline underline-offset-2"
 				>
-					{$_('page.themes.search.empty_prompt')}
+					{$_('page.themes.search_suggestion', {
+						default: 'Contribute to Rosé Pine',
+					})}
 				</a>
 			</li>
 		{:else}

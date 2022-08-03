@@ -3,8 +3,8 @@
 	import { SearchIcon } from '$lib/components/icons'
 
 	export let query = ''
-	export let label = $_('common.search.label')
-	export let placeholder = $_('common.search.label')
+	export let label = ''
+	export let placeholder = ''
 	let element
 </script>
 

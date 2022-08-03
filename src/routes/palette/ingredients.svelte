@@ -38,10 +38,16 @@
 				<Select
 					id="color-format"
 					bind:value={colorFormat}
-					label={$_('page.palette.button.format.label')}
+					label={$_('page.palette.format_label', { default: 'Format' })}
 					options={[
-						[$_('page.palette.button.format.default'), 'default'],
-						[$_('page.palette.button.format.unstyled'), 'unstyled'],
+						[
+							$_('page.palette.format_default', { default: 'Default' }),
+							'default',
+						],
+						[
+							$_('page.palette.format_unstyled', { default: 'Unstyled' }),
+							'unstyled',
+						],
 					]}
 				/>
 			</div>
@@ -86,7 +92,7 @@
 									>
 										{#if $clipboard.pos === `${variant}.${role}.hex`}
 											<span class="text-rose">
-												{$_('page.palette.button.copied')}
+												{$_('common.copied', { default: 'Copied' })}
 											</span>
 										{:else}
 											<span>{formattedColor.hex}</span>
@@ -104,7 +110,7 @@
 									>
 										{#if $clipboard.pos === `${variant}.${role}.rgb`}
 											<span class="text-rose">
-												{$_('page.palette.button.copied')}
+												{$_('common.copied', { default: 'Copied' })}
 											</span>
 										{:else}
 											<span>{formattedColor.rgb}</span>
@@ -122,7 +128,7 @@
 									>
 										{#if $clipboard.pos === `${variant}.${role}.hsl`}
 											<span class="text-rose">
-												{$_('page.palette.button.copied')}
+												{$_('common.copied', { default: 'Copied' })}
 											</span>
 										{:else}
 											<span>{formattedColor.hsl}</span>

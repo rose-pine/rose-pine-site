@@ -64,8 +64,8 @@
 	let open = false
 
 	$: menu = [
-		[$_('page.themes.nav'), '/themes'],
-		[$_('page.palette.nav'), '/palette'],
+		[$_('page.themes.nav', { default: 'Themes' }), '/themes'],
+		[$_('page.palette.nav', { default: 'Palette' }), '/palette'],
 		['Docs', '/docs'],
 	]
 </script>
@@ -101,7 +101,7 @@
 				<Select
 					id="languages"
 					bind:value={$locale}
-					label={$_('languages.label')}
+					label={$_('common.languages', { default: 'Languages' })}
 					options={Object.keys($languages).map((language) => [
 						$languages[language],
 						language,
@@ -145,7 +145,7 @@
 						<Select
 							id="languages"
 							bind:value={$locale}
-							label={$_('languages.label')}
+							label={$_('common.languages', { default: 'Languages' })}
 							options={Object.keys($languages).map((language) => [
 								$languages[language],
 								language,

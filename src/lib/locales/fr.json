@@ -2,65 +2,53 @@
 	"common": {
 		"colors": "Couleurs",
 		"community": "Communauté",
+		"copied": "Copié",
 		"documentation": "Documentation",
 		"featured_themes": "Thèmes en vedette",
 		"home": "Accueil",
+		"ingredients": "Ingrédients",
+		"languages": "Langues",
+		"maintainers": "Mainteneurs",
 		"pages": "Pages",
 		"palette": "Palette",
+		"ports": "Ports",
+		"swatches": "Échantillons",
 		"themes": "Thèmes"
 	},
 	"page": {
 		"home": {
 			"nav": "Accueil",
 			"title": "Quelque chose de beau",
-			"description": "Pin naturel, fausse fourrure et un peu d'ambiance soho pour le minimaliste chic",
-			"button": {
-				"primary": "Découvrir"
+			"description": "Un thème et une palette enrichis par la communauté comprenant pin naturel, fausse fourrure et un peu d'ambiance soho pour le minimaliste chic",
+			"primary_action": "Découvrir",
+			"feature_1": {
+				"heading": "Esthétique subtile",
+				"content": "Offrez à vos yeux une pause bien méritée avec notre palette douce et confortable"
 			},
-			"feature_grid": {
-				"1": {
-					"heading": "Esthétique subtile",
-					"content": "Offrez à vos yeux une pause bien méritée avec notre palette douce et confortable"
-				},
-				"2": {
-					"heading": "Humeurs adaptatives",
-					"content": "Profitez de variantes adaptées à chaque heure de votre journée"
-				},
-				"3": {
-					"heading": "Animé par la communauté",
-					"content": "Vous avez contribué à apporter Rosé Pine à plus de {number} de vos applications préférées"
-				}
+			"feature_2": {
+				"heading": "Humeurs adaptatives",
+				"content": "Profitez de variantes adaptées à chaque heure de votre journée"
+			},
+			"feature_3": {
+				"heading": "Animé par la communauté",
+				"content": "Vous avez contribué à apporter Rosé Pine à plus de {number} de vos applications préférées"
 			}
 		},
 		"themes": {
 			"nav": "Thèmes",
 			"title": "Thèmes",
 			"description": "Collection artisanale d'ambiances soho",
-			"stat": {
-				"ports": "{number} Ports",
-				"maintainers": "{number} Mainteneurs"
-			},
-			"search": {
-				"label": "Chercher thèmes",
-				"placeholder": "Chercher {number} thèmes (Presse \"/\" se concentrer)",
-				"empty": "Aucun résultat",
-				"empty_prompt": "Apporter quelque chose de nouveau"
-			}
+			"search_label": "Chercher {number} thèmes",
+			"search_no_results": "Aucun résultat pour \"{query}\"",
+			"search_suggestion": "Contribuer au Rosé Pine"
 		},
 		"palette": {
 			"nav": "Palette",
 			"title": "Palette",
 			"description": "Couleurs organisées, créations infinies",
-			"button": {
-				"copied": "Copié",
-				"format": {
-					"label": "Format",
-					"default": "Défaut",
-					"unstyled": "Sans style"
-				},
-				"ingredients": "Ingrédients",
-				"swatches": "Échantillons"
-			}
+			"format_label": "Format",
+			"format_default": "Défaut",
+			"format_unstyled": "Sans style"
 		}
 	},
 	"command_palette": {
@@ -70,8 +58,5 @@
 		"search_no_results": "Aucun résultat pour \"{query}\"",
 		"search_suggestion_1": "Parcourir tous les thèmes",
 		"search_suggestion_2": "Contribuer au Rosé Pine"
-	},
-	"languages": {
-		"label": "Langues"
 	}
 }

@@ -25,14 +25,17 @@
 				class="animate-enter font-display text-5xl tracking-tight lg:text-8xl"
 				style="--stagger: 1"
 			>
-				{@html $_('page.home.title')}
+				{@html $_('page.home.title', { default: 'Something beautiful' })}
 			</h2>
 
 			<p
 				class="animate-enter mx-auto max-w-sm text-lg text-subtle lg:mx-0 lg:max-w-md lg:text-xl"
 				style="--stagger: 2"
 			>
-				{$_('page.home.description')}
+				{$_('page.home.description', {
+					default:
+						'A community-enriched theme and palette featuring all natural pine, faux fur and a bit of soho vibes for the classy minimalist.',
+				})}
 			</p>
 
 			<div class="animate-enter" style="--stagger: 3">
@@ -40,7 +43,7 @@
 					href="/themes"
 					class="inline-flex h-10 items-center space-x-2.5 rounded-full bg-muted/20 px-5 font-medium tracking-wide transition hover:bg-muted/30 focus:outline-none focus:ring"
 				>
-					<span>{$_('page.home.button.primary')}</span>
+					<span>{$_('page.home.primary_action', { default: 'Discover' })}</span>
 					<span>&rarr;</span>
 				</a>
 			</div>
@@ -62,10 +65,10 @@
 				<SeedingIcon size={24} />
 			</div>
 			<h3 class="font-display text-xl font-bold">
-				{$_('page.home.feature_grid.1.heading')}
+				{$_('page.home.feature_1.heading')}
 			</h3>
 			<p class="text-subtle sm:max-w-xs">
-				{$_('page.home.feature_grid.1.content')}
+				{$_('page.home.feature_1.content')}
 			</p>
 		</li>
 
@@ -76,10 +79,10 @@
 				<SquaresFilledIcon size={24} />
 			</div>
 			<h3 class="font-display text-xl font-bold">
-				{$_('page.home.feature_grid.2.heading')}
+				{$_('page.home.feature_2.heading')}
 			</h3>
 			<p class="text-subtle md:max-w-xs">
-				{$_('page.home.feature_grid.2.content')}
+				{$_('page.home.feature_2.content')}
 			</p>
 		</li>
 
@@ -90,10 +93,10 @@
 				<GrainIcon size={24} />
 			</div>
 			<h3 class="font-display text-xl font-bold">
-				{$_('page.home.feature_grid.3.heading')}
+				{$_('page.home.feature_3.heading')}
 			</h3>
 			<p class="text-subtle md:max-w-xs">
-				{$_('page.home.feature_grid.3.content', {
+				{$_('page.home.feature_3.content', {
 					values: { number: Math.floor(themes.length / 10) * 10 },
 				})}
 			</p>

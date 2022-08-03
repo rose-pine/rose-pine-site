@@ -7,8 +7,10 @@
 
 <Section>
 	<PageHeading
-		title={$_('page.palette.title')}
-		description={$_('page.palette.description')}
+		title={$_('page.palette.title', { default: 'Palette' })}
+		description={$_('page.palette.description', {
+			default: 'Curated colours, endless creations',
+		})}
 	>
 		<div
 			class="inline-flex items-center divide-x overflow-hidden rounded-md border bg-surface"
@@ -20,7 +22,7 @@
 					? 'bg-surface text-text'
 					: 'bg-muted/10 text-subtle'}"
 			>
-				{$_('page.palette.button.swatches')}
+				{$_('common.swatches', { default: 'Swatches' })}
 			</a>
 
 			<a
@@ -30,7 +32,7 @@
 					? 'bg-surface text-text'
 					: 'bg-muted/10 text-subtle'}"
 			>
-				{$_('page.palette.button.ingredients')}
+				{$_('common.ingredients', { default: 'Ingredients' })}
 			</a>
 		</div>
 	</PageHeading>
