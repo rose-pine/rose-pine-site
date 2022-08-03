@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { _ } from 'svelte-i18n'
 	import hasMatch from 'has-match'
+	import palette from '@rose-pine/palette'
 	import {
 		Dialog,
 		DialogOverlay,
@@ -28,6 +29,7 @@
 		name: string
 		href: string
 		icon?: any
+		iconColor?: string
 		shortname?: string
 		description?: string
 		featured?: number
@@ -51,6 +53,17 @@
 			name: theme.name,
 			shortname: theme.shortname,
 		}))
+
+	const roles = Object.keys(palette.roles)
+	const colors: Item[] = []
+	roles.map((role) => {
+		if (role.includes('highlight')) return
+		colors.push({
+			iconColor: `hsl(var(--color-${role}))`,
+			href: `/docs/usage#${role.toLowerCase().replace(' ', '-')}`,
+			name: role.charAt(0).toUpperCase() + role.slice(1),
+		})
+	})
 
 	$: groups = [
 		{
@@ -84,6 +97,10 @@
 				? $_('common.themes', { default: 'Themes' })
 				: $_('common.featured_themes', { default: 'Featured themes' }),
 			items: query ? themes : featuredThemes,
+		},
+		{
+			name: $_('common.colors', { default: 'Colours' }),
+			items: colors,
 		},
 		{
 			name: $_('common.community', { default: 'Community' }),
@@ -203,6 +220,13 @@
 											>
 												<svelte:component this={item.icon} size={20} />
 											</span>
+										{:else if item.iconColor}
+											<div class="flex h-5 w-5 items-center justify-center">
+												<div
+													class="h-[18px] w-[18px] rounded-full border"
+													style:background-color={item.iconColor}
+												/>
+											</div>
 										{/if}
 
 										<p
