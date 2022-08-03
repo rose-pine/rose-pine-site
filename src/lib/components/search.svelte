@@ -9,7 +9,7 @@
 </script>
 
 <div
-	class="flex h-10 w-full max-w-sm items-center space-x-3 overflow-hidden rounded-full bg-surface shadow-none transition-shadow focus-within:ring focus:shadow lg:mt-0"
+	class="flex h-12 w-full max-w-sm items-center space-x-3 overflow-hidden rounded-full bg-surface shadow-none transition-shadow focus-within:ring focus:shadow sm:h-10 lg:mt-0"
 >
 	<label for="search" class="pl-3">
 		<span class="sr-only">{label}</span>
@@ -22,7 +22,7 @@
 		bind:this={element}
 		bind:value={query}
 		{placeholder}
-		class="h-10 w-full bg-transparent py-3 pr-3 text-sm font-medium text-text placeholder-muted focus:outline-none"
+		class="h-12 w-full bg-transparent py-3 pr-3 text-sm font-medium text-text placeholder-muted focus:outline-none sm:h-10"
 	/>
 </div>
 

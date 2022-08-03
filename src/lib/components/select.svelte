@@ -13,7 +13,7 @@
 	<select
 		{id}
 		bind:value
-		class="h-7 w-full cursor-pointer appearance-none rounded-md border bg-muted/5 pl-2 pr-6 text-sm text-subtle transition hover:bg-muted/10 hover:text-text focus:outline-none focus:ring"
+		class="h-9 w-full cursor-pointer appearance-none rounded-md border bg-muted/5 pl-2 pr-6 text-subtle transition hover:bg-muted/10 hover:text-text focus:outline-none focus:ring sm:h-7 sm:text-sm"
 	>
 		<option {value}>{label}</option>
 		{#each options as [optionLabel, optionValue]}
