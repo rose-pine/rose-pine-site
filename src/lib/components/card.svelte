@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let id = undefined
+	export let id: string | undefined = undefined
 	export let hasPadding = true
 	export let hoverable = false
 	export let scheme: keyof typeof schemes = 'default'
@@ -33,7 +33,7 @@
 	{id}
 	class="{schemes[scheme]} {hasPadding
 		? 'p-6 sm:p-10'
-		: ''} flex h-full w-40 min-w-full flex-col rounded-3xl transition-[border-radius,background-color] group-focus:ring group-focus:ring-inset"
+		: ''} flex h-full w-40 min-w-full scroll-mt-10 flex-col rounded-3xl transition-[border-radius,background-color] target:ring group-focus:ring group-focus:ring-inset"
 >
 	<slot />
 </div>
