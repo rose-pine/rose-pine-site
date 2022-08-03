@@ -175,7 +175,9 @@
 			<input
 				id="search"
 				bind:value={query}
-				placeholder="Search pages, themes, and palette"
+				placeholder={$_('command_palette.search_label', {
+					default: 'Search pages, themes, and palette',
+				})}
 				aria-controls="search-list"
 				class="h-full w-full bg-transparent text-sm placeholder:text-subtle focus:outline-none"
 			/>
