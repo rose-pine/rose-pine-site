@@ -2,65 +2,53 @@
 	"common": {
 		"colors": "Farben",
 		"community": "Gemeinschaft",
+		"copied": "Kopiert",
 		"documentation": "Dokumentation",
 		"featured_themes": "Vorgestellten Themes",
 		"home": "Start",
+		"ingredients": "Zusammensetzung",
+		"languages": "Sprachen",
+		"maintainers": "Unterstützer",
 		"pages": "Seiten",
 		"palette": "Palette",
+		"ports": "Portierungen",
+		"swatches": "Farben",
 		"themes": "Themes"
 	},
 	"page": {
 		"home": {
 			"nav": "Start",
 			"title": "Etwas Wunder&#173;schönes",
-			"description": "Natürliche Kiefer, Kunstpelz und ein ein paar Soho Vibes für den stilvollen Minimalisten",
-			"button": {
-				"primary": "Entdecke mehr"
+			"description": "Ein Community-angereichertes Thema und eine Palette mit Natürliche Kiefer, Kunstpelz und ein ein paar Soho Vibes für den stilvollen Minimalisten",
+			"primary_action": "Entdecke mehr",
+			"feature_1": {
+				"heading": "Subtile Ästhetik",
+				"content": "Erlaube deinen Augen eine wohlverdiente Pause mit unserer sanften und komfortablen Farbpalette"
 			},
-			"feature_grid": {
-				"1": {
-					"heading": "Subtile Ästhetik",
-					"content": "Erlaube deinen Augen eine wohlverdiente Pause mit unserer sanften und komfortablen Farbpalette"
-				},
-				"2": {
-					"heading": "Verschiedene Stimmungen",
-					"content": "Genieße Variationen passend zu jeder Stunde des Tages"
-				},
-				"3": {
-					"heading": "Realisiert von Euch",
-					"content": "Ihr habt geholfen Rosé Pine für über {number} Apps herauszubringen"
-				}
+			"feature_2": {
+				"heading": "Verschiedene Stimmungen",
+				"content": "Genieße Variationen passend zu jeder Stunde des Tages"
+			},
+			"feature_3": {
+				"heading": "Realisiert von Euch",
+				"content": "Ihr habt geholfen Rosé Pine für über {number} Apps herauszubringen"
 			}
 		},
 		"themes": {
 			"nav": "Themes",
 			"title": "Themes",
 			"description": "Eine mit Liebe gestaltete Sammlung voller Soho Vibes",
-			"stat": {
-				"ports": "{number} Portierungen",
-				"maintainers": "{number} Unterstützer"
-			},
-			"search": {
-				"label": "Suche Themes",
-				"placeholder": "Suche aus {number} Themes (Drücke \"/\" zum fokussieren)",
-				"empty": "Keine Ergebnisse gefunden",
-				"empty_prompt": "Erstelle selbst etwas"
-			}
+			"search_label": "Suche aus {number} Themes",
+			"search_no_results": "Keine Ergebnisse für \"{query}\"",
+			"search_suggestion": "Beitragen zu Rosé Pine"
 		},
 		"palette": {
 			"nav": "Palette",
 			"title": "Palette",
 			"description": "Ausgewählte Farben, endlose Kreationsmöglichkeiten",
-			"button": {
-				"copied": "Kopiert",
-				"format": {
-					"label": "Format",
-					"default": "Default",
-					"unstyled": "Ungestylt"
-				},
-				"ingredients": "Zusammensetzung",
-				"swatches": "Farben"
-			}
+			"format_label": "Format",
+			"format_default": "Default",
+			"format_unstyled": "Ungestylt"
 		}
 	},
 	"command_palette": {
@@ -70,8 +58,5 @@
 		"search_no_results": "Keine Ergebnisse für \"{query}\"",
 		"search_suggestion_1": "Durchsuchen Sie alle Themes",
 		"search_suggestion_2": "Beitragen zu Rosé Pine"
-	},
-	"languages": {
-		"label": "Sprachen"
 	}
 }

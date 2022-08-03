@@ -2,65 +2,53 @@
 	"common": {
 		"colors": "Kleuren",
 		"community": "Gemeenschap",
+		"copied": "Gekopieerd",
 		"documentation": "Documentatie",
 		"featured_themes": "Aanbevolen thema's",
 		"home": "Start",
+		"ingredients": "Composities",
+		"languages": "Talen",
+		"maintainers": "Onderhouders",
 		"pages": "Pagina's",
 		"palette": "Palet",
+		"ports": "Ports",
+		"swatches": "Kleuren",
 		"themes": "Thema's"
 	},
 	"page": {
 		"home": {
 			"nav": "Start",
 			"title": "Iets prachtig",
-			"description": "Natuurlijke denne, nepbont en een beetje soho vibes voor de stijlvolle minimalist",
-			"button": {
-				"primary": "Ontdek"
+			"description": "Een door de community verbeterd thema en palet inclusief natuurlijke denne, nepbont en een beetje soho vibes voor de stijlvolle minimalist",
+			"primary_action": "Ontdek",
+			"feature_1": {
+				"heading": "Subtiele sfeer",
+				"content": "Geef je ogen een welverdiende pauze met onze zachte, comfortable palet"
 			},
-			"feature_grid": {
-				"1": {
-					"heading": "Subtiele sfeer",
-					"content": "Geef je ogen een welverdiende pauze met onze zachte, comfortable palet"
-				},
-				"2": {
-					"heading": "Veelzijdige stemmingen",
-					"content": "Geniet van op maat gemaakte varianten voor elk uur van je dag"
-				},
-				"3": {
-					"heading": "Samen gerealiseerd",
-					"content": "Jullie hielpen Rosé Pine naar meer dan {number} van je favoriete apps te brengen"
-				}
+			"feature_2": {
+				"heading": "Veelzijdige stemmingen",
+				"content": "Geniet van op maat gemaakte varianten voor elk uur van je dag"
+			},
+			"feature_3": {
+				"heading": "Samen gerealiseerd",
+				"content": "Jullie hielpen Rosé Pine naar meer dan {number} van je favoriete apps te brengen"
 			}
 		},
 		"themes": {
 			"nav": "Thema's",
 			"title": "Thema's",
 			"description": "Hand gemaakte collectie van soho vibes",
-			"stat": {
-				"ports": "{number} Ports",
-				"maintainers": "{number} Onderhouders"
-			},
-			"search": {
-				"label": "Zoek thema's",
-				"placeholder": "Zoek {number} thema's (Druk \"{key}\" voor focus)",
-				"empty": "Geen overeenkomsten gevonden",
-				"empty_prompt": "Voeg iets nieuws toe"
-			}
+			"search_label": "Zoek {number} thema's",
+			"search_no_results": "Geen resultaten voor \"{query}\"",
+			"search_suggestion": "Draag bij aan Rosé Pine"
 		},
 		"palette": {
 			"nav": "Palet",
 			"title": "Palet",
 			"description": "Samengestelde kleuren, oneindige mogelijkheden",
-			"button": {
-				"copied": "Gekopieerd",
-				"format": {
-					"label": "Formaat",
-					"default": "Standaard",
-					"unstyled": "Ongestyled"
-				},
-				"ingredients": "Composities",
-				"swatches": "Kleuren"
-			}
+			"format_label": "Formaat",
+			"format_default": "Standaard",
+			"format_unstyled": "Ongestyled"
 		}
 	},
 	"command_palette": {
@@ -70,8 +58,5 @@
 		"search_no_results": "Geen resultaten voor \"{query}\"",
 		"search_suggestion_1": "Blader door alle thema's",
 		"search_suggestion_2": "Draag bij aan Rosé Pine"
-	},
-	"languages": {
-		"label": "Talen"
 	}
 }
