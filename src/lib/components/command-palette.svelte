@@ -184,9 +184,10 @@
 
 			<button
 				on:click={() => searchIsOpen.set(false)}
-				class="rounded-md border border-muted/20 bg-muted/10 p-1.5 text-[10px] font-medium text-subtle ring-muted/30 ring-offset-1 ring-offset-surface transition hover:bg-muted/20 hover:text-text focus:text-text focus:outline-none focus:ring"
-				><kbd>ESC</kbd></button
+				class="flex items-center rounded-md border border-muted/20 bg-muted/10 p-1.5 font-mono text-[10px] font-medium text-subtle ring-muted/30 ring-offset-1 ring-offset-surface transition hover:bg-muted/20 hover:text-text focus:text-text focus:outline-none focus:ring"
 			>
+				<kbd>ESC</kbd>
+			</button>
 		</div>
 
 		<div
