@@ -115,25 +115,25 @@
 			>
 				<button
 					on:click={() => (open = !open)}
-					class="flex h-7 items-center justify-center rounded-md pl-2 pr-6 text-sm text-subtle hover:bg-muted/10 hover:text-text focus:outline-none focus:ring"
+					class="flex h-9 items-center justify-center rounded-md pl-3 pr-9 text-subtle hover:bg-muted/10 hover:text-text focus:outline-none focus:ring"
 				>
 					Menu
 					<div
 						aria-hidden="true"
-						class="pointer-events-none absolute right-0 z-10 mr-1.5 mt-px text-subtle"
+						class="pointer-events-none absolute right-0 z-10 mr-3 mt-px text-subtle"
 					>
 						<ChevronDownIcon size={14} />
 					</div>
 				</button>
 
 				<ul
-					class="absolute right-0 z-50 hidden min-w-[128px] space-y-1 rounded-md bg-surface p-2 text-left shadow group-focus-within:block group-hover:block group-focus:block"
+					class="absolute right-0 z-50 hidden min-w-[196px] space-y-1 rounded-md bg-surface p-3 text-left shadow group-focus-within:block group-hover:block group-focus:block"
 				>
 					{#each menu as [label, href]}
-						<li class="flex items-center">
+						<li>
 							<a
 								{href}
-								class="w-full rounded-md px-2 py-1 text-sm transition hover:bg-muted/10 hover:text-text focus:outline-none focus:ring
+								class="-mx-1.5 flex h-9 w-full items-center rounded-md px-3 transition hover:bg-muted/10 hover:text-text focus:outline-none focus:ring
 								{$page.url.pathname.includes(href) ? 'text-text' : 'text-subtle'}"
 							>
 								{label}
@@ -141,7 +141,7 @@
 						</li>
 					{/each}
 
-					<li>
+					<li class="pt-2">
 						<Select
 							id="languages"
 							bind:value={$locale}
@@ -158,7 +158,7 @@
 			<button
 				aria-label="Search"
 				on:click={() => searchIsOpen.set(true)}
-				class="flex h-7 w-7 items-center justify-center rounded-md border bg-muted/5 text-subtle hover:bg-muted/10 focus:outline-none focus:ring"
+				class="flex h-9 w-9 items-center justify-center rounded-md border bg-muted/5 text-subtle hover:bg-muted/10 focus:outline-none focus:ring sm:h-7 sm:w-7"
 			>
 				<SearchIcon size={16} />
 			</button>
@@ -175,22 +175,24 @@
 		class="flex h-footer-height w-full max-w-content items-center justify-between space-x-3"
 	>
 		<p class="text-sm text-muted">
-			Copyright &copy; {new Date().getFullYear()} Rosé Pine. All rights reserved.
+			Copyright &copy; {new Date().getFullYear()} Rosé Pine.
 		</p>
 
 		<div class="flex items-center space-x-4">
 			<a
-				href="https://github.com/rose-pine"
-				title="GitHub"
-				class="flex h-7 w-7 items-center justify-center rounded text-subtle hover:bg-muted/10 hover:text-text focus:outline-none focus:ring"
-				><GithubIcon size={18} /></a
+				title="Twitter"
+				href="https://twitter.com/rosepinetheme"
+				target="_blank"
+				class="flex h-8 w-8 items-center justify-center rounded text-subtle hover:bg-muted/10 hover:text-text focus:outline-none focus:ring sm:h-7 sm:w-7"
+				><TwitterIcon size={18} /></a
 			>
 
 			<a
-				href="https://twitter.com/rosepinetheme"
-				title="Twitter"
-				class="flex h-7 w-7 items-center justify-center rounded text-subtle hover:bg-muted/10 hover:text-text focus:outline-none focus:ring"
-				><TwitterIcon size={18} /></a
+				title="GitHub"
+				href="https://github.com/rose-pine"
+				target="_blank"
+				class="flex h-8 w-8 items-center justify-center rounded text-subtle hover:bg-muted/10 hover:text-text focus:outline-none focus:ring sm:h-7 sm:w-7"
+				><GithubIcon size={18} /></a
 			>
 		</div>
 	</div>
