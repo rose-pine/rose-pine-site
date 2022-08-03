@@ -157,7 +157,7 @@
 
 			<button
 				aria-label="Search"
-				on:click={() => commandMenuIsOpen.set(true)}
+				on:click={() => searchIsOpen.set(true)}
 				class="flex h-7 w-7 items-center justify-center rounded-md border bg-muted/5 text-subtle hover:bg-muted/10 focus:outline-none focus:ring"
 			>
 				<SearchIcon size={16} />
