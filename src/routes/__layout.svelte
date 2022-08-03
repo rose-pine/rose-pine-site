@@ -7,7 +7,6 @@
 	import it from '$lib/locales/it.json'
 	import de from '$lib/locales/de.json'
 	import nl from '$lib/locales/nl.json'
-	import '../app.css'
 
 	const locales = ['en', 'fr', 'it', 'de', 'nl']
 
@@ -58,6 +57,7 @@
 	} from '$lib/components/icons'
 	import { searchIsOpen, languages } from '$lib/store'
 	import { setSafeStorage } from '$lib/util'
+	import '../app.css'
 
 	$: setSafeStorage('locale', $locale)
 
