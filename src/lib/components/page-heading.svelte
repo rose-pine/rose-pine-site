@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>{metaTitle} | Rosé Pine</title>
+	<title>{metaTitle}</title>
 	<meta name="description" content={metaDescription} />
 </svelte:head>
 

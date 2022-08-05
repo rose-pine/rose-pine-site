@@ -12,7 +12,7 @@
 </script>
 
 <PageHeading
-	metaTitle={$_('page.home.nav')}
+	metaTitle="Rosé Pine"
 	metaDescription={$_('page.home.description')}
 />
 
