@@ -17,7 +17,6 @@
 		NotebookIcon,
 		PaletteIcon,
 		SailboatIcon,
-		SearchIcon,
 		TwitterIcon,
 	} from '$lib/components/icons'
 	import { searchIsOpen } from '$lib/store'
@@ -159,28 +158,27 @@
 
 	<!-- Panel -->
 	<div
-		class="absolute inset-x-0 bottom-0 z-30 mx-auto max-w-xl overflow-hidden rounded-t-xl rounded-b-none border border-muted/10 before:absolute before:inset-0 before:z-[-1] before:bg-surface sm:bottom-auto sm:rounded-b-xl [@supports(backdrop-filter:blur(0))]:before:bg-surface/95 [@supports(backdrop-filter:blur(0))]:before:backdrop-blur-md"
+		class="absolute inset-x-0 bottom-0 z-30 mx-auto max-w-xl overflow-hidden rounded-t-xl rounded-b-none border border-muted/10 before:absolute before:inset-0 before:z-[-1] before:bg-surface supports-blur:before:bg-surface/95 supports-blur:before:backdrop-blur-md sm:bottom-auto sm:rounded-b-xl"
 	>
 		<!-- Search -->
-		<div class="relative flex h-14 items-center space-x-3 px-3 sm:h-16 sm:px-5">
-			<label for="search" class="text-subtle">
-				<span class="sr-only"
-					>{$_('command_palette.search_label', {
-						default: 'Search pages, themes, and palette',
-					})}</span
-				>
-				<SearchIcon size={18} />
+		<div class="relative flex h-14 items-center px-3 sm:h-16 sm:px-5">
+			<label for="search" class="sr-only">
+				{$_('command_palette.search_label', {
+					default: 'Search pages, themes, and palette',
+				})}
 			</label>
 
 			<input
 				id="search"
 				bind:value={query}
 				placeholder={$_('command_palette.search_label', {
-					default: 'Search pages, themes, and palette',
+					default: 'Search pages, themes, and palette...',
 				})}
 				aria-controls="search-list"
-				class="h-full w-full bg-transparent text-sm placeholder:text-subtle focus:outline-none"
+				class="h-full w-full bg-transparent text-sm placeholder:text-muted focus:outline-none"
 			/>
+
+			<div class="w-3" />
 
 			<button
 				on:click={() => searchIsOpen.set(false)}
@@ -203,7 +201,8 @@
 				{#each filteredGroups as group}
 					{#if group.items.length > 0}
 						<div class="mt-6 first-of-type:mt-0">
-							<span class="text-xs font-medium tracking-wide">{group.name}</span
+							<span class="text-xs font-medium tracking-wide text-subtle"
+								>{group.name}</span
 							>
 						</div>
 
@@ -215,41 +214,36 @@
 									<a
 										href={item.href}
 										target={isExternal ? '_blank' : undefined}
-										class="group -mx-1.5 flex items-center space-x-2 rounded-lg px-1.5 py-3 text-subtle transition hover:bg-muted/10 focus:bg-muted/20 focus:outline-none sm:-mx-3 sm:px-3 sm:text-sm"
+										class="group -mx-1.5 flex items-center space-x-2 rounded-lg px-1.5 py-3 transition hover:bg-muted/10 focus:bg-muted/20 focus:outline-none sm:-mx-2.5 sm:px-2.5 sm:text-sm"
 									>
 										{#if item.icon}
 											<span
-												class="transition group-hover:text-text group-focus:text-text"
+												class="text-subtle transition group-hover:text-text group-focus:text-text"
 											>
-												<svelte:component this={item.icon} size={20} />
+												<svelte:component this={item.icon} size={18} />
 											</span>
 										{:else if item.iconColor}
 											<div class="flex h-5 w-5 items-center justify-center">
 												<div
-													class="h-[18px] w-[18px] rounded-full border"
+													class="h-4 w-4 rounded-full border sm:h-[18px] sm:w-[18px]"
 													style:background-color={item.iconColor}
 												/>
 											</div>
 										{/if}
 
-										<p
-											class="truncate transition
-											group-hover:text-text group-focus:text-text"
-										>
-											{item.name}
-										</p>
+										<p class="truncate">{item.name}</p>
 
 										<div class="flex-1" />
 
 										<p
-											class="flex items-center space-x-3 text-muted transition group-hover:text-text group-focus:text-text"
+											class="flex items-center space-x-2 text-muted transition group-hover:text-text group-focus:text-text"
 										>
 											{#if isExternal}
 												<span>{new URL(item.href).hostname}</span>
 
-												<ExternalLinkIcon size={16} />
+												<ExternalLinkIcon size={14} />
 											{:else}
-												<ChevronRightIcon size={16} />
+												<ChevronRightIcon size={18} />
 											{/if}
 										</p>
 									</a>

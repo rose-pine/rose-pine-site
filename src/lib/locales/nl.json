@@ -54,7 +54,7 @@
 	"command_palette": {
 		"title": "Zoeken",
 		"description": "Ontdek Rosé Pine-pagina's, thema's en palet",
-		"search_label": "Zoekpagina's, thema's en palet",
+		"search_label": "Zoekpagina's, thema's en palet...",
 		"search_no_results": "Geen resultaten voor \"{query}\"",
 		"search_suggestion_1": "Blader door alle thema's",
 		"search_suggestion_2": "Draag bij aan Rosé Pine"

@@ -54,7 +54,7 @@
 	"command_palette": {
 		"title": "Search",
 		"description": "Discover Rosé Pine pages, themes, and palette",
-		"search_label": "Search pages, themes, and palette",
+		"search_label": "Search pages, themes, and palette...",
 		"search_no_results": "No results for \"{query}\"",
 		"search_suggestion_1": "Browse all themes",
 		"search_suggestion_2": "Contribute to Rosé Pine"

@@ -1,4 +1,5 @@
 const { fontFamily } = require('tailwindcss/defaultTheme')
+const plugin = require('tailwindcss/plugin')
 
 module.exports = {
 	content: ['./src/**/*.{html,svelte,js,ts}'],
@@ -45,5 +46,9 @@ module.exports = {
 			},
 		},
 	},
-	plugins: [],
+	plugins: [
+		plugin(({ addVariant }) => {
+			addVariant('supports-blur', '@supports(backdrop-filter:blur(0))')
+		}),
+	],
 }
