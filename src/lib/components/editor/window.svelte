@@ -12,7 +12,7 @@
 	<slot />
 
 	<div
-		class="absolute bottom-0 flex h-8 w-full items-center rounded-b-2xl bg-surface px-6"
+		class="absolute bottom-0 flex h-8 w-full items-center rounded-b-2xl bg-surface px-6 supports-blur:bg-surface/80 supports-blur:backdrop-blur-md"
 	>
 		<div class="flex w-full items-center font-mono text-xs text-subtle">
 			<svg viewBox="0 0 15 15" fill="none" class="mr-1.5 h-2.5 w-2.5">
