@@ -1,15 +1,34 @@
-<script>
+<script lang="ts">
 	import { _ } from 'svelte-i18n'
 	import { SearchIcon } from '$lib/components/icons'
 
 	export let query = ''
 	export let label = ''
 	export let placeholder = ''
-	let element
+
+	let element: HTMLElement
+
+	function handleKeydown(e: KeyboardEvent) {
+		if (e.key === 'Escape') {
+			element.blur()
+		}
+
+		if (
+			e.key === '/' &&
+			element != null &&
+			document.activeElement?.tagName === 'BODY' &&
+			document.activeElement !== element
+		) {
+			e.preventDefault()
+			element.focus()
+		}
+	}
 </script>
 
+<svelte:window on:keydown={handleKeydown} />
+
 <div
-	class="relative flex h-12 w-full max-w-sm items-center space-x-3 overflow-hidden rounded-full bg-surface px-3 shadow-none transition-shadow focus-within:ring focus:shadow sm:h-10 lg:mt-0"
+	class="relative flex h-12 w-full max-w-sm items-center space-x-3 overflow-hidden rounded-full border bg-surface px-3 transition focus-within:ring"
 >
 	<label for="search">
 		<span class="sr-only">{label}</span>
@@ -31,21 +50,3 @@
 		<kbd>/</kbd>
 	</div>
 </div>
-
-<svelte:body
-	on:keydown={(event) => {
-		if (event.key === 'Escape') {
-			element.blur()
-			return
-		}
-		if (
-			(((event.ctrlKey || event.metaKey) && event.key === 'k') ||
-				event.key === '/') &&
-			element != null &&
-			document.activeElement.tagName === 'BODY' &&
-			document.activeElement !== element
-		) {
-			event.preventDefault()
-			element.focus()
-		}
-	}} />
