@@ -9,27 +9,17 @@ export const toCamelCase = (phrase: string) => {
 		.replace(/\s+/g, '')
 }
 
-export type ColorFormat = 'default' | 'unstyled'
-export const formatColor = (color: Color, format: ColorFormat): Color => {
-	if (format === 'unstyled') {
-		return {
-			hex: color.hex.replace('#', ''),
-			rgb: color.rgb.replace('rgb(', '').replace(')', ''),
-			hsl: color.hsl.replace('hsl(', '').replace(')', ''),
-		}
-	}
+export function getSafeStorage<T extends string>(
+	key: string,
+	safeValues: T[]
+): T {
+	if (!browser) return safeValues[0]
 
-	return color
-}
-
-export const getSafeStorage = (key: string, safeValues: string[]): string => {
-	if (!browser) return
-
-	const value = localStorage.getItem(key)
+	const value = localStorage.getItem(key) ?? safeValues[0]
 
 	if (!safeValues.includes(value)) {
 		localStorage.removeItem(key)
-		return
+		return safeValues[0]
 	}
 
 	return value
@@ -39,4 +29,32 @@ export const setSafeStorage = (key: string, value: string) => {
 	if (!browser) return
 
 	localStorage.setItem(key, value)
+}
+
+export const formatColor = (
+	color: Color,
+	format: 'modern' | 'legacy',
+	showDecorators: boolean
+): Color => {
+	let { hex, rgb, hsl } = { ...color }
+
+	if (!showDecorators) {
+		hex = hex.replace('#', '')
+		rgb = rgb.replace('rgb(', '').replace(')', '')
+		hsl = hsl.replace('hsl(', '').replace(')', '')
+	}
+
+	if (format === 'modern') {
+		return {
+			hex,
+			rgb: rgb.replaceAll(',', ''),
+			hsl: hsl
+				.replaceAll(',', '')
+				.split(' ')
+				.map((v, i) => (i === 0 ? `${v}deg` : v))
+				.join(' '),
+		}
+	}
+
+	return { hex, rgb, hsl }
 }
