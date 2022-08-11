@@ -13,7 +13,7 @@
 	<select
 		{id}
 		bind:value
-		class="h-9 w-full cursor-pointer appearance-none rounded-md border bg-muted/5 pl-2 pr-6 text-subtle transition hover:bg-muted/10 hover:text-text focus:outline-none focus:ring sm:h-7 sm:text-sm"
+		class="h-9 w-full cursor-pointer appearance-none rounded-md border bg-muted/5 pl-2 pr-7 text-subtle transition hover:bg-muted/10 hover:text-text focus:outline-none focus:ring sm:h-7 sm:text-sm"
 	>
 		<option {value}>{label}</option>
 		{#each options as [optionLabel, optionValue]}
@@ -25,7 +25,7 @@
 
 	<div
 		aria-hidden="true"
-		class="pointer-events-none absolute right-0 z-10 mr-1.5 mt-px text-subtle"
+		class="pointer-events-none absolute right-0 z-10 mr-2 mt-px text-subtle"
 	>
 		<ChevronDownIcon size={14} />
 	</div>
