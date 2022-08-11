@@ -1,9 +1,7 @@
 <script lang="ts">
 	import { _ } from 'svelte-i18n'
 	import palette from '@rose-pine/palette'
-	import Select from '$lib/components/select.svelte'
 	import Checkbox from '$lib/components/checkbox.svelte'
-	import { Parentheses, ParenthesesOff } from '$lib/components/icons'
 	import { clipboard, colorSettings } from '$lib/store'
 	import { formatColor } from '$lib/util'
 
@@ -31,27 +29,73 @@
 				</h4>
 
 				<div class="flex items-center justify-end gap-3">
+					<!-- @translation title attribute -->
 					<Checkbox
-						id="color-decorators"
-						bind:checked={$colorSettings.showDecorators}
+						id="color-format"
+						title={`Toggle colour format on/off. When on, a modern format is applied, removing "," and adding "deg" to hsl degree value.`}
+						bind:checked={$colorSettings.format}
 					>
-						<span>{$_('common.decorations', { default: 'Decorations' })}</span>
-						{#if $colorSettings.showDecorators}
-							<Parentheses size={16} />
-						{:else}
-							<ParenthesesOff size={16} />
-						{/if}
+						<span>{$_('common.format', { default: 'Format' })}</span>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="16"
+							height="16"
+							viewBox="0 0 24 24"
+							stroke-width="2"
+							stroke="currentColor"
+							fill="none"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						>
+							{#if $colorSettings.format}
+								<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+								<rect x="5" y="3" width="14" height="6" rx="2" />
+								<path d="M19 6h1a2 2 0 0 1 2 2a5 5 0 0 1 -5 5l-5 0v2" />
+								<rect x="10" y="15" width="4" height="6" rx="1" />
+							{:else}
+								<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+								<path
+									d="M7 3h10a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-4m-4 0h-2a2 2 0 0 1 -2 -2v-2"
+								/>
+								<path d="M19 6h1a2 2 0 0 1 2 2a5 5 0 0 1 -5 5m-4 0h-1v2" />
+								<rect x="10" y="15" width="4" height="6" rx="1" />
+								<path d="M3 3l18 18" />
+							{/if}
+						</svg>
 					</Checkbox>
 
-					<Select
-						id="color-format"
-						bind:value={$colorSettings.format}
-						label={$_('', { default: 'Format' })}
-						options={[
-							[$_('common.modern', { default: 'Modern' }), 'modern'],
-							[$_('common.legacy', { default: 'Legacy' }), 'legacy'],
-						]}
-					/>
+					<!-- @translation title attribute -->
+					<Checkbox
+						id="color-decorators"
+						title={`Toggle decorations on/off. Decorations include: "#", "rgb()", and "hsl()"`}
+						bind:checked={$colorSettings.decorators}
+					>
+						<span>{$_('common.decorations', { default: 'Decorations' })}</span>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="16"
+							height="16"
+							viewBox="0 0 24 24"
+							stroke-width="2"
+							stroke="currentColor"
+							fill="none"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						>
+							{#if $colorSettings.decorators}
+								<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+								<path d="M7 4a12.25 12.25 0 0 0 0 16" />
+								<path d="M17 4a12.25 12.25 0 0 1 0 16" />
+							{:else}
+								<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+								<path d="M5.743 5.745a12.253 12.253 0 0 0 1.257 14.255" />
+								<path
+									d="M17 4a12.25 12.25 0 0 1 2.474 11.467m-1.22 2.794a12.291 12.291 0 0 1 -1.254 1.739"
+								/>
+								<path d="M3 3l18 18" />
+							{/if}
+						</svg>
+					</Checkbox>
 				</div>
 			</div>
 
@@ -72,7 +116,7 @@
 							{@const formattedColor = formatColor(
 								currentColor,
 								$colorSettings.format,
-								$colorSettings.showDecorators
+								$colorSettings.decorators
 							)}
 							{@const colorName = role.replace(/([A-Z])/g, ' $1')}
 

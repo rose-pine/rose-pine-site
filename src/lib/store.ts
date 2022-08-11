@@ -16,28 +16,31 @@ export const colorSettings = createColorSettings()
 
 function createColorSettings() {
 	interface ColorSettings {
-		format: ColorFormat
-		showDecorators: boolean
+		format: boolean
+		decorators: boolean
 	}
 
 	const { subscribe, set } = writable<ColorSettings>({
-		format: getSafeStorage('color-format', ['modern', 'legacy']),
-		showDecorators:
-			getSafeStorage('color-decorators', ['show', 'hide']) === 'show',
+		format: getSafeStorage('color-format', ['modern', 'legacy']) === 'modern',
+		decorators: getSafeStorage('color-decorators', ['show', 'hide']) === 'show',
 	})
 
 	return {
 		subscribe,
-		set: ({ format, showDecorators }: ColorSettings) => {
-			setSafeStorage('color-format', format)
-			setSafeStorage('color-decorators', showDecorators ? 'show' : 'hide')
-			set({ format, showDecorators })
+		set: ({ format, decorators }: ColorSettings) => {
+			setSafeStorage('color-format', format ? 'modern' : 'legacy')
+			setSafeStorage('color-decorators', decorators ? 'show' : 'hide')
+
+			set({ format, decorators })
 		},
 		get: () => {
 			const format = getSafeStorage('color-format', ['modern', 'legacy'])
 			const decorators = getSafeStorage('color-decorators', ['show', 'hide'])
 
-			return { format, showDecorators: decorators === 'show' }
+			return {
+				format: format === 'modern',
+				decorators: decorators === 'show',
+			}
 		},
 	}
 }
