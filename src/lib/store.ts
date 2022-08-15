@@ -8,6 +8,7 @@ export const languages = readable({
 	it: 'Italiano',
 	de: 'Deutsch',
 	nl: 'Nederlands',
+	es: 'Español',
 })
 
 export type ColorFormat = 'modern' | 'legacy'
