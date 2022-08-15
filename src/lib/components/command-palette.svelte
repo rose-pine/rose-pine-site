@@ -8,6 +8,7 @@
 		DialogTitle,
 		DialogDescription,
 	} from '@rgossiaux/svelte-headlessui'
+	import { goto } from '$app/navigation'
 	import {
 		ChevronRightIcon,
 		ExternalLinkIcon,
@@ -21,8 +22,10 @@
 	} from '$lib/components/icons'
 	import { searchIsOpen } from '$lib/store'
 	import themesData from '../../themes.json'
+	import { onDestroy } from 'svelte'
 
 	let query = ''
+	$: selectedElement = (query && '0.0') || undefined
 
 	interface Item {
 		name: string
@@ -118,12 +121,17 @@
 		},
 	]
 
-	$: filteredGroups = groups.map((group) => ({
-		...group,
-		items: group.items.filter((item) =>
-			hasMatch(item, query, ['name', 'shortname'])
-		),
-	}))
+	$: !$searchIsOpen && (query = '')
+	$: !$searchIsOpen && (selectedElement = undefined)
+
+	$: filteredGroups = groups
+		.map((group) => ({
+			...group,
+			items: group.items.filter((item) =>
+				hasMatch(item, query, ['name', 'shortname'])
+			),
+		}))
+		.filter((group) => group.items.length)
 
 	$: hasResults =
 		filteredGroups.filter((group) => group.items.length > 0).length > 0
@@ -133,6 +141,26 @@
 		if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
 			e.preventDefault()
 			searchIsOpen.set(!$searchIsOpen)
+		}
+	}
+
+	function handleInputKeydown(e: KeyboardEvent) {
+		// Navigate to first result on enter
+		if (e.key === 'Enter') {
+			const url = document
+				?.getElementById(`${selectedElement}`)
+				?.getAttribute('href')
+
+			if (!url) return
+
+			if (url.startsWith('http')) {
+				window.open(url, '_blank')
+			} else {
+				goto(url)
+			}
+
+			searchIsOpen.set(false)
+			query = ''
 		}
 	}
 </script>
@@ -171,6 +199,7 @@
 			<input
 				id="search"
 				bind:value={query}
+				on:keydown={handleInputKeydown}
 				placeholder={$_('command_palette.search_label', {
 					default: 'Search pages, themes, and palette...',
 				})}
@@ -198,59 +227,68 @@
 			/>
 
 			<div>
-				{#each filteredGroups as group}
-					{#if group.items.length > 0}
-						<div class="mt-6 first-of-type:mt-0">
-							<span class="text-xs font-medium tracking-wide text-subtle"
-								>{group.name}</span
-							>
-						</div>
+				{#each filteredGroups as group, groupIndex (group.name)}
+					<div class="mt-6 first-of-type:mt-0">
+						<span class="text-xs font-medium tracking-wide text-subtle"
+							>{group.name}</span
+						>
+					</div>
 
-						<ul id="search-list" role="listbox" class="mt-1">
-							{#each group.items as item}
-								{@const isExternal = item.href.startsWith('http')}
+					<ul id="search-list" role="listbox" class="mt-1">
+						{#each group.items as item, itemIndex (item.name)}
+							{@const elementId = `${groupIndex}.${itemIndex}`}
+							{@const isExternal = item.href.startsWith('http')}
 
-								<li>
-									<a
-										href={item.href}
-										target={isExternal ? '_blank' : undefined}
-										class="group -mx-1.5 flex items-center space-x-2 rounded-lg px-1.5 py-3 transition hover:bg-muted/10 focus:bg-muted/20 focus:outline-none sm:-mx-2.5 sm:px-2.5 sm:text-sm"
-									>
-										{#if item.icon}
-											<span
-												class="text-subtle transition group-hover:text-text group-focus:text-text"
-											>
-												<svelte:component this={item.icon} size={18} />
-											</span>
-										{:else if item.iconColor}
-											<div class="flex h-5 w-5 items-center justify-center">
-												<div
-													class="h-4 w-4 rounded-full border sm:h-[18px] sm:w-[18px]"
-													style:background-color={item.iconColor}
-												/>
-											</div>
-										{/if}
-
-										<p class="truncate">{item.name}</p>
-
-										<div class="flex-1" />
-
-										<p
-											class="flex items-center space-x-2 text-muted transition group-hover:text-text group-focus:text-text"
+							<li>
+								<a
+									id={elementId}
+									on:mouseover={() => (selectedElement = elementId)}
+									on:focus={() => (selectedElement = elementId)}
+									href={item.href}
+									target={isExternal ? '_blank' : undefined}
+									class="-mx-1.5 flex items-center space-x-2 rounded-lg px-1.5 py-3 transition focus:outline-none active:bg-muted/10 sm:-mx-2.5 sm:px-2.5 sm:text-sm
+									{selectedElement === elementId ? 'bg-muted/10 [&>*]:text-text' : ''}"
+								>
+									{#if item.icon}
+										<span
+											class="text-subtle transition
+											{selectedElement === elementId
+												? ''
+												: 'group-hover:text-text group-focus:text-text'}"
 										>
-											{#if isExternal}
-												<span>{new URL(item.href).hostname}</span>
+											<svelte:component this={item.icon} size={18} />
+										</span>
+									{:else if item.iconColor}
+										<div class="flex h-5 w-5 items-center justify-center">
+											<div
+												class="h-4 w-4 rounded-full border sm:h-[18px] sm:w-[18px]"
+												style:background-color={item.iconColor}
+											/>
+										</div>
+									{/if}
 
-												<ExternalLinkIcon size={14} />
-											{:else}
-												<ChevronRightIcon size={18} />
-											{/if}
-										</p>
-									</a>
-								</li>
-							{/each}
-						</ul>
-					{/if}
+									<p class="truncate">{item.name}</p>
+
+									<div class="flex-1" />
+
+									<p
+										class="flex items-center space-x-2 text-muted transition
+										{selectedElement === elementId
+											? ''
+											: 'group-hover:text-text group-focus:text-text'}"
+									>
+										{#if isExternal}
+											<span>{new URL(item.href).hostname}</span>
+
+											<ExternalLinkIcon size={14} />
+										{:else}
+											<ChevronRightIcon size={18} />
+										{/if}
+									</p>
+								</a>
+							</li>
+						{/each}
+					</ul>
 				{/each}
 			</div>
 
