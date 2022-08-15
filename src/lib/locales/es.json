@@ -1,0 +1,65 @@
+{
+  "common": {
+    "colors": "Colores",
+    "community": "Comunidad",
+    "copied": "Copiado",
+    "decorations": "Decoraciones",
+    "documentation": "Documentación",
+    "featured_themes": "Temas destacados",
+    "home": "Inicio",
+    "ingredients": "Ingredientes",
+    "languages": "Idiomas",
+    "legacy": "Antiguo",
+    "maintainers": "Mantenedores",
+    "modern": "Moderno",
+    "pages": "Páginas",
+    "palette": "Paleta",
+    "ports": "Versiones",
+    "swatches": "Muestras",
+    "themes": "Temas"
+  },
+  "page": {
+    "home": {
+      "nav": "Inicio",
+      "title": "Algo bonito",
+      "description": "Un tema y paleta de colores enriquecidos por la comunidad, con todo pino natural, piel sintética y un poco de la atmósfera de Soho para el minimalista con clase.",
+      "primary_action": "Descubrir",
+      "feature_1": {
+        "heading": "Estética sutil",
+        "content": "Dale a tus ojos su merecida pausa con nuestros colores cómodos y suaves"
+      },
+      "feature_2": {
+        "heading": "Estados de ánimo adaptativos",
+        "content": "Disfruta de las variantes hechas a medida para todas las horas del día"
+      },
+      "feature_3": {
+        "heading": "Impulsado por la comunidad",
+        "content": "Vosotros sois los que habéis ayudado a hacer llegar Rosé Pine a {number} de vuestra aplicaciones favoritas"
+      }
+    },
+    "themes": {
+      "nav": "Temas",
+      "title": "Temas",
+      "description": "Colección de la atmósfera de Soho hecha a mano",
+      "search_label": "Buscar {number} temas",
+      "search_no_results": "Sin resultado para \"{query}\"",
+      "search_suggestion": "Contribuye con Rosé Pine"
+    },
+    "palette": {
+      "nav": "Paleta",
+      "title": "Paleta",
+      "description": "Colores cuidadosamente elegidos para creaciones ilimitadas",
+      "format_label": "Formato",
+      "format_default": "Por defecto",
+      "format_unstyled": "Sin estilo"
+    }
+  },
+  "command_palette": {
+    "title": "Buscar",
+    "description": "Descrube páginas, temas y paletas de Rosé Pine",
+    "search_label": "Buscar páginas, temas y paletas...",
+    "search_no_results": "Sin resultado para \"{query}\"",
+    "search_suggestion_1": "Ver todos los temas",
+    "search_suggestion_2": "Contribuye con Rosé Pine"
+  }
+}
