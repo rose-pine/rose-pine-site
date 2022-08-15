@@ -6,6 +6,7 @@
 		"decorations": "Decorazioni",
 		"documentation": "Documentazione",
 		"featured_themes": "Temi in primo piano",
+		"format": "Formato",
 		"home": "Casa",
 		"ingredients": "Ingredienti",
 		"languages": "Lingue",
@@ -48,10 +49,7 @@
 		"palette": {
 			"nav": "Tavolozza",
 			"title": "Tavolozza",
-			"description": "Colori curati, creazioni infinite",
-			"format_label": "Formato",
-			"format_default": "Predefinito",
-			"format_unstyled": "Senza stile"
+			"description": "Colori curati, creazioni infinite"
 		}
 	},
 	"command_palette": {

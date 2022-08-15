@@ -1,9 +1,10 @@
 <script lang="ts">
 	export let id: string
+	export let title: string
 	export let checked = false
 </script>
 
-<div class="inline-block">
+<div {title} class="inline-block">
 	<input {id} bind:checked type="checkbox" class="peer invisible absolute" />
 	<label
 		for={id}

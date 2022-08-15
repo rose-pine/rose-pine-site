@@ -6,6 +6,7 @@
 		"decorations": "Versieringen",
 		"documentation": "Documentatie",
 		"featured_themes": "Aanbevolen thema's",
+		"format": "Formaat",
 		"home": "Start",
 		"ingredients": "Composities",
 		"languages": "Talen",
@@ -48,10 +49,7 @@
 		"palette": {
 			"nav": "Palet",
 			"title": "Palet",
-			"description": "Samengestelde kleuren, oneindige mogelijkheden",
-			"format_label": "Formaat",
-			"format_default": "Standaard",
-			"format_unstyled": "Ongestyled"
+			"description": "Samengestelde kleuren, oneindige mogelijkheden"
 		}
 	},
 	"command_palette": {

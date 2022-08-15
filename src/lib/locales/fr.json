@@ -6,6 +6,7 @@
 		"decorations": "Décorations",
 		"documentation": "Documentation",
 		"featured_themes": "Thèmes en vedette",
+		"format": "Format",
 		"home": "Accueil",
 		"ingredients": "Ingrédients",
 		"languages": "Langues",
@@ -48,10 +49,7 @@
 		"palette": {
 			"nav": "Palette",
 			"title": "Palette",
-			"description": "Couleurs organisées, créations infinies",
-			"format_label": "Format",
-			"format_default": "Défaut",
-			"format_unstyled": "Sans style"
+			"description": "Couleurs organisées, créations infinies"
 		}
 	},
 	"command_palette": {

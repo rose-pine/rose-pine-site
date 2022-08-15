@@ -33,18 +33,18 @@ export const setSafeStorage = (key: string, value: string) => {
 
 export const formatColor = (
 	color: Color,
-	format: 'modern' | 'legacy',
-	showDecorators: boolean
+	format: boolean,
+	decorators: boolean
 ): Color => {
 	let { hex, rgb, hsl } = { ...color }
 
-	if (!showDecorators) {
+	if (!decorators) {
 		hex = hex.replace('#', '')
 		rgb = rgb.replace('rgb(', '').replace(')', '')
 		hsl = hsl.replace('hsl(', '').replace(')', '')
 	}
 
-	if (format === 'modern') {
+	if (format) {
 		return {
 			hex,
 			rgb: rgb.replaceAll(',', ''),

@@ -6,6 +6,7 @@
 		"decorations": "Dekorationen",
 		"documentation": "Dokumentation",
 		"featured_themes": "Vorgestellten Themes",
+		"format": "Format",
 		"home": "Start",
 		"ingredients": "Zusammensetzung",
 		"languages": "Sprachen",
@@ -48,10 +49,7 @@
 		"palette": {
 			"nav": "Palette",
 			"title": "Palette",
-			"description": "Ausgewählte Farben, endlose Kreationsmöglichkeiten",
-			"format_label": "Format",
-			"format_default": "Default",
-			"format_unstyled": "Ungestylt"
+			"description": "Ausgewählte Farben, endlose Kreationsmöglichkeiten"
 		}
 	},
 	"command_palette": {

@@ -6,6 +6,7 @@
 		"decorations": "Decoraciones",
 		"documentation": "Documentación",
 		"featured_themes": "Temas destacados",
+		"format": "Formato",
 		"home": "Inicio",
 		"ingredients": "Ingredientes",
 		"languages": "Idiomas",
@@ -48,10 +49,7 @@
 		"palette": {
 			"nav": "Paleta",
 			"title": "Paleta",
-			"description": "Colores cuidadosamente elegidos para creaciones ilimitadas",
-			"format_label": "Formato",
-			"format_default": "Por defecto",
-			"format_unstyled": "Sin estilo"
+			"description": "Colores cuidadosamente elegidos para creaciones ilimitadas"
 		}
 	},
 	"command_palette": {

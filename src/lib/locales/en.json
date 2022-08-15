@@ -6,6 +6,7 @@
 		"decorations": "Decorations",
 		"documentation": "Documentation",
 		"featured_themes": "Featured themes",
+		"format": "Format",
 		"home": "Home",
 		"ingredients": "Ingredients",
 		"languages": "Languages",
@@ -48,10 +49,7 @@
 		"palette": {
 			"nav": "Palette",
 			"title": "Palette",
-			"description": "Curated colours, endless creations",
-			"format_label": "Format",
-			"format_default": "Default",
-			"format_unstyled": "Unstyled"
+			"description": "Curated colours, endless creations"
 		}
 	},
 	"command_palette": {
