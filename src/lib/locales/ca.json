@@ -1,0 +1,63 @@
+{
+	"common": {
+		"colors": "Colors",
+		"community": "Comunitat",
+		"copied": "Copiat",
+		"decorations": "Decoracions",
+		"documentation": "Documentació",
+		"featured_themes": "Temes destacats",
+		"format": "Format",
+		"home": "Inici",
+		"ingredients": "Ingredients",
+		"languages": "Idiomes",
+		"legacy": "Llegat",
+		"maintainers": "Mantenidors",
+		"modern": "Modern",
+		"pages": "Pàgines",
+		"palette": "Paleta",
+		"ports": "Versions",
+		"swatches": "Mostres",
+		"themes": "Temes"
+	},
+	"page": {
+		"home": {
+			"nav": "Inici",
+			"title": "Quelcom bonic",
+			"description": "Un tema i paleta enriquits per la comunitat, amb pi natural, pell sintètica, i atmosfera del Soho, pel minimalista amb classe.",
+			"primary_action": "Descobrir",
+			"feature_1": {
+				"heading": "Estètica subtil",
+				"content": "Dona als teus ulls un descans merescut, amb els nostres colors suaus i comfortables"
+			},
+			"feature_2": {
+				"heading": "Estats d'ànim adaptatius",
+				"content": "Gaudeix les diferents variants fetes a mida per cada hora del dia"
+			},
+			"feature_3": {
+				"heading": "Impulsat per la comunitat",
+				"content": "Vosaltres sou els que heu ajudat a fer arribat Rosé Pine a més de {number} de les vostres aplicacions preferides"
+			}
+		},
+		"themes": {
+			"nav": "Temes",
+			"title": "Temes",
+			"description": "Col·lecció de la atmosfera del Soho feta a mà",
+			"search_label": "Buscar {number} temes",
+			"search_no_results": "Cap resultat per \"{query}\"",
+			"search_suggestion": "Contribuir a Rosé Pine"
+		},
+		"palette": {
+			"nav": "Paleta",
+			"title": "Paleta",
+			"description": "Colors acuradament escollits, per creacions il·limitades"
+		}
+	},
+	"command_palette": {
+		"title": "Buscar",
+		"description": "Descobrir pàgines, temes i paletes de Rosé",
+		"search_label": "Buscar pàgines, temes i paletes...",
+		"search_no_results": "Cap resultat per \"{query}\"",
+		"search_suggestion_1": "Veure tots els temes",
+		"search_suggestion_2": "Contribuir a Rosé Pine"
+	}
+}

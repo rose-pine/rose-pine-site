@@ -9,6 +9,7 @@ export const languages = readable({
 	de: 'Deutsch',
 	nl: 'Nederlands',
 	es: 'Español',
+	ca: 'Català',
 })
 
 export type ColorFormat = 'modern' | 'legacy'
