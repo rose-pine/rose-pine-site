@@ -40,7 +40,7 @@
 		"themes": {
 			"nav": "Temes",
 			"title": "Temes",
-			"description": "Col&#183;lecció de la atmosfera del Soho feta a mà",
+			"description": "Col·lecció de la atmosfera del Soho feta a mà",
 			"search_label": "Buscar {number} temes",
 			"search_no_results": "Cap resultat per \"{query}\"",
 			"search_suggestion": "Contribuir a Rosé Pine"
@@ -48,7 +48,7 @@
 		"palette": {
 			"nav": "Paleta",
 			"title": "Paleta",
-			"description": "Colors acuradament escollits, per creacions il&#183;limitades",
+			"description": "Colors acuradament escollits, per creacions il·limitades",
 			"format_label": "Format",
 			"format_default": "Per defecte",
 			"format_unstyled": "Sense estil"
