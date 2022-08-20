@@ -6,6 +6,7 @@
 		"decorations": "Decoracions",
 		"documentation": "Documentació",
 		"featured_themes": "Temes destacats",
+		"format": "Format",
 		"home": "Inici",
 		"ingredients": "Ingredients",
 		"languages": "Idiomes",
@@ -48,10 +49,7 @@
 		"palette": {
 			"nav": "Paleta",
 			"title": "Paleta",
-			"description": "Colors acuradament escollits, per creacions il·limitades",
-			"format_label": "Format",
-			"format_default": "Per defecte",
-			"format_unstyled": "Sense estil"
+			"description": "Colors acuradament escollits, per creacions il·limitades"
 		}
 	},
 	"command_palette": {
