@@ -32,8 +32,8 @@
 <div
 	{id}
 	class="{schemes[scheme]} {hasPadding
-		? 'p-6 sm:p-10'
-		: ''} flex h-full w-40 min-w-full scroll-mt-10 flex-col rounded-3xl transition-[border-radius,background-color] target:ring group-focus:ring group-focus:ring-inset"
+		? 'p-5 lg:p-10'
+		: ''} flex h-full w-40 min-w-full scroll-mt-10 flex-col rounded-3xl transition-[border-radius,background-color] target:ring group-focus:ring group-focus:ring-inset {$$restProps.class}"
 >
 	<slot />
 </div>

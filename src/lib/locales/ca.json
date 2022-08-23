@@ -27,15 +27,15 @@
 			"primary_action": "Descobrir",
 			"feature_1": {
 				"heading": "Estètica subtil",
-				"content": "Dona als teus ulls un descans merescut, amb els nostres colors suaus i comfortables"
+				"content": "Dona als teus ulls un descans merescut, amb els nostres colors suaus i comfortables."
 			},
 			"feature_2": {
 				"heading": "Estats d'ànim adaptatius",
-				"content": "Gaudeix les diferents variants fetes a mida per cada hora del dia"
+				"content": "Gaudeix les diferents variants fetes a mida per cada hora del dia."
 			},
 			"feature_3": {
 				"heading": "Impulsat per la comunitat",
-				"content": "Vosaltres sou els que heu ajudat a fer arribat Rosé Pine a més de {number} de les vostres aplicacions preferides"
+				"content": "Vosaltres sou els que heu ajudat a fer arribat Rosé Pine a més de {number} de les vostres aplicacions preferides."
 			}
 		},
 		"themes": {

@@ -27,15 +27,18 @@
 			"primary_action": "Discover",
 			"feature_1": {
 				"heading": "Subtle aesthetics",
-				"content": "Give your eyes a well-deserved break with our soft, comfy palette"
+				"content": "Give your eyes a well-deserved break with our soft, comfy palette.",
+				"action": "Our palette"
 			},
 			"feature_2": {
 				"heading": "Adaptive moods",
-				"content": "Enjoy variants tailored for every hour of your day"
+				"content": "Enjoy variants tailored for every hour of your day.",
+				"action": "Browse themes"
 			},
 			"feature_3": {
 				"heading": "Community driven",
-				"content": "You helped bring Rosé Pine to over {number} of your favourite apps"
+				"content": "You helped bring Rosé Pine to over {number} of your favourite apps.",
+				"action": "Get involved"
 			}
 		},
 		"themes": {

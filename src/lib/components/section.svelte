@@ -1,12 +1,11 @@
-<script>
-	export let id = undefined
-	export let backgroundColor = undefined
+<script lang="ts">
+	export let id: string | undefined = undefined
+	export let paddingTop = true
 </script>
 
 <section
 	{id}
-	class="w-full py-page-top px-page-gutter"
-	style:background-color={backgroundColor}
+	class="w-full px-page-gutter {paddingTop ? 'py-page-top' : 'pb-page-top'}"
 >
 	<div class="mx-auto w-full max-w-content">
 		<slot />
