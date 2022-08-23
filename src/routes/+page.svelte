@@ -34,7 +34,7 @@
 			>
 				{$_('page.home.description', {
 					default:
-						'A community-enriched theme and palette featuring all natural pine, faux fur and a bit of soho vibes for the classy minimalist.',
+						'All natural pine, faux fur and a bit of soho vibes for the classy minimalist.',
 				})}
 			</p>
 
