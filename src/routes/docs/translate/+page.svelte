@@ -40,7 +40,7 @@
 					>
 					<ListItem
 						><strong>Import your locale</strong> inside
-						<code>routes/__layout.svelte</code></ListItem
+						<code>routes/+layout.js</code></ListItem
 					>
 					<ListItem
 						><strong>Declare your locale</strong> in the <code>locales</code>
