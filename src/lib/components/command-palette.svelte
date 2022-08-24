@@ -22,7 +22,6 @@
 	} from '$lib/components/icons'
 	import { searchIsOpen } from '$lib/store'
 	import themesData from '../../themes.json'
-	import { onDestroy } from 'svelte'
 
 	let query = ''
 	$: selectedElement = (query && '0.0') || undefined
