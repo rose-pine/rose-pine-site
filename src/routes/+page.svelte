@@ -8,6 +8,7 @@
 		SquaresFilledIcon,
 	} from '$lib/components/icons'
 	import PageHeading from '$lib/components/page-heading.svelte'
+	import Card from '$lib/components/card.svelte'
 	import themes from '../themes.json'
 </script>
 
@@ -18,7 +19,7 @@
 
 <Section>
 	<div
-		class="grid min-h-[calc(100vh-var(--header-height)-(var(--page-top)*3))] items-center gap-12 lg:grid-cols-[1fr,minmax(0,1fr)]"
+		class="grid min-h-[calc(100vh-var(--header-height)-(var(--page-top)*2))] items-center gap-12 lg:grid-cols-[1fr,minmax(0,1fr)]"
 	>
 		<div class="space-y-6 text-center lg:space-y-12 lg:text-left">
 			<h2
@@ -56,50 +57,90 @@
 	</div>
 </Section>
 
-<Section backgroundColor="hsl(var(--color-surface))">
-	<ul class="grid grid-cols-1 gap-6 sm:grid-cols-3">
-		<li class="space-y-4">
+<Section paddingTop={false}>
+	<div class="grid grid-cols-1 gap-5 md:grid-cols-3">
+		<Card class="space-y-5">
 			<div
-				class="flex h-14 w-14 items-center justify-center rounded-full bg-iris text-2xl text-surface dark:bg-base dark:text-iris"
+				class="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-foam to-pine text-2xl text-surface dark:to-rose"
 			>
 				<SeedingIcon size={24} />
 			</div>
-			<h3 class="font-display text-xl font-bold">
-				{$_('page.home.feature_1.heading')}
-			</h3>
-			<p class="text-subtle sm:max-w-xs">
-				{$_('page.home.feature_1.content')}
-			</p>
-		</li>
 
-		<li class="space-y-4">
+			<div class="flex-1 space-y-1.5">
+				<h2 class="font-display text-xl font-bold">
+					{$_('page.home.feature_1.heading')}
+				</h2>
+
+				<p class="text-subtle sm:max-w-xs">
+					{$_('page.home.feature_1.content')}
+				</p>
+			</div>
+
+			<div>
+				<a
+					href="/palette"
+					class="rounded font-medium tracking-wide text-foam underline underline-offset-2 transition hover:no-underline focus:outline-none focus:ring"
+					>{$_('page.home.feature_1.action', {
+						default: 'Our palette',
+					})}</a
+				>
+			</div>
+		</Card>
+
+		<Card class="space-y-5">
 			<div
-				class="flex h-14 w-14 items-center justify-center rounded-full bg-foam text-2xl text-surface dark:bg-base dark:text-foam"
+				class="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-iris to-love text-2xl text-surface dark:to-rose"
 			>
 				<SquaresFilledIcon size={24} />
 			</div>
-			<h3 class="font-display text-xl font-bold">
-				{$_('page.home.feature_2.heading')}
-			</h3>
-			<p class="text-subtle md:max-w-xs">
-				{$_('page.home.feature_2.content')}
-			</p>
-		</li>
 
-		<li class="space-y-4">
+			<div class="flex-1 space-y-1.5">
+				<h2 class="font-display text-xl font-bold">
+					{$_('page.home.feature_2.heading')}
+				</h2>
+
+				<p class="text-subtle md:max-w-xs">
+					{$_('page.home.feature_2.content')}
+				</p>
+			</div>
+
+			<div>
+				<a
+					href="/themes"
+					class="rounded font-medium tracking-wide text-iris underline underline-offset-2 transition hover:no-underline focus:outline-none focus:ring"
+					>{$_('page.home.feature_2.action', {
+						default: 'Browse themes',
+					})}</a
+				>
+			</div>
+		</Card>
+
+		<Card class="space-y-5">
 			<div
-				class="flex h-14 w-14 items-center justify-center rounded-full bg-gold text-2xl text-surface dark:bg-base dark:text-gold"
+				class="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-gold to-rose text-2xl text-surface dark:to-rose"
 			>
 				<GrainIcon size={24} />
 			</div>
-			<h3 class="font-display text-xl font-bold">
-				{$_('page.home.feature_3.heading')}
-			</h3>
-			<p class="text-subtle md:max-w-xs">
-				{$_('page.home.feature_3.content', {
-					values: { number: Math.floor(themes.length / 10) * 10 },
-				})}
-			</p>
-		</li>
-	</ul>
+
+			<div class="flex-1 space-y-1.5">
+				<h2 class="font-display text-xl font-bold">
+					{$_('page.home.feature_3.heading')}
+				</h2>
+
+				<p class="text-subtle md:max-w-xs">
+					{$_('page.home.feature_3.content', {
+						values: { number: Math.floor(themes.length / 10) * 10 },
+					})}
+				</p>
+			</div>
+
+			<div>
+				<a
+					href="/docs"
+					class="rounded font-medium tracking-wide text-gold underline underline-offset-2 transition hover:no-underline focus:outline-none focus:ring"
+					>{$_('page.home.feature_3.action', { default: 'Get involved' })}</a
+				>
+			</div>
+		</Card>
+	</div>
 </Section>

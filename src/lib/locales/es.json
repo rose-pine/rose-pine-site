@@ -27,15 +27,18 @@
 			"primary_action": "Descubrir",
 			"feature_1": {
 				"heading": "Estética sutil",
-				"content": "Dale a tus ojos su merecida pausa con nuestros colores cómodos y suaves"
+				"content": "Dale a tus ojos su merecida pausa con nuestros colores cómodos y suaves.",
+				"action": "Nuestra paleta"
 			},
 			"feature_2": {
 				"heading": "Estados de ánimo adaptativos",
-				"content": "Disfruta de las variantes hechas a medida para todas las horas del día"
+				"content": "Disfruta de las variantes hechas a medida para todas las horas del día.",
+				"action": "Explorar temas"
 			},
 			"feature_3": {
 				"heading": "Impulsado por la comunidad",
-				"content": "Vosotros sois los que habéis ayudado a hacer llegar Rosé Pine a {number} de vuestras aplicaciones favoritas"
+				"content": "Vosotros sois los que habéis ayudado a hacer llegar Rosé Pine a {number} de vuestras aplicaciones favoritas.",
+				"action": "Involucrarse"
 			}
 		},
 		"themes": {

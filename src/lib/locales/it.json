@@ -27,15 +27,18 @@
 			"primary_action": "Scoprire",
 			"feature_1": {
 				"heading": "Estetica sottile",
-				"content": "Dai ai tuoi occhi una meritata pausa con la nostra palette morbida e confortevole"
+				"content": "Dai ai tuoi occhi una meritata pausa con la nostra palette morbida e confortevole.",
+				"action": "La nostra tavolozza"
 			},
 			"feature_2": {
 				"heading": "Stati d'animo adattivi",
-				"content": "Goditi le varianti su misura per ogni ora della tua giornata"
+				"content": "Goditi le varianti su misura per ogni ora della tua giornata.",
+				"action": "Sfoglia i temi"
 			},
 			"feature_3": {
 				"heading": "Guidato dalla comunità",
-				"content": "Hai contribuito a portare Rosé Pine su oltre {number} delle tue app preferite"
+				"content": "Hai contribuito a portare Rosé Pine su oltre {number} delle tue app preferite.",
+				"action": "Mettersi in gioco"
 			}
 		},
 		"themes": {

@@ -27,15 +27,18 @@
 			"primary_action": "Entdecke mehr",
 			"feature_1": {
 				"heading": "Subtile Ästhetik",
-				"content": "Erlaube deinen Augen eine wohlverdiente Pause mit unserer sanften und komfortablen Farbpalette"
+				"content": "Erlaube deinen Augen eine wohlverdiente Pause mit unserer sanften und komfortablen Farbpalette.",
+				"action": "Unsere Palette"
 			},
 			"feature_2": {
 				"heading": "Verschiedene Stimmungen",
-				"content": "Genieße Variationen passend zu jeder Stunde des Tages"
+				"content": "Genieße Variationen passend zu jeder Stunde des Tages.",
+				"action": "Themen durchsuchen"
 			},
 			"feature_3": {
 				"heading": "Realisiert von Euch",
-				"content": "Ihr habt geholfen Rosé Pine für über {number} Apps herauszubringen"
+				"content": "Ihr habt geholfen Rosé Pine für über {number} Apps herauszubringen.",
+				"action": "Beteiligen Sie sich"
 			}
 		},
 		"themes": {
