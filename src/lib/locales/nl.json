@@ -27,15 +27,18 @@
 			"primary_action": "Ontdek",
 			"feature_1": {
 				"heading": "Subtiele sfeer",
-				"content": "Geef je ogen een welverdiende pauze met onze zachte, comfortable palet."
+				"content": "Geef je ogen een welverdiende pauze met onze zachte, comfortable palet.",
+				"action": "Ons palet"
 			},
 			"feature_2": {
 				"heading": "Veelzijdige stemmingen",
-				"content": "Geniet van op maat gemaakte varianten voor elk uur van je dag."
+				"content": "Geniet van op maat gemaakte varianten voor elk uur van je dag.",
+				"action": "Blader door thema's"
 			},
 			"feature_3": {
 				"heading": "Samen gerealiseerd",
-				"content": "Jullie hielpen Rosé Pine naar meer dan {number} van je favoriete apps te brengen."
+				"content": "Jullie hielpen Rosé Pine naar meer dan {number} van je favoriete apps te brengen.",
+				"action": "Raak betrokken"
 			}
 		},
 		"themes": {
