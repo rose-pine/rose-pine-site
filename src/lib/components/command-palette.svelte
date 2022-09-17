@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { _ } from 'svelte-i18n'
-	import hasMatch from 'has-match'
 	import palette from '@rose-pine/palette'
 	import {
 		Dialog,
@@ -8,10 +7,7 @@
 		DialogTitle,
 		DialogDescription,
 	} from '@rgossiaux/svelte-headlessui'
-	import { goto } from '$app/navigation'
 	import {
-		ChevronRightIcon,
-		ExternalLinkIcon,
 		FileIcon,
 		GithubIcon,
 		HomeIcon,
@@ -19,12 +15,12 @@
 		PaletteIcon,
 		SailboatIcon,
 		TwitterIcon,
+		ChevronRightIcon,
+		ExternalLinkIcon,
 	} from '$lib/components/icons'
+	import { Soggy, SoggyInput, SoggyGroup, SoggyItem } from 'soggy'
 	import { searchIsOpen } from '$lib/store'
 	import themesData from '../../themes.json'
-
-	let query = ''
-	$: selectedElement = (query && '0.0') || undefined
 
 	interface Item {
 		name: string
@@ -41,7 +37,7 @@
 		icon: NotebookIcon,
 		href: theme.repo,
 		name: theme.name,
-		shortname: theme.shortname,
+		tags: [theme.shortname, $_('common.themes', { default: 'Themes' })],
 	}))
 
 	// Sort featured themes
@@ -52,7 +48,7 @@
 			icon: NotebookIcon,
 			href: theme.repo,
 			name: theme.name,
-			shortname: theme.shortname,
+			tags: [theme.shortname],
 		}))
 
 	const roles = Object.keys(palette.roles)
@@ -68,6 +64,7 @@
 
 	$: groups = [
 		{
+			id: 'pages',
 			name: $_('common.pages', { default: 'Pages' }),
 			items: [
 				{
@@ -93,17 +90,22 @@
 			],
 		},
 		{
+			id: 'themes',
 			// Show all themes when searching, otherwise show featured themes
-			name: query
-				? $_('common.themes', { default: 'Themes' })
-				: $_('common.featured_themes', { default: 'Featured themes' }),
-			items: query ? themes : featuredThemes,
+			name: $_('common.themes', { default: 'Themes' }),
+			featuredName: $_('common.featured_themes', {
+				default: 'Featured themes',
+			}),
+			items: themes,
+			featuredItems: featuredThemes,
 		},
 		{
+			id: 'colors',
 			name: $_('common.colors', { default: 'Colours' }),
 			items: colors,
 		},
 		{
+			id: 'community',
 			name: $_('common.community', { default: 'Community' }),
 			items: [
 				{
@@ -120,46 +122,11 @@
 		},
 	]
 
-	$: !$searchIsOpen && (query = '')
-	$: !$searchIsOpen && (selectedElement = undefined)
-
-	$: filteredGroups = groups
-		.map((group) => ({
-			...group,
-			items: group.items.filter((item) =>
-				hasMatch(item, query, ['name', 'shortname'])
-			),
-		}))
-		.filter((group) => group.items.length)
-
-	$: hasResults =
-		filteredGroups.filter((group) => group.items.length > 0).length > 0
-
 	function handleKeydown(e: KeyboardEvent) {
 		// Toggle command palette via keyboard shortcut
 		if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
 			e.preventDefault()
 			searchIsOpen.set(!$searchIsOpen)
-		}
-	}
-
-	function handleInputKeydown(e: KeyboardEvent) {
-		// Navigate to first result on enter
-		if (e.key === 'Enter') {
-			const url = document
-				?.getElementById(`${selectedElement}`)
-				?.getAttribute('href')
-
-			if (!url) return
-
-			if (url.startsWith('http')) {
-				window.open(url, '_blank')
-			} else {
-				goto(url)
-			}
-
-			searchIsOpen.set(false)
-			query = ''
 		}
 	}
 </script>
@@ -188,173 +155,160 @@
 		class="absolute inset-x-0 bottom-0 z-30 mx-auto max-w-xl overflow-hidden rounded-t-xl rounded-b-none border border-muted/10 before:absolute before:inset-0 before:z-[-1] before:bg-surface supports-blur:before:bg-surface/95 supports-blur:before:backdrop-blur-md sm:bottom-auto sm:rounded-b-xl"
 	>
 		<!-- Search -->
-		<div class="relative flex h-14 items-center px-3 sm:h-16 sm:px-5">
-			<label for="search" class="sr-only">
-				{$_('command_palette.search_label', {
-					default: 'Search pages, themes, and palette',
-				})}
-			</label>
-
-			<input
-				id="search"
-				bind:value={query}
-				on:keydown={handleInputKeydown}
-				placeholder={$_('command_palette.search_label', {
-					default: 'Search pages, themes, and palette...',
-				})}
-				aria-controls="search-list"
-				class="h-full w-full bg-transparent text-sm placeholder:text-muted focus:outline-none"
-			/>
-
-			<div class="w-3" />
-
-			<button
-				on:click={() => searchIsOpen.set(false)}
-				class="flex items-center rounded-md border border-muted/20 bg-muted/10 p-1.5 font-mono text-[10px] font-medium text-subtle ring-muted/30 ring-offset-1 ring-offset-surface transition hover:bg-muted/20 hover:text-text focus:text-text focus:outline-none focus:ring"
-			>
-				<kbd>ESC</kbd>
-			</button>
-		</div>
-
-		<div
-			class="relative max-h-96 overflow-y-scroll border-t border-muted/10 px-3 sm:px-5"
-		>
-			<!-- Top overflow effect -->
+		<Soggy let:query let:matches list={groups}>
 			<div
-				aria-hidden="true"
-				class="pointer-events-none sticky top-0 -mb-4 h-8 w-full bg-gradient-to-b from-surface/80 to-transparent blur-md"
-			/>
+				class="relative flex h-14 items-center space-x-3 px-3 sm:h-16 sm:px-5"
+			>
+				<SoggyInput
+					placeholder={$_('command_palette.search_label', {
+						default: 'Search pages, themes, and palette',
+					})}
+					class="h-full w-full bg-transparent text-sm placeholder:text-muted focus:outline-none"
+				/>
 
-			<div>
-				{#each filteredGroups as group, groupIndex (group.name)}
-					<div class="mt-6 first-of-type:mt-0">
-						<span class="text-xs font-medium tracking-wide text-subtle"
-							>{group.name}</span
-						>
-					</div>
+				<button
+					on:click={() => searchIsOpen.set(false)}
+					class="flex items-center rounded-md border border-muted/20 bg-muted/10 p-1.5 font-mono text-[10px] font-medium text-subtle ring-muted/30 ring-offset-1 ring-offset-surface transition hover:bg-muted/20 hover:text-text focus:text-text focus:outline-none focus:ring"
+				>
+					<kbd>ESC</kbd>
+				</button>
+			</div>
 
-					<ul id="search-list" role="listbox" class="mt-1">
-						{#each group.items as item, itemIndex (item.name)}
-							{@const elementId = `${groupIndex}.${itemIndex}`}
-							{@const isExternal = item.href.startsWith('http')}
+			<div
+				class="relative max-h-96 overflow-y-scroll border-t border-muted/10 px-3 sm:px-5"
+			>
+				<!-- Top overflow effect -->
+				<div
+					aria-hidden="true"
+					class="pointer-events-none sticky top-0 -mb-4 h-8 w-full bg-gradient-to-b from-surface/80 to-transparent blur-md"
+				/>
 
-							<li>
-								<a
-									id={elementId}
-									on:mouseover={() => (selectedElement = elementId)}
-									on:focus={() => (selectedElement = elementId)}
-									href={item.href}
-									target={isExternal ? '_blank' : undefined}
-									class="-mx-1.5 flex items-center space-x-2 rounded-lg px-1.5 py-3 transition focus:outline-none active:bg-muted/10 sm:-mx-2.5 sm:px-2.5 sm:text-sm
-									{selectedElement === elementId ? 'bg-muted/10 [&>*]:text-text' : ''}"
-								>
-									{#if item.icon}
-										<span
-											class="text-subtle transition
-											{selectedElement === elementId
-												? ''
-												: 'group-hover:text-text group-focus:text-text'}"
+				{#if matches.length > 0}
+					{#each matches as group (group.name)}
+						<SoggyGroup class="mt-6 space-y-1 first-of-type:mt-0">
+							<span class="text-xs font-medium tracking-wide text-subtle"
+								>{query.length > 0
+									? group.name
+									: group.featuredName ?? group.name}</span
+							>
+
+							{#if Array.isArray(group.items)}
+								{#each query.length > 0 ? group.items : group.featuredItems ?? group.items as item (item.name)}
+									{@const isExternal = item.href.startsWith('http')}
+
+									<SoggyItem>
+										<a
+											href={item.href}
+											target={isExternal ? '_blank' : undefined}
+											class="group -mx-1.5 flex items-center space-x-2 rounded-lg px-1.5 py-3 transition hover:bg-muted/10 focus:bg-muted/10 focus:outline-none active:bg-muted/20 sm:-mx-2.5 sm:px-2.5 sm:text-sm"
 										>
-											<svelte:component this={item.icon} size={18} />
-										</span>
-									{:else if item.iconColor}
-										<div class="flex h-5 w-5 items-center justify-center">
-											<div
-												class="h-4 w-4 rounded-full border sm:h-[18px] sm:w-[18px]"
-												style:background-color={item.iconColor}
-											/>
-										</div>
-									{/if}
+											{#if item.icon}
+												<span
+													class="text-subtle transition group-hover:text-text group-focus:text-text"
+												>
+													<svelte:component this={item.icon} size={18} />
+												</span>
+											{:else if item.iconColor}
+												<div class="flex h-5 w-5 items-center justify-center">
+													<div
+														class="h-4 w-4 rounded-full border sm:h-[18px] sm:w-[18px]"
+														style:background-color={item.iconColor}
+													/>
+												</div>
+											{/if}
 
-									<p class="truncate">{item.name}</p>
+											<p class="truncate">{item.name}</p>
+
+											<div class="flex-1" />
+
+											<p
+												class="flex items-center space-x-2 text-muted transition group-hover:text-text group-focus:text-text"
+											>
+												{#if isExternal}
+													<span>{new URL(item.href).hostname}</span>
+
+													<ExternalLinkIcon size={14} />
+												{:else}
+													<ChevronRightIcon size={18} />
+												{/if}
+											</p>
+										</a>
+									</SoggyItem>
+								{/each}
+							{/if}
+						</SoggyGroup>
+					{/each}
+				{:else}
+					<SoggyGroup class="-mx-1.5 space-y-6 sm:-mx-3">
+						<p class="text-center text-sm" slot="heading">
+							{$_('command_palette.search_no_results', {
+								default: 'No results for "{query}"',
+								values: { query },
+							})}
+						</p>
+
+						<div
+							class="divide-y divide-muted/10 overflow-hidden rounded-xl border border-muted/10 bg-muted/5"
+						>
+							<SoggyItem>
+								<a
+									href="/themes"
+									class="group flex items-center space-x-2 p-3 text-sm text-subtle transition hover:bg-muted/10 focus:bg-muted/20 focus:outline-none"
+								>
+									<span
+										class="transition group-hover:text-text group-focus:text-text"
+										>{$_('command_palette.search_suggestion_1', {
+											default: 'Browse all themes',
+										})}</span
+									>
 
 									<div class="flex-1" />
 
-									<p
-										class="flex items-center space-x-2 text-muted transition
-										{selectedElement === elementId
-											? ''
-											: 'group-hover:text-text group-focus:text-text'}"
+									<span
+										class="text-muted transition group-hover:text-text group-focus:text-text"
 									>
-										{#if isExternal}
-											<span>{new URL(item.href).hostname}</span>
-
-											<ExternalLinkIcon size={14} />
-										{:else}
-											<ChevronRightIcon size={18} />
-										{/if}
-									</p>
+										<ChevronRightIcon size={16} />
+									</span>
 								</a>
-							</li>
-						{/each}
-					</ul>
-				{/each}
+							</SoggyItem>
+
+							<SoggyItem>
+								<a
+									href="/docs"
+									class="group flex items-center space-x-2 p-3 text-sm text-subtle transition hover:bg-muted/10 focus:bg-muted/20 focus:outline-none"
+								>
+									<span
+										class="transition group-hover:text-text group-focus:text-text"
+										>{$_('command_palette.search_suggestion_2', {
+											default: 'Contribute to Rosé Pine',
+										})}</span
+									>
+
+									<div class="flex-1" />
+
+									<span
+										class="text-muted transition group-hover:text-text group-focus:text-text"
+									>
+										<ChevronRightIcon size={16} />
+									</span>
+								</a>
+							</SoggyItem>
+						</div>
+					</SoggyGroup>
+				{/if}
+
+				<!-- Bottom overflow effect -->
+				<div
+					aria-hidden="true"
+					class="pointer-events-none sticky bottom-0 -mt-6 h-8 w-full bg-gradient-to-t from-surface/80 to-transparent blur-md sm:-mt-4"
+				/>
 			</div>
-
-			{#if !hasResults}
-				<div class="-mx-1.5 space-y-6 sm:-mx-3">
-					<p class="text-center text-sm">
-						{$_('command_palette.search_no_results', {
-							default: 'No results for "{query}"',
-							values: { query },
-						})}
-					</p>
-
-					<ul
-						class="divide-y divide-muted/10 overflow-hidden rounded-xl border border-muted/10 bg-muted/5"
-					>
-						<li>
-							<a
-								href="/themes"
-								class="group flex items-center space-x-2 p-3 text-sm text-subtle transition hover:bg-muted/10 focus:bg-muted/20 focus:outline-none"
-							>
-								<span
-									class="transition group-hover:text-text group-focus:text-text"
-									>{$_('command_palette.search_suggestion_1', {
-										default: 'Browse all themes',
-									})}</span
-								>
-
-								<div class="flex-1" />
-
-								<span
-									class="text-muted transition group-hover:text-text group-focus:text-text"
-								>
-									<ChevronRightIcon size={16} />
-								</span>
-							</a>
-						</li>
-
-						<li>
-							<a
-								href="/docs"
-								class="group flex items-center space-x-2 p-3 text-sm text-subtle transition hover:bg-muted/10 focus:bg-muted/20 focus:outline-none"
-							>
-								<span
-									class="transition group-hover:text-text group-focus:text-text"
-									>{$_('command_palette.search_suggestion_2', {
-										default: 'Contribute to Rosé Pine',
-									})}</span
-								>
-
-								<div class="flex-1" />
-
-								<span
-									class="text-muted transition group-hover:text-text group-focus:text-text"
-								>
-									<ChevronRightIcon size={16} />
-								</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-			{/if}
-
-			<!-- Bottom overflow effect -->
-			<div
-				aria-hidden="true"
-				class="pointer-events-none sticky bottom-0 -mt-6 h-8 w-full bg-gradient-to-t from-surface/80 to-transparent blur-md sm:-mt-4"
-			/>
-		</div>
+		</Soggy>
 	</div>
 </Dialog>
+
+<style lang="postcss" global>
+	[data-soggy-root] [aria-selected='true'] > a {
+		@apply bg-muted/10;
+	}
+</style>

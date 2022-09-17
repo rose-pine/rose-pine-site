@@ -11,6 +11,7 @@ specifiers:
   postcss: ^8.4.16
   prettier: ^2.7.1
   prettier-plugin-tailwindcss: ^0.1.13
+  soggy: ^0.1.0
   svelte: ^3.49.0
   svelte-check: ^2.8.1
   svelte-i18n: ^3.4.0
@@ -23,6 +24,7 @@ specifiers:
 dependencies:
   '@rose-pine/palette': 3.0.1
   has-match: 1.0.3
+  soggy: 0.1.0
   svelte-i18n: 3.4.0_svelte@3.49.0
 
 devDependencies:
@@ -1775,6 +1777,12 @@ packages:
       ansi-styles: 6.1.0
       is-fullwidth-code-point: 4.0.0
     dev: true
+
+  /soggy/0.1.0:
+    resolution: {integrity: sha512-R7lMwAY8ToiPf78CkGakB/g+K3PyjpB3nEBscS98rVfWid0B6wpe+tOmInnLcqdJomuvA+PVDMp4FUsloQSzDA==}
+    dependencies:
+      has-match: 1.0.3
+    dev: false
 
   /sorcery/0.10.0:
     resolution: {integrity: sha512-R5ocFmKZQFfSTstfOtHjJuAwbpGyf9qjQa1egyhvXSbM7emjrtLXtGdZsDJDABC85YBfVvrOiGWKSYXPKdvP1g==}

@@ -12,6 +12,7 @@
 	"dependencies": {
 		"@rose-pine/palette": "^3.0.1",
 		"has-match": "^1.0.3",
+		"soggy": "^0.1.0",
 		"svelte-i18n": "^3.4.0"
 	},
 	"devDependencies": {
