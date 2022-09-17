@@ -14,10 +14,9 @@
 	import { setSafeStorage } from '$lib/util'
 	import '../app.css'
 
-	$: setSafeStorage('locale', $locale)
-
 	let open = false
 
+	$: setSafeStorage('locale', $locale)
 	$: menu = [
 		[$_('page.themes.nav', { default: 'Themes' }), '/themes'],
 		[$_('page.palette.nav', { default: 'Palette' }), '/palette'],
