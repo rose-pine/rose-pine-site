@@ -24,7 +24,7 @@
 			"nav": "Casa",
 			"title": "Qualcosa di bello",
 			"description": "Pino tutto naturale, pelliccia sintetica e un po' di vibrazioni soho per il minimalista di classe.",
-			"primary_action": "Scoprire",
+			"primary_action": "Scopri",
 			"feature_1": {
 				"heading": "Estetica sottile",
 				"content": "Dai ai tuoi occhi una meritata pausa con la nostra palette morbida e confortevole.",
@@ -38,7 +38,7 @@
 			"feature_3": {
 				"heading": "Guidato dalla comunità",
 				"content": "Hai contribuito a portare Rosé Pine su oltre {number} delle tue app preferite.",
-				"action": "Mettersi in gioco"
+				"action": "Metitti in gioco"
 			}
 		},
 		"themes": {
@@ -58,9 +58,9 @@
 	"command_palette": {
 		"title": "Cerca",
 		"description": "Scopri le pagine, i temi e la tavolozza di Rosé Pine",
-		"search_label": "Cerca pagine, temi e tavolozza...",
+		"search_label": "Cerca pagine, temi e colori...",
 		"search_no_results": "Nessun risultato per \"{query}\"",
-		"search_suggestion_1": "Soflia tutti i temi",
+		"search_suggestion_1": "Sfoglia tutti i temi",
 		"search_suggestion_2": "Contribuisci a Rosé Pine"
 	}
 }
