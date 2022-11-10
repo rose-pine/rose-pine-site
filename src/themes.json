@@ -786,7 +786,7 @@
 		"has_variants": false
 	},
 	{
-		"name": "EuCaue",
+		"name": "fish",
 		"repo": "https://github.com/EuCaue/fish",
 		"tags": ["fish", "shell"],
 		"authors": [{"name": "EuCaue", "url": "https://github.com/EuCaue"}],
