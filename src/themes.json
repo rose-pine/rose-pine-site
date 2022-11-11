@@ -197,6 +197,13 @@
 		"featured": 90
 	},
 	{
+		"name": "fish",
+		"repo": "https://github.com/EuCaue/fish",
+		"tags": ["fish", "shell"],
+		"authors": [{ "name": "EuCaue", "url": "https://github.com/EuCaue" }],
+		"has_variants": false
+	},
+	{
 		"name": "Fluent Terminal",
 		"repo": "https://github.com/rose-pine/fluent-terminal",
 		"tags": ["app", "terminal-emulator"],
@@ -783,13 +790,6 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		],
-		"has_variants": false
-	},
-	{
-		"name": "fish",
-		"repo": "https://github.com/EuCaue/fish",
-		"tags": ["fish", "shell"],
-		"authors": [{"name": "EuCaue", "url": "https://github.com/EuCaue"}],
 		"has_variants": false
 	}
 ]
