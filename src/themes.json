@@ -784,5 +784,12 @@
 			}
 		],
 		"has_variants": false
+	},
+	{
+		"name": "fish",
+		"repo": "https://github.com/EuCaue/fish",
+		"tags": ["fish", "shell"],
+		"authors": [{"name": "EuCaue", "url": "https://github.com/EuCaue"}],
+		"has_variants": false
 	}
 ]
