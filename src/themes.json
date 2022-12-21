@@ -417,6 +417,17 @@
 		]
 	},
 	{
+		"name": "Marp",
+		"repo": "https://github.com/rainbowflesh/Rose-Pine-For-Marp",
+		"tags": ["marp-themes"],
+		"authors": [
+			{
+				"name": "rainbowflesh",
+				"url": "https://github.com/rainbowflesh"
+			}
+		]
+	},
+	{
 		"name": "Mastodon",
 		"repo": "https://github.com/rose-pine/mastodon",
 		"tags": ["web-ui", "social"],
