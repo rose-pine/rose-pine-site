@@ -421,10 +421,7 @@
 		"repo": "https://github.com/rainbowflesh/Rose-Pine-For-Marp",
 		"tags": ["marp-themes"],
 		"authors": [
-			{
-				"name": "rainbowflesh",
-				"url": "https://github.com/rainbowflesh"
-			}
+			{ "name": "rainbowflesh", "url": "https://github.com/rainbowflesh" }
 		]
 	},
 	{
