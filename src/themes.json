@@ -621,6 +621,18 @@
 		]
 	},
 	{
+		"name": "tailwindcss",
+		"repo": "https://github.com/rose-pine/tailwind-css",
+		"tags": ["css", "web"],
+		"authors": [
+			{
+				"name": "GoyoStach",
+				"url": "https://github.com/GoyoStach"
+			}
+		],
+		"has_variants": true
+	},
+	{
 		"name": "Tauon Music Box",
 		"repo": "https://github.com/rose-pine/tauon",
 		"tags": ["app", "audio", "music"],
