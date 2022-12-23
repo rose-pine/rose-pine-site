@@ -624,12 +624,7 @@
 		"name": "tailwindcss",
 		"repo": "https://github.com/rose-pine/tailwind-css",
 		"tags": ["css", "web"],
-		"authors": [
-			{
-				"name": "GoyoStach",
-				"url": "https://github.com/GoyoStach"
-			}
-		],
+		"authors": [{ "name": "GoyoStach", "url": "https://github.com/GoyoStach" }],
 		"has_variants": true
 	},
 	{
