@@ -757,7 +757,7 @@
 		"repo": "https://github.com/cement-drinker/wofi-rose-pine",
 		"tags": ["app", "terminal-emulator"],
 		"authors": [{ "name": "Cement Drinker", "url": "https://github.com/cement-drinker" }],
-		"has_variants": false,
+		"has_variants": true,
 		"featured": 89
 	},
 	{
