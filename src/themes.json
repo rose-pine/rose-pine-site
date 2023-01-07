@@ -753,6 +753,14 @@
 		"featured": 89
 	},
 	{
+		"name": "Wofi",
+		"repo": "https://github.com/cement-drinker/wofi-rose-pine",
+		"tags": ["app", "terminal-emulator"],
+		"authors": [{ "name": "Cement Drinker", "url": "https://github.com/cement-drinker" }],
+		"has_variants": false,
+		"featured": 89
+	},
+	{
 		"name": "WriteFreely",
 		"repo": "https://github.com/rose-pine/writefreely",
 		"tags": ["web-ui", "social"],
