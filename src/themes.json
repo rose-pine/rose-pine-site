@@ -200,8 +200,11 @@
 		"name": "fish",
 		"repo": "https://github.com/EuCaue/fish",
 		"tags": ["fish", "shell"],
-		"authors": [{ "name": "EuCaue", "url": "https://github.com/EuCaue" }],
-		"has_variants": false
+		"authors": [
+			{ "name": "EuCaue", "url": "https://github.com/EuCaue" },
+			{ "name": "astsu-dev", "url": "https://github.com/astsu-dev" }
+		],
+		"has_variants": true
 	},
 	{
 		"name": "Fluent Terminal",
