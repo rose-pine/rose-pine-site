@@ -207,13 +207,6 @@
 		"has_variants": true
 	},
 	{
-		"name": "foot",
-		"repo": "https://github.com/EuCaue/foot",
-		"tags": ["terminal-emulator"],
-		"authors": [{ "name": "EuCaue", "url": "https://github.com/EuCaue" }],
-		"has_variants": false
-	},
-	{
 		"name": "Fluent Terminal",
 		"repo": "https://github.com/rose-pine/fluent-terminal",
 		"tags": ["app", "terminal-emulator"],
@@ -223,6 +216,13 @@
 				"url": "https://github.com/thatonecalculator"
 			}
 		]
+	},
+	{
+		"name": "foot",
+		"repo": "https://github.com/EuCaue/foot",
+		"tags": ["terminal-emulator"],
+		"authors": [{ "name": "EuCaue", "url": "https://github.com/EuCaue" }],
+		"has_variants": false
 	},
 	{
 		"name": "fzf",
