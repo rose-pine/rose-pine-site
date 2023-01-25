@@ -221,8 +221,11 @@
 		"name": "foot",
 		"repo": "https://github.com/EuCaue/foot",
 		"tags": ["terminal-emulator"],
-		"authors": [{ "name": "EuCaue", "url": "https://github.com/EuCaue" }],
-		"has_variants": false
+		"authors": [ 
+			{ "name": "EuCaue", "url": "https://github.com/EuCaue" },
+			{ "name": "cement-drinker", "url": "https://github.com/cement-drinker" }
+		],
+		"has_variants": true
 	},
 	{
 		"name": "fzf",
