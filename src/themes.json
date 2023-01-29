@@ -634,6 +634,13 @@
 		]
 	},
 	{
+		"name": "Surfingkeys",
+		"repo": "https://github.com/rose-pine/surfingkeys",
+		"tags": ["web-extension"],
+		"authors": [{ "name": "thuanowa", "url": "https://github.com/thuanowa" }],
+		"has_variants": true
+	},
+	{
 		"name": "tailwindcss",
 		"repo": "https://github.com/rose-pine/tailwind-css",
 		"tags": ["css", "web"],
