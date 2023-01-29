@@ -594,6 +594,18 @@
 		"has_variants": true
 	},
 	{
+		"name": "Surfingkeys",
+    		"repo": "https://github.com/rose-pine/surfingkeys",
+   		"tags": ["web-extension"],
+    		"authors": [
+      		{
+        		"name": "thuanowa",
+        		"url": "https://github.com/thuanowa"
+      		}
+    		],
+    		"has_variants": true
+	},
+	{
 		"name": "st",
 		"repo": "https://github.com/rose-pine/st",
 		"tags": ["app", "terminal-emulator"],
