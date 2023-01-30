@@ -721,6 +721,13 @@
 		"has_variants": true
 	},
 	{
+		"name": "Vimium C",
+		"repo": "https://github.com/rose-pine/vimium-c",
+		"tags": ["web-extension"],
+		"authors": [{ "name": "zxx-457", "url": "https://github.com/zxx-457" }],
+		"has_variants": true
+	},
+	{
 		"name": "Visual Studio Code",
 		"shortname": "VSCode",
 		"repo": "https://github.com/rose-pine/vscode",
