@@ -10,6 +10,7 @@ export const languages = readable({
 	nl: 'Nederlands',
 	es: 'Español',
 	ca: 'Català',
+	se: 'Svenska',
 })
 
 export type ColorFormat = 'modern' | 'legacy'
