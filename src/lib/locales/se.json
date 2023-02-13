@@ -1,0 +1,66 @@
+{
+	"common": {
+		"colors": "Färger",
+		"community": "Community",
+		"copied": "Kopierad",
+		"decorations": "Dekorationer",
+		"documentation": "Dokumentation",
+		"featured_themes": "Utvalda teman",
+		"format": "Format",
+		"home": "Startsida",
+		"ingredients": "Ingredienser",
+		"languages": "Språk",
+		"legacy": "Gammalt",
+		"maintainers": "Maintainers",
+		"modern": "Moderna",
+		"pages": "Sidor",
+		"palette": "Palett",
+		"ports": "Verisioner",
+		"swatches": "Färger",
+		"themes": "Teman"
+	},
+	"page": {
+		"home": {
+			"nav": "Startsida",
+			"title": "Något vackert",
+			"description": "Helt naturlig tall, konstpäls och lite soho-vibbar för den stiliga minimalisten.",
+			"primary_action": "Utforska",
+			"feature_1": {
+				"heading": "Subtil estetik",
+				"content": "Ge dina ögon en välförtjänt paus med vår mjuka och mysiga palett.",
+				"action": "Vår palett"
+			},
+			"feature_2": {
+				"heading": "Adaptiva stämningar",
+				"content": "Njut av varianter anpassade för varenda timme av din dag.",
+				"action": "Utforska teman"
+			},
+			"feature_3": {
+				"heading": "Driven av vår community",
+				"content": "Ni hjälpte till att få Rose Piné till mer än {number} av dina favoritappar.",
+				"action": "Engagera dig"
+			}
+		},
+		"themes": {
+			"nav": "Teman",
+			"title": "Teman",
+			"description": "En finslipad samling av soho-vibbar",
+			"search_label": "Sök bland {number} teman",
+			"search_no_results": "Inga resultat för \"{query}\"",
+			"search_suggestion": "Bidra till Rosé Pine"
+		},
+		"palette": {
+			"nav": "Palett",
+			"title": "Palett",
+			"description": "Utvalda färger, oändliga möjligheter"
+		}
+	},
+	"command_palette": {
+		"title": "Sök",
+		"description": "Upptäck Rosé Pine sidor, teman, och paletter",
+		"search_label": "Sök bland sidor, teman, och paletter...",
+		"search_no_results": "Inga resultat för \"{query}\"",
+		"search_suggestion_1": "Se alla teman",
+		"search_suggestion_2": "Bidra till Rosé Pine"
+	}
+}

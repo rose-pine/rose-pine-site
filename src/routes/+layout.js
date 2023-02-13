@@ -8,8 +8,9 @@ import de from '$lib/locales/de.json'
 import nl from '$lib/locales/nl.json'
 import es from '$lib/locales/es.json'
 import ca from '$lib/locales/ca.json'
+import se from '$lib/locales/se.json'
 
-const locales = ['en', 'fr', 'it', 'de', 'nl', 'es', 'ca']
+const locales = ['en', 'fr', 'it', 'de', 'nl', 'es', 'ca', 'se']
 
 addMessages('en', en)
 addMessages('fr', fr)
@@ -18,6 +19,7 @@ addMessages('de', de)
 addMessages('nl', nl)
 addMessages('es', es)
 addMessages('ca', ca)
+addMessages('se', se)
 
 // get locale on client and server
 // https://github.com/kaisermann/svelte-i18n/issues/166#issuecomment-1001009977
