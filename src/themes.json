@@ -353,6 +353,18 @@
 		"featured": 95
 	},
 	{
+		"name": "Insomnia",
+		"repo": "https://github.com/agustinhopneto/rose-pine-insomnia",
+		"tags": ["app", "productivity"],
+		"authors": [
+			{
+				"name": "agustinhopneto",
+				"url": "https://github.com/agustinhopneto"
+			}
+		],
+		"has_variants": true
+	},
+	{
 		"name": "Instatus",
 		"repo": "https://github.com/rose-pine/instatus",
 		"tags": ["web-ui", "productivity"],
