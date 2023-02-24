@@ -357,10 +357,7 @@
 		"repo": "https://github.com/agustinhopneto/rose-pine-insomnia",
 		"tags": ["app", "productivity"],
 		"authors": [
-			{
-				"name": "agustinhopneto",
-				"url": "https://github.com/agustinhopneto"
-			}
+			{ "name": "agustinhopneto", "url": "https://github.com/agustinhopneto" }
 		],
 		"has_variants": true
 	},
