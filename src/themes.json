@@ -766,10 +766,7 @@
 		"repo": "https://github.com/thanhsonng/rose-pine-warp",
 		"tags": ["app", "terminal-emulator", "terminal", "command", "cli"],
 		"authors": [
-			{
-				"name": "Son Nguyen",
-				"url": "https://github.com/thanhsonng"
-			}
+			{ "name": "Son Nguyen", "url": "https://github.com/thanhsonng" }
 		],
 		"has_variants": true
 	},
