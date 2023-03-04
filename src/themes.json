@@ -353,6 +353,15 @@
 		"featured": 95
 	},
 	{
+		"name": "Hyprland",
+		"repo": "https://github.com/rose-pine/hyprland",
+		"tags": ["WM"],
+		"authors": [
+			{ "name": "jishnurajendran", "url": "https://github.com/jishnurajendran" }
+		],
+		"has_variants": true
+	},
+	{
 		"name": "Insomnia",
 		"repo": "https://github.com/agustinhopneto/rose-pine-insomnia",
 		"tags": ["app", "productivity"],
