@@ -497,6 +497,13 @@
 		"has_variants": true
 	},
 	{
+		"name": "Mona",
+		"repo": "https://github.com/rose-pine/mona",
+		"tags": ["app"],
+		"authors": [{ "name": "maique", "url": "https://social.lol/@maique" }],
+		"has_variants": false
+	},
+	{
 		"name": "Monkeytype",
 		"repo": "https://github.com/rose-pine/monkeytype",
 		"tags": ["web-ui"],
@@ -857,6 +864,13 @@
 		"repo": "https://github.com/edunfelt/zathura",
 		"tags": ["app", "productivity", "math"],
 		"authors": [{ "name": "edunfelt", "url": "https://github.com/edunfelt" }],
+		"has_variants": true
+	},
+	{
+		"name": "Zellij",
+		"repo": "https://github.com/rose-pine/zellij",
+		"tags": ["terminal"],
+		"authors": [{ "name": "anihm136", "url": "https://github.com/anihm136" }],
 		"has_variants": true
 	},
 	{
