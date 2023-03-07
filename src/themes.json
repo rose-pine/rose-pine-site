@@ -184,6 +184,13 @@
 		"has_variants": true
 	},
 	{
+		"name": "fcitx5",
+		"repo": "https://github.com/rose-pine/fcitx5",
+		"tags": ["input-engine", "ime"],
+		"authors": [{ "name": "ScotAbroad", "url": "https://github.com/scotabroad" }],
+		"has_variants": true
+	},
+	{
 		"name": "Firefox",
 		"repo": "https://github.com/rose-pine/firefox",
 		"tags": ["app", "browser"],
