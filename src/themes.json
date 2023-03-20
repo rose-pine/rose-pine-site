@@ -216,6 +216,15 @@
 		"has_variants": true
 	},
 	{
+		"name": "Infinity for Reddit",
+		"repo": "https://github.com/alvarosoaress/infinity-for-reddit",
+		"tags": ["reddit", "app"],
+		"authors": [
+			{ "name": "alvarosoaress", "url": "https://github.com/alvarosoaress/" },
+		],
+		"has_variants": false
+	},
+	{
 		"name": "Fluent Terminal",
 		"repo": "https://github.com/rose-pine/fluent-terminal",
 		"tags": ["app", "terminal-emulator"],
