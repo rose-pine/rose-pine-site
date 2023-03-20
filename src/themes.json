@@ -371,6 +371,15 @@
 		"has_variants": true
 	},
 	{
+		"name": "Infinity for Reddit",
+		"repo": "https://github.com/alvarosoaress/infinity-for-reddit",
+		"tags": ["reddit", "app"],
+		"authors": [
+			{ "name": "alvarosoaress", "url": "https://github.com/alvarosoaress/" }
+		],
+		"has_variants": false
+	},
+	{
 		"name": "Insomnia",
 		"repo": "https://github.com/agustinhopneto/rose-pine-insomnia",
 		"tags": ["app", "productivity"],
