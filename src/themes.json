@@ -542,6 +542,18 @@
 		"featured": 99
 	},
 	{
+		"name": "Notepad++",
+		"repo": "https://github.com/aaravind100/notepad-plus-plus",
+		"tags": ["app", "editor"],
+		"authors": [
+			{ 
+				"name": "aaravind100",
+				"url": "https://github.com/aaravind100" 
+			}
+		],
+		"has_variants": true
+	},
+	{
 		"name": "Obsidian",
 		"repo": "https://github.com/mimishahzad/rose-pine-moon-obsidian",
 		"tags": ["app", "productivity"],
