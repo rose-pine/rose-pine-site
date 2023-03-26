@@ -546,10 +546,7 @@
 		"repo": "https://github.com/aaravind100/notepad-plus-plus",
 		"tags": ["app", "editor"],
 		"authors": [
-			{ 
-				"name": "aaravind100",
-				"url": "https://github.com/aaravind100" 
-			}
+			{ "name": "aaravind100", "url": "https://github.com/aaravind100" }
 		],
 		"has_variants": true
 	},
