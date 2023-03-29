@@ -16,7 +16,7 @@
 			<a href="/docs/create" class="group focus:outline-none">
 				<Card hoverable hasPadding={false} scheme="foam">
 					<h3
-						class="flex items-center justify-center py-20 px-6 text-center font-display text-2xl tracking-wide"
+						class="flex items-center justify-center px-6 py-20 text-center font-display text-2xl tracking-wide"
 					>
 						Create a theme
 					</h3>
@@ -26,7 +26,7 @@
 			<a href="/docs/translate" class="group focus:outline-none">
 				<Card hoverable hasPadding={false} scheme="rose">
 					<h3
-						class="flex items-center justify-center py-20 px-6 text-center font-display text-2xl tracking-wide"
+						class="flex items-center justify-center px-6 py-20 text-center font-display text-2xl tracking-wide"
 					>
 						Add a translation
 					</h3>
@@ -36,7 +36,7 @@
 			<a href="/docs/usage" class="group focus:outline-none">
 				<Card hoverable hasPadding={false} scheme="gold">
 					<h3
-						class="flex items-center justify-center py-20 px-6 text-center font-display text-2xl tracking-wide"
+						class="flex items-center justify-center px-6 py-20 text-center font-display text-2xl tracking-wide"
 					>
 						Theme specification
 					</h3>

@@ -152,7 +152,7 @@
 
 	<!-- Panel -->
 	<div
-		class="absolute inset-x-0 bottom-0 z-30 mx-auto max-w-xl overflow-hidden rounded-t-xl rounded-b-none border border-muted/10 before:absolute before:inset-0 before:z-[-1] before:bg-surface supports-blur:before:bg-surface/95 supports-blur:before:backdrop-blur-md sm:bottom-auto sm:rounded-b-xl"
+		class="absolute inset-x-0 bottom-0 z-30 mx-auto max-w-xl overflow-hidden rounded-b-none rounded-t-xl border border-muted/10 before:absolute before:inset-0 before:z-[-1] before:bg-surface supports-blur:before:bg-surface/95 supports-blur:before:backdrop-blur-md sm:bottom-auto sm:rounded-b-xl"
 	>
 		<!-- Search -->
 		<Soggy let:query let:matches list={groups}>

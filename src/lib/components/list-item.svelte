@@ -6,7 +6,7 @@
 </script>
 
 <li
-	class="flex flex-col space-y-3 sm:flex-row sm:items-center sm:space-y-0 sm:space-x-3 {shouldShowNumber
+	class="flex flex-col space-y-3 sm:flex-row sm:items-center sm:space-x-3 sm:space-y-0 {shouldShowNumber
 		? ''
 		: 'ml-[18px] list-item list-disc'}"
 >

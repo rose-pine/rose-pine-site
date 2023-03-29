@@ -73,7 +73,7 @@
 	}
 
 	code {
-		@apply rounded-md bg-overlay py-0.5 px-1;
+		@apply rounded-md bg-overlay px-1 py-0.5;
 	}
 }
 
