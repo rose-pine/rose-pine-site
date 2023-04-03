@@ -646,6 +646,15 @@
 		"has_variants": true
 	},
 	{
+		"name": "Squircle CE",
+		"repo": "https://github.com/rainbowflesh/Rose-Pine-For-Squircle-CE",
+		"tags": ["app", "editor"],
+		"authors": [
+			{ "name": "rainbowflesh", "url": "https://github.com/rainbowflesh" }
+		],
+		"has_variants": true
+	},
+	{
 		"name": "st",
 		"repo": "https://github.com/rose-pine/st",
 		"tags": ["app", "terminal-emulator"],
