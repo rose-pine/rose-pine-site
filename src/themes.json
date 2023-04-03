@@ -471,7 +471,8 @@
 		"tags": ["marp-themes"],
 		"authors": [
 			{ "name": "rainbowflesh", "url": "https://github.com/rainbowflesh" }
-		]
+		],
+		"has_variants": true
 	},
 	{
 		"name": "Mastodon",
