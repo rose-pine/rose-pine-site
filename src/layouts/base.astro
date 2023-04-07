@@ -22,12 +22,14 @@ const { title, description } = Astro.props;
 	</head>
 
 	<body>
-		<a href="#content">Skip to main content</a>
+		<a href="#content" class="sr-only">Skip to main content</a>
 
 		<Header />
 
-		<main id="content">
-			<slot />
+		<main id="content" class="flex justify-center px-page-gutter py-page-top">
+			<div class="min-h-content w-full max-w-content">
+				<slot />
+			</div>
 		</main>
 
 		<Footer />
