@@ -1,0 +1,35 @@
+---
+function isCurrentPage(url: string) {
+	return Astro.url.pathname === url;
+}
+
+const menu = [
+	["Themes", "/themes"],
+	["Palette", "/palette"],
+	["Resources", "/resources"],
+];
+---
+
+<header>
+	<a
+		href={isCurrentPage("/") ? "#" : "/"}
+		aria-current={isCurrentPage("/") ? "page" : undefined}>Rosé Pine</a
+	>
+
+	<nav aria-label="Main">
+		<ul role="list">
+			{
+				menu.map(([name, href]) => (
+					<li>
+						<a
+							href={href}
+							aria-current={isCurrentPage(href) ? "page" : undefined}
+						>
+							{name}
+						</a>
+					</li>
+				))
+			}
+		</ul>
+	</nav>
+</header>

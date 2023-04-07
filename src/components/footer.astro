@@ -1,0 +1,23 @@
+---
+const menu = [
+	["GitHub", "https://github.com/rose-pine"],
+	["Discord", "https://discord.gg/r6wf35KVJW"],
+	["Twitter", "https://twitter.com/rosepinetheme"],
+];
+---
+
+<footer>
+	<p>Copyright &copy; {new Date().getFullYear()} Rosé Pine</p>
+
+	<nav aria-label="Media">
+		<ul role="list">
+			{
+				menu.map(([name, href]) => (
+					<li>
+						<a href={href}>{name}</a>
+					</li>
+				))
+			}
+		</ul>
+	</nav>
+</footer>
