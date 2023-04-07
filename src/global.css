@@ -17,7 +17,7 @@
 	--page-gutter: 24px;
 	--banner-height: 40px;
 	--header-height: 72px;
-	--footer-height: 72px;
+	--footer-height: 96px;
 	--content-width: 72rem;
 	--content-height: calc(
 		100vh - var(--banner-height) - var(--header-height) - (var(--page-top) * 2)
@@ -35,6 +35,12 @@
 	--color-pine: 197deg 53% 34%;
 	--color-foam: 189deg 30% 48%;
 	--color-iris: 268deg 21% 57%;
+}
+
+@media screen(sm) {
+	:root {
+		--footer-height: 72px;
+	}
 }
 
 @media screen(md) {
