@@ -1,4 +1,5 @@
 ---
+import Banner from "$components/banner.astro";
 import Header from "$components/header.astro";
 import Footer from "$components/footer.astro";
 import "../global.css";
@@ -23,6 +24,16 @@ const { title, description } = Astro.props;
 
 	<body>
 		<a href="#content" class="sr-only">Skip to main content</a>
+
+		<Banner
+			links={[
+				[
+					"Support Ukraine",
+					"https://heavy.com/news/help-ukraine-verified-charities-aid-relief-gofundme/",
+				],
+				["The Equal Justice Initiative", "https://eji.org"],
+			]}
+		/>
 
 		<Header />
 
