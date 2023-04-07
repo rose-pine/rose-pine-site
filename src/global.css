@@ -12,4 +12,109 @@
 
 :root {
 	color-scheme: light dark;
+
+	--page-top: 48px;
+	--page-gutter: 24px;
+	--banner-height: 40px;
+	--header-height: 72px;
+	--footer-height: 72px;
+	--content-width: 72rem;
+	--content-height: calc(
+		100vh - var(--banner-height) - var(--header-height) - (var(--page-top) * 2)
+	);
+
+	--color-base: 32deg 57% 95%;
+	--color-surface: 35deg 100% 98%;
+	--color-overlay: 33deg 43% 91%;
+	--color-muted: 257deg 9% 61%;
+	--color-subtle: 248deg 12% 52%;
+	--color-text: 248deg 19% 40%;
+	--color-love: 343deg 35% 55%;
+	--color-gold: 35deg 81% 56%;
+	--color-rose: 3deg 53% 67%;
+	--color-pine: 197deg 53% 34%;
+	--color-foam: 189deg 30% 48%;
+	--color-iris: 268deg 21% 57%;
+}
+
+@media screen(md) {
+	:root {
+		--page-top: 96px;
+		--page-gutter: 48px;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-base: 249deg 22% 12%;
+		--color-surface: 247deg 23% 15%;
+		--color-overlay: 248deg 25% 18%;
+		--color-muted: 249deg 12% 47%;
+		--color-subtle: 248deg 15% 61%;
+		--color-text: 245deg 50% 91%;
+		--color-love: 343deg 76% 68%;
+		--color-gold: 35deg 88% 72%;
+		--color-rose: 2deg 55% 83%;
+		--color-pine: 197deg 49% 38%;
+		--color-foam: 189deg 43% 73%;
+		--color-iris: 267deg 57% 78%;
+	}
+}
+
+::selection {
+	background: hsl(var(--color-muted) / 0.2);
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	color: hsl(var(--color-text));
+	background: hsl(var(--color-base));
+	font-weight: 450;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+[id] {
+	scroll-margin-top: var(--page-top);
+}
+
+.animate-enter {
+	opacity: 0;
+	animation: enter 500ms forwards;
+	animation-delay: calc(var(--stagger) * 200ms);
+}
+
+@keyframes enter {
+	from {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	::before,
+	::after {
+		animation-delay: -1ms !important;
+		animation-duration: 1ms !important;
+		animation-iteration-count: 1 !important;
+		background-attachment: initial !important;
+		scroll-behavior: auto !important;
+		transition-duration: 0s !important;
+		transition-delay: 0s !important;
+	}
 }
