@@ -1,3 +1,11 @@
+@font-face {
+	font-family: "Pier Sans";
+	font-display: fallback;
+	font-style: normal;
+	font-weight: bold;
+	src: url("/assets/fonts/PierSans-Bold.otf") format("opentype");
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
