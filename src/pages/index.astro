@@ -1,6 +1,12 @@
 ---
+import {
+	IconHeartHandshake,
+	IconSeeding,
+	IconShadow,
+} from "@tabler/icons-svelte";
 import Layout from "$layouts/base.astro";
 import EditorFrame from "$components/editor-frame.svelte";
+import Card from "$components/card.svelte";
 ---
 
 <Layout
@@ -37,5 +43,84 @@ import EditorFrame from "$components/editor-frame.svelte";
 		<div class="animate-enter overflow-hidden" style="--stagger: 1">
 			<EditorFrame />
 		</div>
+	</section>
+
+	<div class="h-20"></div>
+
+	<section
+		class="mx-auto grid max-w-lg grid-cols-1 gap-10 md:max-w-full md:grid-cols-3 md:gap-6"
+	>
+		<Card size="lg" href="/palette">
+			<div
+				class="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-foam to-pine text-surface"
+			>
+				<IconSeeding size={28} stroke={1.5} />
+			</div>
+
+			<div class="h-6"></div>
+
+			<h2 class="text-lg font-bold leading-none tracking-tight">
+				Subtle aesthetics
+			</h2>
+			<p class="py-3">
+				Give your eyes a well-deserved break with our soft, comfy palette.
+			</p>
+
+			<div class="flex-1"></div>
+
+			<div class="flex">
+				<p class="font-medium text-foam hover:underline">
+					Our palette&nbsp;&rarr;
+				</p>
+			</div>
+		</Card>
+
+		<Card size="lg" href="/themes">
+			<div
+				class="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-iris to-gold text-surface"
+			>
+				<IconShadow size={28} stroke={1.5} />
+			</div>
+
+			<div class="h-6"></div>
+
+			<h2 class="text-lg font-bold leading-none tracking-tight">
+				Adaptive moods
+			</h2>
+			<p class="py-3">Enjoy variants tailored for every hour of your day.</p>
+
+			<div class="flex-1"></div>
+
+			<div class="flex">
+				<p class="font-medium text-iris hover:underline">
+					Browse themes&nbsp;&rarr;
+				</p>
+			</div>
+		</Card>
+
+		<Card size="lg" href="/resources">
+			<div
+				class="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-rose to-love text-surface"
+			>
+				<IconHeartHandshake size={28} stroke={1.5} />
+			</div>
+
+			<div class="h-6"></div>
+
+			<h2 class="text-lg font-bold leading-none tracking-tight">
+				Community-driven
+			</h2>
+			<p class="py-3">
+				You helped bring Rosé Pine to over 90 of your favourite apps.
+			</p>
+
+			<div class="flex-1"></div>
+
+			<div class="flex">
+				<p class="font-medium text-rose hover:underline">
+					Get involved&nbsp;&rarr;
+				</p>
+			</div>
+		</Card>
 	</section>
 </Layout>
