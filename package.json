@@ -8,6 +8,7 @@
 	},
 	"dependencies": {
 		"@astrojs/svelte": "^2.1.0",
+		"@tabler/icons-svelte": "^2.14.0",
 		"astro": "^2.2.0",
 		"svelte": "^3.58.0"
 	},

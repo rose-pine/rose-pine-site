@@ -4,6 +4,9 @@ dependencies:
   '@astrojs/svelte':
     specifier: ^2.1.0
     version: 2.1.0(astro@2.2.0)(svelte@3.58.0)(typescript@4.9.5)(vite@4.2.1)
+  '@tabler/icons-svelte':
+    specifier: ^2.14.0
+    version: 2.14.0(svelte@3.58.0)
   astro:
     specifier: ^2.2.0
     version: 2.2.0
@@ -667,6 +670,19 @@ packages:
       vitefu: 0.2.4(vite@4.2.1)
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /@tabler/icons-svelte@2.14.0(svelte@3.58.0):
+    resolution: {integrity: sha512-dR58jWE5GbkevgT3wT8l7rl96GgJjs29+hzEHa3fbk271A1g0jrQQ0ztBgYujOYV4zNYf7eePTraTVF2zRZe7g==}
+    peerDependencies:
+      svelte: ^3.49.0
+    dependencies:
+      '@tabler/icons': 2.14.0
+      svelte: 3.58.0
+    dev: false
+
+  /@tabler/icons@2.14.0:
+    resolution: {integrity: sha512-q4qFe8P0M0cwRlQajPtjucjVrRPVkv/aFHWrCm+HZH9eOkjYSyyFtn7/Zz7lkjBcGiPUkh08d/d3IvJToP/zvw==}
     dev: false
 
   /@types/babel__core@7.20.0:
