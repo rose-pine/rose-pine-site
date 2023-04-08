@@ -1,14 +1,41 @@
 ---
 import Layout from "$layouts/base.astro";
+import EditorFrame from "$components/editor-frame.svelte";
 ---
 
 <Layout
 	title="Something beautiful"
 	description="All natural pine, faux fur and a bit of soho vibes for the classy minimalist."
 >
-	<h1>Something beautiful</h1>
-	<p>
-		All natural pine, faux fur and a bit of soho vibes for the classy
-		minimalist.
-	</p>
+	<section
+		class="grid min-h-content items-center gap-20 lg:grid-cols-[1fr,minmax(0,1fr)]"
+	>
+		<div class="space-y-6 text-center lg:space-y-10 lg:text-left">
+			<h1
+				class="animate-enter font-display text-5xl font-bold tracking-tight lg:text-8xl"
+			>
+				Something beautiful
+			</h1>
+
+			<p
+				class="animate-enter mx-auto max-w-sm text-lg text-subtle lg:mx-0 lg:max-w-md lg:text-xl"
+				style="--stagger: 1"
+			>
+				All natural pine, faux fur and a bit of soho vibes for the classy
+				minimalist.
+			</p>
+
+			<div>
+				<a
+					href="/themes"
+					class="animate-enter inline-flex h-12 items-center rounded-full bg-muted/10 px-6 font-medium transition hover:bg-muted/20 focus:outline-none focus:ring"
+					style="--stagger: 2">Discover&nbsp;&rarr;</a
+				>
+			</div>
+		</div>
+
+		<div class="animate-enter overflow-hidden" style="--stagger: 1">
+			<EditorFrame />
+		</div>
+	</section>
 </Layout>
