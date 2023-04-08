@@ -1,7 +1,8 @@
 ---
-import Banner from "$components/banner.astro";
-import Header from "$components/header.astro";
-import Footer from "$components/footer.astro";
+import Banner from "$components/banner.svelte";
+import Header from "$components/header.svelte";
+import Footer from "$components/footer.svelte";
+import { pathname } from "$store";
 import "../global.css";
 
 export type Props = {
@@ -10,6 +11,8 @@ export type Props = {
 };
 
 const { title, description } = Astro.props;
+
+pathname.set(Astro.url.pathname);
 ---
 
 <html lang="en">
