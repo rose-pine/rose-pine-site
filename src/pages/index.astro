@@ -7,6 +7,7 @@ import {
 import Layout from "$layouts/base.astro";
 import EditorFrame from "$components/editor-frame.svelte";
 import Card from "$components/card.svelte";
+import { themes } from "$data/themes";
 ---
 
 <Layout
@@ -111,7 +112,8 @@ import Card from "$components/card.svelte";
 				Community-driven
 			</h2>
 			<p class="py-3">
-				You helped bring Rosé Pine to over 90 of your favourite apps.
+				You helped bring Rosé Pine to over {Math.floor(themes.length / 10) * 10}
+				of your favourite apps.
 			</p>
 
 			<div class="flex-1"></div>
