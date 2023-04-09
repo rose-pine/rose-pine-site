@@ -148,7 +148,7 @@
 	{
 		"name": "Spotify",
 		"url": "https://github.com/nicoleajoy/rose-pine-spotify",
-		"tags": ["app", "audio", "music"],
+		"tags": ["app", "audio", "music", "spotify"],
 		"authors": [
 			{ "name": "Nicole Ajoy", "url": "https://github.com/nicoleajoy" }
 		],
@@ -207,7 +207,7 @@
 	{
 		"name": "YouTube",
 		"url": "https://github.com/artilate/youtube",
-		"tags": ["web-ui", "css"],
+		"tags": ["web-ui", "css", "youtube"],
 		"authors": [{ "name": "artilate", "url": "https://github.com/artilate" }],
 		"has_variants": true
 	},

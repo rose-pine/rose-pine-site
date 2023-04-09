@@ -57,10 +57,11 @@
 			"vim",
 			"nvim",
 			"neovim-theme",
-			"vim-theme"
+			"vim-theme",
+			"editor"
 		],
-		"stargazerCount": 897,
-		"updatedAt": "2023-04-09T11:28:10Z",
+		"stargazerCount": 898,
+		"updatedAt": "2023-04-09T21:03:07Z",
 		"url": "https://github.com/rose-pine/neovim",
 		"usesCustomOpenGraphImage": true
 	},
@@ -88,9 +89,15 @@
 		"description": "Soho vibes for kitty",
 		"homepageUrl": "",
 		"name": "kitty",
-		"repositoryTopics": ["kitty", "soho-vibes", "theme", "rose-pine"],
+		"repositoryTopics": [
+			"kitty",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"terminal"
+		],
 		"stargazerCount": 31,
-		"updatedAt": "2023-03-25T06:42:22Z",
+		"updatedAt": "2023-04-09T21:03:01Z",
 		"url": "https://github.com/rose-pine/kitty",
 		"usesCustomOpenGraphImage": true
 	},
@@ -176,9 +183,15 @@
 		"description": "Soho vibes for Hyper",
 		"homepageUrl": "https://www.npmjs.com/package/hyper-rose-pine",
 		"name": "hyper",
-		"repositoryTopics": ["hyper", "soho-vibes", "theme", "rose-pine"],
+		"repositoryTopics": [
+			"hyper",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"terminal"
+		],
 		"stargazerCount": 33,
-		"updatedAt": "2023-04-09T02:40:22Z",
+		"updatedAt": "2023-04-09T21:02:36Z",
 		"url": "https://github.com/rose-pine/hyper",
 		"usesCustomOpenGraphImage": true
 	},
@@ -206,9 +219,9 @@
 		"description": "Soho vibes for Vim",
 		"homepageUrl": "",
 		"name": "vim",
-		"repositoryTopics": ["rose-pine", "soho-vibes", "theme", "vim"],
+		"repositoryTopics": ["rose-pine", "soho-vibes", "theme", "vim", "editor"],
 		"stargazerCount": 2,
-		"updatedAt": "2023-03-27T13:49:24Z",
+		"updatedAt": "2023-04-09T20:58:44Z",
 		"url": "https://github.com/rose-pine/vim",
 		"usesCustomOpenGraphImage": true
 	},
@@ -226,9 +239,9 @@
 		"description": "Soho vibes for Tailwind CSS",
 		"homepageUrl": "",
 		"name": "tailwind-css",
-		"repositoryTopics": ["tailwindcss", "theme"],
+		"repositoryTopics": ["tailwindcss", "theme", "tailwind"],
 		"stargazerCount": 3,
-		"updatedAt": "2023-01-13T19:14:12Z",
+		"updatedAt": "2023-04-09T21:01:55Z",
 		"url": "https://github.com/rose-pine/tailwind-css",
 		"usesCustomOpenGraphImage": false
 	},
@@ -252,9 +265,15 @@
 		"description": "Soho vibes for QTerminal",
 		"homepageUrl": "",
 		"name": "qterminal",
-		"repositoryTopics": ["qterminal", "rose-pine", "soho-vibes", "theme"],
+		"repositoryTopics": [
+			"qterminal",
+			"rose-pine",
+			"soho-vibes",
+			"theme",
+			"terminal"
+		],
 		"stargazerCount": 2,
-		"updatedAt": "2022-12-05T17:24:34Z",
+		"updatedAt": "2023-04-09T21:03:15Z",
 		"url": "https://github.com/rose-pine/qterminal",
 		"usesCustomOpenGraphImage": false
 	},
@@ -262,9 +281,9 @@
 		"description": "Soho vibes for st",
 		"homepageUrl": "",
 		"name": "st",
-		"repositoryTopics": ["st", "soho-vibes", "theme", "rose-pine"],
+		"repositoryTopics": ["st", "soho-vibes", "theme", "rose-pine", "terminal"],
 		"stargazerCount": 8,
-		"updatedAt": "2022-12-18T22:21:35Z",
+		"updatedAt": "2023-04-09T21:02:15Z",
 		"url": "https://github.com/rose-pine/st",
 		"usesCustomOpenGraphImage": true
 	},
@@ -272,9 +291,15 @@
 		"description": "Soho vibes for XFCE4 Terminal",
 		"homepageUrl": "",
 		"name": "xfce-terminal",
-		"repositoryTopics": ["xfce-terminal", "soho-vibes", "theme", "rose-pine"],
+		"repositoryTopics": [
+			"xfce-terminal",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"terminal"
+		],
 		"stargazerCount": 8,
-		"updatedAt": "2023-04-07T17:33:38Z",
+		"updatedAt": "2023-04-09T21:03:45Z",
 		"url": "https://github.com/rose-pine/xfce-terminal",
 		"usesCustomOpenGraphImage": true
 	},
@@ -282,9 +307,15 @@
 		"description": "Soho vibes for LXTerminal",
 		"homepageUrl": "",
 		"name": "lxterminal",
-		"repositoryTopics": ["lxterminal", "rose-pine", "soho-vibes", "theme"],
+		"repositoryTopics": [
+			"lxterminal",
+			"rose-pine",
+			"soho-vibes",
+			"theme",
+			"terminal"
+		],
 		"stargazerCount": 2,
-		"updatedAt": "2022-12-01T23:30:23Z",
+		"updatedAt": "2023-04-09T21:02:48Z",
 		"url": "https://github.com/rose-pine/lxterminal",
 		"usesCustomOpenGraphImage": false
 	},
@@ -374,9 +405,9 @@
 		"description": "Soho vibes for SteamOS",
 		"homepageUrl": "",
 		"name": "steam-os",
-		"repositoryTopics": ["theme"],
+		"repositoryTopics": ["theme", "steam", "steam-os"],
 		"stargazerCount": 0,
-		"updatedAt": "2022-07-09T19:17:31Z",
+		"updatedAt": "2023-04-09T20:49:04Z",
 		"url": "https://github.com/rose-pine/steam-os",
 		"usesCustomOpenGraphImage": false
 	},
@@ -409,10 +440,11 @@
 			"soho-vibes",
 			"theme",
 			"rose-pine",
-			"hacktoberfest"
+			"hacktoberfest",
+			"terminal"
 		],
 		"stargazerCount": 18,
-		"updatedAt": "2023-04-01T15:36:24Z",
+		"updatedAt": "2023-04-09T21:02:31Z",
 		"url": "https://github.com/rose-pine/gnome-terminal",
 		"usesCustomOpenGraphImage": true
 	},
@@ -509,9 +541,15 @@
 		"description": "Soho vibes for Tauon Music Box",
 		"homepageUrl": "",
 		"name": "tauon",
-		"repositoryTopics": ["rose-pine", "soho-vibes", "theme", "hacktoberfest"],
+		"repositoryTopics": [
+			"rose-pine",
+			"soho-vibes",
+			"theme",
+			"hacktoberfest",
+			"music"
+		],
 		"stargazerCount": 2,
-		"updatedAt": "2022-12-15T06:38:04Z",
+		"updatedAt": "2023-04-09T20:46:22Z",
 		"url": "https://github.com/rose-pine/tauon",
 		"usesCustomOpenGraphImage": true
 	},
@@ -535,9 +573,15 @@
 		"description": "Soho vibes for Konsole",
 		"homepageUrl": "",
 		"name": "konsole",
-		"repositoryTopics": ["konsole", "soho-vibes", "theme", "rose-pine"],
+		"repositoryTopics": [
+			"konsole",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"terminal"
+		],
 		"stargazerCount": 6,
-		"updatedAt": "2023-02-04T09:10:34Z",
+		"updatedAt": "2023-04-09T21:02:53Z",
 		"url": "https://github.com/rose-pine/konsole",
 		"usesCustomOpenGraphImage": true
 	},
@@ -545,9 +589,15 @@
 		"description": "Soho vibes for GitKraken",
 		"homepageUrl": "",
 		"name": "gitkraken",
-		"repositoryTopics": ["theme", "soho-vibes", "rose-pine", "hacktoberfest"],
+		"repositoryTopics": [
+			"theme",
+			"soho-vibes",
+			"rose-pine",
+			"hacktoberfest",
+			"git"
+		],
 		"stargazerCount": 5,
-		"updatedAt": "2023-02-23T19:52:53Z",
+		"updatedAt": "2023-04-09T20:39:07Z",
 		"url": "https://github.com/rose-pine/gitkraken",
 		"usesCustomOpenGraphImage": true
 	},
@@ -579,10 +629,11 @@
 			"theme",
 			"soho-vibes",
 			"rose-pine",
-			"github-readme-stats"
+			"github-readme-stats",
+			"github"
 		],
 		"stargazerCount": 5,
-		"updatedAt": "2022-11-07T09:02:14Z",
+		"updatedAt": "2023-04-09T20:39:45Z",
 		"url": "https://github.com/rose-pine/github-readme-stats",
 		"usesCustomOpenGraphImage": true
 	},
@@ -620,9 +671,9 @@
 		"description": "Soho vibes for Termux",
 		"homepageUrl": "",
 		"name": "termux",
-		"repositoryTopics": ["theme"],
+		"repositoryTopics": ["theme", "terminal", "mobile"],
 		"stargazerCount": 11,
-		"updatedAt": "2023-04-01T20:07:02Z",
+		"updatedAt": "2023-04-09T21:04:39Z",
 		"url": "https://github.com/rose-pine/termux",
 		"usesCustomOpenGraphImage": true
 	},
@@ -740,9 +791,15 @@
 		"description": "Soho vibes for Terminal.app",
 		"homepageUrl": "",
 		"name": "terminal.app",
-		"repositoryTopics": ["terminal-app", "soho-vibes", "theme", "rose-pine"],
+		"repositoryTopics": [
+			"terminal-app",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"terminal"
+		],
 		"stargazerCount": 11,
-		"updatedAt": "2023-03-24T23:37:34Z",
+		"updatedAt": "2023-04-09T20:59:01Z",
 		"url": "https://github.com/rose-pine/terminal.app",
 		"usesCustomOpenGraphImage": true
 	},
@@ -750,9 +807,15 @@
 		"description": "Soho vibes for iTerm2",
 		"homepageUrl": "",
 		"name": "iterm",
-		"repositoryTopics": ["iterm", "soho-vibes", "theme", "rose-pine"],
+		"repositoryTopics": [
+			"iterm",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"terminal"
+		],
 		"stargazerCount": 44,
-		"updatedAt": "2023-04-03T15:16:24Z",
+		"updatedAt": "2023-04-09T21:02:42Z",
 		"url": "https://github.com/rose-pine/iterm",
 		"usesCustomOpenGraphImage": true
 	},
@@ -760,9 +823,9 @@
 		"description": "Soho vibes for Discord RPC Maker",
 		"homepageUrl": "",
 		"name": "discordrpcmaker",
-		"repositoryTopics": ["theme"],
+		"repositoryTopics": ["theme", "discord"],
 		"stargazerCount": 1,
-		"updatedAt": "2022-12-27T19:40:57Z",
+		"updatedAt": "2023-04-09T20:37:05Z",
 		"url": "https://github.com/rose-pine/discordrpcmaker",
 		"usesCustomOpenGraphImage": false
 	},
@@ -780,9 +843,15 @@
 		"description": "Soho vibes for Termite",
 		"homepageUrl": "",
 		"name": "termite",
-		"repositoryTopics": ["termite", "soho-vibes", "theme", "rose-pine"],
+		"repositoryTopics": [
+			"termite",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"terminal"
+		],
 		"stargazerCount": 2,
-		"updatedAt": "2022-06-27T10:52:02Z",
+		"updatedAt": "2023-04-09T21:05:19Z",
 		"url": "https://github.com/rose-pine/termite",
 		"usesCustomOpenGraphImage": true
 	},
@@ -800,9 +869,15 @@
 		"description": "Soho vibes for Terminator",
 		"homepageUrl": "",
 		"name": "terminator",
-		"repositoryTopics": ["terminator", "soho-vibes", "theme", "rose-pine"],
+		"repositoryTopics": [
+			"terminator",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"terminal"
+		],
 		"stargazerCount": 2,
-		"updatedAt": "2022-06-27T10:52:03Z",
+		"updatedAt": "2023-04-09T21:05:55Z",
 		"url": "https://github.com/rose-pine/terminator",
 		"usesCustomOpenGraphImage": true
 	},
@@ -810,9 +885,15 @@
 		"description": "Soho vibes for Fluent Terminal",
 		"homepageUrl": "",
 		"name": "fluent-terminal",
-		"repositoryTopics": ["fluent-terminal", "soho-vibes", "theme", "rose-pine"],
+		"repositoryTopics": [
+			"fluent-terminal",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"terminal"
+		],
 		"stargazerCount": 6,
-		"updatedAt": "2022-11-22T00:43:26Z",
+		"updatedAt": "2023-04-09T21:02:25Z",
 		"url": "https://github.com/rose-pine/fluent-terminal",
 		"usesCustomOpenGraphImage": true
 	},
@@ -830,9 +911,15 @@
 		"description": "Soho vibes for cool-retro-term",
 		"homepageUrl": "",
 		"name": "cool-retro-term",
-		"repositoryTopics": ["retro-term", "soho-vibes", "theme", "rose-pine"],
+		"repositoryTopics": [
+			"retro-term",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"terminal"
+		],
 		"stargazerCount": 3,
-		"updatedAt": "2022-06-27T10:52:05Z",
+		"updatedAt": "2023-04-09T21:00:08Z",
 		"url": "https://github.com/rose-pine/cool-retro-term",
 		"usesCustomOpenGraphImage": true
 	},
