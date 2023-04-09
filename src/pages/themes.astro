@@ -1,6 +1,8 @@
 ---
 import Layout from "$layouts/base.astro";
 import PageIntro from "$components/page-intro.svelte";
+import ThemesFilter from "$components/themes-filter.svelte";
+import ThemesList from "$components/themes-list.svelte";
 import { themes, authors } from "$data/themes";
 ---
 
@@ -12,5 +14,13 @@ import { themes, authors } from "$data/themes";
 		heading="Themes"
 		subheading="Hand-crafted collection of personalisation."
 		tagline={`${themes.length} ports & ${authors.size} authors`}
-	/>
+	>
+		<ThemesFilter client:load />
+	</PageIntro>
+
+	<div class="h-20"></div>
+
+	<section class="animate-enter" style="--stagger: 2">
+		<ThemesList client:load />
+	</section>
 </Layout>

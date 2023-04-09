@@ -10,6 +10,9 @@ dependencies:
   astro:
     specifier: ^2.2.0
     version: 2.2.0
+  has-match:
+    specifier: ^1.0.4
+    version: 1.0.4
   svelte:
     specifier: ^3.58.0
     version: 3.58.0
@@ -1480,6 +1483,11 @@ packages:
   /has-flag@4.0.0:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
+    dev: false
+
+  /has-match@1.0.4:
+    resolution: {integrity: sha512-1Syt3kZm1QfA9Ic39i0StSMZ4/eTP65xCOUhqqPKS5++7cqqfkNMTSxfP6ItS4JYD2rbfdLE4J2iSi9r6vcBSA==}
+    engines: {node: '>=12'}
     dev: false
 
   /has-package-exports@1.3.0:
