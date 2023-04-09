@@ -18,7 +18,7 @@ const themes = [
 				? repo.description.replace("Soho vibes for ", "")
 				: repo.name,
 			url: repo.url,
-			repositoryTopics: repo.repositoryTopics,
+			tags: repo.repositoryTopics,
 			has_variants: true,
 			featured: repo.stargazerCount > 40,
 		})),
@@ -29,7 +29,7 @@ const themes = [
 		return {
 			name: repo.name,
 			url: repo.url,
-			repositoryTopics: repo.tags,
+			tags: repo.tags,
 			has_variants: repo.has_variants,
 			featured: repo.featured,
 		};
