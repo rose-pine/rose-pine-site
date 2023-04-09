@@ -1,0 +1,221 @@
+[
+	{
+		"name": "Base16",
+		"url": "https://github.com/edunfelt/base16-rose-pine-scheme",
+		"tags": ["palette"],
+		"authors": [{ "name": "edunfelt", "url": "https://github.com/edunfelt" }],
+		"has_variants": true
+	},
+	{
+		"name": "Blink Shell",
+		"url": "https://github.com/ng-hai/rose-pine-blinksh",
+		"tags": ["terminal", "shell", "mobile"],
+		"authors": [{ "name": "Hai Nguyen", "url": "https://github.com/ng-hai" }],
+		"has_variants": true
+	},
+	{
+		"name": "Cider",
+		"url": "https://github.com/artilate/cider",
+		"tags": ["app", "audio", "music"],
+		"authors": [{ "name": "artilate", "url": "https://github.com/artilate" }],
+		"has_variants": false
+	},
+	{
+		"name": "Cmus",
+		"url": "https://github.com/Iorvethe/cmus",
+		"tags": ["terminal", "audio", "music"],
+		"authors": [{ "name": "Iorvethe", "url": "https://github.com/Iorvethe" }]
+	},
+	{
+		"name": "colorls",
+		"url": "https://github.com/bietdoikiem/colorls",
+		"tags": ["terminal"],
+		"authors": [
+			{ "name": "bietdoikiem", "url": "https://github.com/bietdoikiem" }
+		],
+		"has_variants": false
+	},
+	{
+		"name": "DuckDuckGo",
+		"url": "https://github.com/cobcobs/duckduckgo",
+		"tags": ["search-engine", "web"],
+		"authors": [{ "name": "cobcobs", "url": "https://github.com/cobcobs" }],
+		"has_variants": true
+	},
+	{
+		"name": "Emacs",
+		"url": "https://github.com/thongpv87/rose-pine-emacs",
+		"tags": ["app", "terminal", "editor"],
+		"authors": [{ "name": "Caelie", "url": "" }],
+		"has_variants": true
+	},
+	{
+		"name": "foot",
+		"url": "https://github.com/EuCaue/foot",
+		"tags": ["terminal-emulator"],
+		"authors": [
+			{ "name": "EuCaue", "url": "https://github.com/EuCaue" },
+			{ "name": "cement-drinker", "url": "https://github.com/cement-drinker" }
+		],
+		"has_variants": true
+	},
+	{
+		"name": "Hundred Rabbits",
+		"url": "https://github.com/artilate/hundredrabbits",
+		"tags": ["app", "palette"],
+		"authors": [{ "name": "artilate", "url": "https://github.com/artilate" }],
+		"has_variants": true
+	},
+	{
+		"name": "Infinity for Reddit",
+		"url": "https://github.com/alvarosoaress/infinity-for-reddit",
+		"tags": ["reddit", "app"],
+		"authors": [
+			{ "name": "alvarosoaress", "url": "https://github.com/alvarosoaress/" }
+		],
+		"has_variants": false
+	},
+	{
+		"name": "Insomnia",
+		"url": "https://github.com/agustinhopneto/rose-pine-insomnia",
+		"tags": ["app", "productivity"],
+		"authors": [
+			{ "name": "agustinhopneto", "url": "https://github.com/agustinhopneto" }
+		],
+		"has_variants": true
+	},
+	{
+		"name": "IntelliJ",
+		"url": "https://github.com/jmorjsm/rose-pine-intellij",
+		"tags": ["app", "editor"],
+		"authors": [{ "name": "jmorjsm", "url": "https://github.com/jmorjsm" }],
+		"has_variants": true
+	},
+	{
+		"name": "JSON Viewer",
+		"url": "https://github.com/emlez/json-viewer",
+		"tags": ["web-extension"],
+		"authors": [{ "name": "emlez", "url": "https://github.com/emlez" }],
+		"has_variants": true
+	},
+	{
+		"name": "Kakoune",
+		"url": "https://gitea.nulo.in/Nulo/rose-pine.kak",
+		"tags": ["terminal", "editor"],
+		"authors": [{ "name": "Nulo", "url": "https://nulo.in" }],
+		"has_variants": true
+	},
+	{
+		"name": "KDE",
+		"url": "https://github.com/maybork/kde",
+		"tags": ["DE", "system"],
+		"authors": [{ "name": "maybork", "url": "https://github.com/maybork" }]
+	},
+	{
+		"name": "Marp",
+		"url": "https://github.com/rainbowflesh/Rose-Pine-For-Marp",
+		"tags": ["marp-themes"],
+		"authors": [
+			{ "name": "rainbowflesh", "url": "https://github.com/rainbowflesh" }
+		],
+		"has_variants": true
+	},
+	{
+		"name": "Matplotlib",
+		"url": "https://github.com/h4pZ/rose-pine-matplotlib",
+		"tags": ["productivity", "math"],
+		"authors": [{ "name": "h4pz", "url": "https://github.com/h4pz" }],
+		"featured": true,
+		"has_variants": true
+	},
+	{
+		"name": "Notepad++",
+		"url": "https://github.com/aaravind100/notepad-plus-plus",
+		"tags": ["app", "editor"],
+		"authors": [
+			{ "name": "aaravind100", "url": "https://github.com/aaravind100" }
+		],
+		"has_variants": true
+	},
+	{
+		"name": "Obsidian",
+		"url": "https://github.com/mimishahzad/rose-pine-moon-obsidian",
+		"tags": ["app", "productivity"],
+		"authors": [
+			{ "name": "mimishahzad", "url": "https://github.com/mimishahzad" }
+		]
+	},
+	{
+		"name": "Spotify",
+		"url": "https://github.com/nicoleajoy/rose-pine-spotify",
+		"tags": ["app", "audio", "music"],
+		"authors": [
+			{ "name": "Nicole Ajoy", "url": "https://github.com/nicoleajoy" }
+		],
+		"has_variants": true
+	},
+	{
+		"name": "Squircle CE",
+		"url": "https://github.com/rainbowflesh/Rose-Pine-For-Squircle-CE",
+		"tags": ["app", "editor"],
+		"authors": [
+			{ "name": "rainbowflesh", "url": "https://github.com/rainbowflesh" }
+		],
+		"has_variants": true
+	},
+	{
+		"name": "Tilix",
+		"url": "https://github.com/annappropriate/rose-pine-tilix",
+		"tags": ["app", "terminal-emulator"],
+		"authors": [
+			{ "name": "Anna Z", "url": "https://github.com/annappropriate" }
+		],
+		"has_variants": true
+	},
+	{
+		"name": "Warp",
+		"url": "https://github.com/thanhsonng/rose-pine-warp",
+		"tags": ["app", "terminal-emulator", "terminal", "command", "cli"],
+		"authors": [
+			{ "name": "Son Nguyen", "url": "https://github.com/thanhsonng" }
+		],
+		"has_variants": true
+	},
+	{
+		"name": "WezTerm",
+		"url": "https://github.com/neapsix/wezterm",
+		"tags": ["app", "terminal-emulator"],
+		"authors": [{ "name": "neapsix", "url": "https://github.com/neapsix" }],
+		"has_variants": true
+	},
+	{
+		"name": "Wofi",
+		"url": "https://github.com/cement-drinker/wofi-rose-pine",
+		"tags": ["app", "terminal-emulator"],
+		"authors": [
+			{ "name": "Cement Drinker", "url": "https://github.com/cement-drinker" }
+		],
+		"has_variants": true
+	},
+	{
+		"name": "Xcode",
+		"url": "https://github.com/ldakhoa/rose-pine-xcode",
+		"tags": ["app", "editor"],
+		"authors": [{ "name": "ldakhoa", "url": "https://github.com/ldakhoa" }],
+		"has_variants": true
+	},
+	{
+		"name": "YouTube",
+		"url": "https://github.com/artilate/youtube",
+		"tags": ["web-ui", "css"],
+		"authors": [{ "name": "artilate", "url": "https://github.com/artilate" }],
+		"has_variants": true
+	},
+	{
+		"name": "Zathura",
+		"url": "https://github.com/edunfelt/zathura",
+		"tags": ["app", "productivity", "math"],
+		"authors": [{ "name": "edunfelt", "url": "https://github.com/edunfelt" }],
+		"has_variants": true
+	}
+]

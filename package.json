@@ -3,8 +3,10 @@
 	"type": "module",
 	"scripts": {
 		"dev": "astro dev",
-		"build": "astro build",
-		"preview": "astro preview"
+		"build": "npm run build:data && npm run format && astro build",
+		"build:data": "sh scripts/fetch-org-stats.sh",
+		"preview": "astro preview",
+		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"dependencies": {
 		"@astrojs/svelte": "^2.1.0",

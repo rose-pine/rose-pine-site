@@ -5,6 +5,7 @@
 		"paths": {
 			"$components/*": ["src/components/*"],
 			"$layouts/*": ["src/layouts/*"],
+			"$data/*": ["src/data/*"],
 			"$store": ["src/store.ts"]
 		}
 	}
