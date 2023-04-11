@@ -124,3 +124,34 @@ body {
 		transition-delay: 0s !important;
 	}
 }
+
+/* TODO: Is there a way to easily generate these via tailwind customisation
+ * AND ensure that they are always generated? These should be dynamically
+ * avaiable, e.g. .scheme-{role} */
+.scheme-muted {
+	@apply bg-muted/10 text-muted;
+}
+.scheme-subtle {
+	@apply bg-subtle/10 text-subtle;
+}
+.scheme-text {
+	@apply bg-text/10 text-text;
+}
+.scheme-love {
+	@apply bg-love/10 text-love;
+}
+.scheme-gold {
+	@apply bg-gold/10 text-gold;
+}
+.scheme-rose {
+	@apply bg-rose/10 text-rose;
+}
+.scheme-pine {
+	@apply bg-pine/10 text-pine;
+}
+.scheme-foam {
+	@apply bg-foam/10 text-foam;
+}
+.scheme-iris {
+	@apply bg-iris/10 text-iris;
+}

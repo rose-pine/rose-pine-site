@@ -2,6 +2,7 @@
 	export let heading: string;
 	export let subheading: Optional<string> = undefined;
 	export let tagline: Optional<string> = undefined;
+	export let animate = true;
 </script>
 
 <section class="flex flex-col items-center justify-between gap-6 md:flex-row">
@@ -32,7 +33,11 @@
 	</div>
 
 	{#if $$slots.default}
-		<div class="animate-enter w-full max-w-sm" style="--stagger: 1">
+		<div
+			class="inline-flex w-full max-w-sm justify-center md:justify-end"
+			class:animate-enter={animate}
+			style="--stagger: 1"
+		>
 			<slot />
 		</div>
 	{/if}

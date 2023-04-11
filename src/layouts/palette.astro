@@ -1,0 +1,55 @@
+---
+import Layout from "$layouts/base.astro";
+import PageIntro from "$components/page-intro.svelte";
+
+const menu = [
+	["Swatches", "/palette"],
+	["Ingredients", "/palette/ingredients"],
+];
+---
+
+<Layout title="Palette" description="Curated colours, endless creations.">
+	<PageIntro
+		heading="Palette"
+		subheading="Curated colours, endless creations."
+		tagline="3 variants & 15 colours"
+		animate={false}
+	>
+		<ul
+			role="list"
+			class="flex items-center overflow-hidden rounded-md border bg-surface"
+		>
+			{
+				menu.map(([name, href], index) => (
+					<li>
+						<a
+							href={href}
+							aria-current={Astro.url.pathname === href ? "page" : undefined}
+							class:list={[
+								{ ["border-r"]: index < menu.length - 1 },
+								"flex bg-muted/10 px-4 py-2 text-sm font-medium text-subtle transition hover:text-text focus:outline-none focus:ring focus:ring-inset",
+							]}
+						>
+							{name}
+						</a>
+					</li>
+				))
+			}
+		</ul>
+	</PageIntro>
+
+	<div class="h-20"></div>
+
+	<section class="animate-enter" style="--stagger: 2">
+		<slot />
+	</section>
+</Layout>
+
+<style>
+	[aria-current="page"] {
+		@apply bg-surface text-text;
+	}
+	[aria-current="page"]:hover {
+		@apply bg-surface;
+	}
+</style>
