@@ -9,7 +9,7 @@
 	{
 		"name": "Blink Shell",
 		"url": "https://github.com/ng-hai/rose-pine-blinksh",
-		"tags": ["terminal", "shell", "mobile"],
+		"tags": ["terminal", "shell", "mobile", "blinksh"],
 		"authors": [{ "name": "Hai Nguyen", "url": "https://github.com/ng-hai" }],
 		"has_variants": true
 	},
@@ -44,10 +44,12 @@
 	},
 	{
 		"name": "Emacs",
-		"url": "https://github.com/thongpv87/rose-pine-emacs",
+		"url": "https://github.com/konrad1977/pinerose-emacs",
 		"tags": ["app", "terminal", "editor"],
-		"authors": [{ "name": "Caelie", "url": "" }],
-		"has_variants": true
+		"authors": [
+			{ "name": "Mikael Konradsson", "url": "https://github.com/konrad1977" }
+		],
+		"has_variants": false
 	},
 	{
 		"name": "foot",

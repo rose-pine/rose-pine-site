@@ -1,5 +1,25 @@
 [
 	{
+		"description": "Color palette tool for Rosé Pine",
+		"homepageUrl": "https://www.npmjs.com/package/@rose-pine/palette",
+		"name": "palette",
+		"repositoryTopics": ["palette", "soho-vibes", "rose-pine", "color", "css"],
+		"stargazerCount": 12,
+		"updatedAt": "2023-03-21T06:51:49Z",
+		"url": "https://github.com/rose-pine/palette",
+		"usesCustomOpenGraphImage": true
+	},
+	{
+		"description": "Soho vibes for Rofi",
+		"homepageUrl": "",
+		"name": "rofi",
+		"repositoryTopics": ["theme"],
+		"stargazerCount": 9,
+		"updatedAt": "2023-03-20T04:23:06Z",
+		"url": "https://github.com/rose-pine/rofi",
+		"usesCustomOpenGraphImage": true
+	},
+	{
 		"description": "Soho vibes for Helix",
 		"homepageUrl": "",
 		"name": "helix",
@@ -35,16 +55,6 @@
 		"usesCustomOpenGraphImage": true
 	},
 	{
-		"description": "Color palette tool for Rosé Pine",
-		"homepageUrl": "https://www.npmjs.com/package/@rose-pine/palette",
-		"name": "palette",
-		"repositoryTopics": ["palette", "soho-vibes", "rose-pine", "color", "css"],
-		"stargazerCount": 12,
-		"updatedAt": "2023-03-21T06:51:49Z",
-		"url": "https://github.com/rose-pine/palette",
-		"usesCustomOpenGraphImage": true
-	},
-	{
 		"description": "Soho vibes for Neovim",
 		"homepageUrl": "",
 		"name": "neovim",
@@ -60,8 +70,8 @@
 			"vim-theme",
 			"editor"
 		],
-		"stargazerCount": 898,
-		"updatedAt": "2023-04-09T21:03:07Z",
+		"stargazerCount": 903,
+		"updatedAt": "2023-04-11T17:34:02Z",
 		"url": "https://github.com/rose-pine/neovim",
 		"usesCustomOpenGraphImage": true
 	},
@@ -106,8 +116,8 @@
 		"homepageUrl": "",
 		"name": "fzf",
 		"repositoryTopics": ["theme"],
-		"stargazerCount": 8,
-		"updatedAt": "2023-02-12T21:18:08Z",
+		"stargazerCount": 9,
+		"updatedAt": "2023-04-09T23:00:01Z",
 		"url": "https://github.com/rose-pine/fzf",
 		"usesCustomOpenGraphImage": true
 	},
@@ -127,16 +137,6 @@
 		"stargazerCount": 21,
 		"updatedAt": "2023-04-07T17:31:12Z",
 		"url": "https://github.com/rose-pine/google-chrome",
-		"usesCustomOpenGraphImage": true
-	},
-	{
-		"description": "Soho vibes for Rofi",
-		"homepageUrl": "",
-		"name": "rofi",
-		"repositoryTopics": ["theme"],
-		"stargazerCount": 9,
-		"updatedAt": "2023-03-20T04:23:06Z",
-		"url": "https://github.com/rose-pine/rofi",
 		"usesCustomOpenGraphImage": true
 	},
 	{
@@ -174,8 +174,8 @@
 		"homepageUrl": "",
 		"name": "zellij",
 		"repositoryTopics": ["soho-vibes", "rose-pine", "theme"],
-		"stargazerCount": 2,
-		"updatedAt": "2023-03-29T23:43:35Z",
+		"stargazerCount": 3,
+		"updatedAt": "2023-04-10T20:51:49Z",
 		"url": "https://github.com/rose-pine/zellij",
 		"usesCustomOpenGraphImage": true
 	},
@@ -340,8 +340,8 @@
 			"palette",
 			"aesthetic"
 		],
-		"stargazerCount": 829,
-		"updatedAt": "2023-04-09T14:55:45Z",
+		"stargazerCount": 831,
+		"updatedAt": "2023-04-11T18:39:19Z",
 		"url": "https://github.com/rose-pine/rose-pine-theme",
 		"usesCustomOpenGraphImage": true
 	},
@@ -371,7 +371,7 @@
 		"name": "gtk",
 		"repositoryTopics": ["gtk", "soho-vibes", "theme", "rose-pine"],
 		"stargazerCount": 124,
-		"updatedAt": "2023-03-30T20:51:37Z",
+		"updatedAt": "2023-04-11T09:49:49Z",
 		"url": "https://github.com/rose-pine/gtk",
 		"usesCustomOpenGraphImage": true
 	},
@@ -514,8 +514,8 @@
 			"addon",
 			"firefox-extension"
 		],
-		"stargazerCount": 25,
-		"updatedAt": "2023-04-07T01:55:58Z",
+		"stargazerCount": 26,
+		"updatedAt": "2023-04-10T13:31:24Z",
 		"url": "https://github.com/rose-pine/firefox",
 		"usesCustomOpenGraphImage": true
 	},
@@ -564,8 +564,8 @@
 			"rose-pine",
 			"terminal"
 		],
-		"stargazerCount": 44,
-		"updatedAt": "2023-04-07T15:22:28Z",
+		"stargazerCount": 45,
+		"updatedAt": "2023-04-10T22:19:35Z",
 		"url": "https://github.com/rose-pine/alacritty",
 		"usesCustomOpenGraphImage": true
 	},
