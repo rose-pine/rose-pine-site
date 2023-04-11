@@ -1,6 +1,7 @@
 ---
 import Layout from "$layouts/base.astro";
 import PageIntro from "$components/page-intro.svelte";
+import PaletteIngredients from "$components/palette-ingredients.svelte";
 ---
 
 <Layout title="Palette" description="Curated colours, endless creations.">
@@ -9,4 +10,10 @@ import PageIntro from "$components/page-intro.svelte";
 		subheading="Curated colours, endless creations."
 		tagline="3 variants & 15 colours"
 	/>
+
+	<div class="h-20"></div>
+
+	<section class="animate-enter" style="--stagger: 2">
+		<PaletteIngredients client:load />
+	</section>
 </Layout>

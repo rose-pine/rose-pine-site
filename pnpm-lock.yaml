@@ -4,6 +4,9 @@ dependencies:
   '@astrojs/svelte':
     specifier: ^2.1.0
     version: 2.1.0(astro@2.2.0)(svelte@3.58.0)(typescript@4.9.5)(vite@4.2.1)
+  '@rose-pine/palette':
+    specifier: 4.0.1-4
+    version: 4.0.1-4
   '@tabler/icons-svelte':
     specifier: ^2.14.0
     version: 2.14.0(svelte@3.58.0)
@@ -655,6 +658,11 @@ packages:
       picocolors: 1.0.0
       tiny-glob: 0.2.9
       tslib: 2.5.0
+
+  /@rose-pine/palette@4.0.1-4:
+    resolution: {integrity: sha512-7uUn39uNtwH98QUN8cX6+8bPm4YMD9RurRh2Im35F8illRmo81euifI5Ldjaq9AF4kFkqcTEkliUyySwLvX/eg==}
+    engines: {node: '>=16'}
+    dev: false
 
   /@sveltejs/vite-plugin-svelte@2.0.4(svelte@3.58.0)(vite@4.2.1):
     resolution: {integrity: sha512-pjqhW00KwK2uzDGEr+yJBwut+D+4XfJO/+bHHdHzPRXn9+1Jeq5JcFHyrUiYaXgHtyhX0RsllCTm4ssAx4ZY7Q==}
