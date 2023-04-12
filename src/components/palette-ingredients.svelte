@@ -18,7 +18,7 @@
 		{@const currentVariant = variants[variant]}
 
 		<Card id={currentVariant.id}>
-			<div class="flex flex-wrap items-center justify-between gap-6">
+			<div class="grid grid-cols-1 gap-6 min-[400px]:grid-cols-[1fr,auto]">
 				<div class="flex shrink-0 items-center space-x-3">
 					<img
 						width="32"
