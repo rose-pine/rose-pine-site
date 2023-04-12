@@ -18,12 +18,21 @@
 		{@const currentVariant = variants[variant]}
 
 		<Card id={currentVariant.id}>
-			<div class="flex flex-wrap items-center justify-between gap-3">
-				<h2
-					class="max-w-full font-display text-lg font-semibold leading-none tracking-wide"
-				>
-					{currentVariant.name}
-				</h2>
+			<div class="flex flex-wrap items-center justify-between gap-6">
+				<div class="flex shrink-0 items-center space-x-3">
+					<img
+						width="32"
+						height="32"
+						src="/assets/logo-{currentVariant.key}.png"
+						alt="{currentVariant.name} flower logo"
+						class="rounded-full border"
+					/>
+					<h2
+						class="max-w-full font-display text-lg font-semibold leading-none tracking-tight"
+					>
+						{currentVariant.name}
+					</h2>
+				</div>
 
 				<Checkbox
 					id={`${currentVariant.id}-decorations`}
