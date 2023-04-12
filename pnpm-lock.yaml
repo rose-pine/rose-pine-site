@@ -5,8 +5,8 @@ dependencies:
     specifier: ^2.1.0
     version: 2.1.0(astro@2.2.0)(svelte@3.58.0)(typescript@4.9.5)(vite@4.2.1)
   '@rose-pine/palette':
-    specifier: 4.0.1-4
-    version: 4.0.1-4
+    specifier: 4.0.1-5
+    version: 4.0.1-5
   '@tabler/icons-svelte':
     specifier: ^2.14.0
     version: 2.14.0(svelte@3.58.0)
@@ -659,8 +659,8 @@ packages:
       tiny-glob: 0.2.9
       tslib: 2.5.0
 
-  /@rose-pine/palette@4.0.1-4:
-    resolution: {integrity: sha512-7uUn39uNtwH98QUN8cX6+8bPm4YMD9RurRh2Im35F8illRmo81euifI5Ldjaq9AF4kFkqcTEkliUyySwLvX/eg==}
+  /@rose-pine/palette@4.0.1-5:
+    resolution: {integrity: sha512-XtSNSwd0WdO0NvR0bH+gyAwrdqlTT5e+L6iHp8/bXbQJBgm4Zf9kp7RxZ1vaSuw0qq1JHVy7jZeVGmCzc7Rx2g==}
     engines: {node: '>=16'}
     dev: false
 

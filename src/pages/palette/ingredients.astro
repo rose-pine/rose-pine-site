@@ -1,8 +1,12 @@
 ---
+import { variantIds } from "@rose-pine/palette";
 import PaletteLayout from "$layouts/palette.astro";
 import PaletteIngredients from "$components/palette-ingredients.svelte";
+import CycleHashes from "$components/cycle-hashes.svelte";
 ---
 
 <PaletteLayout>
 	<PaletteIngredients client:load />
 </PaletteLayout>
+
+<CycleHashes client:load hashes={variantIds} />

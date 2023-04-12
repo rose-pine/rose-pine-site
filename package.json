@@ -10,7 +10,7 @@
 	},
 	"dependencies": {
 		"@astrojs/svelte": "^2.1.0",
-		"@rose-pine/palette": "4.0.1-4",
+		"@rose-pine/palette": "4.0.1-5",
 		"@tabler/icons-svelte": "^2.14.0",
 		"astro": "^2.2.0",
 		"has-match": "^1.0.4",
