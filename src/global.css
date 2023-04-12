@@ -14,7 +14,7 @@
 	color-scheme: light dark;
 
 	--page-top: 48px;
-	--page-gutter: 24px;
+	--page-gutter: 16px;
 	--banner-height: 40px;
 	--header-height: 72px;
 	--footer-height: 96px;
@@ -39,6 +39,7 @@
 
 @media screen(sm) {
 	:root {
+		--page-gutter: 32px;
 		--footer-height: 72px;
 	}
 }
