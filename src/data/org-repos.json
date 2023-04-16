@@ -1,12 +1,51 @@
 [
 	{
+		"description": "Soho vibes for Discord",
+		"homepageUrl": "",
+		"name": "discord",
+		"repositoryTopics": [
+			"betterdiscord",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"goosemod",
+			"discord",
+			"hacktoberfest"
+		],
+		"stargazerCount": 28,
+		"updatedAt": "2023-03-20T04:23:49Z",
+		"url": "https://github.com/rose-pine/discord",
+		"usesCustomOpenGraphImage": true
+	},
+	{
 		"description": "Color palette tool for Rosé Pine",
 		"homepageUrl": "https://www.npmjs.com/package/@rose-pine/palette",
 		"name": "palette",
 		"repositoryTopics": ["palette", "soho-vibes", "rose-pine", "color", "css"],
-		"stargazerCount": 12,
-		"updatedAt": "2023-03-21T06:51:49Z",
+		"stargazerCount": 13,
+		"updatedAt": "2023-04-13T00:53:08Z",
 		"url": "https://github.com/rose-pine/palette",
+		"usesCustomOpenGraphImage": true
+	},
+	{
+		"description": "Soho vibes for Neovim",
+		"homepageUrl": "",
+		"name": "neovim",
+		"repositoryTopics": [
+			"theme",
+			"neovim",
+			"soho-vibes",
+			"rose-pine",
+			"lua",
+			"vim",
+			"nvim",
+			"neovim-theme",
+			"vim-theme",
+			"editor"
+		],
+		"stargazerCount": 927,
+		"updatedAt": "2023-04-17T19:07:46Z",
+		"url": "https://github.com/rose-pine/neovim",
 		"usesCustomOpenGraphImage": true
 	},
 	{
@@ -31,8 +70,8 @@
 			"editor",
 			"hacktoberfest"
 		],
-		"stargazerCount": 4,
-		"updatedAt": "2023-02-15T17:52:19Z",
+		"stargazerCount": 5,
+		"updatedAt": "2023-04-16T23:28:43Z",
 		"url": "https://github.com/rose-pine/helix",
 		"usesCustomOpenGraphImage": true
 	},
@@ -49,30 +88,9 @@
 			"hacktoberfest",
 			"visual-studio-code"
 		],
-		"stargazerCount": 346,
-		"updatedAt": "2023-04-09T14:55:13Z",
+		"stargazerCount": 347,
+		"updatedAt": "2023-04-12T13:25:41Z",
 		"url": "https://github.com/rose-pine/vscode",
-		"usesCustomOpenGraphImage": true
-	},
-	{
-		"description": "Soho vibes for Neovim",
-		"homepageUrl": "",
-		"name": "neovim",
-		"repositoryTopics": [
-			"theme",
-			"neovim",
-			"soho-vibes",
-			"rose-pine",
-			"lua",
-			"vim",
-			"nvim",
-			"neovim-theme",
-			"vim-theme",
-			"editor"
-		],
-		"stargazerCount": 903,
-		"updatedAt": "2023-04-11T17:34:02Z",
-		"url": "https://github.com/rose-pine/neovim",
 		"usesCustomOpenGraphImage": true
 	},
 	{
@@ -106,8 +124,8 @@
 			"rose-pine",
 			"terminal"
 		],
-		"stargazerCount": 31,
-		"updatedAt": "2023-04-09T21:03:01Z",
+		"stargazerCount": 32,
+		"updatedAt": "2023-04-12T18:31:05Z",
 		"url": "https://github.com/rose-pine/kitty",
 		"usesCustomOpenGraphImage": true
 	},
@@ -134,8 +152,8 @@
 			"soho-vibes",
 			"rose-pine"
 		],
-		"stargazerCount": 21,
-		"updatedAt": "2023-04-07T17:31:12Z",
+		"stargazerCount": 23,
+		"updatedAt": "2023-04-16T03:55:09Z",
 		"url": "https://github.com/rose-pine/google-chrome",
 		"usesCustomOpenGraphImage": true
 	},
@@ -174,8 +192,8 @@
 		"homepageUrl": "",
 		"name": "zellij",
 		"repositoryTopics": ["soho-vibes", "rose-pine", "theme"],
-		"stargazerCount": 3,
-		"updatedAt": "2023-04-10T20:51:49Z",
+		"stargazerCount": 4,
+		"updatedAt": "2023-04-16T23:37:23Z",
 		"url": "https://github.com/rose-pine/zellij",
 		"usesCustomOpenGraphImage": true
 	},
@@ -298,8 +316,8 @@
 			"rose-pine",
 			"terminal"
 		],
-		"stargazerCount": 8,
-		"updatedAt": "2023-04-09T21:03:45Z",
+		"stargazerCount": 7,
+		"updatedAt": "2023-04-16T19:51:19Z",
 		"url": "https://github.com/rose-pine/xfce-terminal",
 		"usesCustomOpenGraphImage": true
 	},
@@ -340,8 +358,8 @@
 			"palette",
 			"aesthetic"
 		],
-		"stargazerCount": 831,
-		"updatedAt": "2023-04-11T18:39:19Z",
+		"stargazerCount": 837,
+		"updatedAt": "2023-04-15T09:26:24Z",
 		"url": "https://github.com/rose-pine/rose-pine-theme",
 		"usesCustomOpenGraphImage": true
 	},
@@ -371,7 +389,7 @@
 		"name": "gtk",
 		"repositoryTopics": ["gtk", "soho-vibes", "theme", "rose-pine"],
 		"stargazerCount": 124,
-		"updatedAt": "2023-04-11T09:49:49Z",
+		"updatedAt": "2023-04-13T15:19:46Z",
 		"url": "https://github.com/rose-pine/gtk",
 		"usesCustomOpenGraphImage": true
 	},
@@ -496,8 +514,8 @@
 		"homepageUrl": "",
 		"name": "daisyui",
 		"repositoryTopics": ["theme"],
-		"stargazerCount": 2,
-		"updatedAt": "2022-12-27T19:38:12Z",
+		"stargazerCount": 3,
+		"updatedAt": "2023-04-16T23:28:05Z",
 		"url": "https://github.com/rose-pine/daisyui",
 		"usesCustomOpenGraphImage": false
 	},
@@ -517,24 +535,6 @@
 		"stargazerCount": 26,
 		"updatedAt": "2023-04-10T13:31:24Z",
 		"url": "https://github.com/rose-pine/firefox",
-		"usesCustomOpenGraphImage": true
-	},
-	{
-		"description": "Soho vibes for Discord",
-		"homepageUrl": "",
-		"name": "discord",
-		"repositoryTopics": [
-			"betterdiscord",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"goosemod",
-			"discord",
-			"hacktoberfest"
-		],
-		"stargazerCount": 28,
-		"updatedAt": "2023-03-20T04:23:49Z",
-		"url": "https://github.com/rose-pine/discord",
 		"usesCustomOpenGraphImage": true
 	},
 	{
@@ -564,8 +564,8 @@
 			"rose-pine",
 			"terminal"
 		],
-		"stargazerCount": 45,
-		"updatedAt": "2023-04-10T22:19:35Z",
+		"stargazerCount": 46,
+		"updatedAt": "2023-04-16T23:27:12Z",
 		"url": "https://github.com/rose-pine/alacritty",
 		"usesCustomOpenGraphImage": true
 	},
@@ -580,8 +580,8 @@
 			"rose-pine",
 			"terminal"
 		],
-		"stargazerCount": 6,
-		"updatedAt": "2023-04-09T21:02:53Z",
+		"stargazerCount": 7,
+		"updatedAt": "2023-04-13T12:07:06Z",
 		"url": "https://github.com/rose-pine/konsole",
 		"usesCustomOpenGraphImage": true
 	},
@@ -606,8 +606,8 @@
 		"homepageUrl": "",
 		"name": "pleroma",
 		"repositoryTopics": ["theme"],
-		"stargazerCount": 1,
-		"updatedAt": "2022-12-27T19:38:20Z",
+		"stargazerCount": 2,
+		"updatedAt": "2023-04-13T12:36:37Z",
 		"url": "https://github.com/rose-pine/pleroma",
 		"usesCustomOpenGraphImage": false
 	},
@@ -652,8 +652,8 @@
 		"homepageUrl": "",
 		"name": "whoogle",
 		"repositoryTopics": ["theme"],
-		"stargazerCount": 5,
-		"updatedAt": "2023-03-28T08:36:18Z",
+		"stargazerCount": 6,
+		"updatedAt": "2023-04-13T21:30:54Z",
 		"url": "https://github.com/rose-pine/whoogle",
 		"usesCustomOpenGraphImage": true
 	},
@@ -662,8 +662,8 @@
 		"homepageUrl": "",
 		"name": "amfora",
 		"repositoryTopics": ["theme", "amfora", "soho-vibes", "rose-pine", "cli"],
-		"stargazerCount": 4,
-		"updatedAt": "2023-04-04T00:18:49Z",
+		"stargazerCount": 5,
+		"updatedAt": "2023-04-16T23:27:30Z",
 		"url": "https://github.com/rose-pine/amfora",
 		"usesCustomOpenGraphImage": true
 	},
@@ -746,8 +746,8 @@
 			"css",
 			"hacktoberfest"
 		],
-		"stargazerCount": 8,
-		"updatedAt": "2023-03-29T23:44:25Z",
+		"stargazerCount": 9,
+		"updatedAt": "2023-04-11T20:30:38Z",
 		"url": "https://github.com/rose-pine/slack",
 		"usesCustomOpenGraphImage": true
 	},
@@ -766,8 +766,8 @@
 		"homepageUrl": "https://voring.me",
 		"name": "mastodon",
 		"repositoryTopics": ["theme", "mastodon", "soho-vibes", "rose-pine", "css"],
-		"stargazerCount": 1,
-		"updatedAt": "2022-06-27T10:52:22Z",
+		"stargazerCount": 2,
+		"updatedAt": "2023-04-15T18:43:31Z",
 		"url": "https://github.com/rose-pine/mastodon",
 		"usesCustomOpenGraphImage": true
 	},
@@ -782,8 +782,8 @@
 			"rose-pine",
 			"terminal"
 		],
-		"stargazerCount": 17,
-		"updatedAt": "2023-03-24T16:03:48Z",
+		"stargazerCount": 18,
+		"updatedAt": "2023-04-15T18:07:02Z",
 		"url": "https://github.com/rose-pine/windows-terminal",
 		"usesCustomOpenGraphImage": true
 	},
@@ -814,8 +814,8 @@
 			"rose-pine",
 			"terminal"
 		],
-		"stargazerCount": 44,
-		"updatedAt": "2023-04-09T21:02:42Z",
+		"stargazerCount": 45,
+		"updatedAt": "2023-04-14T19:59:33Z",
 		"url": "https://github.com/rose-pine/iterm",
 		"usesCustomOpenGraphImage": true
 	},
