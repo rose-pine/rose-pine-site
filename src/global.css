@@ -35,6 +35,18 @@
 	--color-pine: 197deg 53% 34%;
 	--color-foam: 189deg 30% 48%;
 	--color-iris: 268deg 21% 57%;
+
+	--astro-code-color-text: hsl(var(--color-text));
+	--astro-code-color-background: hsl(var(--color-surface));
+	--astro-code-token-constant: hsl(var(--color-gold));
+	--astro-code-token-string: hsl(var(--color-gold));
+	--astro-code-token-comment: hsl(var(--color-subtle));
+	--astro-code-token-keyword: hsl(var(--color-foam));
+	--astro-code-token-parameter: hsl(var(--color-iris));
+	--astro-code-token-function: hsl(var(--color-rose));
+	--astro-code-token-string-expression: hsl(var(--color-pine));
+	--astro-code-token-punctuation: hsl(var(--color-muted));
+	--astro-code-token-link: hsl(var(--color-iris));
 }
 
 @media screen(sm) {
@@ -124,6 +136,54 @@ body {
 		transition-duration: 0s !important;
 		transition-delay: 0s !important;
 	}
+}
+
+/* Global article styles, intended for markdown pages */
+article {
+	@apply max-w-prose;
+}
+article > *:not(:first-child) {
+	@apply mt-7;
+}
+article h2 {
+	@apply text-lg font-semibold tracking-tight;
+}
+article h3 {
+	@apply font-semibold tracking-tight;
+}
+article h2:not(:first-child),
+article h3,
+article h4,
+article h5 {
+	@apply mt-14;
+}
+article a {
+	@apply text-iris;
+}
+article a:hover {
+	@apply underline;
+}
+article blockquote {
+	@apply border-l-2 pl-3 text-subtle;
+}
+article ul,
+article ol {
+	@apply pl-6 leading-loose;
+}
+article ul {
+	@apply list-disc;
+}
+article ol {
+	@apply list-decimal;
+}
+article li > pre {
+	@apply mb-1.5;
+}
+article pre {
+	@apply rounded-xl p-4;
+}
+article code {
+	@apply rounded bg-surface p-1 font-mono text-sm font-medium;
 }
 
 /* TODO: Is there a way to easily generate these via tailwind customisation

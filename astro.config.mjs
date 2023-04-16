@@ -2,6 +2,11 @@ import { defineConfig } from "astro/config";
 import svelte from "@astrojs/svelte";
 
 export default defineConfig({
+	markdown: {
+		shikiConfig: {
+			theme: "css-variables",
+		},
+	},
 	integrations: [
 		svelte({
 			onwarn: (warning, handler) => {

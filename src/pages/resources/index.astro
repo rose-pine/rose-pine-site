@@ -1,0 +1,87 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "$layouts/base.astro";
+import PageIntro from "$components/page-intro.svelte";
+import Card from "$components/card.svelte";
+import { tools } from "$data/tools";
+
+const currentLang = "en";
+
+const guidesEntries = await getCollection("guides", ({ id }) => {
+	return id.startsWith(`${currentLang}/`);
+});
+---
+
+<Layout title="Resources" description="A light toolbox for contributors.">
+	<PageIntro heading="Resources" subheading="A light toolbox for contributors.">
+		<a
+			href="https://discord.gg/r6wf35KVJW"
+			class="animate-enter inline-flex h-12 items-center rounded-full bg-muted/10 px-6 font-medium transition hover:bg-muted/20 focus:outline-none focus:ring"
+			style="--stagger: 2">Get help on our Discord&nbsp;&nearr;</a
+		>
+	</PageIntro>
+
+	<div class="h-20"></div>
+
+	<section class="animate-enter" style="--stagger: 2">
+		<h2 class="text-lg font-semibold tracking-tight">Guides</h2>
+
+		<div class="h-6"></div>
+
+		<ul class="grid grid-cols-2 gap-6 md:grid-cols-3">
+			{
+				guidesEntries
+					.sort((a, b) => b.data.priority - a.data.priority)
+					.map((guide) => (
+						<li>
+							<Card href={`/resources/${guide.slug.substring(3)}`}>
+								<p class="font-semibold">{guide.data.title}</p>
+
+								<div class="h-1.5" />
+
+								<p>{guide.data.description}</p>
+
+								<div class="flex-1" />
+
+								<div class="flex pt-1.5">
+									<p class="font-medium text-iris hover:underline">
+										Read more&nbsp;&rarr;
+									</p>
+								</div>
+							</Card>
+						</li>
+					))
+			}
+		</ul>
+
+		<div class="h-20"></div>
+
+		<h2 class="text-lg font-bold tracking-tight">Tools</h2>
+
+		<div class="h-6"></div>
+
+		<ul class="grid grid-cols-2 gap-6 md:grid-cols-3">
+			{
+				tools.map(({ name, description, href }) => (
+					<li>
+						<Card href={href}>
+							<p class="font-bold">{name}</p>
+
+							<div class="h-1.5" />
+
+							<p>{description}</p>
+
+							<div class="flex-1" />
+
+							<div class="flex pt-1.5">
+								<p class="font-medium text-iris hover:underline">
+									Repository&nbsp;&nearr;
+								</p>
+							</div>
+						</Card>
+					</li>
+				))
+			}
+		</ul>
+	</section>
+</Layout>

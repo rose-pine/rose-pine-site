@@ -1,0 +1,72 @@
+---
+import { getCollection, type CollectionEntry } from "astro:content";
+import Layout from "$layouts/base.astro";
+import PageIntro from "$components/page-intro.svelte";
+import { tools } from "$data/tools";
+
+export async function getStaticPaths() {
+	const guidesEntries = await getCollection("guides");
+	return guidesEntries.map((entry) => ({
+		params: { slug: entry.slug.substring(3) },
+		props: { entry, guidesEntries },
+	}));
+}
+
+export type Props = {
+	entry: CollectionEntry<"guides">;
+	guidesEntries: CollectionEntry<"guides">[];
+};
+
+const { entry, guidesEntries } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<Layout title={entry.data.title} description={entry.data.description}>
+	<div class="grid grid-cols-1 gap-20 lg:grid-cols-[auto,1fr]">
+		<div>
+			<PageIntro
+				heading={entry.data.title}
+				subheading={entry.data.description}
+			/>
+
+			<ul class="animate-enter mt-10 hidden md:block" style="--stagger: 2">
+				<li
+					class="tracking-loose text-xs font-medium uppercase leading-loose text-subtle"
+				>
+					Resources
+				</li>
+				{
+					guidesEntries
+						.sort((a, b) => b.data.priority - a.data.priority)
+						.map((guide) => (
+							<li>
+								<a
+									href={`/resources/${guide.slug.substring(3)}`}
+									class="font-medium leading-loose text-iris transition hover:underline focus:outline-none focus:ring"
+								>
+									{guide.data.title}
+								</a>
+							</li>
+						))
+				}
+				<hr class="my-3" />
+				{
+					tools.map(({ name, href }) => (
+						<li>
+							<a
+								href={href}
+								class="font-medium leading-loose text-iris transition hover:underline focus:outline-none focus:ring"
+							>
+								{name}&nbsp;&nearr;
+							</a>
+						</li>
+					))
+				}
+			</ul>
+		</div>
+
+		<article class="animate-enter" style="--stagger: 2">
+			<Content />
+		</article>
+	</div>
+</Layout>
