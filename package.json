@@ -10,15 +10,15 @@
 	},
 	"dependencies": {
 		"@astrojs/svelte": "^2.1.0",
-		"@rose-pine/palette": "4.0.1-5",
-		"@tabler/icons-svelte": "^2.14.0",
-		"astro": "^2.2.0",
+		"@rose-pine/palette": "4.0.1",
+		"@tabler/icons-svelte": "^2.16.0",
+		"astro": "^2.3.0",
 		"has-match": "^1.0.4",
 		"svelte": "^3.58.0"
 	},
 	"devDependencies": {
 		"autoprefixer": "^10.4.14",
-		"postcss": "^8.4.21",
+		"postcss": "^8.4.22",
 		"prettier": "^2.8.7",
 		"prettier-plugin-astro": "^0.8.0",
 		"prettier-plugin-svelte": "^2.10.0",
