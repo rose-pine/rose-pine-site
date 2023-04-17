@@ -3,14 +3,14 @@
 </script>
 
 <aside
-	class="flex h-banner-height items-center overflow-x-auto whitespace-nowrap bg-love/10 px-3 text-center text-love"
+	class="flex h-banner-height items-center overflow-x-auto whitespace-nowrap bg-love/5 px-3 text-center text-love"
 >
 	<div class="flex-1" />
 
 	{#each links as [name, href], index}
 		<a
 			{href}
-			class="text-sm font-medium transition hover:underline focus:outline-none focus:ring"
+			class="text-sm font-[550] transition hover:underline focus:outline-none focus:ring"
 		>
 			{name}
 		</a>
