@@ -12,7 +12,9 @@ export type Props = {
 
 const { title, description } = Astro.props;
 
-pathname.set(Astro.url.pathname);
+// Remove trailing slash if present
+// https://github.com/withastro/astro/issues/5630
+pathname.set(Astro.url.pathname.replace(/(\/.*?)\/$/, "$1"));
 ---
 
 <html lang="en">

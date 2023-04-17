@@ -24,10 +24,14 @@ const menu = [
 					<li>
 						<a
 							href={href}
-							aria-current={Astro.url.pathname === href ? "page" : undefined}
+							aria-current={
+								Astro.url.pathname.replace(/(\/.*?)\/$/, "$1") === href
+									? "page"
+									: undefined
+							}
 							class:list={[
 								{ ["border-r"]: index < menu.length - 1 },
-								"flex bg-muted/10 px-4 py-2 text-sm font-medium text-subtle transition hover:text-text focus:outline-none focus:ring focus:ring-inset",
+								"flex bg-muted/10 px-4 py-2 text-sm font-medium text-subtle transition hover:text-text focus:outline-none focus:ring focus:ring-inset aria-[current=page]:bg-surface aria-[current=page]:text-text aria-[current=page]:hover:bg-surface",
 							]}
 						>
 							{name}
@@ -44,12 +48,3 @@ const menu = [
 		<slot />
 	</section>
 </Layout>
-
-<style>
-	[aria-current="page"] {
-		@apply bg-surface text-text;
-	}
-	[aria-current="page"]:hover {
-		@apply bg-surface;
-	}
-</style>
