@@ -63,7 +63,7 @@ const roleDetails = {
 			"Deleted Git files",
 			"Terminal red, bright red",
 		],
-		tags: ["built-ins"],
+		tags: ["builtins"],
 	},
 	gold: {
 		description: "Lemon tea on a summer morning",
@@ -77,12 +77,12 @@ const roleDetails = {
 			"Modified Git files",
 			"Terminal cyan, bright cyan",
 		],
-		tags: ["booleans"],
+		tags: ["booleans", "functions"],
 	},
 	pine: {
 		description: "Fresh winter greenery",
 		scenarios: ["Renamed Git files", "Terminal green, bright green"],
-		tags: ["functions"],
+		tags: ["conditionals", "keywords"],
 	},
 	foam: {
 		description: "Saltwater tidepools",
@@ -91,7 +91,7 @@ const roleDetails = {
 			"Git additions",
 			"Terminal blue, bright blue",
 		],
-		tags: ["keys", "tags"],
+		tags: ["keys", "tags", "types"],
 	},
 	iris: {
 		description: "Smells of groundedness",
@@ -101,7 +101,7 @@ const roleDetails = {
 			"Merged and staged Git modifications",
 			"Terminal magenta, bright magenta",
 		],
-		tags: ["parameters"],
+		tags: ["methods", "parameters"],
 	},
 	highlightLow: {
 		description: "Low contrast highlight",
