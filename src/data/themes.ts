@@ -45,7 +45,7 @@ const themes = [
 				: repo.name,
 			icon: getIcon(repo.repositoryTopics),
 			url: repo.url,
-			tags: repo.repositoryTopics,
+			tags: [repo.stargazerCount > 40 && "featured", ...repo.repositoryTopics],
 			has_variants: true,
 			featured: repo.stargazerCount > 40,
 		})),
@@ -57,12 +57,25 @@ const themes = [
 			name: repo.name,
 			icon: getIcon(repo.tags),
 			url: repo.url,
-			tags: repo.tags,
+			tags: [repo.featured && "featured", ...repo.tags],
 			has_variants: repo.has_variants,
 			featured: repo.featured,
 		};
 	}),
 ].sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
+
+// TODO: Clean up generated tags and use those instead
+const tags = [
+	"app",
+	"CLI",
+	"editor",
+	"mobile",
+	"music",
+	"palette",
+	"shell",
+	"terminal",
+	"terminal-emulator",
+];
 
 function getIcon(tags: string[]) {
 	// Order determines priority when multiple tags are matched
@@ -98,4 +111,4 @@ function getIcon(tags: string[]) {
 	return IconPackage;
 }
 
-export { themes, authors, orgRepos, orgMembers };
+export { themes, authors, tags, orgRepos, orgMembers };
