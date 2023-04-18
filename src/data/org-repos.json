@@ -1,5 +1,26 @@
 [
 	{
+		"description": "Soho vibes for Neovim",
+		"homepageUrl": "",
+		"name": "neovim",
+		"repositoryTopics": [
+			"theme",
+			"neovim",
+			"soho-vibes",
+			"rose-pine",
+			"lua",
+			"vim",
+			"nvim",
+			"neovim-theme",
+			"vim-theme",
+			"editor"
+		],
+		"stargazerCount": 930,
+		"updatedAt": "2023-04-18T17:24:31Z",
+		"url": "https://github.com/rose-pine/neovim",
+		"usesCustomOpenGraphImage": true
+	},
+	{
 		"description": "Soho vibes for Discord",
 		"homepageUrl": "",
 		"name": "discord",
@@ -25,27 +46,6 @@
 		"stargazerCount": 13,
 		"updatedAt": "2023-04-13T00:53:08Z",
 		"url": "https://github.com/rose-pine/palette",
-		"usesCustomOpenGraphImage": true
-	},
-	{
-		"description": "Soho vibes for Neovim",
-		"homepageUrl": "",
-		"name": "neovim",
-		"repositoryTopics": [
-			"theme",
-			"neovim",
-			"soho-vibes",
-			"rose-pine",
-			"lua",
-			"vim",
-			"nvim",
-			"neovim-theme",
-			"vim-theme",
-			"editor"
-		],
-		"stargazerCount": 927,
-		"updatedAt": "2023-04-17T19:07:46Z",
-		"url": "https://github.com/rose-pine/neovim",
 		"usesCustomOpenGraphImage": true
 	},
 	{
@@ -358,8 +358,8 @@
 			"palette",
 			"aesthetic"
 		],
-		"stargazerCount": 837,
-		"updatedAt": "2023-04-15T09:26:24Z",
+		"stargazerCount": 838,
+		"updatedAt": "2023-04-18T03:01:40Z",
 		"url": "https://github.com/rose-pine/rose-pine-theme",
 		"usesCustomOpenGraphImage": true
 	},
@@ -564,8 +564,8 @@
 			"rose-pine",
 			"terminal"
 		],
-		"stargazerCount": 46,
-		"updatedAt": "2023-04-16T23:27:12Z",
+		"stargazerCount": 47,
+		"updatedAt": "2023-04-18T17:58:40Z",
 		"url": "https://github.com/rose-pine/alacritty",
 		"usesCustomOpenGraphImage": true
 	},
@@ -606,8 +606,8 @@
 		"homepageUrl": "",
 		"name": "pleroma",
 		"repositoryTopics": ["theme"],
-		"stargazerCount": 2,
-		"updatedAt": "2023-04-13T12:36:37Z",
+		"stargazerCount": 3,
+		"updatedAt": "2023-04-18T03:00:47Z",
 		"url": "https://github.com/rose-pine/pleroma",
 		"usesCustomOpenGraphImage": false
 	},
