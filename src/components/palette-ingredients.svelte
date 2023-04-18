@@ -6,7 +6,7 @@
 		roleKeys,
 		colorFormats,
 	} from "@rose-pine/palette";
-	import { IconParentheses, IconParenthesesOff } from "@tabler/icons-svelte";
+	import { IconParentheses, IconParenthesesOff } from "$components/icons";
 	import Card from "$components/card.svelte";
 	import Checkbox from "$components/checkbox.svelte";
 	import { formatColor } from "$data/palette";

@@ -7,9 +7,6 @@ dependencies:
   '@rose-pine/palette':
     specifier: 4.0.1
     version: 4.0.1
-  '@tabler/icons-svelte':
-    specifier: ^2.16.0
-    version: 2.16.0(svelte@3.58.0)
   astro:
     specifier: ^2.3.0
     version: 2.3.0
@@ -675,19 +672,6 @@ packages:
       vitefu: 0.2.4(vite@4.2.1)
     transitivePeerDependencies:
       - supports-color
-    dev: false
-
-  /@tabler/icons-svelte@2.16.0(svelte@3.58.0):
-    resolution: {integrity: sha512-gOhGl8c53ao7Y7ZsjRNCRMogTVlzGf8B7qkzX+52CVeGCYBR1wIu2cDIz9Nq51lVTmZBzr5Ogr5Bv89H2a7heg==}
-    peerDependencies:
-      svelte: ^3.49.0
-    dependencies:
-      '@tabler/icons': 2.16.0
-      svelte: 3.58.0
-    dev: false
-
-  /@tabler/icons@2.16.0:
-    resolution: {integrity: sha512-1kaPH5APIWGtXe0W0eQ9g4MdfaQJ2gh95TAa94lNAqRR0JeC3fkD0yXGCcUiNK4GnGDv3UtPSCd3dbdKTe1b2A==}
     dev: false
 
   /@types/babel__core@7.20.0:

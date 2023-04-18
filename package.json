@@ -11,7 +11,6 @@
 	"dependencies": {
 		"@astrojs/svelte": "^2.1.0",
 		"@rose-pine/palette": "4.0.1",
-		"@tabler/icons-svelte": "^2.16.0",
 		"astro": "^2.3.0",
 		"has-match": "^1.0.4",
 		"svelte": "^3.58.0"

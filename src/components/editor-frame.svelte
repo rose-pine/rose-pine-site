@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { IconGitBranch } from "@tabler/icons-svelte";
+	import { IconGitBranch } from "$components/icons";
 </script>
 
 <div

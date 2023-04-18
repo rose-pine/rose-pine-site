@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { IconSearch } from "@tabler/icons-svelte";
+	import { IconSearch } from "$components/icons";
 	import Key from "$components/key.svelte";
 	import { queryTheme } from "$store";
 

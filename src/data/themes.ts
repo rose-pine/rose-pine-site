@@ -23,7 +23,7 @@ import {
 	IconWallpaper,
 	IconWorld,
 	IconWorldSearch,
-} from "@tabler/icons-svelte";
+} from "$components/icons";
 import orgRepos from "./org-repos.json";
 import orgMembers from "./org-members.json";
 import communityRepos from "./community-repos.json";
