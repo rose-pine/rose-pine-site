@@ -64,7 +64,7 @@
 	<ul
 		id="language-dropdown"
 		role="list"
-		class="invisible absolute -right-[4px] top-[calc(100%-4px)] z-20 w-40 origin-top-right scale-[.97] rounded-md bg-surface px-3 py-1.5 opacity-0 shadow-lg transition-all group-focus-within:visible group-focus-within:scale-100 group-focus-within:opacity-100 group-hover:visible group-hover:scale-100 group-hover:opacity-100"
+		class="invisible absolute -right-[4px] top-[calc(100%-4px)] z-20 w-40 origin-top-right scale-[.97] rounded-md bg-surface px-3 py-1.5 opacity-0 shadow-lg transition group-focus-within:visible group-focus-within:scale-100 group-focus-within:opacity-100 group-hover:visible group-hover:scale-100 group-hover:opacity-100"
 	>
 		{#each supportedLanguages as supportedLanguage}
 			{@const nativeName = ISO6991.getNativeName(supportedLanguage)}
