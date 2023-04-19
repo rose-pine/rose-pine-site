@@ -3,7 +3,10 @@
 	import { queryTheme } from "$store";
 </script>
 
-<ul role="list" class="flex flex-wrap items-center gap-3 [&>*]:shrink-0">
+<ul
+	role="list"
+	class="flex flex-wrap items-center justify-center gap-3 md:justify-start [&>*]:shrink-0"
+>
 	<li
 		aria-current={$queryTheme.toLowerCase() === "featured" ? "true" : "false"}
 	>
