@@ -763,6 +763,18 @@
 		"has_variants": true
 	},
 	{
+		"name": "Twitter",
+		"repo": "https://github.com/apriltaoyvr/twitter-rose-pine",
+		"tags": ["web-ui", "social"],
+		"authors": [
+			{
+				"name": "April T",
+				"url": "https://github.com/apriltaoyvr"
+			}
+		],
+		"has_variants": true
+	},
+	{
 		"name": "Typora",
 		"repo": "https://github.com/rose-pine/typora",
 		"tags": ["app", "productivity"],
