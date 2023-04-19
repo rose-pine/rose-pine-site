@@ -766,12 +766,7 @@
 		"name": "Twitter",
 		"repo": "https://github.com/apriltaoyvr/twitter-rose-pine",
 		"tags": ["web-ui", "social"],
-		"authors": [
-			{
-				"name": "April T",
-				"url": "https://github.com/apriltaoyvr"
-			}
-		],
+		"authors": [{ "name": "April T", "url": "https://github.com/apriltaoyvr" }],
 		"has_variants": true
 	},
 	{
