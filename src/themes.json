@@ -771,7 +771,8 @@
 				"name": "April T",
 				"url": "https://github.com/apriltaoyvr"
 			}
-		]
+		],
+		"has_variants": true
 	},
 	{
 		"name": "Typora",
