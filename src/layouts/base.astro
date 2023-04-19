@@ -1,4 +1,5 @@
 ---
+import { HeadHrefLangs } from "astro-i18next/components";
 import Banner from "$components/banner.svelte";
 import Header from "$components/header.svelte";
 import Footer from "$components/footer.svelte";
@@ -25,6 +26,8 @@ pathname.set(Astro.url.pathname.replace(/(\/.*?)\/$/, "$1"));
 		<meta name="description" content={description} />
 		<meta property="og:image" content="/assets/opengraph-image.jpg" />
 		<title>{title}</title>
+
+		<HeadHrefLangs />
 	</head>
 
 	<body>

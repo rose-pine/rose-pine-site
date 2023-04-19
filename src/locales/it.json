@@ -1,0 +1,55 @@
+{
+	"navigation": {
+		"themes": "Temi",
+		"palette": "Tavolozza",
+		"resources": "Risorse",
+		"languages": "Lingue"
+	},
+	"home": {
+		"title": "Qualcosa di bello",
+		"description": "Pino tutto naturale, pelliccia sintetica e un po' di vibrazioni soho per il minimalista di classe.",
+		"discover_button": "Scopri",
+		"feature_card_1": {
+			"title": "Estetica sottile",
+			"description": "Dai ai tuoi occhi una meritata pausa con la nostra palette morbida e confortevole.",
+			"link": "La nostra tavolozza"
+		},
+		"feature_card_2": {
+			"title": "Stati d'animo adattivi",
+			"description": "Goditi le varianti su misura per ogni ora della tua giornata.",
+			"link": "Sfoglia i temi"
+		},
+		"feature_card_3": {
+			"title": "Guidato dalla comunità",
+			"description": "Hai contribuito a portare Rosé Pine su oltre {{numberOfPorts}} delle tue app preferite.",
+			"link": "Metitti in gioco"
+		}
+	},
+	"themes": {
+		"title": "Temi",
+		"description": "Collezione artigianale di personalizzazione.",
+		"tagline": "{{numberOfPorts}} porti & {{numberOfAuthors}} autori",
+		"search_label": "Cerca temi..."
+	},
+	"palette": {
+		"title": "Tavolozza",
+		"description": "Colori curati, creazioni infinite.",
+		"tagline": "{{numberOfVariants}} varianti & {{numberOfColors}} colori",
+		"tabs": {
+			"swatches": "Campioni",
+			"ingredients": "Ingredienti"
+		}
+	},
+	"ingredients": {
+		"title": "Ingredienti",
+		"description": "Valori di colore formattati."
+	},
+	"resources": {
+		"title": "Risorse",
+		"description": "Una piccola cassetta degli attrezzi per i contributori.",
+		"help_link": "Ottieni assistenza sul nostro Discord"
+	},
+	"shared": {
+		"read_more": "Leggi di più"
+	}
+}

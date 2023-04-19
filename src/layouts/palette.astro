@@ -1,18 +1,30 @@
 ---
+import { t } from "i18next";
+import { localizePath } from "astro-i18next";
 import Layout from "$layouts/base.astro";
 import PageIntro from "$components/page-intro.svelte";
 
 const menu = [
-	["Swatches", "/palette"],
-	["Ingredients", "/palette/ingredients"],
+	[t("palette.tabs.swatches"), "/palette"],
+	[t("palette.tabs.ingredients"), "/palette/ingredients"],
 ];
+
+export type Props = {
+	metaTitle: string;
+	metaDescription: string;
+};
+
+const { metaTitle, metaDescription } = Astro.props;
 ---
 
-<Layout title="Palette" description="Curated colours, endless creations.">
+<Layout title={metaTitle} description={metaDescription}>
 	<PageIntro
-		heading="Palette"
-		subheading="Curated colours, endless creations."
-		tagline="3 variants & 15 colours"
+		heading={t("palette.title")}
+		subheading={t("palette.description")}
+		tagline={t("palette.tagline", {
+			numberOfVariants: 3,
+			numberOfColors: 15,
+		})}
 		animate={false}
 	>
 		<ul
@@ -23,9 +35,10 @@ const menu = [
 				menu.map(([name, href], index) => (
 					<li>
 						<a
-							href={href}
+							href={localizePath(href)}
 							aria-current={
-								Astro.url.pathname.replace(/(\/.*?)\/$/, "$1") === href
+								Astro.url.pathname.replace(/(\/.*?)\/$/, "$1") ===
+								localizePath(href)
 									? "page"
 									: undefined
 							}

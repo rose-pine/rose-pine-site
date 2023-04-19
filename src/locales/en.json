@@ -1,0 +1,56 @@
+{
+	"navigation": {
+		"themes": "Themes",
+		"palette": "Palette",
+		"resources": "Resources",
+		"languages": "Languages"
+	},
+	"home": {
+		"title": "Something beautiful",
+		"description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist.",
+		"discover_button": "Discover",
+		"feature_card_1": {
+			"title": "Subtle aesthetics",
+			"description": "Give your eyes a well-deserved break with our soft, comfy palette.",
+			"link": "Our palette"
+		},
+		"feature_card_2": {
+			"title": "Adaptive moods",
+			"description": "Enjoy variants tailored for every hour of your day.",
+			"link": "Browse themes"
+		},
+		"feature_card_3": {
+			"title": "Community-driven",
+			"description": "You helped bring Rosé Pine to over {{numberOfPorts}} of your favourite apps.",
+			"link": "Get involved"
+		}
+	},
+	"themes": {
+		"title": "Themes",
+		"description": "Hand-crafted collection of personalisation.",
+		"tagline": "{{numberOfPorts}} ports & {{numberOfAuthors}} authors",
+		"search_label": "Search themes..."
+	},
+	"palette": {
+		"title": "Palette",
+		"description": "Curated colours, endless creations.",
+		"tagline": "{{numberOfVariants}} variants & {{numberOfColors}} colours",
+		"tabs": {
+			"swatches": "Swatches",
+			"ingredients": "Ingredients"
+		}
+	},
+	"ingredients": {
+		"title": "Ingredients",
+		"description": "Formatted colour values."
+	},
+	"resources": {
+		"title": "Resources",
+		"description": "A light toolbox for contributors.",
+		"help_link": "Get help on our Discord"
+	},
+	"shared": {
+		"read_more": "Read more",
+		"repository": "Repository"
+	}
+}

@@ -1,4 +1,5 @@
 import { defineConfig } from "astro/config";
+import astroI18next from "astro-i18next";
 import svelte from "@astrojs/svelte";
 
 export default defineConfig({
@@ -9,6 +10,7 @@ export default defineConfig({
 		},
 	},
 	integrations: [
+		astroI18next(),
 		svelte({
 			onwarn: (warning, handler) => {
 				// Improve VoiceOver announcements with `role="list"` on lists

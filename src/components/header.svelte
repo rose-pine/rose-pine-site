@@ -1,14 +1,17 @@
 <script lang="ts">
+	import { t } from "i18next";
+	import { localizePath } from "astro-i18next";
+	import LanguageSelect from "$components/language-select.svelte";
 	import { pathname } from "$store";
 
 	function isCurrentPage(url: string) {
-		return $pathname === url;
+		return $pathname === localizePath(url);
 	}
 
 	const menu = [
-		["Themes", "/themes"],
-		["Palette", "/palette"],
-		["Resources", "/resources"],
+		[t("navigation.themes"), "/themes"],
+		[t("navigation.palette"), "/palette"],
+		[t("navigation.resources"), "/resources"],
 	];
 </script>
 
@@ -17,7 +20,7 @@
 		class="flex w-full max-w-content items-center justify-between space-x-2.5"
 	>
 		<a
-			href={isCurrentPage("/") ? "#" : "/"}
+			href={isCurrentPage("/") ? "#" : localizePath("/")}
 			aria-current={isCurrentPage("/") ? "page" : undefined}
 			class="-ml-2.5 flex shrink-0 items-center space-x-3 rounded-md px-2.5 py-1.5 transition focus:outline-none focus:ring"
 		>
@@ -43,11 +46,11 @@
 		</a>
 
 		<nav aria-label="Main">
-			<ul role="list" class="flex items-center">
+			<ul role="list" class="flex items-center gap-3">
 				{#each menu as [name, href], index}
 					<li>
 						<a
-							{href}
+							href={localizePath(href)}
 							aria-current={isCurrentPage(href) ? "page" : undefined}
 							class="rounded-md px-2.5 py-1.5 text-[15px] font-semibold transition hover:bg-muted/10 focus:outline-none focus:ring focus:ring-inset"
 						>
@@ -55,6 +58,10 @@
 						</a>
 					</li>
 				{/each}
+
+				<li class="h-6 border-r" aria-hidden="true" />
+
+				<li><LanguageSelect /></li>
 			</ul>
 		</nav>
 	</div>
