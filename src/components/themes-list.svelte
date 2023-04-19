@@ -12,7 +12,7 @@
 <ul class="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5">
 	{#each filteredThemes as theme}
 		<li>
-			<Card href={theme.url}>
+			<Card href={theme.url} linkText="Repository">
 				<div class="flex items-center justify-between">
 					<svelte:component
 						this={theme.icon}
@@ -56,14 +56,6 @@
 				<div class="h-1.5" />
 
 				<p class="font-semibold">{theme.name}</p>
-
-				<div class="h-1.5" />
-
-				<div class="flex">
-					<p class="font-medium text-iris hover:underline">
-						Repository&nbsp;&nearr;
-					</p>
-				</div>
 			</Card>
 		</li>
 	{/each}

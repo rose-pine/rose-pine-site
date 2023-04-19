@@ -40,20 +40,15 @@ const guidesEntries = await getCollection("guides", ({ id }) => {
 					.sort((a, b) => b.data.priority - a.data.priority)
 					.map((guide) => (
 						<li>
-							<Card href={`/resources/${guide.slug.substring(3)}`}>
+							<Card
+								href={`/resources/${guide.slug.substring(3)}`}
+								linkText={t("shared.read_more")}
+							>
 								<p class="font-semibold">{guide.data.title}</p>
 
 								<div class="h-1.5" />
 
 								<p>{guide.data.description}</p>
-
-								<div class="flex-1" />
-
-								<div class="flex pt-1.5">
-									<p class="font-medium text-iris hover:underline">
-										{t("shared.read_more")}&nbsp;&rarr;
-									</p>
-								</div>
 							</Card>
 						</li>
 					))
@@ -70,20 +65,12 @@ const guidesEntries = await getCollection("guides", ({ id }) => {
 			{
 				tools.map(({ name, description, href }) => (
 					<li>
-						<Card href={href}>
+						<Card href={href} linkText="Repository">
 							<p class="font-bold">{name}</p>
 
 							<div class="h-1.5" />
 
 							<p>{description}</p>
-
-							<div class="flex-1" />
-
-							<div class="flex pt-1.5">
-								<p class="font-medium text-iris hover:underline">
-									Repository&nbsp;&nearr;
-								</p>
-							</div>
 						</Card>
 					</li>
 				))

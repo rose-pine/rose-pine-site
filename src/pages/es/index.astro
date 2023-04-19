@@ -47,7 +47,11 @@ changeLanguage("es");
 	<section
 		class="mx-auto grid max-w-lg grid-cols-1 gap-10 md:max-w-full md:grid-cols-3 md:gap-6"
 	>
-		<Card size="lg" href={localizePath("/palette")}>
+		<Card
+			size="lg"
+			href={localizePath("/palette")}
+			linkText={t("home.feature_card_1.link")}
+		>
 			<div
 				class="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-foam to-pine text-surface"
 			>
@@ -59,20 +63,19 @@ changeLanguage("es");
 			<h2 class="text-lg font-bold leading-none tracking-tight">
 				{t("home.feature_card_1.title")}
 			</h2>
-			<p class="py-3">
+
+			<div class="h-3"></div>
+
+			<p>
 				{t("home.feature_card_1.description")}
 			</p>
-
-			<div class="flex-1"></div>
-
-			<div class="flex">
-				<p class="font-medium text-foam hover:underline">
-					{t("home.feature_card_1.link")}&nbsp;&rarr;
-				</p>
-			</div>
 		</Card>
 
-		<Card size="lg" href={localizePath("/themes")}>
+		<Card
+			size="lg"
+			href={localizePath("/themes")}
+			linkText={t("home.feature_card_2.link")}
+		>
 			<div
 				class="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-iris to-gold text-surface"
 			>
@@ -84,20 +87,19 @@ changeLanguage("es");
 			<h2 class="text-lg font-bold leading-none tracking-tight">
 				{t("home.feature_card_2.title")}
 			</h2>
-			<p class="py-3">
+
+			<div class="h-3"></div>
+
+			<p>
 				{t("home.feature_card_2.description")}
 			</p>
-
-			<div class="flex-1"></div>
-
-			<div class="flex">
-				<p class="font-medium text-iris hover:underline">
-					{t("home.feature_card_2.link")}&nbsp;&rarr;
-				</p>
-			</div>
 		</Card>
 
-		<Card size="lg" href={localizePath("/resources")}>
+		<Card
+			size="lg"
+			href={localizePath("/resources")}
+			linkText={t("home.feature_card_3.link")}
+		>
 			<div
 				class="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-rose to-love text-surface"
 			>
@@ -109,21 +111,16 @@ changeLanguage("es");
 			<h2 class="text-lg font-bold leading-none tracking-tight">
 				{t("home.feature_card_3.title")}
 			</h2>
-			<p class="py-3">
+
+			<div class="h-3"></div>
+
+			<p>
 				{
 					t("home.feature_card_3.description", {
 						numberOfPorts: Math.floor(themes.length / 10) * 10,
 					})
 				}
 			</p>
-
-			<div class="flex-1"></div>
-
-			<div class="flex">
-				<p class="font-medium text-rose hover:underline">
-					{t("home.feature_card_3.link")}&nbsp;&rarr;
-				</p>
-			</div>
 		</Card>
 	</section>
 </Layout>
