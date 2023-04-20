@@ -15,8 +15,8 @@
 			"vim-theme",
 			"editor"
 		],
-		"stargazerCount": 930,
-		"updatedAt": "2023-04-18T17:24:31Z",
+		"stargazerCount": 947,
+		"updatedAt": "2023-04-21T17:26:59Z",
 		"url": "https://github.com/rose-pine/neovim",
 		"usesCustomOpenGraphImage": true
 	},
@@ -34,7 +34,7 @@
 			"hacktoberfest"
 		],
 		"stargazerCount": 28,
-		"updatedAt": "2023-03-20T04:23:49Z",
+		"updatedAt": "2023-04-20T01:01:39Z",
 		"url": "https://github.com/rose-pine/discord",
 		"usesCustomOpenGraphImage": true
 	},
@@ -89,7 +89,7 @@
 			"visual-studio-code"
 		],
 		"stargazerCount": 347,
-		"updatedAt": "2023-04-12T13:25:41Z",
+		"updatedAt": "2023-04-21T11:26:28Z",
 		"url": "https://github.com/rose-pine/vscode",
 		"usesCustomOpenGraphImage": true
 	},
@@ -274,8 +274,8 @@
 			"rose-pine",
 			"hacktoberfest"
 		],
-		"stargazerCount": 8,
-		"updatedAt": "2023-02-22T02:12:01Z",
+		"stargazerCount": 9,
+		"updatedAt": "2023-04-21T13:14:14Z",
 		"url": "https://github.com/rose-pine/sublime-text",
 		"usesCustomOpenGraphImage": true
 	},
@@ -358,8 +358,8 @@
 			"palette",
 			"aesthetic"
 		],
-		"stargazerCount": 838,
-		"updatedAt": "2023-04-18T03:01:40Z",
+		"stargazerCount": 841,
+		"updatedAt": "2023-04-20T17:16:45Z",
 		"url": "https://github.com/rose-pine/rose-pine-theme",
 		"usesCustomOpenGraphImage": true
 	},
@@ -389,7 +389,7 @@
 		"name": "gtk",
 		"repositoryTopics": ["gtk", "soho-vibes", "theme", "rose-pine"],
 		"stargazerCount": 124,
-		"updatedAt": "2023-04-13T15:19:46Z",
+		"updatedAt": "2023-04-20T01:01:34Z",
 		"url": "https://github.com/rose-pine/gtk",
 		"usesCustomOpenGraphImage": true
 	},
@@ -533,7 +533,7 @@
 			"firefox-extension"
 		],
 		"stargazerCount": 26,
-		"updatedAt": "2023-04-10T13:31:24Z",
+		"updatedAt": "2023-04-20T01:01:32Z",
 		"url": "https://github.com/rose-pine/firefox",
 		"usesCustomOpenGraphImage": true
 	},
@@ -564,8 +564,8 @@
 			"rose-pine",
 			"terminal"
 		],
-		"stargazerCount": 47,
-		"updatedAt": "2023-04-18T17:58:40Z",
+		"stargazerCount": 49,
+		"updatedAt": "2023-04-19T13:26:36Z",
 		"url": "https://github.com/rose-pine/alacritty",
 		"usesCustomOpenGraphImage": true
 	},

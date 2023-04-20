@@ -52,6 +52,15 @@
 		"has_variants": false
 	},
 	{
+		"name": "Enmity",
+		"url": "https://github.com/InvitedToHell/rosepine-enmity",
+		"tags": ["app", "mobile"],
+		"authors": [
+			{ "name": "InvitedToHell", "url": "https://github.com/invitedtohell" }
+		],
+		"has_variants": true
+	},
+	{
 		"name": "foot",
 		"url": "https://github.com/EuCaue/foot",
 		"tags": ["terminal-emulator"],
@@ -101,6 +110,13 @@
 		"has_variants": true
 	},
 	{
+		"name": "k9s",
+		"url": "https://github.com/sasoria/k9s-theme",
+		"tags": ["cli"],
+		"authors": [{ "name": "sasoria", "url": "https://github.com/sasoria" }],
+		"has_variants": false
+	},
+	{
 		"name": "Kakoune",
 		"url": "https://gitea.nulo.in/Nulo/rose-pine.kak",
 		"tags": ["terminal", "editor"],
@@ -112,6 +128,15 @@
 		"url": "https://github.com/maybork/kde",
 		"tags": ["DE", "system"],
 		"authors": [{ "name": "maybork", "url": "https://github.com/maybork" }]
+	},
+	{
+		"name": "LeftWM",
+		"url": "https://github.com/KiranWells/leftwm-verdigris",
+		"tags": ["window-manager"],
+		"authors": [
+			{ "name": "Kiran Wells", "url": "https://github.com/KiranWells" }
+		],
+		"has_variants": false
 	},
 	{
 		"name": "Marp",
@@ -172,6 +197,13 @@
 		"authors": [
 			{ "name": "Anna Z", "url": "https://github.com/annappropriate" }
 		],
+		"has_variants": true
+	},
+	{
+		"name": "Twitter",
+		"url": "https://github.com/apriltaoyvr/twitter-rose-pine",
+		"tags": ["web-ui", "social"],
+		"authors": [{ "name": "April T", "url": "https://github.com/apriltaoyvr" }],
 		"has_variants": true
 	},
 	{
