@@ -3,6 +3,7 @@ import { changeLanguage } from "i18next";
 import { getCollection, type CollectionEntry } from "astro:content";
 import Layout from "$layouts/base.astro";
 import PageIntro from "$components/page-intro.svelte";
+import Link from "$components/link.svelte";
 import { tools } from "$data/tools";
 
 changeLanguage("en");
@@ -40,26 +41,21 @@ const { Content } = await entry.render();
 					guidesEntries
 						.sort((a, b) => b.data.priority - a.data.priority)
 						.map((guide) => (
-							<li>
-								<a
+							<li class="leading-loose">
+								<Link
 									href={`/resources/${guide.slug.substring(3)}`}
-									class="font-medium leading-loose text-iris transition hover:underline focus:outline-none focus:ring"
+									decorations={false}
 								>
 									{guide.data.title}
-								</a>
+								</Link>
 							</li>
 						))
 				}
 				<hr class="my-3" />
 				{
 					tools.map(({ name, href }) => (
-						<li>
-							<a
-								href={href}
-								class="font-medium leading-loose text-iris transition hover:underline focus:outline-none focus:ring"
-							>
-								{name}&nbsp;&nearr;
-							</a>
+						<li class="leading-loose">
+							<Link href={href}>{name}</Link>
 						</li>
 					))
 				}

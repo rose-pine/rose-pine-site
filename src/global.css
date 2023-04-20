@@ -158,7 +158,10 @@ article h5 {
 	@apply mt-14;
 }
 article a {
-	@apply text-iris;
+	@apply inline font-medium text-iris underline-offset-2 after:inline-block after:whitespace-pre hover:underline;
+}
+article a[href^="http"] {
+	@apply after:content-['_↗'];
 }
 article a:hover {
 	@apply underline;
