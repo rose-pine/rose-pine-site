@@ -57,7 +57,7 @@ const themes = [
 			name: repo.name,
 			icon: getIcon(repo.tags),
 			url: repo.url,
-			tags: [repo.featured && "featured", ...repo.tags],
+			tags: [repo.featured && "featured", "community", ...repo.tags],
 			has_variants: repo.has_variants,
 			featured: repo.featured,
 		};
@@ -68,6 +68,7 @@ const themes = [
 const tags = [
 	"app",
 	"CLI",
+	"community",
 	"editor",
 	"mobile",
 	"music",
