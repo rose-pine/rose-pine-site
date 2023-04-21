@@ -1,7 +1,9 @@
 {
 	"navigation": {
+		"home": "Home",
 		"themes": "Themes",
 		"palette": "Palette",
+		"ingredients": "Ingredients",
 		"resources": "Resources",
 		"languages": "Languages"
 	},
@@ -49,8 +51,19 @@
 		"description": "A light toolbox for contributors.",
 		"help_link": "Get help on our Discord"
 	},
+	"global_search": {
+		"trigger": "Search",
+		"placeholder": "Search pages, themes and palette...",
+		"empty_text": "No results found.",
+		"empty_result_1": "Browse themes",
+		"empty_result_2": "Contribute to Rosé Pine",
+		"heading_pages": "Pages",
+		"heading_themes": "Themes",
+		"heading_featured_themes": "Featured themes",
+		"heading_palette": "Palette",
+		"heading_community": "Community"
+	},
 	"shared": {
-		"read_more": "Read more",
-		"repository": "Repository"
+		"read_more": "Read more"
 	}
 }

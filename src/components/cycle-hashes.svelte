@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Key from "$components/key.svelte";
+	import { searchIsOpen } from "$store";
 
 	export let hashes: string[];
 
@@ -28,6 +29,8 @@
 	}
 
 	function handleKeydown(e: KeyboardEvent) {
+		if ($searchIsOpen) return;
+
 		const hash = location.hash.substring(1);
 
 		if (e.key === "j") {

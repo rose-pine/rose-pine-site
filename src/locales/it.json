@@ -1,7 +1,9 @@
 {
 	"navigation": {
+		"home": "Casa",
 		"themes": "Temi",
 		"palette": "Tavolozza",
+		"ingredients": "Ingredienti",
 		"resources": "Risorse",
 		"languages": "Lingue"
 	},
@@ -48,6 +50,18 @@
 		"title": "Risorse",
 		"description": "Una piccola cassetta degli attrezzi per i contributori.",
 		"help_link": "Ottieni assistenza sul nostro Discord"
+	},
+	"global_search": {
+		"trigger": "Cerca",
+		"placeholder": "Cerca pagine, temi e colori...",
+		"empty_text": "Nessun risultato trovato.",
+		"empty_result_1": "Sfoglia tutti i temi",
+		"empty_result_2": "Contribuisci a Rosé Pine",
+		"heading_pages": "Pagine",
+		"heading_themes": "Temi",
+		"heading_featured_themes": "Temi in primo piano",
+		"heading_palette": "Colori",
+		"heading_community": "Communità"
 	},
 	"shared": {
 		"read_more": "Leggi di più"

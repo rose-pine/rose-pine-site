@@ -219,3 +219,57 @@ article code {
 .scheme-iris {
 	@apply bg-iris/10 text-iris;
 }
+
+[cmdk-dialog] {
+	@apply fixed inset-0 z-20 pt-[10vh];
+}
+
+[cmdk-overlay] {
+	@apply fixed inset-0 bg-black/10 backdrop-blur-sm;
+}
+
+[cmdk-root] {
+	@apply absolute inset-x-0 bottom-0 z-30 mx-auto max-w-xl overflow-hidden rounded-b-none rounded-t-xl border before:absolute before:inset-0 before:z-[-1] before:bg-surface supports-[backdrop-filter]:before:bg-surface/95 supports-[backdrop-filter]:before:backdrop-blur-md sm:bottom-auto sm:rounded-b-xl;
+}
+
+[cmdk-input-container] {
+	@apply relative flex h-14 items-center space-x-3 px-3 sm:h-16 sm:px-5;
+}
+
+[cmdk-input] {
+	@apply h-full w-full bg-transparent text-sm placeholder:text-muted focus:outline-none;
+}
+
+[cmdk-list] {
+	@apply relative h-[min(330px,var(--cmdk-list-height))] max-h-[330px] scroll-pe-2 scroll-ps-2 overflow-auto overscroll-contain border-t px-3 transition-[height] sm:px-5;
+}
+
+[cmdk-group] {
+	@apply space-y-1;
+}
+[cmdk-group]:not([hidden]) + [cmdk-group]:not([hidden]) {
+	@apply mt-6;
+}
+
+[cmdk-group-heading] {
+	@apply select-none text-sm font-semibold tracking-tight text-subtle;
+}
+
+[cmdk-item] {
+	@apply -mx-1.5 flex cursor-pointer items-center space-x-2 rounded-lg px-1.5 py-3 text-sm font-medium transition focus:outline-none sm:-mx-2.5 sm:px-2.5;
+}
+[cmdk-item][data-selected="true"] {
+	@apply bg-muted/10 text-text;
+}
+[cmdk-item][data-selected="true"] > * {
+	@apply text-text;
+}
+[cmdk-item] svg {
+	width: 18px;
+	height: 18px;
+	stroke-width: 1.5px;
+}
+
+[cmdk-empty] {
+	@apply -mx-1.5 space-y-6 sm:-mx-3;
+}

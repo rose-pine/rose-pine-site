@@ -2,6 +2,7 @@ import { writable } from "svelte/store";
 
 const pathname = writable("/");
 const queryTheme = writable("");
+const searchIsOpen = writable(false);
 
 function makeStorage() {
 	type Storage = {
@@ -69,4 +70,4 @@ function makeClipboard() {
 
 const clipboard = makeClipboard();
 
-export { pathname, queryTheme, storage, clipboard };
+export { pathname, queryTheme, searchIsOpen, storage, clipboard };

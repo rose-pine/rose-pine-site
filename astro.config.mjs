@@ -1,6 +1,7 @@
 import { defineConfig } from "astro/config";
 import astroI18next from "astro-i18next";
 import svelte from "@astrojs/svelte";
+import react from "@astrojs/react";
 
 export default defineConfig({
 	site: "https://rosepinetheme.com",
@@ -19,5 +20,6 @@ export default defineConfig({
 				handler(warning);
 			},
 		}),
+		react(),
 	],
 });
