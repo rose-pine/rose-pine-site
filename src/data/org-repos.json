@@ -15,8 +15,8 @@
 			"vim-theme",
 			"editor"
 		],
-		"stargazerCount": 947,
-		"updatedAt": "2023-04-21T17:26:59Z",
+		"stargazerCount": 951,
+		"updatedAt": "2023-04-23T22:40:21Z",
 		"url": "https://github.com/rose-pine/neovim",
 		"usesCustomOpenGraphImage": true
 	},
@@ -33,8 +33,8 @@
 			"discord",
 			"hacktoberfest"
 		],
-		"stargazerCount": 28,
-		"updatedAt": "2023-04-20T01:01:39Z",
+		"stargazerCount": 29,
+		"updatedAt": "2023-04-22T04:05:15Z",
 		"url": "https://github.com/rose-pine/discord",
 		"usesCustomOpenGraphImage": true
 	},
@@ -86,10 +86,11 @@
 			"rose-pine",
 			"vscode-extension",
 			"hacktoberfest",
-			"visual-studio-code"
+			"visual-studio-code",
+			"editor"
 		],
 		"stargazerCount": 347,
-		"updatedAt": "2023-04-21T11:26:28Z",
+		"updatedAt": "2023-04-22T19:31:43Z",
 		"url": "https://github.com/rose-pine/vscode",
 		"usesCustomOpenGraphImage": true
 	},
@@ -122,10 +123,11 @@
 			"soho-vibes",
 			"theme",
 			"rose-pine",
-			"terminal"
+			"terminal",
+			"terminal-emulator"
 		],
 		"stargazerCount": 32,
-		"updatedAt": "2023-04-12T18:31:05Z",
+		"updatedAt": "2023-04-22T17:01:15Z",
 		"url": "https://github.com/rose-pine/kitty",
 		"usesCustomOpenGraphImage": true
 	},
@@ -206,10 +208,11 @@
 			"soho-vibes",
 			"theme",
 			"rose-pine",
-			"terminal"
+			"terminal",
+			"terminal-emulator"
 		],
 		"stargazerCount": 33,
-		"updatedAt": "2023-04-09T21:02:36Z",
+		"updatedAt": "2023-04-22T16:57:25Z",
 		"url": "https://github.com/rose-pine/hyper",
 		"usesCustomOpenGraphImage": true
 	},
@@ -288,10 +291,11 @@
 			"rose-pine",
 			"soho-vibes",
 			"theme",
-			"terminal"
+			"terminal",
+			"terminal-emulator"
 		],
 		"stargazerCount": 2,
-		"updatedAt": "2023-04-09T21:03:15Z",
+		"updatedAt": "2023-04-22T17:02:06Z",
 		"url": "https://github.com/rose-pine/qterminal",
 		"usesCustomOpenGraphImage": false
 	},
@@ -299,9 +303,16 @@
 		"description": "Soho vibes for st",
 		"homepageUrl": "",
 		"name": "st",
-		"repositoryTopics": ["st", "soho-vibes", "theme", "rose-pine", "terminal"],
+		"repositoryTopics": [
+			"st",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"terminal",
+			"terminal-emulator"
+		],
 		"stargazerCount": 8,
-		"updatedAt": "2023-04-09T21:02:15Z",
+		"updatedAt": "2023-04-22T17:02:19Z",
 		"url": "https://github.com/rose-pine/st",
 		"usesCustomOpenGraphImage": true
 	},
@@ -314,10 +325,11 @@
 			"soho-vibes",
 			"theme",
 			"rose-pine",
-			"terminal"
+			"terminal",
+			"terminal-emulator"
 		],
 		"stargazerCount": 7,
-		"updatedAt": "2023-04-16T19:51:19Z",
+		"updatedAt": "2023-04-22T17:11:45Z",
 		"url": "https://github.com/rose-pine/xfce-terminal",
 		"usesCustomOpenGraphImage": true
 	},
@@ -330,10 +342,11 @@
 			"rose-pine",
 			"soho-vibes",
 			"theme",
-			"terminal"
+			"terminal",
+			"terminal-emulator"
 		],
 		"stargazerCount": 2,
-		"updatedAt": "2023-04-09T21:02:48Z",
+		"updatedAt": "2023-04-22T17:01:53Z",
 		"url": "https://github.com/rose-pine/lxterminal",
 		"usesCustomOpenGraphImage": false
 	},
@@ -367,9 +380,9 @@
 		"description": "Soho vibes for Black Box",
 		"homepageUrl": "",
 		"name": "black-box",
-		"repositoryTopics": ["theme", "terminal"],
+		"repositoryTopics": ["theme", "terminal", "terminal-emulator"],
 		"stargazerCount": 2,
-		"updatedAt": "2023-03-27T19:04:20Z",
+		"updatedAt": "2023-04-22T16:59:04Z",
 		"url": "https://github.com/rose-pine/black-box",
 		"usesCustomOpenGraphImage": false
 	},
@@ -388,8 +401,8 @@
 		"homepageUrl": "",
 		"name": "gtk",
 		"repositoryTopics": ["gtk", "soho-vibes", "theme", "rose-pine"],
-		"stargazerCount": 124,
-		"updatedAt": "2023-04-20T01:01:34Z",
+		"stargazerCount": 123,
+		"updatedAt": "2023-04-23T16:40:58Z",
 		"url": "https://github.com/rose-pine/gtk",
 		"usesCustomOpenGraphImage": true
 	},
@@ -459,10 +472,11 @@
 			"theme",
 			"rose-pine",
 			"hacktoberfest",
-			"terminal"
+			"terminal",
+			"terminal-emulator"
 		],
 		"stargazerCount": 18,
-		"updatedAt": "2023-04-09T21:02:31Z",
+		"updatedAt": "2023-04-22T16:59:57Z",
 		"url": "https://github.com/rose-pine/gnome-terminal",
 		"usesCustomOpenGraphImage": true
 	},
@@ -562,10 +576,11 @@
 			"soho-vibes",
 			"theme",
 			"rose-pine",
-			"terminal"
+			"terminal",
+			"terminal-emulator"
 		],
 		"stargazerCount": 49,
-		"updatedAt": "2023-04-19T13:26:36Z",
+		"updatedAt": "2023-04-22T16:58:01Z",
 		"url": "https://github.com/rose-pine/alacritty",
 		"usesCustomOpenGraphImage": true
 	},
@@ -578,10 +593,11 @@
 			"soho-vibes",
 			"theme",
 			"rose-pine",
-			"terminal"
+			"terminal",
+			"terminal-emulator"
 		],
 		"stargazerCount": 7,
-		"updatedAt": "2023-04-13T12:07:06Z",
+		"updatedAt": "2023-04-22T17:01:28Z",
 		"url": "https://github.com/rose-pine/konsole",
 		"usesCustomOpenGraphImage": true
 	},
@@ -780,10 +796,11 @@
 			"soho-vibes",
 			"theme",
 			"rose-pine",
-			"terminal"
+			"terminal",
+			"terminal-emulator"
 		],
 		"stargazerCount": 18,
-		"updatedAt": "2023-04-15T18:07:02Z",
+		"updatedAt": "2023-04-22T17:11:59Z",
 		"url": "https://github.com/rose-pine/windows-terminal",
 		"usesCustomOpenGraphImage": true
 	},
@@ -796,10 +813,11 @@
 			"soho-vibes",
 			"theme",
 			"rose-pine",
-			"terminal"
+			"terminal",
+			"terminal-emulator"
 		],
 		"stargazerCount": 11,
-		"updatedAt": "2023-04-09T20:59:01Z",
+		"updatedAt": "2023-04-22T17:02:33Z",
 		"url": "https://github.com/rose-pine/terminal.app",
 		"usesCustomOpenGraphImage": true
 	},
@@ -812,10 +830,11 @@
 			"soho-vibes",
 			"theme",
 			"rose-pine",
-			"terminal"
+			"terminal",
+			"terminal-emulator"
 		],
 		"stargazerCount": 45,
-		"updatedAt": "2023-04-14T19:59:33Z",
+		"updatedAt": "2023-04-22T17:00:47Z",
 		"url": "https://github.com/rose-pine/iterm",
 		"usesCustomOpenGraphImage": true
 	},
@@ -848,10 +867,11 @@
 			"soho-vibes",
 			"theme",
 			"rose-pine",
-			"terminal"
+			"terminal",
+			"terminal-emulator"
 		],
 		"stargazerCount": 2,
-		"updatedAt": "2023-04-09T21:05:19Z",
+		"updatedAt": "2023-04-22T17:10:10Z",
 		"url": "https://github.com/rose-pine/termite",
 		"usesCustomOpenGraphImage": true
 	},
@@ -874,10 +894,11 @@
 			"soho-vibes",
 			"theme",
 			"rose-pine",
-			"terminal"
+			"terminal",
+			"terminal-emulator"
 		],
 		"stargazerCount": 2,
-		"updatedAt": "2023-04-09T21:05:55Z",
+		"updatedAt": "2023-04-22T17:08:28Z",
 		"url": "https://github.com/rose-pine/terminator",
 		"usesCustomOpenGraphImage": true
 	},
@@ -890,10 +911,11 @@
 			"soho-vibes",
 			"theme",
 			"rose-pine",
-			"terminal"
+			"terminal",
+			"terminal-emulator"
 		],
 		"stargazerCount": 6,
-		"updatedAt": "2023-04-09T21:02:25Z",
+		"updatedAt": "2023-04-22T17:00:12Z",
 		"url": "https://github.com/rose-pine/fluent-terminal",
 		"usesCustomOpenGraphImage": true
 	},
@@ -916,10 +938,11 @@
 			"soho-vibes",
 			"theme",
 			"rose-pine",
-			"terminal"
+			"terminal",
+			"terminal-emulator"
 		],
 		"stargazerCount": 3,
-		"updatedAt": "2023-04-09T21:00:08Z",
+		"updatedAt": "2023-04-22T16:59:36Z",
 		"url": "https://github.com/rose-pine/cool-retro-term",
 		"usesCustomOpenGraphImage": true
 	},
