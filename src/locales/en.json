@@ -31,7 +31,8 @@
 		"title": "Themes",
 		"description": "Hand-crafted collection of personalisation.",
 		"tagline": "{{numberOfPorts}} ports & {{numberOfAuthors}} authors",
-		"search_label": "Search themes..."
+		"search_label": "Search themes...",
+		"decorations_label": "Decorations"
 	},
 	"palette": {
 		"title": "Palette",

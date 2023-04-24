@@ -12,7 +12,10 @@ changeLanguage("it");
 	metaTitle={t("ingredients.title")}
 	metaDescription={t("ingredients.description")}
 >
-	<PaletteIngredients client:load />
+	<PaletteIngredients
+		client:load
+		decorationsLabel={t("themes.decorations_label") ?? "Decorations"}
+	/>
 </PaletteLayout>
 
 <CycleHashes client:load hashes={variantIds} />

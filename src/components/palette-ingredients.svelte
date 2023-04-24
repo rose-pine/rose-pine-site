@@ -11,6 +11,9 @@
 	import Checkbox from "$components/checkbox.svelte";
 	import { formatColor } from "$data/palette";
 	import { clipboard, storage } from "$store";
+
+	// Workaround while translations are not accessible within svelte files.
+	export let decorationsLabel: string;
 </script>
 
 <div class="space-y-20">
@@ -38,7 +41,7 @@
 					id={`${currentVariant.id}-decorations`}
 					bind:checked={$storage.decorations}
 				>
-					<span>Decorations&nbsp;</span>
+					<span>{decorationsLabel}&nbsp;</span>
 					{#if $storage.decorations}
 						<IconParentheses size={16} aria-hidden="true" />
 					{:else}

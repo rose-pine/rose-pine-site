@@ -31,7 +31,8 @@
 		"title": "Temi",
 		"description": "Collezione artigianale di personalizzazione.",
 		"tagline": "{{numberOfPorts}} porti & {{numberOfAuthors}} autori",
-		"search_label": "Cerca temi..."
+		"search_label": "Cerca temi...",
+		"decorations_label": "Decorazioni"
 	},
 	"palette": {
 		"title": "Tavolozza",
