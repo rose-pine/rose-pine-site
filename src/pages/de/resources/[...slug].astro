@@ -1,5 +1,6 @@
 ---
-import { changeLanguage } from "i18next";
+import i18next, { changeLanguage } from "i18next";
+import { localizePath } from "astro-i18next";
 import { getCollection, type CollectionEntry } from "astro:content";
 import Layout from "$layouts/base.astro";
 import PageIntro from "$components/page-intro.svelte";
@@ -8,27 +9,48 @@ import { tools } from "$data/tools";
 
 changeLanguage("de");
 
+const currentLanguage = i18next.language ?? "en";
 export async function getStaticPaths() {
-	const guidesEntries = await getCollection("guides");
-	return guidesEntries.map((entry) => ({
-		params: { slug: entry.slug.substring(3) },
-		props: { entry, guidesEntries },
-	}));
+	const guides = await getCollection("guides");
+	return guides.map((entry) => {
+		const path = entry.slug.substring(3);
+		return {
+			params: { slug: path },
+			props: { entry, guides },
+		};
+	});
 }
 export type Props = {
 	entry: CollectionEntry<"guides">;
-	guidesEntries: CollectionEntry<"guides">[];
+	guides: CollectionEntry<"guides">[];
 };
-const { entry, guidesEntries } = Astro.props;
-const { Content } = await entry.render();
+const { entry, guides } = Astro.props;
+const entryPath = entry.id.substring(3);
+const pathsWithTranslations = new Set<string>();
+guides.forEach(({ id }) => {
+	const path = id.substring(3);
+	const hasTranslation = id.startsWith(`${currentLanguage}/`);
+	if (hasTranslation) {
+		pathsWithTranslations.add(path);
+	}
+});
+const entryLanguage = pathsWithTranslations.has(entryPath)
+	? currentLanguage
+	: "en";
+const entryToRender =
+	guides.find(({ id }) => id === `${entryLanguage}/${entryPath}`) ?? entry;
+const { Content } = await entryToRender.render();
 ---
 
-<Layout title={entry.data.title} description={entry.data.description}>
+<Layout
+	title={entryToRender.data.title}
+	description={entryToRender.data.description}
+>
 	<div class="grid grid-cols-1 gap-20 lg:grid-cols-[auto,1fr]">
 		<div>
 			<PageIntro
-				heading={entry.data.title}
-				subheading={entry.data.description}
+				heading={entryToRender.data.title}
+				subheading={entryToRender.data.description}
 			/>
 
 			<ul class="animate-enter mt-10 hidden md:block" style="--stagger: 2">
@@ -38,18 +60,33 @@ const { Content } = await entry.render();
 					Resources
 				</li>
 				{
-					guidesEntries
+					guides
+						.filter(({ id }) => {
+							const locale = id.substring(0, 2);
+							const path = id.substring(3);
+							const hasTranslation = pathsWithTranslations.has(path);
+
+							return (
+								(!hasTranslation && locale === "en") ||
+								(hasTranslation && locale === currentLanguage)
+							);
+						})
 						.sort((a, b) => b.data.priority - a.data.priority)
-						.map((guide) => (
-							<li class="leading-loose">
-								<Link
-									href={`/resources/${guide.slug.substring(3)}`}
-									decorations={false}
-								>
-									{guide.data.title}
-								</Link>
-							</li>
-						))
+						.map(({ slug, data }) => {
+							const locale = slug.substring(0, 2);
+							const path = slug.substring(3);
+							const localizedPath = localizePath(
+								`/resources/${path}`,
+								locale === currentLanguage ? locale : undefined
+							);
+							return (
+								<li class="leading-loose">
+									<Link href={localizedPath} decorations={false}>
+										{data.title}
+									</Link>
+								</li>
+							);
+						})
 				}
 				<hr class="my-3" />
 				{

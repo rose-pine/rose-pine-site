@@ -1,5 +1,6 @@
 ---
-import { t, changeLanguage } from "i18next";
+import i18next, { t, changeLanguage } from "i18next";
+import { localizePath } from "astro-i18next";
 import { getCollection } from "astro:content";
 import Layout from "$layouts/base.astro";
 import PageIntro from "$components/page-intro.svelte";
@@ -8,9 +9,15 @@ import { tools } from "$data/tools";
 
 changeLanguage("it");
 
-// TODO: Set to i18next language and fallback to English
-const currentLanguage = "en";
-const guidesEntries = await getCollection("guides", ({ id }) => {
+const currentLanguage = i18next.language ?? "en";
+const pathsWithTranslations = new Set<string>();
+const guides = await getCollection("guides", ({ id }) => {
+	const locale = id.substring(0, 2);
+	const path = id.substring(3);
+	if (locale !== currentLanguage) {
+		return id.startsWith("en/");
+	}
+	pathsWithTranslations.add(path);
 	return id.startsWith(`${currentLanguage}/`);
 });
 ---
@@ -34,24 +41,45 @@ const guidesEntries = await getCollection("guides", ({ id }) => {
 
 		<div class="h-6"></div>
 
-		<ul class="grid grid-cols-2 gap-6 md:grid-cols-3">
+		<ul class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
 			{
-				guidesEntries
+				guides
+					.filter(({ id }) => {
+						const locale = id.substring(0, 2);
+						const path = id.substring(3);
+						const hasTranslation = pathsWithTranslations.has(path);
+
+						return (
+							(!hasTranslation && locale === "en") ||
+							(hasTranslation && locale === currentLanguage)
+						);
+					})
 					.sort((a, b) => b.data.priority - a.data.priority)
-					.map((guide) => (
-						<li>
-							<Card
-								href={`/resources/${guide.slug.substring(3)}`}
-								linkText={t("shared.read_more")}
-							>
-								<p class="font-semibold">{guide.data.title}</p>
+					.map(({ slug, data }) => {
+						const locale = slug.substring(0, 2);
+						const path = slug.substring(3);
+						const localizedPath = localizePath(
+							`/resources/${path}`,
+							locale === currentLanguage ? locale : undefined
+						);
+						return (
+							<li>
+								<Card href={localizedPath} linkText={t("shared.read_more")}>
+									<div class="flex items-center justify-between gap-1.5">
+										<p class="w-full truncate font-semibold">{data.title}</p>
 
-								<div class="h-1.5" />
+										<span class="shrink-0 font-mono text-xs font-semibold uppercase text-subtle">
+											{locale}
+										</span>
+									</div>
 
-								<p>{guide.data.description}</p>
-							</Card>
-						</li>
-					))
+									<div class="h-1.5" />
+
+									<p>{data.description}</p>
+								</Card>
+							</li>
+						);
+					})
 			}
 		</ul>
 
@@ -61,7 +89,7 @@ const guidesEntries = await getCollection("guides", ({ id }) => {
 
 		<div class="h-6"></div>
 
-		<ul class="grid grid-cols-2 gap-6 md:grid-cols-3">
+		<ul class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
 			{
 				tools.map(({ name, description, href }) => (
 					<li>
