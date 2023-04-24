@@ -14,7 +14,7 @@
 	color-scheme: light dark;
 
 	--page-top: 48px;
-	--page-gutter: 16px;
+	--page-gutter: 24px;
 	--banner-height: 40px;
 	--header-height: 72px;
 	--footer-height: 96px;
@@ -187,6 +187,10 @@ article pre {
 }
 article code {
 	@apply rounded bg-surface p-1 font-mono text-sm font-medium;
+}
+
+details summary::-webkit-details-marker {
+	display: none;
 }
 
 /* TODO: Is there a way to easily generate these via tailwind customisation

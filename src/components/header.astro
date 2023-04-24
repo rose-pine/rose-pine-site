@@ -108,42 +108,128 @@ const menu = [
 			<Logotype height={20} />
 		</a>
 
-		<nav aria-label="Main">
+		<nav aria-label="Main" class="block md:hidden">
 			<ul role="list" class="flex items-center gap-3">
-				{
-					menu.map(([name, href]) => (
-						<li>
-							<a
-								href={localizePath(href)}
-								aria-current={isCurrentPage(href) ? "page" : undefined}
-								class="rounded-md px-2.5 py-1.5 text-[15px] font-semibold transition hover:bg-muted/10 focus:outline-none focus:ring focus:ring-inset"
-							>
-								{name}
-							</a>
-						</li>
-					))
-				}
-
-				<li class="h-6 border-r" aria-hidden="true"></li>
-
 				<li><LanguageSelect /></li>
-
 				<li class="h-6 border-r" aria-hidden="true"></li>
-
 				<li>
-					<CommandMenu
-						client:load
-						groups={groups}
-						triggerText={t("global_search.trigger")}
-						searchText={t("global_search.placeholder")}
-						emptyText={t("global_search.empty_text")}
-						emptyResults={[
-							[t("global_search.empty_result_1"), localizePath("/themes")],
-							[t("global_search.empty_result_2"), localizePath("/resources")],
-						]}
-					/>
+					<details class="group relative">
+						<summary
+							class="cursor-pointer rounded-md px-2.5 py-1.5 text-[15px] font-semibold transition hover:bg-muted/10 focus:outline-none focus:ring focus:ring-inset"
+						>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								stroke-width="2"
+								stroke="currentColor"
+								fill="none"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								class="hidden group-open:inline-flex"
+							>
+								<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+								<path d="M18 6l-12 12"></path>
+								<path d="M6 6l12 12"></path>
+							</svg>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								stroke-width="2"
+								stroke="currentColor"
+								fill="none"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								class="inline-flex group-open:hidden"
+							>
+								<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+								<path d="M4 8l16 0"></path>
+								<path d="M4 16l16 0"></path>
+							</svg>
+						</summary>
+						<div
+							class="absolute right-0 top-10 z-20 w-48 rounded-xl border bg-surface p-1.5"
+						>
+							<ul role="list" class="flex flex-col gap-1.5">
+								{
+									menu.map(([name, href]) => (
+										<li>
+											<a
+												href={localizePath(href)}
+												aria-current={isCurrentPage(href) ? "page" : undefined}
+												class="flex rounded-md px-2.5 py-1.5 text-[15px] font-semibold transition hover:bg-muted/10 focus:outline-none focus:ring focus:ring-inset"
+											>
+												{name}
+											</a>
+										</li>
+									))
+								}
+
+								<li class="my-1.5 px-1.5 [&_button]:w-full">
+									<CommandMenu
+										client:load
+										groups={groups}
+										triggerText={t("global_search.trigger")}
+										searchText={t("global_search.placeholder")}
+										emptyText={t("global_search.empty_text")}
+										emptyResults={[
+											[
+												t("global_search.empty_result_1"),
+												localizePath("/themes"),
+											],
+											[
+												t("global_search.empty_result_2"),
+												localizePath("/resources"),
+											],
+										]}
+									/>
+								</li>
+							</ul>
+						</div>
+					</details>
 				</li>
 			</ul>
 		</nav>
 	</div>
+
+	<nav aria-label="Main" class="hidden md:flex">
+		<ul role="list" class="flex items-center gap-3">
+			{
+				menu.map(([name, href]) => (
+					<li>
+						<a
+							href={localizePath(href)}
+							aria-current={isCurrentPage(href) ? "page" : undefined}
+							class="rounded-md px-2.5 py-1.5 text-[15px] font-semibold transition hover:bg-muted/10 focus:outline-none focus:ring focus:ring-inset"
+						>
+							{name}
+						</a>
+					</li>
+				))
+			}
+
+			<li class="h-6 border-r" aria-hidden="true"></li>
+
+			<li><LanguageSelect /></li>
+
+			<li class="h-6 border-r" aria-hidden="true"></li>
+
+			<li>
+				<CommandMenu
+					client:load
+					groups={groups}
+					triggerText={t("global_search.trigger")}
+					searchText={t("global_search.placeholder")}
+					emptyText={t("global_search.empty_text")}
+					emptyResults={[
+						[t("global_search.empty_result_1"), localizePath("/themes")],
+						[t("global_search.empty_result_2"), localizePath("/resources")],
+					]}
+				/>
+			</li>
+		</ul>
+	</nav>
 </header>

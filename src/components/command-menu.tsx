@@ -91,6 +91,7 @@ const CommandMenu = ({
 			>
 				<IconSearch size={16} className="text-subtle" />
 				<span className="pl-1.5 pr-3">{triggerText}</span>
+				<div className="flex-1"></div>
 				<kbd className="font-mono text-xs text-muted">⌘K</kbd>
 			</button>
 
