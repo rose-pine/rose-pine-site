@@ -19,7 +19,7 @@
 		type="button"
 		bind:this={activator}
 		aria-expanded="false"
-		aria-controls="language-dropdown"
+		aria-controls={`${currentLanguage}-dropdown`}
 		class="flex h-8 items-center rounded-md px-3 text-text focus:outline-none focus:ring group-focus-within:bg-muted/10 group-hover:bg-muted/10"
 	>
 		<slot>
