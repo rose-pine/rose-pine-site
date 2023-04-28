@@ -36,6 +36,15 @@
 		"has_variants": false
 	},
 	{
+		"name": "Doom Emacs",
+		"url": "https://github.com/donniebreve/rose-pine-doom-emacs",
+		"tags": ["app", "terminal", "editor"],
+		"authors": [
+			{ "name": "donniebreve", "url": "https://github.com/donniebreve" }
+		],
+		"has_variants": true
+	},
+	{
 		"name": "DuckDuckGo",
 		"url": "https://github.com/cobcobs/duckduckgo",
 		"tags": ["search-engine", "web"],
@@ -67,6 +76,24 @@
 		"authors": [
 			{ "name": "EuCaue", "url": "https://github.com/EuCaue" },
 			{ "name": "cement-drinker", "url": "https://github.com/cement-drinker" }
+		],
+		"has_variants": true
+	},
+	{
+		"name": "Gradience Presets",
+		"url": "https://github.com/gradience-presets?q=rose&type=all&sort=",
+		"tags": ["adwaita", "ui"],
+		"authors": [
+			{ "name": "Gradience Team", "url": "https://gradienceteam.github.io" }
+		],
+		"has_variants": true
+	},
+	{
+		"name": "Home Assistant",
+		"url": "https://github.com/jorismertz/homeassistant-rosepine-theme",
+		"tags": ["web", "web-ui"],
+		"authors": [
+			{ "name": "jorismertz", "url": "https://github.com/jorismertz" }
 		],
 		"has_variants": true
 	},
@@ -130,6 +157,13 @@
 		"authors": [{ "name": "maybork", "url": "https://github.com/maybork" }]
 	},
 	{
+		"name": "Lapce",
+		"url": "https://github.com/syntacti/rose-pine-lapce",
+		"tags": ["app", "editor"],
+		"authors": [{ "name": "Suraj", "url": "https://github.com/ghishadow" }],
+		"has_variants": true
+	},
+	{
 		"name": "LeftWM",
 		"url": "https://github.com/KiranWells/leftwm-verdigris",
 		"tags": ["window-manager"],
@@ -165,12 +199,39 @@
 		"has_variants": true
 	},
 	{
+		"name": "Nova",
+		"url": "https://github.com/daveyholler/rose-pine-nova",
+		"tags": ["app", "editor"],
+		"authors": [
+			{ "name": "Davey Holler", "url": "https://github.com/daveyholler" }
+		],
+		"has_variants": false
+	},
+	{
 		"name": "Obsidian",
 		"url": "https://github.com/mimishahzad/rose-pine-moon-obsidian",
 		"tags": ["app", "productivity"],
 		"authors": [
 			{ "name": "mimishahzad", "url": "https://github.com/mimishahzad" }
 		]
+	},
+	{
+		"name": "QT Creator",
+		"url": "https://github.com/mike-spa/Ros--Pine-Theme---Qt-Creator",
+		"tags": ["app", "editor"],
+		"authors": [
+			{ "name": "Michele Spagnolo", "url": "https://github.com/mike-spa" }
+		],
+		"has_variants": false
+	},
+	{
+		"name": "SDDM",
+		"url": "https://github.com/lwndhrst/sddm-rose-pine",
+		"tags": ["display-manager"],
+		"authors": [
+			{ "name": "Leon Windhorst", "url": "https://github.com/lwndhrst" }
+		],
+		"has_variants": false
 	},
 	{
 		"name": "Spotify",
@@ -189,6 +250,18 @@
 			{ "name": "rainbowflesh", "url": "https://github.com/rainbowflesh" }
 		],
 		"has_variants": true
+	},
+	{
+		"name": "Telegram",
+		"url": "https://github.com/asdreemurr844/rose-pine-telegram-ios",
+		"tags": ["app", "mobile"],
+		"authors": [
+			{
+				"name": "Azriel but not Dreemurr",
+				"url": "https://github.com/asdreemurr844"
+			}
+		],
+		"has_variants": false
 	},
 	{
 		"name": "Tilix",
