@@ -233,7 +233,7 @@ details summary::-webkit-details-marker {
 }
 
 [cmdk-root] {
-	@apply absolute inset-x-0 bottom-0 z-30 mx-auto max-w-xl overflow-hidden rounded-b-none rounded-t-xl border before:absolute before:inset-0 before:z-[-1] before:bg-surface supports-[backdrop-filter]:before:bg-surface/95 supports-[backdrop-filter]:before:backdrop-blur-md sm:bottom-auto sm:rounded-b-xl;
+	@apply absolute inset-x-0 bottom-0 z-30 mx-auto max-w-xl rounded-b-none rounded-t-xl border before:absolute before:inset-0 before:z-[-1] before:bg-surface supports-[backdrop-filter]:before:bg-surface/95 supports-[backdrop-filter]:before:backdrop-blur-md sm:bottom-auto sm:rounded-b-xl;
 }
 
 [cmdk-input-container] {
@@ -245,7 +245,7 @@ details summary::-webkit-details-marker {
 }
 
 [cmdk-list] {
-	@apply relative h-[min(330px,var(--cmdk-list-height))] max-h-[330px] scroll-pe-2 scroll-ps-2 overflow-auto overscroll-contain border-t px-3 transition-[height] sm:px-5;
+	@apply relative h-[min(330px,var(--cmdk-list-height))] max-h-[30dvh] scroll-pe-2 scroll-ps-2 overflow-auto overscroll-contain border-t px-3 transition-[height] sm:max-h-[330px] sm:px-5;
 }
 
 [cmdk-group] {
