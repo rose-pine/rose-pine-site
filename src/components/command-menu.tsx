@@ -42,6 +42,7 @@ type Group = {
 };
 
 type Props = {
+	large: boolean;
 	groups: Group[];
 	triggerText: string;
 	searchText: string;
@@ -50,6 +51,7 @@ type Props = {
 };
 
 const CommandMenu = ({
+	large,
 	groups,
 	triggerText,
 	searchText,
@@ -85,15 +87,27 @@ const CommandMenu = ({
 
 	return (
 		<>
-			<button
-				onClick={() => setOpen(true)}
-				className="flex h-7 items-center rounded-md border bg-muted/5 px-1.5 text-sm font-[550] hover:bg-muted/10"
-			>
-				<IconSearch size={16} className="text-subtle" />
-				<span className="pl-1.5 pr-3">{triggerText}</span>
-				<div className="flex-1"></div>
-				<kbd className="font-mono text-xs text-muted">⌘K</kbd>
-			</button>
+			{large ? (
+				<button
+					onClick={() => setOpen(true)}
+					className="flex h-10 items-center rounded-md border bg-overlay px-3 text-sm font-[550] hover:bg-muted/10"
+				>
+					<IconSearch size={16} className="text-subtle" />
+					<span className="pl-1.5 pr-3">{triggerText}</span>
+					<div className="flex-1"></div>
+					<kbd className="font-mono text-sm text-muted">⌘K</kbd>
+				</button>
+			) : (
+				<button
+					onClick={() => setOpen(true)}
+					className="flex h-7 items-center rounded-md border bg-muted/5 px-1.5 text-sm font-[550] hover:bg-muted/10"
+				>
+					<IconSearch size={16} className="text-subtle" />
+					<span className="pl-1.5 pr-3">{triggerText}</span>
+					<div className="flex-1"></div>
+					<kbd className="font-mono text-xs text-muted">⌘K</kbd>
+				</button>
+			)}
 
 			<Command.Dialog
 				open={open}

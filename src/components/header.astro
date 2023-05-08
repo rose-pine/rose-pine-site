@@ -150,42 +150,46 @@ const menu = [
 								<path d="M4 16l16 0"></path>
 							</svg>
 						</summary>
+
 						<div
-							class="absolute right-0 top-10 z-20 w-48 rounded-xl border bg-surface p-1.5"
+							class="absolute right-0 top-10 z-20 w-64 rounded-xl border bg-surface p-3"
 						>
-							<ul role="list" class="flex flex-col gap-1.5">
+							<ul role="list" class="flex flex-col gap-3">
 								{
 									menu.map(([name, href]) => (
 										<li>
 											<a
 												href={localizePath(href)}
 												aria-current={isCurrentPage(href) ? "page" : undefined}
-												class="flex rounded-md px-2.5 py-1.5 text-[15px] font-semibold transition hover:bg-muted/10 focus:outline-none focus:ring focus:ring-inset"
+												class="flex justify-between rounded-md p-3 font-semibold transition hover:bg-muted/10 focus:outline-none focus:ring focus:ring-inset [&:hover>svg]:text-text"
 											>
-												{name}
+												<span>{name}</span>
+												<svg
+													xmlns="http://www.w3.org/2000/svg"
+													class="text-subtle transition"
+													width="20"
+													height="20"
+													viewBox="0 0 24 24"
+													stroke-width="2"
+													stroke="currentColor"
+													fill="none"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												>
+													<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+													<path d="M9 6l6 6l-6 6" />
+												</svg>
 											</a>
 										</li>
 									))
 								}
 
-								<li class="my-1.5 px-1.5 [&_button]:w-full">
-									<CommandMenu
-										client:load
-										groups={groups}
-										triggerText={t("global_search.trigger")}
-										searchText={t("global_search.placeholder")}
-										emptyText={t("global_search.empty_text")}
-										emptyResults={[
-											[
-												t("global_search.empty_result_1"),
-												localizePath("/themes"),
-											],
-											[
-												t("global_search.empty_result_2"),
-												localizePath("/resources"),
-											],
-										]}
-									/>
+								<li class="my-3 border-t" aria-hidden="true"></li>
+
+								<li>
+									<CommandMenuTrigger client:load size="lg">
+										{t("global_search.trigger")}
+									</CommandMenuTrigger>
 								</li>
 							</ul>
 						</div>
