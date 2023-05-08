@@ -57,6 +57,15 @@ const CommandMenu = ({
 	const isOpen = useStore(searchIsOpen);
 	const [search, setSearch] = React.useState("");
 
+	// Close all details on open
+	React.useEffect(() => {
+		const details = document.querySelectorAll("details");
+
+		details.forEach((detail) => {
+			detail.removeAttribute("open");
+		});
+	}, [isOpen]);
+
 	// Toggle the menu when ⌘K is pressed
 	React.useEffect(() => {
 		const down = (e: KeyboardEvent) => {
