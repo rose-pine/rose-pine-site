@@ -1,8 +1,8 @@
-import { writable } from "svelte/store";
+import { atom } from "nanostores";
 
-const pathname = writable("/");
-const queryTheme = writable("");
-const searchIsOpen = writable(false);
+const pathname = atom("/");
+const queryTheme = atom("");
+const searchIsOpen = atom(false);
 
 function makeStorage() {
 	type Storage = {
@@ -27,7 +27,7 @@ function makeStorage() {
 		localStorage.setItem(key, value);
 	}
 
-	const { subscribe, set } = writable<Storage>({
+	const { subscribe, set } = atom<Storage>({
 		decorations: getSafeStorage("color-decorations", ["on", "off"]) === "on",
 	});
 
@@ -46,7 +46,7 @@ function makeStorage() {
 const storage = makeStorage();
 
 function makeClipboard() {
-	const { subscribe, set } = writable({ content: "", position: "" });
+	const { subscribe, set } = atom({ content: "", position: "" });
 	let timeoutId: number;
 
 	return {

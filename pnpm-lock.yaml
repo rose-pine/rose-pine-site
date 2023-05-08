@@ -7,6 +7,9 @@ dependencies:
   '@astrojs/svelte':
     specifier: ^2.1.1
     version: 2.1.1(astro@2.4.2)(svelte@3.59.0)(typescript@4.9.5)(vite@4.3.5)
+  '@nanostores/react':
+    specifier: ^0.6.0
+    version: 0.6.0(nanostores@0.8.1)(react@18.2.0)
   '@rose-pine/palette':
     specifier: 4.0.1
     version: 4.0.1
@@ -37,6 +40,9 @@ dependencies:
   iso-639-1:
     specifier: ^2.1.15
     version: 2.1.15
+  nanostores:
+    specifier: ^0.8.1
+    version: 0.8.1
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -701,6 +707,17 @@ packages:
 
   /@ljharb/has-package-exports-patterns@0.0.2:
     resolution: {integrity: sha512-4/RWEeXDO6bocPONheFe6gX/oQdP/bEpv0oL4HqjPP5DCenBSt0mHgahppY49N0CpsaqffdwPq+TlX9CYOq2Dw==}
+    dev: false
+
+  /@nanostores/react@0.6.0(nanostores@0.8.1)(react@18.2.0):
+    resolution: {integrity: sha512-kDHf4Wm+J82RMXg1ZUbeod8D3yJsf+/cSf7MogTH8kwo2qs7IKKBfVmHHf+fHKQzb0DWR0mpErNs3QCT6OWdOA==}
+    engines: {node: ^16.0.0 || >=18.0.0}
+    peerDependencies:
+      nanostores: ^0.8.0
+      react: '>=18.0.0'
+    dependencies:
+      nanostores: 0.8.1
+      react: 18.2.0
     dev: false
 
   /@nodelib/fs.scandir@2.1.5:
@@ -2958,6 +2975,11 @@ packages:
     resolution: {integrity: sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
+
+  /nanostores@0.8.1:
+    resolution: {integrity: sha512-1ZCfQtII2XeFDrtqXL2cdQ/diGrLxzRB3YMyQjn8m7GSGQrJfGST2iuqMpWnS/ZlifhtjgR/SX0Jy6Uij6lRLA==}
+    engines: {node: ^16.0.0 || >=18.0.0}
+    dev: false
 
   /nlcst-to-string@3.1.1:
     resolution: {integrity: sha512-63mVyqaqt0cmn2VcI2aH6kxe1rLAmSROqHMA0i4qqg1tidkfExgpb0FGMikMCn86mw5dFtBtEANfmSSK7TjNHw==}

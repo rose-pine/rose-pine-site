@@ -1,92 +1,13 @@
 ---
 import { t } from "i18next";
 import { localizePath } from "astro-i18next";
-import { roles, roleKeys } from "@rose-pine/palette";
 import Logotype from "$components/logotype.svelte";
 import LanguageSelect from "$components/language-select.svelte";
-import CommandMenu from "$components/command-menu";
-import { themes } from "$data/themes";
+import CommandMenuTrigger from "$components/command-menu-trigger";
 
 function isCurrentPage(url: string) {
 	return Astro.url.pathname.replace(/(\/.*?)\/$/, "$1") === localizePath(url);
 }
-
-const groups = [
-	{
-		name: t("global_search.heading_pages"),
-		items: [
-			{
-				icon: "Home",
-				name: t("navigation.home"),
-				href: localizePath("/"),
-			},
-			{
-				icon: "Sailboat",
-				name: t("navigation.themes"),
-				href: localizePath("/themes"),
-			},
-			{
-				icon: "Palette",
-				name: t("navigation.palette"),
-				href: localizePath("/palette"),
-			},
-			{
-				icon: "Salt",
-				name: t("navigation.ingredients"),
-				href: localizePath("/palette/ingredients"),
-			},
-			{
-				icon: "FileDescription",
-				name: t("navigation.resources"),
-				href: localizePath("/resources"),
-			},
-		],
-	},
-	{
-		name: t("global_search.heading_themes"),
-		featuredName: t("global_search.heading_featured_themes"),
-		items: themes.map((theme) => ({
-			icon: "Notebook",
-			name: theme.name,
-			href: theme.url,
-		})),
-		featuredItems: themes
-			.filter((theme) => theme.featured)
-			.map((theme) => ({
-				icon: "Notebook",
-				name: theme.name,
-				href: theme.url,
-			})),
-	},
-	{
-		name: t("global_search.heading_palette"),
-		items: roleKeys.map((role) => ({
-			color: `hsl(var(--color-${roles[role].id}))`,
-			name: roles[role].name,
-			href: `/palette#${roles[role].id}`,
-		})),
-	},
-	{
-		name: t("global_search.heading_community"),
-		items: [
-			{
-				icon: "BrandGithubFilled",
-				name: "GitHub",
-				href: "https://github.com/rose-pine",
-			},
-			{
-				icon: "BrandDiscordFilled",
-				name: "Discord",
-				href: "https://discord.gg/r6wf35KVJW",
-			},
-			{
-				icon: "BrandTwitterFilled",
-				name: "Twitter",
-				href: "https://twitter.com/rosepinetheme",
-			},
-		],
-	},
-];
 
 const menu = [
 	[t("navigation.themes"), "/themes"],
@@ -197,43 +118,35 @@ const menu = [
 				</li>
 			</ul>
 		</nav>
+
+		<nav aria-label="Main" class="hidden md:flex">
+			<ul role="list" class="flex items-center gap-3">
+				{
+					menu.map(([name, href]) => (
+						<li>
+							<a
+								href={localizePath(href)}
+								aria-current={isCurrentPage(href) ? "page" : undefined}
+								class="rounded-md px-2.5 py-1.5 text-[15px] font-semibold transition hover:bg-muted/10 focus:outline-none focus:ring focus:ring-inset"
+							>
+								{name}
+							</a>
+						</li>
+					))
+				}
+
+				<li class="h-6 border-r" aria-hidden="true"></li>
+
+				<li><LanguageSelect /></li>
+
+				<li class="h-6 border-r" aria-hidden="true"></li>
+
+				<li>
+					<CommandMenuTrigger client:load size="sm">
+						{t("global_search.trigger")}
+					</CommandMenuTrigger>
+				</li>
+			</ul>
+		</nav>
 	</div>
-
-	<nav aria-label="Main" class="hidden md:flex">
-		<ul role="list" class="flex items-center gap-3">
-			{
-				menu.map(([name, href]) => (
-					<li>
-						<a
-							href={localizePath(href)}
-							aria-current={isCurrentPage(href) ? "page" : undefined}
-							class="rounded-md px-2.5 py-1.5 text-[15px] font-semibold transition hover:bg-muted/10 focus:outline-none focus:ring focus:ring-inset"
-						>
-							{name}
-						</a>
-					</li>
-				))
-			}
-
-			<li class="h-6 border-r" aria-hidden="true"></li>
-
-			<li><LanguageSelect /></li>
-
-			<li class="h-6 border-r" aria-hidden="true"></li>
-
-			<li>
-				<CommandMenu
-					client:load
-					groups={groups}
-					triggerText={t("global_search.trigger")}
-					searchText={t("global_search.placeholder")}
-					emptyText={t("global_search.empty_text")}
-					emptyResults={[
-						[t("global_search.empty_result_1"), localizePath("/themes")],
-						[t("global_search.empty_result_2"), localizePath("/resources")],
-					]}
-				/>
-			</li>
-		</ul>
-	</nav>
 </header>

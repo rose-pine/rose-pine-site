@@ -1,8 +1,13 @@
 ---
+import { t } from "i18next";
+import { localizePath } from "astro-i18next";
+import { roles, roleKeys } from "@rose-pine/palette";
 import { HeadHrefLangs } from "astro-i18next/components";
 import Banner from "$components/banner.svelte";
 import Header from "$components/header.astro";
 import Footer from "$components/footer.svelte";
+import CommandMenu from "$components/command-menu";
+import { themes } from "$data/themes";
 import { pathname } from "$store";
 import "../global.css";
 
@@ -16,6 +21,83 @@ const { title, description } = Astro.props;
 // Remove trailing slash if present
 // https://github.com/withastro/astro/issues/5630
 pathname.set(Astro.url.pathname.replace(/(\/.*?)\/$/, "$1"));
+
+const groups = [
+	{
+		name: t("global_search.heading_pages"),
+		items: [
+			{
+				icon: "Home",
+				name: t("navigation.home"),
+				href: localizePath("/"),
+			},
+			{
+				icon: "Sailboat",
+				name: t("navigation.themes"),
+				href: localizePath("/themes"),
+			},
+			{
+				icon: "Palette",
+				name: t("navigation.palette"),
+				href: localizePath("/palette"),
+			},
+			{
+				icon: "Salt",
+				name: t("navigation.ingredients"),
+				href: localizePath("/palette/ingredients"),
+			},
+			{
+				icon: "FileDescription",
+				name: t("navigation.resources"),
+				href: localizePath("/resources"),
+			},
+		],
+	},
+	{
+		name: t("global_search.heading_themes"),
+		featuredName: t("global_search.heading_featured_themes"),
+		items: themes.map((theme) => ({
+			icon: "Notebook",
+			name: theme.name,
+			href: theme.url,
+		})),
+		featuredItems: themes
+			.filter((theme) => theme.featured)
+			.map((theme) => ({
+				icon: "Notebook",
+				name: theme.name,
+				href: theme.url,
+			})),
+	},
+	{
+		name: t("global_search.heading_palette"),
+		items: roleKeys.map((role) => ({
+			color: `hsl(var(--color-${roles[role].id}))`,
+			name: roles[role].name,
+			href: `/palette#${roles[role].id}`,
+		})),
+	},
+	{
+		name: t("global_search.heading_community"),
+		items: [
+			{
+				icon: "BrandGithubFilled",
+				name: "GitHub",
+				href: "https://github.com/rose-pine",
+			},
+			{
+				icon: "BrandDiscordFilled",
+				name: "Discord",
+				href: "https://discord.gg/r6wf35KVJW",
+			},
+			{
+				icon: "BrandTwitterFilled",
+				name: "Twitter",
+				href: "https://twitter.com/rosepinetheme",
+			},
+		],
+	},
+];
 ---
 
 <html lang="en">
@@ -52,5 +134,16 @@ pathname.set(Astro.url.pathname.replace(/(\/.*?)\/$/, "$1"));
 		</main>
 
 		<Footer />
+
+		<CommandMenu
+			client:load
+			groups={groups}
+			searchText={t("global_search.placeholder")}
+			emptyText={t("global_search.empty_text")}
+			emptyResults={[
+				[t("global_search.empty_result_1"), localizePath("/themes")],
+				[t("global_search.empty_result_2"), localizePath("/resources")],
+			]}
+		/>
 	</body>
 </html>
