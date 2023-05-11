@@ -31,8 +31,7 @@
 		"title": "Themes",
 		"description": "Hand-crafted collection of personalisation.",
 		"tagline": "{{numberOfPorts}} ports & {{numberOfAuthors}} authors",
-		"search_label": "Search themes...",
-		"decorations_label": "Decorations"
+		"search_label": "Search themes..."
 	},
 	"palette": {
 		"title": "Palette",
@@ -45,7 +44,8 @@
 	},
 	"ingredients": {
 		"title": "Ingredients",
-		"description": "Formatted colour values."
+		"description": "Formatted colour values.",
+		"decorations_label": "Decorations"
 	},
 	"resources": {
 		"title": "Resources",

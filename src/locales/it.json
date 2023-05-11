@@ -31,8 +31,7 @@
 		"title": "Temi",
 		"description": "Collezione artigianale di personalizzazione.",
 		"tagline": "{{numberOfPorts}} porti & {{numberOfAuthors}} autori",
-		"search_label": "Cerca temi...",
-		"decorations_label": "Decorazioni"
+		"search_label": "Cerca temi..."
 	},
 	"palette": {
 		"title": "Tavolozza",
@@ -45,7 +44,8 @@
 	},
 	"ingredients": {
 		"title": "Ingredienti",
-		"description": "Valori di colore formattati."
+		"description": "Valori di colore formattati.",
+		"decorations_label": "Decorazioni"
 	},
 	"resources": {
 		"title": "Risorse",
