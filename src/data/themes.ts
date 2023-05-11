@@ -38,7 +38,11 @@ orgMembers.map((member) => {
 
 const themes = [
 	...orgRepos
-		.filter((repo) => repo.repositoryTopics.includes("theme"))
+		.filter(
+			(repo) =>
+				repo.repositoryTopics.includes("theme") &&
+				repo.name !== "rose-pine-template"
+		)
 		.map((repo) => ({
 			name: repo.description
 				? repo.description.replace("Soho vibes for ", "")
