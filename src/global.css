@@ -233,7 +233,7 @@ details summary::-webkit-details-marker {
 }
 
 [cmdk-root] {
-	@apply absolute inset-x-0 bottom-0 z-30 mx-auto max-w-xl rounded-b-none rounded-t-xl border before:absolute before:inset-0 before:z-[-1] before:bg-surface supports-[backdrop-filter]:before:bg-surface/95 supports-[backdrop-filter]:before:backdrop-blur-md sm:bottom-auto sm:rounded-b-xl;
+	@apply absolute inset-x-0 bottom-0 z-30 mx-auto max-w-xl overflow-hidden rounded-b-none rounded-t-xl border before:absolute before:inset-0 before:z-[-1] before:bg-surface supports-[backdrop-filter]:before:bg-surface/95 supports-[backdrop-filter]:before:backdrop-blur-md sm:bottom-auto sm:rounded-b-xl;
 }
 
 [cmdk-input-container] {
