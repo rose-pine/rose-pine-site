@@ -64,7 +64,7 @@
 	<ul
 		id="language-dropdown"
 		role="list"
-		class="invisible absolute -right-[4px] top-[calc(100%-4px)] z-20 w-40 origin-top-right scale-[.97] rounded-md bg-surface px-3 py-1.5 opacity-0 shadow-lg transition group-focus-within:visible group-focus-within:scale-100 group-focus-within:opacity-100 group-hover:visible group-hover:scale-100 group-hover:opacity-100"
+		class="invisible absolute -right-[4px] top-[calc(100%-4px)] z-20 w-40 origin-top-right scale-[.97] rounded-md bg-surface p-2 opacity-0 shadow-lg transition group-focus-within:visible group-focus-within:scale-100 group-focus-within:opacity-100 group-hover:visible group-hover:scale-100 group-hover:opacity-100"
 	>
 		{#each supportedLanguages as supportedLanguage}
 			{@const nativeName = ISO6991.getNativeName(supportedLanguage)}
@@ -76,7 +76,7 @@
 					aria-current={supportedLanguage === currentLanguage}
 					class="{supportedLanguage === currentLanguage
 						? 'pointer-events-none text-muted'
-						: 'text-text hover:bg-muted/10'} -mx-1.5 flex h-8 items-center rounded-md px-1.5 text-[15px] font-medium transition focus:outline-none focus:ring"
+						: 'text-text hover:bg-muted/10'} flex h-8 items-center rounded-md px-2 text-[15px] font-medium transition focus:outline-none focus:ring"
 					>{nativeName}</a
 				>
 			</li>
