@@ -27,5 +27,5 @@ themes are not required to follow our recommended colour usages.
 1. Update your colours to match our [palette](/palette/ingredients),
    optionally using the [build tool](https://github.com/rose-pine/build).
 2. Add your theme to the [community
-   list](https://github.com/rose-pine/rose-pine-site/blob/main/src/data/community-themes.json)
+   list](https://github.com/rose-pine/rose-pine-site/blob/main/src/data/community-repos.json)
    featured on the Rosé Pine website.
