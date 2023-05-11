@@ -1,6 +1,70 @@
 {
+	"navigation": {
+		"home": "Maison",
+		"themes": "Thèmes",
+		"palette": "Palette",
+		"ingredients": "Ingrédients",
+		"resources": "Ressources",
+		"languages": "Langues"
+	},
 	"home": {
 		"title": "Quelque chose de beau",
-		"description": "Pin naturel, fausse fourrure et un peu d'ambiance soho pour le minimaliste chic."
+		"description": "Pin naturel, fausse fourrure et un peu d'ambiance soho pour le minimaliste chic.",
+		"discover_button": "Découvrir",
+		"feature_card_1": {
+			"title": "Esthétique subtile",
+			"description": "Offrez à vos yeux une pause bien méritée avec notre palette douce et confortable.",
+			"link": "Notre palette"
+		},
+		"feature_card_2": {
+			"title": "Humeurs adaptatives",
+			"description": "Profitez de variantes adaptées à chaque heure de votre journée.",
+			"link": "Parcourir les thèmes"
+		},
+		"feature_card_3": {
+			"title": "Animé par la communauté",
+			"description": "Vous avez contribué à apporter Rosé Pine à plus de {{numberOfPorts}} de vos applications préférées.",
+			"link": "Être impliqué"
+		}
+	},
+	"themes": {
+		"title": "Thèmes",
+		"description": "Collection artisanale de personnalisation.",
+		"tagline": "{{numberOfPorts}} ports & {{numberOfAuthors}} auteurs",
+		"search_label": "Rechercher des thèmes..."
+	},
+	"palette": {
+		"title": "Palette",
+		"description": "Couleurs organisées, créations infinies.",
+		"tagline": "{{numberOfVariants}} variantes & {{numberOfColors}} couleurs",
+		"tabs": {
+			"swatches": "Énchantillons",
+			"ingredients": "Ingrédients"
+		}
+	},
+	"ingredients": {
+		"title": "Ingrédients",
+		"description": "Valeurs de couleur formatées.",
+		"decorations_label": "Décorations"
+	},
+	"resources": {
+		"title": "Ressources",
+		"description": "Une boîte à outils légère pour les contributeurs.",
+		"help_link": "Obtenez de l'aide sur notre Discord"
+	},
+	"global_search": {
+		"trigger": "Recherche",
+		"placeholder": "Recherche de pages, thèmes et palette...",
+		"empty_text": "Aucun résultat trouvé.",
+		"empty_result_1": "Parcourir tous les thèmes",
+		"empty_result_2": "Contribuer au Rosé Pine",
+		"heading_pages": "Pages",
+		"heading_themes": "Thèmes",
+		"heading_featured_themes": "Thèmes en vedette",
+		"heading_palette": "Palette",
+		"heading_community": "Communauté"
+	},
+	"shared": {
+		"read_more": "En savoir plus"
 	}
 }

@@ -1,0 +1,70 @@
+{
+	"navigation": {
+		"home": "Hem",
+		"themes": "Teman",
+		"palette": "Palett",
+		"ingredients": "Ingredienser",
+		"resources": "Resurser",
+		"languages": "Språk"
+	},
+	"home": {
+		"title": "Något vackert",
+		"description": "Helt naturlig tall, konstpäls och lite soho-vibbar för den stiliga minimalisten.",
+		"discover_button": "Utforska",
+		"feature_card_1": {
+			"title": "Subtil estetik",
+			"description": "Ge dina ögon en välförtjänt paus med vår mjuka och mysiga palett.",
+			"link": "Vår palett"
+		},
+		"feature_card_2": {
+			"title": "Adaptiva stämningar",
+			"description": "Njut av varianter anpassade för varenda timme av din dag.",
+			"link": "Utforska teman"
+		},
+		"feature_card_3": {
+			"title": "Driven av vår community",
+			"description": "Ni hjälpte till att få Rose Piné till mer än {{numberOfPorts}} av dina favoritappar.",
+			"link": "Engagera dig"
+		}
+	},
+	"themes": {
+		"title": "Teman",
+		"description": "Handgjord kollektion av personalisering.",
+		"tagline": "{{numberOfPorts}} verisioner & {{numberOfAuthors}} författare",
+		"search_label": "Sök teman..."
+	},
+	"palette": {
+		"title": "Palett",
+		"description": "Utvalda färger, oändliga möjligheter.",
+		"tagline": "{{numberOfVariants}} varianter & {{numberOfColors}} fårger",
+		"tabs": {
+			"swatches": "Fårgprover",
+			"ingredients": "Ingredienser"
+		}
+	},
+	"ingredients": {
+		"title": "Ingredienser",
+		"description": "Formaterade färgvärden.",
+		"decorations_label": "Dekorationer"
+	},
+	"resources": {
+		"title": "Resurser",
+		"description": "En lätt verktygslåda för bidragsgivare.",
+		"help_link": "Få hjälp med vår Discord"
+	},
+	"global_search": {
+		"trigger": "Sök",
+		"placeholder": "Sök sidor, teman och palett...",
+		"empty_text": "Inga resultat funna.",
+		"empty_result_1": "Bläddra bland alla teman",
+		"empty_result_2": "Bidra till Rosé Pine",
+		"heading_pages": "Sidor",
+		"heading_themes": "Teman",
+		"heading_featured_themes": "Utvalda teman",
+		"heading_palette": "Palett",
+		"heading_community": "Gemenskap"
+	},
+	"shared": {
+		"read_more": "Läs mer"
+	}
+}

@@ -1,6 +1,70 @@
 {
+	"navigation": {
+		"home": "Zuhause",
+		"themes": "Themen",
+		"palette": "Palette",
+		"ingredients": "Zusammensetzung",
+		"resources": "Ressourcen",
+		"languages": "Sprachen"
+	},
 	"home": {
 		"title": "Etwas Wunder&shy;schönes",
-		"description": "Natürliche Kiefer, Kunstpelz und ein ein paar Soho Vibes für den stilvollen Minimalisten."
+		"description": "Natürliche Kiefer, Kunstpelz und ein ein paar Soho Vibes für den stilvollen Minimalisten.",
+		"discover_button": "Entdecke mehr",
+		"feature_card_1": {
+			"title": "Subtile Ästhetik",
+			"description": "Erlaube deinen Augen eine wohlverdiente Pause mit unserer sanften und komfortablen Farbpalette.",
+			"link": "Unsere Palette"
+		},
+		"feature_card_2": {
+			"title": "Verschiedene Stimmungen",
+			"description": "Genieße Variationen passend zu jeder Stunde des Tages.",
+			"link": "Themen durchsuchen"
+		},
+		"feature_card_3": {
+			"title": "Realisiert von Euch",
+			"description": "Ihr habt geholfen Rosé Pine für über {{numberOfPorts}} Apps herauszubringen.",
+			"link": "Beteiligen Sie sich"
+		}
+	},
+	"themes": {
+		"title": "Themen",
+		"description": "Handgefertigte Kollektion zur Personalisierung.",
+		"tagline": "{{numberOfPorts}} Portierungen & {{numberOfAuthors}} Autoren",
+		"search_label": "Suchthemen..."
+	},
+	"palette": {
+		"title": "Palette",
+		"description": "Ausgewählte Farben, endlose Kreationsmöglichkeiten.",
+		"tagline": "{{numberOfVariants}} Varianten & {{numberOfColors}} Farben",
+		"tabs": {
+			"swatches": "Farbfelder",
+			"ingredients": "Zusammensetzung"
+		}
+	},
+	"ingredients": {
+		"title": "Zusammensetzung",
+		"description": "Formatierte Farbwerte.",
+		"decorations_label": "Dekorationen"
+	},
+	"resources": {
+		"title": "Ressourcen",
+		"description": "Eine leichte Toolbox für Mitwirkende.",
+		"help_link": "Holen Sie sich Hilfe auf unserem Discord"
+	},
+	"global_search": {
+		"trigger": "Suchen",
+		"placeholder": "Suchseiten, Themen und Palette...",
+		"empty_text": "Keine Ergebnisse gefunden.",
+		"empty_result_1": "Durchsuchen Sie alle Themen",
+		"empty_result_2": "Beitragen zu Rosé Pine",
+		"heading_pages": "Seiten",
+		"heading_themes": "Themen",
+		"heading_featured_themes": "Vorgestellten Themen",
+		"heading_palette": "Palette",
+		"heading_community": "Gemeinschaft"
+	},
+	"shared": {
+		"read_more": "Weiterlesen"
 	}
 }

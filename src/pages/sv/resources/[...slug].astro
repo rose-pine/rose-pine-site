@@ -1,0 +1,106 @@
+---
+import i18next, { changeLanguage } from "i18next";
+import { localizePath } from "astro-i18next";
+import { getCollection, type CollectionEntry } from "astro:content";
+import Layout from "$layouts/base.astro";
+import PageIntro from "$components/page-intro.svelte";
+import Link from "$components/link.svelte";
+import { tools } from "$data/tools";
+
+changeLanguage("sv");
+
+const currentLanguage = i18next.language ?? "en";
+export async function getStaticPaths() {
+	const guides = await getCollection("guides");
+	return guides.map((entry) => {
+		const path = entry.slug.substring(3);
+		return {
+			params: { slug: path },
+			props: { entry, guides },
+		};
+	});
+}
+export type Props = {
+	entry: CollectionEntry<"guides">;
+	guides: CollectionEntry<"guides">[];
+};
+const { entry, guides } = Astro.props;
+const entryPath = entry.id.substring(3);
+const pathsWithTranslations = new Set<string>();
+guides.forEach(({ id }) => {
+	const path = id.substring(3);
+	const hasTranslation = id.startsWith(`${currentLanguage}/`);
+	if (hasTranslation) {
+		pathsWithTranslations.add(path);
+	}
+});
+const entryLanguage = pathsWithTranslations.has(entryPath)
+	? currentLanguage
+	: "en";
+const entryToRender =
+	guides.find(({ id }) => id === `${entryLanguage}/${entryPath}`) ?? entry;
+const { Content } = await entryToRender.render();
+---
+
+<Layout
+	title={entryToRender.data.title}
+	description={entryToRender.data.description}
+>
+	<div class="grid grid-cols-1 gap-20 lg:grid-cols-[auto,1fr]">
+		<div>
+			<PageIntro
+				heading={entryToRender.data.title}
+				subheading={entryToRender.data.description}
+			/>
+
+			<ul class="animate-enter mt-10 hidden lg:block" style="--stagger: 2">
+				<li
+					class="tracking-loose text-xs font-medium uppercase leading-loose text-subtle"
+				>
+					Resources
+				</li>
+				{
+					guides
+						.filter(({ id }) => {
+							const locale = id.substring(0, 2);
+							const path = id.substring(3);
+							const hasTranslation = pathsWithTranslations.has(path);
+
+							return (
+								(!hasTranslation && locale === "en") ||
+								(hasTranslation && locale === currentLanguage)
+							);
+						})
+						.sort((a, b) => b.data.priority - a.data.priority)
+						.map(({ slug, data }) => {
+							const locale = slug.substring(0, 2);
+							const path = slug.substring(3);
+							const localizedPath = localizePath(
+								`/resources/${path}`,
+								locale === currentLanguage ? locale : undefined
+							);
+							return (
+								<li class="leading-loose">
+									<Link href={localizedPath} decorations={false}>
+										{data.title}
+									</Link>
+								</li>
+							);
+						})
+				}
+				<hr class="my-3" />
+				{
+					tools.map(({ name, href }) => (
+						<li class="leading-loose">
+							<Link href={href}>{name}</Link>
+						</li>
+					))
+				}
+			</ul>
+		</div>
+
+		<article class="animate-enter" style="--stagger: 2">
+			<Content />
+		</article>
+	</div>
+</Layout>

@@ -1,6 +1,70 @@
 {
+	"navigation": {
+		"home": "Naar huis",
+		"themes": "Thema's",
+		"palette": "Palet",
+		"ingredients": "Ingrediënten",
+		"resources": "Bronnen",
+		"languages": "Talen"
+	},
 	"home": {
 		"title": "Iets prachtig",
-		"description": "Natuurlijke denne, nepbont en een beetje soho vibes voor de stijlvolle minimalist."
+		"description": "Natuurlijke denne, nepbont en een beetje soho vibes voor de stijlvolle minimalist.",
+		"discover_button": "Ontdek",
+		"feature_card_1": {
+			"title": "Subtiele sfeer",
+			"description": "Geef je ogen een welverdiende pauze met onze zachte, comfortable palet.",
+			"link": "Ons palet"
+		},
+		"feature_card_2": {
+			"title": "Veelzijdige stemmingen",
+			"description": "Geniet van op maat gemaakte varianten voor elk uur van je dag.",
+			"link": "Blader door thema's"
+		},
+		"feature_card_3": {
+			"title": "Gedreven door de gemeenschap",
+			"description": "Jullie hielpen Rosé Pine naar meer dan {{numberOfPorts}} van je favoriete apps te brengen.",
+			"link": "Raak betrokken"
+		}
+	},
+	"themes": {
+		"title": "Thema's",
+		"description": "Handgemaakte collectie van personalisatie.",
+		"tagline": "{{numberOfPorts}} ports & {{numberOfAuthors}} auteurs",
+		"search_label": "Zoek thema's..."
+	},
+	"palette": {
+		"title": "Palet",
+		"description": "Samengestelde kleuren, oneindige mogelijkheden.",
+		"tagline": "{{numberOfVariants}} varianten & {{numberOfColors}} kleuren",
+		"tabs": {
+			"swatches": "Kleurstalen",
+			"ingredients": "Ingrediënten"
+		}
+	},
+	"ingredients": {
+		"title": "Ingrediënten",
+		"description": "Opgemaakte kleurwaarden.",
+		"decorations_label": "Versieringen"
+	},
+	"resources": {
+		"title": "Bronnen",
+		"description": "Een lichte toolbox voor bijdragers.",
+		"help_link": "Krijg hulp op onze Discord"
+	},
+	"global_search": {
+		"trigger": "Zoekopdracht",
+		"placeholder": "Zoek pagina's, thema's en palet...",
+		"empty_text": "Geen resultaten gevonden.",
+		"empty_result_1": "Blader door alle thema's",
+		"empty_result_2": "Draag bij aan Rosé Pine",
+		"heading_pages": "Pagina's",
+		"heading_themes": "Thema's",
+		"heading_featured_themes": "Aanbevolen thema's",
+		"heading_palette": "Palet",
+		"heading_community": "Gemeenschap"
+	},
+	"shared": {
+		"read_more": "Lees verder"
 	}
 }

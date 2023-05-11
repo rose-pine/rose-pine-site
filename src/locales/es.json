@@ -1,6 +1,70 @@
 {
+	"navigation": {
+		"home": "Casa",
+		"themes": "Temes",
+		"palette": "Paleta",
+		"ingredients": "Ingredientes",
+		"resources": "Recursos",
+		"languages": "Idiomas"
+	},
 	"home": {
 		"title": "Algo bonito",
-		"description": "Pino natural, piel sintética y un poco de la atmósfera de Soho para el minimalista con clase."
+		"description": "Pino natural, piel sintética y un poco de la atmósfera de Soho para el minimalista con clase.",
+		"discover_button": "Descubrir",
+		"feature_card_1": {
+			"title": "Estética sutil",
+			"description": "Dale a tus ojos su merecida pausa con nuestros colores cómodos y suaves.",
+			"link": "Nuestra paleta"
+		},
+		"feature_card_2": {
+			"title": "Estados de ánimo adaptativos",
+			"description": "Disfruta de las variantes hechas a medida para todas las horas del día.",
+			"link": "Explorar temas"
+		},
+		"feature_card_3": {
+			"title": "Impulsado por la comunidad",
+			"description": "Vosotros sois los que habéis ayudado a hacer llegar Rosé Pine a {{numberOfPorts}} de vuestras aplicaciones favoritas.",
+			"link": "Involucrarse"
+		}
+	},
+	"themes": {
+		"title": "Temes",
+		"description": "Colección artesanal de personalización.",
+		"tagline": "{{numberOfPorts}} versiones & {{numberOfAuthors}} autores",
+		"search_label": "Buscar temas..."
+	},
+	"palette": {
+		"title": "Paleta",
+		"description": "Colores seleccionados, infinitas creaciones.",
+		"tagline": "{{numberOfVariants}} variantes & {{numberOfColors}} colores",
+		"tabs": {
+			"swatches": "Muestras",
+			"ingredients": "Ingredientes"
+		}
+	},
+	"ingredients": {
+		"title": "Ingredientes",
+		"description": "Valores de color formateados.",
+		"decorations_label": "Decoraciones"
+	},
+	"resources": {
+		"title": "Recursos",
+		"description": "Una caja de herramientas ligera para los colaboradores.",
+		"help_link": "Obtén ayuda en nuestro Discord"
+	},
+	"global_search": {
+		"trigger": "Buscar",
+		"placeholder": "Buscar páginas, temas y paletas...",
+		"empty_text": "No se han encontrado resultados.",
+		"empty_result_1": "Explorar todos los temas",
+		"empty_result_2": "Contribuye a Rosé Pine",
+		"heading_pages": "Páginas",
+		"heading_themes": "Temas",
+		"heading_featured_themes": "Temas destacados",
+		"heading_palette": "Paleta",
+		"heading_community": "Comunidad"
+	},
+	"shared": {
+		"read_more": "Leer más"
 	}
 }

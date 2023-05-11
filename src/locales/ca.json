@@ -1,6 +1,70 @@
 {
+	"navigation": {
+		"home": "Casa",
+		"themes": "Temes",
+		"palette": "Paleta",
+		"ingredients": "Ingredients",
+		"resources": "Recursos",
+		"languages": "Idiomes"
+	},
 	"home": {
 		"title": "Quelcom bonic",
-		"description": "Pi natural, pell sintètica, i atmosfera del Soho, pel minimalista amb classe."
+		"description": "Pi natural, pell sintètica, i atmosfera del Soho, pel minimalista amb classe.",
+		"discover_button": "Descobrir",
+		"feature_card_1": {
+			"title": "Estètica subtil",
+			"description": "Dona als teus ulls un descans merescut, amb els nostres colors suaus i comfortables.",
+			"link": "La nostra paleta"
+		},
+		"feature_card_2": {
+			"title": "Estats d'ànim adaptatius",
+			"description": "Gaudeix les diferents variants fetes a mida per cada hora del dia.",
+			"link": "Navega per temes"
+		},
+		"feature_card_3": {
+			"title": "Impulsat per la comunitat",
+			"description": "Vosaltres sou els que heu ajudat a fer arribat Rosé Pine a més de {{numberOfPorts}} de les vostres aplicacions preferides.",
+			"link": "Implica't"
+		}
+	},
+	"themes": {
+		"title": "Temes",
+		"description": "Col·lecció de personalització feta a mà.",
+		"tagline": "{{numberOfPorts}} ports & {{numberOfAuthors}} autors",
+		"search_label": "Cerca temes..."
+	},
+	"palette": {
+		"title": "Palete",
+		"description": "Colors acuradament escollits, per creacions il·limitades.",
+		"tagline": "{{numberOfVariants}} variants & {{numberOfColors}} colors",
+		"tabs": {
+			"swatches": "Mostres",
+			"ingredients": "Ingredients"
+		}
+	},
+	"ingredients": {
+		"title": "Ingredients",
+		"description": "Valors de color formatats.",
+		"decorations_label": "Decoracions"
+	},
+	"resources": {
+		"title": "Recursos",
+		"description": "Una caixa d'eines lleugera per als col·laboradors.",
+		"help_link": "Obteniu ajuda amb el nostre Discord"
+	},
+	"global_search": {
+		"trigger": "Cerca",
+		"placeholder": "Cerca pàgines, temes i paleta...",
+		"empty_text": "Sense resultats.",
+		"empty_result_1": "Navega per tots els temes",
+		"empty_result_2": "Contribuir a Rosé Pine",
+		"heading_pages": "Pàgines",
+		"heading_themes": "Temes",
+		"heading_featured_themes": "Temes destacats",
+		"heading_palette": "Paleta",
+		"heading_community": "Comunitat"
+	},
+	"shared": {
+		"read_more": "Llegeix més"
 	}
 }
