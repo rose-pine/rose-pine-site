@@ -273,7 +273,7 @@
 		"has_variants": true
 	},
 	{
-		"name": "Tmux",
+		"name": "tmux",
 		"url": "https://github.com/mrs4ndman/rose-pine-tmux",
 		"tags": ["app", "terminal", "tmux"],
 		"authors": [
