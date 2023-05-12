@@ -1,5 +1,25 @@
 [
 	{
+		"description": "Soho vibes for tmux",
+		"homepageUrl": "",
+		"name": "tmux",
+		"repositoryTopics": ["app", "terminal", "tmux", "theme"],
+		"stargazerCount": 1,
+		"updatedAt": "2023-05-12T22:38:10Z",
+		"url": "https://github.com/rose-pine/tmux",
+		"usesCustomOpenGraphImage": true
+	},
+	{
+		"description": "Soho vibes for nomacs",
+		"homepageUrl": "",
+		"name": "nomacs",
+		"repositoryTopics": ["theme", "rose-pine", "soho-vibes"],
+		"stargazerCount": 0,
+		"updatedAt": "2023-05-12T17:16:52Z",
+		"url": "https://github.com/rose-pine/nomacs",
+		"usesCustomOpenGraphImage": false
+	},
+	{
 		"description": "Rosé Pine new repo template",
 		"homepageUrl": "",
 		"name": "rose-pine-template",
@@ -13,9 +33,9 @@
 		"description": "Soho vibes for PureRef",
 		"homepageUrl": "",
 		"name": "pureref",
-		"repositoryTopics": ["theme"],
+		"repositoryTopics": ["theme", "soho-vibes", "rose-pine"],
 		"stargazerCount": 0,
-		"updatedAt": "2023-05-11T16:01:49Z",
+		"updatedAt": "2023-05-12T05:48:38Z",
 		"url": "https://github.com/rose-pine/pureref",
 		"usesCustomOpenGraphImage": true
 	},
@@ -23,9 +43,9 @@
 		"description": "Soho vibes for Geany",
 		"homepageUrl": "",
 		"name": "geany",
-		"repositoryTopics": ["theme"],
+		"repositoryTopics": ["theme", "rose-pine", "soho-vibes"],
 		"stargazerCount": 0,
-		"updatedAt": "2023-05-08T13:33:14Z",
+		"updatedAt": "2023-05-12T05:48:26Z",
 		"url": "https://github.com/rose-pine/geany",
 		"usesCustomOpenGraphImage": false
 	},
@@ -43,8 +63,8 @@
 			"visual-studio-code",
 			"editor"
 		],
-		"stargazerCount": 349,
-		"updatedAt": "2023-05-09T01:54:50Z",
+		"stargazerCount": 348,
+		"updatedAt": "2023-05-11T17:05:36Z",
 		"url": "https://github.com/rose-pine/vscode",
 		"usesCustomOpenGraphImage": true
 	},
@@ -61,8 +81,8 @@
 			"addon",
 			"firefox-extension"
 		],
-		"stargazerCount": 26,
-		"updatedAt": "2023-04-20T01:01:32Z",
+		"stargazerCount": 27,
+		"updatedAt": "2023-05-11T21:51:23Z",
 		"url": "https://github.com/rose-pine/firefox",
 		"usesCustomOpenGraphImage": true
 	},
@@ -99,8 +119,8 @@
 			"vim-theme",
 			"editor"
 		],
-		"stargazerCount": 1004,
-		"updatedAt": "2023-05-11T06:50:28Z",
+		"stargazerCount": 1009,
+		"updatedAt": "2023-05-12T19:53:40Z",
 		"url": "https://github.com/rose-pine/neovim",
 		"usesCustomOpenGraphImage": true
 	},
@@ -202,8 +222,8 @@
 			"soho-vibes",
 			"rose-pine"
 		],
-		"stargazerCount": 22,
-		"updatedAt": "2023-04-25T02:57:53Z",
+		"stargazerCount": 23,
+		"updatedAt": "2023-05-11T16:46:46Z",
 		"url": "https://github.com/rose-pine/google-chrome",
 		"usesCustomOpenGraphImage": true
 	},
@@ -309,8 +329,8 @@
 		"homepageUrl": "",
 		"name": "tailwind-css",
 		"repositoryTopics": ["tailwindcss", "theme", "tailwind"],
-		"stargazerCount": 5,
-		"updatedAt": "2023-05-01T10:23:43Z",
+		"stargazerCount": 6,
+		"updatedAt": "2023-05-12T08:18:56Z",
 		"url": "https://github.com/rose-pine/tailwind-css",
 		"usesCustomOpenGraphImage": false
 	},
@@ -419,8 +439,8 @@
 			"palette",
 			"aesthetic"
 		],
-		"stargazerCount": 858,
-		"updatedAt": "2023-05-10T16:25:49Z",
+		"stargazerCount": 861,
+		"updatedAt": "2023-05-12T19:09:15Z",
 		"url": "https://github.com/rose-pine/rose-pine-theme",
 		"usesCustomOpenGraphImage": true
 	},
@@ -728,8 +748,8 @@
 		"homepageUrl": "",
 		"name": "cava",
 		"repositoryTopics": ["theme"],
-		"stargazerCount": 4,
-		"updatedAt": "2022-12-27T19:39:37Z",
+		"stargazerCount": 5,
+		"updatedAt": "2023-05-12T20:59:38Z",
 		"url": "https://github.com/rose-pine/cava",
 		"usesCustomOpenGraphImage": true
 	},
@@ -829,8 +849,8 @@
 			"terminal",
 			"terminal-emulator"
 		],
-		"stargazerCount": 19,
-		"updatedAt": "2023-04-29T13:36:03Z",
+		"stargazerCount": 20,
+		"updatedAt": "2023-05-12T18:53:22Z",
 		"url": "https://github.com/rose-pine/windows-terminal",
 		"usesCustomOpenGraphImage": true
 	},
