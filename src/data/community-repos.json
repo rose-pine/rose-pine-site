@@ -273,6 +273,15 @@
 		"has_variants": true
 	},
 	{
+		"name": "Tmux",
+		"url": "https://github.com/mrs4ndman/rose-pine-tmux",
+		"tags": ["app", "terminal", "tmux"],
+		"authors": [
+			{ "name": "Juan M", "url": "https://github.com/mrs4ndman" }
+		],
+		"has_variants": false
+	},
+	{
 		"name": "Twitter",
 		"url": "https://github.com/apriltaoyvr/twitter-rose-pine",
 		"tags": ["web-ui", "social"],
