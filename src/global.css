@@ -241,7 +241,7 @@ details summary::-webkit-details-marker {
 }
 
 [cmdk-input] {
-	@apply h-full w-full bg-transparent text-sm placeholder:text-muted focus:outline-none;
+	@apply h-full w-full bg-transparent text-[16px] placeholder:text-muted focus:outline-none sm:text-sm;
 }
 
 [cmdk-list] {
