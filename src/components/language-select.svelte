@@ -2,7 +2,7 @@
 	import i18next, { t } from "i18next";
 	import { localizePath } from "astro-i18next";
 	import ISO6991 from "iso-639-1";
-	import { pathname } from "../store";
+	import { pathname } from "$store";
 
 	let activator: HTMLElement;
 

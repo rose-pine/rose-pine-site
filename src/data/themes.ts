@@ -24,9 +24,9 @@ import {
 	IconWorld,
 	IconWorldSearch,
 } from "$components/icons";
-import orgRepos from "./org-repos.json";
-import orgMembers from "./org-members.json";
-import communityRepos from "./community-repos.json";
+import orgRepos from "$data/org-repos.json";
+import orgMembers from "$data/org-members.json";
+import communityRepos from "$data/community-repos.json";
 
 const authors = new Set();
 orgMembers.map((member) => {
