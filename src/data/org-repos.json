@@ -22,8 +22,8 @@
 		"homepageUrl": "",
 		"name": "tmux",
 		"repositoryTopics": ["app", "terminal", "tmux", "theme"],
-		"stargazerCount": 2,
-		"updatedAt": "2023-05-15T22:14:06Z",
+		"stargazerCount": 3,
+		"updatedAt": "2023-05-19T01:26:20Z",
 		"url": "https://github.com/rose-pine/tmux",
 		"usesCustomOpenGraphImage": true
 	},
@@ -82,7 +82,7 @@
 			"editor"
 		],
 		"stargazerCount": 349,
-		"updatedAt": "2023-05-12T22:52:37Z",
+		"updatedAt": "2023-05-19T08:53:59Z",
 		"url": "https://github.com/rose-pine/vscode",
 		"usesCustomOpenGraphImage": true
 	},
@@ -137,8 +137,8 @@
 			"vim-theme",
 			"editor"
 		],
-		"stargazerCount": 1026,
-		"updatedAt": "2023-05-17T11:43:28Z",
+		"stargazerCount": 1031,
+		"updatedAt": "2023-05-19T14:30:42Z",
 		"url": "https://github.com/rose-pine/neovim",
 		"usesCustomOpenGraphImage": true
 	},
@@ -440,7 +440,7 @@
 			"aesthetic"
 		],
 		"stargazerCount": 865,
-		"updatedAt": "2023-05-17T10:07:13Z",
+		"updatedAt": "2023-05-18T10:12:37Z",
 		"url": "https://github.com/rose-pine/rose-pine-theme",
 		"usesCustomOpenGraphImage": true
 	},
@@ -459,8 +459,8 @@
 		"homepageUrl": "",
 		"name": "fish",
 		"repositoryTopics": ["theme", "fish", "soho-vibes", "rose-pine", "shell"],
-		"stargazerCount": 10,
-		"updatedAt": "2023-03-27T18:56:23Z",
+		"stargazerCount": 9,
+		"updatedAt": "2023-05-18T15:22:13Z",
 		"url": "https://github.com/rose-pine/fish",
 		"usesCustomOpenGraphImage": true
 	},
@@ -596,8 +596,8 @@
 		"homepageUrl": "",
 		"name": "daisyui",
 		"repositoryTopics": ["theme"],
-		"stargazerCount": 3,
-		"updatedAt": "2023-04-16T23:28:05Z",
+		"stargazerCount": 4,
+		"updatedAt": "2023-05-19T13:26:07Z",
 		"url": "https://github.com/rose-pine/daisyui",
 		"usesCustomOpenGraphImage": false
 	},
@@ -883,8 +883,8 @@
 			"terminal",
 			"terminal-emulator"
 		],
-		"stargazerCount": 47,
-		"updatedAt": "2023-05-15T11:54:03Z",
+		"stargazerCount": 48,
+		"updatedAt": "2023-05-19T00:11:39Z",
 		"url": "https://github.com/rose-pine/iterm",
 		"usesCustomOpenGraphImage": true
 	},
