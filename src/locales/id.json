@@ -1,0 +1,70 @@
+{
+	"navigation": {
+		"home": "Beranda",
+		"themes": "Tema",
+		"palette": "Palet",
+		"ingredients": "Bahan",
+		"resources": "Sumber",
+		"languages": "Bahasa"
+	},
+	"home": {
+		"title": "Sesuatu yang indah",
+		"description": "Semua pinus alami, bulu tiruan dan sedikit kesan soho untuk gaya minimalis yang berkelas.",
+		"discover_button": "Temukan",
+		"feature_card_1": {
+			"title": "Estetika yang halus",
+			"description": "Berikan mata Anda istirahat yang layak dengan palet kami yang lembut dan nyaman.",
+			"link": "Palet kami"
+		},
+		"feature_card_2": {
+			"title": "Suasana hati yang adaptif",
+			"description": "Nikmati varian yang disesuaikan untuk setiap jam dalam hari Anda.",
+			"link": "Telusuri tema"
+		},
+		"feature_card_3": {
+			"title": "Dibangun oleh komunitas",
+			"description": "Anda telah membantu membawa Rosé Pine ke lebih dari {{numberOfPorts}} aplikasi favorit Anda.",
+			"link": "Ikut terlibat"
+		}
+	},
+	"themes": {
+		"title": "Tema",
+		"description": "Koleksi personalisasi yang dibuat dengan tangan.",
+		"tagline": "{{numberOfPorts}} port & {{numberOfAuthors}} perancang",
+		"search_label": "Cari tema..."
+	},
+	"palette": {
+		"title": "Palet",
+		"description": "Warna-warna yang dipilih, kreasi yang tiada habisnya.",
+		"tagline": "{{numberOfVariants}} varian & {{numberOfColors}} warna",
+		"tabs": {
+			"swatches": "Sampel",
+			"ingredients": "Bahan"
+		}
+	},
+	"ingredients": {
+		"title": "Bahan",
+		"description": "Nilai warna yang diformat.",
+		"decorations_label": "Dekorasi"
+	},
+	"resources": {
+		"title": "Sumber",
+		"description": "Peralatan untuk kontributor.",
+		"help_link": "Dapatkan bantuan di Discord kami"
+	},
+	"global_search": {
+		"trigger": "Cari",
+		"placeholder": "Cari halaman, tema, dan palet...",
+		"empty_text": "Hasil tidak ditemukan.",
+		"empty_result_1": "Telusuri semua tema",
+		"empty_result_2": "Berkontribusi ke Rosé Pine",
+		"heading_pages": "halaman",
+		"heading_themes": "Tema",
+		"heading_featured_themes": "Tema unggulan",
+		"heading_palette": "Palet",
+		"heading_community": "Komunitas"
+	},
+	"shared": {
+		"read_more": "Baca selengkapnya"
+	}
+}
