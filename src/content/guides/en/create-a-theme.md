@@ -9,9 +9,9 @@ priority: 99
 We love and welcome themes from everyone. To add your creation to the Rosé
 Pine organisation, we ask that your theme follows our [palette
 specification](/palette) and your repository resembles our
-[template](https://github.com/rose-pine/template).
+[template](https://github.com/rose-pine/rose-pine-template).
 
-1. Use the [Rosé Pine template](https://github.com/rose-pine/template) as a
+1. Use the [Rosé Pine template](https://github.com/rose-pine/rose-pine-template) as a
    base for your new repository.
 2. Build your theme with the official [build
    tool](https://github.com/rose-pine/build) when possible to include all

@@ -9,9 +9,9 @@ priority: 99
 Kami menyukai dan menyambut baik tema dari semua orang. Untuk menambahkan
 kreasi Anda ke organisasi Rosé Pine, kami meminta agar tema Anda mengikuti
 [spesifikasi palet](/id/palette) kami dan repositori Anda menyesuaikan
-[template](https://github.com/rose-pine/template) kami.
+[template](https://github.com/rose-pine/rose-pine-template) kami.
 
-1. Gunakan [template Rosé Pine](https://github.com/rose-pine/template) sebagai
+1. Gunakan [template Rosé Pine](https://github.com/rose-pine/rose-pine-template) sebagai
    dasar untuk repositori baru Anda.
 2. Buat tema Anda dengan [build tool](https://github.com/rose-pine/build) resmi
    jika memungkinkan untuk menyertakan ketiga varian.
