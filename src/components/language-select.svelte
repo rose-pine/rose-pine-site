@@ -10,6 +10,7 @@
 	const currentLanguage = i18next.language;
 </script>
 
+<!-- svelte-ignore a11y-no-static-element-interactions -->
 <span
 	class="group relative inline-block"
 	on:mouseenter={() => activator.setAttribute("aria-expanded", "true")}

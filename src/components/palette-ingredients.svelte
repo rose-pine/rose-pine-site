@@ -69,7 +69,7 @@
 							{@const currentColor = currentRole.colors[variant]}
 							{@const formattedColor = formatColor(
 								currentColor,
-								$storage.decorations
+								$storage.decorations,
 							)}
 
 							<tr

@@ -1,8 +1,7 @@
 ---
-import { t } from "i18next";
-import { localizePath } from "astro-i18next";
+import i18next, { t } from "i18next";
+import { localizePath, localizeUrl } from "astro-i18next";
 import { roles, roleKeys } from "@rose-pine/palette";
-import { HeadHrefLangs } from "astro-i18next/components";
 import Banner from "$components/banner.svelte";
 import Header from "$components/header.astro";
 import Footer from "$components/footer.svelte";
@@ -17,6 +16,7 @@ export type Props = {
 };
 
 const { title, description } = Astro.props;
+const currentUrl = Astro.url.href;
 
 // Remove trailing slash if present
 // https://github.com/withastro/astro/issues/5630
@@ -109,7 +109,15 @@ const groups = [
 		<meta property="og:image" content="/assets/opengraph-image.jpg" />
 		<title>{title}</title>
 
-		<HeadHrefLangs />
+		{
+			i18next.languages.map((language) => (
+				<link
+					rel="alternate"
+					hreflang={language}
+					href={localizeUrl(currentUrl, language)}
+				/>
+			))
+		}
 	</head>
 
 	<body>

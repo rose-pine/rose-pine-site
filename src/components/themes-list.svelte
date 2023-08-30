@@ -5,7 +5,7 @@
 	import { queryTheme } from "$store";
 
 	$: filteredThemes = themes.filter((theme) =>
-		hasMatch(theme, $queryTheme, ["name", "tags"])
+		hasMatch(theme, $queryTheme, ["name", "tags"]),
 	);
 </script>
 

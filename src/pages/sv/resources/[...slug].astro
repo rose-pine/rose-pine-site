@@ -77,7 +77,7 @@ const { Content } = await entryToRender.render();
 							const path = slug.substring(3);
 							const localizedPath = localizePath(
 								`/resources/${path}`,
-								locale === currentLanguage ? locale : undefined
+								locale === currentLanguage ? locale : undefined,
 							);
 							return (
 								<li class="leading-loose">

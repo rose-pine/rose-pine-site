@@ -41,7 +41,7 @@ const themes = [
 		.filter(
 			(repo) =>
 				repo.repositoryTopics.includes("theme") &&
-				repo.name !== "rose-pine-template"
+				repo.name !== "rose-pine-template",
 		)
 		.map((repo) => ({
 			name: repo.description

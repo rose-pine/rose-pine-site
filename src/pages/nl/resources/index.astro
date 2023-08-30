@@ -60,7 +60,7 @@ const guides = await getCollection("guides", ({ id }) => {
 						const path = slug.substring(3);
 						const localizedPath = localizePath(
 							`/resources/${path}`,
-							locale === currentLanguage ? locale : undefined
+							locale === currentLanguage ? locale : undefined,
 						);
 						return (
 							<li>
