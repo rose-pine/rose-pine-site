@@ -7,6 +7,15 @@
 		"has_variants": true
 	},
 	{
+		"name": "Bibata Cursors",
+		"url": "https://github.com/harishnkr/Bibata-Original-Cursors",
+		"tags": ["palette"],
+		"authors": [
+			{ "name": "K Harishankar", "url": "https://github.com/harishnkr" }
+		],
+		"has_variants": true
+	},
+	{
 		"name": "Blink Shell",
 		"url": "https://github.com/ng-hai/rose-pine-blinksh",
 		"tags": ["terminal", "shell", "mobile", "blinksh"],

@@ -1,5 +1,15 @@
 [
 	{
+		"description": "Rosé Pine new repo template",
+		"homepageUrl": "",
+		"name": "rose-pine-template",
+		"repositoryTopics": ["theme"],
+		"stargazerCount": 22,
+		"updatedAt": "2023-08-30T14:20:59Z",
+		"url": "https://github.com/rose-pine/rose-pine-template",
+		"usesCustomOpenGraphImage": true
+	},
+	{
 		"description": "The Rosé Pine garden",
 		"homepageUrl": "https://rosepinetheme.com",
 		"name": "rose-pine-site",
@@ -80,8 +90,8 @@
 			"visual-studio-code",
 			"editor"
 		],
-		"stargazerCount": 380,
-		"updatedAt": "2023-08-25T05:33:55Z",
+		"stargazerCount": 381,
+		"updatedAt": "2023-08-31T17:39:07Z",
 		"url": "https://github.com/rose-pine/vscode",
 		"usesCustomOpenGraphImage": true
 	},
@@ -287,16 +297,6 @@
 		"updatedAt": "2023-05-12T17:16:52Z",
 		"url": "https://github.com/rose-pine/nomacs",
 		"usesCustomOpenGraphImage": false
-	},
-	{
-		"description": "Rosé Pine new repo template",
-		"homepageUrl": "",
-		"name": "rose-pine-template",
-		"repositoryTopics": ["theme"],
-		"stargazerCount": 22,
-		"updatedAt": "2023-08-30T14:20:59Z",
-		"url": "https://github.com/rose-pine/rose-pine-template",
-		"usesCustomOpenGraphImage": true
 	},
 	{
 		"description": "Soho vibes for PureRef",
@@ -631,7 +631,7 @@
 			"aesthetic"
 		],
 		"stargazerCount": 944,
-		"updatedAt": "2023-08-31T14:42:49Z",
+		"updatedAt": "2023-08-31T21:30:07Z",
 		"url": "https://github.com/rose-pine/rose-pine-theme",
 		"usesCustomOpenGraphImage": true
 	},
