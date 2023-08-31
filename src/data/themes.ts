@@ -40,8 +40,12 @@ const themes = [
 	...orgRepos
 		.filter(
 			(repo) =>
-				repo.repositoryTopics.includes("theme") &&
-				repo.name !== "rose-pine-template",
+				repo.name !== ".github" &&
+				repo.name !== "build" &&
+				repo.name !== "palette" &&
+				repo.name !== "rose-pine-site" &&
+				repo.name !== "rose-pine-template" &&
+				repo.name !== "rose-pine-theme",
 		)
 		.map((repo) => ({
 			name: repo.description
