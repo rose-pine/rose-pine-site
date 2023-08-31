@@ -1,15 +1,5 @@
 [
 	{
-		"description": "Rosé Pine new repo template",
-		"homepageUrl": "",
-		"name": "rose-pine-template",
-		"repositoryTopics": ["theme"],
-		"stargazerCount": 22,
-		"updatedAt": "2023-08-30T14:20:59Z",
-		"url": "https://github.com/rose-pine/rose-pine-template",
-		"usesCustomOpenGraphImage": true
-	},
-	{
 		"description": "The Rosé Pine garden",
 		"homepageUrl": "https://rosepinetheme.com",
 		"name": "rose-pine-site",
@@ -17,6 +7,16 @@
 		"stargazerCount": 58,
 		"updatedAt": "2023-08-28T13:01:52Z",
 		"url": "https://github.com/rose-pine/rose-pine-site",
+		"usesCustomOpenGraphImage": true
+	},
+	{
+		"description": "Rosé Pine new repo template",
+		"homepageUrl": "",
+		"name": "rose-pine-template",
+		"repositoryTopics": ["theme"],
+		"stargazerCount": 22,
+		"updatedAt": "2023-08-30T14:20:59Z",
+		"url": "https://github.com/rose-pine/rose-pine-template",
 		"usesCustomOpenGraphImage": true
 	},
 	{

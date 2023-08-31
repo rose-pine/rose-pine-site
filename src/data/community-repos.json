@@ -234,6 +234,15 @@
 		"has_variants": false
 	},
 	{
+		"name": "qt5ct",
+		"url": "https://github.com/SarahAllenReed/rose-pine-qt5ct",
+		"tags": ["app"],
+		"authors": [
+			{ "name": "Sarah Allen Reed", "url": "https://github.com/SarahAllenReed" }
+		],
+		"has_variants": false
+	},
+	{
 		"name": "SDDM",
 		"url": "https://github.com/lwndhrst/sddm-rose-pine",
 		"tags": ["display-manager"],
