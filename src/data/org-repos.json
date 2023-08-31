@@ -1,5 +1,26 @@
 [
 	{
+		"description": "Soho vibes for Neovim",
+		"homepageUrl": "",
+		"name": "neovim",
+		"repositoryTopics": [
+			"theme",
+			"neovim",
+			"soho-vibes",
+			"rose-pine",
+			"lua",
+			"vim",
+			"nvim",
+			"neovim-theme",
+			"vim-theme",
+			"editor"
+		],
+		"stargazerCount": 1262,
+		"updatedAt": "2023-08-31T12:33:06Z",
+		"url": "https://github.com/rose-pine/neovim",
+		"usesCustomOpenGraphImage": true
+	},
+	{
 		"description": "",
 		"homepageUrl": "",
 		"name": "typst",
@@ -20,8 +41,8 @@
 			"vivaldi",
 			"vivaldi-theme"
 		],
-		"stargazerCount": 0,
-		"updatedAt": "2023-08-30T21:24:40Z",
+		"stargazerCount": 1,
+		"updatedAt": "2023-08-31T11:53:50Z",
 		"url": "https://github.com/rose-pine/vivaldi",
 		"usesCustomOpenGraphImage": false
 	},
@@ -75,27 +96,6 @@
 		"usesCustomOpenGraphImage": true
 	},
 	{
-		"description": "Soho vibes for Neovim",
-		"homepageUrl": "",
-		"name": "neovim",
-		"repositoryTopics": [
-			"theme",
-			"neovim",
-			"soho-vibes",
-			"rose-pine",
-			"lua",
-			"vim",
-			"nvim",
-			"neovim-theme",
-			"vim-theme",
-			"editor"
-		],
-		"stargazerCount": 1261,
-		"updatedAt": "2023-08-30T12:56:09Z",
-		"url": "https://github.com/rose-pine/neovim",
-		"usesCustomOpenGraphImage": true
-	},
-	{
 		"description": "Soho vibes for kitty",
 		"homepageUrl": "",
 		"name": "kitty",
@@ -117,8 +117,8 @@
 		"homepageUrl": "",
 		"name": "tmux",
 		"repositoryTopics": ["app", "terminal", "tmux", "theme"],
-		"stargazerCount": 26,
-		"updatedAt": "2023-08-28T16:16:49Z",
+		"stargazerCount": 27,
+		"updatedAt": "2023-08-31T04:28:10Z",
 		"url": "https://github.com/rose-pine/tmux",
 		"usesCustomOpenGraphImage": true
 	},
@@ -413,8 +413,8 @@
 		"homepageUrl": "",
 		"name": "wallpapers",
 		"repositoryTopics": ["wallpapers", "soho-vibes", "rose-pine", "theme"],
-		"stargazerCount": 92,
-		"updatedAt": "2023-08-24T16:28:25Z",
+		"stargazerCount": 93,
+		"updatedAt": "2023-08-31T11:54:51Z",
 		"url": "https://github.com/rose-pine/wallpapers",
 		"usesCustomOpenGraphImage": true
 	},
@@ -610,8 +610,8 @@
 			"palette",
 			"aesthetic"
 		],
-		"stargazerCount": 942,
-		"updatedAt": "2023-08-29T09:41:24Z",
+		"stargazerCount": 944,
+		"updatedAt": "2023-08-31T14:42:49Z",
 		"url": "https://github.com/rose-pine/rose-pine-theme",
 		"usesCustomOpenGraphImage": true
 	},

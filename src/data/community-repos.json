@@ -280,6 +280,13 @@
 		"has_variants": true
 	},
 	{
+		"name": "Vendetta",
+		"url": "https://github.com/Quinxxxx/vendetta",
+		"tags": ["web-ui", "social"],
+		"authors": [{ "name": "Quinx", "url": "https://github.com/Quinxxxx" }],
+		"has_variants": true
+	},
+	{
 		"name": "Warp",
 		"url": "https://github.com/thanhsonng/rose-pine-warp",
 		"tags": ["app", "terminal-emulator", "terminal", "command", "cli"],
