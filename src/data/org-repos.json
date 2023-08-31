@@ -1,5 +1,15 @@
 [
 	{
+		"description": "The Rosé Pine garden",
+		"homepageUrl": "https://rosepinetheme.com",
+		"name": "rose-pine-site",
+		"repositoryTopics": [],
+		"stargazerCount": 58,
+		"updatedAt": "2023-08-28T13:01:52Z",
+		"url": "https://github.com/rose-pine/rose-pine-site",
+		"usesCustomOpenGraphImage": true
+	},
+	{
 		"description": "Soho vibes for Neovim",
 		"homepageUrl": "",
 		"name": "neovim",
@@ -213,6 +223,16 @@
 		"stargazerCount": 14,
 		"updatedAt": "2023-04-25T11:14:25Z",
 		"url": "https://github.com/rose-pine/palette",
+		"usesCustomOpenGraphImage": true
+	},
+	{
+		"description": "Theme generator for Rosé Pine",
+		"homepageUrl": "https://www.npmjs.com/package/@rose-pine/build",
+		"name": "build",
+		"repositoryTopics": [],
+		"stargazerCount": 14,
+		"updatedAt": "2023-06-15T16:38:30Z",
+		"url": "https://github.com/rose-pine/build",
 		"usesCustomOpenGraphImage": true
 	},
 	{
@@ -763,6 +783,16 @@
 		"usesCustomOpenGraphImage": true
 	},
 	{
+		"description": "Rosé Pine community health files",
+		"homepageUrl": "",
+		"name": ".github",
+		"repositoryTopics": [],
+		"stargazerCount": 0,
+		"updatedAt": "2022-04-03T18:34:48Z",
+		"url": "https://github.com/rose-pine/.github",
+		"usesCustomOpenGraphImage": false
+	},
+	{
 		"description": "Soho vibes for GitKraken",
 		"homepageUrl": "",
 		"name": "gitkraken",
@@ -839,8 +869,8 @@
 		"homepageUrl": "",
 		"name": "termux",
 		"repositoryTopics": ["theme", "terminal", "mobile"],
-		"stargazerCount": 12,
-		"updatedAt": "2023-07-14T23:35:09Z",
+		"stargazerCount": 13,
+		"updatedAt": "2023-08-31T16:41:46Z",
 		"url": "https://github.com/rose-pine/termux",
 		"usesCustomOpenGraphImage": true
 	},

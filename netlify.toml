@@ -3,7 +3,7 @@
 	publish = "dist"
 
 [build.environment]
-	NODE_VERSION = "16.16.0"
+	NODE_VERSION = "20.5.1"
 
 [[redirects]]
 	from = "/docs"
