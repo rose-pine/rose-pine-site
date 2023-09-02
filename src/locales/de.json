@@ -1,8 +1,8 @@
 {
 	"navigation": {
-		"home": "Zuhause",
+		"home": "Start",
 		"themes": "Themen",
-		"palette": "Palette",
+		"palette": "Farben",
 		"ingredients": "Zusammensetzung",
 		"resources": "Ressourcen",
 		"languages": "Sprachen"
@@ -14,7 +14,7 @@
 		"feature_card_1": {
 			"title": "Subtile Ästhetik",
 			"description": "Erlaube deinen Augen eine wohlverdiente Pause mit unserer sanften und komfortablen Farbpalette.",
-			"link": "Unsere Palette"
+			"link": "Unsere Farben"
 		},
 		"feature_card_2": {
 			"title": "Verschiedene Stimmungen",
@@ -24,17 +24,17 @@
 		"feature_card_3": {
 			"title": "Realisiert von Euch",
 			"description": "Ihr habt geholfen Rosé Pine für über {{numberOfPorts}} Apps herauszubringen.",
-			"link": "Beteiligen Sie sich"
+			"link": "Beteilige dich"
 		}
 	},
 	"themes": {
 		"title": "Themen",
 		"description": "Handgefertigte Kollektion zur Personalisierung.",
 		"tagline": "{{numberOfPorts}} Portierungen & {{numberOfAuthors}} Autoren",
-		"search_label": "Suchthemen..."
+		"search_label": "Themen durchsuchen..."
 	},
 	"palette": {
-		"title": "Palette",
+		"title": "Farbpaletten",
 		"description": "Ausgewählte Farben, endlose Kreationsmöglichkeiten.",
 		"tagline": "{{numberOfVariants}} Varianten & {{numberOfColors}} Farben",
 		"tabs": {
@@ -49,22 +49,22 @@
 	},
 	"resources": {
 		"title": "Ressourcen",
-		"description": "Eine leichte Toolbox für Mitwirkende.",
-		"help_link": "Holen Sie sich Hilfe auf unserem Discord"
+		"description": "Ein simpler Werkzeugkasten für Autoren.",
+		"help_link": "Hol dir Hilfe auf unserem Discord"
 	},
 	"global_search": {
 		"trigger": "Suchen",
-		"placeholder": "Suchseiten, Themen und Palette...",
+		"placeholder": "Suche Seiten, Themen und Paletten...",
 		"empty_text": "Keine Ergebnisse gefunden.",
-		"empty_result_1": "Durchsuchen Sie alle Themen",
-		"empty_result_2": "Beitragen zu Rosé Pine",
+		"empty_result_1": "Alle Themen durchsuchen",
+		"empty_result_2": "Zu Rosé Pine beitragen",
 		"heading_pages": "Seiten",
 		"heading_themes": "Themen",
 		"heading_featured_themes": "Vorgestellten Themen",
-		"heading_palette": "Palette",
+		"heading_palette": "Farbpaletten",
 		"heading_community": "Gemeinschaft"
 	},
 	"shared": {
-		"read_more": "Weiterlesen"
+		"read_more": "Mehr erfahren"
 	}
 }
