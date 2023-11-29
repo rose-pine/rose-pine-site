@@ -55,7 +55,7 @@
 
 				<div class="h-1.5" />
 
-				<p class="font-semibold">{theme.name}</p>
+				<p class="truncate font-semibold" title={theme.name}>{theme.name}</p>
 			</Card>
 		</li>
 	{/each}
