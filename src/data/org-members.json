@@ -1,114 +1,50 @@
 [
-	{
-		"login": "asdreemurr844",
-		"avatar_url": "https://avatars.githubusercontent.com/u/68938934?v=4"
-	},
-	{
-		"login": "bonbuggie",
-		"avatar_url": "https://avatars.githubusercontent.com/u/81865850?v=4"
-	},
-	{
-		"login": "crhallberg",
-		"avatar_url": "https://avatars.githubusercontent.com/u/451107?v=4"
-	},
-	{
-		"login": "DankChoir",
-		"avatar_url": "https://avatars.githubusercontent.com/u/79992320?v=4"
-	},
-	{
-		"login": "diorcula",
-		"avatar_url": "https://avatars.githubusercontent.com/u/32682696?v=4"
-	},
-	{
-		"login": "drearondov",
-		"avatar_url": "https://avatars.githubusercontent.com/u/63360808?v=4"
-	},
-	{
-		"login": "ehanahamed",
-		"avatar_url": "https://avatars.githubusercontent.com/u/98765025?v=4"
-	},
-	{
-		"login": "fvrests",
-		"avatar_url": "https://avatars.githubusercontent.com/u/47515065?v=4"
-	},
-	{
-		"login": "GoyoStach",
-		"avatar_url": "https://avatars.githubusercontent.com/u/113206761?v=4"
-	},
-	{
-		"login": "harishnkr",
-		"avatar_url": "https://avatars.githubusercontent.com/u/48408097?v=4"
-	},
-	{
-		"login": "Jimmysit0",
-		"avatar_url": "https://avatars.githubusercontent.com/u/69643443?v=4"
-	},
-	{
-		"login": "jishnurajendran",
-		"avatar_url": "https://avatars.githubusercontent.com/u/10544069?v=4"
-	},
-	{
-		"login": "jorismertz",
-		"avatar_url": "https://avatars.githubusercontent.com/u/35079666?v=4"
-	},
-	{
-		"login": "jrc03c",
-		"avatar_url": "https://avatars.githubusercontent.com/u/255934?v=4"
-	},
-	{
-		"login": "licitfree",
-		"avatar_url": "https://avatars.githubusercontent.com/u/40050527?v=4"
-	},
-	{
-		"login": "LopeAriyo",
-		"avatar_url": "https://avatars.githubusercontent.com/u/54779085?v=4"
-	},
-	{
-		"login": "marcelovbcfilho",
-		"avatar_url": "https://avatars.githubusercontent.com/u/51462138?v=4"
-	},
-	{
-		"login": "migueravila",
-		"avatar_url": "https://avatars.githubusercontent.com/u/35583825?v=4"
-	},
-	{
-		"login": "mrs4ndman",
-		"avatar_url": "https://avatars.githubusercontent.com/u/121260905?v=4"
-	},
-	{
-		"login": "mvllow",
-		"avatar_url": "https://avatars.githubusercontent.com/u/1474821?v=4"
-	},
-	{
-		"login": "oplik0",
-		"avatar_url": "https://avatars.githubusercontent.com/u/25460763?v=4"
-	},
-	{
-		"login": "pmoieni",
-		"avatar_url": "https://avatars.githubusercontent.com/u/62774242?v=4"
-	},
-	{
-		"login": "prateektade",
-		"avatar_url": "https://avatars.githubusercontent.com/u/108054324?v=4"
-	},
-	{
-		"login": "RosieZiutka",
-		"avatar_url": "https://avatars.githubusercontent.com/u/129593622?v=4"
-	},
-	{
-		"login": "scotabroad",
-		"avatar_url": "https://avatars.githubusercontent.com/u/65510090?v=4"
-	},
-	{
-		"login": "SocietasEvanescentes",
-		"avatar_url": "https://avatars.githubusercontent.com/u/25782090?v=4"
-	},
-	{
-		"login": "ThatOneCalculator",
-		"avatar_url": "https://avatars.githubusercontent.com/u/44733677?v=4"
-	},
-	{
-		"login": "zoedsoupe",
-		"avatar_url": "https://avatars.githubusercontent.com/u/44469426?v=4"
-	}
+  {
+    "login": "DankChoir",
+    "avatar_url": "https://avatars.githubusercontent.com/u/79992320?v=4"
+  },
+  {
+    "login": "fvrests",
+    "avatar_url": "https://avatars.githubusercontent.com/u/47515065?v=4"
+  },
+  {
+    "login": "Jimmysit0",
+    "avatar_url": "https://avatars.githubusercontent.com/u/69643443?v=4"
+  },
+  {
+    "login": "jorismertz",
+    "avatar_url": "https://avatars.githubusercontent.com/u/35079666?v=4"
+  },
+  {
+    "login": "migueravila",
+    "avatar_url": "https://avatars.githubusercontent.com/u/35583825?v=4"
+  },
+  {
+    "login": "mrs4ndman",
+    "avatar_url": "https://avatars.githubusercontent.com/u/121260905?v=4"
+  },
+  {
+    "login": "mvllow",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1474821?v=4"
+  },
+  {
+    "login": "oplik0",
+    "avatar_url": "https://avatars.githubusercontent.com/u/25460763?v=4"
+  },
+  {
+    "login": "prateektade",
+    "avatar_url": "https://avatars.githubusercontent.com/u/108054324?v=4"
+  },
+  {
+    "login": "SocietasEvanescentes",
+    "avatar_url": "https://avatars.githubusercontent.com/u/25782090?v=4"
+  },
+  {
+    "login": "ThatOneCalculator",
+    "avatar_url": "https://avatars.githubusercontent.com/u/44733677?v=4"
+  },
+  {
+    "login": "thuantanphamfilms",
+    "avatar_url": "https://avatars.githubusercontent.com/u/40050527?v=4"
+  }
 ]
