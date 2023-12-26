@@ -1,5 +1,5 @@
 [build]
-	command = "astro build"
+	command = "pnpm build"
 	publish = "dist"
 
 [build.environment]
