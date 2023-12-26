@@ -5,11 +5,10 @@ on:
   - cron: '0 0 * * *'
 jobs:
   build:
-  
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [15]
+        node-version: [18]
     steps:
     - uses: actions/checkout@v3
     - uses: pnpm/action-setup@v2
@@ -24,6 +23,8 @@ jobs:
       run: pnpm install
     - name: Fetch GitHub data
       run: pnpm build:data
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Commit changes
       env: 
         CI_COMMIT_MESSAGE: "ci: build data"
