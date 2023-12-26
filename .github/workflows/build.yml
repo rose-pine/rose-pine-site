@@ -1,25 +1,10 @@
-name: CI
+name: Nightly build
 on:
-  push:
-env:
-  GH_TOKEN: ${{ github.token }}
+  schedule:
+  - cron: '0 0 * * *'
 jobs:
   build:
-    runs-on: ubuntu-20.04
-    strategy:
-      matrix:
-        node-version: [18]
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: pnpm/action-setup@v2
-      with:
-        version: 8
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'pnpm'
-    - name: Install dependencies
-      run: pnpm install
-    - name: Fetch stats and data
-      run: pnpm build:data
+    - name: Trigger Netlify Build hook
+      run: curl -X POST -d '{}' https://api.netlify.com/build_hooks/${NETLIFY_TOKEN}
