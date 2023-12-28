@@ -1,5 +1,21 @@
 [
   {
+    "description": "Soho vibes for Pygments | A Pygments Style using Rose-Piné",
+    "homepageUrl": "",
+    "name": "pygments",
+    "repositoryTopics": [
+      "ipython",
+      "pygments-style",
+      "radian",
+      "rose-pine",
+      "pygments"
+    ],
+    "stargazerCount": 1,
+    "updatedAt": "2023-11-24T02:19:36Z",
+    "url": "https://github.com/rose-pine/pygments",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
@@ -25,8 +41,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1501,
-    "updatedAt": "2023-12-26T21:06:08Z",
+    "stargazerCount": 1504,
+    "updatedAt": "2023-12-27T15:44:53Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -78,8 +94,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 171,
-    "updatedAt": "2023-12-25T14:24:37Z",
+    "stargazerCount": 170,
+    "updatedAt": "2023-12-27T17:57:11Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -187,22 +203,6 @@
     "usesCustomOpenGraphImage": false
   },
   {
-    "description": "Soho vibes for Pygments | A Pygments Style using Rose-Piné",
-    "homepageUrl": "",
-    "name": "pygments",
-    "repositoryTopics": [
-      "ipython",
-      "pygments-style",
-      "radian",
-      "rose-pine",
-      "pygments"
-    ],
-    "stargazerCount": 1,
-    "updatedAt": "2023-11-24T02:19:36Z",
-    "url": "https://github.com/rose-pine/pygments",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Discord",
     "homepageUrl": "",
     "name": "discord",
@@ -215,8 +215,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 41,
-    "updatedAt": "2023-12-18T21:49:01Z",
+    "stargazerCount": 42,
+    "updatedAt": "2023-12-27T15:10:14Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
