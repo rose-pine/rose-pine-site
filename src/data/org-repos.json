@@ -1,5 +1,32 @@
 [
   {
+    "description": "Soho vibes for Hyper",
+    "homepageUrl": "https://www.npmjs.com/package/hyper-rose-pine",
+    "name": "hyper",
+    "repositoryTopics": [
+      "hyper",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "terminal",
+      "terminal-emulator"
+    ],
+    "stargazerCount": 32,
+    "updatedAt": "2023-12-02T09:41:10Z",
+    "url": "https://github.com/rose-pine/hyper",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 62,
+    "updatedAt": "2023-12-22T18:22:27Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Pygments | A Pygments Style using Rose-Piné",
     "homepageUrl": "",
     "name": "pygments",
@@ -13,16 +40,6 @@
     "stargazerCount": 1,
     "updatedAt": "2023-11-24T02:19:36Z",
     "url": "https://github.com/rose-pine/pygments",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 62,
-    "updatedAt": "2023-12-22T18:22:27Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -41,8 +58,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1504,
-    "updatedAt": "2023-12-27T15:44:53Z",
+    "stargazerCount": 1508,
+    "updatedAt": "2023-12-28T20:43:25Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -113,23 +130,6 @@
     "updatedAt": "2023-12-09T05:27:26Z",
     "url": "https://github.com/rose-pine/userstyles",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Soho vibes for Hyper",
-    "homepageUrl": "https://www.npmjs.com/package/hyper-rose-pine",
-    "name": "hyper",
-    "repositoryTopics": [
-      "hyper",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "terminal",
-      "terminal-emulator"
-    ],
-    "stargazerCount": 32,
-    "updatedAt": "2023-12-02T09:41:10Z",
-    "url": "https://github.com/rose-pine/hyper",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for tmux",
@@ -215,8 +215,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 42,
-    "updatedAt": "2023-12-27T15:10:14Z",
+    "stargazerCount": 44,
+    "updatedAt": "2023-12-28T16:15:37Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
@@ -705,8 +705,8 @@
       "rose-pine",
       "soho-vibes"
     ],
-    "stargazerCount": 6,
-    "updatedAt": "2023-11-19T23:46:53Z",
+    "stargazerCount": 7,
+    "updatedAt": "2023-12-28T15:54:24Z",
     "url": "https://github.com/rose-pine/vimium-c",
     "usesCustomOpenGraphImage": false
   },
