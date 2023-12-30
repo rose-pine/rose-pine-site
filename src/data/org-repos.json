@@ -68,8 +68,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1507,
-    "updatedAt": "2023-12-29T22:38:27Z",
+    "stargazerCount": 1508,
+    "updatedAt": "2023-12-30T01:59:41Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -77,9 +77,11 @@
     "description": "Soho vibes for TIDAL",
     "homepageUrl": "",
     "name": "tidal",
-    "repositoryTopics": [],
+    "repositoryTopics": [
+      "music"
+    ],
     "stargazerCount": 1,
-    "updatedAt": "2023-12-25T19:13:13Z",
+    "updatedAt": "2023-12-30T02:48:18Z",
     "url": "https://github.com/rose-pine/tidal",
     "usesCustomOpenGraphImage": true
   },
@@ -1146,10 +1148,13 @@
     "homepageUrl": "",
     "name": "cava",
     "repositoryTopics": [
-      "theme"
+      "theme",
+      "cli",
+      "music",
+      "terminal"
     ],
     "stargazerCount": 9,
-    "updatedAt": "2023-11-29T11:12:22Z",
+    "updatedAt": "2023-12-30T02:47:55Z",
     "url": "https://github.com/rose-pine/cava",
     "usesCustomOpenGraphImage": true
   },
