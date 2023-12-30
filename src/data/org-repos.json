@@ -1,15 +1,5 @@
 [
   {
-    "description": "Soho vibes for Ollama WebUI",
-    "homepageUrl": "",
-    "name": "ollama-webui",
-    "repositoryTopics": [],
-    "stargazerCount": 1,
-    "updatedAt": "2023-12-29T09:00:15Z",
-    "url": "https://github.com/rose-pine/ollama-webui",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
@@ -17,6 +7,16 @@
     "stargazerCount": 62,
     "updatedAt": "2023-12-22T18:22:27Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Ollama WebUI",
+    "homepageUrl": "",
+    "name": "ollama-webui",
+    "repositoryTopics": [],
+    "stargazerCount": 1,
+    "updatedAt": "2023-12-29T09:00:15Z",
+    "url": "https://github.com/rose-pine/ollama-webui",
     "usesCustomOpenGraphImage": true
   },
   {
