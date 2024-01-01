@@ -1,5 +1,30 @@
 [
   {
+    "description": "Soho vibes for tmux",
+    "homepageUrl": "",
+    "name": "tmux",
+    "repositoryTopics": [
+      "app",
+      "terminal",
+      "tmux",
+      "theme"
+    ],
+    "stargazerCount": 50,
+    "updatedAt": "2023-12-30T16:37:06Z",
+    "url": "https://github.com/rose-pine/tmux",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 62,
+    "updatedAt": "2023-12-22T18:22:27Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for GlazeWM",
     "homepageUrl": "",
     "name": "glazewm",
@@ -24,16 +49,6 @@
     "updatedAt": "2023-12-29T15:32:49Z",
     "url": "https://github.com/rose-pine/i3",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 62,
-    "updatedAt": "2023-12-22T18:22:27Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Ollama WebUI",
@@ -94,8 +109,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1510,
-    "updatedAt": "2023-12-30T10:20:01Z",
+    "stargazerCount": 1514,
+    "updatedAt": "2023-12-31T21:38:45Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -152,21 +167,6 @@
     "updatedAt": "2023-12-09T05:27:26Z",
     "url": "https://github.com/rose-pine/userstyles",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Soho vibes for tmux",
-    "homepageUrl": "",
-    "name": "tmux",
-    "repositoryTopics": [
-      "app",
-      "terminal",
-      "tmux",
-      "theme"
-    ],
-    "stargazerCount": 50,
-    "updatedAt": "2023-12-30T16:37:06Z",
-    "url": "https://github.com/rose-pine/tmux",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Linear",
@@ -851,8 +851,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 11,
-    "updatedAt": "2023-09-21T01:31:13Z",
+    "stargazerCount": 12,
+    "updatedAt": "2023-12-31T03:13:40Z",
     "url": "https://github.com/rose-pine/xfce-terminal",
     "usesCustomOpenGraphImage": true
   },
@@ -899,8 +899,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1003,
-    "updatedAt": "2023-12-30T08:18:44Z",
+    "stargazerCount": 1005,
+    "updatedAt": "2023-12-31T14:53:57Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
