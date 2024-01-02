@@ -1,5 +1,25 @@
 [
   {
+    "description": "Soho vibes for Ollama WebUI",
+    "homepageUrl": "",
+    "name": "ollama-webui",
+    "repositoryTopics": [],
+    "stargazerCount": 2,
+    "updatedAt": "2023-12-30T12:01:53Z",
+    "url": "https://github.com/rose-pine/ollama-webui",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 62,
+    "updatedAt": "2023-12-22T18:22:27Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for tmux",
     "homepageUrl": "",
     "name": "tmux",
@@ -12,16 +32,6 @@
     "stargazerCount": 50,
     "updatedAt": "2023-12-30T16:37:06Z",
     "url": "https://github.com/rose-pine/tmux",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 62,
-    "updatedAt": "2023-12-22T18:22:27Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -49,16 +59,6 @@
     "updatedAt": "2023-12-29T15:32:49Z",
     "url": "https://github.com/rose-pine/i3",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Soho vibes for Ollama WebUI",
-    "homepageUrl": "",
-    "name": "ollama-webui",
-    "repositoryTopics": [],
-    "stargazerCount": 2,
-    "updatedAt": "2023-12-30T12:01:53Z",
-    "url": "https://github.com/rose-pine/ollama-webui",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Hyper",
@@ -109,8 +109,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1514,
-    "updatedAt": "2023-12-31T21:38:45Z",
+    "stargazerCount": 1515,
+    "updatedAt": "2024-01-01T12:12:34Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -148,8 +148,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 172,
-    "updatedAt": "2023-12-30T12:00:34Z",
+    "stargazerCount": 173,
+    "updatedAt": "2024-01-01T13:18:05Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -900,7 +900,7 @@
       "aesthetic"
     ],
     "stargazerCount": 1005,
-    "updatedAt": "2023-12-31T14:53:57Z",
+    "updatedAt": "2024-01-01T23:50:00Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
