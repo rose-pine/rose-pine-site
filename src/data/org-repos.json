@@ -1,25 +1,5 @@
 [
   {
-    "description": "Soho vibes for Ollama WebUI",
-    "homepageUrl": "",
-    "name": "ollama-webui",
-    "repositoryTopics": [],
-    "stargazerCount": 2,
-    "updatedAt": "2023-12-30T12:01:53Z",
-    "url": "https://github.com/rose-pine/ollama-webui",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 62,
-    "updatedAt": "2023-12-22T18:22:27Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for tmux",
     "homepageUrl": "",
     "name": "tmux",
@@ -32,6 +12,26 @@
     "stargazerCount": 50,
     "updatedAt": "2023-12-30T16:37:06Z",
     "url": "https://github.com/rose-pine/tmux",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Ollama WebUI",
+    "homepageUrl": "",
+    "name": "ollama-webui",
+    "repositoryTopics": [],
+    "stargazerCount": 2,
+    "updatedAt": "2024-01-02T04:58:33Z",
+    "url": "https://github.com/rose-pine/ollama-webui",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 62,
+    "updatedAt": "2023-12-22T18:22:27Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -109,8 +109,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1515,
-    "updatedAt": "2024-01-01T12:12:34Z",
+    "stargazerCount": 1518,
+    "updatedAt": "2024-01-02T22:53:40Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -148,8 +148,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 173,
-    "updatedAt": "2024-01-01T13:18:05Z",
+    "stargazerCount": 174,
+    "updatedAt": "2024-01-02T10:49:57Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -456,8 +456,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 71,
-    "updatedAt": "2023-12-30T06:33:14Z",
+    "stargazerCount": 72,
+    "updatedAt": "2024-01-02T08:46:48Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
@@ -685,8 +685,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 105,
-    "updatedAt": "2023-12-04T14:04:54Z",
+    "stargazerCount": 106,
+    "updatedAt": "2024-01-02T00:28:27Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -755,8 +755,8 @@
       "vim",
       "editor"
     ],
-    "stargazerCount": 13,
-    "updatedAt": "2023-12-24T11:08:22Z",
+    "stargazerCount": 14,
+    "updatedAt": "2024-01-02T17:04:06Z",
     "url": "https://github.com/rose-pine/vim",
     "usesCustomOpenGraphImage": true
   },
@@ -784,8 +784,8 @@
       "theme",
       "tailwind"
     ],
-    "stargazerCount": 9,
-    "updatedAt": "2023-09-12T06:19:43Z",
+    "stargazerCount": 10,
+    "updatedAt": "2024-01-02T06:34:49Z",
     "url": "https://github.com/rose-pine/tailwind-css",
     "usesCustomOpenGraphImage": false
   },
@@ -900,7 +900,7 @@
       "aesthetic"
     ],
     "stargazerCount": 1005,
-    "updatedAt": "2024-01-01T23:50:00Z",
+    "updatedAt": "2024-01-02T17:04:46Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
