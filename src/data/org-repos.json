@@ -1,17 +1,17 @@
 [
   {
-    "description": "Soho vibes for GTK",
+    "description": "Soho vibes for Wallpapers",
     "homepageUrl": "",
-    "name": "gtk",
+    "name": "wallpapers",
     "repositoryTopics": [
-      "gtk",
+      "wallpapers",
       "soho-vibes",
-      "theme",
-      "rose-pine"
+      "rose-pine",
+      "theme"
     ],
-    "stargazerCount": 174,
-    "updatedAt": "2024-01-02T10:49:57Z",
-    "url": "https://github.com/rose-pine/gtk",
+    "stargazerCount": 106,
+    "updatedAt": "2024-01-02T00:28:27Z",
+    "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -22,6 +22,21 @@
     "stargazerCount": 62,
     "updatedAt": "2023-12-22T18:22:27Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for GTK",
+    "homepageUrl": "",
+    "name": "gtk",
+    "repositoryTopics": [
+      "gtk",
+      "soho-vibes",
+      "theme",
+      "rose-pine"
+    ],
+    "stargazerCount": 173,
+    "updatedAt": "2024-01-05T14:14:46Z",
+    "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -67,8 +82,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1529,
-    "updatedAt": "2024-01-04T20:45:27Z",
+    "stargazerCount": 1532,
+    "updatedAt": "2024-01-05T23:22:00Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -293,8 +308,8 @@
     "homepageUrl": "",
     "name": "alfred",
     "repositoryTopics": [],
-    "stargazerCount": 1,
-    "updatedAt": "2023-11-24T02:19:37Z",
+    "stargazerCount": 2,
+    "updatedAt": "2024-01-05T20:12:26Z",
     "url": "https://github.com/rose-pine/alfred",
     "usesCustomOpenGraphImage": false
   },
@@ -409,8 +424,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 409,
-    "updatedAt": "2023-12-22T18:22:27Z",
+    "stargazerCount": 408,
+    "updatedAt": "2024-01-05T14:14:14Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -473,8 +488,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 74,
-    "updatedAt": "2024-01-04T15:59:21Z",
+    "stargazerCount": 76,
+    "updatedAt": "2024-01-05T09:08:11Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
@@ -616,8 +631,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 14,
-    "updatedAt": "2023-11-19T21:56:17Z",
+    "stargazerCount": 13,
+    "updatedAt": "2024-01-05T14:14:10Z",
     "url": "https://github.com/rose-pine/rofi",
     "usesCustomOpenGraphImage": true
   },
@@ -690,21 +705,6 @@
     "stargazerCount": 1,
     "updatedAt": "2023-10-19T05:40:49Z",
     "url": "https://github.com/rose-pine/fcitx5",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Wallpapers",
-    "homepageUrl": "",
-    "name": "wallpapers",
-    "repositoryTopics": [
-      "wallpapers",
-      "soho-vibes",
-      "rose-pine",
-      "theme"
-    ],
-    "stargazerCount": 106,
-    "updatedAt": "2024-01-02T00:28:27Z",
-    "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -916,8 +916,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1008,
-    "updatedAt": "2024-01-04T16:43:43Z",
+    "stargazerCount": 1010,
+    "updatedAt": "2024-01-05T07:08:17Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1024,8 +1024,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 27,
-    "updatedAt": "2024-01-03T11:32:11Z",
+    "stargazerCount": 26,
+    "updatedAt": "2024-01-05T14:14:18Z",
     "url": "https://github.com/rose-pine/gnome-terminal",
     "usesCustomOpenGraphImage": true
   },
@@ -1111,8 +1111,8 @@
       "github-readme-stats",
       "github"
     ],
-    "stargazerCount": 7,
-    "updatedAt": "2023-08-03T01:32:34Z",
+    "stargazerCount": 6,
+    "updatedAt": "2024-01-05T14:14:20Z",
     "url": "https://github.com/rose-pine/github-readme-stats",
     "usesCustomOpenGraphImage": true
   },
