@@ -1,5 +1,51 @@
 [
   {
+    "description": "Soho vibes for Neovim",
+    "homepageUrl": "",
+    "name": "neovim",
+    "repositoryTopics": [
+      "theme",
+      "neovim",
+      "soho-vibes",
+      "rose-pine",
+      "lua",
+      "vim",
+      "nvim",
+      "neovim-theme",
+      "vim-theme",
+      "editor"
+    ],
+    "stargazerCount": 1538,
+    "updatedAt": "2024-01-08T00:08:10Z",
+    "url": "https://github.com/rose-pine/neovim",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for GTK",
+    "homepageUrl": "",
+    "name": "gtk",
+    "repositoryTopics": [
+      "gtk",
+      "soho-vibes",
+      "theme",
+      "rose-pine"
+    ],
+    "stargazerCount": 173,
+    "updatedAt": "2024-01-05T14:14:46Z",
+    "url": "https://github.com/rose-pine/gtk",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Ollama WebUI",
+    "homepageUrl": "",
+    "name": "ollama-webui",
+    "repositoryTopics": [],
+    "stargazerCount": 2,
+    "updatedAt": "2024-01-02T04:58:33Z",
+    "url": "https://github.com/rose-pine/ollama-webui",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
@@ -25,21 +71,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for GTK",
-    "homepageUrl": "",
-    "name": "gtk",
-    "repositoryTopics": [
-      "gtk",
-      "soho-vibes",
-      "theme",
-      "rose-pine"
-    ],
-    "stargazerCount": 173,
-    "updatedAt": "2024-01-05T14:14:46Z",
-    "url": "https://github.com/rose-pine/gtk",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Windows Terminal",
     "homepageUrl": "",
     "name": "windows-terminal",
@@ -57,37 +88,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Ollama WebUI",
-    "homepageUrl": "",
-    "name": "ollama-webui",
-    "repositoryTopics": [],
-    "stargazerCount": 2,
-    "updatedAt": "2024-01-02T04:58:33Z",
-    "url": "https://github.com/rose-pine/ollama-webui",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Neovim",
-    "homepageUrl": "",
-    "name": "neovim",
-    "repositoryTopics": [
-      "theme",
-      "neovim",
-      "soho-vibes",
-      "rose-pine",
-      "lua",
-      "vim",
-      "nvim",
-      "neovim-theme",
-      "vim-theme",
-      "editor"
-    ],
-    "stargazerCount": 1533,
-    "updatedAt": "2024-01-06T23:54:28Z",
-    "url": "https://github.com/rose-pine/neovim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for tmux",
     "homepageUrl": "",
     "name": "tmux",
@@ -97,8 +97,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 51,
-    "updatedAt": "2024-01-04T20:52:15Z",
+    "stargazerCount": 52,
+    "updatedAt": "2024-01-07T23:11:48Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -269,8 +269,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 44,
-    "updatedAt": "2023-12-28T16:15:37Z",
+    "stargazerCount": 45,
+    "updatedAt": "2024-01-07T02:25:54Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
@@ -916,8 +916,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1011,
-    "updatedAt": "2024-01-06T01:28:28Z",
+    "stargazerCount": 1012,
+    "updatedAt": "2024-01-07T01:12:01Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -993,7 +993,7 @@
       "rose-pine"
     ],
     "stargazerCount": 5,
-    "updatedAt": "2023-09-13T13:40:45Z",
+    "updatedAt": "2024-01-07T11:10:43Z",
     "url": "https://github.com/rose-pine/grub",
     "usesCustomOpenGraphImage": true
   },
