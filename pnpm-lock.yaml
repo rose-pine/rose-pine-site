@@ -41,9 +41,6 @@ dependencies:
   i18next-fs-backend:
     specifier: ^2.1.5
     version: 2.1.5
-  iso-639-1:
-    specifier: ^3.0.1
-    version: 3.0.1
   nanostores:
     specifier: ^0.9.3
     version: 0.9.3
@@ -2607,11 +2604,6 @@ packages:
 
   /iso-639-1@2.1.15:
     resolution: {integrity: sha512-7c7mBznZu2ktfvyT582E2msM+Udc1EjOyhVRE/0ZsjD9LBtWSm23h3PtiRh2a35XoUsTQQjJXaJzuLjXsOdFDg==}
-    engines: {node: '>=6.0'}
-    dev: false
-
-  /iso-639-1@3.0.1:
-    resolution: {integrity: sha512-MYObGS3URxBV2w9S+rvW4O1jKT1/aAWq6Jqo2NFOIDys3R8japWGOzEBv8eu4mHDWDSslBrPVNmBEirha7t/vA==}
     engines: {node: '>=6.0'}
     dev: false
 
