@@ -1,0 +1,108 @@
+---
+import i18next, { t, changeLanguage } from "i18next";
+import { localizePath } from "astro-i18next";
+import { getCollection } from "astro:content";
+import Layout from "$layouts/base.astro";
+import PageIntro from "$components/page-intro.svelte";
+import Card from "$components/card.svelte";
+import { tools } from "$data/tools";
+
+changeLanguage("zh-CN");
+
+const currentLanguage = i18next.language ?? "en";
+const pathsWithTranslations = new Set<string>();
+const guides = await getCollection("guides", ({ id }) => {
+	const locale = id.substring(0, 2);
+	const path = id.substring(3);
+	if (locale !== currentLanguage) {
+		return id.startsWith("en/");
+	}
+	pathsWithTranslations.add(path);
+	return id.startsWith(`${currentLanguage}/`);
+});
+---
+
+<Layout title={t("resources.title")} description={t("resources.description")}>
+	<PageIntro
+		heading={t("resources.title")}
+		subheading={t("resources.description")}
+	>
+		<a
+			href="https://discord.gg/r6wf35KVJW"
+			class="animate-enter inline-flex h-12 items-center rounded-full bg-muted/10 px-6 font-medium transition hover:bg-muted/20 focus:outline-none focus:ring"
+			style="--stagger: 2">{t("resources.help_link")}&nbsp;&nearr;</a
+		>
+	</PageIntro>
+
+	<div class="h-20"></div>
+
+	<section class="animate-enter" style="--stagger: 2">
+		<h2 class="text-lg font-semibold tracking-tight">Guides</h2>
+
+		<div class="h-6"></div>
+
+		<ul class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
+			{
+				guides
+					.filter(({ id }) => {
+						const locale = id.substring(0, 2);
+						const path = id.substring(3);
+						const hasTranslation = pathsWithTranslations.has(path);
+
+						return (
+							(!hasTranslation && locale === "en") ||
+							(hasTranslation && locale === currentLanguage)
+						);
+					})
+					.sort((a, b) => b.data.priority - a.data.priority)
+					.map(({ slug, data }) => {
+						const locale = slug.substring(0, 2);
+						const path = slug.substring(3);
+						const localizedPath = localizePath(
+							`/resources/${path}`,
+							locale === currentLanguage ? locale : undefined,
+						);
+						return (
+							<li>
+								<Card href={localizedPath} linkText={t("shared.read_more")}>
+									<div class="flex items-center justify-between gap-1.5">
+										<p class="w-full truncate font-semibold">{data.title}</p>
+
+										<span class="shrink-0 font-mono text-xs font-semibold uppercase text-subtle">
+											{locale}
+										</span>
+									</div>
+
+									<div class="h-1.5" />
+
+									<p>{data.description}</p>
+								</Card>
+							</li>
+						);
+					})
+			}
+		</ul>
+
+		<div class="h-20"></div>
+
+		<h2 class="text-lg font-bold tracking-tight">Tools</h2>
+
+		<div class="h-6"></div>
+
+		<ul class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
+			{
+				tools.map(({ name, description, href }) => (
+					<li>
+						<Card href={href} linkText="Repository">
+							<p class="font-bold">{name}</p>
+
+							<div class="h-1.5" />
+
+							<p>{description}</p>
+						</Card>
+					</li>
+				))
+			}
+		</ul>
+	</section>
+</Layout>
