@@ -6,19 +6,20 @@ import Layout from "$layouts/base.astro";
 import PageIntro from "$components/page-intro.svelte";
 import Card from "$components/card.svelte";
 import { tools } from "$data/tools";
+import { getLocaleAndPath } from "src/utilities";
 
 changeLanguage("sv");
 
 const currentLanguage = i18next.language ?? "en";
 const pathsWithTranslations = new Set<string>();
 const guides = await getCollection("guides", ({ id }) => {
-	const locale = id.substring(0, 2);
-	const path = id.substring(3);
-	if (locale !== currentLanguage) {
+	const { locale, path } = getLocaleAndPath(id);
+	if (locale === currentLanguage) {
+		pathsWithTranslations.add(path);
+		return id.startsWith(`${currentLanguage}/`);
+	} else {
 		return id.startsWith("en/");
 	}
-	pathsWithTranslations.add(path);
-	return id.startsWith(`${currentLanguage}/`);
 });
 ---
 
@@ -45,8 +46,7 @@ const guides = await getCollection("guides", ({ id }) => {
 			{
 				guides
 					.filter(({ id }) => {
-						const locale = id.substring(0, 2);
-						const path = id.substring(3);
+						const { locale, path } = getLocaleAndPath(id);
 						const hasTranslation = pathsWithTranslations.has(path);
 
 						return (
@@ -55,9 +55,8 @@ const guides = await getCollection("guides", ({ id }) => {
 						);
 					})
 					.sort((a, b) => b.data.priority - a.data.priority)
-					.map(({ slug, data }) => {
-						const locale = slug.substring(0, 2);
-						const path = slug.substring(3);
+					.map(({ id, data }) => {
+						const { locale, path } = getLocaleAndPath(id);
 						const localizedPath = localizePath(
 							`/resources/${path}`,
 							locale === currentLanguage ? locale : undefined,
