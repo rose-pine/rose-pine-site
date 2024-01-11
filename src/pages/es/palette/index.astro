@@ -12,7 +12,7 @@ changeLanguage("es");
 	metaTitle={t("palette.title")}
 	metaDescription={t("palette.description")}
 >
-	<PaletteSwatches />
+	<PaletteSwatches client:load />
 </PaletteLayout>
 
 <CycleHashes client:load hashes={roleIds} />

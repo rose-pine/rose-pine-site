@@ -12,6 +12,8 @@ function getColorsFromRole({ main, moon, dawn }: RoleColors) {
 const roleDetails = {
 	base: {
 		description: "Primary background",
+		content:
+			"Main and accessory panels—**application frames**, **sidebars**, **tabs**, and extensions to the focal context.",
 		scenarios: [
 			"General background, e.g. windows, tabs",
 			"Extended panels, e.g. sidebars",
@@ -19,6 +21,7 @@ const roleDetails = {
 	},
 	surface: {
 		description: "Secondary background atop base",
+		content: "Panels that are not directly related to the focal context—**cards**, **inputs**, and **status lines**.",
 		scenarios: [
 			"Accessory panels, e.g. popups, floats, editor terminals",
 			"Inputs, e.g. text search, checkboxes",
@@ -26,6 +29,7 @@ const roleDetails = {
 	},
 	overlay: {
 		description: "Tertiary background atop surface",
+		content: "Panels that are more temporary in nature—**popovers**, **notifications**, and **dialogs**.",
 		scenarios: [
 			"Active backgrounds, e.g. tabs, list items",
 			"High contrast inputs, e.g. text search, checkboxes",
@@ -35,6 +39,7 @@ const roleDetails = {
 	},
 	muted: {
 		description: "Low contrast foreground",
+		content: "Ignored content—**disabled elements** and **unfocused text**.",
 		scenarios: [
 			"Ignored content, e.g. ignored Git files",
 			"Terminal bright black",
@@ -43,11 +48,13 @@ const roleDetails = {
 	},
 	subtle: {
 		description: "Medium contrast foreground",
+		content: "Secondary content—**comments**, **punctuation**, and **tab names**.",
 		scenarios: ["Inactive foregrounds, e.g. tabs, list items"],
 		tags: ["operators", "punctuation"],
 	},
 	text: {
 		description: "High contrast foreground",
+		content: "Primary content—**normal text**, **variables**, and **active content**.",
 		scenarios: [
 			"Active foregrounds, e.g. tabs, list items",
 			"Cursor foreground paired with highlight high background",
@@ -129,6 +136,7 @@ const specification = roleKeys.map((key) => {
 		name: role.name,
 		colors: getColorsFromRole(role.colors),
 		description: roleDetails[key].description,
+		content: roleDetails[key].content ?? "",
 		scenarios: roleDetails[key].scenarios,
 		tags: "tags" in roleDetail ? roleDetail.tags : [],
 	};

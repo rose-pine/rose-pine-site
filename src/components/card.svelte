@@ -11,7 +11,7 @@
 	this={href ? "a" : "div"}
 	{id}
 	{href}
-	class="flex h-full w-full flex-col bg-surface transition target:ring focus:outline-none focus:ring"
+	class="flex h-full w-full flex-col bg-surface transition target:ring focus:outline-none focus:ring {$$restProps.class}"
 	class:hoverable={href}
 	class:size-sm={size === "sm"}
 	class:size-lg={size === "lg"}
