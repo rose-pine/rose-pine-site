@@ -13,6 +13,7 @@ export { default as IconBrandSublimeText } from "./brand-sublime-text.svelte";
 export { default as IconBrandTailwind } from "./brand-tailwind.svelte";
 export { default as IconBrandVscode } from "./brand-vscode.svelte";
 export { default as IconBrandYoutube } from "./brand-youtube.svelte";
+export { default as IconClick } from "./click.svelte";
 export { default as IconColorSwatch } from "./color-swatch.svelte";
 export { default as IconFileCode } from "./file-code.svelte";
 export { default as IconGitBranch } from "./git-branch.svelte";
