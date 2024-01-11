@@ -6,6 +6,7 @@ import Layout from "$layouts/base.astro";
 import PageIntro from "$components/page-intro.svelte";
 import Link from "$components/link.svelte";
 import { tools } from "$data/tools";
+import { getLocaleAndPath } from "src/utilities";
 
 changeLanguage("fr");
 
@@ -13,7 +14,7 @@ const currentLanguage = i18next.language ?? "en";
 export async function getStaticPaths() {
 	const guides = await getCollection("guides");
 	return guides.map((entry) => {
-		const path = entry.slug.substring(3);
+		const { path } = getLocaleAndPath(entry.id);
 		return {
 			params: { slug: path },
 			props: { entry, guides },
@@ -25,12 +26,11 @@ export type Props = {
 	guides: CollectionEntry<"guides">[];
 };
 const { entry, guides } = Astro.props;
-const entryPath = entry.id.substring(3);
+const { path: entryPath } = getLocaleAndPath(entry.id);
 const pathsWithTranslations = new Set<string>();
 guides.forEach(({ id }) => {
-	const path = id.substring(3);
-	const hasTranslation = id.startsWith(`${currentLanguage}/`);
-	if (hasTranslation) {
+	const { locale, path } = getLocaleAndPath(id);
+	if (locale === currentLanguage) {
 		pathsWithTranslations.add(path);
 	}
 });
@@ -38,7 +38,7 @@ const entryLanguage = pathsWithTranslations.has(entryPath)
 	? currentLanguage
 	: "en";
 const entryToRender =
-	guides.find(({ id }) => id === `${entryLanguage}/${entryPath}`) ?? entry;
+	guides.find(({ id }) => id === `${entryLanguage}/${entryPath}.md`) ?? entry;
 const { Content } = await entryToRender.render();
 ---
 
@@ -62,8 +62,7 @@ const { Content } = await entryToRender.render();
 				{
 					guides
 						.filter(({ id }) => {
-							const locale = id.substring(0, 2);
-							const path = id.substring(3);
+							const { locale, path } = getLocaleAndPath(id);
 							const hasTranslation = pathsWithTranslations.has(path);
 
 							return (
@@ -72,9 +71,8 @@ const { Content } = await entryToRender.render();
 							);
 						})
 						.sort((a, b) => b.data.priority - a.data.priority)
-						.map(({ slug, data }) => {
-							const locale = slug.substring(0, 2);
-							const path = slug.substring(3);
+						.map(({ id, data }) => {
+							const { locale, path } = getLocaleAndPath(id);
 							const localizedPath = localizePath(
 								`/resources/${path}`,
 								locale === currentLanguage ? locale : undefined,
