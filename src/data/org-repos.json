@@ -1,5 +1,26 @@
 [
   {
+    "description": "Soho vibes for Neovim",
+    "homepageUrl": "",
+    "name": "neovim",
+    "repositoryTopics": [
+      "theme",
+      "neovim",
+      "soho-vibes",
+      "rose-pine",
+      "lua",
+      "vim",
+      "nvim",
+      "neovim-theme",
+      "vim-theme",
+      "editor"
+    ],
+    "stargazerCount": 1641,
+    "updatedAt": "2024-01-12T18:56:34Z",
+    "url": "https://github.com/rose-pine/neovim",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
@@ -30,8 +51,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 3,
-    "updatedAt": "2024-01-11T21:16:17Z",
+    "stargazerCount": 5,
+    "updatedAt": "2024-01-12T00:53:58Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -47,27 +68,6 @@
     "stargazerCount": 14,
     "updatedAt": "2024-01-03T22:38:06Z",
     "url": "https://github.com/rose-pine/zellij",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Neovim",
-    "homepageUrl": "",
-    "name": "neovim",
-    "repositoryTopics": [
-      "theme",
-      "neovim",
-      "soho-vibes",
-      "rose-pine",
-      "lua",
-      "vim",
-      "nvim",
-      "neovim-theme",
-      "vim-theme",
-      "editor"
-    ],
-    "stargazerCount": 1638,
-    "updatedAt": "2024-01-11T14:03:24Z",
-    "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -926,8 +926,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1020,
-    "updatedAt": "2024-01-11T19:06:18Z",
+    "stargazerCount": 1021,
+    "updatedAt": "2024-01-12T10:15:47Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
