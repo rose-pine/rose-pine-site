@@ -1,5 +1,22 @@
 [
   {
+    "description": "Soho vibes for Alacritty",
+    "homepageUrl": "",
+    "name": "alacritty",
+    "repositoryTopics": [
+      "alacritty",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "terminal",
+      "terminal-emulator"
+    ],
+    "stargazerCount": 80,
+    "updatedAt": "2024-01-11T17:38:10Z",
+    "url": "https://github.com/rose-pine/alacritty",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -51,8 +68,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 5,
-    "updatedAt": "2024-01-12T00:53:58Z",
+    "stargazerCount": 7,
+    "updatedAt": "2024-01-13T11:16:39Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -80,8 +97,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 58,
-    "updatedAt": "2024-01-11T07:03:41Z",
+    "stargazerCount": 61,
+    "updatedAt": "2024-01-13T22:05:20Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -398,8 +415,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 52,
-    "updatedAt": "2024-01-10T15:20:25Z",
+    "stargazerCount": 53,
+    "updatedAt": "2024-01-13T21:53:27Z",
     "url": "https://github.com/rose-pine/kitty",
     "usesCustomOpenGraphImage": true
   },
@@ -448,8 +465,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 411,
-    "updatedAt": "2024-01-11T22:09:05Z",
+    "stargazerCount": 410,
+    "updatedAt": "2024-01-13T23:58:22Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -499,23 +516,6 @@
     "updatedAt": "2024-01-08T14:53:55Z",
     "url": "https://github.com/rose-pine/btop",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Soho vibes for Alacritty",
-    "homepageUrl": "",
-    "name": "alacritty",
-    "repositoryTopics": [
-      "alacritty",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "terminal",
-      "terminal-emulator"
-    ],
-    "stargazerCount": 80,
-    "updatedAt": "2024-01-11T17:38:10Z",
-    "url": "https://github.com/rose-pine/alacritty",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Prism",
@@ -713,8 +713,8 @@
       "soho-vibes",
       "rose-pine"
     ],
-    "stargazerCount": 36,
-    "updatedAt": "2024-01-09T13:09:10Z",
+    "stargazerCount": 37,
+    "updatedAt": "2024-01-13T22:09:13Z",
     "url": "https://github.com/rose-pine/google-chrome",
     "usesCustomOpenGraphImage": true
   },
@@ -827,8 +827,8 @@
       "rose-pine",
       "hacktoberfest"
     ],
-    "stargazerCount": 15,
-    "updatedAt": "2024-01-08T00:45:26Z",
+    "stargazerCount": 16,
+    "updatedAt": "2024-01-13T06:03:19Z",
     "url": "https://github.com/rose-pine/sublime-text",
     "usesCustomOpenGraphImage": true
   },
@@ -926,8 +926,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1021,
-    "updatedAt": "2024-01-12T10:15:47Z",
+    "stargazerCount": 1026,
+    "updatedAt": "2024-01-13T22:09:23Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
