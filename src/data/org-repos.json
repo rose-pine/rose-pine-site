@@ -1,20 +1,13 @@
 [
   {
-    "description": "Soho vibes for Alacritty",
+    "description": "Soho vibes for Rstudio",
     "homepageUrl": "",
-    "name": "alacritty",
-    "repositoryTopics": [
-      "alacritty",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "terminal",
-      "terminal-emulator"
-    ],
-    "stargazerCount": 80,
-    "updatedAt": "2024-01-11T17:38:10Z",
-    "url": "https://github.com/rose-pine/alacritty",
-    "usesCustomOpenGraphImage": true
+    "name": "rstudio",
+    "repositoryTopics": [],
+    "stargazerCount": 1,
+    "updatedAt": "2024-01-14T15:24:18Z",
+    "url": "https://github.com/rose-pine/rstudio",
+    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Soho vibes for Neovim",
@@ -32,8 +25,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1641,
-    "updatedAt": "2024-01-12T18:56:34Z",
+    "stargazerCount": 1644,
+    "updatedAt": "2024-01-14T18:48:01Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -45,6 +38,23 @@
     "stargazerCount": 63,
     "updatedAt": "2024-01-10T12:47:16Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Alacritty",
+    "homepageUrl": "",
+    "name": "alacritty",
+    "repositoryTopics": [
+      "alacritty",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "terminal",
+      "terminal-emulator"
+    ],
+    "stargazerCount": 80,
+    "updatedAt": "2024-01-11T17:38:10Z",
+    "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -68,8 +78,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 7,
-    "updatedAt": "2024-01-13T11:16:39Z",
+    "stargazerCount": 8,
+    "updatedAt": "2024-01-14T02:34:42Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -137,8 +147,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 107,
-    "updatedAt": "2024-01-10T01:30:35Z",
+    "stargazerCount": 108,
+    "updatedAt": "2024-01-14T06:49:50Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -339,8 +349,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 3,
-    "updatedAt": "2023-11-24T02:19:36Z",
+    "stargazerCount": 4,
+    "updatedAt": "2024-01-14T23:57:26Z",
     "url": "https://github.com/rose-pine/typst",
     "usesCustomOpenGraphImage": true
   },
