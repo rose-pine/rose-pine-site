@@ -1,12 +1,17 @@
 [
   {
-    "description": "Soho vibes for Rstudio",
+    "description": "Soho vibes for Userstyles",
     "homepageUrl": "",
-    "name": "rstudio",
-    "repositoryTopics": [],
-    "stargazerCount": 1,
-    "updatedAt": "2024-01-14T15:24:18Z",
-    "url": "https://github.com/rose-pine/rstudio",
+    "name": "userstyles",
+    "repositoryTopics": [
+      "css",
+      "stylish",
+      "userstyles",
+      "stylus"
+    ],
+    "stargazerCount": 6,
+    "updatedAt": "2023-12-09T05:27:26Z",
+    "url": "https://github.com/rose-pine/userstyles",
     "usesCustomOpenGraphImage": false
   },
   {
@@ -25,8 +30,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1644,
-    "updatedAt": "2024-01-14T18:48:01Z",
+    "stargazerCount": 1647,
+    "updatedAt": "2024-01-15T15:57:35Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -39,6 +44,16 @@
     "updatedAt": "2024-01-10T12:47:16Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Rstudio",
+    "homepageUrl": "",
+    "name": "rstudio",
+    "repositoryTopics": [],
+    "stargazerCount": 1,
+    "updatedAt": "2024-01-14T15:24:18Z",
+    "url": "https://github.com/rose-pine/rstudio",
+    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Soho vibes for Alacritty",
@@ -107,8 +122,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 61,
-    "updatedAt": "2024-01-13T22:05:20Z",
+    "stargazerCount": 62,
+    "updatedAt": "2024-01-15T20:04:11Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -147,8 +162,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 108,
-    "updatedAt": "2024-01-14T06:49:50Z",
+    "stargazerCount": 107,
+    "updatedAt": "2024-01-15T15:13:22Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -164,8 +179,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 39,
-    "updatedAt": "2024-01-11T17:49:52Z",
+    "stargazerCount": 40,
+    "updatedAt": "2024-01-15T06:09:24Z",
     "url": "https://github.com/rose-pine/windows-terminal",
     "usesCustomOpenGraphImage": true
   },
@@ -174,8 +189,8 @@
     "homepageUrl": "",
     "name": "glazewm",
     "repositoryTopics": [],
-    "stargazerCount": 1,
-    "updatedAt": "2023-12-30T11:44:24Z",
+    "stargazerCount": 2,
+    "updatedAt": "2024-01-15T01:58:11Z",
     "url": "https://github.com/rose-pine/glazewm",
     "usesCustomOpenGraphImage": false
   },
@@ -235,21 +250,6 @@
     "updatedAt": "2024-01-11T23:44:13Z",
     "url": "https://github.com/rose-pine/rose-pine-template",
     "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Userstyles",
-    "homepageUrl": "",
-    "name": "userstyles",
-    "repositoryTopics": [
-      "css",
-      "stylish",
-      "userstyles",
-      "stylus"
-    ],
-    "stargazerCount": 6,
-    "updatedAt": "2023-12-09T05:27:26Z",
-    "url": "https://github.com/rose-pine/userstyles",
-    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Soho vibes for Linear",
