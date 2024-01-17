@@ -1,20 +1,5 @@
 [
   {
-    "description": "Soho vibes for Userstyles",
-    "homepageUrl": "",
-    "name": "userstyles",
-    "repositoryTopics": [
-      "css",
-      "stylish",
-      "userstyles",
-      "stylus"
-    ],
-    "stargazerCount": 6,
-    "updatedAt": "2023-12-09T05:27:26Z",
-    "url": "https://github.com/rose-pine/userstyles",
-    "usesCustomOpenGraphImage": false
-  },
-  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -30,8 +15,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1647,
-    "updatedAt": "2024-01-15T15:57:35Z",
+    "stargazerCount": 1648,
+    "updatedAt": "2024-01-16T09:21:47Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -44,6 +29,21 @@
     "updatedAt": "2024-01-10T12:47:16Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Userstyles",
+    "homepageUrl": "",
+    "name": "userstyles",
+    "repositoryTopics": [
+      "css",
+      "stylish",
+      "userstyles",
+      "stylus"
+    ],
+    "stargazerCount": 6,
+    "updatedAt": "2023-12-09T05:27:26Z",
+    "url": "https://github.com/rose-pine/userstyles",
+    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Soho vibes for Rstudio",
@@ -67,8 +67,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 80,
-    "updatedAt": "2024-01-11T17:38:10Z",
+    "stargazerCount": 79,
+    "updatedAt": "2024-01-16T14:07:04Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
@@ -475,8 +475,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 410,
-    "updatedAt": "2024-01-13T23:58:22Z",
+    "stargazerCount": 411,
+    "updatedAt": "2024-01-16T19:16:21Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -936,8 +936,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1026,
-    "updatedAt": "2024-01-13T22:09:23Z",
+    "stargazerCount": 1028,
+    "updatedAt": "2024-01-16T17:51:32Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
