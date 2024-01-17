@@ -139,6 +139,13 @@
 		"has_variants": true
 	},
 	{
+		"name": "JSDoc",
+		"url": "https://github.com/nonnullish/rose-pine-jsdoc",
+		"tags": ["dev", "web-ui"],
+		"authors": [{ "name": "nonnullish", "url": "https://github.com/nonnullish" }],
+		"has_variants": true
+	},
+	{
 		"name": "JSON Viewer",
 		"url": "https://github.com/emlez/json-viewer",
 		"tags": ["web-extension"],
