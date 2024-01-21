@@ -1,15 +1,5 @@
 [
   {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 64,
-    "updatedAt": "2024-01-18T15:28:14Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -25,9 +15,29 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1655,
-    "updatedAt": "2024-01-19T21:42:27Z",
+    "stargazerCount": 1659,
+    "updatedAt": "2024-01-20T16:21:21Z",
     "url": "https://github.com/rose-pine/neovim",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Skiff mail",
+    "homepageUrl": "",
+    "name": "skiff",
+    "repositoryTopics": [],
+    "stargazerCount": 2,
+    "updatedAt": "2024-01-20T11:03:03Z",
+    "url": "https://github.com/rose-pine/skiff",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 66,
+    "updatedAt": "2024-01-20T23:55:22Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -936,8 +946,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1028,
-    "updatedAt": "2024-01-19T22:06:06Z",
+    "stargazerCount": 1029,
+    "updatedAt": "2024-01-20T17:07:19Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1213,8 +1223,8 @@
       "theme",
       "mobile"
     ],
-    "stargazerCount": 3,
-    "updatedAt": "2023-08-22T15:25:00Z",
+    "stargazerCount": 4,
+    "updatedAt": "2024-01-20T12:50:40Z",
     "url": "https://github.com/rose-pine/aliucord",
     "usesCustomOpenGraphImage": false
   },
