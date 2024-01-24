@@ -139,6 +139,15 @@
 		"has_variants": true
 	},
 	{
+		"name": "JupyterLab",
+		"url": "https://github.com/aaravind100/jupyterlab",
+		"tags": ["app", "editor", "jupyter", "notebook"],
+		"authors": [
+			{ "name": "aaravind100", "url": "https://github.com/aaravind100" }
+		],
+		"has_variants": true
+	},
+	{
 		"name": "JSDoc",
 		"url": "https://github.com/nonnullish/rose-pine-jsdoc",
 		"tags": ["dev", "web-ui"],
