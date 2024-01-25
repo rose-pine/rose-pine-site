@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 66,
+    "updatedAt": "2024-01-20T23:55:22Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -15,19 +25,9 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1664,
-    "updatedAt": "2024-01-23T17:27:24Z",
+    "stargazerCount": 1667,
+    "updatedAt": "2024-01-24T22:50:55Z",
     "url": "https://github.com/rose-pine/neovim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 66,
-    "updatedAt": "2024-01-20T23:55:22Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -172,8 +172,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 109,
-    "updatedAt": "2024-01-23T00:36:53Z",
+    "stargazerCount": 110,
+    "updatedAt": "2024-01-24T18:59:02Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -485,8 +485,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 411,
-    "updatedAt": "2024-01-23T02:14:43Z",
+    "stargazerCount": 412,
+    "updatedAt": "2024-01-24T02:01:11Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -946,8 +946,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1035,
-    "updatedAt": "2024-01-23T00:16:51Z",
+    "stargazerCount": 1038,
+    "updatedAt": "2024-01-24T17:57:50Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
