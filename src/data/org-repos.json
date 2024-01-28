@@ -15,9 +15,19 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1669,
-    "updatedAt": "2024-01-26T22:39:16Z",
+    "stargazerCount": 1670,
+    "updatedAt": "2024-01-27T23:42:26Z",
     "url": "https://github.com/rose-pine/neovim",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 66,
+    "updatedAt": "2024-01-20T23:55:22Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -29,16 +39,6 @@
     "updatedAt": "2024-01-20T11:03:03Z",
     "url": "https://github.com/rose-pine/skiff",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 66,
-    "updatedAt": "2024-01-20T23:55:22Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Userstyles",
@@ -330,8 +330,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 46,
-    "updatedAt": "2024-01-25T02:46:04Z",
+    "stargazerCount": 47,
+    "updatedAt": "2024-01-27T09:37:47Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
@@ -609,8 +609,8 @@
       "theme",
       "hacktoberfest"
     ],
-    "stargazerCount": 1,
-    "updatedAt": "2022-10-01T16:07:17Z",
+    "stargazerCount": 0,
+    "updatedAt": "2024-01-27T20:21:32Z",
     "url": "https://github.com/rose-pine/gdevelop",
     "usesCustomOpenGraphImage": true
   },
@@ -946,8 +946,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1038,
-    "updatedAt": "2024-01-26T10:08:16Z",
+    "stargazerCount": 1039,
+    "updatedAt": "2024-01-27T01:21:05Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1083,8 +1083,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 3,
-    "updatedAt": "2022-12-27T19:38:05Z",
+    "stargazerCount": 2,
+    "updatedAt": "2024-01-27T20:21:36Z",
     "url": "https://github.com/rose-pine/ct.js",
     "usesCustomOpenGraphImage": true
   },
