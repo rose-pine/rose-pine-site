@@ -1,5 +1,22 @@
 [
   {
+    "description": "Soho vibes for Helix",
+    "homepageUrl": "",
+    "name": "helix",
+    "repositoryTopics": [
+      "theme",
+      "soho-vibes",
+      "rose-pine",
+      "helix",
+      "editor",
+      "hacktoberfest"
+    ],
+    "stargazerCount": 16,
+    "updatedAt": "2024-01-26T10:13:35Z",
+    "url": "https://github.com/rose-pine/helix",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -15,8 +32,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1670,
-    "updatedAt": "2024-01-27T23:42:26Z",
+    "stargazerCount": 1673,
+    "updatedAt": "2024-01-28T19:43:20Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -147,8 +164,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 175,
-    "updatedAt": "2024-01-09T19:40:25Z",
+    "stargazerCount": 176,
+    "updatedAt": "2024-01-28T17:49:48Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -172,8 +189,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 110,
-    "updatedAt": "2024-01-24T18:59:02Z",
+    "stargazerCount": 111,
+    "updatedAt": "2024-01-28T19:15:59Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -336,23 +353,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Helix",
-    "homepageUrl": "",
-    "name": "helix",
-    "repositoryTopics": [
-      "theme",
-      "soho-vibes",
-      "rose-pine",
-      "helix",
-      "editor",
-      "hacktoberfest"
-    ],
-    "stargazerCount": 16,
-    "updatedAt": "2024-01-26T10:13:35Z",
-    "url": "https://github.com/rose-pine/helix",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "",
     "homepageUrl": "",
     "name": "typst",
@@ -418,8 +418,8 @@
       "tiling-window-manager",
       "theme"
     ],
-    "stargazerCount": 4,
-    "updatedAt": "2024-01-18T20:13:23Z",
+    "stargazerCount": 5,
+    "updatedAt": "2024-01-28T19:15:03Z",
     "url": "https://github.com/rose-pine/hyprland",
     "usesCustomOpenGraphImage": false
   },
@@ -485,8 +485,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 414,
-    "updatedAt": "2024-01-26T04:41:34Z",
+    "stargazerCount": 415,
+    "updatedAt": "2024-01-28T14:19:12Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -498,8 +498,8 @@
       "theme",
       "color-palette"
     ],
-    "stargazerCount": 7,
-    "updatedAt": "2024-01-09T14:51:08Z",
+    "stargazerCount": 8,
+    "updatedAt": "2024-01-28T19:14:59Z",
     "url": "https://github.com/rose-pine/waybar",
     "usesCustomOpenGraphImage": true
   },
@@ -946,8 +946,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1039,
-    "updatedAt": "2024-01-27T01:21:05Z",
+    "stargazerCount": 1040,
+    "updatedAt": "2024-01-28T03:16:29Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
