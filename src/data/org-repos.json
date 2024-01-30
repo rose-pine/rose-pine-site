@@ -1,19 +1,14 @@
 [
   {
-    "description": "Soho vibes for Helix",
+    "description": "Soho vibes for tym",
     "homepageUrl": "",
-    "name": "helix",
+    "name": "tym",
     "repositoryTopics": [
-      "theme",
-      "soho-vibes",
-      "rose-pine",
-      "helix",
-      "editor",
-      "hacktoberfest"
+      "terminal"
     ],
-    "stargazerCount": 16,
-    "updatedAt": "2024-01-26T10:13:35Z",
-    "url": "https://github.com/rose-pine/helix",
+    "stargazerCount": 0,
+    "updatedAt": "2024-01-29T23:58:29Z",
+    "url": "https://github.com/rose-pine/tym",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -32,8 +27,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1673,
-    "updatedAt": "2024-01-28T19:43:20Z",
+    "stargazerCount": 1678,
+    "updatedAt": "2024-01-29T14:31:27Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -45,6 +40,23 @@
     "stargazerCount": 66,
     "updatedAt": "2024-01-20T23:55:22Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Helix",
+    "homepageUrl": "",
+    "name": "helix",
+    "repositoryTopics": [
+      "theme",
+      "soho-vibes",
+      "rose-pine",
+      "helix",
+      "editor",
+      "hacktoberfest"
+    ],
+    "stargazerCount": 16,
+    "updatedAt": "2024-01-26T10:13:35Z",
+    "url": "https://github.com/rose-pine/helix",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -120,8 +132,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 11,
-    "updatedAt": "2024-01-23T00:35:35Z",
+    "stargazerCount": 12,
+    "updatedAt": "2024-01-29T16:04:14Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -149,8 +161,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 67,
-    "updatedAt": "2024-01-24T00:05:46Z",
+    "stargazerCount": 68,
+    "updatedAt": "2024-01-29T02:16:30Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -946,8 +958,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1040,
-    "updatedAt": "2024-01-28T03:16:29Z",
+    "stargazerCount": 1042,
+    "updatedAt": "2024-01-29T17:27:52Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
