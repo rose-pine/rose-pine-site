@@ -1,15 +1,5 @@
 [
   {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 67,
-    "updatedAt": "2024-02-03T16:17:23Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Helix",
     "homepageUrl": "",
     "name": "helix",
@@ -24,6 +14,16 @@
     "stargazerCount": 17,
     "updatedAt": "2024-02-06T17:02:38Z",
     "url": "https://github.com/rose-pine/helix",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 67,
+    "updatedAt": "2024-02-03T16:17:23Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -54,8 +54,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1704,
-    "updatedAt": "2024-02-06T16:39:55Z",
+    "stargazerCount": 1710,
+    "updatedAt": "2024-02-07T22:50:15Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -64,8 +64,8 @@
     "homepageUrl": "",
     "name": "skiff",
     "repositoryTopics": [],
-    "stargazerCount": 2,
-    "updatedAt": "2024-01-20T11:03:03Z",
+    "stargazerCount": 3,
+    "updatedAt": "2024-02-07T02:05:47Z",
     "url": "https://github.com/rose-pine/skiff",
     "usesCustomOpenGraphImage": false
   },
@@ -528,8 +528,8 @@
       "addon",
       "firefox-extension"
     ],
-    "stargazerCount": 40,
-    "updatedAt": "2024-01-09T14:49:44Z",
+    "stargazerCount": 41,
+    "updatedAt": "2024-02-07T14:35:12Z",
     "url": "https://github.com/rose-pine/firefox",
     "usesCustomOpenGraphImage": true
   },
