@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 67,
+    "updatedAt": "2024-02-03T16:17:23Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -15,8 +25,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1713,
-    "updatedAt": "2024-02-08T09:48:42Z",
+    "stargazerCount": 1714,
+    "updatedAt": "2024-02-09T12:09:20Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -51,16 +61,6 @@
     "stargazerCount": 2,
     "updatedAt": "2024-02-06T20:34:49Z",
     "url": "https://github.com/rose-pine/pygments",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 67,
-    "updatedAt": "2024-02-03T16:17:23Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
