@@ -1,5 +1,30 @@
 [
   {
+    "description": "Soho vibes for tmux",
+    "homepageUrl": "",
+    "name": "tmux",
+    "repositoryTopics": [
+      "app",
+      "terminal",
+      "tmux",
+      "theme"
+    ],
+    "stargazerCount": 77,
+    "updatedAt": "2024-02-15T18:27:27Z",
+    "url": "https://github.com/rose-pine/tmux",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 67,
+    "updatedAt": "2024-02-03T16:17:23Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -15,19 +40,9 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1730,
-    "updatedAt": "2024-02-14T17:53:04Z",
+    "stargazerCount": 1732,
+    "updatedAt": "2024-02-15T20:06:20Z",
     "url": "https://github.com/rose-pine/neovim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 67,
-    "updatedAt": "2024-02-03T16:17:23Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -132,8 +147,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 15,
-    "updatedAt": "2024-02-11T17:50:07Z",
+    "stargazerCount": 16,
+    "updatedAt": "2024-02-15T02:01:22Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -149,21 +164,6 @@
     "stargazerCount": 14,
     "updatedAt": "2024-01-03T22:38:06Z",
     "url": "https://github.com/rose-pine/zellij",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for tmux",
-    "homepageUrl": "",
-    "name": "tmux",
-    "repositoryTopics": [
-      "app",
-      "terminal",
-      "tmux",
-      "theme"
-    ],
-    "stargazerCount": 75,
-    "updatedAt": "2024-02-14T23:18:51Z",
-    "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -447,8 +447,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 55,
-    "updatedAt": "2024-02-14T18:48:11Z",
+    "stargazerCount": 56,
+    "updatedAt": "2024-02-15T20:06:25Z",
     "url": "https://github.com/rose-pine/kitty",
     "usesCustomOpenGraphImage": true
   },
@@ -786,8 +786,8 @@
       "rose-pine",
       "soho-vibes"
     ],
-    "stargazerCount": 8,
-    "updatedAt": "2024-01-08T00:45:15Z",
+    "stargazerCount": 9,
+    "updatedAt": "2024-02-15T01:38:25Z",
     "url": "https://github.com/rose-pine/vimium-c",
     "usesCustomOpenGraphImage": false
   },
