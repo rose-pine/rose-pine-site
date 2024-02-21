@@ -40,8 +40,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1746,
-    "updatedAt": "2024-02-19T22:49:33Z",
+    "stargazerCount": 1745,
+    "updatedAt": "2024-02-20T15:17:43Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -63,7 +63,7 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Pygments | A Pygments Style using Rose-Piné",
+    "description": "Soho vibes for Pygments",
     "homepageUrl": "",
     "name": "pygments",
     "repositoryTopics": [
@@ -74,7 +74,7 @@
       "pygments"
     ],
     "stargazerCount": 2,
-    "updatedAt": "2024-02-06T20:34:49Z",
+    "updatedAt": "2024-02-20T21:33:59Z",
     "url": "https://github.com/rose-pine/pygments",
     "usesCustomOpenGraphImage": true
   },
@@ -403,8 +403,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 5,
-    "updatedAt": "2024-01-09T20:24:33Z",
+    "stargazerCount": 6,
+    "updatedAt": "2024-02-20T14:10:27Z",
     "url": "https://github.com/rose-pine/pleroma",
     "usesCustomOpenGraphImage": false
   },
@@ -958,8 +958,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1053,
-    "updatedAt": "2024-02-18T19:14:10Z",
+    "stargazerCount": 1054,
+    "updatedAt": "2024-02-20T00:39:06Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
