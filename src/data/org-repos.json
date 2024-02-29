@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 68,
+    "updatedAt": "2024-02-23T04:15:27Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Visual Studio Code",
     "homepageUrl": "https://marketplace.visualstudio.com/items?itemName=mvllow.rose-pine",
     "name": "vscode",
@@ -13,19 +23,9 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 419,
-    "updatedAt": "2024-02-27T09:12:19Z",
+    "stargazerCount": 420,
+    "updatedAt": "2024-02-28T18:34:44Z",
     "url": "https://github.com/rose-pine/vscode",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 68,
-    "updatedAt": "2024-02-23T04:15:27Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -44,8 +44,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1763,
-    "updatedAt": "2024-02-27T23:48:26Z",
+    "stargazerCount": 1764,
+    "updatedAt": "2024-02-28T16:42:08Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -166,8 +166,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 18,
-    "updatedAt": "2024-02-22T08:26:31Z",
+    "stargazerCount": 19,
+    "updatedAt": "2024-02-28T09:19:29Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -466,8 +466,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 57,
-    "updatedAt": "2024-02-21T20:44:57Z",
+    "stargazerCount": 56,
+    "updatedAt": "2024-02-28T19:42:43Z",
     "url": "https://github.com/rose-pine/kitty",
     "usesCustomOpenGraphImage": true
   },
