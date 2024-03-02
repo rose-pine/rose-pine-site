@@ -1,5 +1,18 @@
 [
   {
+    "description": "Soho vibes for Discord mobile",
+    "homepageUrl": "",
+    "name": "discord-mobile",
+    "repositoryTopics": [
+      "theme",
+      "mobile-app"
+    ],
+    "stargazerCount": 2,
+    "updatedAt": "2024-03-01T18:46:16Z",
+    "url": "https://github.com/rose-pine/discord-mobile",
+    "usesCustomOpenGraphImage": false
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
@@ -44,8 +57,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1769,
-    "updatedAt": "2024-02-29T21:42:04Z",
+    "stargazerCount": 1772,
+    "updatedAt": "2024-03-01T18:06:02Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -166,8 +179,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 19,
-    "updatedAt": "2024-02-28T09:19:29Z",
+    "stargazerCount": 18,
+    "updatedAt": "2024-03-01T00:54:29Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -195,8 +208,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 181,
-    "updatedAt": "2024-02-29T12:44:09Z",
+    "stargazerCount": 182,
+    "updatedAt": "2024-03-01T10:48:14Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -220,8 +233,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 113,
-    "updatedAt": "2024-02-29T15:21:29Z",
+    "stargazerCount": 114,
+    "updatedAt": "2024-03-01T01:42:36Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -958,8 +971,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1068,
-    "updatedAt": "2024-02-29T01:14:09Z",
+    "stargazerCount": 1070,
+    "updatedAt": "2024-03-01T21:45:58Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
