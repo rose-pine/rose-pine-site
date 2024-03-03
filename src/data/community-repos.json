@@ -151,7 +151,9 @@
 		"name": "JSDoc",
 		"url": "https://github.com/nonnullish/rose-pine-jsdoc",
 		"tags": ["dev", "web-ui"],
-		"authors": [{ "name": "nonnullish", "url": "https://github.com/nonnullish" }],
+		"authors": [
+			{ "name": "nonnullish", "url": "https://github.com/nonnullish" }
+		],
 		"has_variants": true
 	},
 	{
@@ -257,6 +259,13 @@
 			{ "name": "Sarah Allen Reed", "url": "https://github.com/SarahAllenReed" }
 		],
 		"has_variants": false
+	},
+	{
+		"name": "RIME",
+		"url": "https://github.com/0xffan/rose-pine-rime",
+		"tags": [],
+		"authors": [{ "name": "0xffan", "url": "https://github.com/0xffan" }],
+		"has_variants": true
 	},
 	{
 		"name": "SDDM",
