@@ -1,41 +1,5 @@
 [
   {
-    "description": "Soho vibes for Phemex",
-    "homepageUrl": "",
-    "name": "phemex",
-    "repositoryTopics": [
-      "web"
-    ],
-    "stargazerCount": 2,
-    "updatedAt": "2024-03-04T22:51:43Z",
-    "url": "https://github.com/rose-pine/phemex",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 69,
-    "updatedAt": "2024-03-04T14:35:54Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Zellij",
-    "homepageUrl": "",
-    "name": "zellij",
-    "repositoryTopics": [
-      "soho-vibes",
-      "rose-pine",
-      "theme"
-    ],
-    "stargazerCount": 17,
-    "updatedAt": "2024-03-04T04:28:57Z",
-    "url": "https://github.com/rose-pine/zellij",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -51,9 +15,45 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1781,
-    "updatedAt": "2024-03-04T17:44:25Z",
+    "stargazerCount": 1783,
+    "updatedAt": "2024-03-05T08:40:44Z",
     "url": "https://github.com/rose-pine/neovim",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 69,
+    "updatedAt": "2024-03-04T14:35:54Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Phemex",
+    "homepageUrl": "",
+    "name": "phemex",
+    "repositoryTopics": [
+      "web"
+    ],
+    "stargazerCount": 3,
+    "updatedAt": "2024-03-05T00:46:26Z",
+    "url": "https://github.com/rose-pine/phemex",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Zellij",
+    "homepageUrl": "",
+    "name": "zellij",
+    "repositoryTopics": [
+      "soho-vibes",
+      "rose-pine",
+      "theme"
+    ],
+    "stargazerCount": 17,
+    "updatedAt": "2024-03-04T04:28:57Z",
+    "url": "https://github.com/rose-pine/zellij",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -83,8 +83,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 421,
-    "updatedAt": "2024-03-04T17:29:06Z",
+    "stargazerCount": 420,
+    "updatedAt": "2024-03-05T09:38:08Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -98,8 +98,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 84,
-    "updatedAt": "2024-03-04T18:13:31Z",
+    "stargazerCount": 85,
+    "updatedAt": "2024-03-06T00:01:32Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -143,8 +143,8 @@
     "repositoryTopics": [
       "terminal"
     ],
-    "stargazerCount": 0,
-    "updatedAt": "2024-01-29T23:58:29Z",
+    "stargazerCount": 1,
+    "updatedAt": "2024-03-05T08:40:33Z",
     "url": "https://github.com/rose-pine/tym",
     "usesCustomOpenGraphImage": true
   },
@@ -220,8 +220,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 182,
-    "updatedAt": "2024-03-04T04:18:49Z",
+    "stargazerCount": 181,
+    "updatedAt": "2024-03-05T23:31:04Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -983,8 +983,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1071,
-    "updatedAt": "2024-03-03T13:25:59Z",
+    "stargazerCount": 1073,
+    "updatedAt": "2024-03-06T00:04:34Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
