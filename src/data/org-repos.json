@@ -1,5 +1,21 @@
 [
   {
+    "description": "Soho vibes for Sublime Text",
+    "homepageUrl": "",
+    "name": "sublime-text",
+    "repositoryTopics": [
+      "sublime-text",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "hacktoberfest"
+    ],
+    "stargazerCount": 17,
+    "updatedAt": "2024-01-17T14:53:59Z",
+    "url": "https://github.com/rose-pine/sublime-text",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
@@ -25,8 +41,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1787,
-    "updatedAt": "2024-03-08T21:36:57Z",
+    "stargazerCount": 1788,
+    "updatedAt": "2024-03-09T02:59:54Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -83,8 +99,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 421,
-    "updatedAt": "2024-03-08T16:11:21Z",
+    "stargazerCount": 422,
+    "updatedAt": "2024-03-09T19:08:14Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -874,22 +890,6 @@
     "usesCustomOpenGraphImage": false
   },
   {
-    "description": "Soho vibes for Sublime Text",
-    "homepageUrl": "",
-    "name": "sublime-text",
-    "repositoryTopics": [
-      "sublime-text",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "hacktoberfest"
-    ],
-    "stargazerCount": 17,
-    "updatedAt": "2024-01-17T14:53:59Z",
-    "url": "https://github.com/rose-pine/sublime-text",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for QTerminal",
     "homepageUrl": "",
     "name": "qterminal",
@@ -1368,8 +1368,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 72,
-    "updatedAt": "2024-02-25T21:16:51Z",
+    "stargazerCount": 73,
+    "updatedAt": "2024-03-09T00:23:15Z",
     "url": "https://github.com/rose-pine/iterm",
     "usesCustomOpenGraphImage": true
   },
