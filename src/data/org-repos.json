@@ -1,5 +1,42 @@
 [
   {
+    "description": "Soho vibes for Pygments",
+    "homepageUrl": "",
+    "name": "pygments",
+    "repositoryTopics": [
+      "ipython",
+      "pygments-style",
+      "radian",
+      "rose-pine",
+      "pygments"
+    ],
+    "stargazerCount": 2,
+    "updatedAt": "2024-02-20T21:33:59Z",
+    "url": "https://github.com/rose-pine/pygments",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Neovim",
+    "homepageUrl": "",
+    "name": "neovim",
+    "repositoryTopics": [
+      "theme",
+      "neovim",
+      "soho-vibes",
+      "rose-pine",
+      "lua",
+      "vim",
+      "nvim",
+      "neovim-theme",
+      "vim-theme",
+      "editor"
+    ],
+    "stargazerCount": 1805,
+    "updatedAt": "2024-03-14T09:47:05Z",
+    "url": "https://github.com/rose-pine/neovim",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Sublime Text",
     "homepageUrl": "",
     "name": "sublime-text",
@@ -51,27 +88,6 @@
     "updatedAt": "2024-03-04T18:58:40Z",
     "url": "https://github.com/rose-pine/userstyles",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Soho vibes for Neovim",
-    "homepageUrl": "",
-    "name": "neovim",
-    "repositoryTopics": [
-      "theme",
-      "neovim",
-      "soho-vibes",
-      "rose-pine",
-      "lua",
-      "vim",
-      "nvim",
-      "neovim-theme",
-      "vim-theme",
-      "editor"
-    ],
-    "stargazerCount": 1803,
-    "updatedAt": "2024-03-13T22:14:29Z",
-    "url": "https://github.com/rose-pine/neovim",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Phemex",
@@ -126,8 +142,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 424,
-    "updatedAt": "2024-03-13T21:04:03Z",
+    "stargazerCount": 425,
+    "updatedAt": "2024-03-14T04:58:08Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -141,8 +157,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 86,
-    "updatedAt": "2024-03-07T16:44:04Z",
+    "stargazerCount": 87,
+    "updatedAt": "2024-03-14T07:46:29Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -161,22 +177,6 @@
     "stargazerCount": 21,
     "updatedAt": "2024-03-12T20:30:11Z",
     "url": "https://github.com/rose-pine/helix",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Pygments",
-    "homepageUrl": "",
-    "name": "pygments",
-    "repositoryTopics": [
-      "ipython",
-      "pygments-style",
-      "radian",
-      "rose-pine",
-      "pygments"
-    ],
-    "stargazerCount": 2,
-    "updatedAt": "2024-02-20T21:33:59Z",
-    "url": "https://github.com/rose-pine/pygments",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -223,8 +223,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 81,
-    "updatedAt": "2024-03-10T16:48:05Z",
+    "stargazerCount": 83,
+    "updatedAt": "2024-03-14T21:09:15Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
@@ -983,8 +983,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1078,
-    "updatedAt": "2024-03-12T11:15:47Z",
+    "stargazerCount": 1079,
+    "updatedAt": "2024-03-14T13:20:46Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1091,8 +1091,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 28,
-    "updatedAt": "2024-03-08T18:23:29Z",
+    "stargazerCount": 29,
+    "updatedAt": "2024-03-14T19:53:10Z",
     "url": "https://github.com/rose-pine/gnome-terminal",
     "usesCustomOpenGraphImage": true
   },
