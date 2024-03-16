@@ -1,39 +1,12 @@
 [
   {
-    "description": "Soho vibes for Pygments",
-    "homepageUrl": "",
-    "name": "pygments",
-    "repositoryTopics": [
-      "ipython",
-      "pygments-style",
-      "radian",
-      "rose-pine",
-      "pygments"
-    ],
-    "stargazerCount": 2,
-    "updatedAt": "2024-02-20T21:33:59Z",
-    "url": "https://github.com/rose-pine/pygments",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Neovim",
-    "homepageUrl": "",
-    "name": "neovim",
-    "repositoryTopics": [
-      "theme",
-      "neovim",
-      "soho-vibes",
-      "rose-pine",
-      "lua",
-      "vim",
-      "nvim",
-      "neovim-theme",
-      "vim-theme",
-      "editor"
-    ],
-    "stargazerCount": 1805,
-    "updatedAt": "2024-03-14T09:47:05Z",
-    "url": "https://github.com/rose-pine/neovim",
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 70,
+    "updatedAt": "2024-03-08T18:22:42Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -53,13 +26,40 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 70,
-    "updatedAt": "2024-03-08T18:22:42Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
+    "description": "Soho vibes for Neovim",
+    "homepageUrl": "",
+    "name": "neovim",
+    "repositoryTopics": [
+      "theme",
+      "neovim",
+      "soho-vibes",
+      "rose-pine",
+      "lua",
+      "vim",
+      "nvim",
+      "neovim-theme",
+      "vim-theme",
+      "editor"
+    ],
+    "stargazerCount": 1809,
+    "updatedAt": "2024-03-15T23:32:19Z",
+    "url": "https://github.com/rose-pine/neovim",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Pygments",
+    "homepageUrl": "",
+    "name": "pygments",
+    "repositoryTopics": [
+      "ipython",
+      "pygments-style",
+      "radian",
+      "rose-pine",
+      "pygments"
+    ],
+    "stargazerCount": 2,
+    "updatedAt": "2024-02-20T21:33:59Z",
+    "url": "https://github.com/rose-pine/pygments",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -274,7 +274,7 @@
       "theme"
     ],
     "stargazerCount": 116,
-    "updatedAt": "2024-03-13T19:33:54Z",
+    "updatedAt": "2024-03-15T07:06:56Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
