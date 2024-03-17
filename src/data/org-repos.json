@@ -1,5 +1,26 @@
 [
   {
+    "description": "Soho vibes for Neovim",
+    "homepageUrl": "",
+    "name": "neovim",
+    "repositoryTopics": [
+      "theme",
+      "neovim",
+      "soho-vibes",
+      "rose-pine",
+      "lua",
+      "vim",
+      "nvim",
+      "neovim-theme",
+      "vim-theme",
+      "editor"
+    ],
+    "stargazerCount": 1809,
+    "updatedAt": "2024-03-15T23:32:19Z",
+    "url": "https://github.com/rose-pine/neovim",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
@@ -23,27 +44,6 @@
     "stargazerCount": 17,
     "updatedAt": "2024-01-17T14:53:59Z",
     "url": "https://github.com/rose-pine/sublime-text",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Neovim",
-    "homepageUrl": "",
-    "name": "neovim",
-    "repositoryTopics": [
-      "theme",
-      "neovim",
-      "soho-vibes",
-      "rose-pine",
-      "lua",
-      "vim",
-      "nvim",
-      "neovim-theme",
-      "vim-theme",
-      "editor"
-    ],
-    "stargazerCount": 1809,
-    "updatedAt": "2024-03-15T23:32:19Z",
-    "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -142,8 +142,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 425,
-    "updatedAt": "2024-03-14T04:58:08Z",
+    "stargazerCount": 426,
+    "updatedAt": "2024-03-16T02:22:21Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -157,8 +157,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 87,
-    "updatedAt": "2024-03-14T07:46:29Z",
+    "stargazerCount": 88,
+    "updatedAt": "2024-03-16T16:49:41Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -223,8 +223,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 83,
-    "updatedAt": "2024-03-14T21:09:15Z",
+    "stargazerCount": 84,
+    "updatedAt": "2024-03-16T22:58:53Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
