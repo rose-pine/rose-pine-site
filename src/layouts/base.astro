@@ -1,6 +1,7 @@
 ---
 import i18next, { t } from "i18next";
 import { localizePath, localizeUrl } from "astro-i18next";
+import { ViewTransitions } from "astro:transitions";
 import { roles, roleKeys } from "@rose-pine/palette";
 import Banner from "$components/banner.svelte";
 import Header from "$components/header.astro";
@@ -107,6 +108,7 @@ const groups = [
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description" content={description} />
 		<meta property="og:image" content="/assets/opengraph-image.jpg" />
+		<ViewTransitions />
 		<title>{title}</title>
 
 		{
