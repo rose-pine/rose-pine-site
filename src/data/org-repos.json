@@ -1,15 +1,5 @@
 [
   {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 71,
-    "updatedAt": "2024-03-18T10:54:05Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -25,9 +15,19 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1812,
-    "updatedAt": "2024-03-18T22:49:48Z",
+    "stargazerCount": 1817,
+    "updatedAt": "2024-03-19T22:21:49Z",
     "url": "https://github.com/rose-pine/neovim",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 71,
+    "updatedAt": "2024-03-18T10:54:05Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -157,8 +157,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 89,
-    "updatedAt": "2024-03-17T18:01:20Z",
+    "stargazerCount": 90,
+    "updatedAt": "2024-03-19T11:00:28Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -223,8 +223,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 84,
-    "updatedAt": "2024-03-16T22:58:53Z",
+    "stargazerCount": 85,
+    "updatedAt": "2024-03-19T18:58:39Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
@@ -983,8 +983,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1082,
-    "updatedAt": "2024-03-17T23:17:02Z",
+    "stargazerCount": 1083,
+    "updatedAt": "2024-03-19T21:49:15Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1091,8 +1091,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 29,
-    "updatedAt": "2024-03-14T19:53:10Z",
+    "stargazerCount": 30,
+    "updatedAt": "2024-03-19T21:32:45Z",
     "url": "https://github.com/rose-pine/gnome-terminal",
     "usesCustomOpenGraphImage": true
   },
