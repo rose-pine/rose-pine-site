@@ -1,31 +1,5 @@
 [
   {
-    "description": "Soho vibes for Sublime Text",
-    "homepageUrl": "",
-    "name": "sublime-text",
-    "repositoryTopics": [
-      "sublime-text",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "hacktoberfest"
-    ],
-    "stargazerCount": 18,
-    "updatedAt": "2024-03-21T23:35:52Z",
-    "url": "https://github.com/rose-pine/sublime-text",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 73,
-    "updatedAt": "2024-03-21T13:22:44Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -41,9 +15,35 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1827,
-    "updatedAt": "2024-03-22T20:40:32Z",
+    "stargazerCount": 1834,
+    "updatedAt": "2024-03-23T21:11:52Z",
     "url": "https://github.com/rose-pine/neovim",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 73,
+    "updatedAt": "2024-03-23T06:01:47Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Sublime Text",
+    "homepageUrl": "",
+    "name": "sublime-text",
+    "repositoryTopics": [
+      "sublime-text",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "hacktoberfest"
+    ],
+    "stargazerCount": 18,
+    "updatedAt": "2024-03-21T23:35:52Z",
+    "url": "https://github.com/rose-pine/sublime-text",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -431,8 +431,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 47,
-    "updatedAt": "2024-03-02T19:37:29Z",
+    "stargazerCount": 48,
+    "updatedAt": "2024-03-23T20:36:00Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
