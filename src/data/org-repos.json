@@ -1,5 +1,22 @@
 [
   {
+    "description": "Soho vibes for Helix",
+    "homepageUrl": "",
+    "name": "helix",
+    "repositoryTopics": [
+      "theme",
+      "soho-vibes",
+      "rose-pine",
+      "helix",
+      "editor",
+      "hacktoberfest"
+    ],
+    "stargazerCount": 21,
+    "updatedAt": "2024-03-12T20:30:11Z",
+    "url": "https://github.com/rose-pine/helix",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -15,8 +32,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1834,
-    "updatedAt": "2024-03-23T21:11:52Z",
+    "stargazerCount": 1837,
+    "updatedAt": "2024-03-24T21:22:16Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -41,8 +58,8 @@
       "rose-pine",
       "hacktoberfest"
     ],
-    "stargazerCount": 18,
-    "updatedAt": "2024-03-21T23:35:52Z",
+    "stargazerCount": 19,
+    "updatedAt": "2024-03-24T21:00:23Z",
     "url": "https://github.com/rose-pine/sublime-text",
     "usesCustomOpenGraphImage": true
   },
@@ -163,23 +180,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Helix",
-    "homepageUrl": "",
-    "name": "helix",
-    "repositoryTopics": [
-      "theme",
-      "soho-vibes",
-      "rose-pine",
-      "helix",
-      "editor",
-      "hacktoberfest"
-    ],
-    "stargazerCount": 21,
-    "updatedAt": "2024-03-12T20:30:11Z",
-    "url": "https://github.com/rose-pine/helix",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for tym",
     "homepageUrl": "",
     "name": "tym",
@@ -248,8 +248,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 180,
-    "updatedAt": "2024-03-10T21:13:14Z",
+    "stargazerCount": 181,
+    "updatedAt": "2024-03-24T11:00:53Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
