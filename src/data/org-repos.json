@@ -1,11 +1,26 @@
 [
   {
+    "description": "Soho vibes for GRUB 2",
+    "homepageUrl": "",
+    "name": "grub",
+    "repositoryTopics": [
+      "grub",
+      "soho-vibes",
+      "theme",
+      "rose-pine"
+    ],
+    "stargazerCount": 5,
+    "updatedAt": "2024-01-07T11:10:43Z",
+    "url": "https://github.com/rose-pine/grub",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
-    "stargazerCount": 73,
-    "updatedAt": "2024-03-23T06:01:47Z",
+    "stargazerCount": 74,
+    "updatedAt": "2024-03-27T11:41:17Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -72,8 +87,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1847,
-    "updatedAt": "2024-03-26T23:17:44Z",
+    "stargazerCount": 1850,
+    "updatedAt": "2024-03-27T14:41:40Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -131,8 +146,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 5,
-    "updatedAt": "2024-03-13T20:50:16Z",
+    "stargazerCount": 6,
+    "updatedAt": "2024-03-27T09:12:44Z",
     "url": "https://github.com/rose-pine/typst",
     "usesCustomOpenGraphImage": true
   },
@@ -263,8 +278,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 181,
-    "updatedAt": "2024-03-26T12:53:17Z",
+    "stargazerCount": 183,
+    "updatedAt": "2024-03-27T09:46:45Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -1047,21 +1062,6 @@
     "stargazerCount": 3,
     "updatedAt": "2022-09-11T17:09:45Z",
     "url": "https://github.com/rose-pine/mintty",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for GRUB 2",
-    "homepageUrl": "",
-    "name": "grub",
-    "repositoryTopics": [
-      "grub",
-      "soho-vibes",
-      "theme",
-      "rose-pine"
-    ],
-    "stargazerCount": 5,
-    "updatedAt": "2024-01-07T11:10:43Z",
-    "url": "https://github.com/rose-pine/grub",
     "usesCustomOpenGraphImage": true
   },
   {
