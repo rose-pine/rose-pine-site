@@ -200,6 +200,15 @@
 		"has_variants": false
 	},
 	{
+		"name": "LogSeq",
+		"url": "https://github.com/ebarruel/logseq-rose-pine-theme",
+		"tags": ["app", "productivity"],
+		"authors": [
+			{ "name": "Evangeline Barruel", "url": "https://github.com/ebarruel/logseq-rose-pine-theme" }
+		],
+		"has_variants": true
+	},
+	{
 		"name": "Marp",
 		"url": "https://github.com/rainbowflesh/Rose-Pine-For-Marp",
 		"tags": ["marp-themes"],
