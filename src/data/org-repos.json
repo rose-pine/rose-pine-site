@@ -1,5 +1,21 @@
 [
   {
+    "description": "Soho vibes for Sublime Text",
+    "homepageUrl": "",
+    "name": "sublime-text",
+    "repositoryTopics": [
+      "sublime-text",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "hacktoberfest"
+    ],
+    "stargazerCount": 19,
+    "updatedAt": "2024-03-24T21:00:23Z",
+    "url": "https://github.com/rose-pine/sublime-text",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -15,25 +31,9 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1855,
-    "updatedAt": "2024-03-29T21:16:16Z",
+    "stargazerCount": 1856,
+    "updatedAt": "2024-03-30T17:37:00Z",
     "url": "https://github.com/rose-pine/neovim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Sublime Text",
-    "homepageUrl": "",
-    "name": "sublime-text",
-    "repositoryTopics": [
-      "sublime-text",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "hacktoberfest"
-    ],
-    "stargazerCount": 19,
-    "updatedAt": "2024-03-24T21:00:23Z",
-    "url": "https://github.com/rose-pine/sublime-text",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -59,8 +59,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 49,
-    "updatedAt": "2024-03-28T21:22:35Z",
+    "stargazerCount": 48,
+    "updatedAt": "2024-03-30T23:12:21Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
@@ -104,8 +104,8 @@
       "userstyles",
       "stylus"
     ],
-    "stargazerCount": 8,
-    "updatedAt": "2024-03-17T01:20:57Z",
+    "stargazerCount": 7,
+    "updatedAt": "2024-03-30T23:11:28Z",
     "url": "https://github.com/rose-pine/userstyles",
     "usesCustomOpenGraphImage": false
   },
@@ -222,8 +222,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 432,
-    "updatedAt": "2024-03-29T14:37:39Z",
+    "stargazerCount": 431,
+    "updatedAt": "2024-03-30T23:11:26Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -584,8 +584,8 @@
       "addon",
       "firefox-extension"
     ],
-    "stargazerCount": 42,
-    "updatedAt": "2024-02-14T23:33:08Z",
+    "stargazerCount": 41,
+    "updatedAt": "2024-03-30T23:10:48Z",
     "url": "https://github.com/rose-pine/firefox",
     "usesCustomOpenGraphImage": true
   },
@@ -885,8 +885,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 23,
-    "updatedAt": "2023-11-12T09:38:10Z",
+    "stargazerCount": 22,
+    "updatedAt": "2024-03-30T23:11:21Z",
     "url": "https://github.com/rose-pine/startpage",
     "usesCustomOpenGraphImage": true
   },
@@ -950,8 +950,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 12,
-    "updatedAt": "2023-12-31T03:13:40Z",
+    "stargazerCount": 13,
+    "updatedAt": "2024-03-30T10:16:27Z",
     "url": "https://github.com/rose-pine/xfce-terminal",
     "usesCustomOpenGraphImage": true
   },
