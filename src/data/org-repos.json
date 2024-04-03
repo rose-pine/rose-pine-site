@@ -1,12 +1,18 @@
 [
   {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 75,
-    "updatedAt": "2024-03-29T09:22:15Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
+    "description": "Soho vibes for Sublime Text",
+    "homepageUrl": "",
+    "name": "sublime-text",
+    "repositoryTopics": [
+      "sublime-text",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "hacktoberfest"
+    ],
+    "stargazerCount": 19,
+    "updatedAt": "2024-03-24T21:00:23Z",
+    "url": "https://github.com/rose-pine/sublime-text",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -25,25 +31,19 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1859,
-    "updatedAt": "2024-04-01T15:41:19Z",
+    "stargazerCount": 1863,
+    "updatedAt": "2024-04-02T20:59:35Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Sublime Text",
-    "homepageUrl": "",
-    "name": "sublime-text",
-    "repositoryTopics": [
-      "sublime-text",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "hacktoberfest"
-    ],
-    "stargazerCount": 19,
-    "updatedAt": "2024-03-24T21:00:23Z",
-    "url": "https://github.com/rose-pine/sublime-text",
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 75,
+    "updatedAt": "2024-03-29T09:22:15Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -999,7 +999,7 @@
       "aesthetic"
     ],
     "stargazerCount": 1096,
-    "updatedAt": "2024-04-01T22:02:04Z",
+    "updatedAt": "2024-04-02T22:08:34Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1368,8 +1368,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 74,
-    "updatedAt": "2024-03-26T10:22:38Z",
+    "stargazerCount": 75,
+    "updatedAt": "2024-04-02T23:53:09Z",
     "url": "https://github.com/rose-pine/iterm",
     "usesCustomOpenGraphImage": true
   },
