@@ -139,6 +139,13 @@
 		"has_variants": true
 	},
 	{
+		"name": "iSH Shell",
+		"url": "https://github.com/akopdev/rose-pine-ish",
+		"tags": ["terminal", "shell", "mobile", "ish"],
+		"authors": [{ "name": "Akop Kesheshyan", "url": "https://github.com/akopdev" }],
+		"has_variants": true
+	},
+	{
 		"name": "JupyterLab",
 		"url": "https://github.com/aaravind100/jupyterlab",
 		"tags": ["app", "editor", "jupyter", "notebook"],
