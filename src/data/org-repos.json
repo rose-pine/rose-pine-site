@@ -1,5 +1,32 @@
 [
   {
+    "description": "Soho vibes for Cursors",
+    "homepageUrl": "",
+    "name": "cursor",
+    "repositoryTopics": [],
+    "stargazerCount": 23,
+    "updatedAt": "2024-03-31T15:18:57Z",
+    "url": "https://github.com/rose-pine/cursor",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Helix",
+    "homepageUrl": "",
+    "name": "helix",
+    "repositoryTopics": [
+      "theme",
+      "soho-vibes",
+      "rose-pine",
+      "helix",
+      "editor",
+      "hacktoberfest"
+    ],
+    "stargazerCount": 21,
+    "updatedAt": "2024-03-12T20:30:11Z",
+    "url": "https://github.com/rose-pine/helix",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
@@ -41,8 +68,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1870,
-    "updatedAt": "2024-04-06T21:49:16Z",
+    "stargazerCount": 1872,
+    "updatedAt": "2024-04-07T07:30:55Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -89,8 +116,8 @@
       "tiling-window-manager",
       "theme"
     ],
-    "stargazerCount": 7,
-    "updatedAt": "2024-03-04T04:10:06Z",
+    "stargazerCount": 8,
+    "updatedAt": "2024-04-07T19:33:46Z",
     "url": "https://github.com/rose-pine/hyprland",
     "usesCustomOpenGraphImage": false
   },
@@ -108,23 +135,6 @@
     "updatedAt": "2024-03-30T23:11:28Z",
     "url": "https://github.com/rose-pine/userstyles",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Soho vibes for Helix",
-    "homepageUrl": "",
-    "name": "helix",
-    "repositoryTopics": [
-      "theme",
-      "soho-vibes",
-      "rose-pine",
-      "helix",
-      "editor",
-      "hacktoberfest"
-    ],
-    "stargazerCount": 21,
-    "updatedAt": "2024-03-12T20:30:11Z",
-    "url": "https://github.com/rose-pine/helix",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for tmux",
@@ -222,8 +232,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 435,
-    "updatedAt": "2024-04-06T15:33:15Z",
+    "stargazerCount": 436,
+    "updatedAt": "2024-04-07T13:03:56Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -274,16 +284,6 @@
     "stargazerCount": 84,
     "updatedAt": "2024-04-06T16:40:33Z",
     "url": "https://github.com/rose-pine/alacritty",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Cursors",
-    "homepageUrl": "",
-    "name": "cursor",
-    "repositoryTopics": [],
-    "stargazerCount": 23,
-    "updatedAt": "2024-03-31T15:18:57Z",
-    "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -998,8 +998,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1097,
-    "updatedAt": "2024-04-06T20:18:08Z",
+    "stargazerCount": 1098,
+    "updatedAt": "2024-04-08T00:08:31Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
