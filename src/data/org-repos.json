@@ -1,12 +1,60 @@
 [
   {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
+    "description": "Soho vibes for Userstyles",
+    "homepageUrl": "",
+    "name": "userstyles",
+    "repositoryTopics": [
+      "css",
+      "stylish",
+      "userstyles",
+      "stylus"
+    ],
+    "stargazerCount": 7,
+    "updatedAt": "2024-03-30T23:11:28Z",
+    "url": "https://github.com/rose-pine/userstyles",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "Soho vibes for Wallpapers",
+    "homepageUrl": "",
+    "name": "wallpapers",
+    "repositoryTopics": [
+      "wallpapers",
+      "soho-vibes",
+      "rose-pine",
+      "theme"
+    ],
+    "stargazerCount": 120,
+    "updatedAt": "2024-04-15T12:01:04Z",
+    "url": "https://github.com/rose-pine/wallpapers",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Discord",
+    "homepageUrl": "",
+    "name": "discord",
+    "repositoryTopics": [
+      "betterdiscord",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "goosemod",
+      "discord",
+      "hacktoberfest"
+    ],
+    "stargazerCount": 49,
+    "updatedAt": "2024-04-05T22:35:09Z",
+    "url": "https://github.com/rose-pine/discord",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Cursors",
+    "homepageUrl": "",
+    "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 76,
-    "updatedAt": "2024-04-04T15:01:12Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
+    "stargazerCount": 25,
+    "updatedAt": "2024-04-15T08:22:13Z",
+    "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -19,6 +67,16 @@
     "stargazerCount": 15,
     "updatedAt": "2024-02-29T19:32:09Z",
     "url": "https://github.com/rose-pine/fzf",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 76,
+    "updatedAt": "2024-04-04T15:01:12Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -37,8 +95,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1897,
-    "updatedAt": "2024-04-14T13:57:23Z",
+    "stargazerCount": 1901,
+    "updatedAt": "2024-04-15T23:10:01Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -54,16 +112,6 @@
     "updatedAt": "2024-03-01T18:46:16Z",
     "url": "https://github.com/rose-pine/discord-mobile",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Soho vibes for Cursors",
-    "homepageUrl": "",
-    "name": "cursor",
-    "repositoryTopics": [],
-    "stargazerCount": 24,
-    "updatedAt": "2024-04-14T00:33:31Z",
-    "url": "https://github.com/rose-pine/cursor",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Helix",
@@ -99,24 +147,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Discord",
-    "homepageUrl": "",
-    "name": "discord",
-    "repositoryTopics": [
-      "betterdiscord",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "goosemod",
-      "discord",
-      "hacktoberfest"
-    ],
-    "stargazerCount": 49,
-    "updatedAt": "2024-04-05T22:35:09Z",
-    "url": "https://github.com/rose-pine/discord",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for GRUB 2",
     "homepageUrl": "",
     "name": "grub",
@@ -127,7 +157,7 @@
       "rose-pine"
     ],
     "stargazerCount": 6,
-    "updatedAt": "2024-03-29T07:47:47Z",
+    "updatedAt": "2024-04-15T15:15:26Z",
     "url": "https://github.com/rose-pine/grub",
     "usesCustomOpenGraphImage": true
   },
@@ -144,21 +174,6 @@
     "stargazerCount": 8,
     "updatedAt": "2024-04-07T19:33:46Z",
     "url": "https://github.com/rose-pine/hyprland",
-    "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Soho vibes for Userstyles",
-    "homepageUrl": "",
-    "name": "userstyles",
-    "repositoryTopics": [
-      "css",
-      "stylish",
-      "userstyles",
-      "stylus"
-    ],
-    "stargazerCount": 7,
-    "updatedAt": "2024-03-30T23:11:28Z",
-    "url": "https://github.com/rose-pine/userstyles",
     "usesCustomOpenGraphImage": false
   },
   {
@@ -324,21 +339,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Wallpapers",
-    "homepageUrl": "",
-    "name": "wallpapers",
-    "repositoryTopics": [
-      "wallpapers",
-      "soho-vibes",
-      "rose-pine",
-      "theme"
-    ],
-    "stargazerCount": 119,
-    "updatedAt": "2024-04-05T22:38:10Z",
-    "url": "https://github.com/rose-pine/wallpapers",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Windows Terminal",
     "homepageUrl": "",
     "name": "windows-terminal",
@@ -438,6 +438,20 @@
     "updatedAt": "2023-12-10T22:19:12Z",
     "url": "https://github.com/rose-pine/linear",
     "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "Rosé Pine theme for Rio Terminal",
+    "homepageUrl": "",
+    "name": "rio-term",
+    "repositoryTopics": [
+      "rio-terminal",
+      "rose-pine",
+      "theme"
+    ],
+    "stargazerCount": 4,
+    "updatedAt": "2024-04-15T15:50:11Z",
+    "url": "https://github.com/rose-pine/rio-term",
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for SteamOS",
@@ -998,8 +1012,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1101,
-    "updatedAt": "2024-04-15T01:45:05Z",
+    "stargazerCount": 1102,
+    "updatedAt": "2024-04-15T10:23:00Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
