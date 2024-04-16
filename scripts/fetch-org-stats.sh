@@ -11,7 +11,8 @@ echo "[ORG] Writing $OUTPUT_DIR/org-repos.json"
 
 # Get repos as json
 gh repo list rose-pine -L 1000 --json description,homepageUrl,name,repositoryTopics,stargazerCount,updatedAt,url,usesCustomOpenGraphImage |
-	jq -r '[.[] | select(.repositoryTopics != null) | select(.repositoryTopics ) | .repositoryTopics = [(.repositoryTopics[] | flatten[])]]' >org-repos.json
+                 jq -r '[.[] | .repositoryTopics = if .repositoryTopics != null then [(.repositoryTopics[] | flatten[])] else [] end]' >org-repos.json
+
 
 echo "[ORG] Writing $OUTPUT_DIR/org-members.json"
 

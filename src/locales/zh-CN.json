@@ -1,0 +1,70 @@
+{
+	"navigation": {
+		"home": "主页面",
+		"themes": "主题",
+		"palette": "调色板",
+		"ingredients": "成分",
+		"resources": "资源",
+		"languages": "语言"
+	},
+	"home": {
+		"title": "美好的事物",
+		"description": "全天然的松木，仿毛皮和一丝苏荷风情，为优雅的极简主义者带来精致的氛围。",
+		"discover_button": "发现",
+		"feature_card_1": {
+			"title": "微妙的美学",
+			"description": "用我们柔和舒适的色调放松你的眼睛",
+			"link": "我们的调色板"
+		},
+		"feature_card_2": {
+			"title": "情感变幻自如",
+			"description": "沉浸在为您的一天每个时辰量身定制的变幻多彩中。",
+			"link": "浏览主题"
+		},
+		"feature_card_3": {
+			"title": "由社区驱动",
+			"description": "你的支持使 Rosé Pine 扩展到{{numberOfPorts}}款你喜爱的应用程序。",
+			"link": "参与其中"
+		}
+	},
+	"themes": {
+		"title": "主题",
+		"description": "用心打磨的个性化珍藏。",
+		"tagline": "{{numberOfPorts}} 支持的应用程序 & {{numberOfAuthors}} 作者",
+		"search_label": "搜索主题..."
+	},
+	"palette": {
+		"title": "调色板",
+		"description": "精选色彩，创造无限可能。",
+		"tagline": "{{numberOfVariants}} 变体 & {{numberOfColors}} 颜色",
+		"tabs": {
+			"swatches": "色样",
+			"ingredients": "成分"
+		}
+	},
+	"ingredients": {
+		"title": "成分",
+		"description": "格式化的颜色数值。",
+		"decorations_label": "装饰"
+	},
+	"resources": {
+		"title": "资源",
+		"description": "给贡献者提供的轻量工具箱。",
+		"help_link": "在我们的 Discord 上获取帮助。"
+	},
+	"global_search": {
+		"trigger": "搜索",
+		"placeholder": "搜索页面、主题和调色板...",
+		"empty_text": "未找到结果。",
+		"empty_result_1": "浏览所有主题",
+		"empty_result_2": "贡献到 Rosé Pine",
+		"heading_pages": "页面",
+		"heading_themes": "主题",
+		"heading_featured_themes": "精选主题",
+		"heading_palette": "调色板",
+		"heading_community": "社区"
+	},
+	"shared": {
+		"read_more": "阅读更多"
+	}
+}

@@ -1,0 +1,41 @@
+---
+import { changeLanguage } from "i18next";
+import Layout from "$layouts/base.astro";
+import PageIntro from "$components/page-intro.svelte";
+
+changeLanguage("zh-CN");
+---
+
+<Layout title="Rosé Pine Cursor" description="Soho vibes for your mouse cursor">
+	<PageIntro
+		heading="Rosé Pine Cursors"
+		subheading="Point, click, and drag with a lil extra flair."
+	>
+		<a
+			href="https://github.com/rose-pine/cursor"
+			class="animate-enter inline-flex h-12 items-center rounded-full bg-muted/10 px-6 font-medium transition hover:bg-muted/20 focus:outline-none focus:ring"
+			style="--stagger: 2">Download &nbsp;&nearr;</a
+		>
+	</PageIntro>
+
+	<div class="h-20"></div>
+
+	<section class="animate-enter" style="--stagger: 2">
+		<p class="max-w-prose text-4xl font-bold tracking-tight">
+			You'll want to learn how to quit vim for this one, folks. Special thanks
+			to <a
+				href="https://github.com/ThatOneCalculator"
+				class="text-love underline decoration-love decoration-wavy underline-offset-8 hover:no-underline"
+				>ThatOneCalculator</a
+			>
+			 🎉
+		</p>
+		<div class="h-20"></div>
+		<div
+			class="grid grid-cols-1 gap-3 sm:grid-cols-2 [&>img]:rounded-lg [&>img]:border"
+		>
+			<img src="/cursor-dark.png" alt="Rosé Pine for Cursors" />
+			<img src="/cursor-light.png" alt="Rosé Pine Dawn for Cursors" />
+		</div>
+	</section>
+</Layout>

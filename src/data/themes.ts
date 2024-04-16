@@ -14,6 +14,7 @@ import {
 	IconBrandTailwind,
 	IconBrandVscode,
 	IconBrandYoutube,
+	IconClick,
 	IconColorSwatch,
 	IconFileCode,
 	IconMusic,
@@ -40,18 +41,26 @@ const themes = [
 	...orgRepos
 		.filter(
 			(repo) =>
-				repo.repositoryTopics.includes("theme") &&
-				repo.name !== "rose-pine-template"
+				repo.name !== ".github" &&
+				repo.name !== "build" &&
+				repo.name !== "palette" &&
+				repo.name !== "rose-pine-site" &&
+				repo.name !== "rose-pine-template" &&
+				repo.name !== "rose-pine-theme",
 		)
 		.map((repo) => ({
 			name: repo.description
 				? repo.description.replace("Soho vibes for ", "")
 				: repo.name,
-			icon: getIcon(repo.repositoryTopics),
-			url: repo.url,
-			tags: [repo.stargazerCount > 40 && "featured", ...repo.repositoryTopics],
+			icon: repo.name === "cursor" ? IconClick : getIcon(repo.repositoryTopics),
+			url: repo.name === "cursor" ? "/themes/cursor" : repo.url,
+			tags: [
+				(repo.name === "cursor" || repo.stargazerCount > 40) && "featured",
+				...repo.repositoryTopics,
+			],
 			has_variants: true,
-			featured: repo.stargazerCount > 40,
+			featured: repo.name === "cursor" ? true : repo.stargazerCount > 40,
+			super_featured: repo.name === "cursor",
 		})),
 	...communityRepos.map((repo) => {
 		repo.authors.map((author) => {

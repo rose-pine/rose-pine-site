@@ -144,7 +144,7 @@ const specification = roleKeys.map((key) => {
 
 function formatColor(
 	color: Color,
-	showDecorations: boolean
+	showDecorations: boolean,
 ): Record<keyof Color, string> {
 	const { hex, rgb, hsl } = color;
 	const [r, g, b] = rgb;

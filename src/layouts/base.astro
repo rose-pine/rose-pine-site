@@ -1,8 +1,8 @@
 ---
-import { t } from "i18next";
-import { localizePath } from "astro-i18next";
+import i18next, { t } from "i18next";
+import { localizePath, localizeUrl } from "astro-i18next";
+import { ViewTransitions } from "astro:transitions";
 import { roles, roleKeys } from "@rose-pine/palette";
-import { HeadHrefLangs } from "astro-i18next/components";
 import Banner from "$components/banner.svelte";
 import Header from "$components/header.astro";
 import Footer from "$components/footer.svelte";
@@ -17,6 +17,7 @@ export type Props = {
 };
 
 const { title, description } = Astro.props;
+const currentUrl = Astro.url.href;
 
 // Remove trailing slash if present
 // https://github.com/withastro/astro/issues/5630
@@ -107,25 +108,26 @@ const groups = [
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description" content={description} />
 		<meta property="og:image" content="/assets/opengraph-image.jpg" />
+		<ViewTransitions />
 		<title>{title}</title>
 
-		<HeadHrefLangs />
+		{
+			i18next.languages.map((language) => (
+				<link
+					rel="alternate"
+					hreflang={language}
+					href={localizeUrl(currentUrl, language)}
+				/>
+			))
+		}
 	</head>
 
 	<body>
 		<a href="#content" class="sr-only">Skip to main content</a>
 
-		<Banner
-			links={[
-				[
-					"Support Ukraine",
-					"https://heavy.com/news/help-ukraine-verified-charities-aid-relief-gofundme/",
-				],
-				["The Equal Justice Initiative", "https://eji.org"],
-			]}
-		/>
-
 		<Header />
+
+		<Banner />
 
 		<main id="content" class="flex justify-center px-page-gutter py-page-top">
 			<div class="min-h-content w-full max-w-content">

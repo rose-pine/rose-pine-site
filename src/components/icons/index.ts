@@ -14,6 +14,7 @@ export { default as IconBrandTailwind } from "./brand-tailwind.svelte";
 export { default as IconBrandVscode } from "./brand-vscode.svelte";
 export { default as IconBrandYoutube } from "./brand-youtube.svelte";
 export { default as IconCheck } from "./check.svelte";
+export { default as IconClick } from "./click.svelte";
 export { default as IconColorSwatch } from "./color-swatch.svelte";
 export { default as IconCopy } from "./copy.svelte";
 export { default as IconFileCode } from "./file-code.svelte";

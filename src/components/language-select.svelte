@@ -1,15 +1,28 @@
 <script lang="ts">
 	import i18next, { t } from "i18next";
 	import { localizePath } from "astro-i18next";
-	import ISO6991 from "iso-639-1";
 	import { pathname } from "$store";
 
 	let activator: HTMLElement;
 
 	const supportedLanguages = i18next.languages;
 	const currentLanguage = i18next.language;
+
+	const languageNames = {
+		ca: "Català",
+		de: "Deutsch",
+		en: "English",
+		es: "Español",
+		fr: "Français",
+		id: "Bahasa Indonesia",
+		it: "Italiano",
+		nl: "Nederlands",
+		sv: "Svenska",
+		"zh-CN": "简体中文",
+	};
 </script>
 
+<!-- svelte-ignore a11y-no-static-element-interactions -->
 <span
 	class="group relative inline-block"
 	on:mouseenter={() => activator.setAttribute("aria-expanded", "true")}
@@ -35,12 +48,9 @@
 				stroke-linecap="round"
 				stroke-linejoin="round"
 			>
-				<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-				<path d="M4 5h7" />
-				<path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
-				<path d="M5 9c0 2.144 2.952 3.908 6.7 4" />
-				<path d="M12 20l4 -9l4 9" />
-				<path d="M19.1 18h-6.2" />
+				<path d="M4 6h7M9 6c0 4.418-2.239 8-5 8" />
+				<path d="M5 10c0 2.144 2.952 3.908 6.7 4M12 21l4-9 4 9M19.1 19h-6.2" />
+				<path d="m6 2 1 1" />
 			</svg>
 		</slot>
 
@@ -67,7 +77,6 @@
 		class="invisible absolute -right-[4px] top-[calc(100%-4px)] z-20 w-40 origin-top-right scale-[.97] rounded-md bg-surface p-2 opacity-0 shadow-lg transition group-focus-within:visible group-focus-within:scale-100 group-focus-within:opacity-100 group-hover:visible group-hover:scale-100 group-hover:opacity-100"
 	>
 		{#each supportedLanguages as supportedLanguage}
-			{@const nativeName = ISO6991.getNativeName(supportedLanguage)}
 			{@const href = localizePath($pathname, supportedLanguage)}
 
 			<li>
@@ -77,7 +86,7 @@
 					class="{supportedLanguage === currentLanguage
 						? 'pointer-events-none text-muted'
 						: 'text-text hover:bg-muted/10'} flex h-8 items-center rounded-md px-2 text-[15px] font-medium transition focus:outline-none focus:ring"
-					>{nativeName}</a
+					>{languageNames[supportedLanguage] ?? "Unnamed"}</a
 				>
 			</li>
 		{/each}

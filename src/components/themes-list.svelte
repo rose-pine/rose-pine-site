@@ -5,14 +5,17 @@
 	import { queryTheme } from "$store";
 
 	$: filteredThemes = themes.filter((theme) =>
-		hasMatch(theme, $queryTheme, ["name", "tags"])
+		hasMatch(theme, $queryTheme, ["name", "tags"]),
 	);
 </script>
 
 <ul class="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5">
 	{#each filteredThemes as theme}
 		<li>
-			<Card href={theme.url} linkText="Repository">
+			<Card
+				href={theme.url}
+				linkText={theme.url.startsWith("http") ? "Repository" : "Learn more"}
+			>
 				<div class="flex items-center justify-between">
 					<svelte:component
 						this={theme.icon}
@@ -21,7 +24,10 @@
 						class="text-subtle"
 					/>
 
-					{#if theme.featured}
+					{#if theme.super_featured}
+						<span class="sr-only">Super featured theme</span>
+						<span>🎉</span>
+					{:else if theme.featured}
 						<span class="sr-only">Featured theme</span>
 						<svg
 							aria-hidden="true"
@@ -55,7 +61,7 @@
 
 				<div class="h-1.5" />
 
-				<p class="font-semibold">{theme.name}</p>
+				<p class="truncate font-semibold" title={theme.name}>{theme.name}</p>
 			</Card>
 		</li>
 	{/each}

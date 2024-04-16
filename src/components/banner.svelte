@@ -1,24 +1,18 @@
-<script lang="ts">
-	export let links: [name: string, href: string][];
-</script>
-
-<aside
-	class="flex h-banner-height items-center overflow-x-auto whitespace-nowrap bg-love/5 px-3 text-center text-love"
->
-	<div class="flex-1" />
-
-	{#each links as [name, href], index}
-		<a
-			{href}
-			class="text-sm font-[550] transition hover:underline focus:outline-none focus:ring"
+<aside class="bg-surface">
+	<div
+		class="flex h-12 items-center justify-center gap-3 bg-pine/10 px-6 dark:bg-foam/10"
+	>
+		<div
+			class="rounded-full bg-pine px-2 py-0.5 text-xs font-semibold text-surface dark:bg-foam"
 		>
-			{name}
-		</a>
-
-		{#if index < links.length - 1}
-			<div class="mx-3 h-6 border-r border-love/20" />
-		{/if}
-	{/each}
-
-	<div class="flex-1" />
+			New
+		</div>
+		<p class="text-sm font-medium text-pine dark:text-foam">
+			Introducing hand-crafted Rosé Pine cursors. <a
+				href="/themes/cursor"
+				class="font-bold after:ml-1 after:inline-block after:content-['→'] hover:underline"
+				>Learn more</a
+			>
+		</p>
+	</div>
 </aside>

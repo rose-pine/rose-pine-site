@@ -7,6 +7,15 @@
 		"has_variants": true
 	},
 	{
+		"name": "Bibata Cursors",
+		"url": "https://github.com/harishnkr/Bibata-Original-Cursors",
+		"tags": ["palette"],
+		"authors": [
+			{ "name": "K Harishankar", "url": "https://github.com/harishnkr" }
+		],
+		"has_variants": true
+	},
+	{
 		"name": "Blink Shell",
 		"url": "https://github.com/ng-hai/rose-pine-blinksh",
 		"tags": ["terminal", "shell", "mobile", "blinksh"],
@@ -130,6 +139,31 @@
 		"has_variants": true
 	},
 	{
+		"name": "iSH Shell",
+		"url": "https://github.com/akopdev/rose-pine-ish",
+		"tags": ["terminal", "shell", "mobile", "ish"],
+		"authors": [{ "name": "Akop Kesheshyan", "url": "https://github.com/akopdev" }],
+		"has_variants": true
+	},
+	{
+		"name": "JupyterLab",
+		"url": "https://github.com/aaravind100/jupyterlab",
+		"tags": ["app", "editor", "jupyter", "notebook"],
+		"authors": [
+			{ "name": "aaravind100", "url": "https://github.com/aaravind100" }
+		],
+		"has_variants": true
+	},
+	{
+		"name": "JSDoc",
+		"url": "https://github.com/nonnullish/rose-pine-jsdoc",
+		"tags": ["dev", "web-ui"],
+		"authors": [
+			{ "name": "nonnullish", "url": "https://github.com/nonnullish" }
+		],
+		"has_variants": true
+	},
+	{
 		"name": "JSON Viewer",
 		"url": "https://github.com/emlez/json-viewer",
 		"tags": ["web-extension"],
@@ -171,6 +205,15 @@
 			{ "name": "Kiran Wells", "url": "https://github.com/KiranWells" }
 		],
 		"has_variants": false
+	},
+	{
+		"name": "LogSeq",
+		"url": "https://github.com/ebarruel/logseq-rose-pine-theme",
+		"tags": ["app", "productivity"],
+		"authors": [
+			{ "name": "Evangeline Barruel", "url": "https://github.com/ebarruel/logseq-rose-pine-theme" }
+		],
+		"has_variants": true
 	},
 	{
 		"name": "Marp",
@@ -225,6 +268,22 @@
 		"has_variants": false
 	},
 	{
+		"name": "qt5ct",
+		"url": "https://github.com/SarahAllenReed/rose-pine-qt5ct",
+		"tags": ["app"],
+		"authors": [
+			{ "name": "Sarah Allen Reed", "url": "https://github.com/SarahAllenReed" }
+		],
+		"has_variants": false
+	},
+	{
+		"name": "RIME",
+		"url": "https://github.com/0xffan/rose-pine-rime",
+		"tags": [],
+		"authors": [{ "name": "0xffan", "url": "https://github.com/0xffan" }],
+		"has_variants": true
+	},
+	{
 		"name": "SDDM",
 		"url": "https://github.com/lwndhrst/sddm-rose-pine",
 		"tags": ["display-manager"],
@@ -277,6 +336,13 @@
 		"url": "https://github.com/apriltaoyvr/twitter-rose-pine",
 		"tags": ["web-ui", "social"],
 		"authors": [{ "name": "April T", "url": "https://github.com/apriltaoyvr" }],
+		"has_variants": true
+	},
+	{
+		"name": "Vendetta",
+		"url": "https://github.com/Quinxxxx/vendetta",
+		"tags": ["web-ui", "social"],
+		"authors": [{ "name": "Quinx", "url": "https://github.com/Quinxxxx" }],
 		"has_variants": true
 	},
 	{
