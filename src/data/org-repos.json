@@ -1,11 +1,29 @@
 [
   {
+    "description": "Soho vibes for Discord",
+    "homepageUrl": "",
+    "name": "discord",
+    "repositoryTopics": [
+      "betterdiscord",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "goosemod",
+      "discord",
+      "hacktoberfest"
+    ],
+    "stargazerCount": 51,
+    "updatedAt": "2024-04-21T15:36:11Z",
+    "url": "https://github.com/rose-pine/discord",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 76,
-    "updatedAt": "2024-04-20T14:53:27Z",
+    "updatedAt": "2024-04-21T00:13:20Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -25,27 +43,9 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1912,
-    "updatedAt": "2024-04-20T18:12:36Z",
+    "stargazerCount": 1920,
+    "updatedAt": "2024-04-21T19:45:21Z",
     "url": "https://github.com/rose-pine/neovim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Discord",
-    "homepageUrl": "",
-    "name": "discord",
-    "repositoryTopics": [
-      "betterdiscord",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "goosemod",
-      "discord",
-      "hacktoberfest"
-    ],
-    "stargazerCount": 51,
-    "updatedAt": "2024-04-19T08:10:36Z",
-    "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -224,8 +224,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 99,
-    "updatedAt": "2024-04-16T14:29:36Z",
+    "stargazerCount": 101,
+    "updatedAt": "2024-04-21T16:03:33Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -562,8 +562,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 59,
-    "updatedAt": "2024-04-17T18:58:44Z",
+    "stargazerCount": 60,
+    "updatedAt": "2024-04-21T14:33:27Z",
     "url": "https://github.com/rose-pine/kitty",
     "usesCustomOpenGraphImage": true
   },
@@ -898,8 +898,8 @@
       "vim",
       "editor"
     ],
-    "stargazerCount": 19,
-    "updatedAt": "2024-04-17T22:38:44Z",
+    "stargazerCount": 20,
+    "updatedAt": "2024-04-21T08:02:38Z",
     "url": "https://github.com/rose-pine/vim",
     "usesCustomOpenGraphImage": true
   },
@@ -1379,8 +1379,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 19,
-    "updatedAt": "2024-04-16T01:19:08Z",
+    "stargazerCount": 20,
+    "updatedAt": "2024-04-21T08:21:06Z",
     "url": "https://github.com/rose-pine/terminal.app",
     "usesCustomOpenGraphImage": true
   },
