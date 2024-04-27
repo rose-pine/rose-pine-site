@@ -1,11 +1,36 @@
 [
   {
+    "description": "Soho vibes for tmux",
+    "homepageUrl": "",
+    "name": "tmux",
+    "repositoryTopics": [
+      "app",
+      "terminal",
+      "tmux",
+      "theme"
+    ],
+    "stargazerCount": 104,
+    "updatedAt": "2024-04-25T09:31:04Z",
+    "url": "https://github.com/rose-pine/tmux",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Zed",
+    "homepageUrl": "",
+    "name": "zed",
+    "repositoryTopics": [],
+    "stargazerCount": 5,
+    "updatedAt": "2024-04-26T18:59:55Z",
+    "url": "https://github.com/rose-pine/zed",
+    "usesCustomOpenGraphImage": false
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 78,
-    "updatedAt": "2024-04-25T01:11:32Z",
+    "updatedAt": "2024-04-26T00:11:58Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -74,8 +99,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1925,
-    "updatedAt": "2024-04-25T14:16:32Z",
+    "stargazerCount": 1926,
+    "updatedAt": "2024-04-26T10:31:38Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -142,8 +167,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 123,
-    "updatedAt": "2024-04-24T22:40:24Z",
+    "stargazerCount": 124,
+    "updatedAt": "2024-04-26T17:19:40Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -227,21 +252,6 @@
     "updatedAt": "2024-04-07T19:33:46Z",
     "url": "https://github.com/rose-pine/hyprland",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Soho vibes for tmux",
-    "homepageUrl": "",
-    "name": "tmux",
-    "repositoryTopics": [
-      "app",
-      "terminal",
-      "tmux",
-      "theme"
-    ],
-    "stargazerCount": 104,
-    "updatedAt": "2024-04-25T09:31:04Z",
-    "url": "https://github.com/rose-pine/tmux",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Pygments",
@@ -856,8 +866,8 @@
       "app",
       "theme"
     ],
-    "stargazerCount": 1,
-    "updatedAt": "2023-10-19T05:40:49Z",
+    "stargazerCount": 2,
+    "updatedAt": "2024-04-26T20:33:13Z",
     "url": "https://github.com/rose-pine/fcitx5",
     "usesCustomOpenGraphImage": true
   },
@@ -1040,8 +1050,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1110,
-    "updatedAt": "2024-04-25T06:07:10Z",
+    "stargazerCount": 1112,
+    "updatedAt": "2024-04-26T15:22:15Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
