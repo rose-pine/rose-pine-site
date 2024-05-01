@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 78,
+    "updatedAt": "2024-04-30T00:11:39Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -16,7 +26,7 @@
       "editor"
     ],
     "stargazerCount": 1934,
-    "updatedAt": "2024-04-29T02:43:39Z",
+    "updatedAt": "2024-04-30T02:36:15Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -31,16 +41,6 @@
     "usesCustomOpenGraphImage": false
   },
   {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 78,
-    "updatedAt": "2024-04-29T00:12:14Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for tmux",
     "homepageUrl": "",
     "name": "tmux",
@@ -50,8 +50,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 104,
-    "updatedAt": "2024-04-28T19:30:17Z",
+    "stargazerCount": 105,
+    "updatedAt": "2024-04-30T05:53:18Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -61,7 +61,7 @@
     "name": "zed",
     "repositoryTopics": [],
     "stargazerCount": 6,
-    "updatedAt": "2024-04-27T13:48:02Z",
+    "updatedAt": "2024-04-30T09:56:37Z",
     "url": "https://github.com/rose-pine/zed",
     "usesCustomOpenGraphImage": false
   },
@@ -109,8 +109,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 51,
-    "updatedAt": "2024-04-21T15:36:11Z",
+    "stargazerCount": 52,
+    "updatedAt": "2024-04-30T06:01:18Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
@@ -187,8 +187,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 31,
-    "updatedAt": "2024-04-28T16:17:00Z",
+    "stargazerCount": 32,
+    "updatedAt": "2024-04-30T12:29:16Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -331,8 +331,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 436,
-    "updatedAt": "2024-04-25T07:18:42Z",
+    "stargazerCount": 437,
+    "updatedAt": "2024-04-30T08:58:13Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -438,8 +438,8 @@
       "theme",
       "window-manager"
     ],
-    "stargazerCount": 8,
-    "updatedAt": "2024-04-28T15:09:27Z",
+    "stargazerCount": 9,
+    "updatedAt": "2024-04-30T15:05:13Z",
     "url": "https://github.com/rose-pine/i3",
     "usesCustomOpenGraphImage": false
   },
@@ -1060,8 +1060,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1119,
-    "updatedAt": "2024-04-29T17:29:37Z",
+    "stargazerCount": 1120,
+    "updatedAt": "2024-04-30T02:36:49Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
