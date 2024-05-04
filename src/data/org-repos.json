@@ -1,11 +1,27 @@
 [
   {
+    "description": "Soho vibes for Mastodon",
+    "homepageUrl": "https://voring.me",
+    "name": "mastodon",
+    "repositoryTopics": [
+      "theme",
+      "mastodon",
+      "soho-vibes",
+      "rose-pine",
+      "css"
+    ],
+    "stargazerCount": 2,
+    "updatedAt": "2024-02-06T00:26:54Z",
+    "url": "https://github.com/rose-pine/mastodon",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 78,
-    "updatedAt": "2024-05-02T00:12:17Z",
+    "updatedAt": "2024-05-03T00:12:27Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -26,7 +42,7 @@
       "editor"
     ],
     "stargazerCount": 1940,
-    "updatedAt": "2024-05-02T16:10:09Z",
+    "updatedAt": "2024-05-03T23:42:10Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -1383,22 +1399,6 @@
     "stargazerCount": 19,
     "updatedAt": "2024-05-01T15:52:51Z",
     "url": "https://github.com/rose-pine/slack",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Mastodon",
-    "homepageUrl": "https://voring.me",
-    "name": "mastodon",
-    "repositoryTopics": [
-      "theme",
-      "mastodon",
-      "soho-vibes",
-      "rose-pine",
-      "css"
-    ],
-    "stargazerCount": 2,
-    "updatedAt": "2024-02-06T00:26:54Z",
-    "url": "https://github.com/rose-pine/mastodon",
     "usesCustomOpenGraphImage": true
   },
   {
