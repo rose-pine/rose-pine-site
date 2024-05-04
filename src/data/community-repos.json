@@ -319,6 +319,15 @@
 		],
 		"has_variants": true
 	},
+    {
+        "name": "swaylock",
+        "url": "https://github.com/d2718nis/rose-pine-swaylock",
+        "tags": ["app"],
+        "authors": [
+            { "name": "d2718nis", "url": "https://github.com/d2718nis" }
+        ],
+        "has_variants": true
+    },
 	{
 		"name": "Telegram",
 		"url": "https://github.com/asdreemurr844/rose-pine-telegram-ios",
