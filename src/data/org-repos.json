@@ -1,11 +1,21 @@
 [
   {
+    "description": "Theme generator for Rosé Pine",
+    "homepageUrl": "https://www.npmjs.com/package/@rose-pine/build",
+    "name": "build",
+    "repositoryTopics": [],
+    "stargazerCount": 16,
+    "updatedAt": "2024-02-08T16:49:56Z",
+    "url": "https://github.com/rose-pine/build",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 79,
-    "updatedAt": "2024-05-05T00:13:38Z",
+    "updatedAt": "2024-05-06T00:12:30Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -59,8 +69,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1940,
-    "updatedAt": "2024-05-04T23:38:18Z",
+    "stargazerCount": 1943,
+    "updatedAt": "2024-05-06T19:48:05Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -411,8 +421,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 191,
-    "updatedAt": "2024-05-02T19:01:05Z",
+    "stargazerCount": 190,
+    "updatedAt": "2024-05-06T20:11:34Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -565,16 +575,6 @@
     "updatedAt": "2024-05-05T20:24:53Z",
     "url": "https://github.com/rose-pine/alfred",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Theme generator for Rosé Pine",
-    "homepageUrl": "https://www.npmjs.com/package/@rose-pine/build",
-    "name": "build",
-    "repositoryTopics": [],
-    "stargazerCount": 16,
-    "updatedAt": "2024-02-08T16:49:56Z",
-    "url": "https://github.com/rose-pine/build",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Pleroma",
@@ -1076,8 +1076,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1121,
-    "updatedAt": "2024-05-04T19:19:06Z",
+    "stargazerCount": 1120,
+    "updatedAt": "2024-05-06T14:22:28Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
