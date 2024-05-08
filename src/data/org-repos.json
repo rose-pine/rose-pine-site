@@ -1,25 +1,5 @@
 [
   {
-    "description": "Theme generator for Rosé Pine",
-    "homepageUrl": "https://www.npmjs.com/package/@rose-pine/build",
-    "name": "build",
-    "repositoryTopics": [],
-    "stargazerCount": 16,
-    "updatedAt": "2024-02-08T16:49:56Z",
-    "url": "https://github.com/rose-pine/build",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 79,
-    "updatedAt": "2024-05-06T00:12:30Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Discord",
     "homepageUrl": "",
     "name": "discord",
@@ -33,24 +13,18 @@
       "hacktoberfest"
     ],
     "stargazerCount": 52,
-    "updatedAt": "2024-04-30T06:01:18Z",
+    "updatedAt": "2024-05-07T20:06:06Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Mastodon",
-    "homepageUrl": "https://voring.me",
-    "name": "mastodon",
-    "repositoryTopics": [
-      "theme",
-      "mastodon",
-      "soho-vibes",
-      "rose-pine",
-      "css"
-    ],
-    "stargazerCount": 2,
-    "updatedAt": "2024-02-06T00:26:54Z",
-    "url": "https://github.com/rose-pine/mastodon",
+    "description": "Theme generator for Rosé Pine",
+    "homepageUrl": "https://www.npmjs.com/package/@rose-pine/build",
+    "name": "build",
+    "repositoryTopics": [],
+    "stargazerCount": 16,
+    "updatedAt": "2024-05-07T22:54:37Z",
+    "url": "https://github.com/rose-pine/build",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -69,9 +43,35 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1943,
-    "updatedAt": "2024-05-06T19:48:05Z",
+    "stargazerCount": 1947,
+    "updatedAt": "2024-05-07T20:47:49Z",
     "url": "https://github.com/rose-pine/neovim",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 79,
+    "updatedAt": "2024-05-07T13:12:38Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Mastodon",
+    "homepageUrl": "https://voring.me",
+    "name": "mastodon",
+    "repositoryTopics": [
+      "theme",
+      "mastodon",
+      "soho-vibes",
+      "rose-pine",
+      "css"
+    ],
+    "stargazerCount": 2,
+    "updatedAt": "2024-02-06T00:26:54Z",
+    "url": "https://github.com/rose-pine/mastodon",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -135,8 +135,8 @@
       "soho-vibes",
       "theme"
     ],
-    "stargazerCount": 0,
-    "updatedAt": "2024-04-23T21:41:25Z",
+    "stargazerCount": 1,
+    "updatedAt": "2024-05-07T22:55:12Z",
     "url": "https://github.com/rose-pine/tm-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -358,7 +358,7 @@
       "editor"
     ],
     "stargazerCount": 437,
-    "updatedAt": "2024-04-30T08:58:13Z",
+    "updatedAt": "2024-05-07T13:12:38Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -977,8 +977,8 @@
       "theme",
       "tailwind"
     ],
-    "stargazerCount": 14,
-    "updatedAt": "2024-03-13T02:51:33Z",
+    "stargazerCount": 15,
+    "updatedAt": "2024-05-07T16:16:53Z",
     "url": "https://github.com/rose-pine/tailwind-css",
     "usesCustomOpenGraphImage": false
   },
