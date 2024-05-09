@@ -341,6 +341,13 @@
 		"has_variants": false
 	},
 	{
+		"name": "Telegram Desktop",
+		"url": "https://github.com/nymver/telegramdesktop",
+		"tags": ["app"],
+		"authors": [{ "name": "nymver", "url": "https://github.com/nymver/telegramdesktop" }],
+		"has_variants": false
+	},
+	{
 		"name": "Tilix",
 		"url": "https://github.com/annappropriate/rose-pine-tilix",
 		"tags": ["app", "terminal-emulator"],
