@@ -61,6 +61,15 @@
 		"has_variants": true
 	},
 	{
+		"name": "dunst",
+		"url": "https://github.com/d2718nis/rose-pine-dunst",
+		"tags": ["app"],
+		"authors": [
+			{ "name": "d2718nis", "url": "https://github.com/d2718nis" }
+		],
+		"has_variants": true
+	},
+	{
 		"name": "Emacs",
 		"url": "https://github.com/konrad1977/pinerose-emacs",
 		"tags": ["app", "terminal", "editor"],
