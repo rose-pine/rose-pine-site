@@ -1,15 +1,5 @@
 [
   {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 79,
-    "updatedAt": "2024-05-09T19:45:30Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -25,9 +15,19 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1951,
-    "updatedAt": "2024-05-09T18:09:04Z",
+    "stargazerCount": 1953,
+    "updatedAt": "2024-05-10T17:22:45Z",
     "url": "https://github.com/rose-pine/neovim",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 79,
+    "updatedAt": "2024-05-10T00:12:32Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -184,8 +184,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 4,
-    "updatedAt": "2024-04-16T14:27:59Z",
+    "stargazerCount": 5,
+    "updatedAt": "2024-05-10T03:52:13Z",
     "url": "https://github.com/rose-pine/rio-terminal",
     "usesCustomOpenGraphImage": true
   },
@@ -223,8 +223,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 34,
-    "updatedAt": "2024-05-08T14:03:54Z",
+    "stargazerCount": 35,
+    "updatedAt": "2024-05-10T18:31:25Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -1086,8 +1086,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1123,
-    "updatedAt": "2024-05-09T21:49:05Z",
+    "stargazerCount": 1124,
+    "updatedAt": "2024-05-10T09:30:56Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
