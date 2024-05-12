@@ -61,6 +61,15 @@
 		"has_variants": true
 	},
 	{
+		"name": "dunst",
+		"url": "https://github.com/d2718nis/rose-pine-dunst",
+		"tags": ["app"],
+		"authors": [
+			{ "name": "d2718nis", "url": "https://github.com/d2718nis" }
+		],
+		"has_variants": true
+	},
+	{
 		"name": "Emacs",
 		"url": "https://github.com/konrad1977/pinerose-emacs",
 		"tags": ["app", "terminal", "editor"],
@@ -319,15 +328,15 @@
 		],
 		"has_variants": true
 	},
-    {
-        "name": "swaylock",
-        "url": "https://github.com/d2718nis/rose-pine-swaylock",
-        "tags": ["app"],
-        "authors": [
-            { "name": "d2718nis", "url": "https://github.com/d2718nis" }
-        ],
-        "has_variants": true
-    },
+	{
+		"name": "swaylock",
+		"url": "https://github.com/d2718nis/rose-pine-swaylock",
+		"tags": ["app"],
+		"authors": [
+			{ "name": "d2718nis", "url": "https://github.com/d2718nis" }
+		],
+		"has_variants": true
+	},
 	{
 		"name": "Telegram",
 		"url": "https://github.com/asdreemurr844/rose-pine-telegram-ios",
