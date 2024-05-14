@@ -1,11 +1,29 @@
 [
   {
+    "description": "Soho vibes for Discord",
+    "homepageUrl": "",
+    "name": "discord",
+    "repositoryTopics": [
+      "betterdiscord",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "goosemod",
+      "discord",
+      "hacktoberfest"
+    ],
+    "stargazerCount": 52,
+    "updatedAt": "2024-05-08T14:28:18Z",
+    "url": "https://github.com/rose-pine/discord",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 79,
-    "updatedAt": "2024-05-12T23:42:11Z",
+    "updatedAt": "2024-05-13T00:13:02Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -25,8 +43,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1959,
-    "updatedAt": "2024-05-12T18:48:00Z",
+    "stargazerCount": 1962,
+    "updatedAt": "2024-05-13T08:45:16Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -54,24 +72,6 @@
     "updatedAt": "2024-05-08T14:54:56Z",
     "url": "https://github.com/rose-pine/qbittorrent",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Soho vibes for Discord",
-    "homepageUrl": "",
-    "name": "discord",
-    "repositoryTopics": [
-      "betterdiscord",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "goosemod",
-      "discord",
-      "hacktoberfest"
-    ],
-    "stargazerCount": 52,
-    "updatedAt": "2024-05-08T14:28:18Z",
-    "url": "https://github.com/rose-pine/discord",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Theme generator for Rosé Pine",
@@ -170,8 +170,8 @@
     "homepageUrl": "",
     "name": "glazewm",
     "repositoryTopics": [],
-    "stargazerCount": 6,
-    "updatedAt": "2024-04-29T05:48:30Z",
+    "stargazerCount": 7,
+    "updatedAt": "2024-05-13T15:48:28Z",
     "url": "https://github.com/rose-pine/glazewm",
     "usesCustomOpenGraphImage": false
   },
@@ -1086,8 +1086,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1123,
-    "updatedAt": "2024-05-11T17:29:10Z",
+    "stargazerCount": 1124,
+    "updatedAt": "2024-05-13T14:13:07Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
