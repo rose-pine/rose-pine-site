@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 80,
+    "updatedAt": "2024-05-23T00:12:20Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Userstyles",
     "homepageUrl": "",
     "name": "userstyles",
@@ -30,19 +40,9 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1981,
-    "updatedAt": "2024-05-22T22:37:08Z",
+    "stargazerCount": 1983,
+    "updatedAt": "2024-05-23T07:50:38Z",
     "url": "https://github.com/rose-pine/neovim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 80,
-    "updatedAt": "2024-05-22T00:12:22Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -294,8 +294,8 @@
       "tiling-window-manager",
       "theme"
     ],
-    "stargazerCount": 8,
-    "updatedAt": "2024-04-07T19:33:46Z",
+    "stargazerCount": 9,
+    "updatedAt": "2024-05-23T00:51:00Z",
     "url": "https://github.com/rose-pine/hyprland",
     "usesCustomOpenGraphImage": false
   },
@@ -431,8 +431,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 192,
-    "updatedAt": "2024-05-16T17:43:43Z",
+    "stargazerCount": 193,
+    "updatedAt": "2024-05-23T18:05:18Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
