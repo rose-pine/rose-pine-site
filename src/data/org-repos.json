@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 80,
+    "updatedAt": "2024-05-25T00:12:10Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Wallpapers",
     "homepageUrl": "",
     "name": "wallpapers",
@@ -12,16 +22,6 @@
     "stargazerCount": 130,
     "updatedAt": "2024-05-24T19:42:29Z",
     "url": "https://github.com/rose-pine/wallpapers",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 80,
-    "updatedAt": "2024-05-24T00:13:04Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -55,8 +55,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 1988,
-    "updatedAt": "2024-05-24T15:13:48Z",
+    "stargazerCount": 1992,
+    "updatedAt": "2024-05-25T21:36:24Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
