@@ -1,11 +1,21 @@
 [
   {
+    "description": "Soho vibes for Zed",
+    "homepageUrl": "",
+    "name": "zed",
+    "repositoryTopics": [],
+    "stargazerCount": 6,
+    "updatedAt": "2024-04-30T09:56:37Z",
+    "url": "https://github.com/rose-pine/zed",
+    "usesCustomOpenGraphImage": false
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 80,
-    "updatedAt": "2024-06-03T00:13:04Z",
+    "updatedAt": "2024-06-04T00:12:39Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -20,8 +30,8 @@
       "vim",
       "editor"
     ],
-    "stargazerCount": 21,
-    "updatedAt": "2024-05-29T20:24:43Z",
+    "stargazerCount": 22,
+    "updatedAt": "2024-06-04T15:41:51Z",
     "url": "https://github.com/rose-pine/vim",
     "usesCustomOpenGraphImage": true
   },
@@ -41,8 +51,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2013,
-    "updatedAt": "2024-06-03T14:11:41Z",
+    "stargazerCount": 2041,
+    "updatedAt": "2024-06-04T23:45:15Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -56,8 +66,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 135,
-    "updatedAt": "2024-06-01T09:12:00Z",
+    "stargazerCount": 136,
+    "updatedAt": "2024-06-04T22:27:57Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -89,8 +99,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 53,
-    "updatedAt": "2024-05-17T14:32:02Z",
+    "stargazerCount": 54,
+    "updatedAt": "2024-06-04T17:08:40Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
@@ -156,16 +166,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Zed",
-    "homepageUrl": "",
-    "name": "zed",
-    "repositoryTopics": [],
-    "stargazerCount": 6,
-    "updatedAt": "2024-04-30T09:56:37Z",
-    "url": "https://github.com/rose-pine/zed",
-    "usesCustomOpenGraphImage": false
-  },
-  {
     "description": "Soho vibes for Helix",
     "homepageUrl": "",
     "name": "helix",
@@ -215,8 +215,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 5,
-    "updatedAt": "2024-05-10T03:52:13Z",
+    "stargazerCount": 4,
+    "updatedAt": "2024-06-04T01:14:09Z",
     "url": "https://github.com/rose-pine/rio-terminal",
     "usesCustomOpenGraphImage": true
   },
@@ -239,8 +239,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 38,
-    "updatedAt": "2024-05-27T05:47:34Z",
+    "stargazerCount": 40,
+    "updatedAt": "2024-06-04T15:25:50Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -383,8 +383,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 439,
-    "updatedAt": "2024-06-03T06:51:08Z",
+    "stargazerCount": 440,
+    "updatedAt": "2024-06-04T22:25:43Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -638,8 +638,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 64,
-    "updatedAt": "2024-05-28T04:41:33Z",
+    "stargazerCount": 65,
+    "updatedAt": "2024-06-04T04:59:51Z",
     "url": "https://github.com/rose-pine/kitty",
     "usesCustomOpenGraphImage": true
   },
@@ -682,8 +682,8 @@
       "theme",
       "color-palette"
     ],
-    "stargazerCount": 14,
-    "updatedAt": "2024-06-01T15:47:53Z",
+    "stargazerCount": 15,
+    "updatedAt": "2024-06-04T07:57:52Z",
     "url": "https://github.com/rose-pine/waybar",
     "usesCustomOpenGraphImage": true
   },
@@ -1086,8 +1086,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1138,
-    "updatedAt": "2024-06-03T20:08:59Z",
+    "stargazerCount": 1140,
+    "updatedAt": "2024-06-04T10:37:11Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
