@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 80,
-    "updatedAt": "2024-06-06T00:12:48Z",
+    "updatedAt": "2024-06-07T00:13:00Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -51,8 +51,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2048,
-    "updatedAt": "2024-06-06T14:18:40Z",
+    "stargazerCount": 2051,
+    "updatedAt": "2024-06-07T23:00:50Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -1116,8 +1116,8 @@
       "rose-pine",
       "shell"
     ],
-    "stargazerCount": 21,
-    "updatedAt": "2024-05-08T20:54:17Z",
+    "stargazerCount": 22,
+    "updatedAt": "2024-06-07T01:59:51Z",
     "url": "https://github.com/rose-pine/fish",
     "usesCustomOpenGraphImage": true
   },
