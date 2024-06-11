@@ -1,5 +1,30 @@
 [
   {
+    "description": "Soho vibes for Userstyles",
+    "homepageUrl": "",
+    "name": "userstyles",
+    "repositoryTopics": [
+      "css",
+      "stylish",
+      "userstyles",
+      "stylus"
+    ],
+    "stargazerCount": 7,
+    "updatedAt": "2024-06-10T19:28:08Z",
+    "url": "https://github.com/rose-pine/userstyles",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 80,
+    "updatedAt": "2024-06-10T00:13:35Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -15,19 +40,9 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2057,
-    "updatedAt": "2024-06-09T15:48:55Z",
+    "stargazerCount": 2059,
+    "updatedAt": "2024-06-10T18:27:02Z",
     "url": "https://github.com/rose-pine/neovim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 80,
-    "updatedAt": "2024-06-09T00:14:42Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -72,21 +87,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Userstyles",
-    "homepageUrl": "",
-    "name": "userstyles",
-    "repositoryTopics": [
-      "css",
-      "stylish",
-      "userstyles",
-      "stylus"
-    ],
-    "stargazerCount": 7,
-    "updatedAt": "2024-05-22T08:27:07Z",
-    "url": "https://github.com/rose-pine/userstyles",
-    "usesCustomOpenGraphImage": false
-  },
-  {
     "description": "Soho vibes for Discord",
     "homepageUrl": "",
     "name": "discord",
@@ -99,8 +99,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 53,
-    "updatedAt": "2024-06-08T20:27:12Z",
+    "stargazerCount": 54,
+    "updatedAt": "2024-06-10T15:31:11Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
@@ -1086,8 +1086,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1140,
-    "updatedAt": "2024-06-09T01:11:41Z",
+    "stargazerCount": 1141,
+    "updatedAt": "2024-06-10T23:50:11Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1224,8 +1224,8 @@
       "hacktoberfest",
       "music"
     ],
-    "stargazerCount": 2,
-    "updatedAt": "2023-04-09T20:46:22Z",
+    "stargazerCount": 3,
+    "updatedAt": "2024-06-10T13:52:37Z",
     "url": "https://github.com/rose-pine/tauon",
     "usesCustomOpenGraphImage": true
   },
