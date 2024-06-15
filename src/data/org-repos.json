@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 80,
-    "updatedAt": "2024-06-13T00:13:02Z",
+    "updatedAt": "2024-06-14T00:13:03Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -50,8 +50,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2063,
-    "updatedAt": "2024-06-12T07:39:52Z",
+    "stargazerCount": 2065,
+    "updatedAt": "2024-06-14T23:26:33Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -432,8 +432,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 84,
-    "updatedAt": "2024-06-06T05:14:52Z",
+    "stargazerCount": 86,
+    "updatedAt": "2024-06-14T23:53:39Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
@@ -682,8 +682,8 @@
       "theme",
       "color-palette"
     ],
-    "stargazerCount": 16,
-    "updatedAt": "2024-06-11T22:08:04Z",
+    "stargazerCount": 17,
+    "updatedAt": "2024-06-14T23:54:06Z",
     "url": "https://github.com/rose-pine/waybar",
     "usesCustomOpenGraphImage": true
   },
@@ -946,8 +946,8 @@
       "rose-pine",
       "soho-vibes"
     ],
-    "stargazerCount": 12,
-    "updatedAt": "2024-06-01T23:10:40Z",
+    "stargazerCount": 11,
+    "updatedAt": "2024-06-14T02:13:49Z",
     "url": "https://github.com/rose-pine/vimium-c",
     "usesCustomOpenGraphImage": false
   },
