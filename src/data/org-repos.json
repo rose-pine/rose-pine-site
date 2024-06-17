@@ -1,11 +1,26 @@
 [
   {
+    "description": "Soho vibes for Userstyles",
+    "homepageUrl": "",
+    "name": "userstyles",
+    "repositoryTopics": [
+      "css",
+      "stylish",
+      "userstyles",
+      "stylus"
+    ],
+    "stargazerCount": 7,
+    "updatedAt": "2024-06-16T14:23:06Z",
+    "url": "https://github.com/rose-pine/userstyles",
+    "usesCustomOpenGraphImage": false
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
-    "stargazerCount": 80,
-    "updatedAt": "2024-06-15T00:12:41Z",
+    "stargazerCount": 81,
+    "updatedAt": "2024-06-16T12:37:58Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -17,21 +32,6 @@
     "stargazerCount": 6,
     "updatedAt": "2024-04-30T09:56:37Z",
     "url": "https://github.com/rose-pine/zed",
-    "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Soho vibes for Userstyles",
-    "homepageUrl": "",
-    "name": "userstyles",
-    "repositoryTopics": [
-      "css",
-      "stylish",
-      "userstyles",
-      "stylus"
-    ],
-    "stargazerCount": 7,
-    "updatedAt": "2024-06-10T19:28:08Z",
-    "url": "https://github.com/rose-pine/userstyles",
     "usesCustomOpenGraphImage": false
   },
   {
@@ -50,8 +50,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2068,
-    "updatedAt": "2024-06-15T14:45:30Z",
+    "stargazerCount": 2070,
+    "updatedAt": "2024-06-16T23:53:52Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -447,8 +447,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 199,
-    "updatedAt": "2024-06-12T08:05:49Z",
+    "stargazerCount": 200,
+    "updatedAt": "2024-06-16T14:51:37Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -474,8 +474,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 48,
-    "updatedAt": "2024-06-02T12:10:18Z",
+    "stargazerCount": 49,
+    "updatedAt": "2024-06-16T15:15:40Z",
     "url": "https://github.com/rose-pine/windows-terminal",
     "usesCustomOpenGraphImage": true
   },
