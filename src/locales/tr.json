@@ -30,7 +30,7 @@
 	"themes": {
 		"title": "Temalar",
 		"description": "El yapımı kişiselleştirme koleksiyonu.",
-		"tagline": "{{numberOfPorts}} uyarlama & {{numberOfAuthors}} yazarlar",
+		"tagline": "{{numberOfPorts}} uyarlama & {{numberOfAuthors}} yazar",
 		"search_label": "Temalar arayın..."
 	},
 	"palette": {
