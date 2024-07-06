@@ -18,6 +18,7 @@
 		it: "Italiano",
 		nl: "Nederlands",
 		sv: "Svenska",
+                tr: "Türkçe",
 		"zh-CN": "简体中文",
 	};
 </script>
