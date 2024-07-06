@@ -36,7 +36,7 @@
 	"palette": {
 		"title": "Palet",
 		"description": "Seçilmiş renkler, sonsuz eserler.",
-		"tagline": "{{numberOfVariants}} varyant ve {{numberOfColors}} renk",
+		"tagline": "{{numberOfVariants}} varyant & {{numberOfColors}} renk",
 		"tabs": {
 			"swatches": "Renk örnekleri",
 			"ingredients": "Malzemeler"
