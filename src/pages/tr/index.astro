@@ -1,0 +1,126 @@
+---
+import { t, changeLanguage } from "i18next";
+import { localizePath } from "astro-i18next";
+import { IconHeartHandshake, IconSeeding, IconShadow } from "$components/icons";
+import Layout from "$layouts/base.astro";
+import EditorFrame from "$components/editor-frame.svelte";
+import Card from "$components/card.svelte";
+import { themes } from "$data/themes";
+
+changeLanguage("tr");
+---
+
+<Layout title={t("home.title")} description={t("home.description")}>
+	<section
+		class="grid min-h-content items-center gap-20 lg:grid-cols-[1fr,minmax(0,1fr)]"
+	>
+		<div class="space-y-6 text-center lg:space-y-10 lg:text-left">
+			<h1
+				class="animate-enter font-display text-5xl font-bold tracking-tight lg:text-8xl"
+			>
+				{t("home.title")}
+			</h1>
+
+			<p
+				class="animate-enter mx-auto max-w-sm text-lg text-subtle lg:mx-0 lg:max-w-md lg:text-xl"
+				style="--stagger: 1"
+			>
+				{t("home.description")}
+			</p>
+
+			<div>
+				<a
+					href={localizePath("/themes")}
+					class="animate-enter inline-flex h-12 items-center rounded-full bg-muted/10 px-6 font-medium transition hover:bg-muted/20 focus:outline-none focus:ring"
+					style="--stagger: 2">{t("home.discover_button")}&nbsp;&rarr;</a
+				>
+			</div>
+		</div>
+
+		<div class="animate-enter overflow-hidden" style="--stagger: 1">
+			<EditorFrame />
+		</div>
+	</section>
+
+	<div class="h-20"></div>
+
+	<section
+		class="mx-auto grid max-w-lg grid-cols-1 gap-10 md:max-w-full md:grid-cols-3 md:gap-6"
+	>
+		<Card
+			size="lg"
+			href={localizePath("/palette")}
+			linkText={t("home.feature_card_1.link")}
+		>
+			<div
+				class="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-foam to-pine text-surface"
+			>
+				<IconSeeding size={28} stroke={1.5} />
+			</div>
+
+			<div class="h-6"></div>
+
+			<h2 class="text-lg font-bold leading-none tracking-tight">
+				{t("home.feature_card_1.title")}
+			</h2>
+
+			<div class="h-3"></div>
+
+			<p>
+				{t("home.feature_card_1.description")}
+			</p>
+		</Card>
+
+		<Card
+			size="lg"
+			href={localizePath("/themes")}
+			linkText={t("home.feature_card_2.link")}
+		>
+			<div
+				class="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-iris to-gold text-surface"
+			>
+				<IconShadow size={28} stroke={1.5} />
+			</div>
+
+			<div class="h-6"></div>
+
+			<h2 class="text-lg font-bold leading-none tracking-tight">
+				{t("home.feature_card_2.title")}
+			</h2>
+
+			<div class="h-3"></div>
+
+			<p>
+				{t("home.feature_card_2.description")}
+			</p>
+		</Card>
+
+		<Card
+			size="lg"
+			href={localizePath("/resources")}
+			linkText={t("home.feature_card_3.link")}
+		>
+			<div
+				class="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-rose to-love text-surface"
+			>
+				<IconHeartHandshake size={28} stroke={1.5} />
+			</div>
+
+			<div class="h-6"></div>
+
+			<h2 class="text-lg font-bold leading-none tracking-tight">
+				{t("home.feature_card_3.title")}
+			</h2>
+
+			<div class="h-3"></div>
+
+			<p>
+				{
+					t("home.feature_card_3.description", {
+						numberOfPorts: Math.floor(themes.length / 10) * 10,
+					})
+				}
+			</p>
+		</Card>
+	</section>
+</Layout>

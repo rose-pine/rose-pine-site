@@ -1,0 +1,70 @@
+{
+	"navigation": {
+		"home": "Ana sayfa",
+		"themes": "Temalar",
+		"palette": "Palet",
+		"ingredients": "Malzemeler",
+		"resources": "Kaynaklar",
+		"languages": "Diller"
+	},
+	"home": {
+		"title": "Güzel bir şey",
+		"description": "Şık minimalistler için tamamen doğal çam, suni kürk ve biraz da soho havası.",
+		"discover_button": "Keşfet",
+		"feature_card_1": {
+			"title": "İnce estetik",
+			"description": "Yumuşak ve rahat paletimizle gözlerinize hak ettiği molayı verin.",
+			"link": "Paletimiz"
+		},
+		"feature_card_2": {
+			"title": "Adaptif ruh halleri",
+			"description": "Gününüzün her saati için özel olarak hazırlanmış varyantların keyfini çıkarın.",
+			"link": "Temalar keşfet"
+		},
+		"feature_card_3": {
+			"title": "Topluluk odaklı",
+			"description": "Rosé Pine'ın favori uygulamalarınızdan {{numberOfPorts}} fazlasına getirilmesine yardımcı oldunuz.",
+			"link": "Dahil olun"
+		}
+	},
+	"themes": {
+		"title": "Temalar",
+		"description": "El yapımı kişiselleştirme koleksiyonu.",
+		"tagline": "{{numberOfPorts}} uyarlama & {{numberOfAuthors}} yazar",
+		"search_label": "Temalar arayın..."
+	},
+	"palette": {
+		"title": "Palet",
+		"description": "Seçilmiş renkler, sonsuz eserler.",
+		"tagline": "{{numberOfVariants}} varyant & {{numberOfColors}} renk",
+		"tabs": {
+			"swatches": "Renk örnekleri",
+			"ingredients": "Malzemeler"
+		}
+	},
+	"ingredients": {
+		"title": "Malzemeler",
+		"description": "Biçimlendirilmiş renk değerleri.",
+		"decorations_label": "Dekorasyonlar"
+	},
+	"resources": {
+		"title": "Kaynaklar",
+		"description": "Katkıda bulunanlar için hafif bir araç kutusu.",
+		"help_link": "Discord sunucumuzdan yardım alın"
+	},
+	"global_search": {
+		"trigger": "Ara",
+		"placeholder": "Sayfalar, temalar ve paletler arayın...",
+		"empty_text": "Herhangi bir sonuç bulunamadı.",
+		"empty_result_1": "Tüm temaları keşfedin",
+		"empty_result_2": "Rosé Pine'a katkıda bulunun",
+		"heading_pages": "Sayfalar",
+		"heading_themes": "Temalar",
+		"heading_featured_themes": "Öne çıkan temalar",
+		"heading_palette": "Palet",
+		"heading_community": "Topluluk"
+	},
+	"shared": {
+		"read_more": "Daha fazla bilgi edinin"
+	}
+}

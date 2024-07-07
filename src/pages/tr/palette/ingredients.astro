@@ -1,0 +1,21 @@
+---
+import { t, changeLanguage } from "i18next";
+import { variantIds } from "@rose-pine/palette";
+import PaletteLayout from "$layouts/palette.astro";
+import PaletteIngredients from "$components/palette-ingredients.svelte";
+import CycleHashes from "$components/cycle-hashes.svelte";
+
+changeLanguage("tr");
+---
+
+<PaletteLayout
+	metaTitle={t("ingredients.title")}
+	metaDescription={t("ingredients.description")}
+>
+	<PaletteIngredients
+		client:load
+		decorationsLabel={t("ingredients.decorations_label") ?? "Decorations"}
+	/>
+</PaletteLayout>
+
+<CycleHashes client:load hashes={variantIds} />
