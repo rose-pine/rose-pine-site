@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 81,
-    "updatedAt": "2024-07-06T00:12:36Z",
+    "updatedAt": "2024-07-07T22:40:24Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -75,8 +75,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2110,
-    "updatedAt": "2024-07-06T04:22:09Z",
+    "stargazerCount": 2111,
+    "updatedAt": "2024-07-07T09:47:25Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -791,8 +791,8 @@
       "app",
       "theme"
     ],
-    "stargazerCount": 4,
-    "updatedAt": "2024-06-25T06:52:34Z",
+    "stargazerCount": 5,
+    "updatedAt": "2024-07-07T20:11:24Z",
     "url": "https://github.com/rose-pine/polybar",
     "usesCustomOpenGraphImage": true
   },
