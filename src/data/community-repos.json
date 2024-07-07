@@ -424,5 +424,14 @@
 		"tags": ["app", "productivity", "math"],
 		"authors": [{ "name": "edunfelt", "url": "https://github.com/edunfelt" }],
 		"has_variants": true
+	},
+	{
+		"name": "Zebar",
+		"url": "https://github.com/adriankarlen/rose-pine.zebar",
+    "tags": ["app", "community"],
+    "authors": [
+      { "name": "adriankarlen", "url": "https://github.com/adriankarlen" }
+    ],
+    "has_variants": true
 	}
 ]
