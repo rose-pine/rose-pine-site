@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 81,
-    "updatedAt": "2024-07-16T00:13:28Z",
+    "updatedAt": "2024-07-17T00:13:35Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -70,7 +70,7 @@
       "editor"
     ],
     "stargazerCount": 450,
-    "updatedAt": "2024-07-14T20:49:59Z",
+    "updatedAt": "2024-07-17T06:38:31Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -442,8 +442,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 91,
-    "updatedAt": "2024-07-12T15:16:25Z",
+    "stargazerCount": 92,
+    "updatedAt": "2024-07-17T14:51:05Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
@@ -679,8 +679,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 24,
-    "updatedAt": "2024-05-14T06:38:10Z",
+    "stargazerCount": 25,
+    "updatedAt": "2024-07-17T10:15:09Z",
     "url": "https://github.com/rose-pine/dark-reader",
     "usesCustomOpenGraphImage": true
   },
@@ -789,7 +789,7 @@
       "terminal-emulator"
     ],
     "stargazerCount": 13,
-    "updatedAt": "2024-06-02T16:38:45Z",
+    "updatedAt": "2024-07-17T10:06:55Z",
     "url": "https://github.com/rose-pine/konsole",
     "usesCustomOpenGraphImage": true
   },
@@ -1096,8 +1096,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1164,
-    "updatedAt": "2024-07-15T11:17:56Z",
+    "stargazerCount": 1165,
+    "updatedAt": "2024-07-17T09:48:21Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
