@@ -1,15 +1,5 @@
 [
   {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 81,
-    "updatedAt": "2024-07-20T00:13:04Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -25,9 +15,19 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2125,
-    "updatedAt": "2024-07-20T23:02:49Z",
+    "stargazerCount": 2126,
+    "updatedAt": "2024-07-21T23:26:29Z",
     "url": "https://github.com/rose-pine/neovim",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 81,
+    "updatedAt": "2024-07-21T00:14:48Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -152,8 +152,8 @@
       "vim",
       "editor"
     ],
-    "stargazerCount": 23,
-    "updatedAt": "2024-07-03T23:25:28Z",
+    "stargazerCount": 24,
+    "updatedAt": "2024-07-21T23:30:00Z",
     "url": "https://github.com/rose-pine/vim",
     "usesCustomOpenGraphImage": true
   },
@@ -355,8 +355,8 @@
       "tiling-window-manager",
       "theme"
     ],
-    "stargazerCount": 13,
-    "updatedAt": "2024-07-19T05:14:26Z",
+    "stargazerCount": 12,
+    "updatedAt": "2024-07-21T13:59:26Z",
     "url": "https://github.com/rose-pine/hyprland",
     "usesCustomOpenGraphImage": false
   },
