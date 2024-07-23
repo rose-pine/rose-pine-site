@@ -15,9 +15,39 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2126,
-    "updatedAt": "2024-07-21T23:26:29Z",
+    "stargazerCount": 2127,
+    "updatedAt": "2024-07-22T22:40:07Z",
     "url": "https://github.com/rose-pine/neovim",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Discord",
+    "homepageUrl": "",
+    "name": "discord",
+    "repositoryTopics": [
+      "betterdiscord",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "goosemod",
+      "discord",
+      "hacktoberfest"
+    ],
+    "stargazerCount": 58,
+    "updatedAt": "2024-07-19T05:13:16Z",
+    "url": "https://github.com/rose-pine/discord",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for fzf",
+    "homepageUrl": "",
+    "name": "fzf",
+    "repositoryTopics": [
+      "theme"
+    ],
+    "stargazerCount": 19,
+    "updatedAt": "2024-07-22T16:16:17Z",
+    "url": "https://github.com/rose-pine/fzf",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -26,7 +56,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 81,
-    "updatedAt": "2024-07-21T00:14:48Z",
+    "updatedAt": "2024-07-22T00:14:08Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -173,24 +203,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Discord",
-    "homepageUrl": "",
-    "name": "discord",
-    "repositoryTopics": [
-      "betterdiscord",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "goosemod",
-      "discord",
-      "hacktoberfest"
-    ],
-    "stargazerCount": 58,
-    "updatedAt": "2024-07-19T05:13:16Z",
-    "url": "https://github.com/rose-pine/discord",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for qBittorrent ",
     "homepageUrl": "",
     "name": "qbittorrent",
@@ -303,18 +315,6 @@
     "stargazerCount": 45,
     "updatedAt": "2024-07-18T03:13:49Z",
     "url": "https://github.com/rose-pine/cursor",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for fzf",
-    "homepageUrl": "",
-    "name": "fzf",
-    "repositoryTopics": [
-      "theme"
-    ],
-    "stargazerCount": 19,
-    "updatedAt": "2024-07-10T21:40:33Z",
-    "url": "https://github.com/rose-pine/fzf",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -457,8 +457,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 210,
-    "updatedAt": "2024-07-18T01:06:17Z",
+    "stargazerCount": 211,
+    "updatedAt": "2024-07-22T16:25:37Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -1096,8 +1096,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1167,
-    "updatedAt": "2024-07-20T21:39:02Z",
+    "stargazerCount": 1168,
+    "updatedAt": "2024-07-22T02:57:56Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
