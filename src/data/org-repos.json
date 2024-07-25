@@ -15,9 +15,25 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2128,
-    "updatedAt": "2024-07-23T21:56:44Z",
+    "stargazerCount": 2129,
+    "updatedAt": "2024-07-24T21:29:43Z",
     "url": "https://github.com/rose-pine/neovim",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Pygments",
+    "homepageUrl": "",
+    "name": "pygments",
+    "repositoryTopics": [
+      "ipython",
+      "pygments-style",
+      "radian",
+      "rose-pine",
+      "pygments"
+    ],
+    "stargazerCount": 2,
+    "updatedAt": "2024-07-24T15:29:29Z",
+    "url": "https://github.com/rose-pine/pygments",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -26,7 +42,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 81,
-    "updatedAt": "2024-07-23T00:13:36Z",
+    "updatedAt": "2024-07-24T00:14:23Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -70,8 +86,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 124,
-    "updatedAt": "2024-07-18T20:16:42Z",
+    "stargazerCount": 125,
+    "updatedAt": "2024-07-24T13:00:06Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -154,22 +170,6 @@
     "updatedAt": "2024-07-11T23:14:00Z",
     "url": "https://github.com/rose-pine/anytype",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Soho vibes for Pygments",
-    "homepageUrl": "",
-    "name": "pygments",
-    "repositoryTopics": [
-      "ipython",
-      "pygments-style",
-      "radian",
-      "rose-pine",
-      "pygments"
-    ],
-    "stargazerCount": 2,
-    "updatedAt": "2024-07-05T18:20:00Z",
-    "url": "https://github.com/rose-pine/pygments",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Vim",
@@ -1097,7 +1097,7 @@
       "aesthetic"
     ],
     "stargazerCount": 1169,
-    "updatedAt": "2024-07-23T03:50:24Z",
+    "updatedAt": "2024-07-24T01:17:22Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
