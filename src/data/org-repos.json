@@ -16,34 +16,8 @@
       "editor"
     ],
     "stargazerCount": 2129,
-    "updatedAt": "2024-07-24T21:29:43Z",
+    "updatedAt": "2024-07-25T21:47:25Z",
     "url": "https://github.com/rose-pine/neovim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Pygments",
-    "homepageUrl": "",
-    "name": "pygments",
-    "repositoryTopics": [
-      "ipython",
-      "pygments-style",
-      "radian",
-      "rose-pine",
-      "pygments"
-    ],
-    "stargazerCount": 2,
-    "updatedAt": "2024-07-24T15:29:29Z",
-    "url": "https://github.com/rose-pine/pygments",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 81,
-    "updatedAt": "2024-07-24T00:14:23Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -60,8 +34,34 @@
       "hacktoberfest"
     ],
     "stargazerCount": 58,
-    "updatedAt": "2024-07-19T05:13:16Z",
+    "updatedAt": "2024-07-25T03:09:56Z",
     "url": "https://github.com/rose-pine/discord",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 81,
+    "updatedAt": "2024-07-25T00:13:43Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Pygments",
+    "homepageUrl": "",
+    "name": "pygments",
+    "repositoryTopics": [
+      "ipython",
+      "pygments-style",
+      "radian",
+      "rose-pine",
+      "pygments"
+    ],
+    "stargazerCount": 2,
+    "updatedAt": "2024-07-24T15:29:29Z",
+    "url": "https://github.com/rose-pine/pygments",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -207,8 +207,8 @@
     "homepageUrl": "",
     "name": "qbittorrent",
     "repositoryTopics": [],
-    "stargazerCount": 2,
-    "updatedAt": "2024-07-14T18:01:24Z",
+    "stargazerCount": 3,
+    "updatedAt": "2024-07-25T23:56:27Z",
     "url": "https://github.com/rose-pine/qbittorrent",
     "usesCustomOpenGraphImage": false
   },
@@ -1096,8 +1096,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1169,
-    "updatedAt": "2024-07-24T01:17:22Z",
+    "stargazerCount": 1170,
+    "updatedAt": "2024-07-25T19:36:22Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1345,8 +1345,8 @@
       "music",
       "terminal"
     ],
-    "stargazerCount": 10,
-    "updatedAt": "2024-04-28T16:18:20Z",
+    "stargazerCount": 11,
+    "updatedAt": "2024-07-25T10:34:28Z",
     "url": "https://github.com/rose-pine/cava",
     "usesCustomOpenGraphImage": true
   },
