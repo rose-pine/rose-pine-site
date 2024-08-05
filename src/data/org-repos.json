@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 82,
+    "updatedAt": "2024-08-04T00:14:44Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -15,19 +25,9 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2143,
-    "updatedAt": "2024-08-03T23:36:28Z",
+    "stargazerCount": 2145,
+    "updatedAt": "2024-08-04T16:17:12Z",
     "url": "https://github.com/rose-pine/neovim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 82,
-    "updatedAt": "2024-08-03T18:19:44Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -442,8 +442,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 92,
-    "updatedAt": "2024-07-17T14:51:05Z",
+    "stargazerCount": 93,
+    "updatedAt": "2024-08-04T23:14:51Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
@@ -771,8 +771,8 @@
       "color",
       "css"
     ],
-    "stargazerCount": 17,
-    "updatedAt": "2024-07-31T06:53:38Z",
+    "stargazerCount": 16,
+    "updatedAt": "2024-08-04T14:12:28Z",
     "url": "https://github.com/rose-pine/palette",
     "usesCustomOpenGraphImage": true
   },
@@ -1096,8 +1096,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1177,
-    "updatedAt": "2024-08-01T14:46:59Z",
+    "stargazerCount": 1178,
+    "updatedAt": "2024-08-04T22:17:58Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
