@@ -23,6 +23,13 @@
 		"has_variants": true
 	},
 	{
+		"name": "Chrome Devtools",
+		"url": "https://github.com/velzie/rose-pine-chrome-devtools",
+		"tags": ["browser", "chrome", "chromium"],
+		"authors": [{ "name": "velzie", "url": "https://github.com/velzie" }],
+		"has_variants": true,
+	},
+	{
 		"name": "Cider",
 		"url": "https://github.com/artilate/cider",
 		"tags": ["app", "audio", "music"],
