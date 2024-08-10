@@ -27,7 +27,7 @@
 		"url": "https://github.com/velzie/rose-pine-chrome-devtools",
 		"tags": ["browser", "chrome", "chromium"],
 		"authors": [{ "name": "velzie", "url": "https://github.com/velzie" }],
-		"has_variants": true,
+		"has_variants": true
 	},
 	{
 		"name": "Cider",
