@@ -234,7 +234,7 @@
 	{
 		"name": "man",
 		"url": "https://github.com/const-void/rose-pine-man",
-		"tags": ["terminal", "shell"],
+		"tags": ["community", "shell"],
 		"authors": [
 			{ "name": "const void*", "url": "https://github.com/const-void" }
 		],
