@@ -232,6 +232,15 @@
 		"has_variants": true
 	},
 	{
+		"name": "man",
+		"url": "https://github.com/const-void/rose-pine-man",
+		"tags": ["community", "shell"],
+		"authors": [
+			{ "name": "const void*", "url": "https://github.com/const-void" }
+		],
+		"has_variants": true
+	},
+	{
 		"name": "Marp",
 		"url": "https://github.com/rainbowflesh/Rose-Pine-For-Marp",
 		"tags": ["marp-themes"],
