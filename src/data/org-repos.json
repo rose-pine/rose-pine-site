@@ -1,5 +1,35 @@
 [
   {
+    "description": "Soho vibes for Zed",
+    "homepageUrl": "",
+    "name": "zed",
+    "repositoryTopics": [],
+    "stargazerCount": 12,
+    "updatedAt": "2024-08-13T21:05:14Z",
+    "url": "https://github.com/rose-pine/zed",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "Theme generator for Rosé Pine",
+    "homepageUrl": "https://www.npmjs.com/package/@rose-pine/build",
+    "name": "build",
+    "repositoryTopics": [],
+    "stargazerCount": 19,
+    "updatedAt": "2024-07-29T11:04:50Z",
+    "url": "https://github.com/rose-pine/build",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 84,
+    "updatedAt": "2024-08-13T00:14:22Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -18,16 +48,6 @@
     "stargazerCount": 2152,
     "updatedAt": "2024-08-12T20:59:49Z",
     "url": "https://github.com/rose-pine/neovim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 84,
-    "updatedAt": "2024-08-12T00:14:44Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -90,16 +110,6 @@
     "updatedAt": "2024-07-29T11:11:16Z",
     "url": "https://github.com/rose-pine/fzf",
     "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Zed",
-    "homepageUrl": "",
-    "name": "zed",
-    "repositoryTopics": [],
-    "stargazerCount": 10,
-    "updatedAt": "2024-08-05T10:18:50Z",
-    "url": "https://github.com/rose-pine/zed",
-    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Soho vibes for Visual Studio Code",
@@ -197,8 +207,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 146,
-    "updatedAt": "2024-08-12T22:04:52Z",
+    "stargazerCount": 145,
+    "updatedAt": "2024-08-13T19:46:56Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -211,16 +221,6 @@
     "updatedAt": "2024-07-25T23:56:27Z",
     "url": "https://github.com/rose-pine/qbittorrent",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Theme generator for Rosé Pine",
-    "homepageUrl": "https://www.npmjs.com/package/@rose-pine/build",
-    "name": "build",
-    "repositoryTopics": [],
-    "stargazerCount": 19,
-    "updatedAt": "2024-07-29T11:04:50Z",
-    "url": "https://github.com/rose-pine/build",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Mastodon",
@@ -442,8 +442,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 93,
-    "updatedAt": "2024-08-04T23:14:51Z",
+    "stargazerCount": 94,
+    "updatedAt": "2024-08-13T23:13:49Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
@@ -458,7 +458,7 @@
       "rose-pine"
     ],
     "stargazerCount": 219,
-    "updatedAt": "2024-08-11T21:58:08Z",
+    "updatedAt": "2024-08-13T23:13:33Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -1433,8 +1433,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 22,
-    "updatedAt": "2024-07-08T14:29:12Z",
+    "stargazerCount": 23,
+    "updatedAt": "2024-08-13T23:50:15Z",
     "url": "https://github.com/rose-pine/terminal.app",
     "usesCustomOpenGraphImage": true
   },
