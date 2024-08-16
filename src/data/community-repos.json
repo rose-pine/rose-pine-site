@@ -258,6 +258,15 @@
 		"has_variants": true
 	},
 	{
+		"name": "MPV.net",
+		"url": "https://github.com/rainbowflesh/Rose-Pine-for-MPV.net",
+		"tags": ["media-player", "app"],
+		"authors": [
+			{ "name": "rainbowflesh", "url": "https://github.com/rainbowflesh" }
+		],
+		"has_variants": true
+	},
+	{
 		"name": "Notepad++",
 		"url": "https://github.com/aaravind100/notepad-plus-plus",
 		"tags": ["app", "editor"],
