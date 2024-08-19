@@ -1,5 +1,28 @@
 [
   {
+    "description": "Soho vibes for Discord mobile",
+    "homepageUrl": "",
+    "name": "discord-mobile",
+    "repositoryTopics": [
+      "theme",
+      "mobile-app"
+    ],
+    "stargazerCount": 4,
+    "updatedAt": "2024-08-18T18:42:33Z",
+    "url": "https://github.com/rose-pine/discord-mobile",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 84,
+    "updatedAt": "2024-08-18T00:14:54Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Theme generator for Rosé Pine",
     "homepageUrl": "https://www.npmjs.com/package/@rose-pine/build",
     "name": "build",
@@ -18,29 +41,6 @@
     "updatedAt": "2024-08-17T22:02:47Z",
     "url": "https://github.com/rose-pine/zed",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Soho vibes for Discord mobile",
-    "homepageUrl": "",
-    "name": "discord-mobile",
-    "repositoryTopics": [
-      "theme",
-      "mobile-app"
-    ],
-    "stargazerCount": 4,
-    "updatedAt": "2024-08-17T16:43:11Z",
-    "url": "https://github.com/rose-pine/discord-mobile",
-    "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 84,
-    "updatedAt": "2024-08-17T00:13:16Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Neovim",
@@ -139,7 +139,7 @@
       "editor"
     ],
     "stargazerCount": 458,
-    "updatedAt": "2024-08-15T17:44:31Z",
+    "updatedAt": "2024-08-18T23:23:56Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -263,8 +263,8 @@
       "editor",
       "hacktoberfest"
     ],
-    "stargazerCount": 27,
-    "updatedAt": "2024-08-08T07:03:54Z",
+    "stargazerCount": 28,
+    "updatedAt": "2024-08-18T21:13:36Z",
     "url": "https://github.com/rose-pine/helix",
     "usesCustomOpenGraphImage": true
   },
@@ -648,8 +648,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 77,
-    "updatedAt": "2024-08-17T02:50:10Z",
+    "stargazerCount": 78,
+    "updatedAt": "2024-08-18T11:36:23Z",
     "url": "https://github.com/rose-pine/kitty",
     "usesCustomOpenGraphImage": true
   },
@@ -1096,8 +1096,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1187,
-    "updatedAt": "2024-08-17T09:23:46Z",
+    "stargazerCount": 1189,
+    "updatedAt": "2024-08-18T08:24:18Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
