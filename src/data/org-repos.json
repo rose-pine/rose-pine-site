@@ -8,8 +8,23 @@
       "mobile-app"
     ],
     "stargazerCount": 5,
-    "updatedAt": "2024-08-19T23:29:18Z",
+    "updatedAt": "2024-08-20T20:38:23Z",
     "url": "https://github.com/rose-pine/discord-mobile",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "Soho vibes for Userstyles",
+    "homepageUrl": "",
+    "name": "userstyles",
+    "repositoryTopics": [
+      "css",
+      "stylish",
+      "userstyles",
+      "stylus"
+    ],
+    "stargazerCount": 8,
+    "updatedAt": "2024-08-20T15:30:46Z",
+    "url": "https://github.com/rose-pine/userstyles",
     "usesCustomOpenGraphImage": false
   },
   {
@@ -17,8 +32,8 @@
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
-    "stargazerCount": 84,
-    "updatedAt": "2024-08-19T00:14:10Z",
+    "stargazerCount": 83,
+    "updatedAt": "2024-08-20T09:09:39Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -27,8 +42,8 @@
     "homepageUrl": "https://www.npmjs.com/package/@rose-pine/build",
     "name": "build",
     "repositoryTopics": [],
-    "stargazerCount": 19,
-    "updatedAt": "2024-08-18T00:04:34Z",
+    "stargazerCount": 20,
+    "updatedAt": "2024-08-20T21:46:50Z",
     "url": "https://github.com/rose-pine/build",
     "usesCustomOpenGraphImage": true
   },
@@ -139,24 +154,9 @@
       "editor"
     ],
     "stargazerCount": 458,
-    "updatedAt": "2024-08-18T23:23:56Z",
+    "updatedAt": "2024-08-20T15:53:26Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Userstyles",
-    "homepageUrl": "",
-    "name": "userstyles",
-    "repositoryTopics": [
-      "css",
-      "stylish",
-      "userstyles",
-      "stylus"
-    ],
-    "stargazerCount": 8,
-    "updatedAt": "2024-07-13T00:49:49Z",
-    "url": "https://github.com/rose-pine/userstyles",
-    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Soho vibes for ghostty",
@@ -1433,8 +1433,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 23,
-    "updatedAt": "2024-08-13T23:50:15Z",
+    "stargazerCount": 24,
+    "updatedAt": "2024-08-20T06:01:53Z",
     "url": "https://github.com/rose-pine/terminal.app",
     "usesCustomOpenGraphImage": true
   },
