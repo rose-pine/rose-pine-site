@@ -4,8 +4,8 @@
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
-    "stargazerCount": 83,
-    "updatedAt": "2024-08-28T00:13:43Z",
+    "stargazerCount": 84,
+    "updatedAt": "2024-08-29T16:44:55Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -25,8 +25,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2177,
-    "updatedAt": "2024-08-28T13:55:06Z",
+    "stargazerCount": 2180,
+    "updatedAt": "2024-08-29T21:45:57Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -269,7 +269,7 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for .tmtheme apps",
+    "description": "Soho vibes for TextMate",
     "homepageUrl": "",
     "name": "tm-theme",
     "repositoryTopics": [
@@ -278,7 +278,7 @@
       "theme"
     ],
     "stargazerCount": 4,
-    "updatedAt": "2024-07-13T14:01:18Z",
+    "updatedAt": "2024-08-29T20:58:18Z",
     "url": "https://github.com/rose-pine/tm-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1433,8 +1433,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 24,
-    "updatedAt": "2024-08-20T06:01:53Z",
+    "stargazerCount": 23,
+    "updatedAt": "2024-08-29T02:42:13Z",
     "url": "https://github.com/rose-pine/terminal.app",
     "usesCustomOpenGraphImage": true
   },
