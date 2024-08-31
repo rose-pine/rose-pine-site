@@ -320,6 +320,15 @@
 		"has_variants": false
 	},
 	{
+		"name": "rEFInd",
+		"url": "https://github.com/xlacroixx/refind",
+		"tags": [],
+		"authors": [
+			{ "name": "LACROIXX", "url": "https://codeberg.org/xlacroixx" }
+		],
+		"has_variants": true
+	},
+	{
 		"name": "RIME",
 		"url": "https://github.com/0xffan/rose-pine-rime",
 		"tags": [],
