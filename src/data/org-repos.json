@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 84,
-    "updatedAt": "2024-08-29T16:44:55Z",
+    "updatedAt": "2024-08-30T00:14:21Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -25,8 +25,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2180,
-    "updatedAt": "2024-08-29T21:45:57Z",
+    "stargazerCount": 2181,
+    "updatedAt": "2024-08-30T22:43:44Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -106,8 +106,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 132,
-    "updatedAt": "2024-08-15T18:30:55Z",
+    "stargazerCount": 133,
+    "updatedAt": "2024-08-30T07:39:20Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -246,8 +246,8 @@
       "rose-pine",
       "css"
     ],
-    "stargazerCount": 3,
-    "updatedAt": "2024-05-31T01:51:50Z",
+    "stargazerCount": 4,
+    "updatedAt": "2024-08-30T09:16:16Z",
     "url": "https://github.com/rose-pine/mastodon",
     "usesCustomOpenGraphImage": true
   },
@@ -355,8 +355,8 @@
       "tiling-window-manager",
       "theme"
     ],
-    "stargazerCount": 11,
-    "updatedAt": "2024-08-07T13:33:07Z",
+    "stargazerCount": 12,
+    "updatedAt": "2024-08-30T19:56:31Z",
     "url": "https://github.com/rose-pine/hyprland",
     "usesCustomOpenGraphImage": false
   },
@@ -457,8 +457,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 219,
-    "updatedAt": "2024-08-13T23:13:33Z",
+    "stargazerCount": 220,
+    "updatedAt": "2024-08-30T01:26:09Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -915,8 +915,8 @@
       "soho-vibes",
       "rose-pine"
     ],
-    "stargazerCount": 44,
-    "updatedAt": "2024-07-31T04:32:21Z",
+    "stargazerCount": 43,
+    "updatedAt": "2024-08-30T17:33:45Z",
     "url": "https://github.com/rose-pine/google-chrome",
     "usesCustomOpenGraphImage": true
   },
@@ -1096,8 +1096,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1195,
-    "updatedAt": "2024-08-26T11:02:11Z",
+    "stargazerCount": 1194,
+    "updatedAt": "2024-08-30T16:33:13Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1244,8 +1244,8 @@
     "homepageUrl": "",
     "name": ".github",
     "repositoryTopics": [],
-    "stargazerCount": 1,
-    "updatedAt": "2024-01-06T18:06:49Z",
+    "stargazerCount": 2,
+    "updatedAt": "2024-08-30T08:23:59Z",
     "url": "https://github.com/rose-pine/.github",
     "usesCustomOpenGraphImage": false
   },
@@ -1450,8 +1450,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 89,
-    "updatedAt": "2024-08-11T17:10:56Z",
+    "stargazerCount": 90,
+    "updatedAt": "2024-08-30T07:32:25Z",
     "url": "https://github.com/rose-pine/iterm",
     "usesCustomOpenGraphImage": true
   },
