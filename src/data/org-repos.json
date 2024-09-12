@@ -1,5 +1,28 @@
 [
   {
+    "description": "Soho vibes for Starship",
+    "homepageUrl": "",
+    "name": "starship",
+    "repositoryTopics": [
+      "shell",
+      "terminal"
+    ],
+    "stargazerCount": 1,
+    "updatedAt": "2024-09-11T22:18:00Z",
+    "url": "https://github.com/rose-pine/starship",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 85,
+    "updatedAt": "2024-09-11T00:14:16Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Discord",
     "homepageUrl": "",
     "name": "discord",
@@ -18,29 +41,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 85,
-    "updatedAt": "2024-09-10T00:14:37Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Starship",
-    "homepageUrl": "",
-    "name": "starship",
-    "repositoryTopics": [
-      "shell",
-      "terminal"
-    ],
-    "stargazerCount": 1,
-    "updatedAt": "2024-09-07T22:23:16Z",
-    "url": "https://github.com/rose-pine/starship",
-    "usesCustomOpenGraphImage": false
-  },
-  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -56,8 +56,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2205,
-    "updatedAt": "2024-09-10T22:41:05Z",
+    "stargazerCount": 2204,
+    "updatedAt": "2024-09-11T20:48:57Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -72,7 +72,7 @@
     "stargazerCount": 5,
     "updatedAt": "2024-08-20T20:38:23Z",
     "url": "https://github.com/rose-pine/discord-mobile",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Userstyles",
@@ -87,7 +87,7 @@
     "stargazerCount": 9,
     "updatedAt": "2024-08-21T06:22:29Z",
     "url": "https://github.com/rose-pine/userstyles",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Theme generator for Rosé Pine",
@@ -107,7 +107,7 @@
     "stargazerCount": 12,
     "updatedAt": "2024-08-17T22:02:47Z",
     "url": "https://github.com/rose-pine/zed",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for tmux",
@@ -166,8 +166,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 461,
-    "updatedAt": "2024-09-10T15:27:22Z",
+    "stargazerCount": 463,
+    "updatedAt": "2024-09-11T05:35:32Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -179,7 +179,7 @@
     "stargazerCount": 3,
     "updatedAt": "2024-08-23T17:12:47Z",
     "url": "https://github.com/rose-pine/ghostty",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Sublime Text",
@@ -205,7 +205,7 @@
     "stargazerCount": 2,
     "updatedAt": "2024-07-11T23:14:00Z",
     "url": "https://github.com/rose-pine/anytype",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Vim",
@@ -233,8 +233,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 147,
-    "updatedAt": "2024-09-10T13:22:57Z",
+    "stargazerCount": 148,
+    "updatedAt": "2024-09-11T13:57:52Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -246,7 +246,7 @@
     "stargazerCount": 3,
     "updatedAt": "2024-07-25T23:56:27Z",
     "url": "https://github.com/rose-pine/qbittorrent",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Mastodon",
@@ -303,7 +303,7 @@
     "stargazerCount": 6,
     "updatedAt": "2024-06-18T03:36:39Z",
     "url": "https://github.com/rose-pine/glazewm",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Rio Terminal",
@@ -331,7 +331,7 @@
     "stargazerCount": 0,
     "updatedAt": "2023-05-12T05:48:26Z",
     "url": "https://github.com/rose-pine/geany",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Cursors",
@@ -371,7 +371,7 @@
     "stargazerCount": 12,
     "updatedAt": "2024-08-30T19:56:31Z",
     "url": "https://github.com/rose-pine/hyprland",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "",
@@ -431,7 +431,7 @@
     "stargazerCount": 3,
     "updatedAt": "2024-02-07T02:05:47Z",
     "url": "https://github.com/rose-pine/skiff",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Rstudio",
@@ -441,7 +441,7 @@
     "stargazerCount": 1,
     "updatedAt": "2024-01-14T15:24:18Z",
     "url": "https://github.com/rose-pine/rstudio",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Alacritty",
@@ -516,7 +516,7 @@
     "stargazerCount": 11,
     "updatedAt": "2024-09-08T23:58:57Z",
     "url": "https://github.com/rose-pine/i3",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Hyper",
@@ -574,7 +574,7 @@
     "stargazerCount": 0,
     "updatedAt": "2023-12-10T22:19:12Z",
     "url": "https://github.com/rose-pine/linear",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for SteamOS",
@@ -588,7 +588,7 @@
     "stargazerCount": 0,
     "updatedAt": "2023-04-09T20:49:04Z",
     "url": "https://github.com/rose-pine/steam-os",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for SwayNotificationCenter",
@@ -601,7 +601,7 @@
     "stargazerCount": 9,
     "updatedAt": "2024-09-07T20:44:14Z",
     "url": "https://github.com/rose-pine/swaync",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for daisyUI",
@@ -613,7 +613,7 @@
     "stargazerCount": 12,
     "updatedAt": "2024-06-19T03:20:08Z",
     "url": "https://github.com/rose-pine/daisyui",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Alfred",
@@ -623,7 +623,7 @@
     "stargazerCount": 3,
     "updatedAt": "2024-07-28T22:46:52Z",
     "url": "https://github.com/rose-pine/alfred",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Pleroma",
@@ -635,7 +635,7 @@
     "stargazerCount": 5,
     "updatedAt": "2024-04-24T07:35:53Z",
     "url": "https://github.com/rose-pine/pleroma",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Mona",
@@ -647,7 +647,7 @@
     "stargazerCount": 2,
     "updatedAt": "2024-04-24T15:31:25Z",
     "url": "https://github.com/rose-pine/mona",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for kitty",
@@ -680,7 +680,7 @@
     "stargazerCount": 5,
     "updatedAt": "2024-07-27T08:17:38Z",
     "url": "https://github.com/rose-pine/vivaldi",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Dark Reader",
@@ -692,8 +692,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 24,
-    "updatedAt": "2024-09-10T14:58:46Z",
+    "stargazerCount": 25,
+    "updatedAt": "2024-09-11T13:37:04Z",
     "url": "https://github.com/rose-pine/dark-reader",
     "usesCustomOpenGraphImage": true
   },
@@ -756,7 +756,7 @@
     "stargazerCount": 11,
     "updatedAt": "2024-08-16T16:07:11Z",
     "url": "https://github.com/rose-pine/btop",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Prism",
@@ -847,7 +847,7 @@
     "stargazerCount": 0,
     "updatedAt": "2023-05-12T17:16:52Z",
     "url": "https://github.com/rose-pine/nomacs",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for PureRef",
@@ -873,7 +873,7 @@
     "stargazerCount": 5,
     "updatedAt": "2024-05-22T03:48:03Z",
     "url": "https://github.com/rose-pine/xresources",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Rofi",
@@ -913,7 +913,7 @@
     "stargazerCount": 3,
     "updatedAt": "2024-02-26T05:34:16Z",
     "url": "https://github.com/rose-pine/hljs",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Google Chrome",
@@ -972,7 +972,7 @@
     "stargazerCount": 10,
     "updatedAt": "2024-08-07T13:33:04Z",
     "url": "https://github.com/rose-pine/vimium-c",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for bspwm",
@@ -984,7 +984,7 @@
     "stargazerCount": 9,
     "updatedAt": "2024-02-14T14:43:01Z",
     "url": "https://github.com/rose-pine/bspwm",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Startpage",
@@ -1013,7 +1013,7 @@
     "stargazerCount": 17,
     "updatedAt": "2024-07-12T22:44:01Z",
     "url": "https://github.com/rose-pine/tailwind-css",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for QTerminal",
@@ -1030,7 +1030,7 @@
     "stargazerCount": 3,
     "updatedAt": "2023-09-03T00:21:37Z",
     "url": "https://github.com/rose-pine/qterminal",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for st",
@@ -1081,7 +1081,7 @@
     "stargazerCount": 3,
     "updatedAt": "2023-05-30T09:14:03Z",
     "url": "https://github.com/rose-pine/lxterminal",
-    "usesCustomOpenGraphImage": false
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Linux TTY",
@@ -1155,8 +1155,8 @@
       "bear",
       "hacktoberfest"
     ],
-    "stargazerCount": 5,
-    "updatedAt": "2024-09-06T15:25:19Z",
+    "stargazerCount": 6,
+    "updatedAt": "2024-09-11T13:42:44Z",
     "url": "https://github.com/rose-pine/bear-blog",
     "usesCustomOpenGraphImage": false
   },
@@ -1446,8 +1446,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 23,
-    "updatedAt": "2024-09-10T16:58:08Z",
+    "stargazerCount": 24,
+    "updatedAt": "2024-09-11T02:14:02Z",
     "url": "https://github.com/rose-pine/terminal.app",
     "usesCustomOpenGraphImage": true
   },
@@ -1463,8 +1463,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 92,
-    "updatedAt": "2024-09-05T10:09:01Z",
+    "stargazerCount": 93,
+    "updatedAt": "2024-09-11T13:15:10Z",
     "url": "https://github.com/rose-pine/iterm",
     "usesCustomOpenGraphImage": true
   },
