@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 85,
+    "updatedAt": "2024-09-12T00:14:42Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Starship",
     "homepageUrl": "",
     "name": "starship",
@@ -11,16 +21,6 @@
     "updatedAt": "2024-09-11T22:18:00Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 85,
-    "updatedAt": "2024-09-11T00:14:16Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Discord",
@@ -56,8 +56,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2204,
-    "updatedAt": "2024-09-11T20:48:57Z",
+    "stargazerCount": 2208,
+    "updatedAt": "2024-09-12T23:38:24Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -166,8 +166,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 463,
-    "updatedAt": "2024-09-11T05:35:32Z",
+    "stargazerCount": 465,
+    "updatedAt": "2024-09-12T07:43:40Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -338,8 +338,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 54,
-    "updatedAt": "2024-09-06T13:35:19Z",
+    "stargazerCount": 55,
+    "updatedAt": "2024-09-12T09:32:28Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -928,8 +928,8 @@
       "soho-vibes",
       "rose-pine"
     ],
-    "stargazerCount": 43,
-    "updatedAt": "2024-09-10T17:00:16Z",
+    "stargazerCount": 44,
+    "updatedAt": "2024-09-12T07:46:48Z",
     "url": "https://github.com/rose-pine/google-chrome",
     "usesCustomOpenGraphImage": true
   },
