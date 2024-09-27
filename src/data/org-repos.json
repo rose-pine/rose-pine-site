@@ -1,11 +1,30 @@
 [
   {
+    "description": "Soho vibes for Visual Studio Code",
+    "homepageUrl": "https://marketplace.visualstudio.com/items?itemName=mvllow.rose-pine",
+    "name": "vscode",
+    "repositoryTopics": [
+      "vscode",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "vscode-extension",
+      "hacktoberfest",
+      "visual-studio-code",
+      "editor"
+    ],
+    "stargazerCount": 470,
+    "updatedAt": "2024-09-26T16:17:22Z",
+    "url": "https://github.com/rose-pine/vscode",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 85,
-    "updatedAt": "2024-09-25T00:15:17Z",
+    "updatedAt": "2024-09-26T00:14:56Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -56,8 +75,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2228,
-    "updatedAt": "2024-09-25T19:36:59Z",
+    "stargazerCount": 2234,
+    "updatedAt": "2024-09-26T18:34:17Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -150,25 +169,6 @@
     "stargazerCount": 22,
     "updatedAt": "2024-09-10T12:28:02Z",
     "url": "https://github.com/rose-pine/fzf",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Visual Studio Code",
-    "homepageUrl": "https://marketplace.visualstudio.com/items?itemName=mvllow.rose-pine",
-    "name": "vscode",
-    "repositoryTopics": [
-      "vscode",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "vscode-extension",
-      "hacktoberfest",
-      "visual-studio-code",
-      "editor"
-    ],
-    "stargazerCount": 470,
-    "updatedAt": "2024-09-24T18:50:29Z",
-    "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -406,8 +406,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 20,
-    "updatedAt": "2024-09-20T09:20:31Z",
+    "stargazerCount": 21,
+    "updatedAt": "2024-09-26T20:34:28Z",
     "url": "https://github.com/rose-pine/zellij",
     "usesCustomOpenGraphImage": true
   },
@@ -737,8 +737,8 @@
       "addon",
       "firefox-extension"
     ],
-    "stargazerCount": 50,
-    "updatedAt": "2024-09-03T13:01:40Z",
+    "stargazerCount": 49,
+    "updatedAt": "2024-09-26T08:04:26Z",
     "url": "https://github.com/rose-pine/firefox",
     "usesCustomOpenGraphImage": true
   },
@@ -1109,8 +1109,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1198,
-    "updatedAt": "2024-09-25T16:56:42Z",
+    "stargazerCount": 1199,
+    "updatedAt": "2024-09-26T15:56:01Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
