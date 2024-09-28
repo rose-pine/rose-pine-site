@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 85,
+    "updatedAt": "2024-09-27T00:15:18Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Visual Studio Code",
     "homepageUrl": "https://marketplace.visualstudio.com/items?itemName=mvllow.rose-pine",
     "name": "vscode",
@@ -16,16 +26,6 @@
     "stargazerCount": 470,
     "updatedAt": "2024-09-26T16:17:22Z",
     "url": "https://github.com/rose-pine/vscode",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 85,
-    "updatedAt": "2024-09-26T00:14:56Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -75,8 +75,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2234,
-    "updatedAt": "2024-09-26T18:34:17Z",
+    "stargazerCount": 2236,
+    "updatedAt": "2024-09-27T09:24:08Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -123,8 +123,8 @@
     "homepageUrl": "",
     "name": "zed",
     "repositoryTopics": [],
-    "stargazerCount": 13,
-    "updatedAt": "2024-09-23T08:27:15Z",
+    "stargazerCount": 14,
+    "updatedAt": "2024-09-27T10:30:49Z",
     "url": "https://github.com/rose-pine/zed",
     "usesCustomOpenGraphImage": true
   },
@@ -406,8 +406,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 21,
-    "updatedAt": "2024-09-26T20:34:28Z",
+    "stargazerCount": 22,
+    "updatedAt": "2024-09-27T20:36:14Z",
     "url": "https://github.com/rose-pine/zellij",
     "usesCustomOpenGraphImage": true
   },
@@ -455,8 +455,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 97,
-    "updatedAt": "2024-09-18T21:12:10Z",
+    "stargazerCount": 98,
+    "updatedAt": "2024-09-27T10:02:34Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
@@ -955,8 +955,8 @@
       "surfingkeys",
       "theme"
     ],
-    "stargazerCount": 19,
-    "updatedAt": "2024-09-25T00:38:16Z",
+    "stargazerCount": 20,
+    "updatedAt": "2024-09-27T20:40:47Z",
     "url": "https://github.com/rose-pine/surfingkeys",
     "usesCustomOpenGraphImage": true
   },
