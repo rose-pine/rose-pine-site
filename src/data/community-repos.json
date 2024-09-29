@@ -302,6 +302,15 @@
 		"has_variants": false
 	},
 	{
+		"name": "PyRadio",
+		"url": "https://codeberg.org/thairanaru/pyradio",
+		"tags": ["app", "audio", "music", "terminal"],
+		"authors": [
+			{ "name": "thairanaru", "url": "https://codeberg.org/thairanaru }
+		],
+		"has_variants": true
+	},
+	{
 		"name": "qutebrowser",
 		"url": "https://github.com/aalbegr/qutebrowser-rose-pine",
 		"tags": ["app", "web-ui"],
