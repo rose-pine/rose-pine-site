@@ -293,6 +293,15 @@
 		]
 	},
 	{
+		"name": "PyRadio",
+		"url": "https://codeberg.org/thairanaru/pyradio",
+		"tags": ["app", "audio", "music", "terminal"],
+		"authors": [
+			{ "name": "thairanaru", "url": "https://codeberg.org/thairanaru"}
+		],
+		"has_variants": true
+	},
+	{
 		"name": "QT Creator",
 		"url": "https://github.com/mike-spa/Ros--Pine-Theme---Qt-Creator",
 		"tags": ["app", "editor"],
@@ -300,15 +309,6 @@
 			{ "name": "Michele Spagnolo", "url": "https://github.com/mike-spa" }
 		],
 		"has_variants": false
-	},
-	{
-		"name": "PyRadio",
-		"url": "https://codeberg.org/thairanaru/pyradio",
-		"tags": ["app", "audio", "music", "terminal"],
-		"authors": [
-			{ "name": "thairanaru", "url": "https://codeberg.org/thairanaru }
-		],
-		"has_variants": true
 	},
 	{
 		"name": "qutebrowser",
