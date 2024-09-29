@@ -1,11 +1,25 @@
 [
   {
+    "description": "Soho vibes for Surfingkeys",
+    "homepageUrl": "",
+    "name": "surfingkeys",
+    "repositoryTopics": [
+      "rose-pine",
+      "surfingkeys",
+      "theme"
+    ],
+    "stargazerCount": 20,
+    "updatedAt": "2024-09-28T10:47:19Z",
+    "url": "https://github.com/rose-pine/surfingkeys",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 85,
-    "updatedAt": "2024-09-27T00:15:18Z",
+    "updatedAt": "2024-09-28T00:15:14Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -75,8 +89,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2236,
-    "updatedAt": "2024-09-27T09:24:08Z",
+    "stargazerCount": 2237,
+    "updatedAt": "2024-09-29T00:14:50Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -944,20 +958,6 @@
     "stargazerCount": 2,
     "updatedAt": "2024-04-26T20:33:13Z",
     "url": "https://github.com/rose-pine/fcitx5",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Surfingkeys",
-    "homepageUrl": "",
-    "name": "surfingkeys",
-    "repositoryTopics": [
-      "rose-pine",
-      "surfingkeys",
-      "theme"
-    ],
-    "stargazerCount": 20,
-    "updatedAt": "2024-09-27T20:40:47Z",
-    "url": "https://github.com/rose-pine/surfingkeys",
     "usesCustomOpenGraphImage": true
   },
   {
