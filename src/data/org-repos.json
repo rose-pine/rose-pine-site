@@ -1,11 +1,24 @@
 [
   {
+    "description": "Soho vibes for Starship",
+    "homepageUrl": "",
+    "name": "starship",
+    "repositoryTopics": [
+      "shell",
+      "terminal"
+    ],
+    "stargazerCount": 2,
+    "updatedAt": "2024-10-06T17:21:09Z",
+    "url": "https://github.com/rose-pine/starship",
+    "usesCustomOpenGraphImage": false
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 85,
-    "updatedAt": "2024-10-05T00:15:04Z",
+    "updatedAt": "2024-10-06T00:16:33Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -56,19 +69,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Starship",
-    "homepageUrl": "",
-    "name": "starship",
-    "repositoryTopics": [
-      "shell",
-      "terminal"
-    ],
-    "stargazerCount": 1,
-    "updatedAt": "2024-09-11T22:18:00Z",
-    "url": "https://github.com/rose-pine/starship",
-    "usesCustomOpenGraphImage": false
-  },
-  {
     "description": "Soho vibes for Discord",
     "homepageUrl": "",
     "name": "discord",
@@ -102,8 +102,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2249,
-    "updatedAt": "2024-10-05T21:49:17Z",
+    "stargazerCount": 2250,
+    "updatedAt": "2024-10-06T23:04:38Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -798,8 +798,8 @@
       "color",
       "css"
     ],
-    "stargazerCount": 16,
-    "updatedAt": "2024-08-04T14:12:28Z",
+    "stargazerCount": 17,
+    "updatedAt": "2024-10-06T15:14:41Z",
     "url": "https://github.com/rose-pine/palette",
     "usesCustomOpenGraphImage": true
   },
@@ -942,8 +942,8 @@
       "soho-vibes",
       "rose-pine"
     ],
-    "stargazerCount": 43,
-    "updatedAt": "2024-09-13T05:51:01Z",
+    "stargazerCount": 44,
+    "updatedAt": "2024-10-06T23:51:22Z",
     "url": "https://github.com/rose-pine/google-chrome",
     "usesCustomOpenGraphImage": true
   },
