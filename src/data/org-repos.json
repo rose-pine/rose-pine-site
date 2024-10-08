@@ -1,5 +1,20 @@
 [
   {
+    "description": "Soho vibes for GTK",
+    "homepageUrl": "",
+    "name": "gtk",
+    "repositoryTopics": [
+      "gtk",
+      "soho-vibes",
+      "theme",
+      "rose-pine"
+    ],
+    "stargazerCount": 220,
+    "updatedAt": "2024-10-07T19:04:47Z",
+    "url": "https://github.com/rose-pine/gtk",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Starship",
     "homepageUrl": "",
     "name": "starship",
@@ -7,8 +22,8 @@
       "shell",
       "terminal"
     ],
-    "stargazerCount": 2,
-    "updatedAt": "2024-10-06T17:21:09Z",
+    "stargazerCount": 5,
+    "updatedAt": "2024-10-07T12:04:09Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
   },
@@ -17,8 +32,8 @@
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
-    "stargazerCount": 85,
-    "updatedAt": "2024-10-06T00:16:33Z",
+    "stargazerCount": 86,
+    "updatedAt": "2024-10-07T01:27:03Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -102,8 +117,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2250,
-    "updatedAt": "2024-10-06T23:04:38Z",
+    "stargazerCount": 2253,
+    "updatedAt": "2024-10-07T16:25:54Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -206,8 +221,8 @@
       "rose-pine",
       "hacktoberfest"
     ],
-    "stargazerCount": 21,
-    "updatedAt": "2024-08-11T22:07:18Z",
+    "stargazerCount": 22,
+    "updatedAt": "2024-10-07T21:52:47Z",
     "url": "https://github.com/rose-pine/sublime-text",
     "usesCustomOpenGraphImage": true
   },
@@ -475,21 +490,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for GTK",
-    "homepageUrl": "",
-    "name": "gtk",
-    "repositoryTopics": [
-      "gtk",
-      "soho-vibes",
-      "theme",
-      "rose-pine"
-    ],
-    "stargazerCount": 220,
-    "updatedAt": "2024-09-29T17:32:29Z",
-    "url": "https://github.com/rose-pine/gtk",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Ollama WebUI",
     "homepageUrl": "",
     "name": "ollama-webui",
@@ -675,8 +675,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 82,
-    "updatedAt": "2024-10-04T11:03:52Z",
+    "stargazerCount": 83,
+    "updatedAt": "2024-10-07T04:58:11Z",
     "url": "https://github.com/rose-pine/kitty",
     "usesCustomOpenGraphImage": true
   },
