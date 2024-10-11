@@ -1,11 +1,36 @@
 [
   {
+    "description": "Soho vibes for Obsidian",
+    "homepageUrl": "",
+    "name": "obsidian",
+    "repositoryTopics": [
+      "app"
+    ],
+    "stargazerCount": 0,
+    "updatedAt": "2024-10-10T20:15:35Z",
+    "url": "https://github.com/rose-pine/obsidian",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "Soho vibes for Starship",
+    "homepageUrl": "",
+    "name": "starship",
+    "repositoryTopics": [
+      "shell",
+      "terminal"
+    ],
+    "stargazerCount": 6,
+    "updatedAt": "2024-10-10T20:05:17Z",
+    "url": "https://github.com/rose-pine/starship",
+    "usesCustomOpenGraphImage": false
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 86,
-    "updatedAt": "2024-10-09T00:15:31Z",
+    "updatedAt": "2024-10-10T00:14:59Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -44,8 +69,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 478,
-    "updatedAt": "2024-10-08T18:15:46Z",
+    "stargazerCount": 480,
+    "updatedAt": "2024-10-10T08:11:09Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -59,23 +84,10 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 221,
-    "updatedAt": "2024-10-09T04:58:25Z",
+    "stargazerCount": 222,
+    "updatedAt": "2024-10-10T20:36:13Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Starship",
-    "homepageUrl": "",
-    "name": "starship",
-    "repositoryTopics": [
-      "shell",
-      "terminal"
-    ],
-    "stargazerCount": 6,
-    "updatedAt": "2024-10-09T10:54:46Z",
-    "url": "https://github.com/rose-pine/starship",
-    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Soho vibes for Discord mobile",
@@ -262,8 +274,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 152,
-    "updatedAt": "2024-10-08T16:54:39Z",
+    "stargazerCount": 153,
+    "updatedAt": "2024-10-10T17:16:32Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -367,8 +379,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 59,
-    "updatedAt": "2024-10-08T04:43:36Z",
+    "stargazerCount": 60,
+    "updatedAt": "2024-10-10T15:27:22Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -484,8 +496,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 97,
-    "updatedAt": "2024-10-09T05:06:43Z",
+    "stargazerCount": 98,
+    "updatedAt": "2024-10-10T16:58:39Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
@@ -572,16 +584,6 @@
     "updatedAt": "2024-10-03T00:34:17Z",
     "url": "https://github.com/rose-pine/rose-pine-template",
     "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Obsidian",
-    "homepageUrl": "",
-    "name": "obsidian",
-    "repositoryTopics": [],
-    "stargazerCount": 0,
-    "updatedAt": "2024-10-09T13:56:26Z",
-    "url": "https://github.com/rose-pine/obsidian",
-    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Soho vibes for Linear",
