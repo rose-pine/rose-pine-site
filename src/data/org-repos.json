@@ -1,11 +1,24 @@
 [
   {
+    "description": "Soho vibes for mako",
+    "homepageUrl": "",
+    "name": "mako",
+    "repositoryTopics": [
+      "mako",
+      "theme"
+    ],
+    "stargazerCount": 0,
+    "updatedAt": "2024-10-13T14:43:12Z",
+    "url": "https://github.com/rose-pine/mako",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
-    "stargazerCount": 86,
-    "updatedAt": "2024-10-12T00:14:37Z",
+    "stargazerCount": 87,
+    "updatedAt": "2024-10-13T10:30:28Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -16,8 +29,8 @@
     "repositoryTopics": [
       "app"
     ],
-    "stargazerCount": 0,
-    "updatedAt": "2024-10-10T20:15:35Z",
+    "stargazerCount": 1,
+    "updatedAt": "2024-10-13T09:20:33Z",
     "url": "https://github.com/rose-pine/obsidian",
     "usesCustomOpenGraphImage": false
   },
@@ -50,8 +63,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2266,
-    "updatedAt": "2024-10-12T14:40:42Z",
+    "stargazerCount": 2267,
+    "updatedAt": "2024-10-13T06:44:01Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -97,8 +110,8 @@
       "theme",
       "mobile-app"
     ],
-    "stargazerCount": 5,
-    "updatedAt": "2024-10-04T07:59:03Z",
+    "stargazerCount": 6,
+    "updatedAt": "2024-10-13T07:33:29Z",
     "url": "https://github.com/rose-pine/discord-mobile",
     "usesCustomOpenGraphImage": true
   },
@@ -129,8 +142,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 64,
-    "updatedAt": "2024-09-30T20:15:31Z",
+    "stargazerCount": 65,
+    "updatedAt": "2024-10-13T07:31:15Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
@@ -379,8 +392,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 62,
-    "updatedAt": "2024-10-12T18:15:45Z",
+    "stargazerCount": 63,
+    "updatedAt": "2024-10-13T15:19:37Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -496,8 +509,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 99,
-    "updatedAt": "2024-10-12T14:43:02Z",
+    "stargazerCount": 100,
+    "updatedAt": "2024-10-13T21:51:53Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
@@ -1008,8 +1021,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 25,
-    "updatedAt": "2024-10-09T01:37:21Z",
+    "stargazerCount": 26,
+    "updatedAt": "2024-10-13T20:51:43Z",
     "url": "https://github.com/rose-pine/startpage",
     "usesCustomOpenGraphImage": true
   },
@@ -1121,8 +1134,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1206,
-    "updatedAt": "2024-10-08T18:15:50Z",
+    "stargazerCount": 1207,
+    "updatedAt": "2024-10-13T21:52:15Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1214,8 +1227,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 35,
-    "updatedAt": "2024-10-09T22:16:55Z",
+    "stargazerCount": 36,
+    "updatedAt": "2024-10-13T21:21:30Z",
     "url": "https://github.com/rose-pine/gnome-terminal",
     "usesCustomOpenGraphImage": true
   },
@@ -1395,8 +1408,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 1,
-    "updatedAt": "2024-08-12T19:09:32Z",
+    "stargazerCount": 2,
+    "updatedAt": "2024-10-13T20:55:39Z",
     "url": "https://github.com/rose-pine/writefreely",
     "usesCustomOpenGraphImage": true
   },
