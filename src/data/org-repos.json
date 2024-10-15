@@ -1,5 +1,34 @@
 [
   {
+    "description": "Soho vibes for Visual Studio Code",
+    "homepageUrl": "https://marketplace.visualstudio.com/items?itemName=mvllow.rose-pine",
+    "name": "vscode",
+    "repositoryTopics": [
+      "vscode",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "vscode-extension",
+      "hacktoberfest",
+      "visual-studio-code",
+      "editor"
+    ],
+    "stargazerCount": 480,
+    "updatedAt": "2024-10-14T23:49:22Z",
+    "url": "https://github.com/rose-pine/vscode",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 87,
+    "updatedAt": "2024-10-14T00:16:02Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for mako",
     "homepageUrl": "",
     "name": "mako",
@@ -10,16 +39,6 @@
     "stargazerCount": 0,
     "updatedAt": "2024-10-13T14:43:12Z",
     "url": "https://github.com/rose-pine/mako",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 87,
-    "updatedAt": "2024-10-13T10:30:28Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -63,28 +82,9 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2267,
-    "updatedAt": "2024-10-13T06:44:01Z",
+    "stargazerCount": 2272,
+    "updatedAt": "2024-10-14T18:56:36Z",
     "url": "https://github.com/rose-pine/neovim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Visual Studio Code",
-    "homepageUrl": "https://marketplace.visualstudio.com/items?itemName=mvllow.rose-pine",
-    "name": "vscode",
-    "repositoryTopics": [
-      "vscode",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "vscode-extension",
-      "hacktoberfest",
-      "visual-studio-code",
-      "editor"
-    ],
-    "stargazerCount": 480,
-    "updatedAt": "2024-10-10T08:11:09Z",
-    "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -287,8 +287,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 153,
-    "updatedAt": "2024-10-10T17:16:32Z",
+    "stargazerCount": 155,
+    "updatedAt": "2024-10-14T11:39:55Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -776,8 +776,8 @@
       "addon",
       "firefox-extension"
     ],
-    "stargazerCount": 51,
-    "updatedAt": "2024-10-08T22:17:08Z",
+    "stargazerCount": 52,
+    "updatedAt": "2024-10-14T13:11:43Z",
     "url": "https://github.com/rose-pine/firefox",
     "usesCustomOpenGraphImage": true
   },
@@ -1134,8 +1134,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1207,
-    "updatedAt": "2024-10-13T21:52:15Z",
+    "stargazerCount": 1208,
+    "updatedAt": "2024-10-14T23:23:11Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
