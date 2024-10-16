@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 87,
+    "updatedAt": "2024-10-15T00:15:25Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Visual Studio Code",
     "homepageUrl": "https://marketplace.visualstudio.com/items?itemName=mvllow.rose-pine",
     "name": "vscode",
@@ -16,16 +26,6 @@
     "stargazerCount": 480,
     "updatedAt": "2024-10-14T23:49:22Z",
     "url": "https://github.com/rose-pine/vscode",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 87,
-    "updatedAt": "2024-10-14T00:16:02Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -1134,8 +1134,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1208,
-    "updatedAt": "2024-10-14T23:23:11Z",
+    "stargazerCount": 1210,
+    "updatedAt": "2024-10-15T21:13:04Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
