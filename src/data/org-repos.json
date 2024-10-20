@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 88,
-    "updatedAt": "2024-10-18T00:15:12Z",
+    "updatedAt": "2024-10-19T00:15:09Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -23,8 +23,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 484,
-    "updatedAt": "2024-10-18T10:55:18Z",
+    "stargazerCount": 483,
+    "updatedAt": "2024-10-19T23:44:11Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -82,8 +82,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2279,
-    "updatedAt": "2024-10-18T12:58:10Z",
+    "stargazerCount": 2280,
+    "updatedAt": "2024-10-19T22:51:31Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -422,8 +422,8 @@
       "tiling-window-manager",
       "theme"
     ],
-    "stargazerCount": 12,
-    "updatedAt": "2024-08-30T19:56:31Z",
+    "stargazerCount": 13,
+    "updatedAt": "2024-10-19T14:17:11Z",
     "url": "https://github.com/rose-pine/hyprland",
     "usesCustomOpenGraphImage": true
   },
@@ -777,7 +777,7 @@
       "firefox-extension"
     ],
     "stargazerCount": 52,
-    "updatedAt": "2024-10-14T13:11:43Z",
+    "updatedAt": "2024-10-19T20:15:26Z",
     "url": "https://github.com/rose-pine/firefox",
     "usesCustomOpenGraphImage": true
   },
@@ -921,8 +921,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 15,
-    "updatedAt": "2024-08-07T13:33:05Z",
+    "stargazerCount": 16,
+    "updatedAt": "2024-10-19T14:17:02Z",
     "url": "https://github.com/rose-pine/rofi",
     "usesCustomOpenGraphImage": true
   },
@@ -1488,8 +1488,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 97,
-    "updatedAt": "2024-10-12T08:09:57Z",
+    "stargazerCount": 98,
+    "updatedAt": "2024-10-19T16:46:24Z",
     "url": "https://github.com/rose-pine/iterm",
     "usesCustomOpenGraphImage": true
   },
