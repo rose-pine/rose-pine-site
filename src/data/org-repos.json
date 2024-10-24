@@ -1,11 +1,42 @@
 [
   {
+    "description": "Soho vibes for Neovim",
+    "homepageUrl": "",
+    "name": "neovim",
+    "repositoryTopics": [
+      "theme",
+      "neovim",
+      "soho-vibes",
+      "rose-pine",
+      "lua",
+      "vim",
+      "nvim",
+      "neovim-theme",
+      "vim-theme",
+      "editor"
+    ],
+    "stargazerCount": 2293,
+    "updatedAt": "2024-10-23T23:09:10Z",
+    "url": "https://github.com/rose-pine/neovim",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for ghostty",
+    "homepageUrl": "",
+    "name": "ghostty",
+    "repositoryTopics": [],
+    "stargazerCount": 4,
+    "updatedAt": "2024-10-23T22:55:07Z",
+    "url": "https://github.com/rose-pine/ghostty",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 88,
-    "updatedAt": "2024-10-22T00:15:35Z",
+    "updatedAt": "2024-10-23T00:15:16Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -24,7 +55,7 @@
       "editor"
     ],
     "stargazerCount": 484,
-    "updatedAt": "2024-10-21T12:15:01Z",
+    "updatedAt": "2024-10-23T23:11:21Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -67,27 +98,6 @@
     "usesCustomOpenGraphImage": false
   },
   {
-    "description": "Soho vibes for Neovim",
-    "homepageUrl": "",
-    "name": "neovim",
-    "repositoryTopics": [
-      "theme",
-      "neovim",
-      "soho-vibes",
-      "rose-pine",
-      "lua",
-      "vim",
-      "nvim",
-      "neovim-theme",
-      "vim-theme",
-      "editor"
-    ],
-    "stargazerCount": 2290,
-    "updatedAt": "2024-10-22T19:59:19Z",
-    "url": "https://github.com/rose-pine/neovim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for GTK",
     "homepageUrl": "",
     "name": "gtk",
@@ -97,8 +107,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 228,
-    "updatedAt": "2024-10-21T09:09:07Z",
+    "stargazerCount": 229,
+    "updatedAt": "2024-10-23T06:57:48Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -226,16 +236,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for ghostty",
-    "homepageUrl": "",
-    "name": "ghostty",
-    "repositoryTopics": [],
-    "stargazerCount": 4,
-    "updatedAt": "2024-09-23T08:27:17Z",
-    "url": "https://github.com/rose-pine/ghostty",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Sublime Text",
     "homepageUrl": "",
     "name": "sublime-text",
@@ -272,8 +272,8 @@
       "vim",
       "editor"
     ],
-    "stargazerCount": 25,
-    "updatedAt": "2024-08-11T17:11:02Z",
+    "stargazerCount": 26,
+    "updatedAt": "2024-10-23T19:53:51Z",
     "url": "https://github.com/rose-pine/vim",
     "usesCustomOpenGraphImage": true
   },
