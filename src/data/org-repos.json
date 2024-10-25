@@ -1,5 +1,27 @@
 [
   {
+    "description": "Soho vibes for Zen Browser",
+    "homepageUrl": "",
+    "name": "zen-browser",
+    "repositoryTopics": [
+      "app"
+    ],
+    "stargazerCount": 0,
+    "updatedAt": "2024-10-24T13:21:23Z",
+    "url": "https://github.com/rose-pine/zen-browser",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 88,
+    "updatedAt": "2024-10-24T00:15:28Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -15,8 +37,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2293,
-    "updatedAt": "2024-10-23T23:09:10Z",
+    "stargazerCount": 2297,
+    "updatedAt": "2024-10-24T06:21:03Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -28,16 +50,6 @@
     "stargazerCount": 4,
     "updatedAt": "2024-10-23T22:55:07Z",
     "url": "https://github.com/rose-pine/ghostty",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 88,
-    "updatedAt": "2024-10-23T00:15:16Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -202,8 +214,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 139,
-    "updatedAt": "2024-10-04T15:33:20Z",
+    "stargazerCount": 140,
+    "updatedAt": "2024-10-24T02:10:59Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -980,8 +992,8 @@
       "app",
       "theme"
     ],
-    "stargazerCount": 2,
-    "updatedAt": "2024-04-26T20:33:13Z",
+    "stargazerCount": 3,
+    "updatedAt": "2024-10-24T04:55:37Z",
     "url": "https://github.com/rose-pine/fcitx5",
     "usesCustomOpenGraphImage": true
   },
@@ -1118,8 +1130,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 9,
-    "updatedAt": "2024-10-20T11:56:48Z",
+    "stargazerCount": 10,
+    "updatedAt": "2024-10-24T17:25:31Z",
     "url": "https://github.com/rose-pine/linux-tty",
     "usesCustomOpenGraphImage": true
   },
