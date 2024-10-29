@@ -1,5 +1,28 @@
 [
   {
+    "description": "Soho vibes for Starship",
+    "homepageUrl": "",
+    "name": "starship",
+    "repositoryTopics": [
+      "shell",
+      "terminal"
+    ],
+    "stargazerCount": 10,
+    "updatedAt": "2024-10-28T22:29:16Z",
+    "url": "https://github.com/rose-pine/starship",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 88,
+    "updatedAt": "2024-10-28T00:16:31Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Zen Browser",
     "homepageUrl": "",
     "name": "zen-browser",
@@ -9,16 +32,6 @@
     "stargazerCount": 1,
     "updatedAt": "2024-10-27T21:02:49Z",
     "url": "https://github.com/rose-pine/zen-browser",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 88,
-    "updatedAt": "2024-10-27T00:17:00Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -37,8 +50,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2298,
-    "updatedAt": "2024-10-27T08:04:09Z",
+    "stargazerCount": 2301,
+    "updatedAt": "2024-10-28T17:20:47Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -47,8 +60,8 @@
     "homepageUrl": "",
     "name": "ghostty",
     "repositoryTopics": [],
-    "stargazerCount": 4,
-    "updatedAt": "2024-10-23T22:55:07Z",
+    "stargazerCount": 5,
+    "updatedAt": "2024-10-28T12:24:23Z",
     "url": "https://github.com/rose-pine/ghostty",
     "usesCustomOpenGraphImage": true
   },
@@ -66,8 +79,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 484,
-    "updatedAt": "2024-10-23T23:11:21Z",
+    "stargazerCount": 487,
+    "updatedAt": "2024-10-28T18:15:42Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -94,19 +107,6 @@
     "stargazerCount": 1,
     "updatedAt": "2024-10-13T09:20:33Z",
     "url": "https://github.com/rose-pine/obsidian",
-    "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Soho vibes for Starship",
-    "homepageUrl": "",
-    "name": "starship",
-    "repositoryTopics": [
-      "shell",
-      "terminal"
-    ],
-    "stargazerCount": 10,
-    "updatedAt": "2024-10-26T11:44:44Z",
-    "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
   },
   {
@@ -661,8 +661,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 13,
-    "updatedAt": "2024-09-13T17:50:07Z",
+    "stargazerCount": 14,
+    "updatedAt": "2024-10-28T14:55:10Z",
     "url": "https://github.com/rose-pine/daisyui",
     "usesCustomOpenGraphImage": true
   },
@@ -712,8 +712,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 83,
-    "updatedAt": "2024-10-07T04:58:11Z",
+    "stargazerCount": 85,
+    "updatedAt": "2024-10-28T23:58:23Z",
     "url": "https://github.com/rose-pine/kitty",
     "usesCustomOpenGraphImage": true
   },
@@ -1146,8 +1146,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1213,
-    "updatedAt": "2024-10-26T17:18:54Z",
+    "stargazerCount": 1215,
+    "updatedAt": "2024-10-28T18:30:11Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1466,8 +1466,8 @@
       "css",
       "hacktoberfest"
     ],
-    "stargazerCount": 20,
-    "updatedAt": "2024-07-02T07:47:18Z",
+    "stargazerCount": 21,
+    "updatedAt": "2024-10-28T16:22:47Z",
     "url": "https://github.com/rose-pine/slack",
     "usesCustomOpenGraphImage": true
   },
