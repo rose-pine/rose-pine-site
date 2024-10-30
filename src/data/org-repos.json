@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 88,
+    "updatedAt": "2024-10-29T00:15:49Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Starship",
     "homepageUrl": "",
     "name": "starship",
@@ -11,16 +21,6 @@
     "updatedAt": "2024-10-28T22:29:16Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 88,
-    "updatedAt": "2024-10-28T00:16:31Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Zen Browser",
@@ -50,8 +50,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2301,
-    "updatedAt": "2024-10-28T17:20:47Z",
+    "stargazerCount": 2302,
+    "updatedAt": "2024-10-29T17:56:00Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -284,8 +284,8 @@
       "vim",
       "editor"
     ],
-    "stargazerCount": 26,
-    "updatedAt": "2024-10-23T19:53:51Z",
+    "stargazerCount": 27,
+    "updatedAt": "2024-10-29T20:03:49Z",
     "url": "https://github.com/rose-pine/vim",
     "usesCustomOpenGraphImage": true
   },
@@ -521,8 +521,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 101,
-    "updatedAt": "2024-10-22T08:42:25Z",
+    "stargazerCount": 102,
+    "updatedAt": "2024-10-29T04:02:34Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
@@ -531,8 +531,8 @@
     "homepageUrl": "",
     "name": "ollama-webui",
     "repositoryTopics": [],
-    "stargazerCount": 5,
-    "updatedAt": "2024-10-01T01:23:29Z",
+    "stargazerCount": 6,
+    "updatedAt": "2024-10-29T15:18:40Z",
     "url": "https://github.com/rose-pine/ollama-webui",
     "usesCustomOpenGraphImage": true
   },
@@ -1146,8 +1146,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1215,
-    "updatedAt": "2024-10-28T18:30:11Z",
+    "stargazerCount": 1216,
+    "updatedAt": "2024-10-29T10:34:47Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1176,8 +1176,8 @@
       "rose-pine",
       "shell"
     ],
-    "stargazerCount": 25,
-    "updatedAt": "2024-09-25T09:05:04Z",
+    "stargazerCount": 26,
+    "updatedAt": "2024-10-29T17:44:23Z",
     "url": "https://github.com/rose-pine/fish",
     "usesCustomOpenGraphImage": true
   },
@@ -1500,8 +1500,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 98,
-    "updatedAt": "2024-10-19T16:46:24Z",
+    "stargazerCount": 99,
+    "updatedAt": "2024-10-29T17:44:59Z",
     "url": "https://github.com/rose-pine/iterm",
     "usesCustomOpenGraphImage": true
   },
