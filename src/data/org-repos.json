@@ -1,11 +1,27 @@
 [
   {
+    "description": "Soho vibes for Sublime Text",
+    "homepageUrl": "",
+    "name": "sublime-text",
+    "repositoryTopics": [
+      "sublime-text",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "hacktoberfest"
+    ],
+    "stargazerCount": 24,
+    "updatedAt": "2024-10-31T16:31:52Z",
+    "url": "https://github.com/rose-pine/sublime-text",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 88,
-    "updatedAt": "2024-10-30T00:15:28Z",
+    "updatedAt": "2024-10-31T00:16:02Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -50,8 +66,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2302,
-    "updatedAt": "2024-10-30T21:42:09Z",
+    "stargazerCount": 2303,
+    "updatedAt": "2024-10-31T18:15:51Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -79,8 +95,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 487,
-    "updatedAt": "2024-10-28T18:15:42Z",
+    "stargazerCount": 488,
+    "updatedAt": "2024-10-31T08:40:15Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -119,8 +135,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 234,
-    "updatedAt": "2024-10-30T14:31:22Z",
+    "stargazerCount": 235,
+    "updatedAt": "2024-10-31T20:10:22Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -214,8 +230,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 142,
-    "updatedAt": "2024-10-26T16:51:30Z",
+    "stargazerCount": 143,
+    "updatedAt": "2024-10-31T10:33:12Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -245,22 +261,6 @@
     "stargazerCount": 23,
     "updatedAt": "2024-10-20T11:30:21Z",
     "url": "https://github.com/rose-pine/fzf",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Sublime Text",
-    "homepageUrl": "",
-    "name": "sublime-text",
-    "repositoryTopics": [
-      "sublime-text",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "hacktoberfest"
-    ],
-    "stargazerCount": 23,
-    "updatedAt": "2024-10-22T13:12:59Z",
-    "url": "https://github.com/rose-pine/sublime-text",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -788,8 +788,8 @@
       "addon",
       "firefox-extension"
     ],
-    "stargazerCount": 53,
-    "updatedAt": "2024-10-20T11:47:46Z",
+    "stargazerCount": 54,
+    "updatedAt": "2024-10-31T23:37:33Z",
     "url": "https://github.com/rose-pine/firefox",
     "usesCustomOpenGraphImage": true
   },
@@ -1146,8 +1146,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1219,
-    "updatedAt": "2024-10-30T21:15:30Z",
+    "stargazerCount": 1220,
+    "updatedAt": "2024-10-31T09:09:14Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
