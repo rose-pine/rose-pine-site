@@ -1,11 +1,26 @@
 [
   {
+    "description": "Soho vibes for Userstyles",
+    "homepageUrl": "",
+    "name": "userstyles",
+    "repositoryTopics": [
+      "css",
+      "stylish",
+      "userstyles",
+      "stylus"
+    ],
+    "stargazerCount": 15,
+    "updatedAt": "2024-11-04T13:41:04Z",
+    "url": "https://github.com/rose-pine/userstyles",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 89,
-    "updatedAt": "2024-11-03T00:16:53Z",
+    "updatedAt": "2024-11-04T00:16:18Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -66,8 +81,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2311,
-    "updatedAt": "2024-11-03T20:46:42Z",
+    "stargazerCount": 2315,
+    "updatedAt": "2024-11-04T23:40:16Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -76,8 +91,8 @@
     "homepageUrl": "",
     "name": "ghostty",
     "repositoryTopics": [],
-    "stargazerCount": 5,
-    "updatedAt": "2024-10-28T12:24:23Z",
+    "stargazerCount": 6,
+    "updatedAt": "2024-11-04T23:54:01Z",
     "url": "https://github.com/rose-pine/ghostty",
     "usesCustomOpenGraphImage": true
   },
@@ -95,8 +110,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 489,
-    "updatedAt": "2024-11-03T23:22:47Z",
+    "stargazerCount": 490,
+    "updatedAt": "2024-11-04T08:18:30Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -186,21 +201,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Userstyles",
-    "homepageUrl": "",
-    "name": "userstyles",
-    "repositoryTopics": [
-      "css",
-      "stylish",
-      "userstyles",
-      "stylus"
-    ],
-    "stargazerCount": 15,
-    "updatedAt": "2024-11-02T07:07:28Z",
-    "url": "https://github.com/rose-pine/userstyles",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Theme generator for Rosé Pine",
     "homepageUrl": "https://www.npmjs.com/package/@rose-pine/build",
     "name": "build",
@@ -230,8 +230,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 144,
-    "updatedAt": "2024-11-03T01:44:21Z",
+    "stargazerCount": 145,
+    "updatedAt": "2024-11-04T16:26:04Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -521,8 +521,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 102,
-    "updatedAt": "2024-10-29T04:02:34Z",
+    "stargazerCount": 103,
+    "updatedAt": "2024-11-04T07:48:28Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
@@ -548,8 +548,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 64,
-    "updatedAt": "2024-10-16T11:01:58Z",
+    "stargazerCount": 65,
+    "updatedAt": "2024-11-04T18:50:22Z",
     "url": "https://github.com/rose-pine/windows-terminal",
     "usesCustomOpenGraphImage": true
   },
@@ -564,8 +564,8 @@
       "theme",
       "window-manager"
     ],
-    "stargazerCount": 13,
-    "updatedAt": "2024-09-25T23:23:46Z",
+    "stargazerCount": 12,
+    "updatedAt": "2024-11-04T01:10:33Z",
     "url": "https://github.com/rose-pine/i3",
     "usesCustomOpenGraphImage": true
   },
@@ -1146,8 +1146,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1225,
-    "updatedAt": "2024-11-03T23:21:50Z",
+    "stargazerCount": 1228,
+    "updatedAt": "2024-11-04T23:39:55Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1500,8 +1500,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 100,
-    "updatedAt": "2024-11-02T16:53:33Z",
+    "stargazerCount": 101,
+    "updatedAt": "2024-11-04T08:17:30Z",
     "url": "https://github.com/rose-pine/iterm",
     "usesCustomOpenGraphImage": true
   },
