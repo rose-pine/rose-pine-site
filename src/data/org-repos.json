@@ -1,11 +1,24 @@
 [
   {
+    "description": "Soho vibes for Discord mobile",
+    "homepageUrl": "",
+    "name": "discord-mobile",
+    "repositoryTopics": [
+      "theme",
+      "mobile-app"
+    ],
+    "stargazerCount": 7,
+    "updatedAt": "2024-11-07T11:16:16Z",
+    "url": "https://github.com/rose-pine/discord-mobile",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 89,
-    "updatedAt": "2024-11-06T00:15:06Z",
+    "updatedAt": "2024-11-07T00:15:21Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -19,8 +32,8 @@
       "userstyles",
       "stylus"
     ],
-    "stargazerCount": 16,
-    "updatedAt": "2024-11-05T13:07:19Z",
+    "stargazerCount": 17,
+    "updatedAt": "2024-11-07T18:23:45Z",
     "url": "https://github.com/rose-pine/userstyles",
     "usesCustomOpenGraphImage": true
   },
@@ -32,8 +45,8 @@
       "shell",
       "terminal"
     ],
-    "stargazerCount": 10,
-    "updatedAt": "2024-11-01T22:53:56Z",
+    "stargazerCount": 11,
+    "updatedAt": "2024-11-07T01:07:07Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
   },
@@ -81,8 +94,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2316,
-    "updatedAt": "2024-11-06T16:11:41Z",
+    "stargazerCount": 2317,
+    "updatedAt": "2024-11-07T15:04:30Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -91,8 +104,8 @@
     "homepageUrl": "",
     "name": "ghostty",
     "repositoryTopics": [],
-    "stargazerCount": 6,
-    "updatedAt": "2024-11-04T23:54:01Z",
+    "stargazerCount": 7,
+    "updatedAt": "2024-11-07T08:33:14Z",
     "url": "https://github.com/rose-pine/ghostty",
     "usesCustomOpenGraphImage": true
   },
@@ -110,8 +123,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 491,
-    "updatedAt": "2024-11-05T23:05:51Z",
+    "stargazerCount": 492,
+    "updatedAt": "2024-11-07T00:26:58Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -135,8 +148,8 @@
     "repositoryTopics": [
       "app"
     ],
-    "stargazerCount": 1,
-    "updatedAt": "2024-10-13T09:20:33Z",
+    "stargazerCount": 2,
+    "updatedAt": "2024-11-07T17:55:05Z",
     "url": "https://github.com/rose-pine/obsidian",
     "usesCustomOpenGraphImage": false
   },
@@ -150,22 +163,9 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 235,
-    "updatedAt": "2024-10-31T20:10:22Z",
+    "stargazerCount": 236,
+    "updatedAt": "2024-11-07T08:28:14Z",
     "url": "https://github.com/rose-pine/gtk",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Discord mobile",
-    "homepageUrl": "",
-    "name": "discord-mobile",
-    "repositoryTopics": [
-      "theme",
-      "mobile-app"
-    ],
-    "stargazerCount": 7,
-    "updatedAt": "2024-10-18T23:06:31Z",
-    "url": "https://github.com/rose-pine/discord-mobile",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -230,8 +230,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 146,
-    "updatedAt": "2024-11-05T23:18:20Z",
+    "stargazerCount": 147,
+    "updatedAt": "2024-11-07T19:35:38Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -299,8 +299,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 161,
-    "updatedAt": "2024-11-05T16:51:03Z",
+    "stargazerCount": 162,
+    "updatedAt": "2024-11-07T18:05:05Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -1146,8 +1146,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1230,
-    "updatedAt": "2024-11-06T07:55:27Z",
+    "stargazerCount": 1232,
+    "updatedAt": "2024-11-07T19:19:46Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1176,8 +1176,8 @@
       "rose-pine",
       "shell"
     ],
-    "stargazerCount": 26,
-    "updatedAt": "2024-10-29T17:44:23Z",
+    "stargazerCount": 27,
+    "updatedAt": "2024-11-07T06:29:08Z",
     "url": "https://github.com/rose-pine/fish",
     "usesCustomOpenGraphImage": true
   },
