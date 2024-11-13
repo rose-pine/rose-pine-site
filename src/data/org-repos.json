@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 89,
+    "updatedAt": "2024-11-12T00:14:59Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Starship",
     "homepageUrl": "",
     "name": "starship",
@@ -25,16 +35,6 @@
     "usesCustomOpenGraphImage": false
   },
   {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 89,
-    "updatedAt": "2024-11-11T00:16:03Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Discord mobile",
     "homepageUrl": "",
     "name": "discord-mobile",
@@ -42,8 +42,8 @@
       "theme",
       "mobile-app"
     ],
-    "stargazerCount": 7,
-    "updatedAt": "2024-11-07T11:16:16Z",
+    "stargazerCount": 8,
+    "updatedAt": "2024-11-12T10:19:22Z",
     "url": "https://github.com/rose-pine/discord-mobile",
     "usesCustomOpenGraphImage": true
   },
@@ -106,8 +106,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2322,
-    "updatedAt": "2024-11-11T23:43:50Z",
+    "stargazerCount": 2325,
+    "updatedAt": "2024-11-12T22:00:15Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -135,8 +135,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 494,
-    "updatedAt": "2024-11-09T20:59:37Z",
+    "stargazerCount": 495,
+    "updatedAt": "2024-11-12T00:47:00Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -299,8 +299,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 164,
-    "updatedAt": "2024-11-11T00:28:35Z",
+    "stargazerCount": 165,
+    "updatedAt": "2024-11-12T17:17:15Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -472,8 +472,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 22,
-    "updatedAt": "2024-09-27T20:36:14Z",
+    "stargazerCount": 23,
+    "updatedAt": "2024-11-12T16:51:40Z",
     "url": "https://github.com/rose-pine/zellij",
     "usesCustomOpenGraphImage": true
   },
@@ -934,7 +934,7 @@
       "theme"
     ],
     "stargazerCount": 16,
-    "updatedAt": "2024-10-19T14:17:02Z",
+    "updatedAt": "2024-11-12T20:43:18Z",
     "url": "https://github.com/rose-pine/rofi",
     "usesCustomOpenGraphImage": true
   },
