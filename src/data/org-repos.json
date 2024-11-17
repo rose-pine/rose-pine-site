@@ -1,11 +1,43 @@
 [
   {
+    "description": "Soho vibes for Skiff Mail",
+    "homepageUrl": "",
+    "name": "skiff",
+    "repositoryTopics": [],
+    "stargazerCount": 3,
+    "updatedAt": "2024-11-16T16:14:25Z",
+    "url": "https://github.com/rose-pine/skiff",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for tym",
+    "homepageUrl": "",
+    "name": "tym",
+    "repositoryTopics": [
+      "terminal"
+    ],
+    "stargazerCount": 1,
+    "updatedAt": "2024-11-16T16:11:31Z",
+    "url": "https://github.com/rose-pine/tym",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for anytype",
+    "homepageUrl": "",
+    "name": "anytype",
+    "repositoryTopics": [],
+    "stargazerCount": 2,
+    "updatedAt": "2024-11-16T15:56:55Z",
+    "url": "https://github.com/rose-pine/anytype",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
-    "stargazerCount": 90,
-    "updatedAt": "2024-11-15T18:29:00Z",
+    "stargazerCount": 91,
+    "updatedAt": "2024-11-16T23:21:18Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -106,8 +138,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2328,
-    "updatedAt": "2024-11-14T11:37:10Z",
+    "stargazerCount": 2329,
+    "updatedAt": "2024-11-16T12:58:21Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -195,8 +227,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 65,
-    "updatedAt": "2024-10-13T07:31:15Z",
+    "stargazerCount": 66,
+    "updatedAt": "2024-11-16T13:21:59Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
@@ -261,16 +293,6 @@
     "stargazerCount": 23,
     "updatedAt": "2024-10-20T11:30:21Z",
     "url": "https://github.com/rose-pine/fzf",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for anytype",
-    "homepageUrl": "",
-    "name": "anytype",
-    "repositoryTopics": [],
-    "stargazerCount": 2,
-    "updatedAt": "2024-07-11T23:14:00Z",
-    "url": "https://github.com/rose-pine/anytype",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -440,14 +462,14 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "",
+    "description": "Soho vibes for Typst",
     "homepageUrl": "",
     "name": "typst",
     "repositoryTopics": [
       "theme"
     ],
     "stargazerCount": 7,
-    "updatedAt": "2024-05-22T02:14:29Z",
+    "updatedAt": "2024-11-16T16:07:30Z",
     "url": "https://github.com/rose-pine/typst",
     "usesCustomOpenGraphImage": true
   },
@@ -475,28 +497,6 @@
     "stargazerCount": 23,
     "updatedAt": "2024-11-12T16:51:40Z",
     "url": "https://github.com/rose-pine/zellij",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for tym",
-    "homepageUrl": "",
-    "name": "tym",
-    "repositoryTopics": [
-      "terminal"
-    ],
-    "stargazerCount": 1,
-    "updatedAt": "2024-03-05T08:40:33Z",
-    "url": "https://github.com/rose-pine/tym",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Skiff mail",
-    "homepageUrl": "",
-    "name": "skiff",
-    "repositoryTopics": [],
-    "stargazerCount": 3,
-    "updatedAt": "2024-02-07T02:05:47Z",
-    "url": "https://github.com/rose-pine/skiff",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -1146,8 +1146,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1236,
-    "updatedAt": "2024-11-15T16:17:14Z",
+    "stargazerCount": 1237,
+    "updatedAt": "2024-11-16T14:02:24Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1316,7 +1316,7 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Github Readme Stats",
+    "description": "Soho vibes for GitHub Readme Stats",
     "homepageUrl": "",
     "name": "github-readme-stats",
     "repositoryTopics": [
@@ -1327,7 +1327,7 @@
       "github"
     ],
     "stargazerCount": 9,
-    "updatedAt": "2024-05-14T06:39:22Z",
+    "updatedAt": "2024-11-16T22:49:16Z",
     "url": "https://github.com/rose-pine/github-readme-stats",
     "usesCustomOpenGraphImage": true
   },
