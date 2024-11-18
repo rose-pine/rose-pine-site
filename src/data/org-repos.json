@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 91,
+    "updatedAt": "2024-11-17T00:17:30Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Skiff Mail",
     "homepageUrl": "",
     "name": "skiff",
@@ -29,16 +39,6 @@
     "stargazerCount": 2,
     "updatedAt": "2024-11-16T15:56:55Z",
     "url": "https://github.com/rose-pine/anytype",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 91,
-    "updatedAt": "2024-11-16T23:21:18Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -138,8 +138,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2329,
-    "updatedAt": "2024-11-16T12:58:21Z",
+    "stargazerCount": 2334,
+    "updatedAt": "2024-11-17T17:53:14Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -262,8 +262,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 151,
-    "updatedAt": "2024-11-15T07:09:26Z",
+    "stargazerCount": 153,
+    "updatedAt": "2024-11-17T09:11:27Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -712,8 +712,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 89,
-    "updatedAt": "2024-11-11T23:51:05Z",
+    "stargazerCount": 90,
+    "updatedAt": "2024-11-17T19:30:53Z",
     "url": "https://github.com/rose-pine/kitty",
     "usesCustomOpenGraphImage": true
   },
@@ -979,8 +979,8 @@
       "soho-vibes",
       "rose-pine"
     ],
-    "stargazerCount": 44,
-    "updatedAt": "2024-11-03T11:48:13Z",
+    "stargazerCount": 45,
+    "updatedAt": "2024-11-17T00:40:12Z",
     "url": "https://github.com/rose-pine/google-chrome",
     "usesCustomOpenGraphImage": true
   },
