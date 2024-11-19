@@ -1,11 +1,27 @@
 [
   {
+    "description": "Soho vibes for Pygments",
+    "homepageUrl": "",
+    "name": "pygments",
+    "repositoryTopics": [
+      "ipython",
+      "pygments-style",
+      "radian",
+      "rose-pine",
+      "pygments"
+    ],
+    "stargazerCount": 2,
+    "updatedAt": "2024-11-18T15:55:57Z",
+    "url": "https://github.com/rose-pine/pygments",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 91,
-    "updatedAt": "2024-11-17T00:17:30Z",
+    "updatedAt": "2024-11-18T00:16:50Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -138,8 +154,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2334,
-    "updatedAt": "2024-11-17T17:53:14Z",
+    "stargazerCount": 2338,
+    "updatedAt": "2024-11-18T22:17:48Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -148,8 +164,8 @@
     "homepageUrl": "",
     "name": "ghostty",
     "repositoryTopics": [],
-    "stargazerCount": 8,
-    "updatedAt": "2024-11-13T15:12:14Z",
+    "stargazerCount": 9,
+    "updatedAt": "2024-11-18T22:23:24Z",
     "url": "https://github.com/rose-pine/ghostty",
     "usesCustomOpenGraphImage": true
   },
@@ -262,25 +278,9 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 153,
-    "updatedAt": "2024-11-17T09:11:27Z",
+    "stargazerCount": 154,
+    "updatedAt": "2024-11-18T20:46:52Z",
     "url": "https://github.com/rose-pine/tmux",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Pygments",
-    "homepageUrl": "",
-    "name": "pygments",
-    "repositoryTopics": [
-      "ipython",
-      "pygments-style",
-      "radian",
-      "rose-pine",
-      "pygments"
-    ],
-    "stargazerCount": 2,
-    "updatedAt": "2024-07-24T15:29:29Z",
-    "url": "https://github.com/rose-pine/pygments",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -636,8 +636,8 @@
       "steam",
       "steam-os"
     ],
-    "stargazerCount": 0,
-    "updatedAt": "2023-04-09T20:49:04Z",
+    "stargazerCount": 1,
+    "updatedAt": "2024-11-18T09:04:54Z",
     "url": "https://github.com/rose-pine/steam-os",
     "usesCustomOpenGraphImage": true
   },
@@ -1146,8 +1146,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1237,
-    "updatedAt": "2024-11-16T14:02:24Z",
+    "stargazerCount": 1238,
+    "updatedAt": "2024-11-18T20:17:08Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
