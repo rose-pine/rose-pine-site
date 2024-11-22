@@ -1,11 +1,26 @@
 [
   {
+    "description": "Soho vibes for Userstyles",
+    "homepageUrl": "",
+    "name": "userstyles",
+    "repositoryTopics": [
+      "css",
+      "stylish",
+      "userstyles",
+      "stylus"
+    ],
+    "stargazerCount": 17,
+    "updatedAt": "2024-11-21T19:45:18Z",
+    "url": "https://github.com/rose-pine/userstyles",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 91,
-    "updatedAt": "2024-11-20T00:16:05Z",
+    "updatedAt": "2024-11-21T00:16:16Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -93,21 +108,6 @@
     "stargazerCount": 8,
     "updatedAt": "2024-11-12T10:19:22Z",
     "url": "https://github.com/rose-pine/discord-mobile",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Userstyles",
-    "homepageUrl": "",
-    "name": "userstyles",
-    "repositoryTopics": [
-      "css",
-      "stylish",
-      "userstyles",
-      "stylus"
-    ],
-    "stargazerCount": 17,
-    "updatedAt": "2024-11-07T18:23:45Z",
-    "url": "https://github.com/rose-pine/userstyles",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -426,8 +426,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 72,
-    "updatedAt": "2024-11-20T03:05:39Z",
+    "stargazerCount": 73,
+    "updatedAt": "2024-11-21T07:26:31Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -1146,8 +1146,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1242,
-    "updatedAt": "2024-11-20T15:52:37Z",
+    "stargazerCount": 1243,
+    "updatedAt": "2024-11-21T00:26:05Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
