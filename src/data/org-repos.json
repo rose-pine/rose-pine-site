@@ -1,11 +1,21 @@
 [
   {
+    "description": "Soho vibes for Cosmic desktop ",
+    "homepageUrl": "",
+    "name": "cosmic-desktop",
+    "repositoryTopics": [],
+    "stargazerCount": 1,
+    "updatedAt": "2024-11-25T19:30:35Z",
+    "url": "https://github.com/rose-pine/cosmic-desktop",
+    "usesCustomOpenGraphImage": false
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 92,
-    "updatedAt": "2024-11-24T00:17:35Z",
+    "updatedAt": "2024-11-25T00:16:55Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -22,6 +32,24 @@
     "stargazerCount": 18,
     "updatedAt": "2024-11-24T06:21:35Z",
     "url": "https://github.com/rose-pine/userstyles",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for foot terminal",
+    "homepageUrl": "",
+    "name": "foot",
+    "repositoryTopics": [
+      "foot",
+      "foot-terminal",
+      "rose-pine",
+      "soho-vibes",
+      "terminal",
+      "terminal-emulator",
+      "theme"
+    ],
+    "stargazerCount": 8,
+    "updatedAt": "2024-11-25T12:52:09Z",
+    "url": "https://github.com/rose-pine/foot",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -93,7 +121,7 @@
       "app"
     ],
     "stargazerCount": 5,
-    "updatedAt": "2024-11-19T02:31:04Z",
+    "updatedAt": "2024-11-25T15:40:40Z",
     "url": "https://github.com/rose-pine/obsidian",
     "usesCustomOpenGraphImage": false
   },
@@ -154,8 +182,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2344,
-    "updatedAt": "2024-11-24T18:03:04Z",
+    "stargazerCount": 2346,
+    "updatedAt": "2024-11-25T21:04:55Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -211,8 +239,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 239,
-    "updatedAt": "2024-11-23T15:17:37Z",
+    "stargazerCount": 240,
+    "updatedAt": "2024-11-25T07:05:48Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -278,8 +306,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 156,
-    "updatedAt": "2024-11-24T17:58:42Z",
+    "stargazerCount": 158,
+    "updatedAt": "2024-11-25T17:15:57Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
