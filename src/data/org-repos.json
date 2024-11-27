@@ -1,5 +1,52 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 92,
+    "updatedAt": "2024-11-26T21:04:02Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for foot",
+    "homepageUrl": "",
+    "name": "foot",
+    "repositoryTopics": [
+      "foot",
+      "foot-terminal",
+      "rose-pine",
+      "soho-vibes",
+      "terminal",
+      "terminal-emulator",
+      "theme"
+    ],
+    "stargazerCount": 8,
+    "updatedAt": "2024-11-26T19:15:59Z",
+    "url": "https://github.com/rose-pine/foot",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Visual Studio Code",
+    "homepageUrl": "https://marketplace.visualstudio.com/items?itemName=mvllow.rose-pine",
+    "name": "vscode",
+    "repositoryTopics": [
+      "vscode",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "vscode-extension",
+      "hacktoberfest",
+      "visual-studio-code",
+      "editor"
+    ],
+    "stargazerCount": 495,
+    "updatedAt": "2024-11-26T15:43:50Z",
+    "url": "https://github.com/rose-pine/vscode",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Cosmic desktop ",
     "homepageUrl": "",
     "name": "cosmic-desktop",
@@ -8,16 +55,6 @@
     "updatedAt": "2024-11-25T19:30:35Z",
     "url": "https://github.com/rose-pine/cosmic-desktop",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 92,
-    "updatedAt": "2024-11-25T00:16:55Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Userstyles",
@@ -32,24 +69,6 @@
     "stargazerCount": 18,
     "updatedAt": "2024-11-24T06:21:35Z",
     "url": "https://github.com/rose-pine/userstyles",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for foot terminal",
-    "homepageUrl": "",
-    "name": "foot",
-    "repositoryTopics": [
-      "foot",
-      "foot-terminal",
-      "rose-pine",
-      "soho-vibes",
-      "terminal",
-      "terminal-emulator",
-      "theme"
-    ],
-    "stargazerCount": 8,
-    "updatedAt": "2024-11-25T12:52:09Z",
-    "url": "https://github.com/rose-pine/foot",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -182,8 +201,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2346,
-    "updatedAt": "2024-11-25T21:04:55Z",
+    "stargazerCount": 2348,
+    "updatedAt": "2024-11-26T18:00:50Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -195,25 +214,6 @@
     "stargazerCount": 9,
     "updatedAt": "2024-11-18T22:23:24Z",
     "url": "https://github.com/rose-pine/ghostty",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Visual Studio Code",
-    "homepageUrl": "https://marketplace.visualstudio.com/items?itemName=mvllow.rose-pine",
-    "name": "vscode",
-    "repositoryTopics": [
-      "vscode",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "vscode-extension",
-      "hacktoberfest",
-      "visual-studio-code",
-      "editor"
-    ],
-    "stargazerCount": 495,
-    "updatedAt": "2024-11-20T22:14:37Z",
-    "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -239,8 +239,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 240,
-    "updatedAt": "2024-11-25T07:05:48Z",
+    "stargazerCount": 241,
+    "updatedAt": "2024-11-26T07:12:12Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -1174,8 +1174,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1246,
-    "updatedAt": "2024-11-24T14:36:59Z",
+    "stargazerCount": 1247,
+    "updatedAt": "2024-11-26T13:27:15Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
