@@ -1,11 +1,46 @@
 [
   {
+    "description": "Soho vibes for Starship",
+    "homepageUrl": "",
+    "name": "starship",
+    "repositoryTopics": [
+      "shell",
+      "terminal"
+    ],
+    "stargazerCount": 13,
+    "updatedAt": "2024-12-02T09:11:19Z",
+    "url": "https://github.com/rose-pine/starship",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "Soho vibes for Rofi",
+    "homepageUrl": "",
+    "name": "rofi",
+    "repositoryTopics": [
+      "theme"
+    ],
+    "stargazerCount": 16,
+    "updatedAt": "2024-12-02T05:40:44Z",
+    "url": "https://github.com/rose-pine/rofi",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for anytype",
+    "homepageUrl": "",
+    "name": "anytype",
+    "repositoryTopics": [],
+    "stargazerCount": 2,
+    "updatedAt": "2024-12-02T01:46:58Z",
+    "url": "https://github.com/rose-pine/anytype",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 93,
-    "updatedAt": "2024-12-01T00:20:01Z",
+    "updatedAt": "2024-12-02T00:17:30Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -110,29 +145,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for anytype",
-    "homepageUrl": "",
-    "name": "anytype",
-    "repositoryTopics": [],
-    "stargazerCount": 2,
-    "updatedAt": "2024-11-16T15:56:55Z",
-    "url": "https://github.com/rose-pine/anytype",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Starship",
-    "homepageUrl": "",
-    "name": "starship",
-    "repositoryTopics": [
-      "shell",
-      "terminal"
-    ],
-    "stargazerCount": 13,
-    "updatedAt": "2024-11-20T03:49:14Z",
-    "url": "https://github.com/rose-pine/starship",
-    "usesCustomOpenGraphImage": false
-  },
-  {
     "description": "Soho vibes for Obsidian",
     "homepageUrl": "",
     "name": "obsidian",
@@ -201,8 +213,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2359,
-    "updatedAt": "2024-12-01T20:20:42Z",
+    "stargazerCount": 2361,
+    "updatedAt": "2024-12-02T23:30:58Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -952,18 +964,6 @@
     "stargazerCount": 5,
     "updatedAt": "2024-05-22T03:48:03Z",
     "url": "https://github.com/rose-pine/xresources",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Rofi",
-    "homepageUrl": "",
-    "name": "rofi",
-    "repositoryTopics": [
-      "theme"
-    ],
-    "stargazerCount": 16,
-    "updatedAt": "2024-11-12T20:43:18Z",
-    "url": "https://github.com/rose-pine/rofi",
     "usesCustomOpenGraphImage": true
   },
   {
