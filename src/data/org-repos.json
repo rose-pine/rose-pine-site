@@ -1,11 +1,31 @@
 [
   {
+    "description": "Soho vibes for qBittorrent ",
+    "homepageUrl": "",
+    "name": "qbittorrent",
+    "repositoryTopics": [],
+    "stargazerCount": 4,
+    "updatedAt": "2024-12-05T19:26:51Z",
+    "url": "https://github.com/rose-pine/qbittorrent",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Theme generator for Rosé Pine",
+    "homepageUrl": "https://www.npmjs.com/package/@rose-pine/build",
+    "name": "build",
+    "repositoryTopics": [],
+    "stargazerCount": 21,
+    "updatedAt": "2024-12-05T17:37:08Z",
+    "url": "https://github.com/rose-pine/build",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 93,
-    "updatedAt": "2024-12-04T00:16:52Z",
+    "updatedAt": "2024-12-05T00:16:44Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -101,8 +121,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 497,
-    "updatedAt": "2024-11-29T09:25:35Z",
+    "stargazerCount": 499,
+    "updatedAt": "2024-12-05T23:42:59Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -213,8 +233,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2366,
-    "updatedAt": "2024-12-05T00:03:31Z",
+    "stargazerCount": 2367,
+    "updatedAt": "2024-12-05T07:03:50Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -251,8 +271,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 242,
-    "updatedAt": "2024-11-27T04:53:22Z",
+    "stargazerCount": 244,
+    "updatedAt": "2024-12-05T23:48:10Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -286,16 +306,6 @@
     "stargazerCount": 66,
     "updatedAt": "2024-11-16T13:21:59Z",
     "url": "https://github.com/rose-pine/discord",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Theme generator for Rosé Pine",
-    "homepageUrl": "https://www.npmjs.com/package/@rose-pine/build",
-    "name": "build",
-    "repositoryTopics": [],
-    "stargazerCount": 21,
-    "updatedAt": "2024-10-03T00:35:12Z",
-    "url": "https://github.com/rose-pine/build",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -364,16 +374,6 @@
     "stargazerCount": 170,
     "updatedAt": "2024-12-03T05:27:19Z",
     "url": "https://github.com/rose-pine/wallpapers",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for qBittorrent ",
-    "homepageUrl": "",
-    "name": "qbittorrent",
-    "repositoryTopics": [],
-    "stargazerCount": 4,
-    "updatedAt": "2024-10-20T11:37:10Z",
-    "url": "https://github.com/rose-pine/qbittorrent",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -633,8 +633,8 @@
     "repositoryTopics": [
       "music"
     ],
-    "stargazerCount": 4,
-    "updatedAt": "2024-11-10T19:11:17Z",
+    "stargazerCount": 5,
+    "updatedAt": "2024-12-05T04:08:23Z",
     "url": "https://github.com/rose-pine/tidal",
     "usesCustomOpenGraphImage": true
   },
@@ -1174,8 +1174,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1256,
-    "updatedAt": "2024-12-04T21:01:13Z",
+    "stargazerCount": 1257,
+    "updatedAt": "2024-12-05T02:04:25Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
