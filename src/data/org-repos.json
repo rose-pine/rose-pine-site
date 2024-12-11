@@ -1,11 +1,32 @@
 [
   {
+    "description": "Soho vibes for Neovim",
+    "homepageUrl": "",
+    "name": "neovim",
+    "repositoryTopics": [
+      "theme",
+      "neovim",
+      "soho-vibes",
+      "rose-pine",
+      "lua",
+      "vim",
+      "nvim",
+      "neovim-theme",
+      "vim-theme",
+      "editor"
+    ],
+    "stargazerCount": 2373,
+    "updatedAt": "2024-12-10T21:42:29Z",
+    "url": "https://github.com/rose-pine/neovim",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 93,
-    "updatedAt": "2024-12-09T00:17:31Z",
+    "updatedAt": "2024-12-10T00:17:09Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -218,27 +239,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Neovim",
-    "homepageUrl": "",
-    "name": "neovim",
-    "repositoryTopics": [
-      "theme",
-      "neovim",
-      "soho-vibes",
-      "rose-pine",
-      "lua",
-      "vim",
-      "nvim",
-      "neovim-theme",
-      "vim-theme",
-      "editor"
-    ],
-    "stargazerCount": 2370,
-    "updatedAt": "2024-12-09T11:02:19Z",
-    "url": "https://github.com/rose-pine/neovim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for ghostty",
     "homepageUrl": "",
     "name": "ghostty",
@@ -328,8 +328,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 159,
-    "updatedAt": "2024-12-08T17:02:34Z",
+    "stargazerCount": 160,
+    "updatedAt": "2024-12-10T19:59:32Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -588,8 +588,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 68,
-    "updatedAt": "2024-11-24T03:34:56Z",
+    "stargazerCount": 69,
+    "updatedAt": "2024-12-10T20:01:30Z",
     "url": "https://github.com/rose-pine/windows-terminal",
     "usesCustomOpenGraphImage": true
   },
