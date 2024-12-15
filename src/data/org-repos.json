@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 93,
-    "updatedAt": "2024-12-13T00:17:00Z",
+    "updatedAt": "2024-12-14T00:16:20Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -25,8 +25,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2382,
-    "updatedAt": "2024-12-13T16:58:27Z",
+    "stargazerCount": 2384,
+    "updatedAt": "2024-12-14T19:04:13Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -328,8 +328,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 160,
-    "updatedAt": "2024-12-10T19:59:32Z",
+    "stargazerCount": 161,
+    "updatedAt": "2024-12-14T13:20:55Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -1174,8 +1174,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1258,
-    "updatedAt": "2024-12-11T21:13:57Z",
+    "stargazerCount": 1257,
+    "updatedAt": "2024-12-14T21:41:49Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1604,8 +1604,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 2,
-    "updatedAt": "2023-04-22T17:08:28Z",
+    "stargazerCount": 3,
+    "updatedAt": "2024-12-14T21:09:39Z",
     "url": "https://github.com/rose-pine/terminator",
     "usesCustomOpenGraphImage": true
   },
