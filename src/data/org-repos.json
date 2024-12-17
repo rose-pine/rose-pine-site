@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 93,
+    "updatedAt": "2024-12-16T00:17:38Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Sublime Text",
     "homepageUrl": "",
     "name": "sublime-text",
@@ -13,16 +23,6 @@
     "stargazerCount": 24,
     "updatedAt": "2024-12-15T19:14:36Z",
     "url": "https://github.com/rose-pine/sublime-text",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 93,
-    "updatedAt": "2024-12-15T00:18:41Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -41,8 +41,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2385,
-    "updatedAt": "2024-12-15T12:10:36Z",
+    "stargazerCount": 2388,
+    "updatedAt": "2024-12-17T00:11:10Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -74,8 +74,8 @@
       "shell",
       "terminal"
     ],
-    "stargazerCount": 14,
-    "updatedAt": "2024-12-03T01:46:40Z",
+    "stargazerCount": 16,
+    "updatedAt": "2024-12-16T08:26:50Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
   },
@@ -752,8 +752,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 92,
-    "updatedAt": "2024-11-30T13:34:29Z",
+    "stargazerCount": 93,
+    "updatedAt": "2024-12-16T08:25:00Z",
     "url": "https://github.com/rose-pine/kitty",
     "usesCustomOpenGraphImage": true
   },
@@ -921,8 +921,8 @@
       "theme",
       "hacktoberfest"
     ],
-    "stargazerCount": 1,
-    "updatedAt": "2024-11-20T02:35:22Z",
+    "stargazerCount": 2,
+    "updatedAt": "2024-12-16T23:32:59Z",
     "url": "https://github.com/rose-pine/gdevelop",
     "usesCustomOpenGraphImage": true
   },
