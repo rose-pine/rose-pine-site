@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 94,
-    "updatedAt": "2024-12-20T00:15:28Z",
+    "updatedAt": "2024-12-21T00:15:11Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -41,8 +41,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2402,
-    "updatedAt": "2024-12-20T17:06:01Z",
+    "stargazerCount": 2403,
+    "updatedAt": "2024-12-21T08:21:20Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -61,8 +61,8 @@
     "homepageUrl": "https://www.npmjs.com/package/@rose-pine/build",
     "name": "build",
     "repositoryTopics": [],
-    "stargazerCount": 21,
-    "updatedAt": "2024-12-05T17:37:08Z",
+    "stargazerCount": 22,
+    "updatedAt": "2024-12-21T13:06:52Z",
     "url": "https://github.com/rose-pine/build",
     "usesCustomOpenGraphImage": true
   },
@@ -96,8 +96,8 @@
     "homepageUrl": "",
     "name": "anytype",
     "repositoryTopics": [],
-    "stargazerCount": 2,
-    "updatedAt": "2024-12-02T01:46:58Z",
+    "stargazerCount": 3,
+    "updatedAt": "2024-12-21T12:51:21Z",
     "url": "https://github.com/rose-pine/anytype",
     "usesCustomOpenGraphImage": true
   },
@@ -158,8 +158,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 499,
-    "updatedAt": "2024-12-05T23:42:59Z",
+    "stargazerCount": 500,
+    "updatedAt": "2024-12-21T19:33:37Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -208,8 +208,8 @@
     "repositoryTopics": [
       "app"
     ],
-    "stargazerCount": 5,
-    "updatedAt": "2024-11-25T15:40:40Z",
+    "stargazerCount": 6,
+    "updatedAt": "2024-12-21T12:56:10Z",
     "url": "https://github.com/rose-pine/obsidian",
     "usesCustomOpenGraphImage": false
   },
@@ -233,8 +233,8 @@
     "repositoryTopics": [
       "app"
     ],
-    "stargazerCount": 4,
-    "updatedAt": "2024-12-06T06:33:33Z",
+    "stargazerCount": 5,
+    "updatedAt": "2024-12-21T11:42:23Z",
     "url": "https://github.com/rose-pine/zen-browser",
     "usesCustomOpenGraphImage": true
   },
@@ -328,8 +328,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 162,
-    "updatedAt": "2024-12-18T22:57:37Z",
+    "stargazerCount": 163,
+    "updatedAt": "2024-12-21T17:42:18Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -418,8 +418,8 @@
       "soho-vibes",
       "theme"
     ],
-    "stargazerCount": 6,
-    "updatedAt": "2024-12-21T00:12:54Z",
+    "stargazerCount": 7,
+    "updatedAt": "2024-12-21T20:35:12Z",
     "url": "https://github.com/rose-pine/tm-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -466,8 +466,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 73,
-    "updatedAt": "2024-12-11T23:37:20Z",
+    "stargazerCount": 75,
+    "updatedAt": "2024-12-21T18:26:39Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -796,8 +796,8 @@
       "theme",
       "color-palette"
     ],
-    "stargazerCount": 23,
-    "updatedAt": "2024-12-12T15:59:55Z",
+    "stargazerCount": 24,
+    "updatedAt": "2024-12-21T23:59:58Z",
     "url": "https://github.com/rose-pine/waybar",
     "usesCustomOpenGraphImage": true
   },
@@ -844,8 +844,8 @@
       "terminal",
       "theme"
     ],
-    "stargazerCount": 15,
-    "updatedAt": "2024-12-13T14:10:08Z",
+    "stargazerCount": 16,
+    "updatedAt": "2024-12-21T12:54:21Z",
     "url": "https://github.com/rose-pine/btop",
     "usesCustomOpenGraphImage": true
   },
@@ -1174,8 +1174,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1262,
-    "updatedAt": "2024-12-20T19:48:38Z",
+    "stargazerCount": 1263,
+    "updatedAt": "2024-12-21T09:08:26Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1220,8 +1220,8 @@
       "bear",
       "hacktoberfest"
     ],
-    "stargazerCount": 7,
-    "updatedAt": "2024-11-10T16:05:29Z",
+    "stargazerCount": 8,
+    "updatedAt": "2024-12-21T12:49:46Z",
     "url": "https://github.com/rose-pine/bear-blog",
     "usesCustomOpenGraphImage": true
   },
