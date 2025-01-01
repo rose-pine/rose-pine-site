@@ -1,11 +1,21 @@
 [
   {
+    "description": "Soho vibes for ghostty",
+    "homepageUrl": "",
+    "name": "ghostty",
+    "repositoryTopics": [],
+    "stargazerCount": 14,
+    "updatedAt": "2024-12-31T21:33:46Z",
+    "url": "https://github.com/rose-pine/ghostty",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 94,
-    "updatedAt": "2024-12-30T00:16:12Z",
+    "updatedAt": "2024-12-31T00:15:30Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -19,8 +29,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 246,
-    "updatedAt": "2024-12-28T11:12:57Z",
+    "stargazerCount": 247,
+    "updatedAt": "2024-12-31T02:51:55Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -56,8 +66,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2415,
-    "updatedAt": "2024-12-29T22:14:48Z",
+    "stargazerCount": 2421,
+    "updatedAt": "2024-12-31T19:26:16Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -173,8 +183,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 500,
-    "updatedAt": "2024-12-27T02:42:28Z",
+    "stargazerCount": 501,
+    "updatedAt": "2024-12-31T19:26:14Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -251,16 +261,6 @@
     "stargazerCount": 5,
     "updatedAt": "2024-12-21T11:42:23Z",
     "url": "https://github.com/rose-pine/zen-browser",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for ghostty",
-    "homepageUrl": "",
-    "name": "ghostty",
-    "repositoryTopics": [],
-    "stargazerCount": 14,
-    "updatedAt": "2024-12-27T19:26:58Z",
-    "url": "https://github.com/rose-pine/ghostty",
     "usesCustomOpenGraphImage": true
   },
   {
