@@ -466,5 +466,14 @@
       { "name": "adriankarlen", "url": "https://github.com/adriankarlen" }
     ],
     "has_variants": true
+	},
+	{
+		"name": "LSD",
+		"url": "https://github.com/nolight132/rose-pine-lsd",
+		"tags": ["cli", "community"],
+		"authors": [
+			{ "name": "nolight132", "url": "https://github.com/nolight132" }
+		],
+		"has_variants": true
 	}
 ]
