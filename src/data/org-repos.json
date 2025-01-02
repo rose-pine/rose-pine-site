@@ -1,12 +1,16 @@
 [
   {
-    "description": "Soho vibes for ghostty",
+    "description": "Soho vibes for TextMate",
     "homepageUrl": "",
-    "name": "ghostty",
-    "repositoryTopics": [],
-    "stargazerCount": 14,
-    "updatedAt": "2024-12-31T21:33:46Z",
-    "url": "https://github.com/rose-pine/ghostty",
+    "name": "tm-theme",
+    "repositoryTopics": [
+      "rose-pine",
+      "soho-vibes",
+      "theme"
+    ],
+    "stargazerCount": 8,
+    "updatedAt": "2024-12-22T08:56:25Z",
+    "url": "https://github.com/rose-pine/tm-theme",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -15,8 +19,18 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 94,
-    "updatedAt": "2024-12-31T00:15:30Z",
+    "updatedAt": "2025-01-01T00:17:23Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for ghostty",
+    "homepageUrl": "",
+    "name": "ghostty",
+    "repositoryTopics": [],
+    "stargazerCount": 15,
+    "updatedAt": "2025-01-01T18:26:36Z",
+    "url": "https://github.com/rose-pine/ghostty",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -29,8 +43,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 247,
-    "updatedAt": "2024-12-31T02:51:55Z",
+    "stargazerCount": 248,
+    "updatedAt": "2025-01-01T11:43:38Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -66,8 +80,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2421,
-    "updatedAt": "2024-12-31T19:26:16Z",
+    "stargazerCount": 2423,
+    "updatedAt": "2025-01-01T14:27:25Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -183,8 +197,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 501,
-    "updatedAt": "2024-12-31T19:26:14Z",
+    "stargazerCount": 499,
+    "updatedAt": "2025-01-01T19:21:05Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -371,8 +385,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 176,
-    "updatedAt": "2024-12-31T00:14:41Z",
+    "stargazerCount": 178,
+    "updatedAt": "2025-01-01T23:53:00Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -407,20 +421,6 @@
     "stargazerCount": 31,
     "updatedAt": "2024-12-20T17:37:15Z",
     "url": "https://github.com/rose-pine/helix",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for TextMate",
-    "homepageUrl": "",
-    "name": "tm-theme",
-    "repositoryTopics": [
-      "rose-pine",
-      "soho-vibes",
-      "theme"
-    ],
-    "stargazerCount": 8,
-    "updatedAt": "2024-12-22T08:56:25Z",
-    "url": "https://github.com/rose-pine/tm-theme",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -466,8 +466,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 76,
-    "updatedAt": "2024-12-30T04:56:41Z",
+    "stargazerCount": 75,
+    "updatedAt": "2025-01-01T16:39:39Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -588,8 +588,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 70,
-    "updatedAt": "2024-12-27T10:01:56Z",
+    "stargazerCount": 69,
+    "updatedAt": "2025-01-01T16:39:50Z",
     "url": "https://github.com/rose-pine/windows-terminal",
     "usesCustomOpenGraphImage": true
   },
@@ -1175,7 +1175,7 @@
       "aesthetic"
     ],
     "stargazerCount": 1265,
-    "updatedAt": "2024-12-30T13:03:35Z",
+    "updatedAt": "2025-01-01T22:12:02Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
