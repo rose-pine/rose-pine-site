@@ -1,11 +1,67 @@
 [
   {
+    "description": "Soho vibes for Discord",
+    "homepageUrl": "",
+    "name": "discord",
+    "repositoryTopics": [
+      "betterdiscord",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "goosemod",
+      "discord",
+      "hacktoberfest"
+    ],
+    "stargazerCount": 67,
+    "updatedAt": "2025-01-07T22:02:10Z",
+    "url": "https://github.com/rose-pine/discord",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Helix",
+    "homepageUrl": "",
+    "name": "helix",
+    "repositoryTopics": [
+      "theme",
+      "soho-vibes",
+      "rose-pine",
+      "helix",
+      "editor",
+      "hacktoberfest"
+    ],
+    "stargazerCount": 31,
+    "updatedAt": "2025-01-07T15:50:37Z",
+    "url": "https://github.com/rose-pine/helix",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Neovim",
+    "homepageUrl": "",
+    "name": "neovim",
+    "repositoryTopics": [
+      "theme",
+      "neovim",
+      "soho-vibes",
+      "rose-pine",
+      "lua",
+      "vim",
+      "nvim",
+      "neovim-theme",
+      "vim-theme",
+      "editor"
+    ],
+    "stargazerCount": 2433,
+    "updatedAt": "2025-01-07T15:48:14Z",
+    "url": "https://github.com/rose-pine/neovim",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 94,
-    "updatedAt": "2025-01-06T00:16:33Z",
+    "updatedAt": "2025-01-07T00:16:21Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -28,8 +84,8 @@
     "homepageUrl": "",
     "name": "ghostty",
     "repositoryTopics": [],
-    "stargazerCount": 16,
-    "updatedAt": "2025-01-04T05:25:47Z",
+    "stargazerCount": 17,
+    "updatedAt": "2025-01-07T09:49:22Z",
     "url": "https://github.com/rose-pine/ghostty",
     "usesCustomOpenGraphImage": true
   },
@@ -65,27 +121,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Neovim",
-    "homepageUrl": "",
-    "name": "neovim",
-    "repositoryTopics": [
-      "theme",
-      "neovim",
-      "soho-vibes",
-      "rose-pine",
-      "lua",
-      "vim",
-      "nvim",
-      "neovim-theme",
-      "vim-theme",
-      "editor"
-    ],
-    "stargazerCount": 2431,
-    "updatedAt": "2025-01-06T23:37:52Z",
-    "url": "https://github.com/rose-pine/neovim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for qBittorrent ",
     "homepageUrl": "",
     "name": "qbittorrent",
@@ -100,8 +135,8 @@
     "homepageUrl": "https://www.npmjs.com/package/@rose-pine/build",
     "name": "build",
     "repositoryTopics": [],
-    "stargazerCount": 22,
-    "updatedAt": "2024-12-21T13:06:52Z",
+    "stargazerCount": 23,
+    "updatedAt": "2025-01-07T23:35:21Z",
     "url": "https://github.com/rose-pine/build",
     "usesCustomOpenGraphImage": true
   },
@@ -305,24 +340,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Discord",
-    "homepageUrl": "",
-    "name": "discord",
-    "repositoryTopics": [
-      "betterdiscord",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "goosemod",
-      "discord",
-      "hacktoberfest"
-    ],
-    "stargazerCount": 67,
-    "updatedAt": "2024-12-30T02:12:04Z",
-    "url": "https://github.com/rose-pine/discord",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Zed",
     "homepageUrl": "",
     "name": "zed",
@@ -404,23 +421,6 @@
     "stargazerCount": 4,
     "updatedAt": "2024-10-27T21:52:57Z",
     "url": "https://github.com/rose-pine/mastodon",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Helix",
-    "homepageUrl": "",
-    "name": "helix",
-    "repositoryTopics": [
-      "theme",
-      "soho-vibes",
-      "rose-pine",
-      "helix",
-      "editor",
-      "hacktoberfest"
-    ],
-    "stargazerCount": 31,
-    "updatedAt": "2024-12-20T17:37:15Z",
-    "url": "https://github.com/rose-pine/helix",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -784,7 +784,7 @@
       "rose-pine"
     ],
     "stargazerCount": 29,
-    "updatedAt": "2024-12-23T06:28:22Z",
+    "updatedAt": "2025-01-07T22:05:06Z",
     "url": "https://github.com/rose-pine/dark-reader",
     "usesCustomOpenGraphImage": true
   },
