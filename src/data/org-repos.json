@@ -1,5 +1,30 @@
 [
   {
+    "description": "Soho vibes for Dark Reader",
+    "homepageUrl": "",
+    "name": "dark-reader",
+    "repositoryTopics": [
+      "dark-reader",
+      "soho-vibes",
+      "theme",
+      "rose-pine"
+    ],
+    "stargazerCount": 29,
+    "updatedAt": "2025-01-09T20:52:49Z",
+    "url": "https://github.com/rose-pine/dark-reader",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 94,
+    "updatedAt": "2025-01-09T00:15:27Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -15,8 +40,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2433,
-    "updatedAt": "2025-01-08T20:00:34Z",
+    "stargazerCount": 2436,
+    "updatedAt": "2025-01-09T17:49:14Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -34,16 +59,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 94,
-    "updatedAt": "2025-01-08T00:15:28Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Discord",
     "homepageUrl": "",
     "name": "discord",
@@ -56,8 +71,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 67,
-    "updatedAt": "2025-01-07T22:02:10Z",
+    "stargazerCount": 68,
+    "updatedAt": "2025-01-09T03:59:34Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
@@ -97,8 +112,8 @@
     "homepageUrl": "",
     "name": "ghostty",
     "repositoryTopics": [],
-    "stargazerCount": 18,
-    "updatedAt": "2025-01-08T20:42:33Z",
+    "stargazerCount": 19,
+    "updatedAt": "2025-01-09T22:29:36Z",
     "url": "https://github.com/rose-pine/ghostty",
     "usesCustomOpenGraphImage": true
   },
@@ -372,8 +387,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 168,
-    "updatedAt": "2025-01-05T12:43:53Z",
+    "stargazerCount": 169,
+    "updatedAt": "2025-01-09T03:12:37Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -494,8 +509,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 10,
-    "updatedAt": "2024-07-19T05:23:29Z",
+    "stargazerCount": 11,
+    "updatedAt": "2025-01-09T05:13:34Z",
     "url": "https://github.com/rose-pine/grub",
     "usesCustomOpenGraphImage": true
   },
@@ -752,8 +767,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 92,
-    "updatedAt": "2024-12-30T13:04:02Z",
+    "stargazerCount": 93,
+    "updatedAt": "2025-01-09T13:56:00Z",
     "url": "https://github.com/rose-pine/kitty",
     "usesCustomOpenGraphImage": true
   },
@@ -771,21 +786,6 @@
     "stargazerCount": 5,
     "updatedAt": "2024-07-27T08:17:38Z",
     "url": "https://github.com/rose-pine/vivaldi",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Dark Reader",
-    "homepageUrl": "",
-    "name": "dark-reader",
-    "repositoryTopics": [
-      "dark-reader",
-      "soho-vibes",
-      "theme",
-      "rose-pine"
-    ],
-    "stargazerCount": 29,
-    "updatedAt": "2025-01-07T22:05:06Z",
-    "url": "https://github.com/rose-pine/dark-reader",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -844,8 +844,8 @@
       "terminal",
       "theme"
     ],
-    "stargazerCount": 17,
-    "updatedAt": "2024-12-24T14:32:15Z",
+    "stargazerCount": 18,
+    "updatedAt": "2025-01-09T04:55:25Z",
     "url": "https://github.com/rose-pine/btop",
     "usesCustomOpenGraphImage": true
   },
@@ -1220,8 +1220,8 @@
       "bear",
       "hacktoberfest"
     ],
-    "stargazerCount": 8,
-    "updatedAt": "2024-12-21T12:49:46Z",
+    "stargazerCount": 9,
+    "updatedAt": "2025-01-09T05:01:43Z",
     "url": "https://github.com/rose-pine/bear-blog",
     "usesCustomOpenGraphImage": true
   },
