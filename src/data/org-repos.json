@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 94,
+    "updatedAt": "2025-01-10T00:15:57Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Dark Reader",
     "homepageUrl": "",
     "name": "dark-reader",
@@ -9,19 +19,9 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 29,
-    "updatedAt": "2025-01-09T20:52:49Z",
+    "stargazerCount": 31,
+    "updatedAt": "2025-01-10T17:16:53Z",
     "url": "https://github.com/rose-pine/dark-reader",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 94,
-    "updatedAt": "2025-01-09T00:15:27Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -40,8 +40,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2436,
-    "updatedAt": "2025-01-09T17:49:14Z",
+    "stargazerCount": 2438,
+    "updatedAt": "2025-01-10T15:25:50Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -260,8 +260,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 499,
-    "updatedAt": "2025-01-01T19:21:05Z",
+    "stargazerCount": 500,
+    "updatedAt": "2025-01-10T10:00:59Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -430,8 +430,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 180,
-    "updatedAt": "2025-01-08T12:12:11Z",
+    "stargazerCount": 181,
+    "updatedAt": "2025-01-10T04:06:20Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -589,8 +589,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 108,
-    "updatedAt": "2024-12-24T14:07:43Z",
+    "stargazerCount": 109,
+    "updatedAt": "2025-01-10T11:42:45Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
