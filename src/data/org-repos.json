@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 95,
+    "updatedAt": "2025-01-19T00:16:32Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "",
     "homepageUrl": "",
     "name": "rose-pine-bloom",
@@ -8,16 +18,6 @@
     "updatedAt": "2025-01-18T21:28:22Z",
     "url": "https://github.com/rose-pine/rose-pine-bloom",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 95,
-    "updatedAt": "2025-01-18T00:14:31Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Zellij",
@@ -246,8 +246,8 @@
       "shell",
       "terminal"
     ],
-    "stargazerCount": 20,
-    "updatedAt": "2024-12-29T19:36:54Z",
+    "stargazerCount": 21,
+    "updatedAt": "2025-01-19T07:06:28Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
   },
@@ -330,8 +330,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 502,
-    "updatedAt": "2025-01-17T12:36:08Z",
+    "stargazerCount": 503,
+    "updatedAt": "2025-01-19T05:21:39Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -380,8 +380,8 @@
     "repositoryTopics": [
       "app"
     ],
-    "stargazerCount": 7,
-    "updatedAt": "2024-12-30T12:41:27Z",
+    "stargazerCount": 8,
+    "updatedAt": "2025-01-19T05:37:10Z",
     "url": "https://github.com/rose-pine/obsidian",
     "usesCustomOpenGraphImage": false
   },
@@ -457,8 +457,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 171,
-    "updatedAt": "2025-01-15T03:14:42Z",
+    "stargazerCount": 172,
+    "updatedAt": "2025-01-19T15:25:09Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -484,8 +484,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 181,
-    "updatedAt": "2025-01-10T04:06:20Z",
+    "stargazerCount": 183,
+    "updatedAt": "2025-01-19T06:16:16Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -641,8 +641,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 71,
-    "updatedAt": "2025-01-12T19:46:52Z",
+    "stargazerCount": 72,
+    "updatedAt": "2025-01-19T05:19:53Z",
     "url": "https://github.com/rose-pine/windows-terminal",
     "usesCustomOpenGraphImage": true
   },
@@ -853,8 +853,8 @@
       "addon",
       "firefox-extension"
     ],
-    "stargazerCount": 58,
-    "updatedAt": "2025-01-15T21:17:26Z",
+    "stargazerCount": 60,
+    "updatedAt": "2025-01-19T22:18:02Z",
     "url": "https://github.com/rose-pine/firefox",
     "usesCustomOpenGraphImage": true
   },
@@ -900,8 +900,8 @@
       "color",
       "css"
     ],
-    "stargazerCount": 19,
-    "updatedAt": "2024-12-30T00:46:18Z",
+    "stargazerCount": 20,
+    "updatedAt": "2025-01-19T05:18:50Z",
     "url": "https://github.com/rose-pine/palette",
     "usesCustomOpenGraphImage": true
   },
@@ -1184,8 +1184,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1273,
-    "updatedAt": "2025-01-18T21:51:31Z",
+    "stargazerCount": 1274,
+    "updatedAt": "2025-01-19T03:03:30Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
