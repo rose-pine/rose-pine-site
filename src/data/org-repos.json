@@ -1,11 +1,27 @@
 [
   {
+    "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-theme",
+    "repositoryTopics": [
+      "syntax-theme",
+      "ui-theme",
+      "colorscheme",
+      "palette",
+      "aesthetic"
+    ],
+    "stargazerCount": 1277,
+    "updatedAt": "2025-01-27T21:05:28Z",
+    "url": "https://github.com/rose-pine/rose-pine-theme",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 95,
-    "updatedAt": "2025-01-26T00:15:13Z",
+    "updatedAt": "2025-01-27T00:15:44Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -79,8 +95,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2458,
-    "updatedAt": "2025-01-26T15:56:54Z",
+    "stargazerCount": 2460,
+    "updatedAt": "2025-01-27T12:52:32Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -457,8 +473,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 174,
-    "updatedAt": "2025-01-23T21:12:28Z",
+    "stargazerCount": 177,
+    "updatedAt": "2025-01-27T14:24:22Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -792,8 +808,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 94,
-    "updatedAt": "2025-01-17T16:01:28Z",
+    "stargazerCount": 96,
+    "updatedAt": "2025-01-27T17:40:12Z",
     "url": "https://github.com/rose-pine/kitty",
     "usesCustomOpenGraphImage": true
   },
@@ -853,8 +869,8 @@
       "addon",
       "firefox-extension"
     ],
-    "stargazerCount": 60,
-    "updatedAt": "2025-01-19T22:18:02Z",
+    "stargazerCount": 61,
+    "updatedAt": "2025-01-27T11:59:16Z",
     "url": "https://github.com/rose-pine/firefox",
     "usesCustomOpenGraphImage": true
   },
@@ -1171,22 +1187,6 @@
     "stargazerCount": 3,
     "updatedAt": "2023-05-30T09:14:03Z",
     "url": "https://github.com/rose-pine/lxterminal",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-theme",
-    "repositoryTopics": [
-      "syntax-theme",
-      "ui-theme",
-      "colorscheme",
-      "palette",
-      "aesthetic"
-    ],
-    "stargazerCount": 1274,
-    "updatedAt": "2025-01-24T23:00:10Z",
-    "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
   {
