@@ -1,11 +1,32 @@
 [
   {
+    "description": "Soho vibes for Neovim",
+    "homepageUrl": "",
+    "name": "neovim",
+    "repositoryTopics": [
+      "theme",
+      "neovim",
+      "soho-vibes",
+      "rose-pine",
+      "lua",
+      "vim",
+      "nvim",
+      "neovim-theme",
+      "vim-theme",
+      "editor"
+    ],
+    "stargazerCount": 2475,
+    "updatedAt": "2025-02-02T23:38:52Z",
+    "url": "https://github.com/rose-pine/neovim",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 96,
-    "updatedAt": "2025-02-01T00:16:27Z",
+    "updatedAt": "2025-02-02T00:16:31Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -77,27 +98,6 @@
     "stargazerCount": 10,
     "updatedAt": "2025-01-21T07:10:57Z",
     "url": "https://github.com/rose-pine/tm-theme",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Neovim",
-    "homepageUrl": "",
-    "name": "neovim",
-    "repositoryTopics": [
-      "theme",
-      "neovim",
-      "soho-vibes",
-      "rose-pine",
-      "lua",
-      "vim",
-      "nvim",
-      "neovim-theme",
-      "vim-theme",
-      "editor"
-    ],
-    "stargazerCount": 2471,
-    "updatedAt": "2025-02-01T21:57:46Z",
-    "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -564,8 +564,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 83,
-    "updatedAt": "2025-02-01T20:39:39Z",
+    "stargazerCount": 84,
+    "updatedAt": "2025-02-02T16:09:51Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -837,8 +837,8 @@
       "theme",
       "color-palette"
     ],
-    "stargazerCount": 25,
-    "updatedAt": "2025-01-06T17:14:58Z",
+    "stargazerCount": 26,
+    "updatedAt": "2025-02-02T15:18:41Z",
     "url": "https://github.com/rose-pine/waybar",
     "usesCustomOpenGraphImage": true
   },
@@ -869,8 +869,8 @@
       "addon",
       "firefox-extension"
     ],
-    "stargazerCount": 61,
-    "updatedAt": "2025-02-01T16:48:54Z",
+    "stargazerCount": 62,
+    "updatedAt": "2025-02-02T00:45:28Z",
     "url": "https://github.com/rose-pine/firefox",
     "usesCustomOpenGraphImage": true
   },
