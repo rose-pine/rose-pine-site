@@ -1,5 +1,27 @@
 [
   {
+    "description": "Soho vibes for Zen Browser",
+    "homepageUrl": "",
+    "name": "zen-browser",
+    "repositoryTopics": [
+      "app"
+    ],
+    "stargazerCount": 6,
+    "updatedAt": "2025-02-04T18:42:26Z",
+    "url": "https://github.com/rose-pine/zen-browser",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 96,
+    "updatedAt": "2025-02-04T00:15:10Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -16,7 +38,7 @@
       "editor"
     ],
     "stargazerCount": 2479,
-    "updatedAt": "2025-02-03T19:49:41Z",
+    "updatedAt": "2025-02-04T16:07:28Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -30,19 +52,9 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 188,
-    "updatedAt": "2025-02-03T16:20:47Z",
+    "stargazerCount": 189,
+    "updatedAt": "2025-02-04T17:26:58Z",
     "url": "https://github.com/rose-pine/wallpapers",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 96,
-    "updatedAt": "2025-02-03T00:15:43Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -56,8 +68,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1283,
-    "updatedAt": "2025-02-03T12:56:59Z",
+    "stargazerCount": 1284,
+    "updatedAt": "2025-02-04T22:21:22Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -187,7 +199,7 @@
       "hacktoberfest"
     ],
     "stargazerCount": 72,
-    "updatedAt": "2025-02-03T20:28:28Z",
+    "updatedAt": "2025-02-04T23:54:40Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
@@ -228,8 +240,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 254,
-    "updatedAt": "2025-02-03T05:31:24Z",
+    "stargazerCount": 255,
+    "updatedAt": "2025-02-04T10:55:18Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -361,8 +373,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 504,
-    "updatedAt": "2025-01-26T15:59:33Z",
+    "stargazerCount": 505,
+    "updatedAt": "2025-02-04T03:28:29Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -427,18 +439,6 @@
     "stargazerCount": 9,
     "updatedAt": "2025-01-17T18:06:58Z",
     "url": "https://github.com/rose-pine/discord-mobile",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Zen Browser",
-    "homepageUrl": "",
-    "name": "zen-browser",
-    "repositoryTopics": [
-      "app"
-    ],
-    "stargazerCount": 6,
-    "updatedAt": "2025-01-31T23:51:28Z",
-    "url": "https://github.com/rose-pine/zen-browser",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -640,8 +640,8 @@
     "homepageUrl": "",
     "name": "ollama-webui",
     "repositoryTopics": [],
-    "stargazerCount": 6,
-    "updatedAt": "2024-10-29T15:18:40Z",
+    "stargazerCount": 7,
+    "updatedAt": "2025-02-05T00:10:01Z",
     "url": "https://github.com/rose-pine/ollama-webui",
     "usesCustomOpenGraphImage": true
   },
@@ -1075,8 +1075,8 @@
       "rose-pine",
       "soho-vibes"
     ],
-    "stargazerCount": 10,
-    "updatedAt": "2024-08-07T13:33:04Z",
+    "stargazerCount": 11,
+    "updatedAt": "2025-02-04T04:57:55Z",
     "url": "https://github.com/rose-pine/vimium-c",
     "usesCustomOpenGraphImage": true
   },
