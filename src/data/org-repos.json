@@ -1,11 +1,26 @@
 [
   {
+    "description": "Soho vibes for GRUB 2",
+    "homepageUrl": "",
+    "name": "grub",
+    "repositoryTopics": [
+      "grub",
+      "soho-vibes",
+      "theme",
+      "rose-pine"
+    ],
+    "stargazerCount": 13,
+    "updatedAt": "2025-02-12T00:04:06Z",
+    "url": "https://github.com/rose-pine/grub",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 96,
-    "updatedAt": "2025-02-10T00:16:02Z",
+    "updatedAt": "2025-02-11T00:15:21Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -25,8 +40,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2488,
-    "updatedAt": "2025-02-10T22:27:04Z",
+    "stargazerCount": 2489,
+    "updatedAt": "2025-02-11T03:02:19Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -56,8 +71,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 74,
-    "updatedAt": "2025-02-10T01:59:09Z",
+    "stargazerCount": 75,
+    "updatedAt": "2025-02-11T04:36:13Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
@@ -83,8 +98,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 190,
-    "updatedAt": "2025-02-10T23:32:00Z",
+    "stargazerCount": 191,
+    "updatedAt": "2025-02-11T19:33:12Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -174,21 +189,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for GRUB 2",
-    "homepageUrl": "",
-    "name": "grub",
-    "repositoryTopics": [
-      "grub",
-      "soho-vibes",
-      "theme",
-      "rose-pine"
-    ],
-    "stargazerCount": 13,
-    "updatedAt": "2025-02-10T23:39:44Z",
-    "url": "https://github.com/rose-pine/grub",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Dark Reader",
     "homepageUrl": "",
     "name": "dark-reader",
@@ -253,8 +253,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 256,
-    "updatedAt": "2025-02-09T20:01:02Z",
+    "stargazerCount": 257,
+    "updatedAt": "2025-02-11T03:33:22Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
