@@ -1,5 +1,38 @@
 [
   {
+    "description": "Soho vibes for Starship",
+    "homepageUrl": "",
+    "name": "starship",
+    "repositoryTopics": [
+      "shell",
+      "terminal"
+    ],
+    "stargazerCount": 23,
+    "updatedAt": "2025-02-16T23:53:28Z",
+    "url": "https://github.com/rose-pine/starship",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "Theme generator for Rosé Pine",
+    "homepageUrl": "https://www.npmjs.com/package/@rose-pine/build",
+    "name": "build",
+    "repositoryTopics": [],
+    "stargazerCount": 23,
+    "updatedAt": "2025-02-16T20:19:01Z",
+    "url": "https://github.com/rose-pine/build",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 96,
+    "updatedAt": "2025-02-16T00:16:54Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Cosmic desktop ",
     "homepageUrl": "",
     "name": "cosmic-desktop",
@@ -8,16 +41,6 @@
     "updatedAt": "2025-02-15T18:18:56Z",
     "url": "https://github.com/rose-pine/cosmic-desktop",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 96,
-    "updatedAt": "2025-02-15T00:15:22Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Obsidian",
@@ -62,8 +85,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2497,
-    "updatedAt": "2025-02-15T12:45:25Z",
+    "stargazerCount": 2496,
+    "updatedAt": "2025-02-16T13:35:05Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -94,7 +117,7 @@
       "hacktoberfest"
     ],
     "stargazerCount": 76,
-    "updatedAt": "2025-02-13T03:50:05Z",
+    "updatedAt": "2025-02-16T20:33:10Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
@@ -137,7 +160,7 @@
       "aesthetic"
     ],
     "stargazerCount": 1297,
-    "updatedAt": "2025-02-14T19:42:10Z",
+    "updatedAt": "2025-02-16T13:35:04Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -307,29 +330,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Theme generator for Rosé Pine",
-    "homepageUrl": "https://www.npmjs.com/package/@rose-pine/build",
-    "name": "build",
-    "repositoryTopics": [],
-    "stargazerCount": 23,
-    "updatedAt": "2025-01-07T23:35:21Z",
-    "url": "https://github.com/rose-pine/build",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Starship",
-    "homepageUrl": "",
-    "name": "starship",
-    "repositoryTopics": [
-      "shell",
-      "terminal"
-    ],
-    "stargazerCount": 23,
-    "updatedAt": "2025-02-03T22:46:56Z",
-    "url": "https://github.com/rose-pine/starship",
-    "usesCustomOpenGraphImage": false
-  },
-  {
     "description": "Soho vibes for Rofi",
     "homepageUrl": "",
     "name": "rofi",
@@ -346,8 +346,8 @@
     "homepageUrl": "",
     "name": "anytype",
     "repositoryTopics": [],
-    "stargazerCount": 5,
-    "updatedAt": "2025-01-16T21:00:16Z",
+    "stargazerCount": 6,
+    "updatedAt": "2025-02-16T20:16:28Z",
     "url": "https://github.com/rose-pine/anytype",
     "usesCustomOpenGraphImage": true
   },
@@ -398,8 +398,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 510,
-    "updatedAt": "2025-02-14T20:21:50Z",
+    "stargazerCount": 509,
+    "updatedAt": "2025-02-16T13:52:39Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -564,8 +564,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 84,
-    "updatedAt": "2025-02-02T16:09:51Z",
+    "stargazerCount": 85,
+    "updatedAt": "2025-02-16T15:30:58Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -1030,8 +1030,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 3,
-    "updatedAt": "2024-02-26T05:34:16Z",
+    "stargazerCount": 4,
+    "updatedAt": "2025-02-16T06:38:21Z",
     "url": "https://github.com/rose-pine/hljs",
     "usesCustomOpenGraphImage": true
   },
