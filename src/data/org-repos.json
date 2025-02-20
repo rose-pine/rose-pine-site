@@ -1,12 +1,20 @@
 [
   {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 96,
-    "updatedAt": "2025-02-18T00:15:23Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
+    "description": "Soho vibes for Discord",
+    "homepageUrl": "",
+    "name": "discord",
+    "repositoryTopics": [
+      "betterdiscord",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "goosemod",
+      "discord",
+      "hacktoberfest"
+    ],
+    "stargazerCount": 77,
+    "updatedAt": "2025-02-20T00:13:44Z",
+    "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -17,10 +25,20 @@
       "shell",
       "terminal"
     ],
-    "stargazerCount": 23,
-    "updatedAt": "2025-02-16T23:53:28Z",
+    "stargazerCount": 25,
+    "updatedAt": "2025-02-19T21:53:42Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 96,
+    "updatedAt": "2025-02-19T00:15:36Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Theme generator for Rosé Pine",
@@ -37,8 +55,8 @@
     "homepageUrl": "",
     "name": "cosmic-desktop",
     "repositoryTopics": [],
-    "stargazerCount": 3,
-    "updatedAt": "2025-02-15T18:18:56Z",
+    "stargazerCount": 4,
+    "updatedAt": "2025-02-19T16:49:16Z",
     "url": "https://github.com/rose-pine/cosmic-desktop",
     "usesCustomOpenGraphImage": false
   },
@@ -85,8 +103,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2499,
-    "updatedAt": "2025-02-18T23:23:24Z",
+    "stargazerCount": 2500,
+    "updatedAt": "2025-02-19T07:24:18Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -101,24 +119,6 @@
     "stargazerCount": 9,
     "updatedAt": "2025-02-06T01:40:51Z",
     "url": "https://github.com/rose-pine/discord-mobile",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Discord",
-    "homepageUrl": "",
-    "name": "discord",
-    "repositoryTopics": [
-      "betterdiscord",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "goosemod",
-      "discord",
-      "hacktoberfest"
-    ],
-    "stargazerCount": 77,
-    "updatedAt": "2025-02-18T09:25:46Z",
-    "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -159,8 +159,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1298,
-    "updatedAt": "2025-02-18T14:26:04Z",
+    "stargazerCount": 1300,
+    "updatedAt": "2025-02-19T14:55:05Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -298,8 +298,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 259,
-    "updatedAt": "2025-02-15T02:25:35Z",
+    "stargazerCount": 258,
+    "updatedAt": "2025-02-19T01:45:34Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -324,8 +324,8 @@
     "homepageUrl": "",
     "name": "qbittorrent",
     "repositoryTopics": [],
-    "stargazerCount": 7,
-    "updatedAt": "2025-02-03T05:31:33Z",
+    "stargazerCount": 8,
+    "updatedAt": "2025-02-19T16:14:39Z",
     "url": "https://github.com/rose-pine/qbittorrent",
     "usesCustomOpenGraphImage": true
   },
@@ -690,8 +690,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 32,
-    "updatedAt": "2024-11-29T09:21:51Z",
+    "stargazerCount": 33,
+    "updatedAt": "2025-02-19T12:43:25Z",
     "url": "https://github.com/rose-pine/hyper",
     "usesCustomOpenGraphImage": true
   },
@@ -1198,8 +1198,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 8,
-    "updatedAt": "2024-06-24T23:56:56Z",
+    "stargazerCount": 9,
+    "updatedAt": "2025-02-19T18:58:29Z",
     "url": "https://github.com/rose-pine/black-box",
     "usesCustomOpenGraphImage": true
   },
@@ -1214,8 +1214,8 @@
       "rose-pine",
       "shell"
     ],
-    "stargazerCount": 28,
-    "updatedAt": "2025-02-10T11:34:06Z",
+    "stargazerCount": 29,
+    "updatedAt": "2025-02-19T18:59:45Z",
     "url": "https://github.com/rose-pine/fish",
     "usesCustomOpenGraphImage": true
   },
