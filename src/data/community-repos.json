@@ -475,5 +475,12 @@
 			{ "name": "nolight132", "url": "https://github.com/nolight132" }
 		],
 		"has_variants": true
-	}
+	},
+		{
+		"name": "File Pilot",
+		"url": "https://github.com/BilayJr/FPilot",
+		"tags": ["app"],
+		"authors": [{ "name": "bilaii", "url": "https://github.com/BilayJr" }],
+		"has_variants": true
+	},
 ]
