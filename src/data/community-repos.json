@@ -482,5 +482,5 @@
 		"tags": ["app"],
 		"authors": [{ "name": "bilaii", "url": "https://github.com/BilayJr" }],
 		"has_variants": true
-	},
+	}
 ]
