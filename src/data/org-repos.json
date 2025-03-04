@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 95,
+    "updatedAt": "2025-03-03T19:09:31Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for GTK",
     "homepageUrl": "",
     "name": "gtk",
@@ -12,16 +22,6 @@
     "stargazerCount": 262,
     "updatedAt": "2025-03-02T22:55:14Z",
     "url": "https://github.com/rose-pine/gtk",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 95,
-    "updatedAt": "2025-03-02T00:17:22Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -40,8 +40,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2512,
-    "updatedAt": "2025-03-02T18:33:39Z",
+    "stargazerCount": 2515,
+    "updatedAt": "2025-03-03T22:41:54Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -80,8 +80,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 80,
-    "updatedAt": "2025-02-25T19:06:31Z",
+    "stargazerCount": 81,
+    "updatedAt": "2025-03-03T04:14:11Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
@@ -346,8 +346,8 @@
     "homepageUrl": "",
     "name": "anytype",
     "repositoryTopics": [],
-    "stargazerCount": 6,
-    "updatedAt": "2025-02-16T20:16:28Z",
+    "stargazerCount": 7,
+    "updatedAt": "2025-03-03T15:39:14Z",
     "url": "https://github.com/rose-pine/anytype",
     "usesCustomOpenGraphImage": true
   },
@@ -473,8 +473,8 @@
     "homepageUrl": "",
     "name": "zed",
     "repositoryTopics": [],
-    "stargazerCount": 20,
-    "updatedAt": "2025-03-01T08:12:59Z",
+    "stargazerCount": 21,
+    "updatedAt": "2025-03-03T14:41:54Z",
     "url": "https://github.com/rose-pine/zed",
     "usesCustomOpenGraphImage": true
   },
@@ -564,8 +564,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 88,
-    "updatedAt": "2025-03-01T21:38:25Z",
+    "stargazerCount": 89,
+    "updatedAt": "2025-03-03T14:44:55Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
