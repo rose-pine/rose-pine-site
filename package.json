@@ -10,10 +10,13 @@
 		"format": "pnpm exec prettier --write ."
 	},
 	"dependencies": {
-		"astro": "^5.4.2"
+		"@tailwindcss/vite": "^4.0.11",
+		"astro": "^5.4.2",
+		"tailwindcss": "^4.0.11"
 	},
 	"devDependencies": {
 		"prettier": "^3.5.3",
-		"prettier-plugin-astro": "^0.14.1"
+		"prettier-plugin-astro": "^0.14.1",
+		"prettier-plugin-tailwindcss": "^0.6.11"
 	}
 }
