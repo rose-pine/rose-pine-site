@@ -1,11 +1,30 @@
 [
   {
+    "description": "Soho vibes for Visual Studio Code",
+    "homepageUrl": "https://marketplace.visualstudio.com/items?itemName=mvllow.rose-pine",
+    "name": "vscode",
+    "repositoryTopics": [
+      "vscode",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "vscode-extension",
+      "hacktoberfest",
+      "visual-studio-code",
+      "editor"
+    ],
+    "stargazerCount": 514,
+    "updatedAt": "2025-03-05T21:24:35Z",
+    "url": "https://github.com/rose-pine/vscode",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 95,
-    "updatedAt": "2025-03-04T00:16:14Z",
+    "updatedAt": "2025-03-05T00:16:20Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -40,8 +59,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2518,
-    "updatedAt": "2025-03-04T19:29:34Z",
+    "stargazerCount": 2519,
+    "updatedAt": "2025-03-05T15:53:08Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -131,8 +150,8 @@
       "theme",
       "mobile-app"
     ],
-    "stargazerCount": 9,
-    "updatedAt": "2025-02-06T01:40:51Z",
+    "stargazerCount": 10,
+    "updatedAt": "2025-03-05T08:45:12Z",
     "url": "https://github.com/rose-pine/discord-mobile",
     "usesCustomOpenGraphImage": true
   },
@@ -385,25 +404,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Visual Studio Code",
-    "homepageUrl": "https://marketplace.visualstudio.com/items?itemName=mvllow.rose-pine",
-    "name": "vscode",
-    "repositoryTopics": [
-      "vscode",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "vscode-extension",
-      "hacktoberfest",
-      "visual-studio-code",
-      "editor"
-    ],
-    "stargazerCount": 514,
-    "updatedAt": "2025-03-04T03:05:25Z",
-    "url": "https://github.com/rose-pine/vscode",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Pygments",
     "homepageUrl": "",
     "name": "pygments",
@@ -473,8 +473,8 @@
     "homepageUrl": "",
     "name": "zed",
     "repositoryTopics": [],
-    "stargazerCount": 21,
-    "updatedAt": "2025-03-03T14:41:54Z",
+    "stargazerCount": 22,
+    "updatedAt": "2025-03-05T16:22:27Z",
     "url": "https://github.com/rose-pine/zed",
     "usesCustomOpenGraphImage": true
   },
@@ -640,8 +640,8 @@
     "homepageUrl": "",
     "name": "ollama-webui",
     "repositoryTopics": [],
-    "stargazerCount": 7,
-    "updatedAt": "2025-02-05T00:10:01Z",
+    "stargazerCount": 8,
+    "updatedAt": "2025-03-05T06:43:58Z",
     "url": "https://github.com/rose-pine/ollama-webui",
     "usesCustomOpenGraphImage": true
   },
