@@ -1,1 +1,171 @@
 @import "tailwindcss";
+
+@variant theme-main (&:where([data-theme="main"] *));
+@variant theme-moon (&:where([data-theme="moon"] *));
+@variant theme-dawn (&:where([data-theme="dawn"] *));
+
+@theme {
+	--wrapper-content-width: var(--container-6xl);
+
+	--font-sans:
+		ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+		"Segoe UI Symbol", "Noto Color Emoji";
+	--font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+	--spacing-page-top: 3rem;
+	--spacing-page-gutter: 2rem;
+	--spacing-header-height: 4rem;
+
+	--color-base: #faf4ed;
+	--color-surface: #fffaf3;
+	--color-overlay: #f2e9e1;
+	--color-muted: #9893a5;
+	--color-subtle: #797593;
+	--color-text: #464261;
+	--color-love: #b4637a;
+	--color-gold: #ea9d34;
+	--color-rose: #d7827e;
+	--color-pine: #286983;
+	--color-foam: #56949f;
+	--color-iris: #907aa9;
+}
+
+:root {
+	color-scheme: light dark;
+
+	@media (width >= theme(--breakpoint-sm)) {
+		--spacing-page-top: 4rem;
+		--spacing-header-height: 5rem;
+	}
+
+	@media (width >= theme(--breakpoint-md)) {
+		--spacing-page-gutter: 3rem;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		--color-base: #191724;
+		--color-surface: #1f1d2e;
+		--color-overlay: #26233a;
+		--color-muted: #6e6a86;
+		--color-subtle: #908caa;
+		--color-text: #e0def4;
+		--color-love: #eb6f92;
+		--color-gold: #f6c177;
+		--color-rose: #ebbcba;
+		--color-pine: #31748f;
+		--color-foam: #9ccfd8;
+		--color-iris: #c4a7e7;
+	}
+
+	&[data-theme="main"] {
+		color-scheme: dark;
+
+		--color-base: #191724;
+		--color-surface: #1f1d2e;
+		--color-overlay: #26233a;
+		--color-muted: #6e6a86;
+		--color-subtle: #908caa;
+		--color-text: #e0def4;
+		--color-love: #eb6f92;
+		--color-gold: #f6c177;
+		--color-rose: #ebbcba;
+		--color-pine: #31748f;
+		--color-foam: #9ccfd8;
+		--color-iris: #c4a7e7;
+	}
+
+	&[data-theme="moon"] {
+		color-scheme: dark;
+
+		--color-base: #232136;
+		--color-surface: #2a273f;
+		--color-overlay: #393552;
+		--color-muted: #6e6a86;
+		--color-subtle: #908caa;
+		--color-text: #e0def4;
+		--color-love: #eb6f92;
+		--color-gold: #f6c177;
+		--color-rose: #ea9a97;
+		--color-pine: #3e8fb0;
+		--color-foam: #9ccfd8;
+		--color-iris: #c4a7e7;
+	}
+
+	&[data-theme="dawn"] {
+		color-scheme: light;
+
+		--color-base: #faf4ed;
+		--color-surface: #fffaf3;
+		--color-overlay: #f2e9e1;
+		--color-muted: #9893a5;
+		--color-subtle: #797593;
+		--color-text: #464261;
+		--color-love: #b4637a;
+		--color-gold: #ea9d34;
+		--color-rose: #d7827e;
+		--color-pine: #286983;
+		--color-foam: #56949f;
+		--color-iris: #907aa9;
+	}
+}
+
+::selection {
+	color: var(--color-text);
+	background: --alpha(var(--color-muted) / 0.2);
+}
+
+html {
+	color: var(--color-text);
+	background: var(--color-base);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* 
+ * Encourage adding role="list" to remove list styles while retaining semantics
+ * in Safari/VoiceOver. Styles are removed for scenarios implicitly supported
+ * by Safari.
+ *
+ * Reference: https://www.scottohara.me/blog/2019/01/12/lists-and-safari.html
+ */
+ol {
+	list-style-type: decimal;
+}
+ul {
+	list-style-type: disc;
+}
+nav ol,
+nav li,
+ol[role="list"],
+ul[role="list"] {
+	list-style-type: none;
+}
+
+.wrapper {
+	margin-inline: auto;
+	padding-inline: var(--spacing-page-gutter);
+	max-inline-size: var(--wrapper-content-width);
+}
+
+.animate-enter {
+	opacity: 0;
+	animation: enter 500ms forwards;
+	animation-delay: calc(var(--stagger) * 200ms);
+
+	@media (prefers-reduced-motion: reduce) {
+		animation-delay: -1ms !important;
+		animation-duration: 1ms !important;
+	}
+}
+
+@keyframes enter {
+	0% {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: none;
+	}
+}

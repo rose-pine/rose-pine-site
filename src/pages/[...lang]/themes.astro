@@ -1,0 +1,22 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { useTranslations } from "../../i18n/utilities";
+
+export async function getStaticPaths() {
+	return [
+		{ params: { lang: "en" } },
+		{ params: { lang: "it" } },
+		{ params: { lang: undefined } },
+	] as const;
+}
+
+let { lang = "en" } = Astro.params;
+let t = useTranslations(lang);
+---
+
+<Layout title={t("themes.title")} description={t("themes.description")}>
+	<section class="wrapper">
+		<h1 class="animate-enter" style="--stagger: 1">{t("themes.title")}</h1>
+		<p class="animate-enter" style="--stagger: 2">{t("themes.description")}</p>
+	</section>
+</Layout>
