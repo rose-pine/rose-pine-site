@@ -390,6 +390,15 @@
 		"has_variants": false
 	},
 	{
+		"name": "Thunderbird",
+		"url": "https://github.com/graknow/thunderbird",
+		"tags": ["app"],
+		"authors": [
+			{ "name": "Grant K", "url": "https://github.com/graknow" }
+		],
+		"has_variants": true
+	},
+	{
 		"name": "Tilix",
 		"url": "https://github.com/annappropriate/rose-pine-tilix",
 		"tags": ["app", "terminal-emulator"],
