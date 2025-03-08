@@ -5,6 +5,7 @@
 	"scripts": {
 		"dev": "astro dev",
 		"build": "astro build",
+		"build:data": "./script/fetch-data.sh",
 		"preview": "astro preview",
 		"astro": "astro",
 		"format": "pnpm exec prettier --write ."

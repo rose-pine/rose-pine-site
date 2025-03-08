@@ -1,0 +1,678 @@
+[
+	{
+		"name": "Base16",
+		"url": "https://github.com/edunfelt/base16-rose-pine-scheme",
+		"tags": ["palette"],
+		"contributors": [
+			{
+				"name": "edunfelt",
+				"url": "https://github.com/edunfelt"
+			}
+		]
+	},
+	{
+		"name": "Bibata Cursors",
+		"url": "https://github.com/harishnkr/Bibata-Original-Cursors",
+		"tags": ["palette"],
+		"contributors": [
+			{
+				"name": "K Harishankar",
+				"url": "https://github.com/harishnkr"
+			}
+		]
+	},
+	{
+		"name": "Blink Shell",
+		"url": "https://github.com/ng-hai/rose-pine-blinksh",
+		"tags": ["terminal", "shell", "mobile", "blinksh"],
+		"contributors": [
+			{
+				"name": "Hai Nguyen",
+				"url": "https://github.com/ng-hai"
+			}
+		]
+	},
+	{
+		"name": "Chrome Devtools",
+		"url": "https://github.com/velzie/rose-pine-chrome-devtools",
+		"tags": ["browser", "chrome", "chromium"],
+		"contributors": [
+			{
+				"name": "velzie",
+				"url": "https://github.com/velzie"
+			}
+		]
+	},
+	{
+		"name": "Cider",
+		"url": "https://github.com/artilate/cider",
+		"tags": ["app", "audio", "music"],
+		"contributors": [
+			{
+				"name": "artilate",
+				"url": "https://github.com/artilate"
+			}
+		]
+	},
+	{
+		"name": "Cmus",
+		"url": "https://github.com/Iorvethe/cmus",
+		"tags": ["terminal", "audio", "music"],
+		"contributors": [
+			{
+				"name": "Iorvethe",
+				"url": "https://github.com/Iorvethe"
+			}
+		]
+	},
+	{
+		"name": "colorls",
+		"url": "https://github.com/bietdoikiem/colorls",
+		"tags": ["terminal"],
+		"contributors": [
+			{
+				"name": "bietdoikiem",
+				"url": "https://github.com/bietdoikiem"
+			}
+		]
+	},
+	{
+		"name": "Doom Emacs",
+		"url": "https://github.com/donniebreve/rose-pine-doom-emacs",
+		"tags": ["app", "terminal", "editor"],
+		"contributors": [
+			{
+				"name": "donniebreve",
+				"url": "https://github.com/donniebreve"
+			}
+		]
+	},
+	{
+		"name": "DuckDuckGo",
+		"url": "https://github.com/cobcobs/duckduckgo",
+		"tags": ["search-engine", "web"],
+		"contributors": [
+			{
+				"name": "cobcobs",
+				"url": "https://github.com/cobcobs"
+			}
+		]
+	},
+	{
+		"name": "dunst",
+		"url": "https://github.com/d2718nis/rose-pine-dunst",
+		"tags": ["app"],
+		"contributors": [
+			{
+				"name": "d2718nis",
+				"url": "https://github.com/d2718nis"
+			}
+		]
+	},
+	{
+		"name": "Emacs",
+		"url": "https://github.com/konrad1977/pinerose-emacs",
+		"tags": ["app", "terminal", "editor"],
+		"contributors": [
+			{
+				"name": "Mikael Konradsson",
+				"url": "https://github.com/konrad1977"
+			}
+		]
+	},
+	{
+		"name": "Enmity",
+		"url": "https://github.com/InvitedToHell/rosepine-enmity",
+		"tags": ["app", "mobile"],
+		"contributors": [
+			{
+				"name": "InvitedToHell",
+				"url": "https://github.com/invitedtohell"
+			}
+		]
+	},
+	{
+		"name": "File Pilot",
+		"url": "https://github.com/BilayJr/FPilot",
+		"tags": ["app"],
+		"contributors": [
+			{
+				"name": "bilaii",
+				"url": "https://github.com/BilayJr"
+			}
+		]
+	},
+	{
+		"name": "foot",
+		"url": "https://github.com/EuCaue/foot",
+		"tags": ["terminal-emulator"],
+		"contributors": [
+			{
+				"name": "EuCaue",
+				"url": "https://github.com/EuCaue"
+			},
+			{
+				"name": "cement-drinker",
+				"url": "https://github.com/cement-drinker"
+			}
+		]
+	},
+	{
+		"name": "Gradience Presets",
+		"url": "https://github.com/gradience-presets?q=rose&type=all&sort=",
+		"tags": ["adwaita", "ui"],
+		"contributors": [
+			{
+				"name": "Gradience Team",
+				"url": "https://gradienceteam.github.io"
+			}
+		]
+	},
+	{
+		"name": "Home Assistant",
+		"url": "https://github.com/jorismertz/homeassistant-rosepine-theme",
+		"tags": ["web", "web-ui"],
+		"contributors": [
+			{
+				"name": "jorismertz",
+				"url": "https://github.com/jorismertz"
+			}
+		]
+	},
+	{
+		"name": "Hundred Rabbits",
+		"url": "https://github.com/artilate/hundredrabbits",
+		"tags": ["app", "palette"],
+		"contributors": [
+			{
+				"name": "artilate",
+				"url": "https://github.com/artilate"
+			}
+		]
+	},
+	{
+		"name": "Infinity for Reddit",
+		"url": "https://github.com/alvarosoaress/infinity-for-reddit",
+		"tags": ["reddit", "app"],
+		"contributors": [
+			{
+				"name": "alvarosoaress",
+				"url": "https://github.com/alvarosoaress/"
+			}
+		]
+	},
+	{
+		"name": "Insomnia",
+		"url": "https://github.com/agustinhopneto/rose-pine-insomnia",
+		"tags": ["app", "productivity"],
+		"contributors": [
+			{
+				"name": "agustinhopneto",
+				"url": "https://github.com/agustinhopneto"
+			}
+		]
+	},
+	{
+		"name": "IntelliJ",
+		"url": "https://github.com/jmorjsm/rose-pine-intellij",
+		"tags": ["app", "editor"],
+		"contributors": [
+			{
+				"name": "jmorjsm",
+				"url": "https://github.com/jmorjsm"
+			}
+		]
+	},
+	{
+		"name": "iSH Shell",
+		"url": "https://github.com/akopdev/rose-pine-ish",
+		"tags": ["terminal", "shell", "mobile", "ish"],
+		"contributors": [
+			{
+				"name": "Akop Kesheshyan",
+				"url": "https://github.com/akopdev"
+			}
+		]
+	},
+	{
+		"name": "JupyterLab",
+		"url": "https://github.com/aaravind100/jupyterlab",
+		"tags": ["app", "editor", "jupyter", "notebook"],
+		"contributors": [
+			{
+				"name": "aaravind100",
+				"url": "https://github.com/aaravind100"
+			}
+		]
+	},
+	{
+		"name": "JSDoc",
+		"url": "https://github.com/nonnullish/rose-pine-jsdoc",
+		"tags": ["dev", "web-ui"],
+		"contributors": [
+			{
+				"name": "nonnullish",
+				"url": "https://github.com/nonnullish"
+			}
+		]
+	},
+	{
+		"name": "JSON Viewer",
+		"url": "https://github.com/emlez/json-viewer",
+		"tags": ["web-extension"],
+		"contributors": [
+			{
+				"name": "emlez",
+				"url": "https://github.com/emlez"
+			}
+		]
+	},
+	{
+		"name": "k9s",
+		"url": "https://github.com/sasoria/k9s-theme",
+		"tags": ["cli"],
+		"contributors": [
+			{
+				"name": "sasoria",
+				"url": "https://github.com/sasoria"
+			}
+		]
+	},
+	{
+		"name": "Kakoune",
+		"url": "https://gitea.nulo.in/Nulo/rose-pine.kak",
+		"tags": ["terminal", "editor"],
+		"contributors": [
+			{
+				"name": "Nulo",
+				"url": "https://nulo.in"
+			}
+		]
+	},
+	{
+		"name": "KDE",
+		"url": "https://github.com/maybork/kde",
+		"tags": ["DE", "system"],
+		"contributors": [
+			{
+				"name": "maybork",
+				"url": "https://github.com/maybork"
+			}
+		]
+	},
+	{
+		"name": "Lapce",
+		"url": "https://github.com/syntacti/rose-pine-lapce",
+		"tags": ["app", "editor"],
+		"contributors": [
+			{
+				"name": "Suraj",
+				"url": "https://github.com/ghishadow"
+			}
+		]
+	},
+	{
+		"name": "LeftWM",
+		"url": "https://github.com/KiranWells/leftwm-verdigris",
+		"tags": ["window-manager"],
+		"contributors": [
+			{
+				"name": "Kiran Wells",
+				"url": "https://github.com/KiranWells"
+			}
+		]
+	},
+	{
+		"name": "LogSeq",
+		"url": "https://github.com/ebarruel/logseq-rose-pine-theme",
+		"tags": ["app", "productivity"],
+		"contributors": [
+			{
+				"name": "Evangeline Barruel",
+				"url": "https://github.com/ebarruel/logseq-rose-pine-theme"
+			}
+		]
+	},
+	{
+		"name": "LSD",
+		"url": "https://github.com/nolight132/rose-pine-lsd",
+		"tags": ["cli", "community"],
+		"contributors": [
+			{
+				"name": "nolight132",
+				"url": "https://github.com/nolight132"
+			}
+		]
+	},
+	{
+		"name": "man",
+		"url": "https://github.com/const-void/rose-pine-man",
+		"tags": ["community", "shell"],
+		"contributors": [
+			{
+				"name": "const void*",
+				"url": "https://github.com/const-void"
+			}
+		]
+	},
+	{
+		"name": "Marp",
+		"url": "https://github.com/rainbowflesh/Rose-Pine-For-Marp",
+		"tags": ["marp-themes"],
+		"contributors": [
+			{
+				"name": "rainbowflesh",
+				"url": "https://github.com/rainbowflesh"
+			}
+		]
+	},
+	{
+		"name": "Matplotlib",
+		"url": "https://github.com/h4pZ/rose-pine-matplotlib",
+		"tags": ["productivity", "math"],
+		"contributors": [
+			{
+				"name": "h4pz",
+				"url": "https://github.com/h4pz"
+			}
+		],
+		"featured": true
+	},
+	{
+		"name": "MPV.net",
+		"url": "https://github.com/rainbowflesh/Rose-Pine-for-MPV.net",
+		"tags": ["media-player", "app"],
+		"contributors": [
+			{
+				"name": "rainbowflesh",
+				"url": "https://github.com/rainbowflesh"
+			}
+		]
+	},
+	{
+		"name": "Notepad++",
+		"url": "https://github.com/aaravind100/notepad-plus-plus",
+		"tags": ["app", "editor"],
+		"contributors": [
+			{
+				"name": "aaravind100",
+				"url": "https://github.com/aaravind100"
+			}
+		]
+	},
+	{
+		"name": "Nova",
+		"url": "https://github.com/daveyholler/rose-pine-nova",
+		"tags": ["app", "editor"],
+		"contributors": [
+			{
+				"name": "Davey Holler",
+				"url": "https://github.com/daveyholler"
+			}
+		]
+	},
+	{
+		"name": "Obsidian",
+		"url": "https://github.com/mimishahzad/rose-pine-moon-obsidian",
+		"tags": ["app", "productivity"],
+		"contributors": [
+			{
+				"name": "mimishahzad",
+				"url": "https://github.com/mimishahzad"
+			}
+		]
+	},
+	{
+		"name": "PyRadio",
+		"url": "https://codeberg.org/thairanaru/pyradio",
+		"tags": ["app", "audio", "music", "terminal"],
+		"contributors": [
+			{
+				"name": "thairanaru",
+				"url": "https://codeberg.org/thairanaru"
+			}
+		]
+	},
+	{
+		"name": "QT Creator",
+		"url": "https://github.com/mike-spa/Ros--Pine-Theme---Qt-Creator",
+		"tags": ["app", "editor"],
+		"contributors": [
+			{
+				"name": "Michele Spagnolo",
+				"url": "https://github.com/mike-spa"
+			}
+		]
+	},
+	{
+		"name": "qutebrowser",
+		"url": "https://github.com/aalbegr/qutebrowser-rose-pine",
+		"tags": ["app", "web-ui"],
+		"contributors": [
+			{
+				"name": "aalbegr",
+				"url": "https://github.com/aalbegr"
+			}
+		]
+	},
+	{
+		"name": "qt5ct",
+		"url": "https://github.com/SarahAllenReed/rose-pine-qt5ct",
+		"tags": ["app"],
+		"contributors": [
+			{
+				"name": "Sarah Allen Reed",
+				"url": "https://github.com/SarahAllenReed"
+			}
+		]
+	},
+	{
+		"name": "rEFInd",
+		"url": "https://github.com/xlacroixx/refind",
+		"tags": [],
+		"contributors": [
+			{
+				"name": "LACROIXX",
+				"url": "https://codeberg.org/xlacroixx"
+			}
+		]
+	},
+	{
+		"name": "RIME",
+		"url": "https://github.com/0xffan/rose-pine-rime",
+		"tags": [],
+		"contributors": [
+			{
+				"name": "0xffan",
+				"url": "https://github.com/0xffan"
+			}
+		]
+	},
+	{
+		"name": "SDDM",
+		"url": "https://github.com/lwndhrst/sddm-rose-pine",
+		"tags": ["display-manager"],
+		"contributors": [
+			{
+				"name": "Leon Windhorst",
+				"url": "https://github.com/lwndhrst"
+			}
+		]
+	},
+	{
+		"name": "Spotify",
+		"url": "https://github.com/nicoleajoy/rose-pine-spotify",
+		"tags": ["app", "audio", "music", "spotify"],
+		"contributors": [
+			{
+				"name": "Nicole Ajoy",
+				"url": "https://github.com/nicoleajoy"
+			}
+		]
+	},
+	{
+		"name": "Squircle CE",
+		"url": "https://github.com/rainbowflesh/Rose-Pine-For-Squircle-CE",
+		"tags": ["app", "editor"],
+		"contributors": [
+			{
+				"name": "rainbowflesh",
+				"url": "https://github.com/rainbowflesh"
+			}
+		]
+	},
+	{
+		"name": "swaylock",
+		"url": "https://github.com/d2718nis/rose-pine-swaylock",
+		"tags": ["app"],
+		"contributors": [
+			{
+				"name": "d2718nis",
+				"url": "https://github.com/d2718nis"
+			}
+		]
+	},
+	{
+		"name": "Telegram",
+		"url": "https://github.com/asdreemurr844/rose-pine-telegram-ios",
+		"tags": ["app", "mobile"],
+		"contributors": [
+			{
+				"name": "Azriel but not Dreemurr",
+				"url": "https://github.com/asdreemurr844"
+			}
+		]
+	},
+	{
+		"name": "Telegram Desktop",
+		"url": "https://github.com/nymver/telegramdesktop",
+		"tags": ["app"],
+		"contributors": [
+			{
+				"name": "nymver",
+				"url": "https://github.com/nymver/telegramdesktop"
+			}
+		]
+	},
+	{
+		"name": "Thunderbird",
+		"url": "https://github.com/graknow/thunderbird",
+		"tags": ["app"],
+		"contributors": [
+			{
+				"name": "Grant K",
+				"url": "https://github.com/graknow"
+			}
+		]
+	},
+	{
+		"name": "Tilix",
+		"url": "https://github.com/annappropriate/rose-pine-tilix",
+		"tags": ["app", "terminal-emulator"],
+		"contributors": [
+			{
+				"name": "Anna Z",
+				"url": "https://github.com/annappropriate"
+			}
+		]
+	},
+	{
+		"name": "Twitter",
+		"url": "https://github.com/apriltaoyvr/twitter-rose-pine",
+		"tags": ["web-ui", "social"],
+		"contributors": [
+			{
+				"name": "April T",
+				"url": "https://github.com/apriltaoyvr"
+			}
+		]
+	},
+	{
+		"name": "Vendetta",
+		"url": "https://github.com/Quinxxxx/vendetta",
+		"tags": ["web-ui", "social"],
+		"contributors": [
+			{
+				"name": "Quinx",
+				"url": "https://github.com/Quinxxxx"
+			}
+		]
+	},
+	{
+		"name": "Warp",
+		"url": "https://github.com/thanhsonng/rose-pine-warp",
+		"tags": ["app", "terminal-emulator", "terminal", "command", "cli"],
+		"contributors": [
+			{
+				"name": "Son Nguyen",
+				"url": "https://github.com/thanhsonng"
+			}
+		]
+	},
+	{
+		"name": "WezTerm",
+		"url": "https://github.com/neapsix/wezterm",
+		"tags": ["app", "terminal-emulator"],
+		"contributors": [
+			{
+				"name": "neapsix",
+				"url": "https://github.com/neapsix"
+			}
+		]
+	},
+	{
+		"name": "Wofi",
+		"url": "https://github.com/cement-drinker/wofi-rose-pine",
+		"tags": ["app", "terminal-emulator"],
+		"contributors": [
+			{
+				"name": "Cement Drinker",
+				"url": "https://github.com/cement-drinker"
+			}
+		]
+	},
+	{
+		"name": "Xcode",
+		"url": "https://github.com/ldakhoa/rose-pine-xcode",
+		"tags": ["app", "editor"],
+		"contributors": [
+			{
+				"name": "ldakhoa",
+				"url": "https://github.com/ldakhoa"
+			}
+		]
+	},
+	{
+		"name": "YouTube",
+		"url": "https://github.com/artilate/youtube",
+		"tags": ["web-ui", "css", "youtube"],
+		"contributors": [
+			{
+				"name": "artilate",
+				"url": "https://github.com/artilate"
+			}
+		]
+	},
+	{
+		"name": "Zathura",
+		"url": "https://github.com/edunfelt/zathura",
+		"tags": ["app", "productivity", "math"],
+		"contributors": [
+			{
+				"name": "edunfelt",
+				"url": "https://github.com/edunfelt"
+			}
+		]
+	},
+	{
+		"name": "Zebar",
+		"url": "https://github.com/adriankarlen/rose-pine.zebar",
+		"tags": ["app", "community"],
+		"contributors": [
+			{
+				"name": "adriankarlen",
+				"url": "https://github.com/adriankarlen"
+			}
+		]
+	}
+]
