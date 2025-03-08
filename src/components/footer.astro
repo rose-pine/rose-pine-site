@@ -1,0 +1,92 @@
+---
+import { Image } from "astro:assets";
+import badgeImage from "../assets/badge.svg";
+import { languages } from "../i18n/ui";
+import {
+	getLangFromUrl,
+	getUrlWithoutLang,
+	useTranslatedPath,
+	useTranslations,
+} from "../i18n/utilities";
+
+let lang = getLangFromUrl(Astro.url);
+let t = useTranslations(lang);
+let translatePath = useTranslatedPath(lang);
+
+let resourceItems = [
+	{ name: "Create a theme", href: "#!" },
+	{ name: "Add a translation", href: "#!" },
+	{ name: "Repository template", href: "#!" },
+];
+
+let socialItems = [
+	{ name: "Email", href: "mailto:ciao@rosepinetheme.com" },
+	{ name: "GitHub", href: "https://github.com/rose-pine" },
+	{ name: "Discord", href: "https://discord.gg/r6wf35KVJW" },
+];
+---
+
+<footer class="wrapper py-page-top">
+	<nav
+		aria-label={t("footer.nav_label")}
+		class="grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-[auto_auto_auto_1fr] md:gap-20"
+	>
+		<ul class="text-sm leading-loose">
+			<li class="font-medium">Resources</li>
+			{
+				resourceItems.map((item) => (
+					<li>
+						<a href={item.href} class="text-subtle hover:text-text transition">
+							{item.name}
+						</a>
+					</li>
+				))
+			}
+		</ul>
+
+		<ul class="text-sm leading-loose">
+			<li class="font-medium">Social</li>
+			{
+				socialItems.map((item) => (
+					<li>
+						<a href={item.href} class="text-subtle hover:text-text transition">
+							{item.name}
+						</a>
+					</li>
+				))
+			}
+		</ul>
+
+		<ul class="text-sm leading-loose">
+			<li class="font-medium">
+				{t("shared.language")}
+			</li>
+			{
+				Object.entries(languages).map(([lang, label]) => (
+					<li>
+						<a
+							href={translatePath(getUrlWithoutLang(Astro.url), lang)}
+							class="text-subtle hover:text-text transition"
+						>
+							{label}
+						</a>
+					</li>
+				))
+			}
+		</ul>
+
+		<div class="flex self-start md:justify-end">
+			<a href={translatePath("/")} class="shrink-0">
+				<Image
+					width="36"
+					height="36"
+					src={badgeImage}
+					alt="Rosé Pine badge"
+					loading="lazy"
+				/>
+			</a>
+		</div>
+	</nav>
+</footer>
+
+<div class="h-page-top"></div>

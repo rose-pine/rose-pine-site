@@ -1,0 +1,179 @@
+---
+import { Image } from "astro:assets";
+import badgeImage from "../assets/badge.svg";
+import {
+	getLangFromUrl,
+	useTranslatedPath,
+	useTranslations,
+} from "../i18n/utilities";
+
+let lang = getLangFromUrl(Astro.url);
+let t = useTranslations(lang);
+let translatePath = useTranslatedPath(lang);
+
+let menuItems = [
+	{ name: t("nav.themes"), href: translatePath("/themes") },
+	{ name: t("nav.palette"), href: translatePath("/palette") },
+];
+---
+
+<div aria-hidden="true" class="max-w-content relative mx-auto">
+	<div
+		class="from-gold/50 via-rose/70 to-iris pointer-events-none absolute -top-44 -right-60 -z-10 h-60 w-[36rem] -rotate-12 transform-gpu rounded-full bg-linear-to-r from-30% via-70% blur-3xl md:right-0"
+	>
+	</div>
+</div>
+
+<div class="h-page-top"></div>
+
+<header class="wrapper h-header-height flex items-center justify-between gap-3">
+	<div class="z-50">
+		<a
+			title={t("nav.home")}
+			href={translatePath("/")}
+			class="flex items-center gap-3"
+		>
+			<Image
+				width="48"
+				height="48"
+				src={badgeImage}
+				alt="Rosé Pine badge"
+				loading="eager"
+			/>
+			<span class="font-serif text-xl font-medium tracking-tight italic"
+				>Rosé Pine</span
+			>
+		</a>
+	</div>
+
+	<nav aria-label={t("header.nav_label")} class="hidden sm:block">
+		<ul class="flex items-center gap-1.5">
+			{
+				menuItems.map((item) => (
+					<li>
+						<a
+							href={item.href}
+							class="hover:bg-muted/10 inline-block h-8 rounded-lg px-3 leading-8 font-medium transition"
+						>
+							{item.name}
+						</a>
+					</li>
+				))
+			}
+			<li class="pl-3">
+				<a
+					href={translatePath("/create")}
+					class="group/cta border-text hover:border-gold hover:bg-gold/10 hover:text-gold flex h-8 shrink-0 items-center gap-2 rounded-lg border pr-4 pl-3 font-serif leading-8 italic transition"
+				>
+					<svg
+						aria-hidden="true"
+						xmlns="http://www.w3.org/2000/svg"
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="1.5"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						class="size-4 transition-transform group-hover/cta:-rotate-3"
+						><path
+							d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"
+						></path><path d="M20 3v4"></path><path d="M22 5h-4"></path><path
+							d="M4 17v2"></path><path d="M5 18H3"></path></svg
+					>
+					<span class="pb-px">{t("nav.create")}</span>
+				</a>
+			</li>
+		</ul>
+	</nav>
+
+	<details class="group/menu block select-none sm:hidden">
+		<summary
+			class="hover:bg-muted/10 relative z-50 flex size-10 cursor-pointer items-center justify-center rounded-xl transition [&::-webkit-details-marker]:hidden"
+		>
+			<svg
+				width="20"
+				height="20"
+				viewBox="0 0 16 16"
+				fill="currentColor"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<rect
+					x="0"
+					y="7.5"
+					width="16"
+					height="1.5"
+					rx="0.5"
+					class="origin-center translate-y-[-3.5px] transition-transform duration-150 group-open/menu:translate-y-0 group-open/menu:rotate-45"
+				></rect>
+				<rect
+					x="0"
+					y="7.5"
+					width="16"
+					height="1.5"
+					rx="0.5"
+					class="origin-center translate-y-[3.5px] transition-transform duration-150 group-open/menu:translate-y-0 group-open/menu:-rotate-45"
+				></rect>
+			</svg>
+		</summary>
+
+		<nav
+			aria-label={t("header.nav_label")}
+			class="top-page-top bg-surface/80 pt-header-height inset-x-page-gutter-half p-page-gutter-half absolute z-40 rounded-2xl shadow-lg shadow-black/10 backdrop-blur-xl backdrop-saturate-150 transition"
+		>
+			<ul class="flex flex-col items-center">
+				{
+					menuItems.map((item) => (
+						<li class="w-full">
+							<a
+								href={item.href}
+								class="hover:bg-muted/10 hover:pl-page-gutter-half flex h-14 items-center rounded-lg text-xl font-semibold transition-[background-color,padding]"
+							>
+								{item.name}
+							</a>
+						</li>
+					))
+				}
+				<li class="w-full pt-3">
+					<a
+						href={translatePath("/create")}
+						class="group/cta border-text hover:border-gold hover:bg-gold/10 hover:text-gold flex h-14 shrink-0 items-center justify-center gap-4 rounded-lg border pr-5 pl-4 font-serif text-xl italic transition"
+					>
+						<svg
+							aria-hidden="true"
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="1.5"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							class="size-6"
+							><path
+								d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"
+							></path><path d="M20 3v4"></path><path d="M22 5h-4"></path><path
+								d="M4 17v2"></path><path d="M5 18H3"></path></svg
+						>
+						<span class="pb-px">{t("nav.create")}</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</details>
+</header>
+
+<style>
+	details[open] > *:not(summary) {
+		animation: details-show 150ms ease-in-out;
+	}
+
+	@keyframes details-show {
+		from {
+			opacity: 0;
+			transform: translateY(0.5rem) scale(0.98);
+		}
+	}
+</style>

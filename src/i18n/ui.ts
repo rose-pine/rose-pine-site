@@ -13,6 +13,7 @@ export const ui = {
 		"header.nav_label": "Primary",
 		"footer.nav_label": "Secondary",
 
+		"nav.home": "Home",
 		"nav.themes": "Themes",
 		"nav.palette": "Palette",
 		"nav.create": "Create",
@@ -38,6 +39,7 @@ export const ui = {
 		"header.nav_label": "Primaria",
 		"footer.nav_label": "Secondaria",
 
+		"nav.home": "Casa",
 		"nav.themes": "Temi",
 		"nav.palette": "Tavolozza",
 		"nav.create": "Crea",

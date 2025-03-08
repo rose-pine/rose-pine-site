@@ -14,6 +14,7 @@
 
 	--spacing-page-top: 3rem;
 	--spacing-page-gutter: 2rem;
+	--spacing-page-gutter-half: calc(var(--spacing-page-gutter) / 2);
 	--spacing-header-height: 4rem;
 
 	--color-base: #faf4ed;
@@ -119,6 +120,12 @@ html {
 	background: var(--color-base);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+	/* Prevent decorative elements overflowing. */
+	overflow-x: hidden;
 }
 
 /* 

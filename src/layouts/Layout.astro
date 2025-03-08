@@ -1,11 +1,7 @@
 ---
-import { languages } from "../i18n/ui";
-import {
-	getLangFromUrl,
-	getUrlWithoutLang,
-	useTranslatedPath,
-	useTranslations,
-} from "../i18n/utilities";
+import Header from "../components/header.astro";
+import Footer from "../components/footer.astro";
+import { getLangFromUrl } from "../i18n/utilities";
 import "../styles/global.css";
 
 type Props = {
@@ -15,8 +11,6 @@ type Props = {
 let { title, description } = Astro.props;
 
 let lang = getLangFromUrl(Astro.url);
-let t = useTranslations(lang);
-let translatePath = useTranslatedPath(lang);
 ---
 
 <!doctype html>
@@ -30,39 +24,18 @@ let translatePath = useTranslatedPath(lang);
 		<title>{title} - Rosé Pine</title>
 	</head>
 	<body>
-		<a href="#content" class="sr-only focus:not-sr-only">Skip to main content</a
+		<a
+			href="#content"
+			class="focus:bg-surface sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:rounded focus:p-1.5 focus:font-medium"
+			>Skip to main content</a
 		>
 
-		<header class="wrapper">
-			<a href={translatePath("/")}>Rosé Pine</a>
-			<nav aria-label={t("header.nav_label")}>
-				<ul>
-					<li><a href={translatePath("/themes")}>{t("nav.themes")}</a></li>
-					<li><a href={translatePath("/palette")}>{t("nav.palette")}</a></li>
-					<li><a href={translatePath("/create")}>{t("nav.create")}</a></li>
-				</ul>
-			</nav>
-		</header>
+		<Header />
 
 		<main id="content">
 			<slot />
 		</main>
 
-		<footer class="wrapper">
-			<nav aria-label={t("footer.nav_label")}>
-				<ul>
-					<li>{t("shared.language")}</li>
-					{
-						Object.entries(languages).map(([lang, label]) => (
-							<li>
-								<a href={translatePath(getUrlWithoutLang(Astro.url), lang)}>
-									{label}
-								</a>
-							</li>
-						))
-					}
-				</ul>
-			</nav>
-		</footer>
+		<Footer />
 	</body>
 </html>
