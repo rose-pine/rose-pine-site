@@ -390,20 +390,20 @@
 		"has_variants": false
 	},
 	{
-		"name": "Tilix",
-		"url": "https://github.com/annappropriate/rose-pine-tilix",
-		"tags": ["app", "terminal-emulator"],
-		"authors": [
-			{ "name": "Anna Z", "url": "https://github.com/annappropriate" }
-		],
-		"has_variants": true
-	},
-	{
 		"name": "Thunderbird",
 		"url": "https://github.com/graknow/thunderbird",
 		"tags": ["app"],
 		"authors": [
 			{ "name": "Grant K", "url": "https://github.com/graknow" }
+		],
+		"has_variants": true
+	},
+	{
+		"name": "Tilix",
+		"url": "https://github.com/annappropriate/rose-pine-tilix",
+		"tags": ["app", "terminal-emulator"],
+		"authors": [
+			{ "name": "Anna Z", "url": "https://github.com/annappropriate" }
 		],
 		"has_variants": true
 	},
