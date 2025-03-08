@@ -1,11 +1,23 @@
 [
   {
+    "description": "Soho vibes for Obsidian",
+    "homepageUrl": "",
+    "name": "obsidian",
+    "repositoryTopics": [
+      "app"
+    ],
+    "stargazerCount": 11,
+    "updatedAt": "2025-03-07T03:08:01Z",
+    "url": "https://github.com/rose-pine/obsidian",
+    "usesCustomOpenGraphImage": false
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 95,
-    "updatedAt": "2025-03-06T00:16:32Z",
+    "updatedAt": "2025-03-07T00:16:16Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -38,8 +50,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 262,
-    "updatedAt": "2025-03-02T22:55:14Z",
+    "stargazerCount": 263,
+    "updatedAt": "2025-03-07T10:35:36Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -59,22 +71,10 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2519,
-    "updatedAt": "2025-03-06T20:38:21Z",
+    "stargazerCount": 2521,
+    "updatedAt": "2025-03-07T23:29:21Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Obsidian",
-    "homepageUrl": "",
-    "name": "obsidian",
-    "repositoryTopics": [
-      "app"
-    ],
-    "stargazerCount": 11,
-    "updatedAt": "2025-03-01T19:26:00Z",
-    "url": "https://github.com/rose-pine/obsidian",
-    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Soho vibes for Cosmic desktop ",
@@ -808,8 +808,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 99,
-    "updatedAt": "2025-03-01T07:34:38Z",
+    "stargazerCount": 100,
+    "updatedAt": "2025-03-07T07:49:26Z",
     "url": "https://github.com/rose-pine/kitty",
     "usesCustomOpenGraphImage": true
   },
