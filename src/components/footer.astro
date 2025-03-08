@@ -1,6 +1,5 @@
 ---
-import { Image } from "astro:assets";
-import badgeImage from "../assets/badge.svg";
+import BadgeIcon from "../assets/badge.svg";
 import { languages } from "../i18n/ui";
 import {
 	getLangFromUrl,
@@ -77,13 +76,7 @@ let socialItems = [
 
 		<div class="flex self-start md:justify-end">
 			<a href={translatePath("/")} class="shrink-0">
-				<Image
-					width="36"
-					height="36"
-					src={badgeImage}
-					alt="Rosé Pine badge"
-					loading="lazy"
-				/>
+				<BadgeIcon size="36" />
 			</a>
 		</div>
 	</nav>
