@@ -1,5 +1,43 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 95,
+    "updatedAt": "2025-03-08T19:32:33Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Firefox",
+    "homepageUrl": "",
+    "name": "firefox",
+    "repositoryTopics": [
+      "firefox",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "firefox-addon",
+      "addon",
+      "firefox-extension"
+    ],
+    "stargazerCount": 65,
+    "updatedAt": "2025-03-08T19:30:36Z",
+    "url": "https://github.com/rose-pine/firefox",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for anytype",
+    "homepageUrl": "",
+    "name": "anytype",
+    "repositoryTopics": [],
+    "stargazerCount": 7,
+    "updatedAt": "2025-03-08T19:01:27Z",
+    "url": "https://github.com/rose-pine/anytype",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Obsidian",
     "homepageUrl": "",
     "name": "obsidian",
@@ -7,19 +45,9 @@
       "app"
     ],
     "stargazerCount": 11,
-    "updatedAt": "2025-03-07T03:08:01Z",
+    "updatedAt": "2025-03-08T02:46:26Z",
     "url": "https://github.com/rose-pine/obsidian",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 95,
-    "updatedAt": "2025-03-07T00:16:16Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Visual Studio Code",
@@ -50,8 +78,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 263,
-    "updatedAt": "2025-03-07T10:35:36Z",
+    "stargazerCount": 262,
+    "updatedAt": "2025-03-08T20:43:23Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -71,8 +99,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2521,
-    "updatedAt": "2025-03-07T23:29:21Z",
+    "stargazerCount": 2523,
+    "updatedAt": "2025-03-08T19:48:40Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -361,16 +389,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for anytype",
-    "homepageUrl": "",
-    "name": "anytype",
-    "repositoryTopics": [],
-    "stargazerCount": 7,
-    "updatedAt": "2025-03-03T15:39:14Z",
-    "url": "https://github.com/rose-pine/anytype",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Userstyles",
     "homepageUrl": "",
     "name": "userstyles",
@@ -488,8 +506,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 180,
-    "updatedAt": "2025-03-06T04:06:35Z",
+    "stargazerCount": 181,
+    "updatedAt": "2025-03-08T17:05:49Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -854,24 +872,6 @@
     "stargazerCount": 1,
     "updatedAt": "2024-09-16T17:27:27Z",
     "url": "https://github.com/rose-pine/pywal",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Firefox",
-    "homepageUrl": "",
-    "name": "firefox",
-    "repositoryTopics": [
-      "firefox",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "firefox-addon",
-      "addon",
-      "firefox-extension"
-    ],
-    "stargazerCount": 65,
-    "updatedAt": "2025-02-27T19:29:57Z",
-    "url": "https://github.com/rose-pine/firefox",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -1546,14 +1546,14 @@
   {
     "description": "Soho vibes for Discord RPC Maker",
     "homepageUrl": "",
-    "name": "discordrpcmaker",
+    "name": "discord-rpc-maker",
     "repositoryTopics": [
       "theme",
       "discord"
     ],
     "stargazerCount": 1,
-    "updatedAt": "2023-04-09T20:37:05Z",
-    "url": "https://github.com/rose-pine/discordrpcmaker",
+    "updatedAt": "2025-03-08T19:27:04Z",
+    "url": "https://github.com/rose-pine/discord-rpc-maker",
     "usesCustomOpenGraphImage": false
   },
   {
