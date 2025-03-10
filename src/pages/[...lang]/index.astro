@@ -1,13 +1,13 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import { useTranslatedPath, useTranslations } from "../../i18n/utilities";
+import {
+	getLangPaths,
+	useTranslatedPath,
+	useTranslations,
+} from "../../i18n/utilities";
 
 export async function getStaticPaths() {
-	return [
-		{ params: { lang: "en" } },
-		{ params: { lang: "it" } },
-		{ params: { lang: undefined } },
-	] as const;
+	return getLangPaths();
 }
 
 let { lang = "en" } = Astro.params;

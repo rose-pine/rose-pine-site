@@ -1,5 +1,23 @@
 import { ui, defaultLang, showDefaultLang, languages } from "./ui";
 
+type LangParam = {
+	lang: keyof typeof languages | undefined;
+};
+
+export function getLangPaths(): Array<{ params: LangParam }> {
+	const paths: Array<{ params: LangParam }> = Object.keys(languages).map(
+		(lang) => ({
+			params: { lang: lang as keyof typeof languages },
+		}),
+	);
+
+	if (!showDefaultLang) {
+		paths.push({ params: { lang: undefined } });
+	}
+
+	return paths;
+}
+
 export function getUrlWithoutLang(url: URL) {
 	let [, lang] = url.pathname.split("/");
 	if (lang in languages) {
