@@ -1,0 +1,61 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import BoxIcon from "../../../assets/box.svg";
+import {
+	getLangPaths,
+	useTranslatedPath,
+	useTranslations,
+} from "../../../i18n/utilities";
+import { getSortedRepos } from "../../../utilities";
+
+export async function getStaticPaths() {
+	return getLangPaths();
+}
+
+let { lang = "en" } = Astro.params;
+let t = useTranslations(lang);
+let translatePath = useTranslatedPath(lang);
+
+let sortedRepos = getSortedRepos();
+---
+
+<Layout title={t("themes.title")} description={t("themes.description")}>
+	<section class="wrapper">
+		<h1
+			class="animate-enter mb-4 max-w-2xl text-4xl font-bold tracking-tight text-balance sm:text-6xl"
+			style="--stagger: 1"
+		>
+			{t("themes.title")}
+		</h1>
+		<p
+			class="animate-enter text-subtle mb-12 max-w-md font-serif text-xl italic"
+			style="--stagger: 2"
+		>
+			{t("themes.description")}
+		</p>
+	</section>
+
+	<div class="h-page-top"></div>
+
+	<section
+		class="wrapper animate-enter grid grid-cols-2 gap-5 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
+		style="--stagger: 3"
+	>
+		{
+			sortedRepos.map((repo) => (
+				<article>
+					<a
+						href={translatePath(`/themes/${repo.slug}`)}
+						aria-labelledby={repo.slug}
+						class="group border-overlay bg-surface hover:border-iris/20 hover:bg-iris/5 relative isolate flex h-full flex-col gap-2.5 rounded-2xl border p-5 transition"
+					>
+						<BoxIcon size={20} class="text-subtle" />
+						<h2 id={repo.slug} class="font-medium">
+							{repo.name}
+						</h2>
+					</a>
+				</article>
+			))
+		}
+	</section>
+</Layout>
