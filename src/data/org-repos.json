@@ -1,5 +1,30 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 95,
+    "updatedAt": "2025-03-13T00:16:40Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Kvantum",
+    "homepageUrl": "",
+    "name": "kvantum",
+    "repositoryTopics": [
+      "kvantum",
+      "rose-pine",
+      "soho-vibes",
+      "theme"
+    ],
+    "stargazerCount": 0,
+    "updatedAt": "2025-03-13T15:06:19Z",
+    "url": "https://github.com/rose-pine/kvantum",
+    "usesCustomOpenGraphImage": false
+  },
+  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -15,19 +40,9 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2529,
-    "updatedAt": "2025-03-12T19:36:41Z",
+    "stargazerCount": 2531,
+    "updatedAt": "2025-03-13T07:21:48Z",
     "url": "https://github.com/rose-pine/neovim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 95,
-    "updatedAt": "2025-03-12T00:16:18Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -84,8 +99,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 516,
-    "updatedAt": "2025-03-12T17:33:33Z",
+    "stargazerCount": 517,
+    "updatedAt": "2025-03-13T13:16:44Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -205,8 +220,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 200,
-    "updatedAt": "2025-03-12T20:31:08Z",
+    "stargazerCount": 201,
+    "updatedAt": "2025-03-13T00:19:24Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -383,8 +398,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 17,
-    "updatedAt": "2025-02-03T05:32:30Z",
+    "stargazerCount": 18,
+    "updatedAt": "2025-03-13T03:27:12Z",
     "url": "https://github.com/rose-pine/rofi",
     "usesCustomOpenGraphImage": true
   },
@@ -691,8 +706,8 @@
       "theme",
       "window-manager"
     ],
-    "stargazerCount": 13,
-    "updatedAt": "2024-12-17T21:32:12Z",
+    "stargazerCount": 14,
+    "updatedAt": "2025-03-13T03:23:24Z",
     "url": "https://github.com/rose-pine/i3",
     "usesCustomOpenGraphImage": true
   },
@@ -826,8 +841,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 100,
-    "updatedAt": "2025-03-07T07:49:26Z",
+    "stargazerCount": 101,
+    "updatedAt": "2025-03-13T03:24:16Z",
     "url": "https://github.com/rose-pine/kitty",
     "usesCustomOpenGraphImage": true
   },
@@ -946,8 +961,8 @@
       "app",
       "theme"
     ],
-    "stargazerCount": 6,
-    "updatedAt": "2025-02-07T23:37:46Z",
+    "stargazerCount": 7,
+    "updatedAt": "2025-03-13T03:27:27Z",
     "url": "https://github.com/rose-pine/polybar",
     "usesCustomOpenGraphImage": true
   },
