@@ -1,5 +1,35 @@
 [
   {
+    "description": "",
+    "homepageUrl": "",
+    "name": "rose-pine-bloom",
+    "repositoryTopics": [],
+    "stargazerCount": 2,
+    "updatedAt": "2025-03-14T17:10:05Z",
+    "url": "https://github.com/rose-pine/rose-pine-bloom",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "Theme generator for Rosé Pine",
+    "homepageUrl": "https://www.npmjs.com/package/@rose-pine/build",
+    "name": "build",
+    "repositoryTopics": [],
+    "stargazerCount": 24,
+    "updatedAt": "2025-02-24T00:56:27Z",
+    "url": "https://github.com/rose-pine/build",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 95,
+    "updatedAt": "2025-03-14T00:15:56Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Kvantum",
     "homepageUrl": "",
     "name": "kvantum",
@@ -13,16 +43,6 @@
     "updatedAt": "2025-03-13T17:15:28Z",
     "url": "https://github.com/rose-pine/kvantum",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 95,
-    "updatedAt": "2025-03-13T15:29:21Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Neovim",
@@ -40,8 +60,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2531,
-    "updatedAt": "2025-03-13T07:21:48Z",
+    "stargazerCount": 2530,
+    "updatedAt": "2025-03-14T08:01:00Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -80,8 +100,8 @@
     "repositoryTopics": [
       "app"
     ],
-    "stargazerCount": 11,
-    "updatedAt": "2025-03-08T02:46:26Z",
+    "stargazerCount": 12,
+    "updatedAt": "2025-03-14T16:51:59Z",
     "url": "https://github.com/rose-pine/obsidian",
     "usesCustomOpenGraphImage": false
   },
@@ -114,8 +134,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 265,
-    "updatedAt": "2025-03-13T19:38:14Z",
+    "stargazerCount": 266,
+    "updatedAt": "2025-03-14T16:20:25Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -159,16 +179,6 @@
     "updatedAt": "2025-03-12T03:11:53Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Theme generator for Rosé Pine",
-    "homepageUrl": "https://www.npmjs.com/package/@rose-pine/build",
-    "name": "build",
-    "repositoryTopics": [],
-    "stargazerCount": 24,
-    "updatedAt": "2025-02-24T00:56:27Z",
-    "url": "https://github.com/rose-pine/build",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for GRUB 2",
@@ -236,20 +246,10 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1313,
-    "updatedAt": "2025-03-11T15:03:07Z",
+    "stargazerCount": 1315,
+    "updatedAt": "2025-03-14T23:33:33Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "",
-    "homepageUrl": "",
-    "name": "rose-pine-bloom",
-    "repositoryTopics": [],
-    "stargazerCount": 1,
-    "updatedAt": "2025-02-24T00:56:21Z",
-    "url": "https://github.com/rose-pine/rose-pine-bloom",
-    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Soho vibes for Zellij",
@@ -597,8 +597,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 90,
-    "updatedAt": "2025-03-12T03:06:18Z",
+    "stargazerCount": 91,
+    "updatedAt": "2025-03-14T20:42:46Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -841,8 +841,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 101,
-    "updatedAt": "2025-03-13T03:24:16Z",
+    "stargazerCount": 102,
+    "updatedAt": "2025-03-14T11:04:31Z",
     "url": "https://github.com/rose-pine/kitty",
     "usesCustomOpenGraphImage": true
   },
@@ -900,8 +900,8 @@
       "terminal",
       "theme"
     ],
-    "stargazerCount": 22,
-    "updatedAt": "2025-03-12T17:33:38Z",
+    "stargazerCount": 23,
+    "updatedAt": "2025-03-14T17:45:14Z",
     "url": "https://github.com/rose-pine/btop",
     "usesCustomOpenGraphImage": true
   },
