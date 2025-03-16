@@ -1,5 +1,25 @@
 [
   {
+    "description": "Soho vibes for Zed",
+    "homepageUrl": "",
+    "name": "zed",
+    "repositoryTopics": [],
+    "stargazerCount": 23,
+    "updatedAt": "2025-03-15T23:46:08Z",
+    "url": "https://github.com/rose-pine/zed",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 95,
+    "updatedAt": "2025-03-15T00:16:04Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "",
     "homepageUrl": "",
     "name": "rose-pine-bloom",
@@ -17,16 +37,6 @@
     "stargazerCount": 24,
     "updatedAt": "2025-02-24T00:56:27Z",
     "url": "https://github.com/rose-pine/build",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 95,
-    "updatedAt": "2025-03-14T00:15:56Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -162,8 +172,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 82,
-    "updatedAt": "2025-03-12T22:05:28Z",
+    "stargazerCount": 83,
+    "updatedAt": "2025-03-15T16:06:24Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
@@ -246,8 +256,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1315,
-    "updatedAt": "2025-03-14T23:33:33Z",
+    "stargazerCount": 1316,
+    "updatedAt": "2025-03-15T11:01:47Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -499,16 +509,6 @@
     "stargazerCount": 26,
     "updatedAt": "2025-03-01T17:42:56Z",
     "url": "https://github.com/rose-pine/surfingkeys",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Zed",
-    "homepageUrl": "",
-    "name": "zed",
-    "repositoryTopics": [],
-    "stargazerCount": 23,
-    "updatedAt": "2025-03-06T18:37:52Z",
-    "url": "https://github.com/rose-pine/zed",
     "usesCustomOpenGraphImage": true
   },
   {
