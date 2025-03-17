@@ -1,22 +1,22 @@
 [
   {
-    "description": "Soho vibes for Zed",
-    "homepageUrl": "",
-    "name": "zed",
-    "repositoryTopics": [],
-    "stargazerCount": 23,
-    "updatedAt": "2025-03-15T23:46:08Z",
-    "url": "https://github.com/rose-pine/zed",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 95,
-    "updatedAt": "2025-03-15T00:16:04Z",
+    "updatedAt": "2025-03-16T00:17:50Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Zed",
+    "homepageUrl": "",
+    "name": "zed",
+    "repositoryTopics": [],
+    "stargazerCount": 24,
+    "updatedAt": "2025-03-16T23:25:26Z",
+    "url": "https://github.com/rose-pine/zed",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -71,7 +71,7 @@
       "editor"
     ],
     "stargazerCount": 2530,
-    "updatedAt": "2025-03-14T08:01:00Z",
+    "updatedAt": "2025-03-16T04:44:04Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -88,8 +88,8 @@
       "addon",
       "firefox-extension"
     ],
-    "stargazerCount": 65,
-    "updatedAt": "2025-03-08T19:30:36Z",
+    "stargazerCount": 66,
+    "updatedAt": "2025-03-16T21:46:26Z",
     "url": "https://github.com/rose-pine/firefox",
     "usesCustomOpenGraphImage": true
   },
@@ -1090,8 +1090,8 @@
       "rose-pine",
       "soho-vibes"
     ],
-    "stargazerCount": 11,
-    "updatedAt": "2025-02-04T04:57:55Z",
+    "stargazerCount": 12,
+    "updatedAt": "2025-03-16T13:50:21Z",
     "url": "https://github.com/rose-pine/vimium-c",
     "usesCustomOpenGraphImage": true
   },
