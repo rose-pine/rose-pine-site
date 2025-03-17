@@ -26,14 +26,16 @@ let menuItems = [
 
 <div class="h-page-top"></div>
 
-<header class="wrapper h-header-height flex items-center justify-between gap-3">
+<header
+	class="wrapper relative flex items-center justify-between gap-3 py-(--card-gutter) [--badge-size:44px] [--card-gutter:var(--spacing-page-gutter-half)] [--card-inner-radius:calc(var(--card-radius)-(var(--card-gutter)/2))] [--card-radius:1rem]"
+>
 	<div class="z-50">
 		<a
 			title={t("nav.home")}
 			href={translatePath("/")}
 			class="flex items-center gap-3"
 		>
-			<BadgeIcon size={48} class="shrink-0" />
+			<BadgeIcon class="size-(--badge-size) shrink-0" />
 			<span class="font-serif text-xl font-medium tracking-tight italic"
 				>Rosé Pine</span
 			>
@@ -72,7 +74,7 @@ let menuItems = [
 
 	<details class="group/menu block select-none sm:hidden">
 		<summary
-			class="hover:bg-muted/10 relative z-50 flex size-10 cursor-pointer items-center justify-center rounded-xl transition [&::-webkit-details-marker]:hidden"
+			class="hover:bg-muted/10 relative z-50 flex size-(--badge-size) cursor-pointer items-center justify-center rounded-(--card-inner-radius) transition [&::-webkit-details-marker]:hidden"
 		>
 			<svg
 				width="20"
@@ -102,15 +104,16 @@ let menuItems = [
 
 		<nav
 			aria-label={t("header.nav_label")}
-			class="top-page-top bg-surface/80 pt-header-height inset-x-page-gutter-half p-page-gutter-half absolute z-40 rounded-2xl shadow-lg shadow-black/10 backdrop-blur-xl backdrop-saturate-150 transition"
+			class="bg-surface/80 absolute inset-x-(--card-gutter) top-0 z-40 rounded-(--card-radius) pt-(--badge-size) shadow-lg shadow-black/10 backdrop-blur-xl backdrop-saturate-150 transition"
 		>
-			<ul class="flex flex-col items-center">
+			<div class="h-(--card-gutter)"></div>
+			<ul class="flex flex-col p-(--card-gutter)">
 				{
 					menuItems.map((item) => (
-						<li class="w-full">
+						<li>
 							<a
 								href={item.href}
-								class="hover:bg-muted/10 hover:pl-page-gutter-half flex h-14 items-center rounded-lg text-xl font-semibold transition-[background-color,padding]"
+								class="hover:bg-muted/10 hover:pl-page-gutter-half flex h-14 w-full items-center rounded-(--card-inner-radius) text-xl font-semibold transition-[background-color,padding]"
 							>
 								{item.name}
 							</a>
@@ -120,7 +123,7 @@ let menuItems = [
 				<li class="w-full pt-3">
 					<a
 						href={translatePath("/create")}
-						class="group/cta border-text hover:border-gold hover:bg-gold/10 hover:text-gold flex h-14 shrink-0 items-center justify-center gap-4 rounded-lg border pr-5 pl-4 font-serif text-xl italic transition"
+						class="group/cta border-text hover:border-gold hover:bg-gold/10 hover:text-gold flex h-14 shrink-0 items-center justify-center gap-4 rounded-(--card-inner-radius) border pr-5 pl-4 font-serif text-xl italic transition"
 					>
 						<SparklesIcon size={24} stroke-width="1.5" />
 						<span class="pb-px">{t("nav.create")}</span>

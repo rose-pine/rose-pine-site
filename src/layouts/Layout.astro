@@ -30,11 +30,15 @@ let lang = getLangFromUrl(Astro.url);
 			>Skip to main content</a
 		>
 
-		<Header />
+		<div class="grid min-h-dvh grid-rows-[auto_1fr]">
+			<div>
+				<Header />
+			</div>
 
-		<main id="content">
-			<slot />
-		</main>
+			<main id="content" class="py-page-top">
+				<slot />
+			</main>
+		</div>
 
 		<Footer />
 	</body>

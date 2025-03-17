@@ -15,7 +15,6 @@
 	--spacing-page-top: 3rem;
 	--spacing-page-gutter: 2rem;
 	--spacing-page-gutter-half: calc(var(--spacing-page-gutter) / 2);
-	--spacing-header-height: 4rem;
 
 	--color-base: #faf4ed;
 	--color-surface: #fffaf3;
@@ -36,7 +35,6 @@
 
 	@media (width >= theme(--breakpoint-sm)) {
 		--spacing-page-top: 4rem;
-		--spacing-header-height: 5rem;
 	}
 
 	@media (width >= theme(--breakpoint-md)) {
