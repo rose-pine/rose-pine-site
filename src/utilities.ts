@@ -30,6 +30,14 @@ export function getAllSlugs(): string[] {
 	return getAllRepos().map((repo) => repo.slug);
 }
 
+export function getContributor(contributor: string | Contributor): Contributor {
+	// Official themes on GitHub only include the username
+	if (typeof contributor === "string") {
+		return { name: contributor, url: `https://github.com/${contributor}` };
+	}
+	return contributor;
+}
+
 export function getContributorCount(): number {
 	return new Set([
 		...contributors,

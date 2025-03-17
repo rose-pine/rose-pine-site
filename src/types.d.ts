@@ -10,3 +10,8 @@ type Repo = {
 	stargazerCount?: number;
 	[key?: string]: any;
 };
+
+type Contributor = {
+	name: string;
+	url?: string;
+};

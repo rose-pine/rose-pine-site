@@ -1,0 +1,162 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import BoxIcon from "../../../assets/box.svg";
+import FlowerIcon from "../../../assets/flower.svg";
+import {
+	useTranslations,
+	useTranslatedPath,
+	getLangFromUrl,
+	getLangPaths,
+} from "../../../i18n/utilities";
+import { getAllSlugs, getContributor, getRepoBySlug } from "../../../utilities";
+
+export function getStaticPaths() {
+	const slugs = getAllSlugs();
+	return getLangPaths().flatMap((langPath) =>
+		slugs.map((slug) => {
+			const repo = getRepoBySlug(slug);
+			if (!repo) {
+				throw new Error(`No repo found for slug: ${slug}`);
+			}
+			return {
+				params: {
+					lang: langPath.params.lang,
+					theme: slug,
+				},
+				props: { repo },
+			};
+		}),
+	);
+}
+
+let lang = getLangFromUrl(Astro.url);
+let t = useTranslations(lang);
+let translatePath = useTranslatedPath(lang);
+
+let { repo } = Astro.props;
+---
+
+<Layout title={repo.name} description={repo.description}>
+	<div class="wrapper flex flex-col gap-12">
+		<div
+			class="animate-enter mb-12 flex items-center justify-between gap-3"
+			style="--stagger: 1"
+		>
+			<a
+				href={translatePath("/themes")}
+				class="hover:bg-muted/10 text-subtle hover:text-text rounded-full py-1.5 pr-4 pl-3 text-sm font-medium transition before:pr-1.5 before:content-['←']"
+				>All themes</a
+			>
+		</div>
+
+		<div class="flex flex-wrap justify-between gap-12 md:flex-nowrap">
+			<article>
+				<div>
+					<div
+						class="bg-gold/10 animate-enter text-gold mb-8 flex size-12 items-center justify-center rounded-lg"
+						style="--stagger: 1"
+					>
+						<BoxIcon size={32} />
+					</div>
+					<h1
+						class="animate-enter mb-4 max-w-2xl text-4xl font-bold tracking-tight text-balance sm:text-6xl"
+						style="--stagger: 1"
+					>
+						{repo.name}
+					</h1>
+					<p
+						class="animate-enter text-subtle mb-12 max-w-md font-serif text-xl italic"
+						style="--stagger: 2"
+					>
+						{repo.description}
+					</p>
+				</div>
+				<div class="flex items-center gap-5">
+					<a
+						href={repo.url}
+						class="animate-enter border-muted/20 bg-muted/10 hover:bg-muted/15 flex shrink-0 items-center gap-2.5 rounded-lg border px-4 py-2.5 font-medium shadow-sm transition select-none"
+						style="--stagger: 2.5"
+					>
+						Visit repository
+					</a>
+				</div>
+			</article>
+
+			<aside
+				class="bg-surface border-muted/20 animate-enter flex w-full flex-col gap-8 self-start rounded-xl border px-6 py-5 md:max-w-2xs"
+				style="--stagger: 3"
+			>
+				<div>
+					<h2 class="mb-4 font-bold">Contributors</h2>
+					<ul role="list" class="flex flex-col gap-2">
+						{
+							repo.contributors.map((contributor) => {
+								let { name, url } = getContributor(contributor);
+								return (
+									<li>
+										<a
+											href={url ?? "#!"}
+											class="inline-flex items-center gap-2 font-medium"
+										>
+											{url?.startsWith("https://github.com") ? (
+												<img
+													width="20"
+													height="20"
+													src={"https://github.com/" + name + ".png?size=80"}
+													alt={name}
+													class="border-muted/10 rounded-md border"
+												/>
+											) : (
+												<div class="bg-gold/10 border-gold/10 flex size-5 items-center justify-center rounded-md border">
+													<FlowerIcon size={16} class="text-gold" />
+												</div>
+											)}
+											{name}
+										</a>
+									</li>
+								);
+							})
+						}
+					</ul>
+				</div>
+
+				{
+					repo.tags.length > 0 ? (
+						<div>
+							<h2 class="mb-4 font-bold">Tags</h2>
+							<ul role="list" class="flex flex-wrap gap-2">
+								{repo.tags.map((tag) => (
+									<li class="bg-foam/5 border-foam/20 text-foam inline-flex items-center rounded-full border px-2 text-xs/5 font-medium capitalize">
+										{tag}
+									</li>
+								))}
+							</ul>
+						</div>
+					) : (
+						""
+					)
+				}
+
+				{
+					repo.updatedAt ? (
+						<div>
+							<time
+								datetime={repo.updatedAt}
+								class="text-subtle text-sm font-medium italic"
+							>
+								Updated on{" "}
+								{new Date(repo.updatedAt).toLocaleDateString([lang, "en"], {
+									year: "numeric",
+									month: "long",
+									day: "numeric",
+								})}
+							</time>
+						</div>
+					) : (
+						""
+					)
+				}
+			</aside>
+		</div>
+	</div>
+</Layout>
