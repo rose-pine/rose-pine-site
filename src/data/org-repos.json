@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 95,
-    "updatedAt": "2025-03-18T00:16:21Z",
+    "updatedAt": "2025-03-19T00:16:37Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -70,8 +70,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2531,
-    "updatedAt": "2025-03-17T14:57:00Z",
+    "stargazerCount": 2532,
+    "updatedAt": "2025-03-19T21:52:48Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -111,7 +111,7 @@
       "app"
     ],
     "stargazerCount": 12,
-    "updatedAt": "2025-03-14T16:51:59Z",
+    "updatedAt": "2025-03-19T11:31:43Z",
     "url": "https://github.com/rose-pine/obsidian",
     "usesCustomOpenGraphImage": false
   },
@@ -256,8 +256,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1317,
-    "updatedAt": "2025-03-18T15:58:55Z",
+    "stargazerCount": 1318,
+    "updatedAt": "2025-03-19T15:08:34Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -300,8 +300,8 @@
       "soho-vibes",
       "theme"
     ],
-    "stargazerCount": 10,
-    "updatedAt": "2025-01-21T07:10:57Z",
+    "stargazerCount": 11,
+    "updatedAt": "2025-03-19T20:33:55Z",
     "url": "https://github.com/rose-pine/tm-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -597,8 +597,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 92,
-    "updatedAt": "2025-03-17T20:51:09Z",
+    "stargazerCount": 93,
+    "updatedAt": "2025-03-19T23:40:57Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -900,8 +900,8 @@
       "terminal",
       "theme"
     ],
-    "stargazerCount": 24,
-    "updatedAt": "2025-03-17T01:47:04Z",
+    "stargazerCount": 25,
+    "updatedAt": "2025-03-19T09:07:28Z",
     "url": "https://github.com/rose-pine/btop",
     "usesCustomOpenGraphImage": true
   },
@@ -1017,8 +1017,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 5,
-    "updatedAt": "2024-05-22T03:48:03Z",
+    "stargazerCount": 6,
+    "updatedAt": "2025-03-19T21:53:56Z",
     "url": "https://github.com/rose-pine/xresources",
     "usesCustomOpenGraphImage": true
   },
@@ -1536,8 +1536,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 34,
-    "updatedAt": "2025-03-17T20:47:30Z",
+    "stargazerCount": 35,
+    "updatedAt": "2025-03-19T06:42:16Z",
     "url": "https://github.com/rose-pine/terminal.app",
     "usesCustomOpenGraphImage": true
   },
