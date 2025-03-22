@@ -19,7 +19,7 @@ let menuItems = [
 
 <div aria-hidden="true" class="max-w-content relative mx-auto">
 	<div
-		class="from-gold/50 via-rose/70 to-iris pointer-events-none absolute -top-44 -right-60 -z-10 h-60 w-[36rem] -rotate-12 transform-gpu rounded-full bg-linear-to-r from-30% via-70% blur-3xl md:right-0"
+		class="pointer-events-none absolute -top-44 -right-60 -z-10 h-60 w-[36rem] -rotate-12 transform-gpu rounded-full bg-linear-to-r from-gold/50 from-30% via-rose/70 via-70% to-iris blur-3xl md:right-0"
 	>
 	</div>
 </div>
@@ -49,7 +49,7 @@ let menuItems = [
 					<li>
 						<a
 							href={item.href}
-							class="hover:bg-muted/10 inline-block h-8 rounded-lg px-3 leading-8 font-medium transition"
+							class="inline-block h-8 rounded-lg px-3 leading-8 font-medium transition hover:bg-muted/10"
 						>
 							{item.name}
 						</a>
@@ -59,7 +59,7 @@ let menuItems = [
 			<li class="pl-3">
 				<a
 					href={translatePath("/create")}
-					class="group/cta border-text hover:border-gold hover:bg-gold/10 hover:text-gold flex h-8 shrink-0 items-center gap-2 rounded-lg border pr-4 pl-3 font-serif leading-8 italic transition"
+					class="group/cta flex h-8 shrink-0 items-center gap-2 rounded-lg border border-text pr-4 pl-3 font-serif leading-8 italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
 				>
 					<SparklesIcon
 						size={16}
@@ -74,7 +74,7 @@ let menuItems = [
 
 	<details class="group/menu block select-none sm:hidden">
 		<summary
-			class="hover:bg-muted/10 relative z-50 flex size-(--badge-size) cursor-pointer items-center justify-center rounded-(--card-inner-radius) transition [&::-webkit-details-marker]:hidden"
+			class="relative z-50 flex size-(--badge-size) cursor-pointer items-center justify-center rounded-(--card-inner-radius) transition hover:bg-muted/10 [&::-webkit-details-marker]:hidden"
 		>
 			<svg
 				width="20"
@@ -104,7 +104,7 @@ let menuItems = [
 
 		<nav
 			aria-label={t("header.nav_label")}
-			class="bg-surface/80 absolute inset-x-(--card-gutter) top-0 z-40 rounded-(--card-radius) pt-(--badge-size) shadow-lg shadow-black/10 backdrop-blur-xl backdrop-saturate-150 transition"
+			class="absolute inset-x-(--card-gutter) top-0 z-40 rounded-(--card-radius) bg-surface/80 pt-(--badge-size) shadow-lg shadow-black/10 backdrop-blur-xl backdrop-saturate-150 transition"
 		>
 			<div class="h-(--card-gutter)"></div>
 			<ul class="flex flex-col p-(--card-gutter)">
@@ -113,7 +113,7 @@ let menuItems = [
 						<li>
 							<a
 								href={item.href}
-								class="hover:bg-muted/10 hover:pl-page-gutter-half flex h-14 w-full items-center rounded-(--card-inner-radius) text-xl font-semibold transition-[background-color,padding]"
+								class="flex h-14 w-full items-center rounded-(--card-inner-radius) text-xl font-semibold transition-[background-color,padding] hover:bg-muted/10 hover:pl-page-gutter-half"
 							>
 								{item.name}
 							</a>
@@ -123,7 +123,7 @@ let menuItems = [
 				<li class="w-full pt-3">
 					<a
 						href={translatePath("/create")}
-						class="group/cta border-text hover:border-gold hover:bg-gold/10 hover:text-gold flex h-14 shrink-0 items-center justify-center gap-4 rounded-(--card-inner-radius) border pr-5 pl-4 font-serif text-xl italic transition"
+						class="group/cta flex h-14 shrink-0 items-center justify-center gap-4 rounded-(--card-inner-radius) border border-text pr-5 pl-4 font-serif text-xl italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
 					>
 						<SparklesIcon size={24} stroke-width="1.5" />
 						<span class="pb-px">{t("nav.create")}</span>

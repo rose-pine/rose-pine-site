@@ -44,7 +44,7 @@ let { repo } = Astro.props;
 		>
 			<a
 				href={translatePath("/themes")}
-				class="hover:bg-muted/10 text-subtle hover:text-text rounded-full py-1.5 pr-4 pl-3 text-sm font-medium transition before:pr-1.5 before:content-['←']"
+				class="rounded-full py-1.5 pr-4 pl-3 text-sm font-medium text-subtle transition before:pr-1.5 before:content-['←'] hover:bg-muted/10 hover:text-text"
 				>All themes</a
 			>
 		</div>
@@ -53,7 +53,7 @@ let { repo } = Astro.props;
 			<article>
 				<div>
 					<div
-						class="bg-gold/10 animate-enter text-gold mb-8 flex size-12 items-center justify-center rounded-lg"
+						class="animate-enter mb-8 flex size-12 items-center justify-center rounded-lg bg-gold/10 text-gold"
 						style="--stagger: 1"
 					>
 						<BoxIcon size={32} />
@@ -65,7 +65,7 @@ let { repo } = Astro.props;
 						{repo.name}
 					</h1>
 					<p
-						class="animate-enter text-subtle mb-12 max-w-md font-serif text-xl italic"
+						class="animate-enter mb-12 max-w-md font-serif text-xl text-subtle italic"
 						style="--stagger: 2"
 					>
 						{repo.description}
@@ -74,7 +74,7 @@ let { repo } = Astro.props;
 				<div class="flex items-center gap-5">
 					<a
 						href={repo.url}
-						class="animate-enter border-muted/20 bg-muted/10 hover:bg-muted/15 flex shrink-0 items-center gap-2.5 rounded-lg border px-4 py-2.5 font-medium shadow-sm transition select-none"
+						class="animate-enter flex shrink-0 items-center gap-2.5 rounded-lg border border-muted/20 bg-muted/10 px-4 py-2.5 font-medium shadow-sm transition select-none hover:bg-muted/15"
 						style="--stagger: 2.5"
 					>
 						Visit repository
@@ -83,7 +83,7 @@ let { repo } = Astro.props;
 			</article>
 
 			<aside
-				class="bg-surface border-muted/20 animate-enter flex w-full flex-col gap-8 self-start rounded-xl border px-6 py-5 md:max-w-2xs"
+				class="animate-enter flex w-full flex-col gap-8 self-start rounded-xl border border-muted/20 bg-surface px-6 py-5 md:max-w-2xs"
 				style="--stagger: 3"
 			>
 				<div>
@@ -104,10 +104,10 @@ let { repo } = Astro.props;
 													height="20"
 													src={"https://github.com/" + name + ".png?size=80"}
 													alt={name}
-													class="border-muted/10 rounded-md border"
+													class="rounded-md border border-muted/10"
 												/>
 											) : (
-												<div class="bg-gold/10 border-gold/10 flex size-5 items-center justify-center rounded-md border">
+												<div class="flex size-5 items-center justify-center rounded-md border border-gold/10 bg-gold/10">
 													<FlowerIcon size={16} class="text-gold" />
 												</div>
 											)}
@@ -126,7 +126,7 @@ let { repo } = Astro.props;
 							<h2 class="mb-4 font-bold">Tags</h2>
 							<ul role="list" class="flex flex-wrap gap-2">
 								{repo.tags.map((tag) => (
-									<li class="bg-foam/5 border-foam/20 text-foam inline-flex items-center rounded-full border px-2 text-xs/5 font-medium capitalize">
+									<li class="inline-flex items-center rounded-full border border-foam/20 bg-foam/5 px-2 text-xs/5 font-medium text-foam capitalize">
 										{tag}
 									</li>
 								))}
@@ -142,7 +142,7 @@ let { repo } = Astro.props;
 						<div>
 							<time
 								datetime={repo.updatedAt}
-								class="text-subtle text-sm font-medium italic"
+								class="text-sm font-medium text-subtle italic"
 							>
 								Updated on{" "}
 								{new Date(repo.updatedAt).toLocaleDateString([lang, "en"], {
