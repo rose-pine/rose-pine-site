@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 95,
-    "updatedAt": "2025-03-23T00:17:53Z",
+    "updatedAt": "2025-03-24T00:17:09Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -70,8 +70,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2540,
-    "updatedAt": "2025-03-23T21:39:07Z",
+    "stargazerCount": 2544,
+    "updatedAt": "2025-03-24T19:31:41Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -144,8 +144,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 266,
-    "updatedAt": "2025-03-14T16:20:25Z",
+    "stargazerCount": 267,
+    "updatedAt": "2025-03-24T19:28:53Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -256,8 +256,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1313,
-    "updatedAt": "2025-03-23T18:55:16Z",
+    "stargazerCount": 1314,
+    "updatedAt": "2025-03-24T12:36:10Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -521,8 +521,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 190,
-    "updatedAt": "2025-03-21T13:22:36Z",
+    "stargazerCount": 191,
+    "updatedAt": "2025-03-24T09:26:30Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -646,8 +646,8 @@
     "homepageUrl": "",
     "name": "rstudio",
     "repositoryTopics": [],
-    "stargazerCount": 1,
-    "updatedAt": "2024-01-14T15:24:18Z",
+    "stargazerCount": 2,
+    "updatedAt": "2025-03-24T17:00:29Z",
     "url": "https://github.com/rose-pine/rstudio",
     "usesCustomOpenGraphImage": true
   },
@@ -931,8 +931,8 @@
       "color",
       "css"
     ],
-    "stargazerCount": 24,
-    "updatedAt": "2025-03-21T10:10:54Z",
+    "stargazerCount": 25,
+    "updatedAt": "2025-03-24T17:11:50Z",
     "url": "https://github.com/rose-pine/palette",
     "usesCustomOpenGraphImage": true
   },
@@ -1245,8 +1245,8 @@
       "bear",
       "hacktoberfest"
     ],
-    "stargazerCount": 9,
-    "updatedAt": "2025-01-09T05:01:43Z",
+    "stargazerCount": 10,
+    "updatedAt": "2025-03-24T17:12:05Z",
     "url": "https://github.com/rose-pine/bear-blog",
     "usesCustomOpenGraphImage": true
   },
