@@ -1,11 +1,38 @@
 [
   {
+    "description": "Soho vibes for Kvantum",
+    "homepageUrl": "",
+    "name": "kvantum",
+    "repositoryTopics": [
+      "kvantum",
+      "rose-pine",
+      "soho-vibes",
+      "theme",
+      "kde",
+      "qt"
+    ],
+    "stargazerCount": 0,
+    "updatedAt": "2025-03-25T22:08:30Z",
+    "url": "https://github.com/rose-pine/kvantum",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "",
+    "homepageUrl": "",
+    "name": "rose-pine-bloom",
+    "repositoryTopics": [],
+    "stargazerCount": 2,
+    "updatedAt": "2025-03-25T12:47:36Z",
+    "url": "https://github.com/rose-pine/rose-pine-bloom",
+    "usesCustomOpenGraphImage": false
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 95,
-    "updatedAt": "2025-03-24T00:17:09Z",
+    "updatedAt": "2025-03-25T00:16:55Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -14,20 +41,10 @@
     "homepageUrl": "",
     "name": "zed",
     "repositoryTopics": [],
-    "stargazerCount": 27,
-    "updatedAt": "2025-03-22T17:39:05Z",
+    "stargazerCount": 28,
+    "updatedAt": "2025-03-25T17:11:58Z",
     "url": "https://github.com/rose-pine/zed",
     "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "",
-    "homepageUrl": "",
-    "name": "rose-pine-bloom",
-    "repositoryTopics": [],
-    "stargazerCount": 2,
-    "updatedAt": "2025-03-14T17:10:05Z",
-    "url": "https://github.com/rose-pine/rose-pine-bloom",
-    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Theme generator for Rosé Pine",
@@ -38,21 +55,6 @@
     "updatedAt": "2025-02-24T00:56:27Z",
     "url": "https://github.com/rose-pine/build",
     "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Kvantum",
-    "homepageUrl": "",
-    "name": "kvantum",
-    "repositoryTopics": [
-      "kvantum",
-      "rose-pine",
-      "soho-vibes",
-      "theme"
-    ],
-    "stargazerCount": 0,
-    "updatedAt": "2025-03-13T17:15:28Z",
-    "url": "https://github.com/rose-pine/kvantum",
-    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Soho vibes for Neovim",
@@ -70,8 +72,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2544,
-    "updatedAt": "2025-03-24T19:31:41Z",
+    "stargazerCount": 2545,
+    "updatedAt": "2025-03-25T11:35:13Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -172,8 +174,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 84,
-    "updatedAt": "2025-03-20T13:21:12Z",
+    "stargazerCount": 86,
+    "updatedAt": "2025-03-25T23:33:48Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
@@ -240,8 +242,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 205,
-    "updatedAt": "2025-03-23T23:19:30Z",
+    "stargazerCount": 206,
+    "updatedAt": "2025-03-25T19:29:55Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
