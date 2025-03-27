@@ -12,7 +12,7 @@
       "qt"
     ],
     "stargazerCount": 0,
-    "updatedAt": "2025-03-25T22:08:30Z",
+    "updatedAt": "2025-03-26T18:21:54Z",
     "url": "https://github.com/rose-pine/kvantum",
     "usesCustomOpenGraphImage": false
   },
@@ -22,7 +22,7 @@
     "name": "rose-pine-bloom",
     "repositoryTopics": [],
     "stargazerCount": 2,
-    "updatedAt": "2025-03-25T12:47:36Z",
+    "updatedAt": "2025-03-26T11:26:25Z",
     "url": "https://github.com/rose-pine/rose-pine-bloom",
     "usesCustomOpenGraphImage": false
   },
@@ -32,7 +32,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 95,
-    "updatedAt": "2025-03-25T00:16:55Z",
+    "updatedAt": "2025-03-26T00:16:39Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -51,8 +51,8 @@
     "homepageUrl": "https://www.npmjs.com/package/@rose-pine/build",
     "name": "build",
     "repositoryTopics": [],
-    "stargazerCount": 24,
-    "updatedAt": "2025-02-24T00:56:27Z",
+    "stargazerCount": 25,
+    "updatedAt": "2025-03-26T23:59:08Z",
     "url": "https://github.com/rose-pine/build",
     "usesCustomOpenGraphImage": true
   },
@@ -131,8 +131,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 517,
-    "updatedAt": "2025-03-23T14:53:19Z",
+    "stargazerCount": 518,
+    "updatedAt": "2025-03-26T01:53:22Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -174,8 +174,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 86,
-    "updatedAt": "2025-03-25T23:33:48Z",
+    "stargazerCount": 87,
+    "updatedAt": "2025-03-26T19:57:26Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
@@ -187,8 +187,8 @@
       "shell",
       "terminal"
     ],
-    "stargazerCount": 30,
-    "updatedAt": "2025-03-21T18:42:30Z",
+    "stargazerCount": 31,
+    "updatedAt": "2025-03-26T09:58:39Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
   },
@@ -933,8 +933,8 @@
       "color",
       "css"
     ],
-    "stargazerCount": 25,
-    "updatedAt": "2025-03-24T17:11:50Z",
+    "stargazerCount": 26,
+    "updatedAt": "2025-03-26T23:58:39Z",
     "url": "https://github.com/rose-pine/palette",
     "usesCustomOpenGraphImage": true
   },
