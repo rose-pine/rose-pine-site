@@ -1,0 +1,39 @@
+---
+type Props = {
+	headline: string;
+	subheadline?: string;
+	callout?: string;
+};
+
+let { headline, subheadline, callout } = Astro.props;
+---
+
+<section class="wrapper">
+	<h1
+		class="animate-enter mb-4 max-w-2xl text-4xl font-bold tracking-tight text-balance"
+		style="--stagger: 1"
+	>
+		{headline}
+	</h1>
+
+	{
+		subheadline && (
+			<p
+				class="animate-enter mb-2 max-w-md font-serif text-lg text-subtle italic"
+				style="--stagger: 2"
+			>
+				{subheadline}
+			</p>
+		)
+	}
+
+	{
+		callout && (
+			<div class="animate-enter" style="--stagger: 2.25">
+				<p class="inline bg-linear-to-r from-rose via-iris to-foam bg-clip-text text-sm font-medium text-transparent">
+					{callout}
+				</p>
+			</div>
+		)
+	}
+</section>

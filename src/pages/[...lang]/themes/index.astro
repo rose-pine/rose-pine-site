@@ -1,12 +1,13 @@
 ---
 import Layout from "../../../layouts/Layout.astro";
+import IntroSection from "../../../components/intro-section.astro";
 import BoxIcon from "../../../assets/box.svg";
 import {
 	getLangPaths,
 	useTranslatedPath,
 	useTranslations,
 } from "../../../i18n/utilities";
-import { getSortedRepos } from "../../../utilities";
+import { getSortedRepos, getContributorCount } from "../../../utilities";
 
 export async function getStaticPaths() {
 	return getLangPaths();
@@ -17,23 +18,17 @@ let t = useTranslations(lang);
 let translatePath = useTranslatedPath(lang);
 
 let sortedRepos = getSortedRepos();
+
+let repoCount = sortedRepos.length;
+let contributorCount = getContributorCount();
 ---
 
 <Layout title={t("themes.title")} description={t("themes.description")}>
-	<section class="wrapper">
-		<h1
-			class="animate-enter mb-4 max-w-2xl text-4xl font-bold tracking-tight text-balance sm:text-6xl"
-			style="--stagger: 1"
-		>
-			{t("themes.title")}
-		</h1>
-		<p
-			class="animate-enter mb-12 max-w-md font-serif text-xl text-subtle italic"
-			style="--stagger: 2"
-		>
-			{t("themes.description")}
-		</p>
-	</section>
+	<IntroSection
+		headline={t("themes.title")}
+		subheadline={t("themes.description")}
+		callout={`${repoCount} ports & ${contributorCount} contributors`}
+	/>
 
 	<div class="h-page-top"></div>
 

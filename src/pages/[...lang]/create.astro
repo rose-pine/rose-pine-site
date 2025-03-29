@@ -1,5 +1,6 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import IntroSection from "../../components/intro-section.astro";
 import { getLangPaths, useTranslations } from "../../i18n/utilities";
 
 export async function getStaticPaths() {
@@ -11,8 +12,8 @@ let t = useTranslations(lang);
 ---
 
 <Layout title={t("create.title")} description={t("create.description")}>
-	<section class="wrapper">
-		<h1 class="animate-enter" style="--stagger: 1">{t("create.title")}</h1>
-		<p class="animate-enter" style="--stagger: 2">{t("create.description")}</p>
-	</section>
+	<IntroSection
+		headline={t("create.title")}
+		subheadline={t("create.description")}
+	/>
 </Layout>
