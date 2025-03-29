@@ -1,11 +1,25 @@
 [
   {
+    "description": "Soho vibes for TextMate",
+    "homepageUrl": "",
+    "name": "tm-theme",
+    "repositoryTopics": [
+      "rose-pine",
+      "soho-vibes",
+      "theme"
+    ],
+    "stargazerCount": 13,
+    "updatedAt": "2025-03-27T23:33:00Z",
+    "url": "https://github.com/rose-pine/tm-theme",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 95,
-    "updatedAt": "2025-03-27T00:16:25Z",
+    "updatedAt": "2025-03-28T00:16:20Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -72,8 +86,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2547,
-    "updatedAt": "2025-03-27T22:02:53Z",
+    "stargazerCount": 2549,
+    "updatedAt": "2025-03-28T20:42:51Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -146,8 +160,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 269,
-    "updatedAt": "2025-03-27T19:18:31Z",
+    "stargazerCount": 270,
+    "updatedAt": "2025-03-28T11:41:32Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -243,7 +257,7 @@
       "theme"
     ],
     "stargazerCount": 206,
-    "updatedAt": "2025-03-25T19:29:55Z",
+    "updatedAt": "2025-03-28T17:51:38Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -258,8 +272,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1314,
-    "updatedAt": "2025-03-24T12:36:10Z",
+    "stargazerCount": 1315,
+    "updatedAt": "2025-03-28T04:33:55Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -291,20 +305,6 @@
     "stargazerCount": 31,
     "updatedAt": "2025-03-22T17:20:26Z",
     "url": "https://github.com/rose-pine/vim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for TextMate",
-    "homepageUrl": "",
-    "name": "tm-theme",
-    "repositoryTopics": [
-      "rose-pine",
-      "soho-vibes",
-      "theme"
-    ],
-    "stargazerCount": 13,
-    "updatedAt": "2025-03-27T23:33:00Z",
-    "url": "https://github.com/rose-pine/tm-theme",
     "usesCustomOpenGraphImage": true
   },
   {
