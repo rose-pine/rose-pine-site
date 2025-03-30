@@ -15,7 +15,7 @@ priority: 98
    ```sh
    pnpm install && pnpm dev
    ```
-4. Değişiklikleri gerçek zamanda görüntülemek için 
+4. Değişiklikleri gerçek zamanda görüntülemek için
    http://localhost:3000 adresine gidin.
 
 ### Dökümantasyon çevirin
@@ -27,5 +27,5 @@ priority: 98
 ### Sayfa snippet'lerini çevirin
 
 1. `src/locales/{locale}.json` dizininde yeni bir yerel ayar dosyası oluşturun
-2. İngilizce eşdeğer şemayı veya rahat olduğunuz başka bir 
-yerel ayarı referans alın, örneğin `src/locales/en.json`
+2. İngilizce eşdeğer şemayı veya rahat olduğunuz başka bir
+   yerel ayarı referans alın, örneğin `src/locales/en.json`
