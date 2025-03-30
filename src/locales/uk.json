@@ -1,0 +1,70 @@
+{
+	"navigation": {
+		"home": "Головна",
+		"themes": "Теми",
+		"palette": "Палітра",
+		"ingredients": "Складники",
+		"resources": "Ресурси",
+		"languages": "Мови"
+	},
+	"home": {
+		"title": "Щось прекрасне",
+		"description": "Натуральна сосна, штучне хутро та трохи атмосфери Сохо для стильного мінімалізму.",
+		"discover_button": "Переглянути",
+		"feature_card_1": {
+			"title": "Витончена естетика",
+			"description": "Дайте своїм очам заслужений відпочинок із нашою м’якою та комфортною палітрою.",
+			"link": "Наша палітра"
+		},
+		"feature_card_2": {
+			"title": "Гнучкі настрої",
+			"description": "Насолоджуйтесь варіантами, підібраними для кожної години вашого дня.",
+			"link": "Переглянути теми"
+		},
+		"feature_card_3": {
+			"title": "Керовано спільнотою",
+			"description": "Ви допомогли перенести Rosé Pine до понад {{numberOfPorts}} ваших улюблених застосунків.",
+			"link": "Долучитися"
+		}
+	},
+	"themes": {
+		"title": "Теми",
+		"description": "Колекція персоналізації, створена вручну.",
+		"tagline": "{{numberOfPorts}} портів та {{numberOfAuthors}} авторів",
+		"search_label": "Шукати теми..."
+	},
+	"palette": {
+		"title": "Палітра",
+		"description": "Керівні кольори, безмежні творіння.",
+		"tagline": "{{numberOfVariants}} варіантів та {{numberOfColors}} кольорів",
+		"tabs": {
+			"swatches": "Зразки",
+			"ingredients": "Складники"
+		}
+	},
+	"ingredients": {
+		"title": "Складники",
+		"description": "Упорядковані значення кольорів.",
+		"decorations_label": "Оздоблення"
+	},
+	"resources": {
+		"title": "Ресурси",
+		"description": "Легкий інструментарій для учасників.",
+		"help_link": "Звертайтеся за допомогою до нашого Discord"
+	},
+	"global_search": {
+		"trigger": "Пошук",
+		"placeholder": "Шукати сторінки, теми та палітри...",
+		"empty_text": "Нічого не знайдено.",
+		"empty_result_1": "Переглянути всі теми",
+		"empty_result_2": "Зробити внесок до Rosé Pine",
+		"heading_pages": "Сторінки",
+		"heading_themes": "Теми",
+		"heading_featured_themes": "Рекомендовані теми",
+		"heading_palette": "Палітра",
+		"heading_community": "Спільнота"
+	},
+	"shared": {
+		"read_more": "Дізнатися більше"
+	}
+}
