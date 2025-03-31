@@ -1,5 +1,30 @@
 [
   {
+    "description": "Soho vibes for Wallpapers",
+    "homepageUrl": "",
+    "name": "wallpapers",
+    "repositoryTopics": [
+      "wallpapers",
+      "soho-vibes",
+      "rose-pine",
+      "theme"
+    ],
+    "stargazerCount": 207,
+    "updatedAt": "2025-03-30T18:19:52Z",
+    "url": "https://github.com/rose-pine/wallpapers",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 95,
+    "updatedAt": "2025-03-30T17:54:21Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for TextMate",
     "homepageUrl": "",
     "name": "tm-theme",
@@ -11,16 +36,6 @@
     "stargazerCount": 13,
     "updatedAt": "2025-03-29T00:59:55Z",
     "url": "https://github.com/rose-pine/tm-theme",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 95,
-    "updatedAt": "2025-03-29T00:16:18Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -86,8 +101,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2550,
-    "updatedAt": "2025-03-29T22:36:05Z",
+    "stargazerCount": 2557,
+    "updatedAt": "2025-03-31T00:15:29Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -145,8 +160,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 519,
-    "updatedAt": "2025-03-27T16:40:19Z",
+    "stargazerCount": 520,
+    "updatedAt": "2025-03-30T14:33:51Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -160,8 +175,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 270,
-    "updatedAt": "2025-03-28T11:41:32Z",
+    "stargazerCount": 271,
+    "updatedAt": "2025-03-30T14:36:08Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -216,8 +231,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 13,
-    "updatedAt": "2025-02-12T00:04:06Z",
+    "stargazerCount": 14,
+    "updatedAt": "2025-03-30T11:51:39Z",
     "url": "https://github.com/rose-pine/grub",
     "usesCustomOpenGraphImage": true
   },
@@ -247,21 +262,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Wallpapers",
-    "homepageUrl": "",
-    "name": "wallpapers",
-    "repositoryTopics": [
-      "wallpapers",
-      "soho-vibes",
-      "rose-pine",
-      "theme"
-    ],
-    "stargazerCount": 206,
-    "updatedAt": "2025-03-28T17:51:38Z",
-    "url": "https://github.com/rose-pine/wallpapers",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-theme",
@@ -272,8 +272,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1316,
-    "updatedAt": "2025-03-29T17:52:16Z",
+    "stargazerCount": 1319,
+    "updatedAt": "2025-03-30T23:58:22Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -523,8 +523,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 192,
-    "updatedAt": "2025-03-29T22:35:49Z",
+    "stargazerCount": 193,
+    "updatedAt": "2025-03-30T14:36:11Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -665,8 +665,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 111,
-    "updatedAt": "2025-03-23T18:58:40Z",
+    "stargazerCount": 112,
+    "updatedAt": "2025-03-30T14:36:14Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
@@ -843,8 +843,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 102,
-    "updatedAt": "2025-03-14T11:04:31Z",
+    "stargazerCount": 103,
+    "updatedAt": "2025-03-30T14:36:15Z",
     "url": "https://github.com/rose-pine/kitty",
     "usesCustomOpenGraphImage": true
   },
@@ -1555,8 +1555,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 112,
-    "updatedAt": "2025-03-12T17:32:52Z",
+    "stargazerCount": 113,
+    "updatedAt": "2025-03-30T14:36:13Z",
     "url": "https://github.com/rose-pine/iterm",
     "usesCustomOpenGraphImage": true
   },
