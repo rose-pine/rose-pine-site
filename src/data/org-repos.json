@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 95,
+    "updatedAt": "2025-04-02T00:16:58Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Zed",
     "homepageUrl": "",
     "name": "zed",
@@ -7,16 +17,6 @@
     "stargazerCount": 29,
     "updatedAt": "2025-04-01T18:12:36Z",
     "url": "https://github.com/rose-pine/zed",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 95,
-    "updatedAt": "2025-04-01T00:19:20Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -50,8 +50,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 208,
-    "updatedAt": "2025-04-01T05:22:41Z",
+    "stargazerCount": 211,
+    "updatedAt": "2025-04-02T15:27:33Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -160,8 +160,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 520,
-    "updatedAt": "2025-03-30T14:33:51Z",
+    "stargazerCount": 521,
+    "updatedAt": "2025-04-02T16:27:20Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -175,8 +175,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 271,
-    "updatedAt": "2025-03-30T14:36:08Z",
+    "stargazerCount": 272,
+    "updatedAt": "2025-04-02T07:32:34Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -203,8 +203,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 89,
-    "updatedAt": "2025-04-01T04:53:02Z",
+    "stargazerCount": 91,
+    "updatedAt": "2025-04-02T16:46:37Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
@@ -523,8 +523,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 193,
-    "updatedAt": "2025-03-30T14:36:11Z",
+    "stargazerCount": 194,
+    "updatedAt": "2025-04-02T01:35:23Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
