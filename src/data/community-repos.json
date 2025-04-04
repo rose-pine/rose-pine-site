@@ -328,6 +328,15 @@
 		"has_variants": true
 	},
 	{
+		"name": "Roblox Studio",
+		"url": "https://github.com/wintertia/rose-pine-roblox-studio",
+		"tags": ["app","editor","roblox"],
+		"authors": [
+			{ "name": "wintertia", "url": "https://github.com/wintertia" }
+		],
+		"has_variants": true
+	},
+	{
 		"name": "RIME",
 		"url": "https://github.com/0xffan/rose-pine-rime",
 		"tags": [],
