@@ -92,17 +92,22 @@ let { repo } = Astro.props;
 						{
 							repo.contributors.map((contributor) => {
 								let { name, url } = getContributor(contributor);
+								let avatarUrl = "";
+								if (url?.startsWith("https://github.com")) {
+									let username = url.replace("https://github.com/", "");
+									avatarUrl = `https://avatars.githubusercontent.com/${username}?size=80`;
+								}
 								return (
 									<li>
 										<a
 											href={url ?? "#!"}
 											class="inline-flex items-center gap-2 font-medium"
 										>
-											{url?.startsWith("https://github.com") ? (
+											{avatarUrl ? (
 												<img
 													width="20"
 													height="20"
-													src={"https://github.com/" + name + ".png?size=80"}
+													src={avatarUrl}
 													alt={name}
 													class="rounded-md border border-muted/10"
 												/>
