@@ -5,8 +5,22 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 95,
-    "updatedAt": "2025-04-05T00:16:34Z",
+    "updatedAt": "2025-04-06T00:18:11Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Roblox Studio",
+    "homepageUrl": "",
+    "name": "roblox-studio",
+    "repositoryTopics": [
+      "editor",
+      "roblox-studio",
+      "theme"
+    ],
+    "stargazerCount": 1,
+    "updatedAt": "2025-04-06T08:29:34Z",
+    "url": "https://github.com/rose-pine/roblox-studio",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -46,7 +60,7 @@
       "editor"
     ],
     "stargazerCount": 2563,
-    "updatedAt": "2025-04-05T19:23:12Z",
+    "updatedAt": "2025-04-06T22:23:58Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -226,8 +240,8 @@
       "shell",
       "terminal"
     ],
-    "stargazerCount": 32,
-    "updatedAt": "2025-04-03T20:52:19Z",
+    "stargazerCount": 33,
+    "updatedAt": "2025-04-06T14:36:03Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
   },
@@ -282,8 +296,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1327,
-    "updatedAt": "2025-04-05T18:29:02Z",
+    "stargazerCount": 1328,
+    "updatedAt": "2025-04-06T13:57:47Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -382,8 +396,8 @@
     "homepageUrl": "",
     "name": "ghostty",
     "repositoryTopics": [],
-    "stargazerCount": 28,
-    "updatedAt": "2025-04-03T00:46:55Z",
+    "stargazerCount": 29,
+    "updatedAt": "2025-04-06T14:40:06Z",
     "url": "https://github.com/rose-pine/ghostty",
     "usesCustomOpenGraphImage": true
   },
@@ -533,8 +547,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 195,
-    "updatedAt": "2025-04-05T16:25:00Z",
+    "stargazerCount": 194,
+    "updatedAt": "2025-04-06T14:07:03Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -624,8 +638,8 @@
       "tiling-window-manager",
       "theme"
     ],
-    "stargazerCount": 16,
-    "updatedAt": "2025-03-12T09:07:54Z",
+    "stargazerCount": 15,
+    "updatedAt": "2025-04-06T10:27:33Z",
     "url": "https://github.com/rose-pine/hyprland",
     "usesCustomOpenGraphImage": true
   },
@@ -882,8 +896,8 @@
       "theme",
       "color-palette"
     ],
-    "stargazerCount": 29,
-    "updatedAt": "2025-03-20T06:49:03Z",
+    "stargazerCount": 28,
+    "updatedAt": "2025-04-06T10:27:35Z",
     "url": "https://github.com/rose-pine/waybar",
     "usesCustomOpenGraphImage": true
   },
@@ -1194,8 +1208,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 16,
-    "updatedAt": "2025-02-03T03:47:07Z",
+    "stargazerCount": 17,
+    "updatedAt": "2025-04-06T14:40:32Z",
     "url": "https://github.com/rose-pine/xfce-terminal",
     "usesCustomOpenGraphImage": true
   },
