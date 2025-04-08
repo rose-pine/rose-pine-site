@@ -1,11 +1,26 @@
 [
   {
+    "description": "Soho vibes for GTK",
+    "homepageUrl": "",
+    "name": "gtk",
+    "repositoryTopics": [
+      "gtk",
+      "soho-vibes",
+      "theme",
+      "rose-pine"
+    ],
+    "stargazerCount": 272,
+    "updatedAt": "2025-04-07T00:48:51Z",
+    "url": "https://github.com/rose-pine/gtk",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 95,
-    "updatedAt": "2025-04-06T00:18:11Z",
+    "updatedAt": "2025-04-07T00:17:27Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -38,8 +53,8 @@
     "homepageUrl": "",
     "name": "zed",
     "repositoryTopics": [],
-    "stargazerCount": 29,
-    "updatedAt": "2025-04-01T18:12:36Z",
+    "stargazerCount": 30,
+    "updatedAt": "2025-04-07T21:46:57Z",
     "url": "https://github.com/rose-pine/zed",
     "usesCustomOpenGraphImage": true
   },
@@ -59,8 +74,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2563,
-    "updatedAt": "2025-04-06T22:23:58Z",
+    "stargazerCount": 2568,
+    "updatedAt": "2025-04-07T19:11:10Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -125,8 +140,8 @@
     "homepageUrl": "https://www.npmjs.com/package/@rose-pine/build",
     "name": "build",
     "repositoryTopics": [],
-    "stargazerCount": 25,
-    "updatedAt": "2025-03-26T23:59:08Z",
+    "stargazerCount": 26,
+    "updatedAt": "2025-04-07T21:47:11Z",
     "url": "https://github.com/rose-pine/build",
     "usesCustomOpenGraphImage": true
   },
@@ -143,8 +158,8 @@
       "addon",
       "firefox-extension"
     ],
-    "stargazerCount": 66,
-    "updatedAt": "2025-03-16T21:46:26Z",
+    "stargazerCount": 67,
+    "updatedAt": "2025-04-07T18:50:44Z",
     "url": "https://github.com/rose-pine/firefox",
     "usesCustomOpenGraphImage": true
   },
@@ -187,21 +202,6 @@
     "stargazerCount": 522,
     "updatedAt": "2025-04-03T15:49:31Z",
     "url": "https://github.com/rose-pine/vscode",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for GTK",
-    "homepageUrl": "",
-    "name": "gtk",
-    "repositoryTopics": [
-      "gtk",
-      "soho-vibes",
-      "theme",
-      "rose-pine"
-    ],
-    "stargazerCount": 272,
-    "updatedAt": "2025-04-02T07:32:34Z",
-    "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -280,8 +280,8 @@
     "repositoryTopics": [
       "app"
     ],
-    "stargazerCount": 7,
-    "updatedAt": "2025-03-12T17:34:13Z",
+    "stargazerCount": 6,
+    "updatedAt": "2025-04-07T17:58:13Z",
     "url": "https://github.com/rose-pine/zen-browser",
     "usesCustomOpenGraphImage": true
   },
@@ -296,8 +296,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1328,
-    "updatedAt": "2025-04-06T13:57:47Z",
+    "stargazerCount": 1329,
+    "updatedAt": "2025-04-07T09:11:21Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
