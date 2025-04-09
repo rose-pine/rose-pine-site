@@ -257,6 +257,15 @@
 		"has_variants": true
 	},
 	{
+		"name": "NextJS Resume",
+		"url": "https://github.com/hugw/nextjs-resume-rose-pine",
+		"tags": ["web", "ui", "resume"],
+		"authors": [
+			{ "name": "Hugo Wantuil", "url": "https://github.com/hugw" }
+		],
+		"has_variants": true
+	},
+	{
 		"name": "Notepad++",
 		"url": "https://github.com/aaravind100/notepad-plus-plus",
 		"tags": ["app", "editor"],
