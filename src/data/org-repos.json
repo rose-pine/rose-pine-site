@@ -1,11 +1,36 @@
 [
   {
+    "description": "Soho vibes for Userstyles",
+    "homepageUrl": "",
+    "name": "userstyles",
+    "repositoryTopics": [
+      "css",
+      "stylish",
+      "userstyles",
+      "stylus"
+    ],
+    "stargazerCount": 23,
+    "updatedAt": "2025-04-09T15:23:21Z",
+    "url": "https://github.com/rose-pine/userstyles",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for qBittorrent ",
+    "homepageUrl": "",
+    "name": "qbittorrent",
+    "repositoryTopics": [],
+    "stargazerCount": 10,
+    "updatedAt": "2025-04-09T10:50:35Z",
+    "url": "https://github.com/rose-pine/qbittorrent",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 95,
-    "updatedAt": "2025-04-08T00:16:35Z",
+    "updatedAt": "2025-04-09T00:16:49Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -74,8 +99,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2569,
-    "updatedAt": "2025-04-08T20:13:24Z",
+    "stargazerCount": 2573,
+    "updatedAt": "2025-04-09T20:20:34Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -418,16 +443,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for qBittorrent ",
-    "homepageUrl": "",
-    "name": "qbittorrent",
-    "repositoryTopics": [],
-    "stargazerCount": 10,
-    "updatedAt": "2025-02-26T16:10:10Z",
-    "url": "https://github.com/rose-pine/qbittorrent",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Rofi",
     "homepageUrl": "",
     "name": "rofi",
@@ -437,21 +452,6 @@
     "stargazerCount": 18,
     "updatedAt": "2025-03-13T03:27:12Z",
     "url": "https://github.com/rose-pine/rofi",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Userstyles",
-    "homepageUrl": "",
-    "name": "userstyles",
-    "repositoryTopics": [
-      "css",
-      "stylish",
-      "userstyles",
-      "stylus"
-    ],
-    "stargazerCount": 23,
-    "updatedAt": "2025-03-17T20:48:03Z",
-    "url": "https://github.com/rose-pine/userstyles",
     "usesCustomOpenGraphImage": true
   },
   {
