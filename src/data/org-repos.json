@@ -1,5 +1,40 @@
 [
   {
+    "description": "Soho vibes for Zen Browser",
+    "homepageUrl": "",
+    "name": "zen-browser",
+    "repositoryTopics": [
+      "app"
+    ],
+    "stargazerCount": 6,
+    "updatedAt": "2025-04-10T15:57:23Z",
+    "url": "https://github.com/rose-pine/zen-browser",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Starship",
+    "homepageUrl": "",
+    "name": "starship",
+    "repositoryTopics": [
+      "shell",
+      "terminal"
+    ],
+    "stargazerCount": 33,
+    "updatedAt": "2025-04-10T12:52:51Z",
+    "url": "https://github.com/rose-pine/starship",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 95,
+    "updatedAt": "2025-04-10T00:16:31Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Userstyles",
     "homepageUrl": "",
     "name": "userstyles",
@@ -25,16 +60,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 95,
-    "updatedAt": "2025-04-09T00:16:49Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for GTK",
     "homepageUrl": "",
     "name": "gtk",
@@ -44,8 +69,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 272,
-    "updatedAt": "2025-04-07T00:48:51Z",
+    "stargazerCount": 273,
+    "updatedAt": "2025-04-10T16:57:31Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -99,8 +124,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2573,
-    "updatedAt": "2025-04-09T20:20:34Z",
+    "stargazerCount": 2575,
+    "updatedAt": "2025-04-11T00:06:43Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -224,8 +249,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 522,
-    "updatedAt": "2025-04-03T15:49:31Z",
+    "stargazerCount": 524,
+    "updatedAt": "2025-04-10T08:28:58Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -258,19 +283,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Starship",
-    "homepageUrl": "",
-    "name": "starship",
-    "repositoryTopics": [
-      "shell",
-      "terminal"
-    ],
-    "stargazerCount": 33,
-    "updatedAt": "2025-04-06T14:36:03Z",
-    "url": "https://github.com/rose-pine/starship",
-    "usesCustomOpenGraphImage": false
-  },
-  {
     "description": "Soho vibes for GRUB 2",
     "homepageUrl": "",
     "name": "grub",
@@ -296,18 +308,6 @@
     "stargazerCount": 11,
     "updatedAt": "2025-03-17T20:43:39Z",
     "url": "https://github.com/rose-pine/discord-mobile",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Zen Browser",
-    "homepageUrl": "",
-    "name": "zen-browser",
-    "repositoryTopics": [
-      "app"
-    ],
-    "stargazerCount": 6,
-    "updatedAt": "2025-04-07T17:58:13Z",
-    "url": "https://github.com/rose-pine/zen-browser",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -896,8 +896,8 @@
       "theme",
       "color-palette"
     ],
-    "stargazerCount": 28,
-    "updatedAt": "2025-04-06T10:27:35Z",
+    "stargazerCount": 29,
+    "updatedAt": "2025-04-10T14:50:19Z",
     "url": "https://github.com/rose-pine/waybar",
     "usesCustomOpenGraphImage": true
   },
