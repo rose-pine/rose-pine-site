@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 95,
+    "updatedAt": "2025-04-12T00:16:23Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Visual Studio Code",
     "homepageUrl": "https://marketplace.visualstudio.com/items?itemName=mvllow.rose-pine",
     "name": "vscode",
@@ -16,16 +26,6 @@
     "stargazerCount": 525,
     "updatedAt": "2025-04-11T16:04:06Z",
     "url": "https://github.com/rose-pine/vscode",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 95,
-    "updatedAt": "2025-04-11T00:17:02Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -143,8 +143,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2575,
-    "updatedAt": "2025-04-11T23:17:42Z",
+    "stargazerCount": 2577,
+    "updatedAt": "2025-04-12T06:14:53Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -321,8 +321,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1331,
-    "updatedAt": "2025-04-08T22:11:40Z",
+    "stargazerCount": 1333,
+    "updatedAt": "2025-04-12T07:29:48Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -411,8 +411,8 @@
       "editor",
       "hacktoberfest"
     ],
-    "stargazerCount": 31,
-    "updatedAt": "2025-01-07T15:50:37Z",
+    "stargazerCount": 32,
+    "updatedAt": "2025-04-12T00:16:48Z",
     "url": "https://github.com/rose-pine/helix",
     "usesCustomOpenGraphImage": true
   },
@@ -421,8 +421,8 @@
     "homepageUrl": "",
     "name": "ghostty",
     "repositoryTopics": [],
-    "stargazerCount": 29,
-    "updatedAt": "2025-04-06T14:40:06Z",
+    "stargazerCount": 30,
+    "updatedAt": "2025-04-12T18:00:48Z",
     "url": "https://github.com/rose-pine/ghostty",
     "usesCustomOpenGraphImage": true
   },
