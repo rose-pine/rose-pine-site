@@ -1,11 +1,28 @@
 [
   {
+    "description": "Soho vibes for Kvantum",
+    "homepageUrl": "",
+    "name": "kvantum",
+    "repositoryTopics": [
+      "kvantum",
+      "rose-pine",
+      "soho-vibes",
+      "theme",
+      "kde",
+      "qt"
+    ],
+    "stargazerCount": 1,
+    "updatedAt": "2025-03-31T03:44:25Z",
+    "url": "https://github.com/rose-pine/kvantum",
+    "usesCustomOpenGraphImage": false
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 95,
-    "updatedAt": "2025-04-12T00:16:23Z",
+    "updatedAt": "2025-04-13T00:41:54Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -23,8 +40,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 525,
-    "updatedAt": "2025-04-11T16:04:06Z",
+    "stargazerCount": 527,
+    "updatedAt": "2025-04-13T15:39:45Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -48,8 +65,8 @@
       "shell",
       "terminal"
     ],
-    "stargazerCount": 33,
-    "updatedAt": "2025-04-10T12:52:51Z",
+    "stargazerCount": 34,
+    "updatedAt": "2025-04-13T06:09:54Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
   },
@@ -74,7 +91,7 @@
     "name": "qbittorrent",
     "repositoryTopics": [],
     "stargazerCount": 10,
-    "updatedAt": "2025-04-09T10:50:35Z",
+    "updatedAt": "2025-04-13T08:06:52Z",
     "url": "https://github.com/rose-pine/qbittorrent",
     "usesCustomOpenGraphImage": true
   },
@@ -88,8 +105,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 273,
-    "updatedAt": "2025-04-10T16:57:31Z",
+    "stargazerCount": 275,
+    "updatedAt": "2025-04-13T04:12:16Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -143,8 +160,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2577,
-    "updatedAt": "2025-04-12T06:14:53Z",
+    "stargazerCount": 2580,
+    "updatedAt": "2025-04-13T15:08:28Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -176,23 +193,6 @@
     "updatedAt": "2025-04-03T22:59:59Z",
     "url": "https://github.com/rose-pine/tm-theme",
     "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Kvantum",
-    "homepageUrl": "",
-    "name": "kvantum",
-    "repositoryTopics": [
-      "kvantum",
-      "rose-pine",
-      "soho-vibes",
-      "theme",
-      "kde",
-      "qt"
-    ],
-    "stargazerCount": 1,
-    "updatedAt": "2025-03-31T03:44:25Z",
-    "url": "https://github.com/rose-pine/kvantum",
-    "usesCustomOpenGraphImage": false
   },
   {
     "description": "",
@@ -321,8 +321,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1333,
-    "updatedAt": "2025-04-12T07:29:48Z",
+    "stargazerCount": 1335,
+    "updatedAt": "2025-04-13T19:52:01Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -394,8 +394,8 @@
       "swaync",
       "theme"
     ],
-    "stargazerCount": 13,
-    "updatedAt": "2025-02-10T23:34:17Z",
+    "stargazerCount": 14,
+    "updatedAt": "2025-04-13T11:57:21Z",
     "url": "https://github.com/rose-pine/swaync",
     "usesCustomOpenGraphImage": true
   },
@@ -1089,8 +1089,8 @@
       "soho-vibes",
       "rose-pine"
     ],
-    "stargazerCount": 50,
-    "updatedAt": "2025-03-31T15:08:38Z",
+    "stargazerCount": 51,
+    "updatedAt": "2025-04-13T01:08:53Z",
     "url": "https://github.com/rose-pine/google-chrome",
     "usesCustomOpenGraphImage": true
   },
@@ -1562,8 +1562,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 35,
-    "updatedAt": "2025-03-19T06:42:16Z",
+    "stargazerCount": 36,
+    "updatedAt": "2025-04-13T01:46:13Z",
     "url": "https://github.com/rose-pine/terminal.app",
     "usesCustomOpenGraphImage": true
   },
