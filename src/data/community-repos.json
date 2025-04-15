@@ -283,6 +283,15 @@
 		]
 	},
 	{
+		"name": "Posting",
+		"url": "https://github.com/elithper/posting",
+		"tags": ["terminal", "app"],
+		"authors": [
+			{ "name": "elithper", "url": "https://github.com/elithper" }
+		],
+		"has_variants": true
+	},
+	{
 		"name": "PyRadio",
 		"url": "https://codeberg.org/thairanaru/pyradio",
 		"tags": ["app", "audio", "music", "terminal"],
