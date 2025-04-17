@@ -1,15 +1,5 @@
 [
   {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 95,
-    "updatedAt": "2025-04-15T15:32:02Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Kvantum",
     "homepageUrl": "",
     "name": "kvantum",
@@ -22,9 +12,19 @@
       "qt"
     ],
     "stargazerCount": 1,
-    "updatedAt": "2025-03-31T03:44:25Z",
+    "updatedAt": "2025-04-16T12:06:08Z",
     "url": "https://github.com/rose-pine/kvantum",
     "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 95,
+    "updatedAt": "2025-04-16T00:17:06Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Visual Studio Code",
@@ -105,8 +105,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 276,
-    "updatedAt": "2025-04-15T15:16:08Z",
+    "stargazerCount": 277,
+    "updatedAt": "2025-04-16T13:51:31Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -160,8 +160,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2580,
-    "updatedAt": "2025-04-15T19:25:13Z",
+    "stargazerCount": 2581,
+    "updatedAt": "2025-04-16T18:29:34Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -209,8 +209,8 @@
     "homepageUrl": "https://www.npmjs.com/package/@rose-pine/build",
     "name": "build",
     "repositoryTopics": [],
-    "stargazerCount": 26,
-    "updatedAt": "2025-04-07T21:47:11Z",
+    "stargazerCount": 27,
+    "updatedAt": "2025-04-16T18:57:10Z",
     "url": "https://github.com/rose-pine/build",
     "usesCustomOpenGraphImage": true
   },
@@ -277,8 +277,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 92,
-    "updatedAt": "2025-04-05T17:34:49Z",
+    "stargazerCount": 93,
+    "updatedAt": "2025-04-16T06:20:52Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
@@ -321,8 +321,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1340,
-    "updatedAt": "2025-04-15T15:33:26Z",
+    "stargazerCount": 1341,
+    "updatedAt": "2025-04-16T21:28:32Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -623,8 +623,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 99,
-    "updatedAt": "2025-04-15T21:31:38Z",
+    "stargazerCount": 101,
+    "updatedAt": "2025-04-16T18:01:09Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -1318,8 +1318,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 39,
-    "updatedAt": "2025-03-20T13:01:25Z",
+    "stargazerCount": 40,
+    "updatedAt": "2025-04-16T11:06:57Z",
     "url": "https://github.com/rose-pine/gnome-terminal",
     "usesCustomOpenGraphImage": true
   },
