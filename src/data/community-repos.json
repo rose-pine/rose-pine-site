@@ -33,6 +33,17 @@
 		]
 	},
 	{
+		"name": "CCRS",
+		"url": "https://github.com/336conaN/ccrs/blob/main/docs/themes.md#rose-pine-themerosepine",
+		"tags": ["rainmeter", "desktop", "windows"],
+		"contributors": [
+			{
+				"name": "conaN",
+				"url": "https://github.com/336conaN"
+			}
+		]
+	},
+	{
 		"name": "Chrome Devtools",
 		"url": "https://github.com/velzie/rose-pine-chrome-devtools",
 		"tags": ["browser", "chrome", "chromium"],
