@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 96,
+    "updatedAt": "2025-04-17T13:19:46Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Kvantum",
     "homepageUrl": "",
     "name": "kvantum",
@@ -15,16 +25,6 @@
     "updatedAt": "2025-04-16T12:06:08Z",
     "url": "https://github.com/rose-pine/kvantum",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 95,
-    "updatedAt": "2025-04-16T00:17:06Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Visual Studio Code",
@@ -160,8 +160,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2581,
-    "updatedAt": "2025-04-16T18:29:34Z",
+    "stargazerCount": 2582,
+    "updatedAt": "2025-04-17T17:10:56Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -321,8 +321,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1341,
-    "updatedAt": "2025-04-16T21:28:32Z",
+    "stargazerCount": 1343,
+    "updatedAt": "2025-04-17T18:03:12Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -623,8 +623,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 101,
-    "updatedAt": "2025-04-16T18:01:09Z",
+    "stargazerCount": 102,
+    "updatedAt": "2025-04-17T07:56:21Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -699,8 +699,8 @@
     "homepageUrl": "",
     "name": "ollama-webui",
     "repositoryTopics": [],
-    "stargazerCount": 9,
-    "updatedAt": "2025-04-15T20:42:40Z",
+    "stargazerCount": 10,
+    "updatedAt": "2025-04-17T08:47:07Z",
     "url": "https://github.com/rose-pine/ollama-webui",
     "usesCustomOpenGraphImage": true
   },
@@ -716,8 +716,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 78,
-    "updatedAt": "2025-04-05T09:31:07Z",
+    "stargazerCount": 79,
+    "updatedAt": "2025-04-17T04:04:05Z",
     "url": "https://github.com/rose-pine/windows-terminal",
     "usesCustomOpenGraphImage": true
   },
@@ -1562,8 +1562,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 36,
-    "updatedAt": "2025-04-13T01:46:13Z",
+    "stargazerCount": 37,
+    "updatedAt": "2025-04-17T15:54:57Z",
     "url": "https://github.com/rose-pine/terminal.app",
     "usesCustomOpenGraphImage": true
   },
