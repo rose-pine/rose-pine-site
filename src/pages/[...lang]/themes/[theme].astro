@@ -56,7 +56,7 @@ let { repo } = Astro.props;
 						class="animate-enter mb-8 flex size-12 items-center justify-center rounded-lg bg-gold/10 text-gold"
 						style="--stagger: 1"
 					>
-						<BoxIcon size={32} />
+						<BoxIcon width={32} height={32} />
 					</div>
 					<h1
 						class="animate-enter mb-4 max-w-2xl text-4xl font-bold tracking-tight text-balance sm:text-6xl"
@@ -113,7 +113,11 @@ let { repo } = Astro.props;
 												/>
 											) : (
 												<div class="flex size-5 items-center justify-center rounded-md border border-gold/10 bg-gold/10">
-													<FlowerIcon size={16} class="text-gold" />
+													<FlowerIcon
+														width={16}
+														height={16}
+														class="text-gold"
+													/>
 												</div>
 											)}
 											{name}
