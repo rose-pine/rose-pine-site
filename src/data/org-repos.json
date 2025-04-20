@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 96,
-    "updatedAt": "2025-04-18T00:16:50Z",
+    "updatedAt": "2025-04-19T00:16:07Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -90,8 +90,8 @@
     "homepageUrl": "",
     "name": "qbittorrent",
     "repositoryTopics": [],
-    "stargazerCount": 10,
-    "updatedAt": "2025-04-13T08:06:52Z",
+    "stargazerCount": 11,
+    "updatedAt": "2025-04-19T10:12:17Z",
     "url": "https://github.com/rose-pine/qbittorrent",
     "usesCustomOpenGraphImage": true
   },
@@ -160,8 +160,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2582,
-    "updatedAt": "2025-04-17T17:10:56Z",
+    "stargazerCount": 2583,
+    "updatedAt": "2025-04-19T11:10:32Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -209,8 +209,8 @@
     "homepageUrl": "https://www.npmjs.com/package/@rose-pine/build",
     "name": "build",
     "repositoryTopics": [],
-    "stargazerCount": 27,
-    "updatedAt": "2025-04-16T18:57:10Z",
+    "stargazerCount": 28,
+    "updatedAt": "2025-04-20T00:17:42Z",
     "url": "https://github.com/rose-pine/build",
     "usesCustomOpenGraphImage": true
   },
@@ -249,8 +249,8 @@
     "repositoryTopics": [
       "app"
     ],
-    "stargazerCount": 13,
-    "updatedAt": "2025-04-03T07:56:00Z",
+    "stargazerCount": 14,
+    "updatedAt": "2025-04-19T10:12:20Z",
     "url": "https://github.com/rose-pine/obsidian",
     "usesCustomOpenGraphImage": false
   },
@@ -321,8 +321,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1344,
-    "updatedAt": "2025-04-18T09:02:27Z",
+    "stargazerCount": 1345,
+    "updatedAt": "2025-04-19T14:05:37Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -381,8 +381,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 32,
-    "updatedAt": "2025-03-01T01:08:05Z",
+    "stargazerCount": 33,
+    "updatedAt": "2025-04-19T10:11:04Z",
     "url": "https://github.com/rose-pine/dark-reader",
     "usesCustomOpenGraphImage": true
   },
@@ -467,8 +467,8 @@
       "terminal-emulator",
       "theme"
     ],
-    "stargazerCount": 14,
-    "updatedAt": "2025-03-22T17:55:27Z",
+    "stargazerCount": 15,
+    "updatedAt": "2025-04-19T10:06:46Z",
     "url": "https://github.com/rose-pine/foot",
     "usesCustomOpenGraphImage": true
   },
@@ -926,8 +926,8 @@
       "terminal",
       "theme"
     ],
-    "stargazerCount": 25,
-    "updatedAt": "2025-03-19T09:07:28Z",
+    "stargazerCount": 26,
+    "updatedAt": "2025-04-19T09:32:25Z",
     "url": "https://github.com/rose-pine/btop",
     "usesCustomOpenGraphImage": true
   },
