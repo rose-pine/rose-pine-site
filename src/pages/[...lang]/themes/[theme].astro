@@ -8,10 +8,14 @@ import {
 	getLangFromUrl,
 	getLangPaths,
 } from "../../../i18n/utilities";
-import { getAllSlugs, getContributor, getRepoBySlug } from "../../../utilities";
+import {
+	getAllRepoSlugs,
+	getContributor,
+	getRepoBySlug,
+} from "../../../utilities";
 
 export function getStaticPaths() {
-	const slugs = getAllSlugs();
+	const slugs = getAllRepoSlugs();
 	return getLangPaths().flatMap((langPath) =>
 		slugs.map((slug) => {
 			const repo = getRepoBySlug(slug);

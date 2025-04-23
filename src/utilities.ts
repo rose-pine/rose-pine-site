@@ -26,7 +26,7 @@ export function getRepoBySlug(slug: string): Repo | undefined {
 	return getAllRepos().find((repo) => repo.slug === slug);
 }
 
-export function getAllSlugs(): string[] {
+export function getAllRepoSlugs(): string[] {
 	return getAllRepos().map((repo) => repo.slug);
 }
 
