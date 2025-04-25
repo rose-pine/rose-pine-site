@@ -8,7 +8,7 @@
 		"build:data": "./script/fetch-data.sh",
 		"preview": "astro preview",
 		"astro": "astro",
-		"format": "pnpm exec prettier --write ."
+		"format": "./script/sort-community-repos.sh; pnpm exec prettier --write ."
 	},
 	"dependencies": {
 		"@astrojs/alpinejs": "^0.4.5",
