@@ -11,10 +11,7 @@
 		"format": "./script/sort-community-repos.sh; pnpm exec prettier --write ."
 	},
 	"dependencies": {
-		"@astrojs/alpinejs": "^0.4.5",
 		"@tailwindcss/vite": "^4.0.11",
-		"@types/alpinejs": "^3.13.11",
-		"alpinejs": "^3.14.9",
 		"astro": "^5.7.4",
 		"tailwindcss": "^4.0.11"
 	},
