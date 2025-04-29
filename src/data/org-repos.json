@@ -1,11 +1,26 @@
 [
   {
+    "description": "Soho vibes for Userstyles",
+    "homepageUrl": "",
+    "name": "userstyles",
+    "repositoryTopics": [
+      "css",
+      "stylish",
+      "userstyles",
+      "stylus"
+    ],
+    "stargazerCount": 24,
+    "updatedAt": "2025-04-28T21:31:03Z",
+    "url": "https://github.com/rose-pine/userstyles",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
-    "stargazerCount": 96,
-    "updatedAt": "2025-04-27T00:18:42Z",
+    "stargazerCount": 97,
+    "updatedAt": "2025-04-28T08:04:19Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -69,21 +84,6 @@
     "updatedAt": "2025-04-13T06:09:54Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Soho vibes for Userstyles",
-    "homepageUrl": "",
-    "name": "userstyles",
-    "repositoryTopics": [
-      "css",
-      "stylish",
-      "userstyles",
-      "stylus"
-    ],
-    "stargazerCount": 24,
-    "updatedAt": "2025-04-27T22:30:20Z",
-    "url": "https://github.com/rose-pine/userstyles",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for qBittorrent ",
@@ -160,8 +160,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2597,
-    "updatedAt": "2025-04-26T15:27:11Z",
+    "stargazerCount": 2596,
+    "updatedAt": "2025-04-28T02:36:48Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -335,8 +335,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 29,
-    "updatedAt": "2025-03-20T12:50:22Z",
+    "stargazerCount": 30,
+    "updatedAt": "2025-04-28T17:33:31Z",
     "url": "https://github.com/rose-pine/zellij",
     "usesCustomOpenGraphImage": true
   },
@@ -351,8 +351,8 @@
       "vim",
       "editor"
     ],
-    "stargazerCount": 32,
-    "updatedAt": "2025-04-18T23:10:05Z",
+    "stargazerCount": 33,
+    "updatedAt": "2025-04-28T07:38:51Z",
     "url": "https://github.com/rose-pine/vim",
     "usesCustomOpenGraphImage": true
   },
@@ -547,8 +547,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 196,
-    "updatedAt": "2025-04-21T08:47:55Z",
+    "stargazerCount": 195,
+    "updatedAt": "2025-04-28T02:36:50Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
