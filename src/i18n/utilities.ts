@@ -1,21 +1,42 @@
+import { type GetStaticPathsItem } from "astro";
 import { ui, defaultLang, showDefaultLang, languages } from "./ui";
 
-type LangParam = {
-	lang: keyof typeof languages | undefined;
+// Supported languages and `undefined` for the default language.
+type Lang = keyof typeof languages | undefined;
+type LangPath<T extends GetStaticPathsItem> = Omit<T, "params"> & {
+	params: T["params"] & { lang: Lang };
 };
 
-export function getLangPaths(): Array<{ params: LangParam }> {
-	const paths: Array<{ params: LangParam }> = Object.keys(languages).map(
-		(lang) => ({
-			params: { lang: lang as keyof typeof languages },
-		}),
-	);
+/**
+ * Generates localized static paths by combining entries with each language
+ * variant. If no entries are provided, returns one path per language.
+ */
+export async function withLangPaths<T extends GetStaticPathsItem>(
+	entries: T[] = [],
+): Promise<LangPath<T>[]> {
+	const langVariants = Object.keys(languages).map((lang) => ({
+		lang: lang as Lang,
+	}));
 
 	if (!showDefaultLang) {
-		paths.push({ params: { lang: undefined } });
+		langVariants.push({ lang: undefined });
 	}
 
-	return paths;
+	if (entries.length === 0) {
+		return langVariants.map((lang) => ({ params: lang }) as LangPath<T>);
+	}
+
+	const localizedPaths = langVariants.flatMap((variant) =>
+		entries.map((entry) => ({
+			...entry,
+			params: {
+				...entry.params,
+				...variant,
+			},
+		})),
+	);
+
+	return localizedPaths;
 }
 
 export function getUrlWithoutLang(url: URL) {

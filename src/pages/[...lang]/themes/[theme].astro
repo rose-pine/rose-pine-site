@@ -6,7 +6,7 @@ import {
 	useTranslations,
 	useTranslatedPath,
 	getLangFromUrl,
-	getLangPaths,
+	withLangPaths,
 } from "../../../i18n/utilities";
 import {
 	getAllRepoSlugs,
@@ -14,23 +14,20 @@ import {
 	getRepoBySlug,
 } from "../../../utilities";
 
-export function getStaticPaths() {
+export async function getStaticPaths() {
 	const slugs = getAllRepoSlugs();
-	return getLangPaths().flatMap((langPath) =>
-		slugs.map((slug) => {
-			const repo = getRepoBySlug(slug);
-			if (!repo) {
-				throw new Error(`No repo found for slug: ${slug}`);
-			}
-			return {
-				params: {
-					lang: langPath.params.lang,
-					theme: slug,
-				},
-				props: { repo },
-			};
-		}),
-	);
+	const entries = slugs.map((slug) => {
+		const repo = getRepoBySlug(slug);
+		if (!repo) {
+			throw new Error(`Missing repo for slug: ${slug}`);
+		}
+		return {
+			params: { theme: slug },
+			props: { repo },
+		};
+	});
+
+	return await withLangPaths(entries);
 }
 
 let lang = getLangFromUrl(Astro.url);

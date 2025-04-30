@@ -3,14 +3,14 @@ import Layout from "../../../layouts/Layout.astro";
 import IntroSection from "../../../components/intro-section.astro";
 import BoxIcon from "../../../assets/box.svg";
 import {
-	getLangPaths,
 	useTranslatedPath,
 	useTranslations,
+	withLangPaths,
 } from "../../../i18n/utilities";
 import { getSortedRepos, getContributorCount } from "../../../utilities";
 
 export async function getStaticPaths() {
-	return getLangPaths();
+	return await withLangPaths();
 }
 
 let { lang = "en" } = Astro.params;
