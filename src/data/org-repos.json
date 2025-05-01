@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 97,
+    "updatedAt": "2025-04-30T00:17:22Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Userstyles",
     "homepageUrl": "",
     "name": "userstyles",
@@ -12,16 +22,6 @@
     "stargazerCount": 24,
     "updatedAt": "2025-04-29T16:25:47Z",
     "url": "https://github.com/rose-pine/userstyles",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 97,
-    "updatedAt": "2025-04-29T00:17:21Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -80,8 +80,8 @@
       "shell",
       "terminal"
     ],
-    "stargazerCount": 34,
-    "updatedAt": "2025-04-13T06:09:54Z",
+    "stargazerCount": 33,
+    "updatedAt": "2025-04-30T08:39:56Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
   },
@@ -90,8 +90,8 @@
     "homepageUrl": "",
     "name": "qbittorrent",
     "repositoryTopics": [],
-    "stargazerCount": 11,
-    "updatedAt": "2025-04-19T10:12:17Z",
+    "stargazerCount": 12,
+    "updatedAt": "2025-04-30T19:35:22Z",
     "url": "https://github.com/rose-pine/qbittorrent",
     "usesCustomOpenGraphImage": true
   },
@@ -106,7 +106,7 @@
       "rose-pine"
     ],
     "stargazerCount": 278,
-    "updatedAt": "2025-04-26T19:20:17Z",
+    "updatedAt": "2025-04-30T17:38:45Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -160,8 +160,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2599,
-    "updatedAt": "2025-04-29T20:08:05Z",
+    "stargazerCount": 2602,
+    "updatedAt": "2025-04-30T16:40:06Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -335,8 +335,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 30,
-    "updatedAt": "2025-04-28T17:33:31Z",
+    "stargazerCount": 32,
+    "updatedAt": "2025-04-30T21:16:07Z",
     "url": "https://github.com/rose-pine/zellij",
     "usesCustomOpenGraphImage": true
   },
@@ -421,8 +421,8 @@
     "homepageUrl": "",
     "name": "ghostty",
     "repositoryTopics": [],
-    "stargazerCount": 30,
-    "updatedAt": "2025-04-29T17:46:04Z",
+    "stargazerCount": 29,
+    "updatedAt": "2025-04-30T08:39:50Z",
     "url": "https://github.com/rose-pine/ghostty",
     "usesCustomOpenGraphImage": true
   },
@@ -1208,8 +1208,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 17,
-    "updatedAt": "2025-04-06T14:40:32Z",
+    "stargazerCount": 16,
+    "updatedAt": "2025-04-30T08:39:42Z",
     "url": "https://github.com/rose-pine/xfce-terminal",
     "usesCustomOpenGraphImage": true
   },
