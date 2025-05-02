@@ -1,5 +1,12 @@
 [
 	{
+		"name": "3DS",
+		"url": "https://github.com/jilliangmeehan/rose-pine-3ds",
+		"tags": ["ui"],
+		"authors": [{ "name": "jilliangmeehan", "url": "https://github.com/jilliangmeehan" }],
+		"has_variants": false
+	},
+	{
 		"name": "Base16",
 		"url": "https://github.com/edunfelt/base16-rose-pine-scheme",
 		"tags": ["palette"],
