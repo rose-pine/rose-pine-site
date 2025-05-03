@@ -41,7 +41,7 @@ let variants = Object.keys(palette) as (keyof typeof palette)[];
 									</div>
 								</div>
 
-								<ColorStyleTabs client:only />
+								<ColorStyleTabs client:only="svelte" />
 							</div>
 
 							<div class="overflow-x-auto">
@@ -79,15 +79,27 @@ let variants = Object.keys(palette) as (keyof typeof palette)[];
 													</td>
 
 													<td align="right" class="pl-(--col-gap)">
-														<ColorCopyButton client:only {color} format="hex" />
+														<ColorCopyButton
+															client:only="svelte"
+															{color}
+															format="hex"
+														/>
 													</td>
 
 													<td align="right" class="pl-(--col-gap)">
-														<ColorCopyButton client:only {color} format="hsl" />
+														<ColorCopyButton
+															client:only="svelte"
+															{color}
+															format="hsl"
+														/>
 													</td>
 
 													<td align="right" class="pl-(--col-gap)">
-														<ColorCopyButton client:only {color} format="rgb" />
+														<ColorCopyButton
+															client:only="svelte"
+															{color}
+															format="rgb"
+														/>
 													</td>
 
 													<td class="w-(--card-gutter)" />
