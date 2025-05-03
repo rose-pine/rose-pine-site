@@ -8,6 +8,7 @@ export const showDefaultLang = false;
 
 export const ui = {
 	en: {
+		"shared.copied": "Copied",
 		"shared.language": "Language",
 
 		"header.nav_label": "Primary",
@@ -34,6 +35,7 @@ export const ui = {
 		"create.description": "Your canvas, shared with the community.",
 	},
 	it: {
+		"shared.copied": "Copiato",
 		"shared.language": "Lingua",
 
 		"header.nav_label": "Primaria",

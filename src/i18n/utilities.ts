@@ -39,7 +39,7 @@ export async function withLangPaths<T extends GetStaticPathsItem>(
 	return localizedPaths;
 }
 
-export function getUrlWithoutLang(url: URL) {
+export function getUrlWithoutLang(url: URL = new URL(window.location.href)) {
 	let [, lang] = url.pathname.split("/");
 	if (lang in languages) {
 		return url.pathname.replace(`/${lang}`, "");
@@ -47,7 +47,7 @@ export function getUrlWithoutLang(url: URL) {
 	return url.pathname;
 }
 
-export function getLangFromUrl(url: URL) {
+export function getLangFromUrl(url: URL = new URL(window.location.href)) {
 	let [, lang] = url.pathname.split("/");
 	if (lang in languages) {
 		return lang as keyof typeof languages;

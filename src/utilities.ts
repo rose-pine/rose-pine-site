@@ -46,3 +46,24 @@ export function getContributorCount(): number {
 		),
 	]).size;
 }
+
+export function formatColor(
+	{ hex, hsl: [h, s, l], rgb: [r, g, b] }: Color,
+	format: ColorFormat,
+	style: ColorStyle,
+) {
+	return {
+		hex: {
+			plain: hex,
+			styled: `#${hex}`,
+		},
+		hsl: {
+			plain: `${h}, ${s}, ${l}`,
+			styled: `hsl(${h}deg, ${s}%, ${l}%)`,
+		},
+		rgb: {
+			plain: `${r}, ${g}, ${b}`,
+			styled: `rgb(${r}, ${g}, ${b})`,
+		},
+	}[format][style];
+}

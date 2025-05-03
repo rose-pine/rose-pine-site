@@ -1,3 +1,14 @@
+type Variant = "main" | "moon" | "dawn";
+
+type Color = {
+	role: string;
+	hex: string;
+	hsl: number[];
+	rgb: number[];
+};
+type ColorFormat = "hex" | "hsl" | "rgb";
+type ColorStyle = "plain" | "styled";
+
 type Repo = {
 	url: string;
 	slug: string;
