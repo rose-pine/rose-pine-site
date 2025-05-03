@@ -1,5 +1,29 @@
 [
   {
+    "description": "Soho vibes for Tailwind CSS",
+    "homepageUrl": "",
+    "name": "tailwind-css",
+    "repositoryTopics": [
+      "tailwindcss",
+      "theme",
+      "tailwind"
+    ],
+    "stargazerCount": 26,
+    "updatedAt": "2025-05-02T17:51:25Z",
+    "url": "https://github.com/rose-pine/tailwind-css",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 97,
+    "updatedAt": "2025-05-02T02:09:37Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -15,19 +39,9 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2603,
-    "updatedAt": "2025-05-01T21:55:28Z",
+    "stargazerCount": 2607,
+    "updatedAt": "2025-05-02T17:28:31Z",
     "url": "https://github.com/rose-pine/neovim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 97,
-    "updatedAt": "2025-05-01T00:19:39Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -76,8 +90,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 531,
-    "updatedAt": "2025-04-27T14:48:29Z",
+    "stargazerCount": 532,
+    "updatedAt": "2025-05-02T18:49:34Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -175,8 +189,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 215,
-    "updatedAt": "2025-05-01T06:37:41Z",
+    "stargazerCount": 216,
+    "updatedAt": "2025-05-02T22:12:56Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -321,8 +335,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1351,
-    "updatedAt": "2025-04-29T17:33:44Z",
+    "stargazerCount": 1352,
+    "updatedAt": "2025-05-02T19:00:56Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -547,8 +561,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 195,
-    "updatedAt": "2025-04-28T02:36:50Z",
+    "stargazerCount": 196,
+    "updatedAt": "2025-05-02T19:02:29Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -1146,20 +1160,6 @@
     "stargazerCount": 29,
     "updatedAt": "2025-03-17T20:46:46Z",
     "url": "https://github.com/rose-pine/startpage",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Tailwind CSS",
-    "homepageUrl": "",
-    "name": "tailwind-css",
-    "repositoryTopics": [
-      "tailwindcss",
-      "theme",
-      "tailwind"
-    ],
-    "stargazerCount": 26,
-    "updatedAt": "2025-04-01T21:38:11Z",
-    "url": "https://github.com/rose-pine/tailwind-css",
     "usesCustomOpenGraphImage": true
   },
   {
