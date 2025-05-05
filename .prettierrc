@@ -18,6 +18,12 @@
 			"options": {
 				"parser": "svelte"
 			}
+		},
+		{
+			"files": "*.svg",
+			"options": {
+				"parser": "html"
+			}
 		}
 	]
 }
