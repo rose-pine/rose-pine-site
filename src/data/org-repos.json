@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 97,
+    "updatedAt": "2025-05-04T00:19:28Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for OneCommander",
     "homepageUrl": "https://rosepinetheme.com/",
     "name": "onecommander",
@@ -9,16 +19,6 @@
     "stargazerCount": 1,
     "updatedAt": "2025-05-03T16:01:03Z",
     "url": "https://github.com/rose-pine/onecommander",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 97,
-    "updatedAt": "2025-05-03T00:16:52Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -1115,8 +1115,8 @@
       "soho-vibes",
       "rose-pine"
     ],
-    "stargazerCount": 51,
-    "updatedAt": "2025-04-13T01:08:53Z",
+    "stargazerCount": 52,
+    "updatedAt": "2025-05-04T03:25:53Z",
     "url": "https://github.com/rose-pine/google-chrome",
     "usesCustomOpenGraphImage": true
   },
