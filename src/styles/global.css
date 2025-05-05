@@ -186,12 +186,6 @@ html {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-html,
-body {
-	/* Prevent decorative elements overflowing. */
-	overflow-x: hidden;
-}
-
 /* 
  * Encourage adding role="list" to remove list styles while retaining semantics
  * in Safari/VoiceOver. Styles are removed for scenarios implicitly supported
