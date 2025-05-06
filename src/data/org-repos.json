@@ -1,11 +1,32 @@
 [
   {
+    "description": "Soho vibes for Neovim",
+    "homepageUrl": "",
+    "name": "neovim",
+    "repositoryTopics": [
+      "theme",
+      "neovim",
+      "soho-vibes",
+      "rose-pine",
+      "lua",
+      "vim",
+      "nvim",
+      "neovim-theme",
+      "vim-theme",
+      "editor"
+    ],
+    "stargazerCount": 2610,
+    "updatedAt": "2025-05-05T20:20:41Z",
+    "url": "https://github.com/rose-pine/neovim",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 97,
-    "updatedAt": "2025-05-04T00:19:28Z",
+    "updatedAt": "2025-05-05T00:18:39Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -33,27 +54,6 @@
     "stargazerCount": 26,
     "updatedAt": "2025-05-02T17:51:25Z",
     "url": "https://github.com/rose-pine/tailwind-css",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Neovim",
-    "homepageUrl": "",
-    "name": "neovim",
-    "repositoryTopics": [
-      "theme",
-      "neovim",
-      "soho-vibes",
-      "rose-pine",
-      "lua",
-      "vim",
-      "nvim",
-      "neovim-theme",
-      "vim-theme",
-      "editor"
-    ],
-    "stargazerCount": 2606,
-    "updatedAt": "2025-05-03T17:25:04Z",
-    "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -347,8 +347,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1354,
-    "updatedAt": "2025-05-03T15:29:12Z",
+    "stargazerCount": 1356,
+    "updatedAt": "2025-05-05T16:28:32Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -649,8 +649,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 104,
-    "updatedAt": "2025-05-03T23:03:54Z",
+    "stargazerCount": 105,
+    "updatedAt": "2025-05-05T14:25:36Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -676,8 +676,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 8,
-    "updatedAt": "2025-04-14T03:46:17Z",
+    "stargazerCount": 9,
+    "updatedAt": "2025-05-05T12:56:22Z",
     "url": "https://github.com/rose-pine/typst",
     "usesCustomOpenGraphImage": true
   },
@@ -922,8 +922,8 @@
       "theme",
       "color-palette"
     ],
-    "stargazerCount": 32,
-    "updatedAt": "2025-05-03T10:23:18Z",
+    "stargazerCount": 33,
+    "updatedAt": "2025-05-05T00:46:37Z",
     "url": "https://github.com/rose-pine/waybar",
     "usesCustomOpenGraphImage": true
   },
@@ -1330,8 +1330,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 41,
-    "updatedAt": "2025-04-27T18:58:03Z",
+    "stargazerCount": 42,
+    "updatedAt": "2025-05-05T13:01:49Z",
     "url": "https://github.com/rose-pine/gnome-terminal",
     "usesCustomOpenGraphImage": true
   },
