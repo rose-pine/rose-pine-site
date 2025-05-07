@@ -1,5 +1,41 @@
 [
   {
+    "description": "",
+    "homepageUrl": "",
+    "name": "rose-pine-bloom",
+    "repositoryTopics": [],
+    "stargazerCount": 2,
+    "updatedAt": "2025-05-06T19:54:43Z",
+    "url": "https://github.com/rose-pine/rose-pine-bloom",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 97,
+    "updatedAt": "2025-05-06T19:49:26Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for fish",
+    "homepageUrl": "",
+    "name": "fish",
+    "repositoryTopics": [
+      "theme",
+      "fish",
+      "soho-vibes",
+      "rose-pine",
+      "shell"
+    ],
+    "stargazerCount": 29,
+    "updatedAt": "2025-05-06T19:42:52Z",
+    "url": "https://github.com/rose-pine/fish",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -18,16 +54,6 @@
     "stargazerCount": 2610,
     "updatedAt": "2025-05-05T20:20:41Z",
     "url": "https://github.com/rose-pine/neovim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 97,
-    "updatedAt": "2025-05-05T00:18:39Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -66,8 +92,8 @@
       "userstyles",
       "stylus"
     ],
-    "stargazerCount": 24,
-    "updatedAt": "2025-04-29T16:25:47Z",
+    "stargazerCount": 25,
+    "updatedAt": "2025-05-06T03:48:01Z",
     "url": "https://github.com/rose-pine/userstyles",
     "usesCustomOpenGraphImage": true
   },
@@ -201,8 +227,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 216,
-    "updatedAt": "2025-05-02T22:12:56Z",
+    "stargazerCount": 217,
+    "updatedAt": "2025-05-06T23:31:39Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -219,16 +245,6 @@
     "updatedAt": "2025-04-03T22:59:59Z",
     "url": "https://github.com/rose-pine/tm-theme",
     "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "",
-    "homepageUrl": "",
-    "name": "rose-pine-bloom",
-    "repositoryTopics": [],
-    "stargazerCount": 2,
-    "updatedAt": "2025-03-26T11:26:25Z",
-    "url": "https://github.com/rose-pine/rose-pine-bloom",
-    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Theme generator for Rosé Pine",
@@ -347,8 +363,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1356,
-    "updatedAt": "2025-05-05T16:28:32Z",
+    "stargazerCount": 1359,
+    "updatedAt": "2025-05-06T15:49:21Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -573,8 +589,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 196,
-    "updatedAt": "2025-05-02T19:02:29Z",
+    "stargazerCount": 197,
+    "updatedAt": "2025-05-06T18:03:20Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -742,8 +758,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 81,
-    "updatedAt": "2025-05-03T22:20:13Z",
+    "stargazerCount": 82,
+    "updatedAt": "2025-05-06T15:49:47Z",
     "url": "https://github.com/rose-pine/windows-terminal",
     "usesCustomOpenGraphImage": true
   },
@@ -1254,22 +1270,6 @@
     "stargazerCount": 10,
     "updatedAt": "2025-03-17T23:15:51Z",
     "url": "https://github.com/rose-pine/black-box",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for fish",
-    "homepageUrl": "",
-    "name": "fish",
-    "repositoryTopics": [
-      "theme",
-      "fish",
-      "soho-vibes",
-      "rose-pine",
-      "shell"
-    ],
-    "stargazerCount": 29,
-    "updatedAt": "2025-02-19T18:59:45Z",
-    "url": "https://github.com/rose-pine/fish",
     "usesCustomOpenGraphImage": true
   },
   {
