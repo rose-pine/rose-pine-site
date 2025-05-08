@@ -360,6 +360,18 @@
 		"has_variants": false
 	},
 	{
+		"name": "Seelen UI",
+		"url": "https://github.com/NX0S/Seelen-ui",
+		"tags": ["desktop", "windows"],
+		"authors": [
+			{
+				"name": "jilliangmeehan",
+				"url": "https://github.com/jilliangmeehan"
+			}
+		],
+		"has_variants": false
+	},
+	{
 		"name": "Spotify",
 		"url": "https://github.com/nicoleajoy/rose-pine-spotify",
 		"tags": ["app", "audio", "music", "spotify"],
