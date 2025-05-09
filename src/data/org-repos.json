@@ -1,11 +1,27 @@
 [
   {
+    "description": "Soho vibes for Sublime Text",
+    "homepageUrl": "",
+    "name": "sublime-text",
+    "repositoryTopics": [
+      "sublime-text",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "hacktoberfest"
+    ],
+    "stargazerCount": 28,
+    "updatedAt": "2025-05-08T19:16:48Z",
+    "url": "https://github.com/rose-pine/sublime-text",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 97,
-    "updatedAt": "2025-05-08T13:52:19Z",
+    "updatedAt": "2025-05-08T13:55:45Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -227,8 +243,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 217,
-    "updatedAt": "2025-05-06T23:31:39Z",
+    "stargazerCount": 218,
+    "updatedAt": "2025-05-09T00:01:17Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -469,22 +485,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Sublime Text",
-    "homepageUrl": "",
-    "name": "sublime-text",
-    "repositoryTopics": [
-      "sublime-text",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "hacktoberfest"
-    ],
-    "stargazerCount": 28,
-    "updatedAt": "2025-04-15T20:39:58Z",
-    "url": "https://github.com/rose-pine/sublime-text",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Rofi",
     "homepageUrl": "",
     "name": "rofi",
@@ -680,8 +680,8 @@
       "tiling-window-manager",
       "theme"
     ],
-    "stargazerCount": 16,
-    "updatedAt": "2025-04-15T16:08:40Z",
+    "stargazerCount": 17,
+    "updatedAt": "2025-05-09T00:02:20Z",
     "url": "https://github.com/rose-pine/hyprland",
     "usesCustomOpenGraphImage": true
   },
