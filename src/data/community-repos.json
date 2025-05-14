@@ -238,6 +238,15 @@
 		"has_variants": true
 	},
 	{
+		"name": "Markdown Viewer",
+		"url": "https://github.com/Swefton/markdown-viewer",
+		"tags": ["extension", "css"],
+		"authors" : [
+			{ "name": "Swefton", "url": "https://github.com/Swefton"}
+		],
+		"has_variants": true
+	},
+	{
 		"name": "Marp",
 		"url": "https://github.com/rainbowflesh/Rose-Pine-For-Marp",
 		"tags": ["marp-themes"],
