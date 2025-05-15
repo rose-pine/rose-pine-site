@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 97,
+    "updatedAt": "2025-05-15T00:16:34Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Pygments",
     "homepageUrl": "",
     "name": "pygments",
@@ -16,13 +26,18 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 97,
-    "updatedAt": "2025-05-14T00:17:43Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
+    "description": "Soho vibes for Markdown Viewer",
+    "homepageUrl": "",
+    "name": "markdown-viewer",
+    "repositoryTopics": [
+      "extension",
+      "rose-pine",
+      "soho-vibes",
+      "theme"
+    ],
+    "stargazerCount": 0,
+    "updatedAt": "2025-05-15T00:58:50Z",
+    "url": "https://github.com/rose-pine/markdown-viewer",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -1471,8 +1486,8 @@
       "terminal",
       "mobile"
     ],
-    "stargazerCount": 18,
-    "updatedAt": "2025-05-08T10:36:40Z",
+    "stargazerCount": 19,
+    "updatedAt": "2025-05-15T00:21:24Z",
     "url": "https://github.com/rose-pine/termux",
     "usesCustomOpenGraphImage": true
   },
