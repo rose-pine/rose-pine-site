@@ -1,5 +1,6 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import Editor from "../../components/editor.astro";
 import {
 	useTranslatedPath,
 	useTranslations,
@@ -16,34 +17,45 @@ let translatePath = useTranslatedPath(lang);
 ---
 
 <Layout title={t("home.title")} description={t("home.description")}>
-	<section class="wrapper flex h-full flex-col justify-center">
-		<h1
-			class="animate-enter mb-4 max-w-2xl text-6xl font-bold tracking-tight text-balance sm:text-8xl lg:text-9xl"
-			style="--stagger: 1"
-		>
-			{t("home.title")}
-		</h1>
-		<p
-			class="animate-enter mb-12 max-w-md text-xl text-subtle"
-			style="--stagger: 2"
-		>
-			{t("home.description")}
-		</p>
-		<div class="flex items-center gap-5">
-			<a
-				href={translatePath("/themes")}
-				class="animate-enter flex shrink-0 items-center gap-2.5 rounded-lg border border-pine/20 bg-pine/90 px-4 py-2.5 font-medium text-surface shadow-sm shadow-pine/30 transition select-none hover:bg-pine dark:text-text"
-				style="--stagger: 2.5"
+	<section
+		class="wrapper grid h-full grid-cols-1 items-center justify-center gap-10 sm:grid-cols-[1fr_auto]"
+	>
+		<div class="flex flex-col">
+			<h1
+				class="animate-enter mb-4 max-w-2xl text-6xl font-bold tracking-tight text-balance sm:text-8xl lg:text-9xl"
+				style="--stagger: 1"
 			>
-				{t("home.primary_action")}
-			</a>
-			<a
-				href={translatePath("/create")}
-				class="animate-enter flex shrink-0 items-center gap-2.5 rounded-lg border border-muted/20 bg-muted/10 px-4 py-2.5 font-medium shadow-sm transition select-none hover:bg-muted/15"
-				style="--stagger: 2.75"
+				{t("home.title")}
+			</h1>
+			<p
+				class="animate-enter mb-12 max-w-md text-xl text-subtle"
+				style="--stagger: 2"
 			>
-				{t("home.secondary_action")}
-			</a>
+				{t("home.description")}
+			</p>
+			<div class="flex items-center gap-5">
+				<a
+					href={translatePath("/themes")}
+					class="animate-enter flex shrink-0 items-center gap-2.5 rounded-lg border border-pine/20 bg-pine/90 px-4 py-2.5 font-medium text-surface shadow-sm shadow-pine/30 transition select-none hover:bg-pine dark:text-text"
+					style="--stagger: 2.5"
+				>
+					{t("home.primary_action")}
+				</a>
+				<a
+					href={translatePath("/create")}
+					class="animate-enter flex shrink-0 items-center gap-2.5 rounded-lg border border-muted/20 bg-muted/10 px-4 py-2.5 font-medium shadow-sm transition select-none hover:bg-muted/15"
+					style="--stagger: 2.75"
+				>
+					{t("home.secondary_action")}
+				</a>
+			</div>
 		</div>
+
+		<aside
+			class="animate-enter overflow-hidden rounded-3xl border border-muted/10 shadow-xl shadow-muted/5 max-sm:-mx-page-gutter-half sm:max-wrapper:-mr-page-gutter sm:max-wrapper:rounded-r-none sm:max-wrapper:border-r-0"
+			style="--stagger: 3"
+		>
+			<Editor />
+		</aside>
 	</section>
 </Layout>

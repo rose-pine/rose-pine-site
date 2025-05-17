@@ -7,7 +7,7 @@
 @custom-variant pointer-coarse (@media (pointer: coarse));
 
 @theme {
-	--wrapper-content-width: var(--container-6xl);
+	--breakpoint-wrapper: 72rem;
 
 	--font-sans:
 		ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
@@ -190,7 +190,7 @@ ul[role="list"] {
 .wrapper {
 	margin-inline: auto;
 	padding-inline: var(--spacing-page-gutter);
-	max-inline-size: var(--wrapper-content-width);
+	max-inline-size: var(--breakpoint-wrapper);
 }
 
 .animate-enter {
