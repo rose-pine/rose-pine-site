@@ -1,11 +1,32 @@
 [
   {
+    "description": "Soho vibes for Neovim",
+    "homepageUrl": "",
+    "name": "neovim",
+    "repositoryTopics": [
+      "theme",
+      "neovim",
+      "soho-vibes",
+      "rose-pine",
+      "lua",
+      "vim",
+      "nvim",
+      "neovim-theme",
+      "vim-theme",
+      "editor"
+    ],
+    "stargazerCount": 2624,
+    "updatedAt": "2025-05-17T23:31:47Z",
+    "url": "https://github.com/rose-pine/neovim",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 97,
-    "updatedAt": "2025-05-16T00:18:00Z",
+    "updatedAt": "2025-05-17T00:17:18Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -80,27 +101,6 @@
     "stargazerCount": 29,
     "updatedAt": "2025-05-06T19:42:52Z",
     "url": "https://github.com/rose-pine/fish",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Neovim",
-    "homepageUrl": "",
-    "name": "neovim",
-    "repositoryTopics": [
-      "theme",
-      "neovim",
-      "soho-vibes",
-      "rose-pine",
-      "lua",
-      "vim",
-      "nvim",
-      "neovim-theme",
-      "vim-theme",
-      "editor"
-    ],
-    "stargazerCount": 2621,
-    "updatedAt": "2025-05-16T15:53:59Z",
-    "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -274,8 +274,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 222,
-    "updatedAt": "2025-05-15T12:19:15Z",
+    "stargazerCount": 221,
+    "updatedAt": "2025-05-17T12:13:35Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -830,8 +830,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 37,
-    "updatedAt": "2025-05-01T04:06:46Z",
+    "stargazerCount": 38,
+    "updatedAt": "2025-05-17T09:39:20Z",
     "url": "https://github.com/rose-pine/rose-pine-template",
     "usesCustomOpenGraphImage": true
   },
@@ -953,8 +953,8 @@
       "theme",
       "color-palette"
     ],
-    "stargazerCount": 36,
-    "updatedAt": "2025-05-16T09:21:50Z",
+    "stargazerCount": 37,
+    "updatedAt": "2025-05-17T03:43:12Z",
     "url": "https://github.com/rose-pine/waybar",
     "usesCustomOpenGraphImage": true
   },
