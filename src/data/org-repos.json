@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 97,
+    "updatedAt": "2025-05-18T00:19:20Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -15,19 +25,9 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2624,
-    "updatedAt": "2025-05-17T23:31:47Z",
+    "stargazerCount": 2627,
+    "updatedAt": "2025-05-18T13:56:37Z",
     "url": "https://github.com/rose-pine/neovim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 97,
-    "updatedAt": "2025-05-17T00:17:18Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -187,8 +187,8 @@
     "repositoryTopics": [
       "app"
     ],
-    "stargazerCount": 8,
-    "updatedAt": "2025-04-24T22:28:48Z",
+    "stargazerCount": 9,
+    "updatedAt": "2025-05-18T04:49:45Z",
     "url": "https://github.com/rose-pine/zen-browser",
     "usesCustomOpenGraphImage": true
   },
@@ -225,8 +225,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 280,
-    "updatedAt": "2025-05-12T12:14:53Z",
+    "stargazerCount": 281,
+    "updatedAt": "2025-05-18T14:35:51Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -424,8 +424,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 34,
-    "updatedAt": "2025-05-03T07:13:03Z",
+    "stargazerCount": 35,
+    "updatedAt": "2025-05-18T09:44:27Z",
     "url": "https://github.com/rose-pine/zellij",
     "usesCustomOpenGraphImage": true
   },
@@ -1606,8 +1606,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 116,
-    "updatedAt": "2025-04-22T15:27:19Z",
+    "stargazerCount": 117,
+    "updatedAt": "2025-05-18T07:08:56Z",
     "url": "https://github.com/rose-pine/iterm",
     "usesCustomOpenGraphImage": true
   },
