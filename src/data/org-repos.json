@@ -1,15 +1,5 @@
 [
   {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 97,
-    "updatedAt": "2025-05-18T00:19:20Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -26,8 +16,18 @@
       "editor"
     ],
     "stargazerCount": 2627,
-    "updatedAt": "2025-05-18T13:56:37Z",
+    "updatedAt": "2025-05-19T17:57:19Z",
     "url": "https://github.com/rose-pine/neovim",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 97,
+    "updatedAt": "2025-05-19T00:18:53Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -176,7 +176,7 @@
       "editor"
     ],
     "stargazerCount": 537,
-    "updatedAt": "2025-05-15T12:19:03Z",
+    "updatedAt": "2025-05-20T00:15:02Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -410,8 +410,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1365,
-    "updatedAt": "2025-05-16T18:38:53Z",
+    "stargazerCount": 1367,
+    "updatedAt": "2025-05-20T00:15:17Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -604,8 +604,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 197,
-    "updatedAt": "2025-05-06T18:03:20Z",
+    "stargazerCount": 198,
+    "updatedAt": "2025-05-19T03:59:50Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -680,8 +680,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 107,
-    "updatedAt": "2025-05-15T11:42:13Z",
+    "stargazerCount": 108,
+    "updatedAt": "2025-05-19T05:23:24Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -774,7 +774,7 @@
       "terminal-emulator"
     ],
     "stargazerCount": 82,
-    "updatedAt": "2025-05-06T15:49:47Z",
+    "updatedAt": "2025-05-20T00:15:07Z",
     "url": "https://github.com/rose-pine/windows-terminal",
     "usesCustomOpenGraphImage": true
   },
