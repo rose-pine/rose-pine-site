@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 97,
+    "updatedAt": "2025-05-21T00:18:09Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Userstyles",
     "homepageUrl": "",
     "name": "userstyles",
@@ -12,16 +22,6 @@
     "stargazerCount": 25,
     "updatedAt": "2025-05-20T10:49:16Z",
     "url": "https://github.com/rose-pine/userstyles",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 97,
-    "updatedAt": "2025-05-20T00:18:25Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -40,8 +40,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2629,
-    "updatedAt": "2025-05-20T18:54:58Z",
+    "stargazerCount": 2630,
+    "updatedAt": "2025-05-21T19:17:15Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -604,8 +604,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 198,
-    "updatedAt": "2025-05-19T03:59:50Z",
+    "stargazerCount": 199,
+    "updatedAt": "2025-05-21T13:09:50Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
