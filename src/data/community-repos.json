@@ -30,6 +30,13 @@
 		"has_variants": true
 	},
 	{
+		"name": "Chatterino",
+		"url": "https://github.com/nofishleft/rose-pine-chatterino",
+		"tags": ["app", "community"],
+		"authors": [{ "name": "nofishleft (phush)", "url": "https://github.com/nofishleft" }],
+		"has_variants": true
+	},
+	{
 		"name": "Chrome Devtools",
 		"url": "https://github.com/velzie/rose-pine-chrome-devtools",
 		"tags": ["browser", "chrome", "chromium"],
