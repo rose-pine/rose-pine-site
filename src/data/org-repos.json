@@ -1,5 +1,25 @@
 [
   {
+    "description": "Soho vibes for Zed",
+    "homepageUrl": "",
+    "name": "zed",
+    "repositoryTopics": [],
+    "stargazerCount": 34,
+    "updatedAt": "2025-05-24T22:13:38Z",
+    "url": "https://github.com/rose-pine/zed",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 97,
+    "updatedAt": "2025-05-24T00:17:12Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Userstyles",
     "homepageUrl": "",
     "name": "userstyles",
@@ -10,18 +30,8 @@
       "stylus"
     ],
     "stargazerCount": 25,
-    "updatedAt": "2025-05-23T16:58:51Z",
+    "updatedAt": "2025-05-24T18:31:46Z",
     "url": "https://github.com/rose-pine/userstyles",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 97,
-    "updatedAt": "2025-05-23T00:17:48Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -40,8 +50,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2633,
-    "updatedAt": "2025-05-23T17:15:34Z",
+    "stargazerCount": 2634,
+    "updatedAt": "2025-05-24T10:39:30Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -253,16 +263,6 @@
     "updatedAt": "2025-04-14T19:57:35Z",
     "url": "https://github.com/rose-pine/flow-launcher",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Soho vibes for Zed",
-    "homepageUrl": "",
-    "name": "zed",
-    "repositoryTopics": [],
-    "stargazerCount": 34,
-    "updatedAt": "2025-05-16T03:53:01Z",
-    "url": "https://github.com/rose-pine/zed",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Wallpapers",
@@ -500,8 +500,8 @@
       "editor",
       "hacktoberfest"
     ],
-    "stargazerCount": 32,
-    "updatedAt": "2025-04-12T00:16:48Z",
+    "stargazerCount": 33,
+    "updatedAt": "2025-05-24T14:41:19Z",
     "url": "https://github.com/rose-pine/helix",
     "usesCustomOpenGraphImage": true
   },
