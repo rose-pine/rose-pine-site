@@ -1,11 +1,26 @@
 [
   {
+    "description": "Soho vibes for Userstyles",
+    "homepageUrl": "",
+    "name": "userstyles",
+    "repositoryTopics": [
+      "css",
+      "stylish",
+      "userstyles",
+      "stylus"
+    ],
+    "stargazerCount": 25,
+    "updatedAt": "2025-05-26T07:09:13Z",
+    "url": "https://github.com/rose-pine/userstyles",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 97,
-    "updatedAt": "2025-05-25T00:19:54Z",
+    "updatedAt": "2025-05-26T00:18:34Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -17,21 +32,6 @@
     "stargazerCount": 34,
     "updatedAt": "2025-05-24T22:13:38Z",
     "url": "https://github.com/rose-pine/zed",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Userstyles",
-    "homepageUrl": "",
-    "name": "userstyles",
-    "repositoryTopics": [
-      "css",
-      "stylish",
-      "userstyles",
-      "stylus"
-    ],
-    "stargazerCount": 25,
-    "updatedAt": "2025-05-24T18:31:46Z",
-    "url": "https://github.com/rose-pine/userstyles",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -50,8 +50,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2637,
-    "updatedAt": "2025-05-25T08:28:07Z",
+    "stargazerCount": 2636,
+    "updatedAt": "2025-05-26T00:19:06Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -410,8 +410,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1369,
-    "updatedAt": "2025-05-25T12:04:44Z",
+    "stargazerCount": 1370,
+    "updatedAt": "2025-05-26T02:10:24Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1298,8 +1298,8 @@
       "bear",
       "hacktoberfest"
     ],
-    "stargazerCount": 10,
-    "updatedAt": "2025-03-24T17:12:05Z",
+    "stargazerCount": 11,
+    "updatedAt": "2025-05-26T19:36:33Z",
     "url": "https://github.com/rose-pine/bear-blog",
     "usesCustomOpenGraphImage": true
   },
