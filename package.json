@@ -11,9 +11,9 @@
 		"format": "./script/sort-community-repos.sh; pnpm exec prettier --write ."
 	},
 	"dependencies": {
-		"@astrojs/svelte": "^7.0.13",
+		"@astrojs/svelte": "^7.1.0",
 		"@tailwindcss/vite": "^4.1.7",
-		"astro": "^5.7.13",
+		"astro": "^5.8.1",
 		"bits-ui": "^1.4.8",
 		"svelte": "^5.30.2",
 		"tailwindcss": "^4.1.7"
