@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 98,
-    "updatedAt": "2025-06-02T00:19:00Z",
+    "updatedAt": "2025-06-03T00:18:26Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -42,8 +42,8 @@
       "userstyles",
       "stylus"
     ],
-    "stargazerCount": 25,
-    "updatedAt": "2025-05-26T07:09:13Z",
+    "stargazerCount": 26,
+    "updatedAt": "2025-06-03T05:13:50Z",
     "url": "https://github.com/rose-pine/userstyles",
     "usesCustomOpenGraphImage": true
   },
@@ -73,8 +73,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2645,
-    "updatedAt": "2025-06-02T23:38:57Z",
+    "stargazerCount": 2647,
+    "updatedAt": "2025-06-03T23:26:20Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -198,8 +198,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 539,
-    "updatedAt": "2025-05-20T18:58:48Z",
+    "stargazerCount": 538,
+    "updatedAt": "2025-06-03T18:59:21Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -210,8 +210,8 @@
     "repositoryTopics": [
       "app"
     ],
-    "stargazerCount": 10,
-    "updatedAt": "2025-05-27T00:37:50Z",
+    "stargazerCount": 11,
+    "updatedAt": "2025-06-03T10:52:47Z",
     "url": "https://github.com/rose-pine/zen-browser",
     "usesCustomOpenGraphImage": true
   },
@@ -604,8 +604,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 201,
-    "updatedAt": "2025-05-30T12:52:04Z",
+    "stargazerCount": 202,
+    "updatedAt": "2025-06-03T22:53:04Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
