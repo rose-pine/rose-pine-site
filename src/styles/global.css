@@ -209,6 +209,13 @@ ul[role="list"] {
 	}
 }
 
+/* prettier-ignore */
+@utility tonal-* {
+	color: --value(--color-*);
+	background-color: --alpha(--value(--color-*) / 10%);
+	border-color: --alpha(--value(--color-*) / 20%);
+}
+
 @keyframes enter {
 	0% {
 		opacity: 0;
