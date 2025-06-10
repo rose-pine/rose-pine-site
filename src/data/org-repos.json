@@ -1,11 +1,23 @@
 [
   {
+    "description": "Rosé Pine new repo template",
+    "homepageUrl": "",
+    "name": "rose-pine-template",
+    "repositoryTopics": [
+      "theme"
+    ],
+    "stargazerCount": 38,
+    "updatedAt": "2025-05-17T09:39:20Z",
+    "url": "https://github.com/rose-pine/rose-pine-template",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "",
     "homepageUrl": "",
     "name": "rose-pine-bloom",
     "repositoryTopics": [],
     "stargazerCount": 2,
-    "updatedAt": "2025-06-08T21:09:03Z",
+    "updatedAt": "2025-06-09T22:16:34Z",
     "url": "https://github.com/rose-pine/rose-pine-bloom",
     "usesCustomOpenGraphImage": false
   },
@@ -15,7 +27,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 98,
-    "updatedAt": "2025-06-08T00:20:15Z",
+    "updatedAt": "2025-06-09T00:19:22Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -73,8 +85,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2653,
-    "updatedAt": "2025-06-06T11:29:53Z",
+    "stargazerCount": 2655,
+    "updatedAt": "2025-06-09T20:32:31Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -410,8 +422,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1378,
-    "updatedAt": "2025-06-06T12:57:36Z",
+    "stargazerCount": 1377,
+    "updatedAt": "2025-06-09T13:30:31Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -483,8 +495,8 @@
       "swaync",
       "theme"
     ],
-    "stargazerCount": 16,
-    "updatedAt": "2025-04-27T21:10:26Z",
+    "stargazerCount": 17,
+    "updatedAt": "2025-06-09T16:38:39Z",
     "url": "https://github.com/rose-pine/swaync",
     "usesCustomOpenGraphImage": true
   },
@@ -821,18 +833,6 @@
     "stargazerCount": 6,
     "updatedAt": "2025-06-07T00:49:07Z",
     "url": "https://github.com/rose-pine/tidal",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Rosé Pine new repo template",
-    "homepageUrl": "",
-    "name": "rose-pine-template",
-    "repositoryTopics": [
-      "theme"
-    ],
-    "stargazerCount": 38,
-    "updatedAt": "2025-05-17T09:39:20Z",
-    "url": "https://github.com/rose-pine/rose-pine-template",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -1606,8 +1606,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 118,
-    "updatedAt": "2025-05-29T10:31:39Z",
+    "stargazerCount": 119,
+    "updatedAt": "2025-06-09T23:12:34Z",
     "url": "https://github.com/rose-pine/iterm",
     "usesCustomOpenGraphImage": true
   },
