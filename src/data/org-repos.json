@@ -1,14 +1,23 @@
 [
   {
-    "description": "Rosé Pine new repo template",
+    "description": "Soho vibes for Neovim",
     "homepageUrl": "",
-    "name": "rose-pine-template",
+    "name": "neovim",
     "repositoryTopics": [
-      "theme"
+      "theme",
+      "neovim",
+      "soho-vibes",
+      "rose-pine",
+      "lua",
+      "vim",
+      "nvim",
+      "neovim-theme",
+      "vim-theme",
+      "editor"
     ],
-    "stargazerCount": 38,
-    "updatedAt": "2025-05-17T09:39:20Z",
-    "url": "https://github.com/rose-pine/rose-pine-template",
+    "stargazerCount": 2655,
+    "updatedAt": "2025-06-10T17:42:30Z",
+    "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -27,8 +36,20 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 98,
-    "updatedAt": "2025-06-09T00:19:22Z",
+    "updatedAt": "2025-06-10T00:18:12Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Rosé Pine new repo template",
+    "homepageUrl": "",
+    "name": "rose-pine-template",
+    "repositoryTopics": [
+      "theme"
+    ],
+    "stargazerCount": 38,
+    "updatedAt": "2025-05-17T09:39:20Z",
+    "url": "https://github.com/rose-pine/rose-pine-template",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -39,8 +60,8 @@
       "theme",
       "mobile-app"
     ],
-    "stargazerCount": 14,
-    "updatedAt": "2025-05-30T19:40:23Z",
+    "stargazerCount": 15,
+    "updatedAt": "2025-06-10T13:58:38Z",
     "url": "https://github.com/rose-pine/discord-mobile",
     "usesCustomOpenGraphImage": true
   },
@@ -67,27 +88,6 @@
     "stargazerCount": 35,
     "updatedAt": "2025-06-04T10:17:08Z",
     "url": "https://github.com/rose-pine/zed",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Neovim",
-    "homepageUrl": "",
-    "name": "neovim",
-    "repositoryTopics": [
-      "theme",
-      "neovim",
-      "soho-vibes",
-      "rose-pine",
-      "lua",
-      "vim",
-      "nvim",
-      "neovim-theme",
-      "vim-theme",
-      "editor"
-    ],
-    "stargazerCount": 2655,
-    "updatedAt": "2025-06-09T20:32:31Z",
-    "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -210,8 +210,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 539,
-    "updatedAt": "2025-06-05T20:12:12Z",
+    "stargazerCount": 540,
+    "updatedAt": "2025-06-10T10:50:35Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -260,8 +260,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 285,
-    "updatedAt": "2025-05-30T05:41:55Z",
+    "stargazerCount": 284,
+    "updatedAt": "2025-06-10T09:44:54Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -616,8 +616,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 203,
-    "updatedAt": "2025-06-05T13:46:33Z",
+    "stargazerCount": 205,
+    "updatedAt": "2025-06-10T11:20:58Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
