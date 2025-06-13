@@ -1,5 +1,62 @@
 [
   {
+    "description": "",
+    "homepageUrl": "",
+    "name": "rose-pine-bloom",
+    "repositoryTopics": [],
+    "stargazerCount": 3,
+    "updatedAt": "2025-06-12T21:16:54Z",
+    "url": "https://github.com/rose-pine/rose-pine-bloom",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "Soho vibes for Typst",
+    "homepageUrl": "",
+    "name": "typst",
+    "repositoryTopics": [
+      "theme"
+    ],
+    "stargazerCount": 8,
+    "updatedAt": "2025-06-12T18:03:20Z",
+    "url": "https://github.com/rose-pine/typst",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Ulauncher",
+    "homepageUrl": "",
+    "name": "ulauncher",
+    "repositoryTopics": [],
+    "stargazerCount": 2,
+    "updatedAt": "2025-06-12T19:10:56Z",
+    "url": "https://github.com/rose-pine/ulauncher",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "Soho vibes for Linux TTY",
+    "homepageUrl": "",
+    "name": "linux-tty",
+    "repositoryTopics": [
+      "linux-tty",
+      "soho-vibes",
+      "theme",
+      "rose-pine"
+    ],
+    "stargazerCount": 12,
+    "updatedAt": "2025-06-12T03:24:56Z",
+    "url": "https://github.com/rose-pine/linux-tty",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 98,
+    "updatedAt": "2025-06-12T00:18:13Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Firefox",
     "homepageUrl": "",
     "name": "firefox",
@@ -83,20 +140,10 @@
       "obsstudio",
       "theme"
     ],
-    "stargazerCount": 0,
-    "updatedAt": "2025-06-11T09:19:38Z",
+    "stargazerCount": 1,
+    "updatedAt": "2025-06-12T12:23:13Z",
     "url": "https://github.com/rose-pine/obs",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 98,
-    "updatedAt": "2025-06-11T00:18:19Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Neovim",
@@ -114,20 +161,10 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2658,
-    "updatedAt": "2025-06-11T20:34:10Z",
+    "stargazerCount": 2660,
+    "updatedAt": "2025-06-12T21:14:04Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "",
-    "homepageUrl": "",
-    "name": "rose-pine-bloom",
-    "repositoryTopics": [],
-    "stargazerCount": 2,
-    "updatedAt": "2025-06-09T22:16:34Z",
-    "url": "https://github.com/rose-pine/rose-pine-bloom",
-    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Rosé Pine new repo template",
@@ -177,6 +214,21 @@
     "stargazerCount": 35,
     "updatedAt": "2025-06-04T10:17:08Z",
     "url": "https://github.com/rose-pine/zed",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Ninjabrain Bot",
+    "homepageUrl": "",
+    "name": "ninjabrain-bot",
+    "repositoryTopics": [
+      "app",
+      "rose-pine",
+      "soho-vibes",
+      "theme"
+    ],
+    "stargazerCount": 1,
+    "updatedAt": "2025-06-12T04:51:12Z",
+    "url": "https://github.com/rose-pine/ninjabrain-bot",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -349,8 +401,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 284,
-    "updatedAt": "2025-06-10T09:44:54Z",
+    "stargazerCount": 285,
+    "updatedAt": "2025-06-12T02:51:59Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -373,8 +425,8 @@
     "homepageUrl": "",
     "name": "flow-launcher",
     "repositoryTopics": [],
-    "stargazerCount": 1,
-    "updatedAt": "2025-04-14T19:57:35Z",
+    "stargazerCount": 2,
+    "updatedAt": "2025-06-12T16:29:44Z",
     "url": "https://github.com/rose-pine/flow-launcher",
     "usesCustomOpenGraphImage": false
   },
@@ -493,8 +545,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1378,
-    "updatedAt": "2025-06-11T11:49:59Z",
+    "stargazerCount": 1377,
+    "updatedAt": "2025-06-12T02:07:01Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -526,21 +578,6 @@
     "stargazerCount": 33,
     "updatedAt": "2025-05-30T02:14:07Z",
     "url": "https://github.com/rose-pine/vim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Linux TTY",
-    "homepageUrl": "",
-    "name": "linux-tty",
-    "repositoryTopics": [
-      "linux-tty",
-      "soho-vibes",
-      "theme",
-      "rose-pine"
-    ],
-    "stargazerCount": 12,
-    "updatedAt": "2025-04-27T18:57:52Z",
-    "url": "https://github.com/rose-pine/linux-tty",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -763,8 +800,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 113,
-    "updatedAt": "2025-06-11T15:35:43Z",
+    "stargazerCount": 114,
+    "updatedAt": "2025-06-12T12:06:30Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -781,18 +818,6 @@
     "stargazerCount": 18,
     "updatedAt": "2025-05-11T04:14:14Z",
     "url": "https://github.com/rose-pine/hyprland",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Typst",
-    "homepageUrl": "",
-    "name": "typst",
-    "repositoryTopics": [
-      "theme"
-    ],
-    "stargazerCount": 8,
-    "updatedAt": "2025-05-11T21:57:08Z",
-    "url": "https://github.com/rose-pine/typst",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -1011,8 +1036,8 @@
       "vivaldi",
       "vivaldi-theme"
     ],
-    "stargazerCount": 6,
-    "updatedAt": "2025-02-10T14:24:03Z",
+    "stargazerCount": 7,
+    "updatedAt": "2025-06-12T12:18:42Z",
     "url": "https://github.com/rose-pine/vivaldi",
     "usesCustomOpenGraphImage": true
   },
@@ -1085,8 +1110,8 @@
       "color",
       "css"
     ],
-    "stargazerCount": 27,
-    "updatedAt": "2025-04-01T05:25:08Z",
+    "stargazerCount": 26,
+    "updatedAt": "2025-06-12T15:12:24Z",
     "url": "https://github.com/rose-pine/palette",
     "usesCustomOpenGraphImage": true
   },
