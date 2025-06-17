@@ -1,23 +1,38 @@
 [
   {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 98,
-    "updatedAt": "2025-06-15T00:20:32Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "",
     "homepageUrl": "",
     "name": "rose-pine-bloom",
     "repositoryTopics": [],
     "stargazerCount": 3,
-    "updatedAt": "2025-06-14T16:04:26Z",
+    "updatedAt": "2025-06-16T14:54:31Z",
     "url": "https://github.com/rose-pine/rose-pine-bloom",
     "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "Soho vibes for Linux TTY",
+    "homepageUrl": "",
+    "name": "linux-tty",
+    "repositoryTopics": [
+      "linux-tty",
+      "soho-vibes",
+      "theme",
+      "rose-pine"
+    ],
+    "stargazerCount": 12,
+    "updatedAt": "2025-06-16T17:06:34Z",
+    "url": "https://github.com/rose-pine/linux-tty",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 98,
+    "updatedAt": "2025-06-16T00:19:09Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Typst",
@@ -40,21 +55,6 @@
     "updatedAt": "2025-06-12T19:10:56Z",
     "url": "https://github.com/rose-pine/ulauncher",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Soho vibes for Linux TTY",
-    "homepageUrl": "",
-    "name": "linux-tty",
-    "repositoryTopics": [
-      "linux-tty",
-      "soho-vibes",
-      "theme",
-      "rose-pine"
-    ],
-    "stargazerCount": 12,
-    "updatedAt": "2025-06-12T03:24:56Z",
-    "url": "https://github.com/rose-pine/linux-tty",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Firefox",
@@ -161,8 +161,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2661,
-    "updatedAt": "2025-06-15T10:12:14Z",
+    "stargazerCount": 2662,
+    "updatedAt": "2025-06-16T05:26:34Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -351,8 +351,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 540,
-    "updatedAt": "2025-06-10T10:50:35Z",
+    "stargazerCount": 541,
+    "updatedAt": "2025-06-16T14:53:44Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -376,8 +376,8 @@
       "shell",
       "terminal"
     ],
-    "stargazerCount": 34,
-    "updatedAt": "2025-06-14T10:58:16Z",
+    "stargazerCount": 35,
+    "updatedAt": "2025-06-16T07:45:36Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
   },
@@ -440,8 +440,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 225,
-    "updatedAt": "2025-06-11T23:01:27Z",
+    "stargazerCount": 226,
+    "updatedAt": "2025-06-16T11:11:28Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -545,8 +545,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1380,
-    "updatedAt": "2025-06-15T20:40:09Z",
+    "stargazerCount": 1382,
+    "updatedAt": "2025-06-16T13:02:10Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -724,8 +724,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 203,
-    "updatedAt": "2025-06-14T10:58:16Z",
+    "stargazerCount": 204,
+    "updatedAt": "2025-06-16T07:45:35Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -800,8 +800,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 114,
-    "updatedAt": "2025-06-12T12:06:30Z",
+    "stargazerCount": 115,
+    "updatedAt": "2025-06-16T07:09:33Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
