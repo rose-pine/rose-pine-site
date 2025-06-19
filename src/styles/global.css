@@ -187,6 +187,11 @@ ul[role="list"] {
 	list-style-type: none;
 }
 
+.link {
+	color: var(--color-iris);
+	border-bottom: 1px dotted var(--color-muted);
+}
+
 .wrapper {
 	margin-inline: auto;
 	padding-inline: var(--spacing-page-gutter);

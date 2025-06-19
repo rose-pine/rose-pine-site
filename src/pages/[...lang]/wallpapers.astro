@@ -1,0 +1,76 @@
+---
+import { Image } from "astro:assets";
+import Layout from "../../layouts/Layout.astro";
+import { getLangPaths, useTranslations } from "../../i18n/utilities";
+import IntroSection from "../../components/intro-section.astro";
+
+export async function getStaticPaths() {
+	return getLangPaths();
+}
+
+let { lang = "en" } = Astro.params;
+let t = useTranslations(lang);
+
+let baseSourceUrl = "https://github.com/rose-pine/wallpapers/main";
+let baseRawUrl = "https://raw.githubusercontent.com/rose-pine/wallpapers/main";
+
+let wallpapers = [
+	{ src: "moon.jpg", alt: "Moon" },
+	{ src: "clouds.JPG", alt: "Clouds" },
+	{ src: "bay.JPG", alt: "Bay" },
+	{ src: "flower.jpg", alt: "Flower" },
+	{ src: "field.jpg", alt: "Field" },
+	{ src: "oceandrone1.JPG", alt: "Ocean Drone I" },
+	{ src: "oceandrone2.JPG", alt: "Ocean Drone II" },
+	{ src: "pointoverhead.jpg", alt: "Point Overhead" },
+	{ src: "rocks.jpg", alt: "Rocks" },
+	{ src: "roses.jpg", alt: "Roses" },
+	{ src: "seals.jpg", alt: "Seals" },
+	{ src: "seaslug.jpg", alt: "Sea Slug" },
+];
+---
+
+<Layout
+	title="Wallpapers"
+	description="If you don't stop for a while, you might miss a perfect view."
+>
+	<IntroSection
+		headline="Wallpapers"
+		subheadline="If you don't stop for a while, you might miss a perfect view."
+	/>
+
+	<div class="h-page-top"></div>
+
+	<section class="wrapper">
+		<p class="animate-enter font-medium" style="--stagger: 1">
+			Photography by <a href="https://t1c.dev/" class="link">Kainoa</a>
+		</p>
+
+		<div class="h-page-gutter"></div>
+
+		<div class="animate-enter" style="--stagger: 3">
+			<div
+				class="grid grid-cols-1 items-center justify-center gap-page-gutter sm:grid-cols-2 lg:grid-cols-3"
+			>
+				{
+					wallpapers.map(({ src, alt }) => (
+						<a
+							href={`${baseSourceUrl}/${src}`}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<Image
+								src={`${baseRawUrl}/${src}`}
+								alt={alt}
+								width="768"
+								height="512"
+								loading="eager"
+								class="aspect-3/2 rounded-md object-cover shadow-lg"
+							/>
+						</a>
+					))
+				}
+			</div>
+		</div>
+	</section>
+</Layout>

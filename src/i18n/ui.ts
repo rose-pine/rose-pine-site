@@ -17,6 +17,7 @@ export const ui = {
 		"nav.home": "Home",
 		"nav.themes": "Themes",
 		"nav.palette": "Palette",
+		"nav.wallpapers": "Wallpapers",
 		"nav.create": "Create",
 
 		"home.title": "Something beautiful",
@@ -44,6 +45,7 @@ export const ui = {
 		"nav.home": "Casa",
 		"nav.themes": "Temi",
 		"nav.palette": "Tavolozza",
+		"nav.wallpapers": "Sfondi",
 		"nav.create": "Crea",
 
 		"home.title": "Qualcosa di bello",
