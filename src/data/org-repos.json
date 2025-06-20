@@ -5,7 +5,7 @@
     "name": "rose-pine-bloom",
     "repositoryTopics": [],
     "stargazerCount": 3,
-    "updatedAt": "2025-06-16T14:54:31Z",
+    "updatedAt": "2025-06-19T15:09:53Z",
     "url": "https://github.com/rose-pine/rose-pine-bloom",
     "usesCustomOpenGraphImage": false
   },
@@ -15,7 +15,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 98,
-    "updatedAt": "2025-06-18T00:18:14Z",
+    "updatedAt": "2025-06-19T00:18:37Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -161,8 +161,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2670,
-    "updatedAt": "2025-06-18T22:07:48Z",
+    "stargazerCount": 2671,
+    "updatedAt": "2025-06-19T15:14:32Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -440,8 +440,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 226,
-    "updatedAt": "2025-06-16T11:11:28Z",
+    "stargazerCount": 227,
+    "updatedAt": "2025-06-19T07:07:32Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -464,8 +464,8 @@
     "homepageUrl": "https://www.npmjs.com/package/@rose-pine/build",
     "name": "build",
     "repositoryTopics": [],
-    "stargazerCount": 28,
-    "updatedAt": "2025-04-20T00:17:42Z",
+    "stargazerCount": 27,
+    "updatedAt": "2025-06-19T19:36:45Z",
     "url": "https://github.com/rose-pine/build",
     "usesCustomOpenGraphImage": true
   },
@@ -545,8 +545,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1383,
-    "updatedAt": "2025-06-17T15:08:47Z",
+    "stargazerCount": 1384,
+    "updatedAt": "2025-06-19T02:20:26Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1441,8 +1441,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 44,
-    "updatedAt": "2025-06-05T12:46:01Z",
+    "stargazerCount": 45,
+    "updatedAt": "2025-06-19T12:43:14Z",
     "url": "https://github.com/rose-pine/gnome-terminal",
     "usesCustomOpenGraphImage": true
   },
@@ -1568,8 +1568,8 @@
       "rose-pine",
       "cli"
     ],
-    "stargazerCount": 8,
-    "updatedAt": "2025-03-20T12:58:50Z",
+    "stargazerCount": 9,
+    "updatedAt": "2025-06-19T07:29:13Z",
     "url": "https://github.com/rose-pine/amfora",
     "usesCustomOpenGraphImage": true
   },
