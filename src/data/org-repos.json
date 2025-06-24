@@ -1,23 +1,23 @@
 [
   {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 98,
-    "updatedAt": "2025-06-22T00:20:23Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for dwm",
     "homepageUrl": "",
     "name": "dwm",
     "repositoryTopics": [],
-    "stargazerCount": 0,
-    "updatedAt": "2025-06-22T16:19:47Z",
+    "stargazerCount": 1,
+    "updatedAt": "2025-06-23T14:08:37Z",
     "url": "https://github.com/rose-pine/dwm",
     "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 99,
+    "updatedAt": "2025-06-23T19:42:53Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "",
@@ -93,8 +93,8 @@
       "jdownloader",
       "theme"
     ],
-    "stargazerCount": 1,
-    "updatedAt": "2025-06-11T15:50:21Z",
+    "stargazerCount": 2,
+    "updatedAt": "2025-06-23T19:48:44Z",
     "url": "https://github.com/rose-pine/jdownloader",
     "usesCustomOpenGraphImage": false
   },
@@ -373,8 +373,8 @@
     "repositoryTopics": [
       "app"
     ],
-    "stargazerCount": 12,
-    "updatedAt": "2025-06-11T14:25:03Z",
+    "stargazerCount": 13,
+    "updatedAt": "2025-06-23T19:45:56Z",
     "url": "https://github.com/rose-pine/zen-browser",
     "usesCustomOpenGraphImage": true
   },
@@ -386,8 +386,8 @@
       "shell",
       "terminal"
     ],
-    "stargazerCount": 35,
-    "updatedAt": "2025-06-16T07:45:36Z",
+    "stargazerCount": 36,
+    "updatedAt": "2025-06-23T15:24:04Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
   },
@@ -396,8 +396,8 @@
     "homepageUrl": "",
     "name": "qbittorrent",
     "repositoryTopics": [],
-    "stargazerCount": 13,
-    "updatedAt": "2025-06-15T14:02:23Z",
+    "stargazerCount": 14,
+    "updatedAt": "2025-06-23T19:50:22Z",
     "url": "https://github.com/rose-pine/qbittorrent",
     "usesCustomOpenGraphImage": true
   },
@@ -450,8 +450,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 228,
-    "updatedAt": "2025-06-22T03:25:15Z",
+    "stargazerCount": 231,
+    "updatedAt": "2025-06-23T13:55:59Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -555,8 +555,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1387,
-    "updatedAt": "2025-06-22T22:48:24Z",
+    "stargazerCount": 1389,
+    "updatedAt": "2025-06-23T16:17:53Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1030,8 +1030,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 105,
-    "updatedAt": "2025-06-13T10:32:47Z",
+    "stargazerCount": 106,
+    "updatedAt": "2025-06-23T19:46:58Z",
     "url": "https://github.com/rose-pine/kitty",
     "usesCustomOpenGraphImage": true
   },
