@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 100,
+    "updatedAt": "2025-06-24T14:08:16Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for dwm",
     "homepageUrl": "",
     "name": "dwm",
@@ -8,16 +18,6 @@
     "updatedAt": "2025-06-23T14:08:37Z",
     "url": "https://github.com/rose-pine/dwm",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 99,
-    "updatedAt": "2025-06-23T19:42:53Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "",
@@ -361,8 +361,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 541,
-    "updatedAt": "2025-06-16T14:53:44Z",
+    "stargazerCount": 540,
+    "updatedAt": "2025-06-24T08:25:37Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -412,7 +412,7 @@
       "rose-pine"
     ],
     "stargazerCount": 286,
-    "updatedAt": "2025-06-22T23:13:28Z",
+    "updatedAt": "2025-06-24T19:17:26Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -450,8 +450,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 231,
-    "updatedAt": "2025-06-23T13:55:59Z",
+    "stargazerCount": 232,
+    "updatedAt": "2025-06-24T12:20:28Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
