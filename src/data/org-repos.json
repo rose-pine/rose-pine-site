@@ -1,11 +1,21 @@
 [
   {
+    "description": "Generate Rosé Pine themes",
+    "homepageUrl": "",
+    "name": "rose-pine-bloom",
+    "repositoryTopics": [],
+    "stargazerCount": 3,
+    "updatedAt": "2025-06-25T23:29:13Z",
+    "url": "https://github.com/rose-pine/rose-pine-bloom",
+    "usesCustomOpenGraphImage": false
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
-    "stargazerCount": 100,
-    "updatedAt": "2025-06-24T14:08:16Z",
+    "stargazerCount": 99,
+    "updatedAt": "2025-06-25T14:04:52Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -17,16 +27,6 @@
     "stargazerCount": 1,
     "updatedAt": "2025-06-23T14:08:37Z",
     "url": "https://github.com/rose-pine/dwm",
-    "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "",
-    "homepageUrl": "",
-    "name": "rose-pine-bloom",
-    "repositoryTopics": [],
-    "stargazerCount": 3,
-    "updatedAt": "2025-06-21T21:57:27Z",
-    "url": "https://github.com/rose-pine/rose-pine-bloom",
     "usesCustomOpenGraphImage": false
   },
   {
@@ -171,8 +171,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2674,
-    "updatedAt": "2025-06-22T15:04:18Z",
+    "stargazerCount": 2676,
+    "updatedAt": "2025-06-25T16:23:24Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -450,8 +450,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 232,
-    "updatedAt": "2025-06-24T12:20:28Z",
+    "stargazerCount": 233,
+    "updatedAt": "2025-06-25T09:57:04Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -506,8 +506,8 @@
     "homepageUrl": "",
     "name": "cosmic-desktop",
     "repositoryTopics": [],
-    "stargazerCount": 7,
-    "updatedAt": "2025-05-16T20:26:37Z",
+    "stargazerCount": 8,
+    "updatedAt": "2025-06-25T20:02:25Z",
     "url": "https://github.com/rose-pine/cosmic-desktop",
     "usesCustomOpenGraphImage": false
   },
@@ -555,8 +555,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1389,
-    "updatedAt": "2025-06-23T16:17:53Z",
+    "stargazerCount": 1388,
+    "updatedAt": "2025-06-25T07:33:24Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -585,8 +585,8 @@
       "vim",
       "editor"
     ],
-    "stargazerCount": 33,
-    "updatedAt": "2025-05-30T02:14:07Z",
+    "stargazerCount": 34,
+    "updatedAt": "2025-06-25T17:34:06Z",
     "url": "https://github.com/rose-pine/vim",
     "usesCustomOpenGraphImage": true
   },
@@ -734,8 +734,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 204,
-    "updatedAt": "2025-06-16T07:45:35Z",
+    "stargazerCount": 205,
+    "updatedAt": "2025-06-25T04:27:52Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
