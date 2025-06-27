@@ -1,5 +1,36 @@
 [
   {
+    "description": "Soho vibes for Neovim",
+    "homepageUrl": "",
+    "name": "neovim",
+    "repositoryTopics": [
+      "theme",
+      "neovim",
+      "soho-vibes",
+      "rose-pine",
+      "lua",
+      "vim",
+      "nvim",
+      "neovim-theme",
+      "vim-theme",
+      "editor"
+    ],
+    "stargazerCount": 2680,
+    "updatedAt": "2025-06-26T23:15:45Z",
+    "url": "https://github.com/rose-pine/neovim",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 99,
+    "updatedAt": "2025-06-26T00:18:26Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Generate Rosé Pine themes",
     "homepageUrl": "",
     "name": "rose-pine-bloom",
@@ -8,16 +39,6 @@
     "updatedAt": "2025-06-25T23:29:13Z",
     "url": "https://github.com/rose-pine/rose-pine-bloom",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 99,
-    "updatedAt": "2025-06-25T14:04:52Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for dwm",
@@ -39,8 +60,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 12,
-    "updatedAt": "2025-06-16T17:06:34Z",
+    "stargazerCount": 13,
+    "updatedAt": "2025-06-26T05:21:11Z",
     "url": "https://github.com/rose-pine/linux-tty",
     "usesCustomOpenGraphImage": true
   },
@@ -154,27 +175,6 @@
     "updatedAt": "2025-06-12T12:23:13Z",
     "url": "https://github.com/rose-pine/obs",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Soho vibes for Neovim",
-    "homepageUrl": "",
-    "name": "neovim",
-    "repositoryTopics": [
-      "theme",
-      "neovim",
-      "soho-vibes",
-      "rose-pine",
-      "lua",
-      "vim",
-      "nvim",
-      "neovim-theme",
-      "vim-theme",
-      "editor"
-    ],
-    "stargazerCount": 2676,
-    "updatedAt": "2025-06-25T16:23:24Z",
-    "url": "https://github.com/rose-pine/neovim",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Rosé Pine new repo template",
@@ -386,8 +386,8 @@
       "shell",
       "terminal"
     ],
-    "stargazerCount": 36,
-    "updatedAt": "2025-06-23T15:24:04Z",
+    "stargazerCount": 38,
+    "updatedAt": "2025-06-26T16:58:37Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
   },
@@ -411,8 +411,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 286,
-    "updatedAt": "2025-06-24T19:17:26Z",
+    "stargazerCount": 285,
+    "updatedAt": "2025-06-26T18:00:15Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -450,8 +450,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 233,
-    "updatedAt": "2025-06-25T09:57:04Z",
+    "stargazerCount": 234,
+    "updatedAt": "2025-06-26T17:03:54Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -734,8 +734,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 205,
-    "updatedAt": "2025-06-25T04:27:52Z",
+    "stargazerCount": 206,
+    "updatedAt": "2025-06-26T16:08:55Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -746,8 +746,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 27,
-    "updatedAt": "2025-03-20T12:57:57Z",
+    "stargazerCount": 28,
+    "updatedAt": "2025-06-26T05:18:53Z",
     "url": "https://github.com/rose-pine/fzf",
     "usesCustomOpenGraphImage": true
   },
@@ -1089,8 +1089,8 @@
       "terminal",
       "theme"
     ],
-    "stargazerCount": 28,
-    "updatedAt": "2025-06-04T19:17:08Z",
+    "stargazerCount": 29,
+    "updatedAt": "2025-06-26T05:17:34Z",
     "url": "https://github.com/rose-pine/btop",
     "usesCustomOpenGraphImage": true
   },
