@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 99,
+    "updatedAt": "2025-06-27T00:18:40Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -15,19 +25,9 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2680,
-    "updatedAt": "2025-06-26T23:15:45Z",
+    "stargazerCount": 2681,
+    "updatedAt": "2025-06-27T03:11:30Z",
     "url": "https://github.com/rose-pine/neovim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 99,
-    "updatedAt": "2025-06-26T00:18:26Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -396,8 +396,8 @@
     "homepageUrl": "",
     "name": "qbittorrent",
     "repositoryTopics": [],
-    "stargazerCount": 14,
-    "updatedAt": "2025-06-23T19:50:22Z",
+    "stargazerCount": 15,
+    "updatedAt": "2025-06-27T11:03:15Z",
     "url": "https://github.com/rose-pine/qbittorrent",
     "usesCustomOpenGraphImage": true
   },
@@ -450,8 +450,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 234,
-    "updatedAt": "2025-06-26T17:03:54Z",
+    "stargazerCount": 235,
+    "updatedAt": "2025-06-27T21:29:04Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -555,8 +555,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1388,
-    "updatedAt": "2025-06-25T07:33:24Z",
+    "stargazerCount": 1387,
+    "updatedAt": "2025-06-27T19:35:32Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -585,8 +585,8 @@
       "vim",
       "editor"
     ],
-    "stargazerCount": 34,
-    "updatedAt": "2025-06-25T17:34:06Z",
+    "stargazerCount": 35,
+    "updatedAt": "2025-06-27T10:51:45Z",
     "url": "https://github.com/rose-pine/vim",
     "usesCustomOpenGraphImage": true
   },
@@ -864,8 +864,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 117,
-    "updatedAt": "2025-06-17T13:08:54Z",
+    "stargazerCount": 118,
+    "updatedAt": "2025-06-27T23:40:01Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
@@ -1695,8 +1695,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 39,
-    "updatedAt": "2025-06-07T04:47:35Z",
+    "stargazerCount": 40,
+    "updatedAt": "2025-06-27T19:29:12Z",
     "url": "https://github.com/rose-pine/terminal.app",
     "usesCustomOpenGraphImage": true
   },
