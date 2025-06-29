@@ -1,0 +1,123 @@
+<div class="paris">
+	<div class="md:animate-dance word" style="--stagger: 1">
+		<div class="md:animate-dance char items-center" style="--stagger: 1">
+			<div class="animate-sing dit tonal-love" style="--stagger: 1"></div>
+			<div class="animate-sing dah tonal-love" style="--stagger: 2"></div>
+			<div class="animate-sing dit tonal-love" style="--stagger: 3"></div>
+			<div class="animate-sing dit tonal-love" style="--stagger: 4"></div>
+		</div>
+		<div class="md:animate-dance char items-center" style="--stagger: 2">
+			<div class="animate-sing dah tonal-love" style="--stagger: 1"></div>
+			<div class="animate-sing dah tonal-love" style="--stagger: 2"></div>
+			<div class="animate-sing dah tonal-love" style="--stagger: 3"></div>
+		</div>
+		<div class="md:animate-dance char items-center" style="--stagger: 3">
+			<div class="animate-sing dit tonal-love" style="--stagger: 1"></div>
+			<div class="animate-sing dit tonal-love" style="--stagger: 2"></div>
+			<div class="animate-sing dit tonal-love" style="--stagger: 3"></div>
+			<div class="animate-sing dah tonal-love" style="--stagger: 4"></div>
+		</div>
+		<div class="md:animate-dance char items-center" style="--stagger: 4">
+			<div class="animate-sing dit tonal-love" style="-stagger: 1"></div>
+		</div>
+	</div>
+
+	<div class="md:animate-dance word" style="--stagger: 2">
+		<div class="md:animate-dance char items-center" style="--stagger: 1">
+			<div class="animate-sing dit tonal-love" style="--stagger: 1"></div>
+			<div class="animate-sing dah tonal-love" style="--stagger: 2"></div>
+		</div>
+		<div class="md:animate-dance char items-center" style="--stagger: 1">
+			<div class="animate-sing dit tonal-love" style="--stagger: 1"></div>
+			<div class="animate-sing dah tonal-love" style="--stagger: 2"></div>
+			<div class="animate-sing dit tonal-love" style="--stagger: 3"></div>
+			<div class="animate-sing dit tonal-love" style="--stagger: 4"></div>
+		</div>
+		<div class="md:animate-dance char items-center" style="--stagger: 1">
+			<div class="animate-sing dit tonal-love" style="--stagger: 1"></div>
+			<div class="animate-sing dah tonal-love" style="--stagger: 2"></div>
+			<div class="animate-sing dit tonal-love" style="--stagger: 3"></div>
+			<div class="animate-sing dit tonal-love" style="--stagger: 4"></div>
+		</div>
+	</div>
+</div>
+
+<style is:global>
+	@reference "../styles/global.css";
+
+	.paris {
+		--unit: 12px;
+		--dit-width: calc(var(--unit) * 1);
+		--dah-width: calc(var(--unit) * 3);
+		--intra-space: calc(var(--unit) * 1);
+		--inter-space: calc(var(--unit) * 3);
+		--word-space: calc(var(--unit) * 7);
+
+		display: flex;
+		gap: var(--word-space);
+	}
+
+	.word {
+		display: flex;
+		gap: var(--inter-space);
+	}
+
+	.char {
+		display: flex;
+		gap: var(--intra-space);
+	}
+
+	.dah,
+	.dit {
+		height: var(--unit);
+		border-radius: 9999px;
+		border-style: solid;
+		border-width: 1px;
+		flex-shrink: 0;
+		transition: all 200ms ease-in-out;
+	}
+
+	.dah:hover,
+	.dit:hover {
+		transform: scale(0.95);
+	}
+
+	.dah {
+		width: var(--dah-width);
+	}
+
+	.dit {
+		width: var(--dit-width);
+	}
+
+	.animate-dance {
+		animation: dance 10000ms cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+		animation-delay: calc(var(--stagger) * 500ms);
+	}
+
+	@keyframes dance {
+		0%,
+		100% {
+			gap: --spacing(4);
+		}
+		50% {
+			gap: --spacing(6);
+			transform: rotate(2deg);
+		}
+	}
+
+	.animate-sing {
+		animation: sing 4000ms cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+		animation-delay: calc(var(--stagger) * 2000ms);
+	}
+
+	@keyframes sing {
+		0%,
+		100% {
+			transform: scale(1);
+		}
+		50% {
+			transform: scale(1.1);
+		}
+	}
+</style>
