@@ -7,7 +7,7 @@
 @custom-variant pointer-coarse (@media (pointer: coarse));
 
 @theme {
-	--breakpoint-wrapper: 72rem;
+	--breakpoint-wrapper: 80rem;
 
 	--font-sans:
 		ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
@@ -189,7 +189,9 @@ ul[role="list"] {
 
 .link {
 	color: var(--color-iris);
-	border-bottom: 1px dotted var(--color-muted);
+	text-decoration-color: --alpha(var(--color-iris) / 0.4);
+	text-decoration-line: underline;
+	text-underline-offset: 2px;
 }
 
 .wrapper {

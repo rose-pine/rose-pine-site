@@ -1,11 +1,14 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import Editor from "../../components/editor.astro";
+import Flower5Icon from "../../assets/flower5.svg";
+import Flower7Icon from "../../assets/flower7.svg";
+import Flower10Icon from "../../assets/flower10.svg";
 import {
 	useTranslatedPath,
 	useTranslations,
 	withLangPaths,
 } from "../../i18n/utilities";
+import { getAllRepos } from "../../utilities";
 
 export async function getStaticPaths() {
 	return await withLangPaths();
@@ -14,48 +17,112 @@ export async function getStaticPaths() {
 let { lang = "en" } = Astro.params;
 let t = useTranslations(lang);
 let translatePath = useTranslatedPath(lang);
+
+let allRepos = getAllRepos();
 ---
 
 <Layout title={t("home.title")} description={t("home.description")}>
-	<section
-		class="wrapper grid h-full grid-cols-1 items-center justify-center gap-10 sm:grid-cols-[1fr_auto]"
-	>
-		<div class="flex flex-col">
-			<h1
-				class="animate-enter mb-4 max-w-2xl text-6xl font-bold tracking-tight text-balance sm:text-8xl lg:text-9xl"
-				style="--stagger: 1"
-			>
-				{t("home.title")}
-			</h1>
-			<p
-				class="animate-enter mb-12 max-w-md text-xl text-subtle"
+	<section class="wrapper min-h-[58svh] flex-1">
+		<div class="grid grid-cols-1 gap-20 md:grid-cols-2">
+			<div class="flex flex-col">
+				<h1
+					class="animate-enter mb-4 max-w-2xl text-6xl font-bold tracking-tight text-balance sm:text-8xl lg:text-9xl"
+					style="--stagger: 1"
+				>
+					{t("home.title")}
+				</h1>
+				<p
+					class="animate-enter mb-12 max-w-md text-2xl text-subtle"
+					style="--stagger: 2"
+				>
+					{t("home.description")}
+				</p>
+				<div class="flex items-center gap-5">
+					<a
+						href={translatePath("/themes")}
+						class="animate-enter flex shrink-0 items-center gap-2.5 rounded-lg border border-pine/20 bg-pine/90 px-4 py-2.5 font-medium text-surface shadow-sm shadow-pine/30 transition select-none hover:bg-pine dark:text-text"
+						style="--stagger: 2.5"
+					>
+						{t("home.primary_action")}
+					</a>
+					<a
+						href={translatePath("/create")}
+						class="animate-enter flex shrink-0 items-center gap-2.5 rounded-lg border border-muted/20 bg-muted/10 px-4 py-2.5 font-medium shadow-sm transition select-none hover:bg-muted/15"
+						style="--stagger: 2.75"
+					>
+						{t("home.secondary_action")}
+					</a>
+				</div>
+			</div>
+
+			<aside
+				class="animate-enter flex items-center justify-center"
 				style="--stagger: 2"
 			>
-				{t("home.description")}
-			</p>
-			<div class="flex items-center gap-5">
-				<a
-					href={translatePath("/themes")}
-					class="animate-enter flex shrink-0 items-center gap-2.5 rounded-lg border border-pine/20 bg-pine/90 px-4 py-2.5 font-medium text-surface shadow-sm shadow-pine/30 transition select-none hover:bg-pine dark:text-text"
-					style="--stagger: 2.5"
+				<div
+					class="grid rotate-x-50 rotate-z-45 grid-cols-3 gap-5 overflow-hidden rounded-3xl border border-muted/40 bg-surface p-10 shadow-xl transition-colors duration-500 *:relative *:size-11 *:rounded-full *:before:pointer-events-none *:before:absolute *:before:-z-10 *:before:size-11 *:before:origin-center *:before:rounded-full *:before:transition-transform *:before:duration-500 *:before:content-[''] *:hover:before:scale-1000 [&:has(.bg-foam:hover)]:border-foam/40 [&:has(.bg-gold:hover)]:border-gold/40 [&:has(.bg-iris:hover)]:border-iris/40 [&:has(.bg-love:hover)]:border-love/40 [&:has(.bg-pine:hover)]:border-pine/40 [&:has(.bg-rose:hover)]:border-rose/40"
 				>
-					{t("home.primary_action")}
-				</a>
-				<a
-					href={translatePath("/create")}
-					class="animate-enter flex shrink-0 items-center gap-2.5 rounded-lg border border-muted/20 bg-muted/10 px-4 py-2.5 font-medium shadow-sm transition select-none hover:bg-muted/15"
-					style="--stagger: 2.75"
-				>
-					{t("home.secondary_action")}
-				</a>
-			</div>
+					<div class="bg-love before:bg-love/20"></div>
+					<div class="bg-gold before:bg-gold/20"></div>
+					<div class="bg-rose before:bg-rose/20"></div>
+					<div class="bg-pine before:bg-pine/20"></div>
+					<div class="bg-foam before:bg-foam/20"></div>
+					<div class="bg-iris before:bg-iris/20"></div>
+				</div>
+			</aside>
 		</div>
+	</section>
 
-		<aside
-			class="animate-enter overflow-hidden rounded-3xl border border-muted/10 shadow-xl shadow-muted/5 max-sm:-mx-page-gutter-half sm:max-wrapper:-mr-page-gutter sm:max-wrapper:rounded-r-none sm:max-wrapper:border-r-0"
-			style="--stagger: 3"
+	<div class="h-40"></div>
+
+	<section class="wrapper grid grid-cols-1 gap-6 md:grid-cols-2">
+		<div
+			class="flex flex-col gap-6 rounded-3xl border border-muted/10 bg-surface p-10"
 		>
-			<Editor />
-		</aside>
+			<Flower7Icon class="size-11 fill-rose/20 stroke-rose" />
+
+			<h2 class="text-4xl font-semibold tracking-tight">
+				Colours &amp; community
+			</h2>
+
+			<p class="text-xl leading-relaxed text-subtle">
+				Rosé Pine is an elegant palette featured in over {
+					Math.floor(allRepos.length / 10) * 10
+				} of your favourite apps, thanks to our lovely and generous <a
+					href={translatePath("/contributors")}
+					class="link">contributors</a
+				>.
+			</p>
+		</div>
+		<div
+			class="flex flex-col gap-6 rounded-3xl border border-muted/10 bg-surface p-10"
+		>
+			<Flower5Icon class="size-11 fill-foam/20 stroke-foam" />
+
+			<h2 class="text-4xl font-semibold tracking-tight">Passionately subtle</h2>
+
+			<p class="text-xl leading-relaxed text-subtle">
+				With a focus on quality and purpose, our curated colours are built <i
+					class="font-serif">to inspire</i
+				>, not to overwhelm. We're excited for you to <a
+					href={translatePath("/create")}
+					class="link">share your creations</a
+				> with the world.
+			</p>
+		</div>
+		<div
+			class="flex flex-col gap-6 rounded-3xl border border-muted/10 bg-surface p-10"
+		>
+			<Flower10Icon class="size-11 fill-gold/20 stroke-gold" />
+
+			<h2 class="text-4xl font-semibold tracking-tight">
+				Inclusive, equal, diverse
+			</h2>
+
+			<p class="text-xl leading-relaxed text-subtle">
+				We are constantly striving to provide a safe and encouraging environment
+				for all. You are loved and appreciated.
+			</p>
+		</div>
 	</section>
 </Layout>
