@@ -154,21 +154,6 @@
 		]
 	},
 	{
-		"name": "foot",
-		"url": "https://github.com/EuCaue/foot",
-		"tags": ["terminal-emulator"],
-		"contributors": [
-			{
-				"name": "EuCaue",
-				"url": "https://github.com/EuCaue"
-			},
-			{
-				"name": "cement-drinker",
-				"url": "https://github.com/cement-drinker"
-			}
-		]
-	},
-	{
 		"name": "Gradience Presets",
 		"url": "https://github.com/gradience-presets?q=rose&type=all&sort=",
 		"tags": ["adwaita", "ui"],
@@ -419,17 +404,6 @@
 			{
 				"name": "Davey Holler",
 				"url": "https://github.com/daveyholler"
-			}
-		]
-	},
-	{
-		"name": "Obsidian",
-		"url": "https://github.com/mimishahzad/rose-pine-moon-obsidian",
-		"tags": ["app", "productivity"],
-		"contributors": [
-			{
-				"name": "mimishahzad",
-				"url": "https://github.com/mimishahzad"
 			}
 		]
 	},
