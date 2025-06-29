@@ -1,11 +1,29 @@
 [
   {
+    "description": "Soho vibes for Discord",
+    "homepageUrl": "",
+    "name": "discord",
+    "repositoryTopics": [
+      "betterdiscord",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "goosemod",
+      "discord",
+      "hacktoberfest"
+    ],
+    "stargazerCount": 93,
+    "updatedAt": "2025-06-28T02:42:21Z",
+    "url": "https://github.com/rose-pine/discord",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 99,
-    "updatedAt": "2025-06-27T00:18:40Z",
+    "updatedAt": "2025-06-28T00:17:58Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -25,8 +43,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2681,
-    "updatedAt": "2025-06-27T03:11:30Z",
+    "stargazerCount": 2683,
+    "updatedAt": "2025-06-28T18:20:40Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -35,8 +53,8 @@
     "homepageUrl": "",
     "name": "rose-pine-bloom",
     "repositoryTopics": [],
-    "stargazerCount": 3,
-    "updatedAt": "2025-06-25T23:29:13Z",
+    "stargazerCount": 4,
+    "updatedAt": "2025-06-28T11:05:57Z",
     "url": "https://github.com/rose-pine/rose-pine-bloom",
     "usesCustomOpenGraphImage": false
   },
@@ -396,8 +414,8 @@
     "homepageUrl": "",
     "name": "qbittorrent",
     "repositoryTopics": [],
-    "stargazerCount": 15,
-    "updatedAt": "2025-06-27T11:03:15Z",
+    "stargazerCount": 14,
+    "updatedAt": "2025-06-28T13:21:49Z",
     "url": "https://github.com/rose-pine/qbittorrent",
     "usesCustomOpenGraphImage": true
   },
@@ -450,8 +468,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 235,
-    "updatedAt": "2025-06-27T21:29:04Z",
+    "stargazerCount": 237,
+    "updatedAt": "2025-06-28T12:18:57Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -474,8 +492,8 @@
     "homepageUrl": "https://www.npmjs.com/package/@rose-pine/build",
     "name": "build",
     "repositoryTopics": [],
-    "stargazerCount": 27,
-    "updatedAt": "2025-06-19T19:36:45Z",
+    "stargazerCount": 28,
+    "updatedAt": "2025-06-28T11:11:13Z",
     "url": "https://github.com/rose-pine/build",
     "usesCustomOpenGraphImage": true
   },
@@ -510,24 +528,6 @@
     "updatedAt": "2025-06-25T20:02:25Z",
     "url": "https://github.com/rose-pine/cosmic-desktop",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Soho vibes for Discord",
-    "homepageUrl": "",
-    "name": "discord",
-    "repositoryTopics": [
-      "betterdiscord",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "goosemod",
-      "discord",
-      "hacktoberfest"
-    ],
-    "stargazerCount": 93,
-    "updatedAt": "2025-04-16T06:20:52Z",
-    "url": "https://github.com/rose-pine/discord",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for GRUB 2",
