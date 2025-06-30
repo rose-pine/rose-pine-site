@@ -1,5 +1,39 @@
 [
   {
+    "description": "Soho vibes for COSMIC Desktop ",
+    "homepageUrl": "",
+    "name": "cosmic-desktop",
+    "repositoryTopics": [],
+    "stargazerCount": 8,
+    "updatedAt": "2025-06-29T16:36:04Z",
+    "url": "https://github.com/rose-pine/cosmic-desktop",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "Soho vibes for Roblox Studio",
+    "homepageUrl": "",
+    "name": "roblox-studio",
+    "repositoryTopics": [
+      "editor",
+      "roblox-studio",
+      "theme"
+    ],
+    "stargazerCount": 1,
+    "updatedAt": "2025-06-29T16:32:24Z",
+    "url": "https://github.com/rose-pine/roblox-studio",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 99,
+    "updatedAt": "2025-06-29T00:20:51Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Discord",
     "homepageUrl": "",
     "name": "discord",
@@ -18,16 +52,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 99,
-    "updatedAt": "2025-06-28T00:17:58Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -43,8 +67,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2683,
-    "updatedAt": "2025-06-28T18:20:40Z",
+    "stargazerCount": 2685,
+    "updatedAt": "2025-06-29T20:08:59Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -214,8 +238,8 @@
       "theme",
       "mobile-app"
     ],
-    "stargazerCount": 15,
-    "updatedAt": "2025-06-10T13:58:38Z",
+    "stargazerCount": 16,
+    "updatedAt": "2025-06-29T16:10:31Z",
     "url": "https://github.com/rose-pine/discord-mobile",
     "usesCustomOpenGraphImage": true
   },
@@ -435,20 +459,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Roblox Studio",
-    "homepageUrl": "",
-    "name": "roblox-studio",
-    "repositoryTopics": [
-      "editor",
-      "roblox-studio",
-      "theme"
-    ],
-    "stargazerCount": 1,
-    "updatedAt": "2025-04-06T08:29:34Z",
-    "url": "https://github.com/rose-pine/roblox-studio",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Flow Launcher",
     "homepageUrl": "",
     "name": "flow-launcher",
@@ -517,16 +527,6 @@
     "stargazerCount": 14,
     "updatedAt": "2025-04-19T10:12:20Z",
     "url": "https://github.com/rose-pine/obsidian",
-    "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Soho vibes for Cosmic desktop ",
-    "homepageUrl": "",
-    "name": "cosmic-desktop",
-    "repositoryTopics": [],
-    "stargazerCount": 8,
-    "updatedAt": "2025-06-25T20:02:25Z",
-    "url": "https://github.com/rose-pine/cosmic-desktop",
     "usesCustomOpenGraphImage": false
   },
   {
@@ -1059,8 +1059,8 @@
       "theme",
       "color-palette"
     ],
-    "stargazerCount": 38,
-    "updatedAt": "2025-06-11T17:23:23Z",
+    "stargazerCount": 39,
+    "updatedAt": "2025-06-29T07:47:46Z",
     "url": "https://github.com/rose-pine/waybar",
     "usesCustomOpenGraphImage": true
   },
