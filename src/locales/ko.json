@@ -1,0 +1,70 @@
+{
+	"navigation": {
+		"home": "홈",
+		"themes": "테마",
+		"palette": "팔레트",
+		"ingredients": "색상 정보",
+		"resources": "리소스",
+		"languages": "언어"
+	},
+	"home": {
+		"title": "특별한 아름다움",
+		"description": "세련된 미니멀리스트를 위한 자연스러운 파인, 부드러운 질감, 그리고 소호의 감성.",
+		"discover_button": "둘러보기",
+		"feature_card_1": {
+			"title": "은은한 미학",
+			"description": "부드럽고 편안한 팔레트는 당신의 눈에 편안한 휴식을 선사합니다.",
+			"link": "팔레트 보기"
+		},
+		"feature_card_2": {
+			"title": "변화하는 분위기",
+			"description": "하루 중 언제든 맞춤형 변형(variant)을 즐길 수 있습니다.",
+			"link": "테마 둘러보기"
+		},
+		"feature_card_3": {
+			"title": "커뮤니티 활동",
+			"description": "여러분 덕분에 Rosé Pine이 {{numberOfPorts}}개 이상의 앱에서 사용되고 있습니다.",
+			"link": "참여하기"
+		}
+	},
+	"themes": {
+		"title": "테마",
+		"description": "정성스럽게 만든 나만의 컬렉션.",
+		"tagline": "{{numberOfPorts}}개의 포트 & {{numberOfAuthors}}명의 제작자",
+		"search_label": "테마 검색하기..."
+	},
+	"palette": {
+		"title": "팔레트",
+		"description": "엄선된 색상, 무한한 창작",
+		"tagline": "{{numberOfVariants}}개의 변형(variants) & {{numberOfColors}}개의 색상",
+		"tabs": {
+			"swatches": "색상 견본",
+			"ingredients": "색상 정보"
+		}
+	},
+	"ingredients": {
+		"title": "색상 정보",
+		"description": "다양한 형식의 색상 코드",
+		"decorations_label": "장식"
+	},
+	"resources": {
+		"title": "리소스",
+		"description": "기여자를 위한 도구.",
+		"help_link": "디스코드에서 도움 받기"
+	},
+	"global_search": {
+		"trigger": "검색",
+		"placeholder": "페이지, 테마 또는 팔레트 검색...",
+		"empty_text": "검색 결과가 없습니다.",
+		"empty_result_1": "모든 테마 둘러보기",
+		"empty_result_2": "Rosé Pine에 기여하기",
+		"heading_pages": "페이지",
+		"heading_themes": "테마",
+		"heading_featured_themes": "추천 테마",
+		"heading_palette": "팔레트",
+		"heading_community": "커뮤니티"
+	},
+	"shared": {
+		"read_more": "더 알아보기"
+	}
+}
