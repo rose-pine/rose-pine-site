@@ -1,23 +1,11 @@
 [
   {
-    "description": "Rosé Pine new repo template",
-    "homepageUrl": "",
-    "name": "rose-pine-template",
-    "repositoryTopics": [
-      "theme"
-    ],
-    "stargazerCount": 38,
-    "updatedAt": "2025-05-17T09:39:20Z",
-    "url": "https://github.com/rose-pine/rose-pine-template",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Generate Rosé Pine themes",
     "homepageUrl": "",
     "name": "rose-pine-bloom",
     "repositoryTopics": [],
     "stargazerCount": 4,
-    "updatedAt": "2025-06-30T02:37:05Z",
+    "updatedAt": "2025-07-01T19:39:47Z",
     "url": "https://github.com/rose-pine/rose-pine-bloom",
     "usesCustomOpenGraphImage": false
   },
@@ -27,8 +15,20 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 99,
-    "updatedAt": "2025-06-30T00:19:54Z",
+    "updatedAt": "2025-07-01T00:21:21Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Rosé Pine new repo template",
+    "homepageUrl": "",
+    "name": "rose-pine-template",
+    "repositoryTopics": [
+      "theme"
+    ],
+    "stargazerCount": 38,
+    "updatedAt": "2025-05-17T09:39:20Z",
+    "url": "https://github.com/rose-pine/rose-pine-template",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -89,8 +89,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2685,
-    "updatedAt": "2025-06-29T20:08:59Z",
+    "stargazerCount": 2687,
+    "updatedAt": "2025-07-01T13:44:17Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -264,7 +264,7 @@
     "name": "zed",
     "repositoryTopics": [],
     "stargazerCount": 36,
-    "updatedAt": "2025-06-21T13:00:09Z",
+    "updatedAt": "2025-07-01T07:22:06Z",
     "url": "https://github.com/rose-pine/zed",
     "usesCustomOpenGraphImage": true
   },
@@ -453,8 +453,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 285,
-    "updatedAt": "2025-06-26T18:00:15Z",
+    "stargazerCount": 287,
+    "updatedAt": "2025-07-01T15:27:46Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -478,8 +478,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 237,
-    "updatedAt": "2025-06-28T12:18:57Z",
+    "stargazerCount": 238,
+    "updatedAt": "2025-07-01T16:30:03Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -652,8 +652,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 20,
-    "updatedAt": "2025-06-17T20:13:01Z",
+    "stargazerCount": 21,
+    "updatedAt": "2025-07-01T01:26:43Z",
     "url": "https://github.com/rose-pine/rofi",
     "usesCustomOpenGraphImage": true
   },
@@ -705,8 +705,8 @@
       "mako",
       "theme"
     ],
-    "stargazerCount": 2,
-    "updatedAt": "2025-05-29T07:57:04Z",
+    "stargazerCount": 3,
+    "updatedAt": "2025-07-01T00:50:50Z",
     "url": "https://github.com/rose-pine/mako",
     "usesCustomOpenGraphImage": true
   },
@@ -720,7 +720,7 @@
       "theme"
     ],
     "stargazerCount": 27,
-    "updatedAt": "2025-05-13T21:05:18Z",
+    "updatedAt": "2025-07-01T17:41:15Z",
     "url": "https://github.com/rose-pine/surfingkeys",
     "usesCustomOpenGraphImage": true
   },
@@ -810,8 +810,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 115,
-    "updatedAt": "2025-06-16T07:09:33Z",
+    "stargazerCount": 116,
+    "updatedAt": "2025-07-01T04:55:58Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -825,8 +825,8 @@
       "tiling-window-manager",
       "theme"
     ],
-    "stargazerCount": 18,
-    "updatedAt": "2025-05-11T04:14:14Z",
+    "stargazerCount": 19,
+    "updatedAt": "2025-07-01T00:49:28Z",
     "url": "https://github.com/rose-pine/hyprland",
     "usesCustomOpenGraphImage": true
   },
@@ -864,8 +864,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 118,
-    "updatedAt": "2025-06-27T23:40:01Z",
+    "stargazerCount": 119,
+    "updatedAt": "2025-07-01T00:32:48Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
