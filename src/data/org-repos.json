@@ -1,11 +1,23 @@
 [
   {
+    "description": "Soho vibes for Obsidian",
+    "homepageUrl": "",
+    "name": "obsidian",
+    "repositoryTopics": [
+      "app"
+    ],
+    "stargazerCount": 14,
+    "updatedAt": "2025-07-04T01:06:02Z",
+    "url": "https://github.com/rose-pine/obsidian",
+    "usesCustomOpenGraphImage": false
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 101,
-    "updatedAt": "2025-07-03T16:15:09Z",
+    "updatedAt": "2025-07-04T00:18:28Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -89,8 +101,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2687,
-    "updatedAt": "2025-07-03T15:19:11Z",
+    "stargazerCount": 2688,
+    "updatedAt": "2025-07-04T11:34:55Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -238,8 +250,8 @@
       "theme",
       "mobile-app"
     ],
-    "stargazerCount": 16,
-    "updatedAt": "2025-06-29T16:10:31Z",
+    "stargazerCount": 17,
+    "updatedAt": "2025-07-04T12:31:23Z",
     "url": "https://github.com/rose-pine/discord-mobile",
     "usesCustomOpenGraphImage": true
   },
@@ -428,8 +440,8 @@
       "shell",
       "terminal"
     ],
-    "stargazerCount": 38,
-    "updatedAt": "2025-06-26T16:58:37Z",
+    "stargazerCount": 39,
+    "updatedAt": "2025-07-04T10:28:14Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
   },
@@ -453,8 +465,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 288,
-    "updatedAt": "2025-07-03T18:56:56Z",
+    "stargazerCount": 289,
+    "updatedAt": "2025-07-04T22:36:53Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -516,18 +528,6 @@
     "updatedAt": "2025-05-28T14:44:18Z",
     "url": "https://github.com/rose-pine/anytype",
     "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Obsidian",
-    "homepageUrl": "",
-    "name": "obsidian",
-    "repositoryTopics": [
-      "app"
-    ],
-    "stargazerCount": 14,
-    "updatedAt": "2025-04-19T10:12:20Z",
-    "url": "https://github.com/rose-pine/obsidian",
-    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Soho vibes for GRUB 2",
@@ -719,8 +719,8 @@
       "surfingkeys",
       "theme"
     ],
-    "stargazerCount": 27,
-    "updatedAt": "2025-07-01T17:41:15Z",
+    "stargazerCount": 28,
+    "updatedAt": "2025-07-04T04:07:35Z",
     "url": "https://github.com/rose-pine/surfingkeys",
     "usesCustomOpenGraphImage": true
   },
