@@ -543,14 +543,6 @@
 		"tags": ["palette"],
 		"authors": [{"name": "HenriqueHnnm", "url": "https://github.com/Henriquehnnm"}],
 		"has_variants": true
-	},
-
-			{
-                "name": "Gnome Builder",
-  		"url": "https://github.com/Henriquehnnm/gnome-builder",
-		"tags": ["editor"],
-		"authors": [{"name": "HenriqueHnnm", "url": "https://github.com/Henriquehnnm"}],
-		"has_variants": true
 	}
 
 
