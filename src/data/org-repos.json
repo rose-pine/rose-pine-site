@@ -29,7 +29,11 @@
     "description": "Soho vibes for GNOME Builder",
     "homepageUrl": "",
     "name": "gnome-builder",
-    "repositoryTopics": [],
+    "repositoryTopics": [
+      "editor",
+      "soho-vibes",
+      "theme"
+    ],
     "stargazerCount": 0,
     "updatedAt": "2025-07-12T10:41:57Z",
     "url": "https://github.com/rose-pine/gnome-builder",
