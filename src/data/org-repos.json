@@ -1,5 +1,53 @@
 [
   {
+    "description": "Soho vibes for ghostty",
+    "homepageUrl": "",
+    "name": "ghostty",
+    "repositoryTopics": [],
+    "stargazerCount": 30,
+    "updatedAt": "2025-07-13T16:14:38Z",
+    "url": "https://github.com/rose-pine/ghostty",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Discord",
+    "homepageUrl": "",
+    "name": "discord",
+    "repositoryTopics": [
+      "betterdiscord",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "goosemod",
+      "discord",
+      "hacktoberfest"
+    ],
+    "stargazerCount": 97,
+    "updatedAt": "2025-07-13T15:46:03Z",
+    "url": "https://github.com/rose-pine/discord",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for GNOME Builder",
+    "homepageUrl": "",
+    "name": "gnome-builder",
+    "repositoryTopics": [],
+    "stargazerCount": 0,
+    "updatedAt": "2025-07-13T15:29:46Z",
+    "url": "https://github.com/rose-pine/gnome-builder",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 102,
+    "updatedAt": "2025-07-13T15:14:09Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for GitKraken",
     "homepageUrl": "",
     "name": "gitkraken",
@@ -16,52 +64,14 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 102,
-    "updatedAt": "2025-07-12T00:18:21Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for GNOME Builder",
-    "homepageUrl": "",
-    "name": "gnome-builder",
-    "repositoryTopics": [],
-    "stargazerCount": 0,
-    "updatedAt": "2025-07-12T10:41:57Z",
-    "url": "https://github.com/rose-pine/gnome-builder",
-    "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Soho vibes for Discord",
-    "homepageUrl": "",
-    "name": "discord",
-    "repositoryTopics": [
-      "betterdiscord",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "goosemod",
-      "discord",
-      "hacktoberfest"
-    ],
-    "stargazerCount": 97,
-    "updatedAt": "2025-07-10T14:12:46Z",
-    "url": "https://github.com/rose-pine/discord",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Obsidian",
     "homepageUrl": "",
     "name": "obsidian",
     "repositoryTopics": [
       "app"
     ],
-    "stargazerCount": 15,
-    "updatedAt": "2025-07-11T10:00:37Z",
+    "stargazerCount": 16,
+    "updatedAt": "2025-07-13T06:19:06Z",
     "url": "https://github.com/rose-pine/obsidian",
     "usesCustomOpenGraphImage": false
   },
@@ -127,8 +137,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2703,
-    "updatedAt": "2025-07-12T12:18:54Z",
+    "stargazerCount": 2705,
+    "updatedAt": "2025-07-13T21:28:49Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -405,8 +415,8 @@
       "theme",
       "tailwind"
     ],
-    "stargazerCount": 28,
-    "updatedAt": "2025-05-14T17:44:06Z",
+    "stargazerCount": 29,
+    "updatedAt": "2025-07-13T16:12:56Z",
     "url": "https://github.com/rose-pine/tailwind-css",
     "usesCustomOpenGraphImage": true
   },
@@ -516,8 +526,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 241,
-    "updatedAt": "2025-07-11T16:03:25Z",
+    "stargazerCount": 242,
+    "updatedAt": "2025-07-13T04:34:33Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -550,8 +560,8 @@
     "homepageUrl": "",
     "name": "anytype",
     "repositoryTopics": [],
-    "stargazerCount": 9,
-    "updatedAt": "2025-05-28T14:44:18Z",
+    "stargazerCount": 10,
+    "updatedAt": "2025-07-13T08:57:40Z",
     "url": "https://github.com/rose-pine/anytype",
     "usesCustomOpenGraphImage": true
   },
@@ -581,8 +591,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1396,
-    "updatedAt": "2025-07-12T16:10:31Z",
+    "stargazerCount": 1398,
+    "updatedAt": "2025-07-13T21:16:44Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -659,16 +669,6 @@
     "stargazerCount": 33,
     "updatedAt": "2025-05-24T14:41:19Z",
     "url": "https://github.com/rose-pine/helix",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for ghostty",
-    "homepageUrl": "",
-    "name": "ghostty",
-    "repositoryTopics": [],
-    "stargazerCount": 30,
-    "updatedAt": "2025-06-13T21:19:27Z",
-    "url": "https://github.com/rose-pine/ghostty",
     "usesCustomOpenGraphImage": true
   },
   {
