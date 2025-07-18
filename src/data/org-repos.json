@@ -1,11 +1,29 @@
 [
   {
+    "description": "Soho vibes for Discord",
+    "homepageUrl": "",
+    "name": "discord",
+    "repositoryTopics": [
+      "betterdiscord",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "goosemod",
+      "discord",
+      "hacktoberfest"
+    ],
+    "stargazerCount": 98,
+    "updatedAt": "2025-07-17T15:31:24Z",
+    "url": "https://github.com/rose-pine/discord",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 102,
-    "updatedAt": "2025-07-16T00:19:13Z",
+    "updatedAt": "2025-07-17T00:19:49Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -55,24 +73,6 @@
     "stargazerCount": 30,
     "updatedAt": "2025-07-13T16:14:38Z",
     "url": "https://github.com/rose-pine/ghostty",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Discord",
-    "homepageUrl": "",
-    "name": "discord",
-    "repositoryTopics": [
-      "betterdiscord",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "goosemod",
-      "discord",
-      "hacktoberfest"
-    ],
-    "stargazerCount": 97,
-    "updatedAt": "2025-07-16T07:48:51Z",
-    "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -165,8 +165,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2714,
-    "updatedAt": "2025-07-16T10:46:35Z",
+    "stargazerCount": 2717,
+    "updatedAt": "2025-07-17T21:39:29Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -479,8 +479,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 543,
-    "updatedAt": "2025-07-15T16:45:28Z",
+    "stargazerCount": 544,
+    "updatedAt": "2025-07-17T13:00:05Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -917,8 +917,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 83,
-    "updatedAt": "2025-06-22T03:15:39Z",
+    "stargazerCount": 84,
+    "updatedAt": "2025-07-17T18:16:39Z",
     "url": "https://github.com/rose-pine/windows-terminal",
     "usesCustomOpenGraphImage": true
   },
