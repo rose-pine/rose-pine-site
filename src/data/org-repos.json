@@ -1,5 +1,33 @@
 [
   {
+    "description": "Soho vibes for foot",
+    "homepageUrl": "",
+    "name": "foot",
+    "repositoryTopics": [
+      "foot",
+      "foot-terminal",
+      "rose-pine",
+      "soho-vibes",
+      "terminal",
+      "terminal-emulator",
+      "theme"
+    ],
+    "stargazerCount": 15,
+    "updatedAt": "2025-07-19T12:51:54Z",
+    "url": "https://github.com/rose-pine/foot",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 102,
+    "updatedAt": "2025-07-19T00:18:44Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -15,19 +43,9 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2719,
-    "updatedAt": "2025-07-18T20:26:00Z",
+    "stargazerCount": 2721,
+    "updatedAt": "2025-07-19T10:38:36Z",
     "url": "https://github.com/rose-pine/neovim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 102,
-    "updatedAt": "2025-07-18T00:19:08Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -339,8 +357,8 @@
     "homepageUrl": "",
     "name": "zed",
     "repositoryTopics": [],
-    "stargazerCount": 37,
-    "updatedAt": "2025-07-08T17:13:31Z",
+    "stargazerCount": 38,
+    "updatedAt": "2025-07-19T07:12:57Z",
     "url": "https://github.com/rose-pine/zed",
     "usesCustomOpenGraphImage": true
   },
@@ -480,7 +498,7 @@
       "editor"
     ],
     "stargazerCount": 544,
-    "updatedAt": "2025-07-17T13:00:05Z",
+    "updatedAt": "2025-07-19T20:35:25Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -619,8 +637,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1400,
-    "updatedAt": "2025-07-14T11:19:38Z",
+    "stargazerCount": 1402,
+    "updatedAt": "2025-07-19T17:36:01Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -695,24 +713,6 @@
     "stargazerCount": 21,
     "updatedAt": "2025-07-01T01:26:43Z",
     "url": "https://github.com/rose-pine/rofi",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for foot",
-    "homepageUrl": "",
-    "name": "foot",
-    "repositoryTopics": [
-      "foot",
-      "foot-terminal",
-      "rose-pine",
-      "soho-vibes",
-      "terminal",
-      "terminal-emulator",
-      "theme"
-    ],
-    "stargazerCount": 15,
-    "updatedAt": "2025-04-19T10:06:46Z",
-    "url": "https://github.com/rose-pine/foot",
     "usesCustomOpenGraphImage": true
   },
   {
