@@ -7,7 +7,6 @@ type Color = {
 	rgb: number[];
 };
 type ColorFormat = "hex" | "hsl" | "rgb";
-type ColorStyle = "plain" | "styled";
 
 type Repo = {
 	url: string;

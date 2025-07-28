@@ -1,7 +1,7 @@
 type Preferences = {
-	colorStyle: ColorStyle;
+	colorsAreStyled: boolean;
 };
 
 export const preferences = $state<Preferences>({
-	colorStyle: "styled",
+	colorsAreStyled: true,
 });

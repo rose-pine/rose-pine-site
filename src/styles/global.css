@@ -218,6 +218,13 @@ ul[role="list"] {
 	border-color: --alpha(--value(--color-*) / 20%);
 }
 
+/* prettier-ignore */
+@utility tonal-pressed-* {
+		color: --value(--color-*);
+		background-color: --alpha(--value(--color-*) / 20%);
+		border-color: --alpha(--value(--color-*) / 30%);
+}
+
 @keyframes enter {
 	0% {
 		opacity: 0;

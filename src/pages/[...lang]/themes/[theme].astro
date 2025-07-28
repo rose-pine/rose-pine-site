@@ -8,11 +8,7 @@ import {
 	getLangFromUrl,
 	withLangPaths,
 } from "../../../i18n/utilities";
-import {
-	getAllRepoSlugs,
-	getContributor,
-	getRepoBySlug,
-} from "../../../utilities";
+import { getAllRepoSlugs, getContributor, getRepoBySlug } from "../../../data";
 
 export async function getStaticPaths() {
 	const slugs = getAllRepoSlugs();

@@ -8,7 +8,7 @@ import {
 	useTranslations,
 	withLangPaths,
 } from "../../i18n/utilities";
-import { getAllRepos } from "../../utilities";
+import { getAllRepos } from "../../data";
 
 export async function getStaticPaths() {
 	return await withLangPaths();

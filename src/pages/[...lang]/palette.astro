@@ -1,8 +1,9 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import IntroSection from "../../components/intro-section.astro";
-import ColorStyleTabs from "../../components/color-style-tabs.svelte";
-import ColorCopyButton from "../../components/color-copy-button.svelte";
+import CopyColorButton from "../../components/copy-color-button.svelte";
+import PaletteColumnActions from "../../components/palette-column-actions.svelte";
+import PaletteStyleToggle from "../../components/palette-style-toggle.svelte";
 import BadgeIcon from "../../assets/badge.svg";
 import { useTranslations, withLangPaths } from "../../i18n/utilities";
 import palette from "../../data/palette.json";
@@ -32,7 +33,7 @@ let variants = Object.keys(palette) as (keyof typeof palette)[];
 				{
 					variants.map((variant) => (
 						<article class="overflow-hidden rounded-(--card-radius) border border-muted/20 bg-surface [--card-gutter:--spacing(5)] [--card-inner-radius:calc(var(--card-radius)/2)] [--card-radius:--spacing(4)]">
-							<div class="flex items-center justify-between gap-2 p-(--card-gutter) [--badge-size:36px]">
+							<div class="flex flex-wrap items-center justify-between gap-2 p-(--card-gutter) [--badge-size:36px]">
 								<div class="flex items-center gap-2">
 									<BadgeIcon class="size-(--badge-size) shrink-0" />
 									<div class="font-serif text-lg font-medium tracking-tight capitalize italic">
@@ -40,8 +41,9 @@ let variants = Object.keys(palette) as (keyof typeof palette)[];
 										{variant === "main" ? "" : variant}
 									</div>
 								</div>
-
-								<ColorStyleTabs client:only="svelte" />
+								<div>
+									<PaletteStyleToggle client:only="svelte" />
+								</div>
 							</div>
 
 							<div class="overflow-x-auto">
@@ -51,13 +53,37 @@ let variants = Object.keys(palette) as (keyof typeof palette)[];
 											Role
 										</th>
 										<th class="pl-(--col-gap) text-right text-sm font-semibold">
-											Hex
+											<div class="flex w-full items-center justify-end">
+												<PaletteColumnActions
+													format="hex"
+													variant={variant}
+													client:only="svelte"
+												>
+													Hex
+												</PaletteColumnActions>
+											</div>
 										</th>
 										<th class="pl-(--col-gap) text-right text-sm font-semibold">
-											HSL
+											<div class="flex w-full items-center justify-end">
+												<PaletteColumnActions
+													format="hsl"
+													variant={variant}
+													client:only="svelte"
+												>
+													HSL
+												</PaletteColumnActions>
+											</div>
 										</th>
 										<th class="pl-(--col-gap) text-right text-sm font-semibold">
-											RGB
+											<div class="flex w-full items-center justify-end">
+												<PaletteColumnActions
+													format="rgb"
+													variant={variant}
+													client:only="svelte"
+												>
+													RGB
+												</PaletteColumnActions>
+											</div>
 										</th>
 										<th class="sr-only" />
 									</thead>
@@ -79,7 +105,7 @@ let variants = Object.keys(palette) as (keyof typeof palette)[];
 													</td>
 
 													<td align="right" class="pl-(--col-gap)">
-														<ColorCopyButton
+														<CopyColorButton
 															client:only="svelte"
 															{color}
 															format="hex"
@@ -87,7 +113,7 @@ let variants = Object.keys(palette) as (keyof typeof palette)[];
 													</td>
 
 													<td align="right" class="pl-(--col-gap)">
-														<ColorCopyButton
+														<CopyColorButton
 															client:only="svelte"
 															{color}
 															format="hsl"
@@ -95,7 +121,7 @@ let variants = Object.keys(palette) as (keyof typeof palette)[];
 													</td>
 
 													<td align="right" class="pl-(--col-gap)">
-														<ColorCopyButton
+														<CopyColorButton
 															client:only="svelte"
 															{color}
 															format="rgb"
