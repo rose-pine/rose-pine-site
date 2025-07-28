@@ -1,11 +1,33 @@
 [
   {
+    "description": "Soho vibes for Cursors",
+    "homepageUrl": "",
+    "name": "cursor",
+    "repositoryTopics": [],
+    "stargazerCount": 122,
+    "updatedAt": "2025-07-27T21:37:47Z",
+    "url": "https://github.com/rose-pine/cursor",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Obsidian",
+    "homepageUrl": "",
+    "name": "obsidian",
+    "repositoryTopics": [
+      "app"
+    ],
+    "stargazerCount": 17,
+    "updatedAt": "2025-07-27T05:40:05Z",
+    "url": "https://github.com/rose-pine/obsidian",
+    "usesCustomOpenGraphImage": false
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 103,
-    "updatedAt": "2025-07-26T00:18:47Z",
+    "updatedAt": "2025-07-27T00:21:40Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -29,8 +51,8 @@
     "homepageUrl": "",
     "name": "rose-pine-bloom",
     "repositoryTopics": [],
-    "stargazerCount": 5,
-    "updatedAt": "2025-07-22T14:02:25Z",
+    "stargazerCount": 6,
+    "updatedAt": "2025-07-27T20:16:07Z",
     "url": "https://github.com/rose-pine/rose-pine-bloom",
     "usesCustomOpenGraphImage": false
   },
@@ -79,7 +101,7 @@
       "editor"
     ],
     "stargazerCount": 2725,
-    "updatedAt": "2025-07-26T10:37:55Z",
+    "updatedAt": "2025-07-27T14:14:49Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -164,18 +186,6 @@
     "updatedAt": "2025-07-12T00:34:28Z",
     "url": "https://github.com/rose-pine/gitkraken",
     "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Obsidian",
-    "homepageUrl": "",
-    "name": "obsidian",
-    "repositoryTopics": [
-      "app"
-    ],
-    "stargazerCount": 17,
-    "updatedAt": "2025-07-16T13:52:04Z",
-    "url": "https://github.com/rose-pine/obsidian",
-    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Rosé Pine new repo template",
@@ -557,8 +567,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 291,
-    "updatedAt": "2025-07-26T19:13:04Z",
+    "stargazerCount": 293,
+    "updatedAt": "2025-07-27T18:59:09Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -582,8 +592,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 247,
-    "updatedAt": "2025-07-25T03:48:36Z",
+    "stargazerCount": 248,
+    "updatedAt": "2025-07-27T19:05:34Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -606,8 +616,8 @@
     "homepageUrl": "https://www.npmjs.com/package/@rose-pine/build",
     "name": "build",
     "repositoryTopics": [],
-    "stargazerCount": 29,
-    "updatedAt": "2025-07-10T12:47:30Z",
+    "stargazerCount": 30,
+    "updatedAt": "2025-07-27T20:16:49Z",
     "url": "https://github.com/rose-pine/build",
     "usesCustomOpenGraphImage": true
   },
@@ -631,8 +641,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 15,
-    "updatedAt": "2025-05-30T07:04:24Z",
+    "stargazerCount": 16,
+    "updatedAt": "2025-07-27T19:04:24Z",
     "url": "https://github.com/rose-pine/grub",
     "usesCustomOpenGraphImage": true
   },
@@ -647,8 +657,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1410,
-    "updatedAt": "2025-07-25T13:59:32Z",
+    "stargazerCount": 1412,
+    "updatedAt": "2025-07-27T16:47:32Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -842,16 +852,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Cursors",
-    "homepageUrl": "",
-    "name": "cursor",
-    "repositoryTopics": [],
-    "stargazerCount": 122,
-    "updatedAt": "2025-07-23T03:38:09Z",
-    "url": "https://github.com/rose-pine/cursor",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Hyprland ",
     "homepageUrl": "",
     "name": "hyprland",
@@ -900,8 +900,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 122,
-    "updatedAt": "2025-07-20T17:11:41Z",
+    "stargazerCount": 123,
+    "updatedAt": "2025-07-27T14:55:34Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
@@ -972,8 +972,8 @@
     "repositoryTopics": [
       "music"
     ],
-    "stargazerCount": 7,
-    "updatedAt": "2025-07-02T12:49:40Z",
+    "stargazerCount": 8,
+    "updatedAt": "2025-07-28T00:12:04Z",
     "url": "https://github.com/rose-pine/tidal",
     "usesCustomOpenGraphImage": true
   },
