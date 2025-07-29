@@ -1,5 +1,51 @@
 [
   {
+    "description": "Soho vibes for anytype",
+    "homepageUrl": "",
+    "name": "anytype",
+    "repositoryTopics": [],
+    "stargazerCount": 10,
+    "updatedAt": "2025-07-28T23:49:14Z",
+    "url": "https://github.com/rose-pine/anytype",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Color palette tool for Rosé Pine",
+    "homepageUrl": "https://www.npmjs.com/package/@rose-pine/palette",
+    "name": "rose-pine-palette",
+    "repositoryTopics": [
+      "palette",
+      "soho-vibes",
+      "rose-pine",
+      "color",
+      "css"
+    ],
+    "stargazerCount": 27,
+    "updatedAt": "2025-07-28T20:27:22Z",
+    "url": "https://github.com/rose-pine/rose-pine-palette",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for lazygit",
+    "homepageUrl": "",
+    "name": "lazygit",
+    "repositoryTopics": [],
+    "stargazerCount": 1,
+    "updatedAt": "2025-07-28T19:40:08Z",
+    "url": "https://github.com/rose-pine/lazygit",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 103,
+    "updatedAt": "2025-07-28T00:20:59Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Cursors",
     "homepageUrl": "",
     "name": "cursor",
@@ -20,16 +66,6 @@
     "updatedAt": "2025-07-27T05:40:05Z",
     "url": "https://github.com/rose-pine/obsidian",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 103,
-    "updatedAt": "2025-07-27T00:21:40Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Userstyles",
@@ -118,8 +154,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 101,
-    "updatedAt": "2025-07-24T14:45:54Z",
+    "stargazerCount": 103,
+    "updatedAt": "2025-07-28T15:56:58Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
@@ -481,8 +517,8 @@
       "theme",
       "tailwind"
     ],
-    "stargazerCount": 29,
-    "updatedAt": "2025-07-13T16:12:56Z",
+    "stargazerCount": 30,
+    "updatedAt": "2025-07-28T12:04:01Z",
     "url": "https://github.com/rose-pine/tailwind-css",
     "usesCustomOpenGraphImage": true
   },
@@ -517,8 +553,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 545,
-    "updatedAt": "2025-07-21T09:37:10Z",
+    "stargazerCount": 544,
+    "updatedAt": "2025-07-28T20:47:47Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -592,8 +628,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 248,
-    "updatedAt": "2025-07-27T19:05:34Z",
+    "stargazerCount": 250,
+    "updatedAt": "2025-07-28T16:31:22Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -622,16 +658,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for anytype",
-    "homepageUrl": "",
-    "name": "anytype",
-    "repositoryTopics": [],
-    "stargazerCount": 10,
-    "updatedAt": "2025-07-13T08:57:40Z",
-    "url": "https://github.com/rose-pine/anytype",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for GRUB 2",
     "homepageUrl": "",
     "name": "grub",
@@ -657,8 +683,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1412,
-    "updatedAt": "2025-07-27T16:47:32Z",
+    "stargazerCount": 1413,
+    "updatedAt": "2025-07-28T12:04:10Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1143,22 +1169,6 @@
     "stargazerCount": 9,
     "updatedAt": "2025-07-09T11:19:41Z",
     "url": "https://github.com/rose-pine/prism",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Color palette tool for Rosé Pine",
-    "homepageUrl": "https://www.npmjs.com/package/@rose-pine/palette",
-    "name": "palette",
-    "repositoryTopics": [
-      "palette",
-      "soho-vibes",
-      "rose-pine",
-      "color",
-      "css"
-    ],
-    "stargazerCount": 27,
-    "updatedAt": "2025-06-13T14:02:55Z",
-    "url": "https://github.com/rose-pine/palette",
     "usesCustomOpenGraphImage": true
   },
   {
