@@ -1,11 +1,21 @@
 [
   {
+    "description": "Generate Rosé Pine themes",
+    "homepageUrl": "",
+    "name": "rose-pine-bloom",
+    "repositoryTopics": [],
+    "stargazerCount": 6,
+    "updatedAt": "2025-07-30T19:59:00Z",
+    "url": "https://github.com/rose-pine/rose-pine-bloom",
+    "usesCustomOpenGraphImage": false
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 103,
-    "updatedAt": "2025-07-29T00:21:22Z",
+    "updatedAt": "2025-07-30T00:20:01Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -83,16 +93,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Generate Rosé Pine themes",
-    "homepageUrl": "",
-    "name": "rose-pine-bloom",
-    "repositoryTopics": [],
-    "stargazerCount": 6,
-    "updatedAt": "2025-07-27T20:16:07Z",
-    "url": "https://github.com/rose-pine/rose-pine-bloom",
-    "usesCustomOpenGraphImage": false
-  },
-  {
     "description": "Homebrew tap repo for Rosé Pine",
     "homepageUrl": "",
     "name": "homebrew-tap",
@@ -136,8 +136,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2725,
-    "updatedAt": "2025-07-29T05:48:28Z",
+    "stargazerCount": 2727,
+    "updatedAt": "2025-07-30T23:59:53Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -553,8 +553,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 544,
-    "updatedAt": "2025-07-28T20:47:47Z",
+    "stargazerCount": 545,
+    "updatedAt": "2025-07-30T18:06:40Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -806,8 +806,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 214,
-    "updatedAt": "2025-07-23T00:58:18Z",
+    "stargazerCount": 215,
+    "updatedAt": "2025-07-30T18:33:05Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -998,8 +998,8 @@
     "repositoryTopics": [
       "music"
     ],
-    "stargazerCount": 8,
-    "updatedAt": "2025-07-28T00:12:04Z",
+    "stargazerCount": 7,
+    "updatedAt": "2025-07-30T13:43:09Z",
     "url": "https://github.com/rose-pine/tidal",
     "usesCustomOpenGraphImage": true
   },
@@ -1151,8 +1151,8 @@
       "terminal",
       "theme"
     ],
-    "stargazerCount": 30,
-    "updatedAt": "2025-07-05T08:52:51Z",
+    "stargazerCount": 31,
+    "updatedAt": "2025-07-30T19:35:54Z",
     "url": "https://github.com/rose-pine/btop",
     "usesCustomOpenGraphImage": true
   },
