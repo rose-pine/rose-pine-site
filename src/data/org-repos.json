@@ -1,12 +1,14 @@
 [
   {
-    "description": "Generate Rosé Pine themes",
+    "description": "Soho vibes for Obsidian",
     "homepageUrl": "",
-    "name": "rose-pine-bloom",
-    "repositoryTopics": [],
-    "stargazerCount": 6,
-    "updatedAt": "2025-07-30T19:59:00Z",
-    "url": "https://github.com/rose-pine/rose-pine-bloom",
+    "name": "obsidian",
+    "repositoryTopics": [
+      "app"
+    ],
+    "stargazerCount": 17,
+    "updatedAt": "2025-07-31T02:14:07Z",
+    "url": "https://github.com/rose-pine/obsidian",
     "usesCustomOpenGraphImage": false
   },
   {
@@ -15,9 +17,19 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 103,
-    "updatedAt": "2025-07-30T00:20:01Z",
+    "updatedAt": "2025-07-31T00:19:24Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Generate Rosé Pine themes",
+    "homepageUrl": "",
+    "name": "rose-pine-bloom",
+    "repositoryTopics": [],
+    "stargazerCount": 6,
+    "updatedAt": "2025-07-30T19:59:00Z",
+    "url": "https://github.com/rose-pine/rose-pine-bloom",
+    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Soho vibes for anytype",
@@ -64,18 +76,6 @@
     "updatedAt": "2025-07-27T21:37:47Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Obsidian",
-    "homepageUrl": "",
-    "name": "obsidian",
-    "repositoryTopics": [
-      "app"
-    ],
-    "stargazerCount": 17,
-    "updatedAt": "2025-07-27T05:40:05Z",
-    "url": "https://github.com/rose-pine/obsidian",
-    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Soho vibes for Userstyles",
@@ -136,8 +136,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2727,
-    "updatedAt": "2025-07-30T23:59:53Z",
+    "stargazerCount": 2730,
+    "updatedAt": "2025-07-31T21:38:03Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -628,8 +628,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 250,
-    "updatedAt": "2025-07-28T16:31:22Z",
+    "stargazerCount": 251,
+    "updatedAt": "2025-07-31T03:36:40Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -684,7 +684,7 @@
       "aesthetic"
     ],
     "stargazerCount": 1414,
-    "updatedAt": "2025-07-29T22:50:57Z",
+    "updatedAt": "2025-07-31T21:38:07Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
