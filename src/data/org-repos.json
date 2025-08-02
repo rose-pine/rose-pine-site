@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 103,
+    "updatedAt": "2025-08-01T00:22:25Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Obsidian",
     "homepageUrl": "",
     "name": "obsidian",
@@ -12,22 +22,12 @@
     "usesCustomOpenGraphImage": false
   },
   {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 103,
-    "updatedAt": "2025-07-31T00:19:24Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Generate Rosé Pine themes",
     "homepageUrl": "",
     "name": "rose-pine-bloom",
     "repositoryTopics": [],
-    "stargazerCount": 6,
-    "updatedAt": "2025-07-30T19:59:00Z",
+    "stargazerCount": 7,
+    "updatedAt": "2025-08-01T16:54:33Z",
     "url": "https://github.com/rose-pine/rose-pine-bloom",
     "usesCustomOpenGraphImage": false
   },
@@ -73,7 +73,7 @@
     "name": "cursor",
     "repositoryTopics": [],
     "stargazerCount": 122,
-    "updatedAt": "2025-07-27T21:37:47Z",
+    "updatedAt": "2025-08-01T16:16:11Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -154,8 +154,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 103,
-    "updatedAt": "2025-07-28T15:56:58Z",
+    "stargazerCount": 102,
+    "updatedAt": "2025-08-01T16:16:05Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
@@ -319,8 +319,8 @@
       "addon",
       "firefox-extension"
     ],
-    "stargazerCount": 74,
-    "updatedAt": "2025-07-25T15:09:20Z",
+    "stargazerCount": 75,
+    "updatedAt": "2025-08-01T02:43:06Z",
     "url": "https://github.com/rose-pine/firefox",
     "usesCustomOpenGraphImage": true
   },
