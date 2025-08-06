@@ -1,11 +1,26 @@
 [
   {
+    "description": "Soho vibes for Userstyles",
+    "homepageUrl": "",
+    "name": "userstyles",
+    "repositoryTopics": [
+      "css",
+      "stylish",
+      "userstyles",
+      "stylus"
+    ],
+    "stargazerCount": 29,
+    "updatedAt": "2025-08-05T08:47:32Z",
+    "url": "https://github.com/rose-pine/userstyles",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 103,
-    "updatedAt": "2025-08-04T00:21:36Z",
+    "updatedAt": "2025-08-05T00:20:08Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -78,21 +93,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Userstyles",
-    "homepageUrl": "",
-    "name": "userstyles",
-    "repositoryTopics": [
-      "css",
-      "stylish",
-      "userstyles",
-      "stylus"
-    ],
-    "stargazerCount": 29,
-    "updatedAt": "2025-07-24T16:56:29Z",
-    "url": "https://github.com/rose-pine/userstyles",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Homebrew tap repo for Rosé Pine",
     "homepageUrl": "",
     "name": "homebrew-tap",
@@ -136,8 +136,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2731,
-    "updatedAt": "2025-08-04T20:51:37Z",
+    "stargazerCount": 2733,
+    "updatedAt": "2025-08-05T13:46:18Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -182,8 +182,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 35,
-    "updatedAt": "2025-07-14T14:27:44Z",
+    "stargazerCount": 36,
+    "updatedAt": "2025-08-05T20:46:27Z",
     "url": "https://github.com/rose-pine/zellij",
     "usesCustomOpenGraphImage": true
   },
@@ -192,8 +192,8 @@
     "homepageUrl": "",
     "name": "ghostty",
     "repositoryTopics": [],
-    "stargazerCount": 31,
-    "updatedAt": "2025-07-26T21:21:03Z",
+    "stargazerCount": 32,
+    "updatedAt": "2025-08-05T13:46:05Z",
     "url": "https://github.com/rose-pine/ghostty",
     "usesCustomOpenGraphImage": true
   },
@@ -683,8 +683,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1418,
-    "updatedAt": "2025-08-03T08:41:33Z",
+    "stargazerCount": 1420,
+    "updatedAt": "2025-08-05T14:23:52Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -699,8 +699,8 @@
       "vim",
       "editor"
     ],
-    "stargazerCount": 36,
-    "updatedAt": "2025-07-29T14:40:54Z",
+    "stargazerCount": 37,
+    "updatedAt": "2025-08-05T20:25:22Z",
     "url": "https://github.com/rose-pine/vim",
     "usesCustomOpenGraphImage": true
   },
@@ -806,8 +806,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 216,
-    "updatedAt": "2025-08-04T12:11:58Z",
+    "stargazerCount": 218,
+    "updatedAt": "2025-08-05T13:40:04Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -1742,8 +1742,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 123,
-    "updatedAt": "2025-07-18T17:39:28Z",
+    "stargazerCount": 124,
+    "updatedAt": "2025-08-05T18:00:58Z",
     "url": "https://github.com/rose-pine/iterm",
     "usesCustomOpenGraphImage": true
   },
