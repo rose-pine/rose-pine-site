@@ -1,11 +1,36 @@
 [
   {
+    "description": "Soho vibes for Obsidian",
+    "homepageUrl": "",
+    "name": "obsidian",
+    "repositoryTopics": [
+      "app"
+    ],
+    "stargazerCount": 18,
+    "updatedAt": "2025-08-07T12:32:55Z",
+    "url": "https://github.com/rose-pine/obsidian",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "Soho vibes for Starship",
+    "homepageUrl": "",
+    "name": "starship",
+    "repositoryTopics": [
+      "shell",
+      "terminal"
+    ],
+    "stargazerCount": 46,
+    "updatedAt": "2025-08-07T02:01:23Z",
+    "url": "https://github.com/rose-pine/starship",
+    "usesCustomOpenGraphImage": false
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 103,
-    "updatedAt": "2025-08-06T00:19:43Z",
+    "updatedAt": "2025-08-07T00:19:56Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -23,18 +48,6 @@
     "updatedAt": "2025-08-05T08:47:32Z",
     "url": "https://github.com/rose-pine/userstyles",
     "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Obsidian",
-    "homepageUrl": "",
-    "name": "obsidian",
-    "repositoryTopics": [
-      "app"
-    ],
-    "stargazerCount": 17,
-    "updatedAt": "2025-07-31T02:14:07Z",
-    "url": "https://github.com/rose-pine/obsidian",
-    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Generate Rosé Pine themes",
@@ -137,7 +150,7 @@
       "editor"
     ],
     "stargazerCount": 2734,
-    "updatedAt": "2025-08-06T20:29:57Z",
+    "updatedAt": "2025-08-07T21:48:05Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -154,8 +167,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 104,
-    "updatedAt": "2025-08-04T11:46:45Z",
+    "stargazerCount": 103,
+    "updatedAt": "2025-08-07T13:07:38Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
@@ -571,19 +584,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Starship",
-    "homepageUrl": "",
-    "name": "starship",
-    "repositoryTopics": [
-      "shell",
-      "terminal"
-    ],
-    "stargazerCount": 46,
-    "updatedAt": "2025-07-21T18:12:34Z",
-    "url": "https://github.com/rose-pine/starship",
-    "usesCustomOpenGraphImage": false
-  },
-  {
     "description": "Soho vibes for qBittorrent ",
     "homepageUrl": "",
     "name": "qbittorrent",
@@ -603,8 +603,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 295,
-    "updatedAt": "2025-08-03T22:13:34Z",
+    "stargazerCount": 294,
+    "updatedAt": "2025-08-07T13:07:39Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -683,8 +683,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1420,
-    "updatedAt": "2025-08-05T14:23:52Z",
+    "stargazerCount": 1421,
+    "updatedAt": "2025-08-08T00:11:31Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
