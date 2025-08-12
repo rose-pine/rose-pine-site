@@ -172,10 +172,10 @@
 		"has_variants": true
 	},
 	{
-		"name": "IntelliJ",
-		"url": "https://github.com/jmorjsm/rose-pine-intellij",
-		"tags": ["app", "editor"],
-		"authors": [{ "name": "jmorjsm", "url": "https://github.com/jmorjsm" }],
+		"name": "JetBrains IDE",
+		"url": "https://github.com/bomgar/rose-pine-jetbrains",
+		"tags": ["app", "editor", "IntelliJ", "Android Studio", "CLion", "GoLand", "PhpStorm", "PyCharm", "Rider", "RubyMine", "RustRover", "WebStorm"],
+		"authors": [{ "name": "bomgar", "url": "https://github.com/bomgar" }],
 		"has_variants": true
 	},
 	{
