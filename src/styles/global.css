@@ -197,7 +197,7 @@ ul[role="list"] {
 .wrapper {
 	margin-inline: auto;
 	padding-inline: var(--spacing-page-gutter);
-	max-inline-size: var(--breakpoint-wrapper);
+	max-inline-size: min(var(--breakpoint-wrapper), 100dvw);
 }
 
 .animate-enter {
