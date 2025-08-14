@@ -7,6 +7,13 @@
 		"has_variants": false
 	},
 	{
+		"name": "Aerc",
+		"url": "https://github.com/piersolenski/rose-pine-aerc",
+		"tags": ["app"],
+		"authors": [{ "name": "piersolenski", "url": "https://github.com/piersolenski" }],
+		"has_variants": false
+	},
+	{
 		"name": "Base16",
 		"url": "https://github.com/edunfelt/base16-rose-pine-scheme",
 		"tags": ["palette"],
