@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 103,
+    "updatedAt": "2025-08-16T00:17:46Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Obsidian",
     "homepageUrl": "",
     "name": "obsidian",
@@ -10,16 +20,6 @@
     "updatedAt": "2025-08-15T04:04:38Z",
     "url": "https://github.com/rose-pine/obsidian",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 103,
-    "updatedAt": "2025-08-15T00:19:19Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Generate Rosé Pine themes",
@@ -159,8 +159,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2749,
-    "updatedAt": "2025-08-15T10:16:36Z",
+    "stargazerCount": 2751,
+    "updatedAt": "2025-08-16T19:25:55Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -613,8 +613,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 296,
-    "updatedAt": "2025-08-15T01:22:03Z",
+    "stargazerCount": 297,
+    "updatedAt": "2025-08-16T22:30:14Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -677,8 +677,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 16,
-    "updatedAt": "2025-07-27T19:04:24Z",
+    "stargazerCount": 17,
+    "updatedAt": "2025-08-16T22:27:21Z",
     "url": "https://github.com/rose-pine/grub",
     "usesCustomOpenGraphImage": true
   },
@@ -963,8 +963,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 88,
-    "updatedAt": "2025-08-14T00:51:22Z",
+    "stargazerCount": 89,
+    "updatedAt": "2025-08-16T22:26:41Z",
     "url": "https://github.com/rose-pine/windows-terminal",
     "usesCustomOpenGraphImage": true
   },
@@ -1008,8 +1008,8 @@
     "repositoryTopics": [
       "music"
     ],
-    "stargazerCount": 7,
-    "updatedAt": "2025-07-30T13:43:09Z",
+    "stargazerCount": 6,
+    "updatedAt": "2025-08-16T18:55:17Z",
     "url": "https://github.com/rose-pine/tidal",
     "usesCustomOpenGraphImage": true
   },
@@ -1590,8 +1590,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 1,
-    "updatedAt": "2022-12-27T19:38:25Z",
+    "stargazerCount": 2,
+    "updatedAt": "2025-08-16T22:24:19Z",
     "url": "https://github.com/rose-pine/zer0bin",
     "usesCustomOpenGraphImage": true
   },
