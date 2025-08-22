@@ -5,7 +5,7 @@
     "name": "rose-pine-bloom",
     "repositoryTopics": [],
     "stargazerCount": 9,
-    "updatedAt": "2025-08-18T18:25:39Z",
+    "updatedAt": "2025-08-21T16:00:22Z",
     "url": "https://github.com/rose-pine/rose-pine-bloom",
     "usesCustomOpenGraphImage": false
   },
@@ -15,7 +15,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 103,
-    "updatedAt": "2025-08-20T00:17:27Z",
+    "updatedAt": "2025-08-21T00:16:33Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -159,8 +159,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2759,
-    "updatedAt": "2025-08-20T21:54:29Z",
+    "stargazerCount": 2763,
+    "updatedAt": "2025-08-21T22:33:09Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -205,8 +205,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 35,
-    "updatedAt": "2025-08-17T21:18:34Z",
+    "stargazerCount": 36,
+    "updatedAt": "2025-08-21T16:38:27Z",
     "url": "https://github.com/rose-pine/zellij",
     "usesCustomOpenGraphImage": true
   },
@@ -302,8 +302,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 13,
-    "updatedAt": "2025-06-26T05:21:11Z",
+    "stargazerCount": 14,
+    "updatedAt": "2025-08-21T22:52:58Z",
     "url": "https://github.com/rose-pine/linux-tty",
     "usesCustomOpenGraphImage": true
   },
@@ -1102,8 +1102,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 109,
-    "updatedAt": "2025-08-17T02:02:00Z",
+    "stargazerCount": 108,
+    "updatedAt": "2025-08-21T16:20:14Z",
     "url": "https://github.com/rose-pine/kitty",
     "usesCustomOpenGraphImage": true
   },
