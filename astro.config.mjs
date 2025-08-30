@@ -11,7 +11,14 @@ export default defineConfig({
 
 	image: {
 		domains: ["raw.githubusercontent.com"],
+		responsiveStyles: true,
 	},
 
 	integrations: [svelte()],
+
+	markdown: {
+		shikiConfig: {
+			themes: { dark: "rose-pine", light: "rose-pine-dawn" },
+		},
+	},
 });

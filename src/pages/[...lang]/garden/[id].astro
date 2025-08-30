@@ -1,0 +1,129 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import FlowerIcon from "../../../assets/flower.svg";
+import { Image } from "astro:assets";
+import {
+	useTranslatedPath,
+	getLangFromUrl,
+	withLangPaths,
+	useTranslations,
+} from "../../../i18n/utilities";
+import { getCollection, render } from "astro:content";
+import { getAuthor } from "../../../data";
+
+let lang = getLangFromUrl(Astro.url);
+let t = useTranslations(lang);
+let translatePath = useTranslatedPath(lang);
+
+export async function getStaticPaths() {
+	const items = await getCollection("garden", ({ data }) => {
+		return import.meta.env.PROD ? data.draft !== true : true;
+	});
+	const entries = items.map((item) => ({
+		params: { id: item.id },
+		props: { item },
+	}));
+	return await withLangPaths(entries);
+}
+
+const { item } = Astro.props;
+let author = getAuthor(item.data.author);
+const { Content } = await render(item);
+
+const publishedAt = new Date(item.data.publishedAt).toLocaleDateString(
+	[lang, "en"],
+	{
+		year: "numeric",
+		month: "long",
+		day: "numeric",
+	},
+);
+
+const updatedAt = new Date(item.data.updatedAt).toLocaleDateString(
+	[lang, "en"],
+	{
+		year: "numeric",
+		month: "long",
+		day: "numeric",
+	},
+);
+---
+
+<Layout title={item.data.title} description={item.data.description}>
+	<div class="wrapper flex flex-col gap-12">
+		<div
+			class="animate-enter mb-12 flex items-center justify-between gap-3"
+			style="--stagger: 1"
+		>
+			<a
+				href={translatePath("/garden")}
+				class="rounded-full py-1.5 pr-4 pl-3 text-sm font-medium text-subtle transition before:pr-1.5 before:content-['←'] hover:bg-muted/10 hover:text-text"
+				>{t("garden.title")}</a
+			>
+		</div>
+
+		<article class="mx-auto w-full max-w-prose">
+			<h1
+				class="animate-enter mb-4 max-w-2xl text-4xl font-bold tracking-tight text-balance"
+				style="--stagger: 1"
+			>
+				{item.data.title}
+			</h1>
+			<p
+				class="animate-enter mb-8 max-w-md font-serif text-lg text-subtle italic"
+				style="--stagger: 2"
+			>
+				{item.data.description}
+			</p>
+			<div
+				class="animate-enter mb-8 overflow-clip rounded-2xl border border-muted/20"
+				style="--stagger: 2"
+			>
+				<Image src={item.data.image} alt={item.data.imageAlt} />
+			</div>
+			<div
+				class="prose prose-headings:text-text prose-p:text-text/90 prose-blockquote:border-iris/50 prose-blockquote:**:!text-text/70 prose-strong:text-text/90 prose-em:text-text/90 prose-code:text-text prose-li:text-text/90 prose-li:marker:text-subtle prose-thead:border-muted mb-8"
+			>
+				<Content />
+			</div>
+			{
+				author ? (
+					<div class="flex flex-wrap items-center gap-1 text-sm font-medium text-nowrap text-subtle italic">
+						<span>Authored by </span>
+						<a
+							href={author.url ?? "#!"}
+							class="flex items-center gap-1 rounded-lg bg-muted/10 px-2 leading-8 font-medium text-text transition hover:bg-muted/20"
+						>
+							{author.avatarUrl ? (
+								<img
+									width="20"
+									height="20"
+									src={author.avatarUrl}
+									alt={author.name}
+									class="rounded-md border border-muted/10"
+								/>
+							) : (
+								<div class="flex size-5 items-center justify-center rounded-md border border-gold/10 bg-gold/10">
+									<FlowerIcon width={16} height={16} class="text-gold" />
+								</div>
+							)}
+							{author.name}
+						</a>
+						<span> on</span>
+						<time datetime={publishedAt}>{publishedAt}</time>
+						{item.data.updatedAt !== item.data.publishedAt && (
+							<time
+								datetime={updatedAt}
+								class="text-sm font-medium text-subtle italic"
+							>
+								(updated {updatedAt})
+							</time>
+						)}
+					</div>
+				) : (
+					""
+				)
+			}
+		</article>
+	</div>
+</Layout>

@@ -15,6 +15,7 @@ export const ui = {
 
 		"nav.home": "Home",
 		"nav.themes": "Themes",
+		"nav.garden": "Garden",
 		"nav.palette": "Palette",
 		"nav.wallpapers": "Wallpapers",
 		"nav.create": "Create",
@@ -27,6 +28,9 @@ export const ui = {
 
 		"themes.title": "Themes",
 		"themes.description": "Hand-crafted collection of personalisation.",
+
+		"garden.title": "Garden",
+		"garden.description": "Musings from the Rosé Pine community.",
 
 		"palette.title": "Palette",
 		"palette.description": "Curated colours, designed to inspire.",
@@ -46,6 +50,7 @@ export const ui = {
 
 		"nav.home": "Casa",
 		"nav.themes": "Temi",
+		"nav.garden": "Giardino",
 		"nav.palette": "Tavolozza",
 		"nav.wallpapers": "Sfondi",
 		"nav.create": "Crea",
@@ -58,6 +63,9 @@ export const ui = {
 
 		"themes.title": "Temi",
 		"themes.description": "Collezione artigianale di personalizzazione.",
+
+		"garden.title": "Giardino",
+		"garden.description": "Riflessioni dalla comunità di Rosé Pine.",
 
 		"palette.title": "Tavolozza",
 		"palette.description": "Colori curati, pensati per ispirare.",

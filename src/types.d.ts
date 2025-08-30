@@ -25,3 +25,9 @@ type Contributor = {
 	name: string;
 	url?: string;
 };
+
+type Author = {
+	name: string;
+	url?: string;
+	avatarUrl: string;
+};

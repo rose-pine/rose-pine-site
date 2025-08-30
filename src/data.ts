@@ -1,6 +1,7 @@
 import repos from "./data/repos.json";
 import communityRepos from "./data/community-repos.json";
 import contributors from "./data/contributors.json";
+import authors from "./data/authors.json";
 
 export function getAllRepos(): Repo[] {
 	return [
@@ -45,4 +46,8 @@ export function getContributorCount(): number {
 			repo.contributors.map((contributor) => contributor.name),
 		),
 	]).size;
+}
+
+export function getAuthor(name: string): Author | null {
+	return authors.find((author) => author.name === name) ?? null;
 }
