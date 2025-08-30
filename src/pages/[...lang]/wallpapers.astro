@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import Layout from "../../layouts/Layout.astro";
+import Page from "../../layouts/page.astro";
 import { useTranslations, withLangPaths } from "../../i18n/utilities";
 import IntroSection from "../../components/intro-section.astro";
 
@@ -30,7 +30,7 @@ let wallpapers = [
 ];
 ---
 
-<Layout title={t("wallpapers.title")} description={t("wallpapers.description")}>
+<Page title={t("wallpapers.title")} description={t("wallpapers.description")}>
 	<IntroSection
 		headline={t("wallpapers.title")}
 		subheadline={t("wallpapers.description")}
@@ -70,4 +70,4 @@ let wallpapers = [
 			</div>
 		</div>
 	</section>
-</Layout>
+</Page>

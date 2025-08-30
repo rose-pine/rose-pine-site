@@ -1,5 +1,5 @@
 ---
-import Layout from "../../layouts/Layout.astro";
+import Page from "../../layouts/page.astro";
 import Flower5Icon from "../../assets/flower5.svg";
 import Flower7Icon from "../../assets/flower7.svg";
 import Flower10Icon from "../../assets/flower10.svg";
@@ -21,7 +21,7 @@ let translatePath = useTranslatedPath(lang);
 let allRepos = getAllRepos();
 ---
 
-<Layout title={t("home.title")} description={t("home.description")}>
+<Page title={t("home.title")} description={t("home.description")}>
 	<section class="wrapper flex min-h-[58svh] flex-1 items-center">
 		<div class="grid grid-cols-1 gap-20 md:grid-cols-2">
 			<div class="flex flex-col">
@@ -125,4 +125,4 @@ let allRepos = getAllRepos();
 			</p>
 		</div>
 	</section>
-</Layout>
+</Page>

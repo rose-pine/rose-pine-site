@@ -1,5 +1,5 @@
 ---
-import Layout from "../../../layouts/Layout.astro";
+import Page from "../../../layouts/page.astro";
 import FlowerIcon from "../../../assets/flower.svg";
 import { Image } from "astro:assets";
 import {
@@ -49,7 +49,7 @@ const updatedAt = new Date(item.data.updatedAt).toLocaleDateString(
 );
 ---
 
-<Layout title={item.data.title} description={item.data.description}>
+<Page title={item.data.title} description={item.data.description}>
 	<div class="wrapper flex flex-col gap-12">
 		<div
 			class="animate-enter mb-12 flex items-center justify-between gap-3"
@@ -126,4 +126,4 @@ const updatedAt = new Date(item.data.updatedAt).toLocaleDateString(
 			}
 		</article>
 	</div>
-</Layout>
+</Page>

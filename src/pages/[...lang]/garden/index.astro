@@ -1,5 +1,5 @@
 ---
-import Layout from "../../../layouts/Layout.astro";
+import Page from "../../../layouts/page.astro";
 import IntroSection from "../../../components/intro-section.astro";
 import { Image } from "astro:assets";
 import {
@@ -28,7 +28,7 @@ let t = useTranslations(lang);
 let translatePath = useTranslatedPath(lang);
 ---
 
-<Layout title={t("garden.title")} description={t("themes.description")}>
+<Page title={t("garden.title")} description={t("themes.description")}>
 	<IntroSection
 		headline={t("garden.title")}
 		subheadline={t("garden.description")}
@@ -74,4 +74,4 @@ let translatePath = useTranslatedPath(lang);
 			))
 		}
 	</section>
-</Layout>
+</Page>

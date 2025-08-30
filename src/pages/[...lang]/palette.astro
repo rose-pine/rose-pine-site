@@ -1,5 +1,5 @@
 ---
-import Layout from "../../layouts/Layout.astro";
+import Page from "../../layouts/page.astro";
 import IntroSection from "../../components/intro-section.astro";
 import CopyColorButton from "../../components/copy-color-button.svelte";
 import PaletteColumnActions from "../../components/palette-column-actions.svelte";
@@ -18,7 +18,7 @@ let t = useTranslations(lang);
 let variants = Object.keys(palette) as (keyof typeof palette)[];
 ---
 
-<Layout title={t("palette.title")} description={t("palette.description")}>
+<Page title={t("palette.title")} description={t("palette.description")}>
 	<IntroSection
 		headline={t("palette.title")}
 		subheadline={t("palette.description")}
@@ -141,4 +141,4 @@ let variants = Object.keys(palette) as (keyof typeof palette)[];
 			</div>
 		</div>
 	</section>
-</Layout>
+</Page>

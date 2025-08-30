@@ -1,5 +1,5 @@
 ---
-import Layout from "../../layouts/Layout.astro";
+import Page from "../../layouts/page.astro";
 import IntroSection from "../../components/intro-section.astro";
 import { useTranslations, withLangPaths } from "../../i18n/utilities";
 
@@ -11,9 +11,9 @@ let { lang = "en" } = Astro.params;
 let t = useTranslations(lang);
 ---
 
-<Layout title={t("create.title")} description={t("create.description")}>
+<Page title={t("create.title")} description={t("create.description")}>
 	<IntroSection
 		headline={t("create.title")}
 		subheadline={t("create.description")}
 	/>
-</Layout>
+</Page>

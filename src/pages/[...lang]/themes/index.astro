@@ -1,5 +1,5 @@
 ---
-import Layout from "../../../layouts/Layout.astro";
+import Page from "../../../layouts/page.astro";
 import IntroSection from "../../../components/intro-section.astro";
 import BoxIcon from "../../../assets/box.svg";
 import {
@@ -23,7 +23,7 @@ let repoCount = sortedRepos.length;
 let contributorCount = getContributorCount();
 ---
 
-<Layout title={t("themes.title")} description={t("themes.description")}>
+<Page title={t("themes.title")} description={t("themes.description")}>
 	<IntroSection
 		headline={t("themes.title")}
 		subheadline={t("themes.description")}
@@ -53,4 +53,4 @@ let contributorCount = getContributorCount();
 			))
 		}
 	</section>
-</Layout>
+</Page>
