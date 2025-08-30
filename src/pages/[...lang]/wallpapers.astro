@@ -11,7 +11,7 @@ export async function getStaticPaths() {
 let { lang = "en" } = Astro.params;
 let t = useTranslations(lang);
 
-let baseSourceUrl = "https://github.com/rose-pine/wallpapers/main";
+let baseSourceUrl = "https://github.com/rose-pine/wallpapers/blob/main";
 let baseRawUrl = "https://raw.githubusercontent.com/rose-pine/wallpapers/main";
 
 let wallpapers = [
@@ -57,11 +57,11 @@ let wallpapers = [
 							rel="noopener noreferrer"
 						>
 							<Image
+								priority
 								src={`${baseRawUrl}/${src}`}
 								alt={alt}
-								width="768"
-								height="512"
-								loading="eager"
+								width={768}
+								height={512}
 								class="aspect-3/2 rounded-md object-cover shadow-lg"
 							/>
 						</a>

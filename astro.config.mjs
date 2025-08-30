@@ -9,5 +9,9 @@ export default defineConfig({
 		plugins: [tailwindcss()],
 	},
 
+	image: {
+		domains: ["raw.githubusercontent.com"],
+	},
+
 	integrations: [svelte()],
 });
