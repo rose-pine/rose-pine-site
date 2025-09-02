@@ -33,6 +33,8 @@
 						formatColor(color, format, preferences.colorsAreStyled),
 					]),
 				),
+				undefined,
+				"\t",
 			),
 		},
 		{
