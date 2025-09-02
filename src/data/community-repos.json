@@ -109,6 +109,15 @@
 		"has_variants": true
 	},
 	{
+		"name": "GitUI",
+		"url": "https://github.com/charliettaylor/rose-pine-gitui",
+		"tags": ["cli"],
+		"authors": [
+			{ "name": "Charlie", "url": "https://github.com/charliettaylor" }
+		],
+		"has_variants": true
+	}
+	{
 		"name": "Gradience Presets",
 		"url": "https://github.com/gradience-presets?q=rose&type=all&sort=",
 		"tags": ["adwaita", "ui"],
