@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 102,
-    "updatedAt": "2025-09-08T00:18:12Z",
+    "updatedAt": "2025-09-09T00:17:28Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -45,8 +45,8 @@
     "homepageUrl": "",
     "name": "rose-pine-bloom",
     "repositoryTopics": [],
-    "stargazerCount": 11,
-    "updatedAt": "2025-09-08T11:13:43Z",
+    "stargazerCount": 10,
+    "updatedAt": "2025-09-09T09:29:31Z",
     "url": "https://github.com/rose-pine/rose-pine-bloom",
     "usesCustomOpenGraphImage": false
   },
@@ -109,8 +109,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2777,
-    "updatedAt": "2025-09-07T18:21:41Z",
+    "stargazerCount": 2779,
+    "updatedAt": "2025-09-09T23:15:05Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -224,8 +224,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 105,
-    "updatedAt": "2025-09-07T02:27:24Z",
+    "stargazerCount": 104,
+    "updatedAt": "2025-09-09T05:04:14Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
@@ -389,8 +389,8 @@
       "addon",
       "firefox-extension"
     ],
-    "stargazerCount": 79,
-    "updatedAt": "2025-08-31T16:23:06Z",
+    "stargazerCount": 80,
+    "updatedAt": "2025-09-09T17:49:52Z",
     "url": "https://github.com/rose-pine/firefox",
     "usesCustomOpenGraphImage": true
   },
@@ -546,7 +546,7 @@
       "shell"
     ],
     "stargazerCount": 30,
-    "updatedAt": "2025-07-08T15:54:27Z",
+    "updatedAt": "2025-09-09T16:33:23Z",
     "url": "https://github.com/rose-pine/fish",
     "usesCustomOpenGraphImage": true
   },
@@ -669,8 +669,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 259,
-    "updatedAt": "2025-09-08T11:13:47Z",
+    "stargazerCount": 258,
+    "updatedAt": "2025-09-09T09:29:34Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -693,8 +693,8 @@
     "homepageUrl": "https://www.npmjs.com/package/@rose-pine/build",
     "name": "build",
     "repositoryTopics": [],
-    "stargazerCount": 29,
-    "updatedAt": "2025-09-08T11:13:46Z",
+    "stargazerCount": 28,
+    "updatedAt": "2025-09-09T09:29:32Z",
     "url": "https://github.com/rose-pine/build",
     "usesCustomOpenGraphImage": true
   },
@@ -1102,8 +1102,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 108,
-    "updatedAt": "2025-08-21T16:20:14Z",
+    "stargazerCount": 105,
+    "updatedAt": "2025-09-09T16:23:28Z",
     "url": "https://github.com/rose-pine/kitty",
     "usesCustomOpenGraphImage": true
   },
@@ -1444,8 +1444,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 10,
-    "updatedAt": "2025-03-17T23:15:51Z",
+    "stargazerCount": 9,
+    "updatedAt": "2025-09-09T16:23:42Z",
     "url": "https://github.com/rose-pine/black-box",
     "usesCustomOpenGraphImage": true
   },
