@@ -1,11 +1,26 @@
 [
   {
+    "description": "Soho vibes for Wallpapers",
+    "homepageUrl": "",
+    "name": "wallpapers",
+    "repositoryTopics": [
+      "wallpapers",
+      "soho-vibes",
+      "rose-pine",
+      "theme"
+    ],
+    "stargazerCount": 259,
+    "updatedAt": "2025-09-10T13:42:42Z",
+    "url": "https://github.com/rose-pine/wallpapers",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 102,
-    "updatedAt": "2025-09-09T00:17:28Z",
+    "updatedAt": "2025-09-10T00:16:16Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -109,8 +124,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2779,
-    "updatedAt": "2025-09-09T23:15:05Z",
+    "stargazerCount": 2778,
+    "updatedAt": "2025-09-10T02:57:28Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -142,8 +157,8 @@
     "homepageUrl": "",
     "name": "anytype",
     "repositoryTopics": [],
-    "stargazerCount": 13,
-    "updatedAt": "2025-08-30T11:25:10Z",
+    "stargazerCount": 12,
+    "updatedAt": "2025-09-10T16:17:33Z",
     "url": "https://github.com/rose-pine/anytype",
     "usesCustomOpenGraphImage": true
   },
@@ -334,8 +349,8 @@
     "homepageUrl": "",
     "name": "dwm",
     "repositoryTopics": [],
-    "stargazerCount": 1,
-    "updatedAt": "2025-06-23T14:08:37Z",
+    "stargazerCount": 2,
+    "updatedAt": "2025-09-10T15:24:51Z",
     "url": "https://github.com/rose-pine/dwm",
     "usesCustomOpenGraphImage": false
   },
@@ -607,8 +622,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 555,
-    "updatedAt": "2025-09-03T20:36:59Z",
+    "stargazerCount": 556,
+    "updatedAt": "2025-09-10T08:33:55Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -658,21 +673,6 @@
     "updatedAt": "2025-06-12T16:29:44Z",
     "url": "https://github.com/rose-pine/flow-launcher",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Soho vibes for Wallpapers",
-    "homepageUrl": "",
-    "name": "wallpapers",
-    "repositoryTopics": [
-      "wallpapers",
-      "soho-vibes",
-      "rose-pine",
-      "theme"
-    ],
-    "stargazerCount": 258,
-    "updatedAt": "2025-09-09T09:29:34Z",
-    "url": "https://github.com/rose-pine/wallpapers",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for TextMate",
@@ -740,8 +740,8 @@
       "vim",
       "editor"
     ],
-    "stargazerCount": 40,
-    "updatedAt": "2025-09-03T01:41:29Z",
+    "stargazerCount": 41,
+    "updatedAt": "2025-09-10T08:34:01Z",
     "url": "https://github.com/rose-pine/vim",
     "usesCustomOpenGraphImage": true
   },
@@ -952,8 +952,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 125,
-    "updatedAt": "2025-08-30T15:05:38Z",
+    "stargazerCount": 126,
+    "updatedAt": "2025-09-10T17:23:18Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
