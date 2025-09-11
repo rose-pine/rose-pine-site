@@ -57,7 +57,7 @@ export const ui = {
 
 		"home.title": "Qualcosa di bello",
 		"home.description":
-			"Pino tutto naturale, pelliccia sintetica e un po' di vibrazioni soho per il minimalista di classe.",
+			"Pino naturale, pelliccia sintetica e un po' di vibrazioni soho per il minimalista di classe.",
 		"home.primary_action": "Esplora i temi",
 		"home.secondary_action": "Coinvolge",
 
@@ -65,16 +65,16 @@ export const ui = {
 		"themes.description": "Collezione artigianale di personalizzazione.",
 
 		"garden.title": "Giardino",
-		"garden.description": "Riflessioni dalla comunità di Rosé Pine.",
+		"garden.description": "Riflessioni della comunità Rosé Pine.",
 
 		"palette.title": "Tavolozza",
 		"palette.description": "Colori curati, pensati per ispirare.",
 
 		"wallpapers.title": "Sfondi",
 		"wallpapers.description":
-			"If you don't stop for a while, you might miss a perfect view.",
+			"Se non ti fermi un attimo, potresti perdere una vista perfetta.",
 
 		"create.title": "Crea",
-		"create.description": "La tua tela, condivisa con la community.",
+		"create.description": "La tua tela, condivisa con la comunità.",
 	},
 } as const;
