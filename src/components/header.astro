@@ -1,4 +1,5 @@
 ---
+import CommandMenu from "./command-menu.svelte";
 import BadgeIcon from "../assets/badge.svg";
 import SparklesIcon from "../assets/sparkles.svg";
 import {
@@ -6,6 +7,8 @@ import {
 	useTranslatedPath,
 	useTranslations,
 } from "../i18n/utilities";
+import { getFeaturedRepos, getSortedRepos } from "../data";
+import palette from "../data/palette.json";
 
 let lang = getLangFromUrl(Astro.url);
 let t = useTranslations(lang);
@@ -17,32 +20,111 @@ let menuItems = [
 	{ name: t("nav.palette"), href: translatePath("/palette") },
 	{ name: t("nav.wallpapers"), href: translatePath("/wallpapers") },
 ];
+
+let searchGroups = [
+	{
+		heading: "Pages",
+		items: [
+			{ label: "Home", href: translatePath("/"), icon: "house" },
+			{
+				label: t("nav.themes"),
+				href: translatePath("/themes"),
+				icon: "sailboat",
+			},
+			{
+				label: t("nav.garden"),
+				href: translatePath("/garden"),
+				icon: "library",
+			},
+			{
+				label: t("nav.palette"),
+				href: translatePath("/palette"),
+				icon: "palette",
+			},
+			{
+				label: t("nav.wallpapers"),
+				href: translatePath("/wallpapers"),
+				icon: "image",
+			},
+			{
+				label: t("nav.create"),
+				href: translatePath("/create"),
+				icon: "sparkles",
+			},
+		],
+	},
+	{
+		heading: "Themes",
+		items: getSortedRepos().map((repo) => ({
+			label: repo.name,
+			href: translatePath(`/themes/${repo.slug}`),
+			icon: "book-text",
+		})),
+	},
+	{
+		heading: "Palette",
+		items: palette.main.map((color) => ({
+			label: color.role,
+			href: translatePath(`/palette/${color.role}`),
+			icon: color.role,
+		})),
+	},
+	{
+		heading: "Community",
+		items: [
+			{ label: "Email", href: "mailto:hi@rosepinetheme.com", icon: "mail" },
+			{
+				label: "Discord",
+				href: "https://discord.gg/r6wf35KVJW",
+				icon: "discord",
+			},
+			{ label: "GitHub", href: "https://github.com/rose-pine", icon: "github" },
+		],
+	},
+];
+
+let defaultGroups = [
+	searchGroups[0],
+	{
+		heading: "Featured themes",
+		items: getFeaturedRepos().map((repo) => ({
+			label: repo.name,
+			href: `/themes/${repo.slug}`,
+			icon: "book-text",
+		})),
+	},
+	...searchGroups.slice(2),
+];
 ---
 
 <header
-	class="wrapper relative mt-page-top flex items-center justify-between gap-3 py-(--card-gutter) [--badge-size:44px] [--card-gutter:var(--spacing-page-gutter-half)] [--card-inner-radius:calc(var(--card-radius)/2)] [--card-radius:1rem]"
+	class="wrapper relative mt-page-top flex items-center gap-6 py-(--card-gutter) [--badge-size:44px] [--card-gutter:var(--spacing-page-gutter-half)] [--card-inner-radius:calc(var(--card-radius)/2)] [--card-radius:1rem] [--nav-item-px:--spacing(3)]"
 >
-	<div class="z-50">
-		<a
-			title={t("nav.home")}
-			href={translatePath("/")}
-			class="flex items-center gap-3"
+	<a
+		title={t("nav.home")}
+		href={translatePath("/")}
+		class="z-50 flex shrink-0 items-center gap-3 rounded-lg"
+	>
+		<BadgeIcon class="size-(--badge-size) shrink-0" />
+		<span class="pr-1 font-serif text-xl font-medium tracking-tight italic"
+			>Rosé Pine</span
 		>
-			<BadgeIcon class="size-(--badge-size) shrink-0" />
-			<span class="font-serif text-xl font-medium tracking-tight italic"
-				>Rosé Pine</span
-			>
-		</a>
+	</a>
+
+	<div class="flex flex-1 items-center justify-end">
+		<CommandMenu {defaultGroups} {searchGroups} client:only="svelte" />
 	</div>
 
-	<nav aria-label={t("header.nav_label")} class="hidden sm:block">
+	<div class="z-50 h-7 w-px bg-muted/20 md:-mr-(--nav-item-px)"></div>
+
+	<nav aria-label={t("header.nav_label")} class="hidden md:block">
 		<ul class="flex items-center gap-1.5">
 			{
 				menuItems.map((item) => (
 					<li>
 						<a
 							href={item.href}
-							class="inline-block h-8 rounded-lg px-3 leading-8 font-medium transition hover:bg-muted/10"
+							class="flex h-8 items-center rounded-lg px-(--nav-item-px) font-medium transition hover:bg-muted/10"
 						>
 							{item.name}
 						</a>
@@ -52,7 +134,7 @@ let menuItems = [
 			<li class="pl-3">
 				<a
 					href={translatePath("/create")}
-					class="group/cta flex h-8 shrink-0 items-center gap-2 rounded-lg border border-text pr-4 pl-3 font-serif leading-8 italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
+					class="group/cta flex h-8 shrink-0 items-center gap-2 rounded-lg border border-text pr-4 pl-3 font-serif italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
 				>
 					<SparklesIcon
 						width={16}
@@ -66,7 +148,7 @@ let menuItems = [
 		</ul>
 	</nav>
 
-	<details class="group/menu block select-none sm:hidden">
+	<details class="group/menu block select-none md:hidden">
 		<summary
 			class="relative z-50 flex size-(--badge-size) cursor-pointer items-center justify-center rounded-(--card-inner-radius) transition hover:bg-muted/10 [&::-webkit-details-marker]:hidden"
 		>

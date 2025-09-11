@@ -12,11 +12,12 @@
 	},
 	"dependencies": {
 		"@astrojs/svelte": "^7.1.0",
+		"@lucide/svelte": "^0.542.0",
 		"@tailwindcss/vite": "^4.1.12",
-		"astro": "^5.13.0",
-		"bits-ui": "^2.9.3",
+		"astro": "^5.13.5",
+		"bits-ui": "^2.9.6",
 		"sharp": "^0.34.3",
-		"svelte": "^5.38.1",
+		"svelte": "^5.38.6",
 		"tailwindcss": "^4.1.12"
 	},
 	"devDependencies": {

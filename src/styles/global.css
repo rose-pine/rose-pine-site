@@ -24,6 +24,7 @@ html {
 	--spacing-page-top: 3rem;
 	--spacing-page-gutter: 2rem;
 	--spacing-page-gutter-half: calc(var(--spacing-page-gutter) / 2);
+	--spacing-page-gutter-quarter: calc(var(--spacing-page-gutter) / 4);
 
 	--color-main-base: #191724;
 	--color-main-surface: #1f1d2e;
@@ -260,9 +261,9 @@ pre {
 
 /* prettier-ignore */
 @utility tonal-pressed-* {
-		color: --value(--color-*);
-		background-color: --alpha(--value(--color-*) / 20%);
-		border-color: --alpha(--value(--color-*) / 30%);
+	color: --value(--color-*);
+	background-color: --alpha(--value(--color-*) / 20%);
+	border-color: --alpha(--value(--color-*) / 30%);
 }
 
 @keyframes enter {

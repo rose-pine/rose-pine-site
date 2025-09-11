@@ -20,6 +20,14 @@ export const ui = {
 		"nav.wallpapers": "Wallpapers",
 		"nav.create": "Create",
 
+		"command.close": "Close command menu",
+		"command.empty_results": "No results found",
+		"command.feeling_lucky": "Feeling lucky",
+		"command.featured_themes": "Featured themes",
+		"command.search": "Search",
+		"command.search_detail":
+			"Search pages, themes, palette and more. Use the arrow keys to navigate.",
+
 		"home.title": "Something beautiful",
 		"home.description":
 			"All natural pine, faux fur and a bit of soho vibes for the classy minimalist.",
@@ -54,6 +62,14 @@ export const ui = {
 		"nav.palette": "Tavolozza",
 		"nav.wallpapers": "Sfondi",
 		"nav.create": "Crea",
+
+		"command.close": "Chiudi il menu dei comandi",
+		"command.empty_results": "Nessun risultato trovato",
+		"command.feeling_lucky": "Mi sento fortunato",
+		"command.featured_themes": "Temi in evidenza",
+		"command.search": "Cerca",
+		"command.search_detail":
+			"Cerca tra pagine, temi, tavolozze e altro. Usa le frecce per navigare.",
 
 		"home.title": "Qualcosa di bello",
 		"home.description":

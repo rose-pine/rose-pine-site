@@ -15,6 +15,12 @@ export function getAllRepos(): Repo[] {
 	];
 }
 
+export function getFeaturedRepos(): Repo[] {
+	return repos
+		.filter((repo) => repo.hidden !== "true" && repo.stargazerCount > 100)
+		.sort((a, b) => b.stargazerCount - a.stargazerCount);
+}
+
 export function getSortedRepos(): Repo[] {
 	return getAllRepos().sort((a, b) => {
 		const nameA = a.name ?? a.slug;
@@ -29,6 +35,11 @@ export function getRepoBySlug(slug: string): Repo | undefined {
 
 export function getAllRepoSlugs(): string[] {
 	return getAllRepos().map((repo) => repo.slug);
+}
+
+export function getRandomRepo(): Repo {
+	const repos = getAllRepos();
+	return repos[Math.floor(Math.random() * repos.length)];
 }
 
 export function getContributor(contributor: string | Contributor): Contributor {
