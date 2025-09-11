@@ -8,7 +8,7 @@ export function getAllRepos(): Repo[] {
 		...repos.filter((repo) => repo?.hidden !== "true"),
 		...communityRepos.map((repo) => ({
 			...repo,
-			slug: repo.name.toLowerCase().replaceAll(" ", ""),
+			slug: repo.name.toLowerCase().replaceAll(" ", "-"),
 			description: `Soho vibes for ${repo.name}`,
 			tags: [...(repo.tags ?? []), "Community"],
 		})),
