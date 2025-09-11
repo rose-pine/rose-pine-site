@@ -21,11 +21,6 @@ html {
 @theme {
 	--breakpoint-wrapper: 80rem;
 
-	--font-sans:
-		ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-		"Segoe UI Symbol", "Noto Color Emoji";
-	--font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-
 	--spacing-page-top: 3rem;
 	--spacing-page-gutter: 2rem;
 	--spacing-page-gutter-half: calc(var(--spacing-page-gutter) / 2);
