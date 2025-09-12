@@ -43,7 +43,8 @@ let translatePath = useTranslatedPath(lang);
 				<article>
 					<a
 						href={translatePath(`/garden/${post.id}`)}
-						aria-labelledby={post.id}
+						aria-labelledby={`${post.id}-title`}
+						aria-describedby={`${post.id}-description`}
 						class="isolate mb-4 flex w-full flex-col items-center overflow-clip rounded-3xl border border-overlay bg-surface p-6 transition hover:border-iris/20 hover:bg-iris/5 sm:flex-row sm:p-4"
 					>
 						<div class="mb-8 shrink-0 sm:mr-8 sm:mb-0 sm:w-64">
@@ -60,12 +61,12 @@ let translatePath = useTranslatedPath(lang);
 						</div>
 						<div class="w-full">
 							<h2
+								id={`${post.id}-title`}
 								class="mb-2 text-2xl font-semibold tracking-tight sm:mb-1"
-								id={post.id}
 							>
 								{post.data.title}
 							</h2>
-							<div class="text-subtle" id={post.id}>
+							<div id={`${post.id}-description`} class="text-subtle">
 								{post.data.description}
 							</div>
 						</div>
