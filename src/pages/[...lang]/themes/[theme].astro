@@ -1,14 +1,14 @@
 ---
-import Page from "../../../layouts/page.astro";
 import BoxIcon from "../../../assets/box.svg";
 import FlowerIcon from "../../../assets/flower.svg";
+import { getAllRepoSlugs, getContributor, getRepoBySlug } from "../../../data";
 import {
-	useTranslations,
-	useTranslatedPath,
 	getLangFromUrl,
+	useTranslatedPath,
+	useTranslations,
 	withLangPaths,
 } from "../../../i18n/utilities";
-import { getAllRepoSlugs, getContributor, getRepoBySlug } from "../../../data";
+import Page from "../../../layouts/page.astro";
 
 export async function getStaticPaths() {
 	const slugs = getAllRepoSlugs();

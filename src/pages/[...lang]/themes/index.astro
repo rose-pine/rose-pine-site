@@ -1,13 +1,12 @@
 ---
-import Page from "../../../layouts/page.astro";
 import IntroSection from "../../../components/intro-section.astro";
-import BoxIcon from "../../../assets/box.svg";
-import {
-	useTranslatedPath,
-	useTranslations,
-	withLangPaths,
-} from "../../../i18n/utilities";
-import { getSortedRepos, getContributorCount } from "../../../data";
+import ThemeList from "../../../components/theme-list.svelte";
+import ThemeSearch from "../../../components/theme-search.svelte";
+import ThemeTagList from "../../../components/theme-tag-list.svelte";
+import { getContributorCount, getSortedRepos } from "../../../data";
+import tags from "../../../data/tags.json";
+import { useTranslations, withLangPaths } from "../../../i18n/utilities";
+import Page from "../../../layouts/page.astro";
 
 export async function getStaticPaths() {
 	return await withLangPaths();
@@ -15,7 +14,6 @@ export async function getStaticPaths() {
 
 let { lang = "en" } = Astro.params;
 let t = useTranslations(lang);
-let translatePath = useTranslatedPath(lang);
 
 let sortedRepos = getSortedRepos();
 
@@ -32,25 +30,17 @@ let contributorCount = getContributorCount();
 
 	<div class="h-page-top"></div>
 
-	<section
-		class="wrapper animate-enter grid grid-cols-2 gap-5 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
-		style="--stagger: 3"
-	>
-		{
-			sortedRepos.map((repo) => (
-				<article>
-					<a
-						href={translatePath(`/themes/${repo.slug}`)}
-						aria-labelledby={repo.slug}
-						class="group relative isolate flex h-full flex-col gap-2.5 rounded-2xl border border-overlay bg-surface p-5 transition hover:border-iris/20 hover:bg-iris/5"
-					>
-						<BoxIcon width={20} height={20} class="text-subtle" />
-						<h2 id={repo.slug} class="font-medium">
-							{repo.name}
-						</h2>
-					</a>
-				</article>
-			))
-		}
+	<section class="wrapper animate-enter" style="--stagger: 2.75">
+		<ThemeSearch client:only="svelte" />
+
+		<div class="h-5"></div>
+
+		<ThemeTagList client:only="svelte" tags={tags} />
+	</section>
+
+	<div class="h-page-top"></div>
+
+	<section class="wrapper animate-enter" style="--stagger: 3">
+		<ThemeList client:only="svelte" themes={sortedRepos} />
 	</section>
 </Page>
