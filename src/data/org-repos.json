@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 102,
+    "updatedAt": "2025-09-17T00:16:47Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for ghostty",
     "homepageUrl": "",
     "name": "ghostty",
@@ -7,16 +17,6 @@
     "stargazerCount": 32,
     "updatedAt": "2025-09-16T13:21:14Z",
     "url": "https://github.com/rose-pine/ghostty",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 102,
-    "updatedAt": "2025-09-16T00:16:44Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -29,8 +29,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 262,
-    "updatedAt": "2025-09-13T14:57:38Z",
+    "stargazerCount": 263,
+    "updatedAt": "2025-09-17T04:18:45Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -183,8 +183,8 @@
       "color",
       "css"
     ],
-    "stargazerCount": 27,
-    "updatedAt": "2025-08-17T18:03:17Z",
+    "stargazerCount": 28,
+    "updatedAt": "2025-09-17T02:55:57Z",
     "url": "https://github.com/rose-pine/rose-pine-palette",
     "usesCustomOpenGraphImage": true
   },
@@ -1752,8 +1752,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 127,
-    "updatedAt": "2025-08-26T17:14:33Z",
+    "stargazerCount": 128,
+    "updatedAt": "2025-09-17T08:30:58Z",
     "url": "https://github.com/rose-pine/iterm",
     "usesCustomOpenGraphImage": true
   },
