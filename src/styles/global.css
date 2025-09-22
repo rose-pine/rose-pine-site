@@ -5,8 +5,6 @@
 @variant theme-moon (&:where([data-theme="moon"] *));
 @variant theme-dawn (&:where([data-theme="dawn"] *));
 
-@custom-variant pointer-coarse (@media (pointer: coarse));
-
 /* increase base font size on small screens. tailwind font sizes will be scaled accordingly. */
 html {
 	font-size: 18px;
