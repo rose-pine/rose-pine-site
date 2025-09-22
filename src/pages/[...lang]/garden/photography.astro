@@ -1,8 +1,8 @@
 ---
 import { Image } from "astro:assets";
-import Page from "../../layouts/page.astro";
-import { useTranslations, withLangPaths } from "../../i18n/utilities";
-import IntroSection from "../../components/intro-section.astro";
+import IntroSection from "../../../components/intro-section.astro";
+import { useTranslations, withLangPaths } from "../../../i18n/utilities";
+import Page from "../../../layouts/page.astro";
 
 export async function getStaticPaths() {
 	return await withLangPaths();
@@ -14,7 +14,7 @@ let t = useTranslations(lang);
 let baseSourceUrl = "https://github.com/rose-pine/wallpapers/blob/main";
 let baseRawUrl = "https://raw.githubusercontent.com/rose-pine/wallpapers/main";
 
-let wallpapers = [
+let photographs = [
 	{ src: "moon.jpg", alt: "Moon" },
 	{ src: "clouds.JPG", alt: "Clouds" },
 	{ src: "bay.JPG", alt: "Bay" },
@@ -30,17 +30,20 @@ let wallpapers = [
 ];
 ---
 
-<Page title={t("wallpapers.title")} description={t("wallpapers.description")}>
+<Page
+	title={t("garden.photography.title")}
+	description={t("garden.photography.description")}
+>
 	<IntroSection
-		headline={t("wallpapers.title")}
-		subheadline={t("wallpapers.description")}
+		headline={t("garden.photography.title")}
+		subheadline={t("garden.photography.description")}
 	/>
 
 	<div class="h-page-top"></div>
 
 	<section class="wrapper">
 		<p class="animate-enter font-medium" style="--stagger: 1">
-			Photography by <a href="https://t1c.dev/" class="link">Kainoa</a>
+			Captured by <a href="https://t1c.dev/" class="link">Kainoa</a>
 		</p>
 
 		<div class="h-page-gutter"></div>
@@ -50,7 +53,7 @@ let wallpapers = [
 				class="grid grid-cols-1 items-center justify-center gap-page-gutter sm:grid-cols-2 lg:grid-cols-3"
 			>
 				{
-					wallpapers.map(({ src, alt }) => (
+					photographs.map(({ src, alt }) => (
 						<a
 							href={`${baseSourceUrl}/${src}`}
 							target="_blank"

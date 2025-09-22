@@ -17,7 +17,6 @@ export const ui = {
 		"nav.themes": "Themes",
 		"nav.garden": "Garden",
 		"nav.palette": "Palette",
-		"nav.wallpapers": "Wallpapers",
 		"nav.create": "Create",
 
 		"command.close": "Close command menu",
@@ -40,12 +39,12 @@ export const ui = {
 		"garden.title": "Garden",
 		"garden.description": "Musings from the Rosé Pine community.",
 
+		"garden.photography.title": "Photography",
+		"garden.photography.description":
+			"If you don't stop for a while, you might miss a perfect view.",
+
 		"palette.title": "Palette",
 		"palette.description": "Curated colours, designed to inspire.",
-
-		"wallpapers.title": "Wallpapers",
-		"wallpapers.description":
-			"If you don't stop for a while, you might miss a perfect view.",
 
 		"create.title": "Create",
 		"create.description": "Your canvas, shared with the community.",
@@ -60,7 +59,6 @@ export const ui = {
 		"nav.themes": "Temi",
 		"nav.garden": "Giardino",
 		"nav.palette": "Tavolozza",
-		"nav.wallpapers": "Sfondi",
 		"nav.create": "Crea",
 
 		"command.close": "Chiudi il menu dei comandi",
@@ -83,12 +81,12 @@ export const ui = {
 		"garden.title": "Giardino",
 		"garden.description": "Riflessioni della comunità Rosé Pine.",
 
+		"garden.photography.title": "Sfondi",
+		"garden.photography.description":
+			"Se non ti fermi un attimo, potresti perdere una vista perfetta.",
+
 		"palette.title": "Tavolozza",
 		"palette.description": "Colori curati, pensati per ispirare.",
-
-		"wallpapers.title": "Sfondi",
-		"wallpapers.description":
-			"Se non ti fermi un attimo, potresti perdere una vista perfetta.",
 
 		"create.title": "Crea",
 		"create.description": "La tua tela, condivisa con la comunità.",

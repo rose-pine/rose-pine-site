@@ -125,7 +125,7 @@
 				</div>
 
 				<Command.List
-					class="max-h-70 overflow-x-hidden overflow-y-auto py-(--dialog-gutter-half)"
+					class="max-h-80 overflow-x-hidden overflow-y-auto py-(--dialog-gutter-half)"
 				>
 					<Command.Viewport class="flex flex-col gap-3">
 						<Command.Empty class="flex justify-center p-(--dialog-gutter-half)">

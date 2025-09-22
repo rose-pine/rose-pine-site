@@ -38,6 +38,38 @@ let translatePath = useTranslatedPath(lang);
 	<div class="h-page-top"></div>
 
 	<section class="wrapper animate-enter" style="--stagger: 3">
+		<article>
+			<a
+				href={translatePath("/garden/photography")}
+				aria-labelledby="photography-title"
+				aria-describedby="photography-description"
+				class="isolate mb-4 flex w-full flex-col items-center overflow-clip rounded-3xl border border-overlay bg-surface p-6 transition hover:border-iris/20 hover:bg-iris/5 sm:flex-row sm:p-4"
+			>
+				<div class="mb-8 shrink-0 sm:mr-8 sm:mb-0 sm:w-64">
+					<Image
+						src="https://raw.githubusercontent.com/rose-pine/wallpapers/main/moon.jpg"
+						alt="Moon"
+						width="2000"
+						height="1200"
+						layout="full-width"
+						fit="cover"
+						position="top"
+						class="w-full rounded-2xl border border-overlay"
+					/>
+				</div>
+				<div class="w-full">
+					<h2
+						id="photography-title"
+						class="mb-2 text-2xl font-semibold tracking-tight sm:mb-1"
+					>
+						{t("garden.photography.title")}
+					</h2>
+					<div id="photography-description" class="text-subtle">
+						{t("garden.photography.description")}
+					</div>
+				</div>
+			</a>
+		</article>
 		{
 			garden.map((post) => (
 				<article>

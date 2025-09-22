@@ -19,6 +19,10 @@ let resourceItems = [
 	{ name: "Repository template", href: "#!" },
 ];
 
+let featureItems = [
+	{ name: "Photography", href: translatePath("/garden/photography") },
+];
+
 let socialItems = [
 	{ name: "Email", href: "mailto:ciao@rosepinetheme.com" },
 	{ name: "GitHub", href: "https://github.com/rose-pine" },
@@ -29,12 +33,25 @@ let socialItems = [
 <footer class="wrapper py-page-top">
 	<nav
 		aria-label={t("footer.nav_label")}
-		class="grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-[auto_auto_auto_1fr] md:gap-20"
+		class="grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-[auto_auto_auto_auto_1fr] md:gap-20"
 	>
 		<ul class="text-sm leading-loose">
 			<li class="font-medium">Resources</li>
 			{
 				resourceItems.map((item) => (
+					<li>
+						<a href={item.href} class="text-subtle transition hover:text-text">
+							{item.name}
+						</a>
+					</li>
+				))
+			}
+		</ul>
+
+		<ul class="text-sm leading-loose">
+			<li class="font-medium">Collections</li>
+			{
+				featureItems.map((item) => (
 					<li>
 						<a href={item.href} class="text-subtle transition hover:text-text">
 							{item.name}
