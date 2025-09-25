@@ -1,5 +1,15 @@
 [
   {
+    "description": "Soho vibes for Kate",
+    "homepageUrl": "",
+    "name": "Kate",
+    "repositoryTopics": [],
+    "stargazerCount": 0,
+    "updatedAt": "2025-09-24T15:45:47Z",
+    "url": "https://github.com/rose-pine/Kate",
+    "usesCustomOpenGraphImage": false
+  },
+  {
     "description": "Soho vibes for Starship",
     "homepageUrl": "",
     "name": "starship",
@@ -17,8 +27,8 @@
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
-    "stargazerCount": 102,
-    "updatedAt": "2025-09-23T00:17:27Z",
+    "stargazerCount": 103,
+    "updatedAt": "2025-09-24T01:21:57Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -203,8 +213,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 129,
-    "updatedAt": "2025-09-14T15:21:29Z",
+    "stargazerCount": 130,
+    "updatedAt": "2025-09-24T17:05:53Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -725,7 +735,7 @@
       "aesthetic"
     ],
     "stargazerCount": 1448,
-    "updatedAt": "2025-09-20T23:13:03Z",
+    "updatedAt": "2025-09-24T15:47:00Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1752,8 +1762,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 128,
-    "updatedAt": "2025-09-17T08:30:58Z",
+    "stargazerCount": 129,
+    "updatedAt": "2025-09-24T14:37:22Z",
     "url": "https://github.com/rose-pine/iterm",
     "usesCustomOpenGraphImage": true
   },
