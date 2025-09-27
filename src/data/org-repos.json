@@ -1,11 +1,24 @@
 [
   {
+    "description": "Soho vibes for Starship",
+    "homepageUrl": "",
+    "name": "starship",
+    "repositoryTopics": [
+      "shell",
+      "terminal"
+    ],
+    "stargazerCount": 49,
+    "updatedAt": "2025-09-08T11:09:58Z",
+    "url": "https://github.com/rose-pine/starship",
+    "usesCustomOpenGraphImage": false
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 103,
-    "updatedAt": "2025-09-25T00:17:08Z",
+    "updatedAt": "2025-09-26T00:17:03Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -17,19 +30,6 @@
     "stargazerCount": 0,
     "updatedAt": "2025-09-25T20:13:30Z",
     "url": "https://github.com/rose-pine/kate",
-    "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Soho vibes for Starship",
-    "homepageUrl": "",
-    "name": "starship",
-    "repositoryTopics": [
-      "shell",
-      "terminal"
-    ],
-    "stargazerCount": 49,
-    "updatedAt": "2025-09-08T11:09:58Z",
-    "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
   },
   {
@@ -157,8 +157,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2790,
-    "updatedAt": "2025-09-25T14:13:01Z",
+    "stargazerCount": 2791,
+    "updatedAt": "2025-09-26T14:57:19Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
