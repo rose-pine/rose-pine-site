@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 103,
-    "updatedAt": "2025-10-02T00:16:52Z",
+    "updatedAt": "2025-10-03T00:16:39Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -17,8 +17,8 @@
       "shell",
       "terminal"
     ],
-    "stargazerCount": 49,
-    "updatedAt": "2025-09-08T11:09:58Z",
+    "stargazerCount": 48,
+    "updatedAt": "2025-10-03T14:39:32Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
   },
@@ -38,7 +38,7 @@
     "name": "ghostty",
     "repositoryTopics": [],
     "stargazerCount": 34,
-    "updatedAt": "2025-10-01T12:50:36Z",
+    "updatedAt": "2025-10-03T16:22:35Z",
     "url": "https://github.com/rose-pine/ghostty",
     "usesCustomOpenGraphImage": true
   },
@@ -53,7 +53,7 @@
       "theme"
     ],
     "stargazerCount": 270,
-    "updatedAt": "2025-10-02T20:56:19Z",
+    "updatedAt": "2025-10-03T11:27:41Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -157,8 +157,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2792,
-    "updatedAt": "2025-10-02T16:54:56Z",
+    "stargazerCount": 2795,
+    "updatedAt": "2025-10-03T20:01:25Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -386,8 +386,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 10,
-    "updatedAt": "2025-07-24T06:49:54Z",
+    "stargazerCount": 9,
+    "updatedAt": "2025-10-03T14:41:55Z",
     "url": "https://github.com/rose-pine/typst",
     "usesCustomOpenGraphImage": true
   },
@@ -396,8 +396,8 @@
     "homepageUrl": "",
     "name": "ulauncher",
     "repositoryTopics": [],
-    "stargazerCount": 3,
-    "updatedAt": "2025-07-05T19:06:51Z",
+    "stargazerCount": 4,
+    "updatedAt": "2025-10-03T04:32:54Z",
     "url": "https://github.com/rose-pine/ulauncher",
     "usesCustomOpenGraphImage": false
   },
@@ -644,8 +644,8 @@
     "repositoryTopics": [
       "app"
     ],
-    "stargazerCount": 22,
-    "updatedAt": "2025-09-12T02:00:00Z",
+    "stargazerCount": 21,
+    "updatedAt": "2025-10-03T14:39:31Z",
     "url": "https://github.com/rose-pine/zen-browser",
     "usesCustomOpenGraphImage": true
   },
@@ -807,8 +807,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 20,
-    "updatedAt": "2025-08-28T03:12:53Z",
+    "stargazerCount": 21,
+    "updatedAt": "2025-10-03T01:41:20Z",
     "url": "https://github.com/rose-pine/rofi",
     "usesCustomOpenGraphImage": true
   },
@@ -1112,8 +1112,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 107,
-    "updatedAt": "2025-10-02T22:29:25Z",
+    "stargazerCount": 108,
+    "updatedAt": "2025-10-03T00:36:04Z",
     "url": "https://github.com/rose-pine/kitty",
     "usesCustomOpenGraphImage": true
   },
