@@ -1,11 +1,27 @@
 [
   {
+    "description": "Soho vibes for CodeQuickTester",
+    "homepageUrl": "",
+    "name": "code-quick-tester",
+    "repositoryTopics": [
+      "ahk",
+      "editor",
+      "rose-pine",
+      "soho-vibes",
+      "theme"
+    ],
+    "stargazerCount": 0,
+    "updatedAt": "2025-10-08T15:52:37Z",
+    "url": "https://github.com/rose-pine/code-quick-tester",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 103,
-    "updatedAt": "2025-10-07T00:17:15Z",
+    "updatedAt": "2025-10-08T00:17:10Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -52,8 +68,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 267,
-    "updatedAt": "2025-10-04T13:58:10Z",
+    "stargazerCount": 268,
+    "updatedAt": "2025-10-08T08:26:03Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -105,8 +121,8 @@
     "repositoryTopics": [
       "app"
     ],
-    "stargazerCount": 20,
-    "updatedAt": "2025-10-01T17:43:59Z",
+    "stargazerCount": 21,
+    "updatedAt": "2025-10-08T16:28:29Z",
     "url": "https://github.com/rose-pine/obsidian",
     "usesCustomOpenGraphImage": false
   },
@@ -157,8 +173,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2796,
-    "updatedAt": "2025-10-06T02:13:22Z",
+    "stargazerCount": 2800,
+    "updatedAt": "2025-10-08T21:24:47Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -485,8 +501,8 @@
       "obsstudio",
       "theme"
     ],
-    "stargazerCount": 4,
-    "updatedAt": "2025-08-17T22:03:31Z",
+    "stargazerCount": 5,
+    "updatedAt": "2025-10-08T16:28:33Z",
     "url": "https://github.com/rose-pine/obs",
     "usesCustomOpenGraphImage": false
   },
@@ -923,8 +939,8 @@
       "tiling-window-manager",
       "theme"
     ],
-    "stargazerCount": 23,
-    "updatedAt": "2025-09-23T03:58:57Z",
+    "stargazerCount": 24,
+    "updatedAt": "2025-10-08T20:30:36Z",
     "url": "https://github.com/rose-pine/hyprland",
     "usesCustomOpenGraphImage": true
   },
@@ -1112,8 +1128,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 108,
-    "updatedAt": "2025-10-03T00:36:04Z",
+    "stargazerCount": 109,
+    "updatedAt": "2025-10-08T19:31:00Z",
     "url": "https://github.com/rose-pine/kitty",
     "usesCustomOpenGraphImage": true
   },
