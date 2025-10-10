@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 103,
+    "updatedAt": "2025-10-09T00:16:51Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for CodeQuickTester",
     "homepageUrl": "",
     "name": "code-quick-tester",
@@ -13,16 +23,6 @@
     "stargazerCount": 0,
     "updatedAt": "2025-10-08T15:52:37Z",
     "url": "https://github.com/rose-pine/code-quick-tester",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 103,
-    "updatedAt": "2025-10-08T00:17:10Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -173,8 +173,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2800,
-    "updatedAt": "2025-10-08T21:24:47Z",
+    "stargazerCount": 2801,
+    "updatedAt": "2025-10-09T15:48:54Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -275,8 +275,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 104,
-    "updatedAt": "2025-10-07T21:14:21Z",
+    "stargazerCount": 105,
+    "updatedAt": "2025-10-09T19:44:58Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
