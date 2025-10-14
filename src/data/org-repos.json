@@ -1,11 +1,28 @@
 [
   {
+    "description": "Soho vibes for Alacritty",
+    "homepageUrl": "",
+    "name": "alacritty",
+    "repositoryTopics": [
+      "alacritty",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "terminal",
+      "terminal-emulator"
+    ],
+    "stargazerCount": 129,
+    "updatedAt": "2025-10-13T15:21:18Z",
+    "url": "https://github.com/rose-pine/alacritty",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 103,
-    "updatedAt": "2025-10-12T00:18:00Z",
+    "updatedAt": "2025-10-13T00:18:28Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -83,8 +100,8 @@
       "userstyles",
       "stylus"
     ],
-    "stargazerCount": 32,
-    "updatedAt": "2025-10-07T07:15:18Z",
+    "stargazerCount": 33,
+    "updatedAt": "2025-10-13T01:42:15Z",
     "url": "https://github.com/rose-pine/userstyles",
     "usesCustomOpenGraphImage": true
   },
@@ -229,8 +246,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 135,
-    "updatedAt": "2025-10-12T12:31:11Z",
+    "stargazerCount": 136,
+    "updatedAt": "2025-10-13T16:48:27Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -660,8 +677,8 @@
     "repositoryTopics": [
       "app"
     ],
-    "stargazerCount": 21,
-    "updatedAt": "2025-10-03T14:39:31Z",
+    "stargazerCount": 22,
+    "updatedAt": "2025-10-13T01:39:51Z",
     "url": "https://github.com/rose-pine/zen-browser",
     "usesCustomOpenGraphImage": true
   },
@@ -964,23 +981,6 @@
     "stargazerCount": 2,
     "updatedAt": "2025-03-24T17:00:29Z",
     "url": "https://github.com/rose-pine/rstudio",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Alacritty",
-    "homepageUrl": "",
-    "name": "alacritty",
-    "repositoryTopics": [
-      "alacritty",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "terminal",
-      "terminal-emulator"
-    ],
-    "stargazerCount": 128,
-    "updatedAt": "2025-09-23T10:14:30Z",
-    "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
   {
