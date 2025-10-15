@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 103,
+    "updatedAt": "2025-10-14T00:17:00Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Alacritty",
     "homepageUrl": "",
     "name": "alacritty",
@@ -14,16 +24,6 @@
     "stargazerCount": 129,
     "updatedAt": "2025-10-13T15:21:18Z",
     "url": "https://github.com/rose-pine/alacritty",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 103,
-    "updatedAt": "2025-10-13T00:18:28Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -191,7 +191,7 @@
       "editor"
     ],
     "stargazerCount": 2804,
-    "updatedAt": "2025-10-12T07:00:46Z",
+    "updatedAt": "2025-10-14T18:36:01Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -1187,8 +1187,8 @@
       "terminal",
       "theme"
     ],
-    "stargazerCount": 34,
-    "updatedAt": "2025-09-29T12:35:54Z",
+    "stargazerCount": 35,
+    "updatedAt": "2025-10-14T18:39:33Z",
     "url": "https://github.com/rose-pine/btop",
     "usesCustomOpenGraphImage": true
   },
@@ -1778,8 +1778,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 130,
-    "updatedAt": "2025-09-27T04:15:25Z",
+    "stargazerCount": 131,
+    "updatedAt": "2025-10-14T10:24:14Z",
     "url": "https://github.com/rose-pine/iterm",
     "usesCustomOpenGraphImage": true
   },
