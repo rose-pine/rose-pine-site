@@ -1,11 +1,26 @@
 [
   {
+    "description": "Soho vibes for Wallpapers",
+    "homepageUrl": "",
+    "name": "wallpapers",
+    "repositoryTopics": [
+      "wallpapers",
+      "soho-vibes",
+      "rose-pine",
+      "theme"
+    ],
+    "stargazerCount": 278,
+    "updatedAt": "2025-10-24T22:51:58Z",
+    "url": "https://github.com/rose-pine/wallpapers",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
-    "stargazerCount": 104,
-    "updatedAt": "2025-10-23T00:17:33Z",
+    "stargazerCount": 105,
+    "updatedAt": "2025-10-24T06:57:28Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -73,21 +88,6 @@
     "stargazerCount": 36,
     "updatedAt": "2025-10-17T01:51:54Z",
     "url": "https://github.com/rose-pine/ghostty",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Wallpapers",
-    "homepageUrl": "",
-    "name": "wallpapers",
-    "repositoryTopics": [
-      "wallpapers",
-      "soho-vibes",
-      "rose-pine",
-      "theme"
-    ],
-    "stargazerCount": 277,
-    "updatedAt": "2025-10-23T18:25:26Z",
-    "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -190,8 +190,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2815,
-    "updatedAt": "2025-10-23T14:50:32Z",
+    "stargazerCount": 2817,
+    "updatedAt": "2025-10-24T15:23:40Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -226,8 +226,8 @@
       "color",
       "css"
     ],
-    "stargazerCount": 34,
-    "updatedAt": "2025-10-22T01:33:40Z",
+    "stargazerCount": 33,
+    "updatedAt": "2025-10-24T01:42:06Z",
     "url": "https://github.com/rose-pine/rose-pine-palette",
     "usesCustomOpenGraphImage": true
   },
