@@ -1,0 +1,70 @@
+{
+	"navigation": {
+		"home": "Home",
+		"themes": "Temas",
+		"palette": "Paleta",
+		"ingredients": "Componentes",
+		"resources": "Recursos",
+		"languages": "Línguas"
+	},
+	"home": {
+		"title": "Simplesmente belo",
+		"description": "Pinho natural, texturas suaves e uma vibe sofisticada para o minimalista com classe.",
+		"discover_button": "Descobrir",
+		"feature_card_1": {
+			"title": "Estética sutil",
+			"description": "Dê aos seus olhos um merecido descanso com nossa paleta suave e confortável.",
+			"link": "Nossa paleta"
+		},
+		"feature_card_2": {
+			"title": "Temas que se adaptam",
+			"description": "Aproveite variantes personalizadas para cada hora do seu dia.",
+			"link": "Explore os temas"
+		},
+		"feature_card_3": {
+			"title": "Impulsionado pela comunidade",
+			"description": "Vocês ajudaram a levar o Rosé Pine pra mais de {{numberOfPorts}} dos seus aplicativos favoritos.",
+			"link": "Envolva-se"
+		}
+	},
+	"themes": {
+		"title": "Temas",
+		"description": "Coleção cuidadosamente criada para personalização.",
+		"tagline": "{{numberOfPorts}} ports & {{numberOfAuthors}} autores",
+		"search_label": "Pesquisar temas..."
+	},
+	"palette": {
+		"title": "Paleta",
+		"description": "Cores pensadas, possibilidades infinitas.",
+		"tagline": "{{numberOfVariants}} variantes & {{numberOfColors}} cores",
+		"tabs": {
+			"swatches": "Amostras",
+			"ingredients": "Componentes"
+		}
+	},
+	"ingredients": {
+		"title": "Componentes",
+		"description": "Códigos de cor.",
+		"decorations_label": "Decorações"
+	},
+	"resources": {
+		"title": "Recursos",
+		"description": "Uma caixa de ferramentas leve para colaboradores.",
+		"help_link": "Obtenha ajuda no nosso Discord"
+	},
+	"global_search": {
+		"trigger": "Pesquisar",
+		"placeholder": "Pesquisar páginas, temas e paletas...",
+		"empty_text": "Nenhum resultado encontrado.",
+		"empty_result_1": "Navegar por todos os temas",
+		"empty_result_2": "Contribua com o Rosé Pine",
+		"heading_pages": "Páginas",
+		"heading_themes": "Temas",
+		"heading_featured_themes": "Temas em destaque",
+		"heading_palette": "Paleta",
+		"heading_community": "Comuni"
+	},
+	"shared": {
+		"read_more": "Read more"
+	}
+}
