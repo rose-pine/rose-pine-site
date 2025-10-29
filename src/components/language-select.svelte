@@ -17,6 +17,7 @@
 		id: "Bahasa Indonesia",
 		it: "Italiano",
 		nl: "Nederlands",
+		"pt-BR": "Português (Brasil)",
 		sv: "Svenska",
 		tr: "Türkçe",
 		uk: "Українська",

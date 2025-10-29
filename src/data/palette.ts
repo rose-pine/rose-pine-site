@@ -21,7 +21,8 @@ const roleDetails = {
 	},
 	surface: {
 		description: "Secondary background atop base",
-		content: "Panels that are not directly related to the focal context—**cards**, **inputs**, and **status lines**.",
+		content:
+			"Panels that are not directly related to the focal context—**cards**, **inputs**, and **status lines**.",
 		scenarios: [
 			"Accessory panels, e.g. popups, floats, editor terminals",
 			"Inputs, e.g. text search, checkboxes",
@@ -29,7 +30,8 @@ const roleDetails = {
 	},
 	overlay: {
 		description: "Tertiary background atop surface",
-		content: "Panels that are more temporary in nature—**popovers**, **notifications**, and **dialogs**.",
+		content:
+			"Panels that are more temporary in nature—**popovers**, **notifications**, and **dialogs**.",
 		scenarios: [
 			"Active backgrounds, e.g. tabs, list items",
 			"High contrast inputs, e.g. text search, checkboxes",
@@ -48,13 +50,15 @@ const roleDetails = {
 	},
 	subtle: {
 		description: "Medium contrast foreground",
-		content: "Secondary content—**comments**, **punctuation**, and **tab names**.",
+		content:
+			"Secondary content—**comments**, **punctuation**, and **tab names**.",
 		scenarios: ["Inactive foregrounds, e.g. tabs, list items"],
 		tags: ["operators", "punctuation"],
 	},
 	text: {
 		description: "High contrast foreground",
-		content: "Primary content—**normal text**, **variables**, and **active content**.",
+		content:
+			"Primary content—**normal text**, **variables**, and **active content**.",
 		scenarios: [
 			"Active foregrounds, e.g. tabs, list items",
 			"Cursor foreground paired with highlight high background",
