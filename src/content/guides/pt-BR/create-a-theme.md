@@ -1,9 +1,10 @@
 ---
-
 title: Criar um tema
 description: Guia de contribuição para designers.
 priority: 99
-------------
+---
+
+---
 
 ## Repositórios oficiais
 
@@ -19,4 +20,3 @@ Embora seguir a [paleta Rosé Pine](/palette/ingredients) seja recomendado, os t
 
 1. Atualize suas cores para corresponder à nossa [paleta](/palette/ingredients), utilizando opcionalmente a [ferramenta de build](https://github.com/rose-pine/build).
 2. Adicione seu tema à [lista da comunidade](https://github.com/rose-pine/rose-pine-site/blob/main/src/data/community-repos.json) exibida no site da Rosé Pine.
-

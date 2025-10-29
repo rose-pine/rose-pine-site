@@ -3,7 +3,9 @@
 		"name": "3DS",
 		"url": "https://github.com/jilliangmeehan/rose-pine-3ds",
 		"tags": ["ui"],
-		"authors": [{ "name": "jilliangmeehan", "url": "https://github.com/jilliangmeehan" }],
+		"authors": [
+			{ "name": "jilliangmeehan", "url": "https://github.com/jilliangmeehan" }
+		],
 		"has_variants": false
 	},
 	{
@@ -33,7 +35,9 @@
 		"name": "Chatterino",
 		"url": "https://github.com/nofishleft/rose-pine-chatterino",
 		"tags": ["app", "community"],
-		"authors": [{ "name": "nofishleft (phush)", "url": "https://github.com/nofishleft" }],
+		"authors": [
+			{ "name": "nofishleft (phush)", "url": "https://github.com/nofishleft" }
+		],
 		"has_variants": true
 	},
 	{
@@ -85,9 +89,7 @@
 		"name": "dunst",
 		"url": "https://github.com/d2718nis/rose-pine-dunst",
 		"tags": ["app"],
-		"authors": [
-			{ "name": "d2718nis", "url": "https://github.com/d2718nis" }
-		],
+		"authors": [{ "name": "d2718nis", "url": "https://github.com/d2718nis" }],
 		"has_variants": true
 	},
 	{
@@ -162,7 +164,9 @@
 		"name": "iSH Shell",
 		"url": "https://github.com/akopdev/rose-pine-ish",
 		"tags": ["terminal", "shell", "mobile", "ish"],
-		"authors": [{ "name": "Akop Kesheshyan", "url": "https://github.com/akopdev" }],
+		"authors": [
+			{ "name": "Akop Kesheshyan", "url": "https://github.com/akopdev" }
+		],
 		"has_variants": true
 	},
 	{
@@ -231,7 +235,10 @@
 		"url": "https://github.com/ebarruel/logseq-rose-pine-theme",
 		"tags": ["app", "productivity"],
 		"authors": [
-			{ "name": "Evangeline Barruel", "url": "https://github.com/ebarruel/logseq-rose-pine-theme" }
+			{
+				"name": "Evangeline Barruel",
+				"url": "https://github.com/ebarruel/logseq-rose-pine-theme"
+			}
 		],
 		"has_variants": true
 	},
@@ -297,21 +304,19 @@
 		]
 	},
 	{
-        "name": "Ox",
-        "url": "https://github.com/SLUCHABLUB/rose-pine-ox",
-        "tags": ["app", "terminal", "editor"],
-        "authors": [
-            { "name": "SLUCHABLUB", "url": "https://github.com/SLUCHABLUB" }
-        ],
-        "has_variants": true
-    },
+		"name": "Ox",
+		"url": "https://github.com/SLUCHABLUB/rose-pine-ox",
+		"tags": ["app", "terminal", "editor"],
+		"authors": [
+			{ "name": "SLUCHABLUB", "url": "https://github.com/SLUCHABLUB" }
+		],
+		"has_variants": true
+	},
 	{
 		"name": "Posting",
 		"url": "https://github.com/elithper/posting",
 		"tags": ["terminal", "app"],
-		"authors": [
-			{ "name": "elithper", "url": "https://github.com/elithper" }
-		],
+		"authors": [{ "name": "elithper", "url": "https://github.com/elithper" }],
 		"has_variants": true
 	},
 	{
@@ -319,7 +324,7 @@
 		"url": "https://codeberg.org/thairanaru/pyradio",
 		"tags": ["app", "audio", "music", "terminal"],
 		"authors": [
-			{ "name": "thairanaru", "url": "https://codeberg.org/thairanaru"}
+			{ "name": "thairanaru", "url": "https://codeberg.org/thairanaru" }
 		],
 		"has_variants": true
 	},
@@ -336,9 +341,7 @@
 		"name": "qutebrowser",
 		"url": "https://github.com/aalbegr/qutebrowser-rose-pine",
 		"tags": ["app", "web-ui"],
-		"authors": [
-			{ "name": "aalbegr", "url": "https://github.com/aalbegr" }
-		],
+		"authors": [{ "name": "aalbegr", "url": "https://github.com/aalbegr" }],
 		"has_variants": true
 	},
 	{
@@ -409,9 +412,7 @@
 		"name": "swaylock",
 		"url": "https://github.com/d2718nis/rose-pine-swaylock",
 		"tags": ["app"],
-		"authors": [
-			{ "name": "d2718nis", "url": "https://github.com/d2718nis" }
-		],
+		"authors": [{ "name": "d2718nis", "url": "https://github.com/d2718nis" }],
 		"has_variants": true
 	},
 	{
@@ -430,16 +431,16 @@
 		"name": "Telegram Desktop",
 		"url": "https://github.com/nymver/telegramdesktop",
 		"tags": ["app"],
-		"authors": [{ "name": "nymver", "url": "https://github.com/nymver/telegramdesktop" }],
+		"authors": [
+			{ "name": "nymver", "url": "https://github.com/nymver/telegramdesktop" }
+		],
 		"has_variants": false
 	},
 	{
 		"name": "Thunderbird",
 		"url": "https://github.com/graknow/thunderbird",
 		"tags": ["app"],
-		"authors": [
-			{ "name": "Grant K", "url": "https://github.com/graknow" }
-		],
+		"authors": [{ "name": "Grant K", "url": "https://github.com/graknow" }],
 		"has_variants": true
 	},
 	{
@@ -514,11 +515,11 @@
 	{
 		"name": "Zebar",
 		"url": "https://github.com/adriankarlen/rose-pine.zebar",
-    "tags": ["app", "community"],
-    "authors": [
-      { "name": "adriankarlen", "url": "https://github.com/adriankarlen" }
-    ],
-    "has_variants": true
+		"tags": ["app", "community"],
+		"authors": [
+			{ "name": "adriankarlen", "url": "https://github.com/adriankarlen" }
+		],
+		"has_variants": true
 	},
 	{
 		"name": "LSD",
@@ -529,7 +530,7 @@
 		],
 		"has_variants": true
 	},
-		{
+	{
 		"name": "File Pilot",
 		"url": "https://github.com/BilayJr/FPilot",
 		"tags": ["app"],
@@ -537,13 +538,13 @@
 		"has_variants": true
 	},
 
-		{
-                "name": "Icon Theme",
-  		"url": "https://github.com/Henriquehnnm/rose-pine-icon-theme",
+	{
+		"name": "Icon Theme",
+		"url": "https://github.com/Henriquehnnm/rose-pine-icon-theme",
 		"tags": ["palette"],
-		"authors": [{"name": "HenriqueHnnm", "url": "https://github.com/Henriquehnnm"}],
+		"authors": [
+			{ "name": "HenriqueHnnm", "url": "https://github.com/Henriquehnnm" }
+		],
 		"has_variants": true
 	}
-
-
 ]

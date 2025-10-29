@@ -1,9 +1,10 @@
 ---
-
 title: Adicionar uma tradução
 description: Guia de contribuição para tradutores.
 priority: 98
-------------
+---
+
+---
 
 ## Configure seu ambiente de desenvolvimento
 
@@ -17,6 +18,7 @@ priority: 98
    ```sh
    pnpm install && pnpm dev
    ```
+
 4. Acesse [http://localhost:3000](http://localhost:3000) para ver as atualizações
    em tempo real.
 
@@ -31,4 +33,3 @@ priority: 98
 1. Crie um novo arquivo de localidade dentro de `src/locales/{locale}.json`
 2. Consulte o esquema equivalente em inglês ou outro idioma com o qual você
    esteja familiarizado, por exemplo: `src/locales/en.json`
-

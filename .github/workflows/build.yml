@@ -2,7 +2,7 @@ name: Nightly build
 on:
   workflow_dispatch:
   schedule:
-  - cron: '0 0 * * *'
+    - cron: "0 0 * * *"
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,30 +10,30 @@ jobs:
       matrix:
         node-version: [20]
     steps:
-    - uses: actions/checkout@v3
-    - uses: pnpm/action-setup@v2
-      with:
-        version: 8
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'pnpm'
-    - name: Install dependencies
-      run: pnpm install
-    - name: Fetch GitHub data
-      run: pnpm build:data
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - name: Commit changes
-      env: 
-        CI_COMMIT_MESSAGE: "ci: build data"
-        CI_COMMIT_AUTHOR: Continuous Integration
-      run: |
-        git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
-        git config --global user.email "mvllow@users.noreply.github.com"
-        git add src/data
-        git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
-        git push
-    - name: Trigger Netlify Build hook
-      run: curl -X POST -d '{}' https://api.netlify.com/build_hooks/${NETLIFY_TOKEN}
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "pnpm"
+      - name: Install dependencies
+        run: pnpm install
+      - name: Fetch GitHub data
+        run: pnpm build:data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit changes
+        env:
+          CI_COMMIT_MESSAGE: "ci: build data"
+          CI_COMMIT_AUTHOR: Continuous Integration
+        run: |
+          git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
+          git config --global user.email "mvllow@users.noreply.github.com"
+          git add src/data
+          git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
+          git push
+      - name: Trigger Netlify Build hook
+        run: curl -X POST -d '{}' https://api.netlify.com/build_hooks/${NETLIFY_TOKEN}

@@ -139,12 +139,14 @@ const CommandMenu = ({
 					<Command.Group
 						key={group.name}
 						heading={
-							search.length > 0 ? group.name : group.featuredName ?? group.name
+							search.length > 0
+								? group.name
+								: (group.featuredName ?? group.name)
 						}
 					>
 						{(search.length > 0
 							? group.items
-							: group.featuredItems ?? group.items
+							: (group.featuredItems ?? group.items)
 						).map((item) => (
 							<Command.Item
 								key={`${group.name}-${item.name}`}
