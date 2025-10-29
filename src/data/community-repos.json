@@ -546,5 +546,14 @@
 			{ "name": "HenriqueHnnm", "url": "https://github.com/Henriquehnnm" }
 		],
 		"has_variants": true
+	},
+	{
+		"name": "fuzzel",
+		"url": "https://github.com/bomgar/rose-pine-fuzzel",
+		"tags": ["community"],
+		"authors": [
+			{ "name": "bomgar", "url": "https://github.com/bomgar" }
+		],
+		"has_variants": true
 	}
 ]
