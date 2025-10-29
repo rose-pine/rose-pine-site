@@ -12,7 +12,9 @@
 		"name": "Aerc",
 		"url": "https://github.com/piersolenski/rose-pine-aerc",
 		"tags": ["app"],
-		"authors": [{ "name": "piersolenski", "url": "https://github.com/piersolenski" }],
+		"authors": [
+			{ "name": "piersolenski", "url": "https://github.com/piersolenski" }
+		],
 		"has_variants": false
 	},
 	{
@@ -125,7 +127,7 @@
 			{ "name": "Charlie", "url": "https://github.com/charliettaylor" }
 		],
 		"has_variants": true
-	}
+	},
 	{
 		"name": "Gradience Presets",
 		"url": "https://github.com/gradience-presets?q=rose&type=all&sort=",
@@ -553,7 +555,6 @@
 		"authors": [{ "name": "bilaii", "url": "https://github.com/BilayJr" }],
 		"has_variants": true
 	},
-
 	{
 		"name": "Icon Theme",
 		"url": "https://github.com/Henriquehnnm/rose-pine-icon-theme",
@@ -567,9 +568,7 @@
 		"name": "fuzzel",
 		"url": "https://github.com/bomgar/rose-pine-fuzzel",
 		"tags": ["community"],
-		"authors": [
-			{ "name": "bomgar", "url": "https://github.com/bomgar" }
-		],
+		"authors": [{ "name": "bomgar", "url": "https://github.com/bomgar" }],
 		"has_variants": true
 	}
 ]
