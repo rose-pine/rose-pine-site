@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { getLangFromUrl, useTranslatedPath } from "../i18n/utilities";
 	import { themeSearch } from "../state.svelte";
+	import hasMatch from "has-match";
 
 	let { themes }: { themes: Repo[] } = $props();
 
@@ -14,9 +15,8 @@
 	let selectedTags = $derived([...themeSearch.tags]);
 	let filteredThemes = $derived(
 		themesWithTagSets.filter((theme) => {
-			const normalizedQuery = themeSearch.query.toLowerCase();
 			return (
-				theme.name.toLowerCase().includes(normalizedQuery) &&
+				hasMatch(theme, themeSearch.query, ["name", "tags"]) &&
 				selectedTags.every((tag) => theme.tagSet.has(tag.toLowerCase()))
 			);
 		}),
