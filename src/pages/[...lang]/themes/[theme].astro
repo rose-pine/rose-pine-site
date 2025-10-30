@@ -1,6 +1,5 @@
 ---
-import BoxIcon from "../../../assets/box.svg";
-import FlowerIcon from "../../../assets/flower.svg";
+import FlowerIcon from "@lucide/astro/icons/flower";
 import { getAllRepoSlugs, getContributor, getRepoBySlug } from "../../../data";
 import {
 	getLangFromUrl,
@@ -9,6 +8,7 @@ import {
 	withLangPaths,
 } from "../../../i18n/utilities";
 import Page from "../../../layouts/page.astro";
+import { getAstroIconComponent } from "../../../utilities/icons-astro";
 
 export async function getStaticPaths() {
 	const slugs = getAllRepoSlugs();
@@ -53,7 +53,12 @@ let { repo } = Astro.props;
 						class="animate-enter mb-8 flex size-12 items-center justify-center rounded-lg bg-gold/10 text-gold"
 						style="--stagger: 1"
 					>
-						<BoxIcon width={32} height={32} />
+						{
+							(() => {
+								const Icon = getAstroIconComponent(repo.category);
+								return <Icon size="32" />;
+							})()
+						}
 					</div>
 					<h1
 						class="animate-enter mb-4 max-w-2xl text-4xl font-bold tracking-tight text-balance sm:text-6xl"
@@ -110,11 +115,7 @@ let { repo } = Astro.props;
 												/>
 											) : (
 												<div class="flex size-5 items-center justify-center rounded-md border border-gold/10 bg-gold/10">
-													<FlowerIcon
-														width={16}
-														height={16}
-														class="text-gold"
-													/>
+													<FlowerIcon size="16" class="text-gold" />
 												</div>
 											)}
 											{name}
@@ -132,7 +133,7 @@ let { repo } = Astro.props;
 							<h2 class="mb-4 font-bold">Tags</h2>
 							<ul role="list" class="flex flex-wrap gap-2">
 								{repo.tags.map((tag) => (
-									<li class="inline-flex items-center rounded-full border border-foam/20 bg-foam/5 px-2 text-xs/5 font-medium text-foam capitalize">
+									<li class="inline-flex items-center rounded-full border border-foam/20 bg-foam/5 px-2 text-xs/5 font-medium text-foam">
 										{tag}
 									</li>
 								))}

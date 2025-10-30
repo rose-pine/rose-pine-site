@@ -1,15 +1,15 @@
 ---
-import Page from "../../../layouts/page.astro";
-import FlowerIcon from "../../../assets/flower.svg";
+import FlowerIcon from "@lucide/astro/icons/flower";
 import { Image } from "astro:assets";
-import {
-	useTranslatedPath,
-	getLangFromUrl,
-	withLangPaths,
-	useTranslations,
-} from "../../../i18n/utilities";
 import { getCollection, render } from "astro:content";
 import { getAuthor } from "../../../data";
+import {
+	getLangFromUrl,
+	useTranslatedPath,
+	useTranslations,
+	withLangPaths,
+} from "../../../i18n/utilities";
+import Page from "../../../layouts/page.astro";
 
 let lang = getLangFromUrl(Astro.url);
 let t = useTranslations(lang);
@@ -82,7 +82,7 @@ const updatedAt = new Date(item.data.updatedAt).toLocaleDateString(
 				<Image src={item.data.image} alt={item.data.imageAlt} />
 			</div>
 			<div
-				class="prose mb-8 prose-headings:text-text prose-p:text-text/90 prose-blockquote:border-iris/50 prose-blockquote:**:!text-text/70 prose-strong:text-text/90 prose-em:text-text/90 prose-code:text-text prose-li:text-text/90 prose-li:marker:text-subtle prose-thead:border-muted"
+				class="prose mb-8 prose-headings:text-text prose-p:text-text/90 prose-blockquote:border-iris/50 prose-blockquote:**:text-text/70! prose-strong:text-text/90 prose-em:text-text/90 prose-code:text-text prose-li:text-text/90 prose-li:marker:text-subtle prose-thead:border-muted"
 			>
 				<Content />
 			</div>
@@ -104,7 +104,7 @@ const updatedAt = new Date(item.data.updatedAt).toLocaleDateString(
 								/>
 							) : (
 								<div class="flex size-5 items-center justify-center rounded-md border border-gold/10 bg-gold/10">
-									<FlowerIcon width={16} height={16} class="text-gold" />
+									<FlowerIcon size="16" class="text-gold" />
 								</div>
 							)}
 							{author.name}

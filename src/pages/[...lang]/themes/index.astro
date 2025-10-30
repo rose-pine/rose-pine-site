@@ -1,10 +1,9 @@
 ---
 import IntroSection from "../../../components/intro-section.astro";
+import ThemeCategories from "../../../components/theme-categories.svelte";
 import ThemeList from "../../../components/theme-list.svelte";
 import ThemeSearch from "../../../components/theme-search.svelte";
-import ThemeTagList from "../../../components/theme-tag-list.svelte";
 import { getContributorCount, getSortedRepos } from "../../../data";
-import tags from "../../../data/tags.json";
 import { useTranslations, withLangPaths } from "../../../i18n/utilities";
 import Page from "../../../layouts/page.astro";
 
@@ -31,11 +30,10 @@ let contributorCount = getContributorCount();
 	<div class="h-page-top"></div>
 
 	<section class="wrapper animate-enter" style="--stagger: 2.75">
-		<ThemeSearch client:only="svelte" />
-
-		<div class="h-5"></div>
-
-		<ThemeTagList client:only="svelte" tags={tags} />
+		<div class="flex flex-col gap-5">
+			<ThemeSearch client:only="svelte" />
+			<ThemeCategories client:only="svelte" />
+		</div>
 	</section>
 
 	<div class="h-page-top"></div>

@@ -18,6 +18,8 @@ type Repo = {
 	hidden?: string;
 	updatedAt?: string;
 	stargazerCount?: number;
+	category: string;
+	children?: string[];
 	[key?: string]: any;
 };
 

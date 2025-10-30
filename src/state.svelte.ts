@@ -8,5 +8,5 @@ export const preferences = $state<Preferences>({
 
 export const themeSearch = $state({
 	query: "",
-	tags: new Set<string>(),
+	category: "",
 });

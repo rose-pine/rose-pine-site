@@ -9,7 +9,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "true",
 		"name": "App",
-		"tags": ["App"],
+		"category": "none",
+		"tags": [],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -29,7 +30,15 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Alacritty",
-		"tags": ["App", "Terminal"],
+		"category": "terminal",
+		"tags": [
+			"alacritty",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"terminal",
+			"terminal-emulator"
+		],
 		"contributors": ["ThatOneCalculator", "dolichomps", "mvllow", "quunnb"]
 	},
 	{
@@ -42,7 +51,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Alfred",
-		"tags": ["App", "macOS"],
+		"category": "system",
+		"tags": [],
 		"contributors": ["juliamertz"]
 	},
 	{
@@ -55,7 +65,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Aliucord",
-		"tags": ["App", "Mobile", "Social"],
+		"category": "social",
+		"tags": ["theme", "mobile"],
 		"contributors": ["ThatOneCalculator"]
 	},
 	{
@@ -68,7 +79,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Amfora",
-		"tags": ["Browser", "Terminal"],
+		"category": "terminal",
+		"tags": ["theme", "amfora", "soho-vibes", "rose-pine", "cli"],
 		"contributors": ["mvllow"]
 	},
 	{
@@ -81,7 +93,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Anytype",
-		"tags": ["App"],
+		"category": "editor",
+		"tags": [],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -94,7 +107,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Atom",
-		"tags": ["App", "Editor"],
+		"category": "editor",
+		"tags": ["atom", "soho-vibes", "theme", "rose-pine", "editor"],
 		"contributors": ["ThatOneCalculator", "fvrests", "mvllow"]
 	},
 	{
@@ -113,7 +127,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Bear Blog",
-		"tags": ["Browser"],
+		"category": "browser",
+		"tags": ["theme", "soho-vibes", "rose-pine", "bear", "hacktoberfest"],
 		"contributors": ["mvllow"]
 	},
 	{
@@ -126,7 +141,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Black Box",
-		"tags": ["App", "Linux", "Terminal"],
+		"category": "terminal",
+		"tags": ["theme", "terminal", "terminal-emulator"],
 		"contributors": ["marcelovbcfilho", "mvllow"]
 	},
 	{
@@ -139,7 +155,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "bspwm",
-		"tags": ["Linux", "System"],
+		"category": "system",
+		"tags": ["theme"],
 		"contributors": ["Jimmysit0", "ThatOneCalculator", "harishnkr"]
 	},
 	{
@@ -152,7 +169,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "btop",
-		"tags": ["Terminal"],
+		"category": "terminal",
+		"tags": ["app", "btop", "btop-theme", "terminal", "theme"],
 		"contributors": ["mrs4ndman"]
 	},
 	{
@@ -165,7 +183,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "true",
 		"name": "App",
-		"tags": ["Library"],
+		"category": "none",
+		"tags": [],
 		"contributors": [
 			"const-void",
 			"fvrests",
@@ -185,7 +204,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "cava",
-		"tags": ["App"],
+		"category": "editor",
+		"tags": ["theme", "cli", "music", "terminal"],
 		"contributors": ["ThatOneCalculator"]
 	},
 	{
@@ -198,7 +218,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "CodeQuickTester",
-		"tags": ["Editor"],
+		"category": "editor",
+		"tags": ["ahk", "editor", "rose-pine", "soho-vibes", "theme"],
 		"contributors": ["qupufu"]
 	},
 	{
@@ -218,7 +239,15 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "cool-retro-term",
-		"tags": ["App", "Terminal"],
+		"category": "terminal",
+		"tags": [
+			"retro-term",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"terminal",
+			"terminal-emulator"
+		],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -231,7 +260,8 @@
 		"usesCustomOpenGraphImage": false,
 		"hidden": "false",
 		"name": "COSMIC Desktop",
-		"tags": ["Linux", "System"],
+		"category": "system",
+		"tags": [],
 		"contributors": ["juliamertz", "mvllow"]
 	},
 	{
@@ -244,7 +274,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "ct.js",
-		"tags": ["App"],
+		"category": "editor",
+		"tags": ["theme"],
 		"contributors": ["ehanahamed"]
 	},
 	{
@@ -257,7 +288,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Cursors",
-		"tags": ["System"],
+		"category": "system",
+		"tags": [],
 		"contributors": ["ThatOneCalculator", "rahaaatul", "waruhachi"]
 	},
 	{
@@ -270,7 +302,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "daisyUI",
-		"tags": ["Library"],
+		"category": "library",
+		"tags": ["theme"],
 		"contributors": ["ThatOneCalculator"]
 	},
 	{
@@ -283,7 +316,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Dark Reader",
-		"tags": ["Browser"],
+		"category": "browser",
+		"tags": ["dark-reader", "soho-vibes", "theme", "rose-pine"],
 		"contributors": ["ThatOneCalculator", "mvllow", "nathansCodes"]
 	},
 	{
@@ -296,7 +330,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Desmos Desktop",
-		"tags": ["App"],
+		"category": "editor",
+		"tags": ["desmos", "soho-vibes", "theme", "rose-pine"],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -317,7 +352,16 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Discord",
-		"tags": ["App"],
+		"category": "social",
+		"tags": [
+			"betterdiscord",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"goosemod",
+			"discord",
+			"hacktoberfest"
+		],
 		"contributors": [
 			"Ace-Extrenof",
 			"CovertDuck",
@@ -348,7 +392,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Discord Mobile",
-		"tags": ["App", "Mobile", "Social"],
+		"category": "social",
+		"tags": ["theme", "mobile-app"],
 		"contributors": [
 			"Ace-Extrenof",
 			"Cirkutry",
@@ -368,7 +413,8 @@
 		"usesCustomOpenGraphImage": false,
 		"hidden": "false",
 		"name": "Discord RPC Maker",
-		"tags": ["App"],
+		"category": "editor",
+		"tags": ["theme", "discord"],
 		"contributors": ["ThatOneCalculator"]
 	},
 	{
@@ -381,7 +427,8 @@
 		"usesCustomOpenGraphImage": false,
 		"hidden": "false",
 		"name": "dwm",
-		"tags": ["Linux", "System"],
+		"category": "system",
+		"tags": [],
 		"contributors": ["butteronarchbtw", "mvllow"]
 	},
 	{
@@ -394,7 +441,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "fcitx5",
-		"tags": ["Linux", "System"],
+		"category": "system",
+		"tags": ["app", "theme"],
 		"contributors": ["scotabroad"]
 	},
 	{
@@ -415,7 +463,16 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Firefox",
-		"tags": ["App", "Browser"],
+		"category": "browser",
+		"tags": [
+			"firefox",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"firefox-addon",
+			"addon",
+			"firefox-extension"
+		],
 		"contributors": [
 			"ChronoInferna",
 			"NovaAndrom3da",
@@ -436,7 +493,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "fish",
-		"tags": ["Terminal"],
+		"category": "terminal",
+		"tags": ["theme", "fish", "soho-vibes", "rose-pine", "shell"],
 		"contributors": ["mvllow", "simono", "ubmit"]
 	},
 	{
@@ -449,7 +507,8 @@
 		"usesCustomOpenGraphImage": false,
 		"hidden": "false",
 		"name": "Flow Launcher",
-		"tags": ["Linux", "System"],
+		"category": "system",
+		"tags": [],
 		"contributors": ["ianklapouch"]
 	},
 	{
@@ -469,7 +528,15 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Fluent Terminal",
-		"tags": ["App", "Terminal", "Windows"],
+		"category": "terminal",
+		"tags": [
+			"fluent-terminal",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"terminal",
+			"terminal-emulator"
+		],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -490,7 +557,16 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "foot",
-		"tags": ["Linux", "Terminal"],
+		"category": "terminal",
+		"tags": [
+			"foot",
+			"foot-terminal",
+			"rose-pine",
+			"soho-vibes",
+			"terminal",
+			"terminal-emulator",
+			"theme"
+		],
 		"contributors": [
 			"EuCaue",
 			"arthurbacci",
@@ -511,7 +587,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "fzf",
-		"tags": ["Terminal"],
+		"category": "terminal",
+		"tags": ["theme"],
 		"contributors": ["ThatOneCalculator", "cutbypham", "jovark", "mvllow"]
 	},
 	{
@@ -530,7 +607,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "GDevelop",
-		"tags": ["App"],
+		"category": "editor",
+		"tags": ["gdevelop", "rose-pine", "soho-vibes", "theme", "hacktoberfest"],
 		"contributors": ["ehanahamed", "mvllow"]
 	},
 	{
@@ -543,7 +621,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Geany",
-		"tags": ["App", "Editor"],
+		"category": "editor",
+		"tags": ["theme", "rose-pine", "soho-vibes"],
 		"contributors": [
 			"Waxxx333",
 			"bonbuggie",
@@ -563,7 +642,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Ghostty",
-		"tags": ["App", "Terminal"],
+		"category": "terminal",
+		"tags": [],
 		"contributors": ["0xTemporal", "ThatOneCalculator", "kjvdven", "mvllow"]
 	},
 	{
@@ -582,7 +662,14 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "GitHub Readme Stats",
-		"tags": ["Browser"],
+		"category": "browser",
+		"tags": [
+			"theme",
+			"soho-vibes",
+			"rose-pine",
+			"github-readme-stats",
+			"github"
+		],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -601,7 +688,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "GitKraken",
-		"tags": ["App"],
+		"category": "editor",
+		"tags": ["theme", "soho-vibes", "rose-pine", "hacktoberfest", "git"],
 		"contributors": ["Henriquehnnm", "diorcula", "fvrests", "mvllow"]
 	},
 	{
@@ -614,7 +702,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "GlazeWM",
-		"tags": ["Linux", "System"],
+		"category": "system",
+		"tags": [],
 		"contributors": ["jishnurajendran", "jovark"]
 	},
 	{
@@ -627,7 +716,8 @@
 		"usesCustomOpenGraphImage": false,
 		"hidden": "false",
 		"name": "GNOME Builder",
-		"tags": ["Editor", "Linux"],
+		"category": "editor",
+		"tags": [],
 		"contributors": ["Henriquehnnm", "mvllow"]
 	},
 	{
@@ -648,7 +738,16 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "GNOME Terminal",
-		"tags": ["App", "Linux", "Terminal"],
+		"category": "terminal",
+		"tags": [
+			"gnome-terminal",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"hacktoberfest",
+			"terminal",
+			"terminal-emulator"
+		],
 		"contributors": ["ThatOneCalculator", "ashbork", "diorcula", "mvllow"]
 	},
 	{
@@ -669,7 +768,16 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Chrome",
-		"tags": ["App", "Browser"],
+		"category": "browser",
+		"tags": [
+			"theme",
+			"google-chrome",
+			"google-chrome-theme",
+			"chrome",
+			"chrome-theme",
+			"soho-vibes",
+			"rose-pine"
+		],
 		"contributors": ["cutbypham", "fvrests"]
 	},
 	{
@@ -682,7 +790,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "GRUB",
-		"tags": ["Linux", "System"],
+		"category": "system",
+		"tags": ["grub", "soho-vibes", "theme", "rose-pine"],
 		"contributors": [
 			"ThatOneCalculator",
 			"mvllow",
@@ -701,7 +810,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "GTK",
-		"tags": ["Linux", "System"],
+		"category": "system",
+		"tags": ["gtk", "soho-vibes", "theme", "rose-pine"],
 		"contributors": [
 			"Daniel-McLarty",
 			"IamGianluca",
@@ -731,7 +841,15 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Helix",
-		"tags": ["Editor", "Terminal"],
+		"category": "editor",
+		"tags": [
+			"theme",
+			"soho-vibes",
+			"rose-pine",
+			"helix",
+			"editor",
+			"hacktoberfest"
+		],
 		"contributors": [
 			"Iorvethe",
 			"ThatOneCalculator",
@@ -753,7 +871,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "highlight.js",
-		"tags": ["Library"],
+		"category": "library",
+		"tags": ["theme"],
 		"contributors": ["JaninaWibker", "ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -766,7 +885,8 @@
 		"usesCustomOpenGraphImage": false,
 		"hidden": "true",
 		"name": "homebrew-tap",
-		"tags": ["App"],
+		"category": "none",
+		"tags": [],
 		"contributors": ["mvllow"]
 	},
 	{
@@ -786,7 +906,15 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Hyper",
-		"tags": ["App", "Terminal"],
+		"category": "terminal",
+		"tags": [
+			"hyper",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"terminal",
+			"terminal-emulator"
+		],
 		"contributors": [
 			"Apthox",
 			"ThatOneCalculator",
@@ -810,7 +938,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Hyprland",
-		"tags": ["Linux", "System"],
+		"category": "system",
+		"tags": ["color-palette", "hyprland", "tiling-window-manager", "theme"],
 		"contributors": ["Tasztalos69", "jishnurajendran"]
 	},
 	{
@@ -829,7 +958,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "i3",
-		"tags": ["Linux", "System"],
+		"category": "system",
+		"tags": ["i3", "rose-pine", "soho-vibes", "theme", "window-manager"],
 		"contributors": ["codepediair", "mvllow", "rznn7"]
 	},
 	{
@@ -849,7 +979,15 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Instatus",
-		"tags": ["Browser"],
+		"category": "browser",
+		"tags": [
+			"instatus",
+			"status-page",
+			"css",
+			"status-pages",
+			"status-page-ui",
+			"theme"
+		],
 		"contributors": ["ThatOneCalculator"]
 	},
 	{
@@ -869,7 +1007,15 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "iTerm2",
-		"tags": ["App", "macOS", "Terminal"],
+		"category": "terminal",
+		"tags": [
+			"iterm",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"terminal",
+			"terminal-emulator"
+		],
 		"contributors": ["ThatOneCalculator", "fvrests", "mvllow"]
 	},
 	{
@@ -882,7 +1028,8 @@
 		"usesCustomOpenGraphImage": false,
 		"hidden": "false",
 		"name": "JDownloader",
-		"tags": ["App"],
+		"category": "editor",
+		"tags": ["app", "jdownloader", "theme"],
 		"contributors": ["darkthemer"]
 	},
 	{
@@ -895,7 +1042,8 @@
 		"usesCustomOpenGraphImage": false,
 		"hidden": "false",
 		"name": "Kate",
-		"tags": ["Editor"],
+		"category": "editor",
+		"tags": [],
 		"contributors": ["Henriquehnnm"]
 	},
 	{
@@ -915,7 +1063,15 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "kitty",
-		"tags": ["App", "Terminal"],
+		"category": "terminal",
+		"tags": [
+			"kitty",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"terminal",
+			"terminal-emulator"
+		],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -935,7 +1091,15 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Konsole",
-		"tags": ["App", "Linux", "Terminal"],
+		"category": "terminal",
+		"tags": [
+			"konsole",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"terminal",
+			"terminal-emulator"
+		],
 		"contributors": ["ThatOneCalculator", "ashbork", "mvllow"]
 	},
 	{
@@ -955,7 +1119,8 @@
 		"usesCustomOpenGraphImage": false,
 		"hidden": "false",
 		"name": "Kvantum",
-		"tags": ["App"],
+		"category": "editor",
+		"tags": ["kvantum", "rose-pine", "soho-vibes", "theme", "kde", "qt"],
 		"contributors": ["OyuDays"]
 	},
 	{
@@ -968,7 +1133,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "lazygit",
-		"tags": ["App"],
+		"category": "terminal",
+		"tags": [],
 		"contributors": ["Mintass"]
 	},
 	{
@@ -988,7 +1154,15 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Linear",
-		"tags": ["Browser"],
+		"category": "browser",
+		"tags": [
+			"linear",
+			"rose-pine",
+			"soho-vibes",
+			"theme",
+			"issue-tracker",
+			"project-management"
+		],
 		"contributors": ["LopeAriyo"]
 	},
 	{
@@ -1001,7 +1175,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Linux TTY",
-		"tags": ["Linux", "Terminal"],
+		"category": "terminal",
+		"tags": ["linux-tty", "soho-vibes", "theme", "rose-pine"],
 		"contributors": [
 			"ThatOneCalculator",
 			"mvllow",
@@ -1027,7 +1202,15 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "LXTerminal",
-		"tags": ["App", "Linux", "Terminal"],
+		"category": "terminal",
+		"tags": [
+			"lxterminal",
+			"rose-pine",
+			"soho-vibes",
+			"theme",
+			"terminal",
+			"terminal-emulator"
+		],
 		"contributors": ["prateektade"]
 	},
 	{
@@ -1040,7 +1223,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "MailSpring",
-		"tags": ["App", "Social"],
+		"category": "social",
+		"tags": ["mailspring", "soho-vibes", "theme"],
 		"contributors": [
 			"ThatOneCalculator",
 			"bacharakis",
@@ -1059,7 +1243,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "mako",
-		"tags": ["Linux", "System"],
+		"category": "system",
+		"tags": ["mako", "theme"],
 		"contributors": ["stanekondrej"]
 	},
 	{
@@ -1072,7 +1257,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Markdown Viewer",
-		"tags": ["Browser"],
+		"category": "browser",
+		"tags": ["extension", "rose-pine", "soho-vibes", "theme"],
 		"contributors": ["Swefton", "mvllow"]
 	},
 	{
@@ -1085,7 +1271,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Mastodon",
-		"tags": ["Browser", "Social"],
+		"category": "social",
+		"tags": ["theme", "mastodon", "soho-vibes", "rose-pine", "css"],
 		"contributors": ["ThatOneCalculator"]
 	},
 	{
@@ -1098,7 +1285,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "MinTTY",
-		"tags": ["Linux", "Terminal"],
+		"category": "terminal",
+		"tags": ["mintty", "soho-vibes", "theme", "rose-pine"],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -1111,7 +1299,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Misskey",
-		"tags": ["Browser", "Social"],
+		"category": "browser",
+		"tags": ["misskey", "misskey-theme", "theme"],
 		"contributors": ["ThatOneCalculator"]
 	},
 	{
@@ -1124,7 +1313,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Mona",
-		"tags": ["App", "Mobile", "Social"],
+		"category": "social",
+		"tags": ["theme"],
 		"contributors": ["SocietasEvanescentes", "ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -1137,7 +1327,8 @@
 		"usesCustomOpenGraphImage": false,
 		"hidden": "false",
 		"name": "Monkeytype",
-		"tags": ["Browser"],
+		"category": "browser",
+		"tags": ["monkeytype", "theme", "collection"],
 		"contributors": [
 			"18praneeth",
 			"AfonsoVReis",
@@ -1282,7 +1473,19 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Neovim",
-		"tags": ["Editor", "Terminal"],
+		"category": "editor",
+		"tags": [
+			"theme",
+			"neovim",
+			"soho-vibes",
+			"rose-pine",
+			"lua",
+			"vim",
+			"nvim",
+			"neovim-theme",
+			"vim-theme",
+			"editor"
+		],
 		"contributors": [
 			"0oAstro",
 			"Asthestarsfalll",
@@ -1372,7 +1575,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Ninjabrain Bot",
-		"tags": ["App"],
+		"category": "editor",
+		"tags": ["app", "rose-pine", "soho-vibes", "theme"],
 		"contributors": ["lincoln-lm"]
 	},
 	{
@@ -1385,7 +1589,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "nomacs",
-		"tags": ["App"],
+		"category": "editor",
+		"tags": ["theme", "rose-pine", "soho-vibes"],
 		"contributors": ["bonbuggie"]
 	},
 	{
@@ -1398,7 +1603,8 @@
 		"usesCustomOpenGraphImage": false,
 		"hidden": "false",
 		"name": "OBS Studio",
-		"tags": ["App"],
+		"category": "editor",
+		"tags": ["app", "obs", "obsstudio", "theme"],
 		"contributors": ["darkthemer"]
 	},
 	{
@@ -1411,7 +1617,8 @@
 		"usesCustomOpenGraphImage": false,
 		"hidden": "false",
 		"name": "Obsidian",
-		"tags": ["App"],
+		"category": "editor",
+		"tags": ["app"],
 		"contributors": [
 			"JTrenerry",
 			"github-actions[bot]",
@@ -1429,7 +1636,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Ollama WebUI",
-		"tags": ["Browser"],
+		"category": "browser",
+		"tags": [],
 		"contributors": ["ThatOneCalculator"]
 	},
 	{
@@ -1442,7 +1650,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "OneCommander",
-		"tags": ["App", "Windows"],
+		"category": "editor",
+		"tags": ["app"],
 		"contributors": ["tandukuda"]
 	},
 	{
@@ -1455,7 +1664,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Phemex",
-		"tags": ["App", "Browser", "Mobile"],
+		"category": "browser",
+		"tags": ["web"],
 		"contributors": ["ThatOneCalculator"]
 	},
 	{
@@ -1468,7 +1678,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Pleroma",
-		"tags": ["Browser", "Social"],
+		"category": "social",
+		"tags": ["theme"],
 		"contributors": ["ThatOneCalculator", "wiredsis"]
 	},
 	{
@@ -1481,7 +1692,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Polybar",
-		"tags": ["Linux", "System"],
+		"category": "system",
+		"tags": ["app", "theme"],
 		"contributors": ["RosieZiutka"]
 	},
 	{
@@ -1494,7 +1706,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Prism",
-		"tags": ["Library"],
+		"category": "library",
+		"tags": ["theme", "prism", "soho-vibes", "rose-pine"],
 		"contributors": ["fvrests"]
 	},
 	{
@@ -1507,7 +1720,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "PureRef",
-		"tags": ["App"],
+		"category": "editor",
+		"tags": ["theme", "soho-vibes", "rose-pine"],
 		"contributors": ["bonbuggie"]
 	},
 	{
@@ -1526,7 +1740,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Pygments",
-		"tags": ["Library"],
+		"category": "library",
+		"tags": ["ipython", "pygments-style", "radian", "rose-pine", "pygments"],
 		"contributors": ["dependabot[bot]", "drearondov", "mvllow", "reillysiemens"]
 	},
 	{
@@ -1539,7 +1754,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "pywal",
-		"tags": ["Library"],
+		"category": "library",
+		"tags": ["terminal", "terminal-emulator", "theme"],
 		"contributors": ["fvrests", "jrc03c", "mvllow"]
 	},
 	{
@@ -1552,7 +1768,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "qBittorrent",
-		"tags": ["App"],
+		"category": "editor",
+		"tags": [],
 		"contributors": ["Xurdejl", "juliamertz"]
 	},
 	{
@@ -1572,7 +1789,15 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "QTerminal",
-		"tags": ["App", "Linux", "Terminal"],
+		"category": "terminal",
+		"tags": [
+			"qterminal",
+			"rose-pine",
+			"soho-vibes",
+			"theme",
+			"terminal",
+			"terminal-emulator"
+		],
 		"contributors": ["prateektade"]
 	},
 	{
@@ -1585,7 +1810,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "R Markdown",
-		"tags": ["App"],
+		"category": "editor",
+		"tags": ["theme"],
 		"contributors": ["ThatOneCalculator"]
 	},
 	{
@@ -1605,7 +1831,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Razer CLI",
-		"tags": ["Terminal"],
+		"category": "terminal",
+		"tags": ["razer-cli", "soho-vibes", "theme", "rose-pine", "razer", "rgb"],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -1625,7 +1852,15 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Revolt",
-		"tags": ["App", "Browser", "Social"],
+		"category": "browser",
+		"tags": [
+			"revolt",
+			"css",
+			"hacktoberfest",
+			"theme",
+			"soho-vibes",
+			"rose-pine"
+		],
 		"contributors": ["ThatOneCalculator", "bw8686"]
 	},
 	{
@@ -1638,7 +1873,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Rio Terminal",
-		"tags": ["App", "Terminal"],
+		"category": "terminal",
+		"tags": ["rio-terminal", "rose-pine", "theme"],
 		"contributors": ["ImgBotApp", "avelino", "mvllow"]
 	},
 	{
@@ -1651,7 +1887,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Roblox Studio",
-		"tags": ["App"],
+		"category": "editor",
+		"tags": ["editor", "roblox-studio", "theme"],
 		"contributors": ["mvllow", "wintertia"]
 	},
 	{
@@ -1664,7 +1901,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Rofi",
-		"tags": ["App", "Linux"],
+		"category": "system",
+		"tags": ["theme"],
 		"contributors": ["ThatOneCalculator", "milanglacier", "mvllow"]
 	},
 	{
@@ -1677,7 +1915,8 @@
 		"usesCustomOpenGraphImage": false,
 		"hidden": "true",
 		"name": "Bloom",
-		"tags": ["App"],
+		"category": "none",
+		"tags": [],
 		"contributors": [
 			"OyuDays",
 			"bomgar",
@@ -1697,7 +1936,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "true",
 		"name": "App",
-		"tags": ["App"],
+		"category": "none",
+		"tags": ["palette", "soho-vibes", "rose-pine", "color", "css"],
 		"contributors": ["barelyhuman", "fvrests", "mvllow"]
 	},
 	{
@@ -1705,12 +1945,13 @@
 		"description": "The Rosé Pine garden",
 		"repositoryTopics": [],
 		"stargazerCount": 105,
-		"updatedAt": "2025-10-30T14:26:58Z",
+		"updatedAt": "2025-11-01T00:19:55Z",
 		"url": "https://github.com/rose-pine/rose-pine-site",
 		"usesCustomOpenGraphImage": true,
 		"hidden": "true",
 		"name": "App",
-		"tags": ["App"],
+		"category": "none",
+		"tags": [],
 		"contributors": [
 			"Cyborus04",
 			"Henriquehnnm",
@@ -1756,7 +1997,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "true",
 		"name": "App",
-		"tags": ["App"],
+		"category": "none",
+		"tags": ["theme"],
 		"contributors": ["fvrests", "mvllow"]
 	},
 	{
@@ -1775,7 +2017,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "true",
 		"name": "App",
-		"tags": ["App"],
+		"category": "none",
+		"tags": ["syntax-theme", "ui-theme", "colorscheme", "palette", "aesthetic"],
 		"contributors": [
 			"BradPatras",
 			"Iorvethe",
@@ -1801,7 +2044,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Rstudio",
-		"tags": ["App", "Editor"],
+		"category": "editor",
+		"tags": [],
 		"contributors": ["wujackwill"]
 	},
 	{
@@ -1814,7 +2058,8 @@
 		"usesCustomOpenGraphImage": false,
 		"hidden": "false",
 		"name": "ShareX",
-		"tags": ["App"],
+		"category": "editor",
+		"tags": ["app", "sharex", "theme"],
 		"contributors": ["darkthemer"]
 	},
 	{
@@ -1827,7 +2072,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Skiff Mail",
-		"tags": ["Browser", "Social"],
+		"category": "browser",
+		"tags": [],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -1847,7 +2093,15 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Slack",
-		"tags": ["App", "Browser", "Social"],
+		"category": "browser",
+		"tags": [
+			"theme",
+			"soho-vibes",
+			"rose-pine",
+			"slack",
+			"css",
+			"hacktoberfest"
+		],
 		"contributors": ["ThatOneCalculator", "fvrests", "mvllow"]
 	},
 	{
@@ -1860,7 +2114,8 @@
 		"usesCustomOpenGraphImage": false,
 		"hidden": "false",
 		"name": "SpeedCrunch",
-		"tags": ["App", "Linux", "macOS", "Windows"],
+		"category": "editor",
+		"tags": ["app", "speedcrunch", "theme"],
 		"contributors": ["darkthemer"]
 	},
 	{
@@ -1880,7 +2135,15 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "st",
-		"tags": ["App", "Linux", "Terminal"],
+		"category": "terminal",
+		"tags": [
+			"st",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"terminal",
+			"terminal-emulator"
+		],
 		"contributors": ["fvrests", "mvllow", "prateektade"]
 	},
 	{
@@ -1893,7 +2156,8 @@
 		"usesCustomOpenGraphImage": false,
 		"hidden": "false",
 		"name": "Starship",
-		"tags": ["Terminal"],
+		"category": "terminal",
+		"tags": ["shell", "terminal"],
 		"contributors": [
 			"Amoralchik",
 			"CongLuanTran",
@@ -1914,7 +2178,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Startpage",
-		"tags": ["Browser"],
+		"category": "browser",
+		"tags": ["startpage", "soho-vibes", "theme", "rose-pine"],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -1927,7 +2192,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "SteamOS",
-		"tags": ["Linux", "System"],
+		"category": "system",
+		"tags": ["theme", "steam", "steam-os"],
 		"contributors": ["BobobUnicorn", "EMERALD0874", "bw8686", "mvllow"]
 	},
 	{
@@ -1946,7 +2212,14 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Sublime Text",
-		"tags": ["App", "Editor"],
+		"category": "editor",
+		"tags": [
+			"sublime-text",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"hacktoberfest"
+		],
 		"contributors": [
 			"Shendisx",
 			"ThatOneCalculator",
@@ -1965,7 +2238,8 @@
 		"usesCustomOpenGraphImage": false,
 		"hidden": "false",
 		"name": "SumatraPDF",
-		"tags": ["App"],
+		"category": "editor",
+		"tags": ["app", "sumatrapdf", "theme"],
 		"contributors": ["darkthemer"]
 	},
 	{
@@ -1978,7 +2252,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Surfingkeys",
-		"tags": ["Browser"],
+		"category": "browser",
+		"tags": ["rose-pine", "surfingkeys", "theme"],
 		"contributors": ["Legend28469", "cutbypham", "maiykill", "mvllow"]
 	},
 	{
@@ -1991,7 +2266,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Sway Notification Center",
-		"tags": ["Linux", "System"],
+		"category": "system",
+		"tags": ["swaync", "theme"],
 		"contributors": ["deadbody13", "pmoieni"]
 	},
 	{
@@ -2004,7 +2280,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Tailwind CSS",
-		"tags": ["Library"],
+		"category": "library",
+		"tags": ["tailwindcss", "theme", "tailwind"],
 		"contributors": ["GoyoStach", "sleepybuildings"]
 	},
 	{
@@ -2023,7 +2300,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Tauon Music Box",
-		"tags": ["App", "Linux", "Mobile", "Windows"],
+		"category": "social",
+		"tags": ["rose-pine", "soho-vibes", "theme", "hacktoberfest", "music"],
 		"contributors": ["mvllow"]
 	},
 	{
@@ -2043,7 +2321,15 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Terminal.app",
-		"tags": ["App", "macOS", "Terminal"],
+		"category": "terminal",
+		"tags": [
+			"terminal-app",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"terminal",
+			"terminal-emulator"
+		],
 		"contributors": ["ThatOneCalculator", "fvrests", "mvllow"]
 	},
 	{
@@ -2063,7 +2349,15 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Terminator",
-		"tags": ["Terminal"],
+		"category": "terminal",
+		"tags": [
+			"terminator",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"terminal",
+			"terminal-emulator"
+		],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -2083,7 +2377,15 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Termite",
-		"tags": ["App", "Terminal"],
+		"category": "terminal",
+		"tags": [
+			"termite",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"terminal",
+			"terminal-emulator"
+		],
 		"contributors": ["Jimmysit0", "ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -2096,7 +2398,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Termux",
-		"tags": ["Mobile", "Terminal"],
+		"category": "terminal",
+		"tags": ["theme", "terminal", "mobile"],
 		"contributors": [
 			"Grimler91",
 			"Neo-Oli",
@@ -2124,7 +2427,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "TIDAL",
-		"tags": ["App"],
+		"category": "browser",
+		"tags": ["music"],
 		"contributors": ["ThatOneCalculator"]
 	},
 	{
@@ -2137,7 +2441,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "TextMate",
-		"tags": ["App", "Editor"],
+		"category": "editor",
+		"tags": ["rose-pine", "soho-vibes", "theme"],
 		"contributors": ["arrrgi", "wzykubek"]
 	},
 	{
@@ -2150,7 +2455,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "tmux",
-		"tags": ["Terminal"],
+		"category": "terminal",
+		"tags": ["app", "terminal", "tmux", "theme"],
 		"contributors": [
 			"Badya",
 			"TymekDev",
@@ -2175,7 +2481,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "tym",
-		"tags": ["App", "Linux", "Terminal"],
+		"category": "terminal",
+		"tags": ["terminal"],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -2188,7 +2495,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Typora",
-		"tags": ["App", "Editor"],
+		"category": "editor",
+		"tags": ["typora", "soho-vibes", "theme", "rose-pine"],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -2201,7 +2509,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Typst",
-		"tags": ["App", "Browser", "Editor", "Terminal"],
+		"category": "terminal",
+		"tags": ["theme"],
 		"contributors": ["Iorvethe", "oplik0"]
 	},
 	{
@@ -2214,7 +2523,8 @@
 		"usesCustomOpenGraphImage": false,
 		"hidden": "false",
 		"name": "Ulauncher",
-		"tags": ["App", "Linux"],
+		"category": "system",
+		"tags": [],
 		"contributors": ["Opposite34"]
 	},
 	{
@@ -2227,7 +2537,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Userstyles",
-		"tags": ["Browser"],
+		"category": "browser",
+		"tags": ["css", "stylish", "userstyles", "stylus"],
 		"contributors": [
 			"JTrenerry",
 			"Papa-Quill",
@@ -2251,7 +2562,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Vim",
-		"tags": ["Editor", "Terminal"],
+		"category": "editor",
+		"tags": ["rose-pine", "soho-vibes", "theme", "vim", "editor"],
 		"contributors": ["DanielViberg", "arash28134", "mvllow", "prateektade"]
 	},
 	{
@@ -2264,7 +2576,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Vimium C",
-		"tags": ["Browser"],
+		"category": "browser",
+		"tags": ["theme", "rose-pine", "soho-vibes"],
 		"contributors": ["mvllow", "zxx457"]
 	},
 	{
@@ -2283,7 +2596,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Vivaldi",
-		"tags": ["App", "Browser"],
+		"category": "browser",
+		"tags": ["rose-pine", "rosepine", "theme", "vivaldi", "vivaldi-theme"],
 		"contributors": ["SocietasEvanescentes"]
 	},
 	{
@@ -2305,7 +2619,17 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Visual Studio Code",
-		"tags": ["App", "Editor"],
+		"category": "editor",
+		"tags": [
+			"vscode",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"vscode-extension",
+			"hacktoberfest",
+			"visual-studio-code",
+			"editor"
+		],
 		"contributors": [
 			"MenWhoRust",
 			"OtterBoops",
@@ -2322,13 +2646,14 @@
 		"slug": "wallpapers",
 		"description": "Soho vibes for Wallpapers",
 		"repositoryTopics": ["wallpapers", "soho-vibes", "rose-pine", "theme"],
-		"stargazerCount": 280,
-		"updatedAt": "2025-10-30T01:10:39Z",
+		"stargazerCount": 281,
+		"updatedAt": "2025-10-31T16:21:01Z",
 		"url": "https://github.com/rose-pine/wallpapers",
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Wallpapers",
-		"tags": ["System"],
+		"category": "system",
+		"tags": ["wallpapers", "soho-vibes", "rose-pine", "theme"],
 		"contributors": [
 			"Henriquehnnm",
 			"ThatOneCalculator",
@@ -2350,7 +2675,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Waybar",
-		"tags": ["Linux", "System"],
+		"category": "system",
+		"tags": ["theme", "color-palette"],
 		"contributors": ["DankoFox"]
 	},
 	{
@@ -2363,7 +2689,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Whoogle",
-		"tags": ["Browser"],
+		"category": "browser",
+		"tags": ["theme"],
 		"contributors": ["ThatOneCalculator"]
 	},
 	{
@@ -2383,7 +2710,15 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Windows Terminal",
-		"tags": ["App", "Terminal", "Windows"],
+		"category": "terminal",
+		"tags": [
+			"windows-terminal",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"terminal",
+			"terminal-emulator"
+		],
 		"contributors": ["Jimmysit0", "fvrests", "maxstollmayer", "mvllow"]
 	},
 	{
@@ -2396,7 +2731,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "WriteFreely",
-		"tags": ["App", "Browser", "Editor", "Mobile", "Social"],
+		"category": "browser",
+		"tags": ["theme"],
 		"contributors": ["ThatOneCalculator"]
 	},
 	{
@@ -2416,7 +2752,15 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "XFCE4 Terminal",
-		"tags": ["App", "Linux", "Terminal"],
+		"category": "terminal",
+		"tags": [
+			"xfce-terminal",
+			"soho-vibes",
+			"theme",
+			"rose-pine",
+			"terminal",
+			"terminal-emulator"
+		],
 		"contributors": ["ThatOneCalculator", "mvllow", "prateektade"]
 	},
 	{
@@ -2429,7 +2773,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Xresources",
-		"tags": ["Linux", "Terminal"],
+		"category": "terminal",
+		"tags": ["theme"],
 		"contributors": ["harishnkr", "piperbly"]
 	},
 	{
@@ -2442,7 +2787,8 @@
 		"usesCustomOpenGraphImage": false,
 		"hidden": "false",
 		"name": "Yazi",
-		"tags": ["App"],
+		"category": "terminal",
+		"tags": [],
 		"contributors": ["Mintass", "mvllow"]
 	},
 	{
@@ -2455,7 +2801,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Zed",
-		"tags": ["App", "Editor"],
+		"category": "editor",
+		"tags": [],
 		"contributors": [
 			"Angelk90",
 			"ThatOneCalculator",
@@ -2475,7 +2822,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Zellij",
-		"tags": ["Terminal"],
+		"category": "terminal",
+		"tags": ["soho-vibes", "rose-pine", "theme"],
 		"contributors": ["anihm136", "arrrgi", "bomgar"]
 	},
 	{
@@ -2488,7 +2836,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Zen Browser",
-		"tags": ["App", "Browser"],
+		"category": "browser",
+		"tags": ["app"],
 		"contributors": ["Lalit64", "wzykubek"]
 	},
 	{
@@ -2501,7 +2850,8 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "zer0bin",
-		"tags": ["Browser"],
+		"category": "browser",
+		"tags": ["theme"],
 		"contributors": ["ThatOneCalculator"]
 	}
 ]

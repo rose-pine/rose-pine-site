@@ -8,6 +8,7 @@ export const showDefaultLang = false;
 
 export const ui = {
 	en: {
+		"shared.all": "All",
 		"shared.language": "Language",
 
 		"header.nav_label": "Primary",
@@ -50,6 +51,7 @@ export const ui = {
 		"create.description": "Your canvas, shared with the community.",
 	},
 	it: {
+		"shared.all": "Tutti",
 		"shared.language": "Lingua",
 
 		"header.nav_label": "Primaria",

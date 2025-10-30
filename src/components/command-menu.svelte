@@ -134,8 +134,7 @@
 								class="group/cta flex h-8 shrink-0 items-center gap-2 rounded-lg border border-text pr-4 pl-3 font-serif italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
 							>
 								<Dice3Icon
-									size={16}
-									stroke-width="2"
+									size="16"
 									class="transition-transform group-hover/cta:-rotate-3"
 								/>
 								<span class="pb-px">{t("command.feeling_lucky")}</span>
@@ -165,7 +164,7 @@
 											{#if icon in iconMap}
 												{@const IconComponent =
 													iconMap[icon as keyof typeof iconMap]}
-												<IconComponent size="16" strokeWidth="2" />
+												<IconComponent size="16" />
 											{:else}
 												<div
 													class="size-4 rounded-lg border border-muted/20"

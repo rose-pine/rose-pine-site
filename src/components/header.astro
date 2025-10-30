@@ -1,14 +1,14 @@
 ---
-import CommandMenu from "./command-menu.svelte";
+import SparklesIcon from "@lucide/astro/icons/sparkles";
 import BadgeIcon from "../assets/badge.svg";
-import SparklesIcon from "../assets/sparkles.svg";
+import { getFeaturedRepos, getSortedRepos } from "../data";
+import palette from "../data/palette.json";
 import {
 	getLangFromUrl,
 	useTranslatedPath,
 	useTranslations,
 } from "../i18n/utilities";
-import { getFeaturedRepos, getSortedRepos } from "../data";
-import palette from "../data/palette.json";
+import CommandMenu from "./command-menu.svelte";
 
 let lang = getLangFromUrl(Astro.url);
 let t = useTranslations(lang);
@@ -131,9 +131,7 @@ let defaultGroups = [
 					class="group/cta flex h-8 shrink-0 items-center gap-2 rounded-lg border border-text pr-4 pl-3 font-serif italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
 				>
 					<SparklesIcon
-						width={16}
-						height={16}
-						stroke-width="2"
+						size="16"
 						class="transition-transform group-hover/cta:-rotate-3"
 					/>
 					<span class="pb-px">{t("nav.create")}</span>

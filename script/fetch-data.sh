@@ -57,7 +57,7 @@ pids=()
 completed_count=0
 contributors=()
 repos_without_name=()
-repos_without_tags=()
+repos_without_category=()
 
 for repo in "${repos[@]}"; do
 	progress "$((${#pids[@]} + completed_count + 1))" "$total_repos" "fetching $repo"
@@ -93,15 +93,15 @@ for repo in "${repos[@]}"; do
 
 	hidden=$(jq -r '.hidden // "false"' <<<"$props")
 	name=$(jq -r '.name // null' <<<"$props")
-	tags=$(jq -r '.tags // "[]"' <<<"$props")
+	category=$(jq -r '.category // ""' <<<"$props")
 
 	if [ "$name" = "null" ] || [ -z "$name" ]; then
 		repos_without_name+=("$repo")
 		name="$repo"
 	fi
 
-	if [ "$tags" = "[]" ]; then
-		repos_without_tags+=("$repo")
+	if [ "$category" = "" ]; then
+		repos_without_category+=("$repo")
 	fi
 
 	repo_contributors=$(jq -r '.[].login' "$temp_dir/$repo.contributors")
@@ -110,14 +110,15 @@ for repo in "${repos[@]}"; do
 	jq --arg repo "$repo" \
 		--arg hidden "$hidden" \
 		--arg name "$name" \
-		--argjson tags "$tags" \
+		--arg category "$category" \
 		--argjson contributors "$(echo "$repo_contributors" | jq -R . | jq -s '. | unique | sort')" \
 		'map(
 			if .slug == $repo then
 				. + {
 					hidden: $hidden,
 					name: $name,
-					tags: $tags,
+					category: $category,
+					tags: .repositoryTopics,
 					contributors: $contributors,
 				}
 			else
@@ -143,14 +144,14 @@ if [ ${#repos_without_name[@]} -gt 0 ]; then
 	printf '%s\n' "${repos_without_name[@]}"
 fi
 
-if [ ${#repos_without_tags[@]} -gt 0 ]; then
-	warn "Repositories missing tags"
-	printf '%s\n' "${repos_without_tags[@]}"
+if [ ${#repos_without_category[@]} -gt 0 ]; then
+	warn "Repositories missing category"
+	printf '%s\n' "${repos_without_category[@]}"
 fi
 
-info "Fetching available tags..."
-gh api "/orgs/rose-pine/properties/schema/tags" |
-	jq '.allowed_values | sort' >"$data_dir/tags.json"
+info "Fetching available categories..."
+gh api "/orgs/rose-pine/properties/schema/category" |
+	jq '.allowed_values | sort' >"$data_dir/categories.json"
 
 if [ -f "$data_dir/community-repos.json" ]; then
 	info "Sorting community repos..."
