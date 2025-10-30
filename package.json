@@ -11,21 +11,21 @@
 		"format": "./script/sort-community-repos.sh; pnpm exec prettier --write ."
 	},
 	"dependencies": {
-		"@astrojs/svelte": "^7.1.0",
+		"@astrojs/svelte": "^7.2.1",
 		"@lucide/svelte": "^0.542.0",
-		"@tailwindcss/vite": "^4.1.12",
-		"astro": "^5.13.5",
-		"bits-ui": "^2.9.6",
-		"sharp": "^0.34.3",
-		"svelte": "^5.38.6",
-		"tailwindcss": "^4.1.12"
+		"@tailwindcss/vite": "^4.1.16",
+		"astro": "^5.15.3",
+		"bits-ui": "^2.14.1",
+		"sharp": "^0.34.4",
+		"svelte": "^5.43.1",
+		"tailwindcss": "^4.1.16"
 	},
 	"devDependencies": {
-		"@tailwindcss/typography": "^0.5.16",
+		"@tailwindcss/typography": "^0.5.19",
 		"prettier": "^3.6.2",
 		"prettier-plugin-astro": "^0.14.1",
 		"prettier-plugin-svelte": "^3.4.0",
 		"prettier-plugin-tailwindcss": "^0.6.14",
-		"typescript": "^5.9.2"
+		"typescript": "^5.9.3"
 	}
 }
