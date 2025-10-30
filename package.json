@@ -5,10 +5,10 @@
 	"scripts": {
 		"dev": "astro dev",
 		"build": "astro build",
-		"build:data": "./script/fetch-data.sh; ./script/fetch-tags.sh",
 		"preview": "astro preview",
 		"astro": "astro",
-		"format": "./script/sort-community-repos.sh; pnpm exec prettier --write ."
+		"format": "pnpm exec prettier --write .",
+		"sync": "./script/fetch-data.sh"
 	},
 	"dependencies": {
 		"@astrojs/svelte": "^7.2.1",

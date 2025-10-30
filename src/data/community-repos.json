@@ -1,5 +1,27 @@
 [
 	{
+		"name": "3DS",
+		"url": "https://github.com/jilliangmeehan/rose-pine-3ds",
+		"tags": ["ui"],
+		"contributors": [
+			{
+				"name": "jilliangmeehan",
+				"url": "https://github.com/jilliangmeehan"
+			}
+		]
+	},
+	{
+		"name": "Aerc",
+		"url": "https://github.com/piersolenski/rose-pine-aerc",
+		"tags": ["app"],
+		"contributors": [
+			{
+				"name": "piersolenski",
+				"url": "https://github.com/piersolenski"
+			}
+		]
+	},
+	{
 		"name": "Base16",
 		"url": "https://github.com/edunfelt/base16-rose-pine-scheme",
 		"tags": ["palette"],
@@ -40,6 +62,17 @@
 			{
 				"name": "conaN",
 				"url": "https://github.com/336conaN"
+			}
+		]
+	},
+	{
+		"name": "Chatterino",
+		"url": "https://github.com/nofishleft/rose-pine-chatterino",
+		"tags": ["app"],
+		"contributors": [
+			{
+				"name": "nofishleft (phush)",
+				"url": "https://github.com/nofishleft"
 			}
 		]
 	},
@@ -154,6 +187,28 @@
 		]
 	},
 	{
+		"name": "fuzzel",
+		"url": "https://github.com/bomgar/rose-pine-fuzzel",
+		"tags": ["app"],
+		"contributors": [
+			{
+				"name": "bomgar",
+				"url": "https://github.com/bomgar"
+			}
+		]
+	},
+	{
+		"name": "GitUI",
+		"url": "https://github.com/charliettaylor/rose-pine-gitui",
+		"tags": ["cli"],
+		"contributors": [
+			{
+				"name": "Charlie",
+				"url": "https://github.com/charliettaylor"
+			}
+		]
+	},
+	{
 		"name": "Gradience Presets",
 		"url": "https://github.com/gradience-presets?q=rose&type=all&sort=",
 		"tags": ["adwaita", "ui"],
@@ -183,6 +238,17 @@
 			{
 				"name": "artilate",
 				"url": "https://github.com/artilate"
+			}
+		]
+	},
+	{
+		"name": "Icon Theme",
+		"url": "https://github.com/Henriquehnnm/rose-pine-icon-theme",
+		"tags": ["palette"],
+		"contributors": [
+			{
+				"name": "HenriqueHnnm",
+				"url": "https://github.com/Henriquehnnm"
 			}
 		]
 	},
@@ -217,7 +283,8 @@
 				"name": "jmorjsm",
 				"url": "https://github.com/jmorjsm"
 			}
-		]
+		],
+		"hidden": true
 	},
 	{
 		"name": "iSH Shell",
@@ -227,6 +294,30 @@
 			{
 				"name": "Akop Kesheshyan",
 				"url": "https://github.com/akopdev"
+			}
+		]
+	},
+	{
+		"name": "JetBrains IDEs",
+		"url": "https://github.com/bomgar/rose-pine-jetbrains",
+		"tags": [
+			"Android Studio",
+			"app",
+			"CLion",
+			"editor",
+			"GoLand",
+			"IntelliJ",
+			"PhpStorm",
+			"PyCharm",
+			"Rider",
+			"RubyMine",
+			"RustRover",
+			"WebStorm"
+		],
+		"contributors": [
+			{
+				"name": "bomgar",
+				"url": "https://github.com/bomgar"
 			}
 		]
 	},
@@ -408,6 +499,17 @@
 		]
 	},
 	{
+		"name": "Ox",
+		"url": "https://github.com/SLUCHABLUB/rose-pine-ox",
+		"tags": ["app", "editor", "terminal"],
+		"contributors": [
+			{
+				"name": "SLUCHABLUB",
+				"url": "https://github.com/SLUCHABLUB"
+			}
+		]
+	},
+	{
 		"name": "Posting",
 		"url": "https://github.com/elithper/posting",
 		"tags": ["app", "terminal"],
@@ -492,6 +594,17 @@
 			{
 				"name": "Leon Windhorst",
 				"url": "https://github.com/lwndhrst"
+			}
+		]
+	},
+	{
+		"name": "Seelen UI",
+		"url": "https://github.com/NX0S/Seelen-ui",
+		"tags": ["desktop", "windows"],
+		"contributors": [
+			{
+				"name": "jilliangmeehan",
+				"url": "https://github.com/jilliangmeehan"
 			}
 		]
 	},
@@ -646,6 +759,17 @@
 			{
 				"name": "artilate",
 				"url": "https://github.com/artilate"
+			}
+		]
+	},
+	{
+		"name": "YouTube Music",
+		"url": "https://github.com/nofishleft/rose-pine-yt-music",
+		"tags": ["music", "web"],
+		"contributors": [
+			{
+				"name": "nofishleft (phush)",
+				"url": "https://github.com/nofishleft"
 			}
 		]
 	},
