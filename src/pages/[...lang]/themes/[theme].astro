@@ -82,6 +82,24 @@ let { repo } = Astro.props;
 						Visit repository
 					</a>
 				</div>
+
+				<div class="h-12"></div>
+
+				{
+					repo.children ? (
+						<div class="animate-enter" style="--stagger: 2.75">
+							<ul class="grid grid-cols-3 gap-1.5">
+								{repo.children.map((child) => (
+									<li class="list-none rounded-md border border-muted/20 px-3 py-1.5 font-mono text-sm font-medium text-subtle">
+										{child}
+									</li>
+								))}
+							</ul>
+						</div>
+					) : (
+						""
+					)
+				}
 			</article>
 
 			<aside

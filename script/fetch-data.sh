@@ -107,11 +107,17 @@ for repo in "${repos[@]}"; do
 	repo_contributors=$(jq -r '.[].login' "$temp_dir/$repo.contributors")
 	contributors+=($repo_contributors)
 
+	userstyles_children='[]'
+	if [ "$repo" = "userstyles" ]; then
+		userstyles_children=$(gh api "/repos/rose-pine/userstyles/contents/styles" 2>/dev/null | jq '[.[] | select(.type == "dir") | .name]' || echo '[]')
+	fi
+
 	jq --arg repo "$repo" \
 		--arg hidden "$hidden" \
 		--arg name "$name" \
 		--arg category "$category" \
 		--argjson contributors "$(echo "$repo_contributors" | jq -R . | jq -s '. | unique | sort')" \
+		--argjson userstyles_children "$userstyles_children" \
 		'map(
 			if .slug == $repo then
 				. + {
@@ -119,6 +125,7 @@ for repo in "${repos[@]}"; do
 					name: $name,
 					category: $category,
 					tags: .repositoryTopics,
+					children: (if $repo == "userstyles" then $userstyles_children else [] end),
 					contributors: $contributors,
 				}
 			else

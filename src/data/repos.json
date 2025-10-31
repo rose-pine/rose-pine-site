@@ -11,6 +11,7 @@
 		"name": "App",
 		"category": "none",
 		"tags": [],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -39,6 +40,7 @@
 			"terminal",
 			"terminal-emulator"
 		],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "dolichomps", "mvllow", "quunnb"]
 	},
 	{
@@ -53,6 +55,7 @@
 		"name": "Alfred",
 		"category": "system",
 		"tags": [],
+		"children": [],
 		"contributors": ["juliamertz"]
 	},
 	{
@@ -67,6 +70,7 @@
 		"name": "Aliucord",
 		"category": "social",
 		"tags": ["theme", "mobile"],
+		"children": [],
 		"contributors": ["ThatOneCalculator"]
 	},
 	{
@@ -81,6 +85,7 @@
 		"name": "Amfora",
 		"category": "terminal",
 		"tags": ["theme", "amfora", "soho-vibes", "rose-pine", "cli"],
+		"children": [],
 		"contributors": ["mvllow"]
 	},
 	{
@@ -95,6 +100,7 @@
 		"name": "Anytype",
 		"category": "editor",
 		"tags": [],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -109,6 +115,7 @@
 		"name": "Atom",
 		"category": "editor",
 		"tags": ["atom", "soho-vibes", "theme", "rose-pine", "editor"],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "fvrests", "mvllow"]
 	},
 	{
@@ -129,6 +136,7 @@
 		"name": "Bear Blog",
 		"category": "browser",
 		"tags": ["theme", "soho-vibes", "rose-pine", "bear", "hacktoberfest"],
+		"children": [],
 		"contributors": ["mvllow"]
 	},
 	{
@@ -143,6 +151,7 @@
 		"name": "Black Box",
 		"category": "terminal",
 		"tags": ["theme", "terminal", "terminal-emulator"],
+		"children": [],
 		"contributors": ["marcelovbcfilho", "mvllow"]
 	},
 	{
@@ -157,6 +166,7 @@
 		"name": "bspwm",
 		"category": "system",
 		"tags": ["theme"],
+		"children": [],
 		"contributors": ["Jimmysit0", "ThatOneCalculator", "harishnkr"]
 	},
 	{
@@ -171,6 +181,7 @@
 		"name": "btop",
 		"category": "terminal",
 		"tags": ["app", "btop", "btop-theme", "terminal", "theme"],
+		"children": [],
 		"contributors": ["mrs4ndman"]
 	},
 	{
@@ -185,6 +196,7 @@
 		"name": "App",
 		"category": "none",
 		"tags": [],
+		"children": [],
 		"contributors": [
 			"const-void",
 			"fvrests",
@@ -206,6 +218,7 @@
 		"name": "cava",
 		"category": "editor",
 		"tags": ["theme", "cli", "music", "terminal"],
+		"children": [],
 		"contributors": ["ThatOneCalculator"]
 	},
 	{
@@ -220,6 +233,7 @@
 		"name": "CodeQuickTester",
 		"category": "editor",
 		"tags": ["ahk", "editor", "rose-pine", "soho-vibes", "theme"],
+		"children": [],
 		"contributors": ["qupufu"]
 	},
 	{
@@ -248,6 +262,7 @@
 			"terminal",
 			"terminal-emulator"
 		],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -262,6 +277,7 @@
 		"name": "COSMIC Desktop",
 		"category": "system",
 		"tags": [],
+		"children": [],
 		"contributors": ["juliamertz", "mvllow"]
 	},
 	{
@@ -276,6 +292,7 @@
 		"name": "ct.js",
 		"category": "editor",
 		"tags": ["theme"],
+		"children": [],
 		"contributors": ["ehanahamed"]
 	},
 	{
@@ -290,6 +307,7 @@
 		"name": "Cursors",
 		"category": "system",
 		"tags": [],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "rahaaatul", "waruhachi"]
 	},
 	{
@@ -304,6 +322,7 @@
 		"name": "daisyUI",
 		"category": "library",
 		"tags": ["theme"],
+		"children": [],
 		"contributors": ["ThatOneCalculator"]
 	},
 	{
@@ -318,6 +337,7 @@
 		"name": "Dark Reader",
 		"category": "browser",
 		"tags": ["dark-reader", "soho-vibes", "theme", "rose-pine"],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "mvllow", "nathansCodes"]
 	},
 	{
@@ -332,6 +352,7 @@
 		"name": "Desmos Desktop",
 		"category": "editor",
 		"tags": ["desmos", "soho-vibes", "theme", "rose-pine"],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -362,6 +383,7 @@
 			"discord",
 			"hacktoberfest"
 		],
+		"children": [],
 		"contributors": [
 			"Ace-Extrenof",
 			"CovertDuck",
@@ -394,6 +416,7 @@
 		"name": "Discord Mobile",
 		"category": "social",
 		"tags": ["theme", "mobile-app"],
+		"children": [],
 		"contributors": [
 			"Ace-Extrenof",
 			"Cirkutry",
@@ -415,6 +438,7 @@
 		"name": "Discord RPC Maker",
 		"category": "editor",
 		"tags": ["theme", "discord"],
+		"children": [],
 		"contributors": ["ThatOneCalculator"]
 	},
 	{
@@ -429,6 +453,7 @@
 		"name": "dwm",
 		"category": "system",
 		"tags": [],
+		"children": [],
 		"contributors": ["butteronarchbtw", "mvllow"]
 	},
 	{
@@ -443,6 +468,7 @@
 		"name": "fcitx5",
 		"category": "system",
 		"tags": ["app", "theme"],
+		"children": [],
 		"contributors": ["scotabroad"]
 	},
 	{
@@ -473,6 +499,7 @@
 			"addon",
 			"firefox-extension"
 		],
+		"children": [],
 		"contributors": [
 			"ChronoInferna",
 			"NovaAndrom3da",
@@ -495,6 +522,7 @@
 		"name": "fish",
 		"category": "terminal",
 		"tags": ["theme", "fish", "soho-vibes", "rose-pine", "shell"],
+		"children": [],
 		"contributors": ["mvllow", "simono", "ubmit"]
 	},
 	{
@@ -509,6 +537,7 @@
 		"name": "Flow Launcher",
 		"category": "system",
 		"tags": [],
+		"children": [],
 		"contributors": ["ianklapouch"]
 	},
 	{
@@ -537,6 +566,7 @@
 			"terminal",
 			"terminal-emulator"
 		],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -567,6 +597,7 @@
 			"terminal-emulator",
 			"theme"
 		],
+		"children": [],
 		"contributors": [
 			"EuCaue",
 			"arthurbacci",
@@ -589,6 +620,7 @@
 		"name": "fzf",
 		"category": "terminal",
 		"tags": ["theme"],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "cutbypham", "jovark", "mvllow"]
 	},
 	{
@@ -609,6 +641,7 @@
 		"name": "GDevelop",
 		"category": "editor",
 		"tags": ["gdevelop", "rose-pine", "soho-vibes", "theme", "hacktoberfest"],
+		"children": [],
 		"contributors": ["ehanahamed", "mvllow"]
 	},
 	{
@@ -623,6 +656,7 @@
 		"name": "Geany",
 		"category": "editor",
 		"tags": ["theme", "rose-pine", "soho-vibes"],
+		"children": [],
 		"contributors": [
 			"Waxxx333",
 			"bonbuggie",
@@ -644,6 +678,7 @@
 		"name": "Ghostty",
 		"category": "terminal",
 		"tags": [],
+		"children": [],
 		"contributors": ["0xTemporal", "ThatOneCalculator", "kjvdven", "mvllow"]
 	},
 	{
@@ -670,6 +705,7 @@
 			"github-readme-stats",
 			"github"
 		],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -690,6 +726,7 @@
 		"name": "GitKraken",
 		"category": "editor",
 		"tags": ["theme", "soho-vibes", "rose-pine", "hacktoberfest", "git"],
+		"children": [],
 		"contributors": ["Henriquehnnm", "diorcula", "fvrests", "mvllow"]
 	},
 	{
@@ -704,6 +741,7 @@
 		"name": "GlazeWM",
 		"category": "system",
 		"tags": [],
+		"children": [],
 		"contributors": ["jishnurajendran", "jovark"]
 	},
 	{
@@ -718,6 +756,7 @@
 		"name": "GNOME Builder",
 		"category": "editor",
 		"tags": [],
+		"children": [],
 		"contributors": ["Henriquehnnm", "mvllow"]
 	},
 	{
@@ -748,6 +787,7 @@
 			"terminal",
 			"terminal-emulator"
 		],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "ashbork", "diorcula", "mvllow"]
 	},
 	{
@@ -778,6 +818,7 @@
 			"soho-vibes",
 			"rose-pine"
 		],
+		"children": [],
 		"contributors": ["cutbypham", "fvrests"]
 	},
 	{
@@ -792,6 +833,7 @@
 		"name": "GRUB",
 		"category": "system",
 		"tags": ["grub", "soho-vibes", "theme", "rose-pine"],
+		"children": [],
 		"contributors": [
 			"ThatOneCalculator",
 			"mvllow",
@@ -812,6 +854,7 @@
 		"name": "GTK",
 		"category": "system",
 		"tags": ["gtk", "soho-vibes", "theme", "rose-pine"],
+		"children": [],
 		"contributors": [
 			"Daniel-McLarty",
 			"IamGianluca",
@@ -850,6 +893,7 @@
 			"editor",
 			"hacktoberfest"
 		],
+		"children": [],
 		"contributors": [
 			"Iorvethe",
 			"ThatOneCalculator",
@@ -873,6 +917,7 @@
 		"name": "highlight.js",
 		"category": "library",
 		"tags": ["theme"],
+		"children": [],
 		"contributors": ["JaninaWibker", "ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -887,6 +932,7 @@
 		"name": "homebrew-tap",
 		"category": "none",
 		"tags": [],
+		"children": [],
 		"contributors": ["mvllow"]
 	},
 	{
@@ -915,6 +961,7 @@
 			"terminal",
 			"terminal-emulator"
 		],
+		"children": [],
 		"contributors": [
 			"Apthox",
 			"ThatOneCalculator",
@@ -940,6 +987,7 @@
 		"name": "Hyprland",
 		"category": "system",
 		"tags": ["color-palette", "hyprland", "tiling-window-manager", "theme"],
+		"children": [],
 		"contributors": ["Tasztalos69", "jishnurajendran"]
 	},
 	{
@@ -960,6 +1008,7 @@
 		"name": "i3",
 		"category": "system",
 		"tags": ["i3", "rose-pine", "soho-vibes", "theme", "window-manager"],
+		"children": [],
 		"contributors": ["codepediair", "mvllow", "rznn7"]
 	},
 	{
@@ -988,6 +1037,7 @@
 			"status-page-ui",
 			"theme"
 		],
+		"children": [],
 		"contributors": ["ThatOneCalculator"]
 	},
 	{
@@ -1016,6 +1066,7 @@
 			"terminal",
 			"terminal-emulator"
 		],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "fvrests", "mvllow"]
 	},
 	{
@@ -1030,6 +1081,7 @@
 		"name": "JDownloader",
 		"category": "editor",
 		"tags": ["app", "jdownloader", "theme"],
+		"children": [],
 		"contributors": ["darkthemer"]
 	},
 	{
@@ -1044,6 +1096,7 @@
 		"name": "Kate",
 		"category": "editor",
 		"tags": [],
+		"children": [],
 		"contributors": ["Henriquehnnm"]
 	},
 	{
@@ -1072,6 +1125,7 @@
 			"terminal",
 			"terminal-emulator"
 		],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -1100,6 +1154,7 @@
 			"terminal",
 			"terminal-emulator"
 		],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "ashbork", "mvllow"]
 	},
 	{
@@ -1121,6 +1176,7 @@
 		"name": "Kvantum",
 		"category": "editor",
 		"tags": ["kvantum", "rose-pine", "soho-vibes", "theme", "kde", "qt"],
+		"children": [],
 		"contributors": ["OyuDays"]
 	},
 	{
@@ -1135,6 +1191,7 @@
 		"name": "lazygit",
 		"category": "terminal",
 		"tags": [],
+		"children": [],
 		"contributors": ["Mintass"]
 	},
 	{
@@ -1163,6 +1220,7 @@
 			"issue-tracker",
 			"project-management"
 		],
+		"children": [],
 		"contributors": ["LopeAriyo"]
 	},
 	{
@@ -1177,6 +1235,7 @@
 		"name": "Linux TTY",
 		"category": "terminal",
 		"tags": ["linux-tty", "soho-vibes", "theme", "rose-pine"],
+		"children": [],
 		"contributors": [
 			"ThatOneCalculator",
 			"mvllow",
@@ -1211,6 +1270,7 @@
 			"terminal",
 			"terminal-emulator"
 		],
+		"children": [],
 		"contributors": ["prateektade"]
 	},
 	{
@@ -1225,6 +1285,7 @@
 		"name": "MailSpring",
 		"category": "social",
 		"tags": ["mailspring", "soho-vibes", "theme"],
+		"children": [],
 		"contributors": [
 			"ThatOneCalculator",
 			"bacharakis",
@@ -1245,6 +1306,7 @@
 		"name": "mako",
 		"category": "system",
 		"tags": ["mako", "theme"],
+		"children": [],
 		"contributors": ["stanekondrej"]
 	},
 	{
@@ -1259,6 +1321,7 @@
 		"name": "Markdown Viewer",
 		"category": "browser",
 		"tags": ["extension", "rose-pine", "soho-vibes", "theme"],
+		"children": [],
 		"contributors": ["Swefton", "mvllow"]
 	},
 	{
@@ -1273,6 +1336,7 @@
 		"name": "Mastodon",
 		"category": "social",
 		"tags": ["theme", "mastodon", "soho-vibes", "rose-pine", "css"],
+		"children": [],
 		"contributors": ["ThatOneCalculator"]
 	},
 	{
@@ -1287,6 +1351,7 @@
 		"name": "MinTTY",
 		"category": "terminal",
 		"tags": ["mintty", "soho-vibes", "theme", "rose-pine"],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -1301,6 +1366,7 @@
 		"name": "Misskey",
 		"category": "browser",
 		"tags": ["misskey", "misskey-theme", "theme"],
+		"children": [],
 		"contributors": ["ThatOneCalculator"]
 	},
 	{
@@ -1315,6 +1381,7 @@
 		"name": "Mona",
 		"category": "social",
 		"tags": ["theme"],
+		"children": [],
 		"contributors": ["SocietasEvanescentes", "ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -1329,6 +1396,7 @@
 		"name": "Monkeytype",
 		"category": "browser",
 		"tags": ["monkeytype", "theme", "collection"],
+		"children": [],
 		"contributors": [
 			"18praneeth",
 			"AfonsoVReis",
@@ -1486,6 +1554,7 @@
 			"vim-theme",
 			"editor"
 		],
+		"children": [],
 		"contributors": [
 			"0oAstro",
 			"Asthestarsfalll",
@@ -1577,6 +1646,7 @@
 		"name": "Ninjabrain Bot",
 		"category": "editor",
 		"tags": ["app", "rose-pine", "soho-vibes", "theme"],
+		"children": [],
 		"contributors": ["lincoln-lm"]
 	},
 	{
@@ -1591,6 +1661,7 @@
 		"name": "nomacs",
 		"category": "editor",
 		"tags": ["theme", "rose-pine", "soho-vibes"],
+		"children": [],
 		"contributors": ["bonbuggie"]
 	},
 	{
@@ -1605,6 +1676,7 @@
 		"name": "OBS Studio",
 		"category": "editor",
 		"tags": ["app", "obs", "obsstudio", "theme"],
+		"children": [],
 		"contributors": ["darkthemer"]
 	},
 	{
@@ -1619,6 +1691,7 @@
 		"name": "Obsidian",
 		"category": "editor",
 		"tags": ["app"],
+		"children": [],
 		"contributors": [
 			"JTrenerry",
 			"github-actions[bot]",
@@ -1638,6 +1711,7 @@
 		"name": "Ollama WebUI",
 		"category": "browser",
 		"tags": [],
+		"children": [],
 		"contributors": ["ThatOneCalculator"]
 	},
 	{
@@ -1652,6 +1726,7 @@
 		"name": "OneCommander",
 		"category": "editor",
 		"tags": ["app"],
+		"children": [],
 		"contributors": ["tandukuda"]
 	},
 	{
@@ -1666,6 +1741,7 @@
 		"name": "Phemex",
 		"category": "browser",
 		"tags": ["web"],
+		"children": [],
 		"contributors": ["ThatOneCalculator"]
 	},
 	{
@@ -1680,6 +1756,7 @@
 		"name": "Pleroma",
 		"category": "social",
 		"tags": ["theme"],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "wiredsis"]
 	},
 	{
@@ -1694,6 +1771,7 @@
 		"name": "Polybar",
 		"category": "system",
 		"tags": ["app", "theme"],
+		"children": [],
 		"contributors": ["RosieZiutka"]
 	},
 	{
@@ -1708,6 +1786,7 @@
 		"name": "Prism",
 		"category": "library",
 		"tags": ["theme", "prism", "soho-vibes", "rose-pine"],
+		"children": [],
 		"contributors": ["fvrests"]
 	},
 	{
@@ -1722,6 +1801,7 @@
 		"name": "PureRef",
 		"category": "editor",
 		"tags": ["theme", "soho-vibes", "rose-pine"],
+		"children": [],
 		"contributors": ["bonbuggie"]
 	},
 	{
@@ -1742,6 +1822,7 @@
 		"name": "Pygments",
 		"category": "library",
 		"tags": ["ipython", "pygments-style", "radian", "rose-pine", "pygments"],
+		"children": [],
 		"contributors": ["dependabot[bot]", "drearondov", "mvllow", "reillysiemens"]
 	},
 	{
@@ -1756,6 +1837,7 @@
 		"name": "pywal",
 		"category": "library",
 		"tags": ["terminal", "terminal-emulator", "theme"],
+		"children": [],
 		"contributors": ["fvrests", "jrc03c", "mvllow"]
 	},
 	{
@@ -1770,6 +1852,7 @@
 		"name": "qBittorrent",
 		"category": "editor",
 		"tags": [],
+		"children": [],
 		"contributors": ["Xurdejl", "juliamertz"]
 	},
 	{
@@ -1798,6 +1881,7 @@
 			"terminal",
 			"terminal-emulator"
 		],
+		"children": [],
 		"contributors": ["prateektade"]
 	},
 	{
@@ -1812,6 +1896,7 @@
 		"name": "R Markdown",
 		"category": "editor",
 		"tags": ["theme"],
+		"children": [],
 		"contributors": ["ThatOneCalculator"]
 	},
 	{
@@ -1833,6 +1918,7 @@
 		"name": "Razer CLI",
 		"category": "terminal",
 		"tags": ["razer-cli", "soho-vibes", "theme", "rose-pine", "razer", "rgb"],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -1861,6 +1947,7 @@
 			"soho-vibes",
 			"rose-pine"
 		],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "bw8686"]
 	},
 	{
@@ -1875,6 +1962,7 @@
 		"name": "Rio Terminal",
 		"category": "terminal",
 		"tags": ["rio-terminal", "rose-pine", "theme"],
+		"children": [],
 		"contributors": ["ImgBotApp", "avelino", "mvllow"]
 	},
 	{
@@ -1889,6 +1977,7 @@
 		"name": "Roblox Studio",
 		"category": "editor",
 		"tags": ["editor", "roblox-studio", "theme"],
+		"children": [],
 		"contributors": ["mvllow", "wintertia"]
 	},
 	{
@@ -1903,6 +1992,7 @@
 		"name": "Rofi",
 		"category": "system",
 		"tags": ["theme"],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "milanglacier", "mvllow"]
 	},
 	{
@@ -1917,6 +2007,7 @@
 		"name": "Bloom",
 		"category": "none",
 		"tags": [],
+		"children": [],
 		"contributors": [
 			"OyuDays",
 			"bomgar",
@@ -1938,6 +2029,7 @@
 		"name": "App",
 		"category": "none",
 		"tags": ["palette", "soho-vibes", "rose-pine", "color", "css"],
+		"children": [],
 		"contributors": ["barelyhuman", "fvrests", "mvllow"]
 	},
 	{
@@ -1952,6 +2044,7 @@
 		"name": "App",
 		"category": "none",
 		"tags": [],
+		"children": [],
 		"contributors": [
 			"Cyborus04",
 			"Henriquehnnm",
@@ -1999,6 +2092,7 @@
 		"name": "App",
 		"category": "none",
 		"tags": ["theme"],
+		"children": [],
 		"contributors": ["fvrests", "mvllow"]
 	},
 	{
@@ -2019,6 +2113,7 @@
 		"name": "App",
 		"category": "none",
 		"tags": ["syntax-theme", "ui-theme", "colorscheme", "palette", "aesthetic"],
+		"children": [],
 		"contributors": [
 			"BradPatras",
 			"Iorvethe",
@@ -2046,6 +2141,7 @@
 		"name": "Rstudio",
 		"category": "editor",
 		"tags": [],
+		"children": [],
 		"contributors": ["wujackwill"]
 	},
 	{
@@ -2060,6 +2156,7 @@
 		"name": "ShareX",
 		"category": "editor",
 		"tags": ["app", "sharex", "theme"],
+		"children": [],
 		"contributors": ["darkthemer"]
 	},
 	{
@@ -2074,6 +2171,7 @@
 		"name": "Skiff Mail",
 		"category": "browser",
 		"tags": [],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -2102,6 +2200,7 @@
 			"css",
 			"hacktoberfest"
 		],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "fvrests", "mvllow"]
 	},
 	{
@@ -2116,6 +2215,7 @@
 		"name": "SpeedCrunch",
 		"category": "editor",
 		"tags": ["app", "speedcrunch", "theme"],
+		"children": [],
 		"contributors": ["darkthemer"]
 	},
 	{
@@ -2144,6 +2244,7 @@
 			"terminal",
 			"terminal-emulator"
 		],
+		"children": [],
 		"contributors": ["fvrests", "mvllow", "prateektade"]
 	},
 	{
@@ -2158,6 +2259,7 @@
 		"name": "Starship",
 		"category": "terminal",
 		"tags": ["shell", "terminal"],
+		"children": [],
 		"contributors": [
 			"Amoralchik",
 			"CongLuanTran",
@@ -2180,6 +2282,7 @@
 		"name": "Startpage",
 		"category": "browser",
 		"tags": ["startpage", "soho-vibes", "theme", "rose-pine"],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -2194,6 +2297,7 @@
 		"name": "SteamOS",
 		"category": "system",
 		"tags": ["theme", "steam", "steam-os"],
+		"children": [],
 		"contributors": ["BobobUnicorn", "EMERALD0874", "bw8686", "mvllow"]
 	},
 	{
@@ -2220,6 +2324,7 @@
 			"rose-pine",
 			"hacktoberfest"
 		],
+		"children": [],
 		"contributors": [
 			"Shendisx",
 			"ThatOneCalculator",
@@ -2240,6 +2345,7 @@
 		"name": "SumatraPDF",
 		"category": "editor",
 		"tags": ["app", "sumatrapdf", "theme"],
+		"children": [],
 		"contributors": ["darkthemer"]
 	},
 	{
@@ -2254,6 +2360,7 @@
 		"name": "Surfingkeys",
 		"category": "browser",
 		"tags": ["rose-pine", "surfingkeys", "theme"],
+		"children": [],
 		"contributors": ["Legend28469", "cutbypham", "maiykill", "mvllow"]
 	},
 	{
@@ -2268,6 +2375,7 @@
 		"name": "Sway Notification Center",
 		"category": "system",
 		"tags": ["swaync", "theme"],
+		"children": [],
 		"contributors": ["deadbody13", "pmoieni"]
 	},
 	{
@@ -2282,6 +2390,7 @@
 		"name": "Tailwind CSS",
 		"category": "library",
 		"tags": ["tailwindcss", "theme", "tailwind"],
+		"children": [],
 		"contributors": ["GoyoStach", "sleepybuildings"]
 	},
 	{
@@ -2302,6 +2411,7 @@
 		"name": "Tauon Music Box",
 		"category": "social",
 		"tags": ["rose-pine", "soho-vibes", "theme", "hacktoberfest", "music"],
+		"children": [],
 		"contributors": ["mvllow"]
 	},
 	{
@@ -2330,6 +2440,7 @@
 			"terminal",
 			"terminal-emulator"
 		],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "fvrests", "mvllow"]
 	},
 	{
@@ -2358,6 +2469,7 @@
 			"terminal",
 			"terminal-emulator"
 		],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -2386,6 +2498,7 @@
 			"terminal",
 			"terminal-emulator"
 		],
+		"children": [],
 		"contributors": ["Jimmysit0", "ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -2400,6 +2513,7 @@
 		"name": "Termux",
 		"category": "terminal",
 		"tags": ["theme", "terminal", "mobile"],
+		"children": [],
 		"contributors": [
 			"Grimler91",
 			"Neo-Oli",
@@ -2429,6 +2543,7 @@
 		"name": "TIDAL",
 		"category": "browser",
 		"tags": ["music"],
+		"children": [],
 		"contributors": ["ThatOneCalculator"]
 	},
 	{
@@ -2443,6 +2558,7 @@
 		"name": "TextMate",
 		"category": "editor",
 		"tags": ["rose-pine", "soho-vibes", "theme"],
+		"children": [],
 		"contributors": ["arrrgi", "wzykubek"]
 	},
 	{
@@ -2457,6 +2573,7 @@
 		"name": "tmux",
 		"category": "terminal",
 		"tags": ["app", "terminal", "tmux", "theme"],
+		"children": [],
 		"contributors": [
 			"Badya",
 			"TymekDev",
@@ -2483,6 +2600,7 @@
 		"name": "tym",
 		"category": "terminal",
 		"tags": ["terminal"],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -2497,6 +2615,7 @@
 		"name": "Typora",
 		"category": "editor",
 		"tags": ["typora", "soho-vibes", "theme", "rose-pine"],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "mvllow"]
 	},
 	{
@@ -2511,6 +2630,7 @@
 		"name": "Typst",
 		"category": "terminal",
 		"tags": ["theme"],
+		"children": [],
 		"contributors": ["Iorvethe", "oplik0"]
 	},
 	{
@@ -2525,6 +2645,7 @@
 		"name": "Ulauncher",
 		"category": "system",
 		"tags": [],
+		"children": [],
 		"contributors": ["Opposite34"]
 	},
 	{
@@ -2539,6 +2660,26 @@
 		"name": "Userstyles",
 		"category": "browser",
 		"tags": ["css", "stylish", "userstyles", "stylus"],
+		"children": [
+			"4get",
+			"bluesky",
+			"brave-search",
+			"chatgpt",
+			"claude",
+			"docs.rs",
+			"github",
+			"hetzner-cloud",
+			"jira",
+			"nixos-search",
+			"octopus",
+			"proton",
+			"scribe",
+			"status.cafe",
+			"twitch",
+			"wikiwand",
+			"youtube",
+			"zimbra"
+		],
 		"contributors": [
 			"JTrenerry",
 			"Papa-Quill",
@@ -2564,6 +2705,7 @@
 		"name": "Vim",
 		"category": "editor",
 		"tags": ["rose-pine", "soho-vibes", "theme", "vim", "editor"],
+		"children": [],
 		"contributors": ["DanielViberg", "arash28134", "mvllow", "prateektade"]
 	},
 	{
@@ -2578,6 +2720,7 @@
 		"name": "Vimium C",
 		"category": "browser",
 		"tags": ["theme", "rose-pine", "soho-vibes"],
+		"children": [],
 		"contributors": ["mvllow", "zxx457"]
 	},
 	{
@@ -2598,6 +2741,7 @@
 		"name": "Vivaldi",
 		"category": "browser",
 		"tags": ["rose-pine", "rosepine", "theme", "vivaldi", "vivaldi-theme"],
+		"children": [],
 		"contributors": ["SocietasEvanescentes"]
 	},
 	{
@@ -2630,6 +2774,7 @@
 			"visual-studio-code",
 			"editor"
 		],
+		"children": [],
 		"contributors": [
 			"MenWhoRust",
 			"OtterBoops",
@@ -2654,6 +2799,7 @@
 		"name": "Wallpapers",
 		"category": "system",
 		"tags": ["wallpapers", "soho-vibes", "rose-pine", "theme"],
+		"children": [],
 		"contributors": [
 			"Henriquehnnm",
 			"ThatOneCalculator",
@@ -2677,6 +2823,7 @@
 		"name": "Waybar",
 		"category": "system",
 		"tags": ["theme", "color-palette"],
+		"children": [],
 		"contributors": ["DankoFox"]
 	},
 	{
@@ -2691,6 +2838,7 @@
 		"name": "Whoogle",
 		"category": "browser",
 		"tags": ["theme"],
+		"children": [],
 		"contributors": ["ThatOneCalculator"]
 	},
 	{
@@ -2719,6 +2867,7 @@
 			"terminal",
 			"terminal-emulator"
 		],
+		"children": [],
 		"contributors": ["Jimmysit0", "fvrests", "maxstollmayer", "mvllow"]
 	},
 	{
@@ -2733,6 +2882,7 @@
 		"name": "WriteFreely",
 		"category": "browser",
 		"tags": ["theme"],
+		"children": [],
 		"contributors": ["ThatOneCalculator"]
 	},
 	{
@@ -2761,6 +2911,7 @@
 			"terminal",
 			"terminal-emulator"
 		],
+		"children": [],
 		"contributors": ["ThatOneCalculator", "mvllow", "prateektade"]
 	},
 	{
@@ -2775,6 +2926,7 @@
 		"name": "Xresources",
 		"category": "terminal",
 		"tags": ["theme"],
+		"children": [],
 		"contributors": ["harishnkr", "piperbly"]
 	},
 	{
@@ -2789,6 +2941,7 @@
 		"name": "Yazi",
 		"category": "terminal",
 		"tags": [],
+		"children": [],
 		"contributors": ["Mintass", "mvllow"]
 	},
 	{
@@ -2803,6 +2956,7 @@
 		"name": "Zed",
 		"category": "editor",
 		"tags": [],
+		"children": [],
 		"contributors": [
 			"Angelk90",
 			"ThatOneCalculator",
@@ -2824,6 +2978,7 @@
 		"name": "Zellij",
 		"category": "terminal",
 		"tags": ["soho-vibes", "rose-pine", "theme"],
+		"children": [],
 		"contributors": ["anihm136", "arrrgi", "bomgar"]
 	},
 	{
@@ -2838,6 +2993,7 @@
 		"name": "Zen Browser",
 		"category": "browser",
 		"tags": ["app"],
+		"children": [],
 		"contributors": ["Lalit64", "wzykubek"]
 	},
 	{
@@ -2852,6 +3008,7 @@
 		"name": "zer0bin",
 		"category": "browser",
 		"tags": ["theme"],
+		"children": [],
 		"contributors": ["ThatOneCalculator"]
 	}
 ]
