@@ -39,6 +39,7 @@ export const ui = {
 
 		"garden.title": "Garden",
 		"garden.description": "Musings from the Rosé Pine community.",
+		"garden.articles": "Articles",
 
 		"garden.photography.title": "Photography",
 		"garden.photography.description":
@@ -82,6 +83,7 @@ export const ui = {
 
 		"garden.title": "Giardino",
 		"garden.description": "Riflessioni della comunità Rosé Pine.",
+		"garden.articles": "Articoli",
 
 		"garden.photography.title": "Sfondi",
 		"garden.photography.description":
