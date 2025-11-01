@@ -1,5 +1,32 @@
 [
   {
+    "description": "Soho vibes for Terminal.app",
+    "homepageUrl": "",
+    "name": "terminal.app",
+    "repositoryTopics": [
+      "terminal-app",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "terminal",
+      "terminal-emulator"
+    ],
+    "stargazerCount": 41,
+    "updatedAt": "2025-10-31T02:22:05Z",
+    "url": "https://github.com/rose-pine/terminal.app",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 105,
+    "updatedAt": "2025-10-31T00:17:44Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Yazi",
     "homepageUrl": "",
     "name": "yazi",
@@ -8,16 +35,6 @@
     "updatedAt": "2025-10-30T16:38:19Z",
     "url": "https://github.com/rose-pine/yazi",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 105,
-    "updatedAt": "2025-10-30T14:26:58Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Zed",
@@ -39,8 +56,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 280,
-    "updatedAt": "2025-10-30T01:10:39Z",
+    "stargazerCount": 281,
+    "updatedAt": "2025-10-31T16:21:01Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -1747,23 +1764,6 @@
     "stargazerCount": 26,
     "updatedAt": "2025-09-27T04:23:01Z",
     "url": "https://github.com/rose-pine/slack",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Terminal.app",
-    "homepageUrl": "",
-    "name": "terminal.app",
-    "repositoryTopics": [
-      "terminal-app",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "terminal",
-      "terminal-emulator"
-    ],
-    "stargazerCount": 41,
-    "updatedAt": "2025-10-16T01:03:42Z",
-    "url": "https://github.com/rose-pine/terminal.app",
     "usesCustomOpenGraphImage": true
   },
   {
