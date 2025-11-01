@@ -36,6 +36,8 @@ export const ui = {
 
 		"themes.title": "Themes",
 		"themes.description": "Hand-crafted collection of personalisation.",
+		"themes.ports": "Ports",
+		"themes.contributors": "Contributors",
 
 		"garden.title": "Garden",
 		"garden.description": "Musings from the Rosé Pine community.",
@@ -47,6 +49,8 @@ export const ui = {
 
 		"palette.title": "Palette",
 		"palette.description": "Curated colours, designed to inspire.",
+		"palette.variants": "Variants",
+		"palette.colours": "Colours",
 
 		"create.title": "Create",
 		"create.description": "Your canvas, shared with the community.",
@@ -80,6 +84,8 @@ export const ui = {
 
 		"themes.title": "Temi",
 		"themes.description": "Collezione artigianale di personalizzazione.",
+		"themes.ports": "Porti",
+		"themes.contributors": "Collaboratrici",
 
 		"garden.title": "Giardino",
 		"garden.description": "Riflessioni della comunità Rosé Pine.",
@@ -91,6 +97,8 @@ export const ui = {
 
 		"palette.title": "Tavolozza",
 		"palette.description": "Colori curati, pensati per ispirare.",
+		"palette.variants": "Varianti",
+		"palette.colours": "Colori",
 
 		"create.title": "Crea",
 		"create.description": "La tua tela, condivisa con la comunità.",

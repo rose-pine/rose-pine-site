@@ -22,7 +22,7 @@ let variants = Object.keys(palette) as (keyof typeof palette)[];
 	<IntroSection
 		headline={t("palette.title")}
 		subheadline={t("palette.description")}
-		callout={`${variants.length} variants & ${palette.main.length} colours`}
+		callout={`${variants.length} ${t("palette.variants")} & ${palette.main.length} ${t("palette.colours")}`}
 	/>
 
 	<div class="h-page-top"></div>
