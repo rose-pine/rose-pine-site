@@ -1,23 +1,39 @@
-import repos from "./data/repos.json";
-import communityRepos from "./data/community-repos.json";
+import categoriesData from "./data/categories.json";
+import communityReposData from "./data/community-repos.json";
 import contributors from "./data/contributors.json";
+import reposData from "./data/repos.json";
+
+const categories = [...categoriesData] as const;
+export type Category = (typeof categories)[number];
+
+const repos = reposData as Repo[];
+const communityRepos = communityReposData as Array<{
+	name: string;
+	url: string;
+	tags: string[];
+	contributors: Array<{ name: string; url?: string }>;
+	category: Category;
+}>;
 
 export function getAllRepos(): Repo[] {
 	return [
-		...repos.filter((repo) => repo?.hidden !== "true"),
+		...repos.filter((repo) => repo.hidden !== "true"),
 		...communityRepos.map((repo) => ({
 			...repo,
 			slug: repo.name.toLowerCase().replaceAll(" ", "-"),
 			description: `Soho vibes for ${repo.name}`,
 			tags: [...(repo.tags ?? []), "Community"],
+			hidden: "false" as const,
 		})),
 	];
 }
 
 export function getFeaturedRepos(): Repo[] {
 	return repos
-		.filter((repo) => repo.hidden !== "true" && repo.stargazerCount > 100)
-		.sort((a, b) => b.stargazerCount - a.stargazerCount);
+		.filter(
+			(repo) => repo.hidden !== "true" && (repo.stargazerCount ?? 0) > 100,
+		)
+		.sort((a, b) => (b.stargazerCount ?? 0) - (a.stargazerCount ?? 0));
 }
 
 export function getSortedRepos(): Repo[] {
@@ -47,6 +63,10 @@ export function getContributor(contributor: string | Contributor): Contributor {
 		return { name: contributor, url: `https://github.com/${contributor}` };
 	}
 	return contributor;
+}
+
+export function getAllCategories(): readonly Category[] {
+	return categories;
 }
 
 export function getContributorCount(): number {

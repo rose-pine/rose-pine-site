@@ -18,7 +18,7 @@ type Repo = {
 	hidden: "true" | "false";
 	updatedAt?: string;
 	stargazerCount?: number;
-	category: string;
+	category: import("./data").Category;
 	children?: string[];
 	[key?: string]: any;
 };
