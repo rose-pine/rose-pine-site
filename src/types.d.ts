@@ -15,7 +15,7 @@ type Repo = {
 	description: string;
 	tags: Array<string>;
 	contributors: Array<string> | Array<{ name: string; url?: string }>;
-	hidden?: string;
+	hidden: "true" | "false";
 	updatedAt?: string;
 	stargazerCount?: number;
 	category: string;
