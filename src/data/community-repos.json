@@ -129,6 +129,15 @@
 		"has_variants": true
 	},
 	{
+		"name": "Gemini CLI",
+		"url": "https://github.com/schoffeniels/rose-pine-gemini-cli",
+		"tags": ["cli"],
+		"authors": [
+			{ "name": "schoffeniels", "url": "https://github.com/schoffeniels" }
+		],
+		"has_variants": true
+	},
+	{
 		"name": "Gradience Presets",
 		"url": "https://github.com/gradience-presets?q=rose&type=all&sort=",
 		"tags": ["adwaita", "ui"],
