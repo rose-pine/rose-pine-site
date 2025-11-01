@@ -91,7 +91,7 @@ export const ui = {
 		"garden.description": "Riflessioni della comunità Rosé Pine.",
 		"garden.articles": "Articoli",
 
-		"garden.photography.title": "Sfondi",
+		"garden.photography.title": "Fotografie",
 		"garden.photography.description":
 			"Se non ti fermi un attimo, potresti perdere una vista perfetta.",
 
