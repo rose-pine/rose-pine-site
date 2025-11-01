@@ -216,6 +216,18 @@
 		"category": "system"
 	},
 	{
+		"name": "Gemini CLI",
+		"url": "https://github.com/schoffeniels/rose-pine-gemini-cli",
+		"tags": [],
+		"contributors": [
+			{
+				"name": "schoffeniels",
+				"url": "https://github.com/schoffeniels"
+			}
+		],
+		"category": "terminal"
+	},
+	{
 		"name": "GitUI",
 		"url": "https://github.com/charliettaylor/rose-pine-gitui",
 		"tags": [],
