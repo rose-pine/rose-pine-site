@@ -12,7 +12,11 @@ export const ui = {
 		"shared.language": "Language",
 
 		"header.nav_label": "Primary",
+
 		"footer.nav_label": "Secondary",
+		"footer.heading.collections": "Collections",
+		"footer.heading.resources": "Resources",
+		"footer.heading.social": "Social",
 
 		"nav.home": "Home",
 		"nav.themes": "Themes",
@@ -60,7 +64,11 @@ export const ui = {
 		"shared.language": "Lingua",
 
 		"header.nav_label": "Primaria",
+
 		"footer.nav_label": "Secondaria",
+		"footer.heading.collections": "Collezioni",
+		"footer.heading.resources": "Risorse",
+		"footer.heading.social": "Sociale",
 
 		"nav.home": "Casa",
 		"nav.themes": "Temi",
