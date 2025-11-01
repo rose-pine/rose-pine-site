@@ -1,8 +1,7 @@
 ---
 import FlowerIcon from "@lucide/astro/icons/flower";
 import { Image } from "astro:assets";
-import { getCollection, render } from "astro:content";
-import { getAuthor } from "../../../data";
+import { getCollection, getEntry, render } from "astro:content";
 import {
 	getLangFromUrl,
 	useTranslatedPath,
@@ -16,21 +15,21 @@ let t = useTranslations(lang);
 let translatePath = useTranslatedPath(lang);
 
 export async function getStaticPaths() {
-	const items = await getCollection("garden", ({ data }) => {
+	const posts = await getCollection("garden", ({ data }) => {
 		return import.meta.env.PROD ? data.draft !== true : true;
 	});
-	const entries = items.map((item) => ({
-		params: { id: item.id },
-		props: { item },
+	const entries = posts.map((post) => ({
+		params: { id: post.id },
+		props: { post },
 	}));
 	return await withLangPaths(entries);
 }
 
-const { item } = Astro.props;
-let author = getAuthor(item.data.author);
-const { Content } = await render(item);
+const { post } = Astro.props;
+const author = await getEntry(post.data.author);
+const { Content } = await render(post);
 
-const publishedAt = new Date(item.data.publishedAt).toLocaleDateString(
+const publishedAt = new Date(post.data.publishedAt).toLocaleDateString(
 	[lang, "en"],
 	{
 		year: "numeric",
@@ -39,7 +38,7 @@ const publishedAt = new Date(item.data.publishedAt).toLocaleDateString(
 	},
 );
 
-const updatedAt = new Date(item.data.updatedAt).toLocaleDateString(
+const updatedAt = new Date(post.data.updatedAt).toLocaleDateString(
 	[lang, "en"],
 	{
 		year: "numeric",
@@ -49,7 +48,7 @@ const updatedAt = new Date(item.data.updatedAt).toLocaleDateString(
 );
 ---
 
-<Page title={item.data.title} description={item.data.description}>
+<Page title={post.data.title} description={post.data.description}>
 	<div class="wrapper flex flex-col gap-12">
 		<div
 			class="animate-enter mb-12 flex items-center justify-between gap-3"
@@ -67,19 +66,19 @@ const updatedAt = new Date(item.data.updatedAt).toLocaleDateString(
 				class="animate-enter mb-4 max-w-2xl text-4xl font-bold tracking-tight text-balance"
 				style="--stagger: 1"
 			>
-				{item.data.title}
+				{post.data.title}
 			</h1>
 			<p
 				class="animate-enter mb-8 max-w-md font-serif text-lg text-subtle italic"
 				style="--stagger: 2"
 			>
-				{item.data.description}
+				{post.data.description}
 			</p>
 			<div
 				class="animate-enter mb-8 overflow-clip rounded-2xl border border-muted/20"
 				style="--stagger: 2"
 			>
-				<Image src={item.data.image} alt={item.data.imageAlt} />
+				<Image src={post.data.image} alt={post.data.imageAlt} />
 			</div>
 			<div
 				class="prose mb-8 prose-headings:text-text prose-p:text-text/90 prose-blockquote:border-iris/50 prose-blockquote:**:text-text/70! prose-strong:text-text/90 prose-em:text-text/90 prose-code:text-text prose-li:text-text/90 prose-li:marker:text-subtle prose-thead:border-muted"
@@ -91,15 +90,15 @@ const updatedAt = new Date(item.data.updatedAt).toLocaleDateString(
 					<div class="flex flex-wrap items-center gap-1 text-sm font-medium text-nowrap text-subtle italic">
 						<span>Authored by </span>
 						<a
-							href={author.url ?? "#!"}
+							href={author.data.url ?? "#!"}
 							class="flex items-center gap-1 rounded-lg bg-muted/10 px-2 leading-8 font-medium text-text transition hover:bg-muted/20"
 						>
-							{author.avatarUrl ? (
+							{author.data.avatarUrl ? (
 								<img
 									width="20"
 									height="20"
-									src={author.avatarUrl}
-									alt={author.name}
+									src={author.data.avatarUrl}
+									alt={author.data.name}
 									class="rounded-md border border-muted/10"
 								/>
 							) : (
@@ -107,11 +106,11 @@ const updatedAt = new Date(item.data.updatedAt).toLocaleDateString(
 									<FlowerIcon size="16" class="text-gold" />
 								</div>
 							)}
-							{author.name}
+							{author.data.name}
 						</a>
 						<span> on</span>
 						<time datetime={publishedAt}>{publishedAt}</time>
-						{item.data.updatedAt !== item.data.publishedAt && (
+						{post.data.updatedAt !== post.data.publishedAt && (
 							<time
 								datetime={updatedAt}
 								class="text-sm font-medium text-subtle italic"

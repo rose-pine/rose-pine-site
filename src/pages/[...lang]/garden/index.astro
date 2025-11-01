@@ -10,7 +10,7 @@ import {
 import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 
-const garden = (
+const pages = (
 	await getCollection("garden", ({ data }) => {
 		return import.meta.env.PROD ? data.draft !== true : true;
 	})
@@ -27,15 +27,15 @@ let { lang = "en" } = Astro.params;
 let t = useTranslations(lang);
 let translatePath = useTranslatedPath(lang);
 
-const pageCount = 1; // non-collection pages, e.g. photography
-const postCount = pageCount + garden.length;
+const specialPageCount = 1; // non-collection pages, e.g. photography
+const pageCount = specialPageCount + pages.length;
 ---
 
 <Page title={t("garden.title")} description={t("themes.description")}>
 	<IntroSection
 		headline={t("garden.title")}
 		subheadline={t("garden.description")}
-		callout={`${postCount} ${t("garden.articles")}`}
+		callout={`${pageCount} ${t("garden.articles")}`}
 	/>
 
 	<div class="h-page-top"></div>
@@ -74,18 +74,18 @@ const postCount = pageCount + garden.length;
 			</a>
 		</article>
 		{
-			garden.map((post) => (
+			pages.map((page) => (
 				<article>
 					<a
-						href={translatePath(`/garden/${post.id}`)}
-						aria-labelledby={`${post.id}-title`}
-						aria-describedby={`${post.id}-description`}
+						href={translatePath(`/garden/${page.id}`)}
+						aria-labelledby={`${page.id}-title`}
+						aria-describedby={`${page.id}-description`}
 						class="isolate mb-4 flex w-full flex-col items-center overflow-clip rounded-3xl border border-overlay bg-surface p-6 transition hover:border-iris/20 hover:bg-iris/5 sm:flex-row sm:p-4"
 					>
 						<div class="mb-8 shrink-0 sm:mr-8 sm:mb-0 sm:w-64">
 							<Image
-								src={post.data.image}
-								alt={post.data.title}
+								src={page.data.image}
+								alt={page.data.title}
 								width="2000"
 								height="1200"
 								layout="full-width"
@@ -96,13 +96,19 @@ const postCount = pageCount + garden.length;
 						</div>
 						<div class="w-full">
 							<h2
-								id={`${post.id}-title`}
+								id={`${page.id}-title`}
 								class="mb-2 text-2xl font-semibold tracking-tight sm:mb-1"
 							>
-								{post.data.title}
+								{page.data.title}
 							</h2>
-							<div id={`${post.id}-description`} class="text-subtle">
-								{post.data.description}
+							<div id={`${page.id}-description`} class="mb-2 text-subtle">
+								{page.data.description}
+							</div>
+							<div class="text-sm text-muted italic">
+								Published on{" "}
+								{page.data.publishedAt.toLocaleString(lang, {
+									dateStyle: "long",
+								})}
 							</div>
 						</div>
 					</a>
