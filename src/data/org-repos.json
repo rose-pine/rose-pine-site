@@ -1,11 +1,55 @@
 [
   {
+    "description": "Soho vibes for Visual Studio Code",
+    "homepageUrl": "https://marketplace.visualstudio.com/items?itemName=mvllow.rose-pine",
+    "name": "vscode",
+    "repositoryTopics": [
+      "vscode",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "vscode-extension",
+      "hacktoberfest",
+      "visual-studio-code",
+      "editor"
+    ],
+    "stargazerCount": 562,
+    "updatedAt": "2025-11-02T22:14:11Z",
+    "url": "https://github.com/rose-pine/vscode",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Wallpapers",
+    "homepageUrl": "",
+    "name": "wallpapers",
+    "repositoryTopics": [
+      "wallpapers",
+      "soho-vibes",
+      "rose-pine",
+      "theme"
+    ],
+    "stargazerCount": 281,
+    "updatedAt": "2025-11-02T22:04:36Z",
+    "url": "https://github.com/rose-pine/wallpapers",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Termusic",
+    "homepageUrl": "",
+    "name": "termusic",
+    "repositoryTopics": [],
+    "stargazerCount": 0,
+    "updatedAt": "2025-11-02T18:44:32Z",
+    "url": "https://github.com/rose-pine/termusic",
+    "usesCustomOpenGraphImage": false
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 105,
-    "updatedAt": "2025-11-01T14:30:53Z",
+    "updatedAt": "2025-11-02T00:19:25Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -47,21 +91,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Wallpapers",
-    "homepageUrl": "",
-    "name": "wallpapers",
-    "repositoryTopics": [
-      "wallpapers",
-      "soho-vibes",
-      "rose-pine",
-      "theme"
-    ],
-    "stargazerCount": 281,
-    "updatedAt": "2025-10-31T16:21:01Z",
-    "url": "https://github.com/rose-pine/wallpapers",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Starship",
     "homepageUrl": "",
     "name": "starship",
@@ -69,8 +98,8 @@
       "shell",
       "terminal"
     ],
-    "stargazerCount": 49,
-    "updatedAt": "2025-10-17T11:28:04Z",
+    "stargazerCount": 50,
+    "updatedAt": "2025-11-02T12:36:04Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
   },
@@ -227,8 +256,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2822,
-    "updatedAt": "2025-11-01T20:40:59Z",
+    "stargazerCount": 2823,
+    "updatedAt": "2025-11-02T22:34:03Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -669,25 +698,6 @@
     "usesCustomOpenGraphImage": false
   },
   {
-    "description": "Soho vibes for Visual Studio Code",
-    "homepageUrl": "https://marketplace.visualstudio.com/items?itemName=mvllow.rose-pine",
-    "name": "vscode",
-    "repositoryTopics": [
-      "vscode",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "vscode-extension",
-      "hacktoberfest",
-      "visual-studio-code",
-      "editor"
-    ],
-    "stargazerCount": 562,
-    "updatedAt": "2025-10-27T07:55:24Z",
-    "url": "https://github.com/rose-pine/vscode",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Zen Browser",
     "homepageUrl": "",
     "name": "zen-browser",
@@ -784,8 +794,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1467,
-    "updatedAt": "2025-11-01T04:44:32Z",
+    "stargazerCount": 1466,
+    "updatedAt": "2025-11-03T00:15:12Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
