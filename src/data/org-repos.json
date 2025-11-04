@@ -1,5 +1,27 @@
 [
   {
+    "description": "Soho vibes for Obsidian",
+    "homepageUrl": "",
+    "name": "obsidian",
+    "repositoryTopics": [
+      "app"
+    ],
+    "stargazerCount": 23,
+    "updatedAt": "2025-11-03T07:37:32Z",
+    "url": "https://github.com/rose-pine/obsidian",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 104,
+    "updatedAt": "2025-11-03T17:55:27Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Visual Studio Code",
     "homepageUrl": "https://marketplace.visualstudio.com/items?itemName=mvllow.rose-pine",
     "name": "vscode",
@@ -28,8 +50,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 281,
-    "updatedAt": "2025-11-02T22:04:36Z",
+    "stargazerCount": 282,
+    "updatedAt": "2025-11-03T18:31:42Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -42,16 +64,6 @@
     "updatedAt": "2025-11-02T18:44:32Z",
     "url": "https://github.com/rose-pine/termusic",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 105,
-    "updatedAt": "2025-11-02T00:19:25Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Terminal.app",
@@ -195,18 +207,6 @@
     "stargazerCount": 11,
     "updatedAt": "2025-10-17T18:29:00Z",
     "url": "https://github.com/rose-pine/rose-pine-bloom",
-    "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Soho vibes for Obsidian",
-    "homepageUrl": "",
-    "name": "obsidian",
-    "repositoryTopics": [
-      "app"
-    ],
-    "stargazerCount": 23,
-    "updatedAt": "2025-10-23T18:21:23Z",
-    "url": "https://github.com/rose-pine/obsidian",
     "usesCustomOpenGraphImage": false
   },
   {
@@ -794,8 +794,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1466,
-    "updatedAt": "2025-11-03T00:15:12Z",
+    "stargazerCount": 1468,
+    "updatedAt": "2025-11-03T22:16:14Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
