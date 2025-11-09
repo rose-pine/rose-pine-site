@@ -75,6 +75,8 @@ html {
 	--color-pine: var(--color-dawn-pine);
 	--color-foam: var(--color-dawn-foam);
 	--color-iris: var(--color-dawn-iris);
+
+	--color-accent: var(--color-iris);
 }
 
 :root {
@@ -202,10 +204,12 @@ ul[role="list"] {
 
 .link,
 .prose a {
-	color: var(--color-iris);
-	text-decoration-color: --alpha(var(--color-iris) / 0.4);
+	color: var(--color-accent);
 	text-decoration-line: underline;
-	text-underline-offset: 2px;
+
+	&:hover {
+		color: var(--color-text);
+	}
 }
 
 .wrapper {
