@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 104,
+    "updatedAt": "2025-11-08T00:16:58Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for superfile",
     "homepageUrl": "",
     "name": "superfile",
@@ -32,19 +42,9 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 107,
-    "updatedAt": "2025-11-07T15:28:18Z",
+    "stargazerCount": 108,
+    "updatedAt": "2025-11-08T21:33:12Z",
     "url": "https://github.com/rose-pine/discord",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 104,
-    "updatedAt": "2025-11-07T00:18:46Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -133,8 +133,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2829,
-    "updatedAt": "2025-11-07T22:22:31Z",
+    "stargazerCount": 2831,
+    "updatedAt": "2025-11-08T15:59:30Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -171,8 +171,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 38,
-    "updatedAt": "2025-11-05T14:51:30Z",
+    "stargazerCount": 39,
+    "updatedAt": "2025-11-08T09:45:21Z",
     "url": "https://github.com/rose-pine/zellij",
     "usesCustomOpenGraphImage": true
   },
@@ -274,8 +274,8 @@
       "theme",
       "color-palette"
     ],
-    "stargazerCount": 49,
-    "updatedAt": "2025-11-06T10:35:51Z",
+    "stargazerCount": 50,
+    "updatedAt": "2025-11-08T08:41:47Z",
     "url": "https://github.com/rose-pine/waybar",
     "usesCustomOpenGraphImage": true
   },
@@ -1207,8 +1207,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 109,
-    "updatedAt": "2025-11-05T14:46:48Z",
+    "stargazerCount": 110,
+    "updatedAt": "2025-11-08T09:23:40Z",
     "url": "https://github.com/rose-pine/kitty",
     "usesCustomOpenGraphImage": true
   },
