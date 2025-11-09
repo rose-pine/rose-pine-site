@@ -43,7 +43,7 @@ let socialItems = [
 			{
 				resourceItems.map((item) => (
 					<li>
-						<a href={item.href} class="text-subtle transition hover:text-text">
+						<a href={item.href} class="link">
 							{item.name}
 						</a>
 					</li>
@@ -56,7 +56,7 @@ let socialItems = [
 			{
 				featureItems.map((item) => (
 					<li>
-						<a href={item.href} class="text-subtle transition hover:text-text">
+						<a href={item.href} class="link">
 							{item.name}
 						</a>
 					</li>
@@ -69,7 +69,7 @@ let socialItems = [
 			{
 				socialItems.map((item) => (
 					<li>
-						<a href={item.href} class="text-subtle transition hover:text-text">
+						<a href={item.href} class="link">
 							{item.name}
 						</a>
 					</li>
@@ -86,7 +86,7 @@ let socialItems = [
 					<li>
 						<a
 							href={translatePath(getUrlWithoutLang(Astro.url), lang)}
-							class="text-subtle transition hover:text-text"
+							class="link"
 						>
 							{label}
 						</a>
