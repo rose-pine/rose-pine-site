@@ -1,5 +1,55 @@
 [
   {
+    "description": "Soho vibes for TextMate",
+    "homepageUrl": "",
+    "name": "tm-theme",
+    "repositoryTopics": [
+      "rose-pine",
+      "soho-vibes",
+      "theme"
+    ],
+    "stargazerCount": 16,
+    "updatedAt": "2025-11-10T18:39:03Z",
+    "url": "https://github.com/rose-pine/tm-theme",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-theme",
+    "repositoryTopics": [
+      "syntax-theme",
+      "ui-theme",
+      "colorscheme",
+      "palette",
+      "aesthetic"
+    ],
+    "stargazerCount": 1470,
+    "updatedAt": "2025-11-10T17:35:41Z",
+    "url": "https://github.com/rose-pine/rose-pine-theme",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Rosé Pine community health files",
+    "homepageUrl": "",
+    "name": ".github",
+    "repositoryTopics": [],
+    "stargazerCount": 2,
+    "updatedAt": "2025-11-10T17:30:07Z",
+    "url": "https://github.com/rose-pine/.github",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 104,
+    "updatedAt": "2025-11-10T00:19:51Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for tmux",
     "homepageUrl": "",
     "name": "tmux",
@@ -28,16 +78,6 @@
     "stargazerCount": 41,
     "updatedAt": "2025-11-09T15:28:07Z",
     "url": "https://github.com/rose-pine/vim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 104,
-    "updatedAt": "2025-11-09T00:19:45Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -73,8 +113,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 108,
-    "updatedAt": "2025-11-08T21:33:12Z",
+    "stargazerCount": 109,
+    "updatedAt": "2025-11-10T07:01:04Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
@@ -103,16 +143,6 @@
     "stargazerCount": 3,
     "updatedAt": "2025-11-05T15:07:30Z",
     "url": "https://github.com/rose-pine/alfred",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Rosé Pine community health files",
-    "homepageUrl": "",
-    "name": ".github",
-    "repositoryTopics": [],
-    "stargazerCount": 2,
-    "updatedAt": "2025-11-05T15:02:27Z",
-    "url": "https://github.com/rose-pine/.github",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -164,8 +194,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2831,
-    "updatedAt": "2025-11-08T15:59:30Z",
+    "stargazerCount": 2834,
+    "updatedAt": "2025-11-10T08:43:31Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -417,20 +447,6 @@
     "stargazerCount": 1,
     "updatedAt": "2025-11-05T14:51:09Z",
     "url": "https://github.com/rose-pine/tym",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for TextMate",
-    "homepageUrl": "",
-    "name": "tm-theme",
-    "repositoryTopics": [
-      "rose-pine",
-      "soho-vibes",
-      "theme"
-    ],
-    "stargazerCount": 16,
-    "updatedAt": "2025-11-05T14:51:07Z",
-    "url": "https://github.com/rose-pine/tm-theme",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -705,22 +721,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-theme",
-    "repositoryTopics": [
-      "syntax-theme",
-      "ui-theme",
-      "colorscheme",
-      "palette",
-      "aesthetic"
-    ],
-    "stargazerCount": 1470,
-    "updatedAt": "2025-11-09T10:51:13Z",
-    "url": "https://github.com/rose-pine/rose-pine-theme",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Color palette tool for Rosé Pine",
     "homepageUrl": "https://www.npmjs.com/package/@rose-pine/palette",
     "name": "rose-pine-palette",
@@ -872,8 +872,8 @@
       "soho-vibes",
       "rose-pine"
     ],
-    "stargazerCount": 0,
-    "updatedAt": "2025-11-05T14:50:32Z",
+    "stargazerCount": 1,
+    "updatedAt": "2025-11-10T07:41:50Z",
     "url": "https://github.com/rose-pine/pureref",
     "usesCustomOpenGraphImage": true
   },
@@ -1269,8 +1269,8 @@
       "tiling-window-manager",
       "theme"
     ],
-    "stargazerCount": 24,
-    "updatedAt": "2025-11-05T14:46:41Z",
+    "stargazerCount": 25,
+    "updatedAt": "2025-11-10T07:26:28Z",
     "url": "https://github.com/rose-pine/hyprland",
     "usesCustomOpenGraphImage": true
   },
@@ -1340,8 +1340,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 305,
-    "updatedAt": "2025-11-05T19:09:51Z",
+    "stargazerCount": 307,
+    "updatedAt": "2025-11-10T20:06:38Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -1526,8 +1526,8 @@
       "rose-pine",
       "shell"
     ],
-    "stargazerCount": 31,
-    "updatedAt": "2025-11-05T14:46:21Z",
+    "stargazerCount": 32,
+    "updatedAt": "2025-11-10T14:12:57Z",
     "url": "https://github.com/rose-pine/fish",
     "usesCustomOpenGraphImage": true
   },
