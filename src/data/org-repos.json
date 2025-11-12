@@ -1,5 +1,15 @@
 [
   {
+    "description": "Generate Rosé Pine themes",
+    "homepageUrl": "",
+    "name": "rose-pine-bloom",
+    "repositoryTopics": [],
+    "stargazerCount": 11,
+    "updatedAt": "2025-11-12T00:13:20Z",
+    "url": "https://github.com/rose-pine/rose-pine-bloom",
+    "usesCustomOpenGraphImage": false
+  },
+  {
     "description": "Soho vibes for TextMate",
     "homepageUrl": "",
     "name": "tm-theme",
@@ -9,8 +19,18 @@
       "theme"
     ],
     "stargazerCount": 16,
-    "updatedAt": "2025-11-10T18:39:03Z",
+    "updatedAt": "2025-11-11T23:41:41Z",
     "url": "https://github.com/rose-pine/tm-theme",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 104,
+    "updatedAt": "2025-11-11T00:18:20Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -37,16 +57,6 @@
     "stargazerCount": 2,
     "updatedAt": "2025-11-10T17:30:07Z",
     "url": "https://github.com/rose-pine/.github",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 104,
-    "updatedAt": "2025-11-10T00:19:51Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -194,8 +204,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2834,
-    "updatedAt": "2025-11-10T08:43:31Z",
+    "stargazerCount": 2835,
+    "updatedAt": "2025-11-11T07:26:15Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -335,8 +345,8 @@
       "theme",
       "color-palette"
     ],
-    "stargazerCount": 50,
-    "updatedAt": "2025-11-08T08:41:47Z",
+    "stargazerCount": 51,
+    "updatedAt": "2025-11-11T09:08:42Z",
     "url": "https://github.com/rose-pine/waybar",
     "usesCustomOpenGraphImage": true
   },
@@ -350,8 +360,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 285,
-    "updatedAt": "2025-11-09T22:50:44Z",
+    "stargazerCount": 286,
+    "updatedAt": "2025-11-11T15:07:00Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -1914,16 +1924,6 @@
     "updatedAt": "2025-10-27T10:36:32Z",
     "url": "https://github.com/rose-pine/pygments",
     "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Generate Rosé Pine themes",
-    "homepageUrl": "",
-    "name": "rose-pine-bloom",
-    "repositoryTopics": [],
-    "stargazerCount": 11,
-    "updatedAt": "2025-10-17T18:29:00Z",
-    "url": "https://github.com/rose-pine/rose-pine-bloom",
-    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Soho vibes for GNOME Builder",
