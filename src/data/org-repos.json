@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 104,
+    "updatedAt": "2025-11-14T00:18:20Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Wallpapers",
     "homepageUrl": "",
     "name": "wallpapers",
@@ -12,16 +22,6 @@
     "stargazerCount": 287,
     "updatedAt": "2025-11-13T18:40:23Z",
     "url": "https://github.com/rose-pine/wallpapers",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 104,
-    "updatedAt": "2025-11-13T00:18:08Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -50,8 +50,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2837,
-    "updatedAt": "2025-11-13T13:01:16Z",
+    "stargazerCount": 2839,
+    "updatedAt": "2025-11-14T10:10:25Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -80,8 +80,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1471,
-    "updatedAt": "2025-11-13T16:58:14Z",
+    "stargazerCount": 1474,
+    "updatedAt": "2025-11-14T20:10:33Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -121,8 +121,8 @@
       "vim",
       "editor"
     ],
-    "stargazerCount": 41,
-    "updatedAt": "2025-11-09T15:28:07Z",
+    "stargazerCount": 42,
+    "updatedAt": "2025-11-14T03:55:58Z",
     "url": "https://github.com/rose-pine/vim",
     "usesCustomOpenGraphImage": true
   },
@@ -257,8 +257,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 39,
-    "updatedAt": "2025-11-08T09:45:21Z",
+    "stargazerCount": 40,
+    "updatedAt": "2025-11-14T06:09:29Z",
     "url": "https://github.com/rose-pine/zellij",
     "usesCustomOpenGraphImage": true
   },
