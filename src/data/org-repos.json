@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 104,
-    "updatedAt": "2025-11-14T00:18:20Z",
+    "updatedAt": "2025-11-15T00:17:31Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -50,8 +50,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2839,
-    "updatedAt": "2025-11-14T10:10:25Z",
+    "stargazerCount": 2840,
+    "updatedAt": "2025-11-15T14:27:57Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -80,8 +80,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1474,
-    "updatedAt": "2025-11-14T20:10:33Z",
+    "stargazerCount": 1476,
+    "updatedAt": "2025-11-15T10:10:52Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -176,8 +176,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 131,
-    "updatedAt": "2025-11-05T15:07:43Z",
+    "stargazerCount": 130,
+    "updatedAt": "2025-11-15T13:22:24Z",
     "url": "https://github.com/rose-pine/iterm",
     "usesCustomOpenGraphImage": true
   },
@@ -219,8 +219,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 563,
-    "updatedAt": "2025-11-05T14:57:40Z",
+    "stargazerCount": 565,
+    "updatedAt": "2025-11-15T08:33:46Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -360,8 +360,8 @@
       "theme",
       "color-palette"
     ],
-    "stargazerCount": 51,
-    "updatedAt": "2025-11-11T09:08:42Z",
+    "stargazerCount": 52,
+    "updatedAt": "2025-11-15T14:15:05Z",
     "url": "https://github.com/rose-pine/waybar",
     "usesCustomOpenGraphImage": true
   },
@@ -643,8 +643,8 @@
       "shell",
       "terminal"
     ],
-    "stargazerCount": 51,
-    "updatedAt": "2025-11-09T13:33:47Z",
+    "stargazerCount": 52,
+    "updatedAt": "2025-11-15T09:51:21Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
   },
@@ -1536,8 +1536,8 @@
       "rose-pine",
       "shell"
     ],
-    "stargazerCount": 32,
-    "updatedAt": "2025-11-10T14:12:57Z",
+    "stargazerCount": 33,
+    "updatedAt": "2025-11-15T21:47:02Z",
     "url": "https://github.com/rose-pine/fish",
     "usesCustomOpenGraphImage": true
   },
@@ -1567,8 +1567,8 @@
       "app",
       "theme"
     ],
-    "stargazerCount": 5,
-    "updatedAt": "2025-11-05T14:46:18Z",
+    "stargazerCount": 6,
+    "updatedAt": "2025-11-15T05:51:29Z",
     "url": "https://github.com/rose-pine/fcitx5",
     "usesCustomOpenGraphImage": true
   },
