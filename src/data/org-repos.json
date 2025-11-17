@@ -1,11 +1,33 @@
 [
   {
+    "description": "Generate Rosé Pine themes",
+    "homepageUrl": "",
+    "name": "rose-pine-bloom",
+    "repositoryTopics": [],
+    "stargazerCount": 11,
+    "updatedAt": "2025-11-16T20:45:53Z",
+    "url": "https://github.com/rose-pine/rose-pine-bloom",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "Soho vibes for Rofi",
+    "homepageUrl": "",
+    "name": "rofi",
+    "repositoryTopics": [
+      "theme"
+    ],
+    "stargazerCount": 21,
+    "updatedAt": "2025-11-16T18:41:48Z",
+    "url": "https://github.com/rose-pine/rofi",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 104,
-    "updatedAt": "2025-11-15T00:17:31Z",
+    "updatedAt": "2025-11-16T00:19:37Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -25,16 +47,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Generate Rosé Pine themes",
-    "homepageUrl": "",
-    "name": "rose-pine-bloom",
-    "repositoryTopics": [],
-    "stargazerCount": 11,
-    "updatedAt": "2025-11-12T00:13:20Z",
-    "url": "https://github.com/rose-pine/rose-pine-bloom",
-    "usesCustomOpenGraphImage": false
-  },
-  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -50,8 +62,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2840,
-    "updatedAt": "2025-11-15T14:27:57Z",
+    "stargazerCount": 2843,
+    "updatedAt": "2025-11-16T17:35:15Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -121,8 +133,8 @@
       "vim",
       "editor"
     ],
-    "stargazerCount": 42,
-    "updatedAt": "2025-11-14T03:55:58Z",
+    "stargazerCount": 41,
+    "updatedAt": "2025-11-16T03:59:33Z",
     "url": "https://github.com/rose-pine/vim",
     "usesCustomOpenGraphImage": true
   },
@@ -747,18 +759,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Rofi",
-    "homepageUrl": "",
-    "name": "rofi",
-    "repositoryTopics": [
-      "theme"
-    ],
-    "stargazerCount": 21,
-    "updatedAt": "2025-11-05T14:50:43Z",
-    "url": "https://github.com/rose-pine/rofi",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Roblox Studio",
     "homepageUrl": "",
     "name": "roblox-studio",
@@ -1350,8 +1350,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 307,
-    "updatedAt": "2025-11-10T20:06:38Z",
+    "stargazerCount": 306,
+    "updatedAt": "2025-11-16T10:38:01Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -1536,8 +1536,8 @@
       "rose-pine",
       "shell"
     ],
-    "stargazerCount": 33,
-    "updatedAt": "2025-11-15T21:47:02Z",
+    "stargazerCount": 32,
+    "updatedAt": "2025-11-16T12:03:54Z",
     "url": "https://github.com/rose-pine/fish",
     "usesCustomOpenGraphImage": true
   },
