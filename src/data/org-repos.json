@@ -5,9 +5,19 @@
     "name": "rose-pine-bloom",
     "repositoryTopics": [],
     "stargazerCount": 11,
-    "updatedAt": "2025-11-16T20:45:53Z",
+    "updatedAt": "2025-11-17T22:06:37Z",
     "url": "https://github.com/rose-pine/rose-pine-bloom",
     "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 104,
+    "updatedAt": "2025-11-17T00:18:47Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Rofi",
@@ -19,16 +29,6 @@
     "stargazerCount": 21,
     "updatedAt": "2025-11-16T18:41:48Z",
     "url": "https://github.com/rose-pine/rofi",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 104,
-    "updatedAt": "2025-11-16T00:19:37Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -62,8 +62,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2843,
-    "updatedAt": "2025-11-16T17:35:15Z",
+    "stargazerCount": 2846,
+    "updatedAt": "2025-11-17T21:43:44Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -117,8 +117,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 224,
-    "updatedAt": "2025-11-09T16:47:45Z",
+    "stargazerCount": 225,
+    "updatedAt": "2025-11-17T23:40:19Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -231,8 +231,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 565,
-    "updatedAt": "2025-11-15T08:33:46Z",
+    "stargazerCount": 566,
+    "updatedAt": "2025-11-17T02:22:57Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
