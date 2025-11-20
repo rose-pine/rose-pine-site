@@ -1,12 +1,19 @@
 [
   {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 104,
-    "updatedAt": "2025-11-18T00:18:27Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
+    "description": "Soho vibes for Alacritty",
+    "homepageUrl": "",
+    "name": "alacritty",
+    "repositoryTopics": [
+      "alacritty",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "terminal",
+      "terminal-emulator"
+    ],
+    "stargazerCount": 130,
+    "updatedAt": "2025-11-05T14:45:54Z",
+    "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -14,10 +21,40 @@
     "homepageUrl": "",
     "name": "rose-pine-bloom",
     "repositoryTopics": [],
-    "stargazerCount": 11,
-    "updatedAt": "2025-11-17T22:06:37Z",
+    "stargazerCount": 12,
+    "updatedAt": "2025-11-19T21:55:02Z",
     "url": "https://github.com/rose-pine/rose-pine-bloom",
     "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "Homebrew tap repo for Rosé Pine",
+    "homepageUrl": "",
+    "name": "homebrew-tap",
+    "repositoryTopics": [],
+    "stargazerCount": 0,
+    "updatedAt": "2025-11-19T19:53:54Z",
+    "url": "https://github.com/rose-pine/homebrew-tap",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "Soho vibes for ghostty",
+    "homepageUrl": "",
+    "name": "ghostty",
+    "repositoryTopics": [],
+    "stargazerCount": 37,
+    "updatedAt": "2025-11-19T15:32:13Z",
+    "url": "https://github.com/rose-pine/ghostty",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 105,
+    "updatedAt": "2025-11-19T21:55:01Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Rofi",
@@ -41,8 +78,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 287,
-    "updatedAt": "2025-11-13T18:40:23Z",
+    "stargazerCount": 288,
+    "updatedAt": "2025-11-19T15:45:59Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -62,8 +99,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2846,
-    "updatedAt": "2025-11-18T15:24:25Z",
+    "stargazerCount": 2849,
+    "updatedAt": "2025-11-19T21:55:21Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -231,8 +268,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 566,
-    "updatedAt": "2025-11-17T02:22:57Z",
+    "stargazerCount": 567,
+    "updatedAt": "2025-11-19T21:55:49Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -1296,20 +1333,10 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 36,
-    "updatedAt": "2025-11-05T14:46:40Z",
+    "stargazerCount": 37,
+    "updatedAt": "2025-11-19T21:55:51Z",
     "url": "https://github.com/rose-pine/hyper",
     "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Homebrew tap repo for Rosé Pine",
-    "homepageUrl": "",
-    "name": "homebrew-tap",
-    "repositoryTopics": [],
-    "stargazerCount": 0,
-    "updatedAt": "2025-11-05T14:46:39Z",
-    "url": "https://github.com/rose-pine/homebrew-tap",
-    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Soho vibes for highlight.js",
@@ -1854,42 +1881,15 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Alacritty",
-    "homepageUrl": "",
-    "name": "alacritty",
-    "repositoryTopics": [
-      "alacritty",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "terminal",
-      "terminal-emulator"
-    ],
-    "stargazerCount": 130,
-    "updatedAt": "2025-11-05T14:45:54Z",
-    "url": "https://github.com/rose-pine/alacritty",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for App",
     "homepageUrl": "",
     "name": "rose-pine-template",
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 43,
-    "updatedAt": "2025-11-05T14:43:21Z",
+    "stargazerCount": 44,
+    "updatedAt": "2025-11-19T21:54:15Z",
     "url": "https://github.com/rose-pine/rose-pine-template",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for ghostty",
-    "homepageUrl": "",
-    "name": "ghostty",
-    "repositoryTopics": [],
-    "stargazerCount": 37,
-    "updatedAt": "2025-11-05T13:42:18Z",
-    "url": "https://github.com/rose-pine/ghostty",
     "usesCustomOpenGraphImage": true
   },
   {
