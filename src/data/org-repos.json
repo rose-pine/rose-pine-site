@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 105,
+    "updatedAt": "2025-11-20T00:18:24Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Alacritty",
     "homepageUrl": "",
     "name": "alacritty",
@@ -47,16 +57,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 105,
-    "updatedAt": "2025-11-19T21:55:01Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Rofi",
     "homepageUrl": "",
     "name": "rofi",
@@ -99,8 +99,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2849,
-    "updatedAt": "2025-11-19T21:55:21Z",
+    "stargazerCount": 2851,
+    "updatedAt": "2025-11-20T19:44:11Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -268,8 +268,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 567,
-    "updatedAt": "2025-11-19T21:55:49Z",
+    "stargazerCount": 569,
+    "updatedAt": "2025-11-20T17:42:17Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -1378,7 +1378,7 @@
       "rose-pine"
     ],
     "stargazerCount": 307,
-    "updatedAt": "2025-11-18T18:06:00Z",
+    "updatedAt": "2025-11-20T12:35:30Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
