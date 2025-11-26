@@ -1,11 +1,21 @@
 [
   {
+    "description": "Generate Rosé Pine themes",
+    "homepageUrl": "",
+    "name": "rose-pine-bloom",
+    "repositoryTopics": [],
+    "stargazerCount": 14,
+    "updatedAt": "2025-11-22T13:15:59Z",
+    "url": "https://github.com/rose-pine/rose-pine-bloom",
+    "usesCustomOpenGraphImage": false
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 105,
-    "updatedAt": "2025-11-24T00:19:46Z",
+    "updatedAt": "2025-11-25T00:16:58Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -40,16 +50,6 @@
     "updatedAt": "2025-11-05T14:45:54Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Generate Rosé Pine themes",
-    "homepageUrl": "",
-    "name": "rose-pine-bloom",
-    "repositoryTopics": [],
-    "stargazerCount": 14,
-    "updatedAt": "2025-11-22T13:15:59Z",
-    "url": "https://github.com/rose-pine/rose-pine-bloom",
-    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Homebrew tap repo for Rosé Pine",
@@ -115,7 +115,7 @@
       "editor"
     ],
     "stargazerCount": 2859,
-    "updatedAt": "2025-11-24T17:28:37Z",
+    "updatedAt": "2025-11-25T11:27:59Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -170,8 +170,8 @@
       "vim",
       "editor"
     ],
-    "stargazerCount": 41,
-    "updatedAt": "2025-11-16T03:59:33Z",
+    "stargazerCount": 42,
+    "updatedAt": "2025-11-25T18:42:24Z",
     "url": "https://github.com/rose-pine/vim",
     "usesCustomOpenGraphImage": true
   },
@@ -1005,8 +1005,8 @@
     "repositoryTopics": [
       "app"
     ],
-    "stargazerCount": 23,
-    "updatedAt": "2025-11-05T14:50:24Z",
+    "stargazerCount": 24,
+    "updatedAt": "2025-11-25T04:24:05Z",
     "url": "https://github.com/rose-pine/obsidian",
     "usesCustomOpenGraphImage": false
   },
