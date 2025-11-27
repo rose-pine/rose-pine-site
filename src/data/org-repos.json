@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 105,
+    "updatedAt": "2025-11-26T00:18:28Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Generate Rosé Pine themes",
     "homepageUrl": "",
     "name": "rose-pine-bloom",
@@ -8,16 +18,6 @@
     "updatedAt": "2025-11-22T13:15:59Z",
     "url": "https://github.com/rose-pine/rose-pine-bloom",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 105,
-    "updatedAt": "2025-11-25T00:16:58Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for tmux",
@@ -29,8 +29,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 225,
-    "updatedAt": "2025-11-22T22:38:55Z",
+    "stargazerCount": 226,
+    "updatedAt": "2025-11-26T13:55:29Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -46,8 +46,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 130,
-    "updatedAt": "2025-11-05T14:45:54Z",
+    "stargazerCount": 131,
+    "updatedAt": "2025-11-26T13:51:39Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
@@ -114,8 +114,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2859,
-    "updatedAt": "2025-11-25T11:27:59Z",
+    "stargazerCount": 2860,
+    "updatedAt": "2025-11-26T10:23:34Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -144,8 +144,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1478,
-    "updatedAt": "2025-11-23T23:26:02Z",
+    "stargazerCount": 1482,
+    "updatedAt": "2025-11-26T14:07:34Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -316,8 +316,8 @@
     "homepageUrl": "",
     "name": "zed",
     "repositoryTopics": [],
-    "stargazerCount": 44,
-    "updatedAt": "2025-11-05T14:51:28Z",
+    "stargazerCount": 45,
+    "updatedAt": "2025-11-26T11:37:19Z",
     "url": "https://github.com/rose-pine/zed",
     "usesCustomOpenGraphImage": true
   },
@@ -606,8 +606,8 @@
       "swaync",
       "theme"
     ],
-    "stargazerCount": 23,
-    "updatedAt": "2025-11-05T14:50:59Z",
+    "stargazerCount": 24,
+    "updatedAt": "2025-11-26T03:04:07Z",
     "url": "https://github.com/rose-pine/swaync",
     "usesCustomOpenGraphImage": true
   },
