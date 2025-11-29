@@ -12,8 +12,18 @@
       "terminal-emulator"
     ],
     "stargazerCount": 3,
-    "updatedAt": "2025-11-05T14:51:02Z",
+    "updatedAt": "2025-11-28T04:18:02Z",
     "url": "https://github.com/rose-pine/terminator",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 105,
+    "updatedAt": "2025-11-28T00:18:07Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -41,16 +51,6 @@
     "stargazerCount": 35,
     "updatedAt": "2025-11-27T12:36:48Z",
     "url": "https://github.com/rose-pine/userstyles",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 105,
-    "updatedAt": "2025-11-27T00:18:09Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -90,8 +90,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 131,
-    "updatedAt": "2025-11-26T13:51:39Z",
+    "stargazerCount": 132,
+    "updatedAt": "2025-11-28T10:41:40Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
@@ -188,8 +188,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1482,
-    "updatedAt": "2025-11-26T14:07:34Z",
+    "stargazerCount": 1484,
+    "updatedAt": "2025-11-28T21:02:12Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
