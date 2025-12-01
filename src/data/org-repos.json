@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 105,
-    "updatedAt": "2025-11-29T00:17:51Z",
+    "updatedAt": "2025-11-30T00:20:53Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -158,8 +158,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2861,
-    "updatedAt": "2025-11-27T06:45:05Z",
+    "stargazerCount": 2862,
+    "updatedAt": "2025-11-30T08:00:12Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -312,8 +312,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 570,
-    "updatedAt": "2025-11-27T22:57:43Z",
+    "stargazerCount": 569,
+    "updatedAt": "2025-11-30T15:19:37Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -722,7 +722,7 @@
       "terminal-emulator"
     ],
     "stargazerCount": 10,
-    "updatedAt": "2025-11-05T14:50:52Z",
+    "updatedAt": "2025-11-30T08:00:59Z",
     "url": "https://github.com/rose-pine/st",
     "usesCustomOpenGraphImage": true
   },
