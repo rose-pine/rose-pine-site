@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 105,
-    "updatedAt": "2025-12-05T00:19:05Z",
+    "updatedAt": "2025-12-06T00:17:56Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -88,8 +88,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 227,
-    "updatedAt": "2025-12-05T15:24:08Z",
+    "stargazerCount": 228,
+    "updatedAt": "2025-12-06T19:43:50Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -453,8 +453,8 @@
       "theme",
       "color-palette"
     ],
-    "stargazerCount": 52,
-    "updatedAt": "2025-11-15T14:15:05Z",
+    "stargazerCount": 53,
+    "updatedAt": "2025-12-06T14:37:13Z",
     "url": "https://github.com/rose-pine/waybar",
     "usesCustomOpenGraphImage": true
   },
