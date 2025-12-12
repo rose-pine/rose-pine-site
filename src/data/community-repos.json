@@ -1,4 +1,13 @@
 [
+		{
+		"name": "Pheonix Code",
+		"url": "https://github.com/sybillae/rose-pine-theme",
+		"tags": ["editor"],
+		"authors": [
+			{ "name": "sybillae", "url": "https://github.com/sybillae" }
+		],
+		"has_variants": false
+	},
 	{
 		"name": "3DS",
 		"url": "https://github.com/jilliangmeehan/rose-pine-3ds",
