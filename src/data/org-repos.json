@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 105,
+    "updatedAt": "2025-12-12T00:19:28Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Userstyles",
     "homepageUrl": "",
     "name": "userstyles",
@@ -12,16 +22,6 @@
     "stargazerCount": 36,
     "updatedAt": "2025-12-11T21:49:24Z",
     "url": "https://github.com/rose-pine/userstyles",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 105,
-    "updatedAt": "2025-12-11T00:19:34Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -54,8 +54,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 297,
-    "updatedAt": "2025-12-11T14:15:08Z",
+    "stargazerCount": 298,
+    "updatedAt": "2025-12-12T14:23:22Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -168,8 +168,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2871,
-    "updatedAt": "2025-12-11T19:38:20Z",
+    "stargazerCount": 2870,
+    "updatedAt": "2025-12-12T23:30:05Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -198,8 +198,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1487,
-    "updatedAt": "2025-12-10T12:52:42Z",
+    "stargazerCount": 1488,
+    "updatedAt": "2025-12-12T21:13:43Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -312,8 +312,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 572,
-    "updatedAt": "2025-12-11T19:29:24Z",
+    "stargazerCount": 573,
+    "updatedAt": "2025-12-12T22:35:13Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -704,8 +704,8 @@
       "shell",
       "terminal"
     ],
-    "stargazerCount": 54,
-    "updatedAt": "2025-12-05T15:46:55Z",
+    "stargazerCount": 55,
+    "updatedAt": "2025-12-12T05:40:29Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
   },
@@ -1684,8 +1684,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 18,
-    "updatedAt": "2025-11-05T14:46:11Z",
+    "stargazerCount": 19,
+    "updatedAt": "2025-12-12T09:49:41Z",
     "url": "https://github.com/rose-pine/daisyui",
     "usesCustomOpenGraphImage": true
   },
@@ -1694,8 +1694,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 145,
-    "updatedAt": "2025-12-07T06:46:24Z",
+    "stargazerCount": 147,
+    "updatedAt": "2025-12-12T20:54:15Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -1790,8 +1790,8 @@
       "terminal",
       "theme"
     ],
-    "stargazerCount": 35,
-    "updatedAt": "2025-12-03T13:15:07Z",
+    "stargazerCount": 36,
+    "updatedAt": "2025-12-12T05:35:24Z",
     "url": "https://github.com/rose-pine/btop",
     "usesCustomOpenGraphImage": true
   },
