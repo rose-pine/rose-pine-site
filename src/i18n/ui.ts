@@ -47,8 +47,8 @@ export const ui = {
 		"garden.description": "Musings from the Rosé Pine community.",
 		"garden.articles": "Articles",
 
-		"garden.photography.title": "Photography",
-		"garden.photography.description":
+		"photography.title": "Photography",
+		"photography.description":
 			"If you don't stop for a while, you might miss a perfect view.",
 
 		"palette.title": "Palette",
@@ -99,8 +99,8 @@ export const ui = {
 		"garden.description": "Riflessioni della comunità Rosé Pine.",
 		"garden.articles": "Articoli",
 
-		"garden.photography.title": "Fotografie",
-		"garden.photography.description":
+		"photography.title": "Fotografie",
+		"photography.description":
 			"Se non ti fermi un attimo, potresti perdere una vista perfetta.",
 
 		"palette.title": "Tavolozza",

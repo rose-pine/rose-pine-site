@@ -1,8 +1,8 @@
 ---
 import { Image } from "astro:assets";
-import IntroSection from "../../../components/intro-section.astro";
-import { useTranslations, withLangPaths } from "../../../i18n/utilities";
-import Page from "../../../layouts/page.astro";
+import IntroSection from "../../components/intro-section.astro";
+import { useTranslations, withLangPaths } from "../../i18n/utilities";
+import Page from "../../layouts/page.astro";
 
 export async function getStaticPaths() {
 	return await withLangPaths();
@@ -30,13 +30,10 @@ let photographs = [
 ];
 ---
 
-<Page
-	title={t("garden.photography.title")}
-	description={t("garden.photography.description")}
->
+<Page title={t("photography.title")} description={t("photography.description")}>
 	<IntroSection
-		headline={t("garden.photography.title")}
-		subheadline={t("garden.photography.description")}
+		headline={t("photography.title")}
+		subheadline={t("photography.description")}
 	/>
 
 	<div class="h-page-top"></div>
