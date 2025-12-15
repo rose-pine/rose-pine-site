@@ -183,7 +183,20 @@
 	{
 		"name": "JetBrains IDE",
 		"url": "https://github.com/bomgar/rose-pine-jetbrains",
-		"tags": ["app", "editor", "IntelliJ", "Android Studio", "CLion", "GoLand", "PhpStorm", "PyCharm", "Rider", "RubyMine", "RustRover", "WebStorm"],
+		"tags": [
+			"app",
+			"editor",
+			"IntelliJ",
+			"Android Studio",
+			"CLion",
+			"GoLand",
+			"PhpStorm",
+			"PyCharm",
+			"Rider",
+			"RubyMine",
+			"RustRover",
+			"WebStorm"
+		],
 		"authors": [{ "name": "bomgar", "url": "https://github.com/bomgar" }],
 		"has_variants": true
 	},
@@ -338,6 +351,18 @@
 			{ "name": "SLUCHABLUB", "url": "https://github.com/SLUCHABLUB" }
 		],
 		"has_variants": true
+	},
+	{
+		"name": "Phoenix Code",
+		"url": "https://github.com/sybillae/rose-pine-phoenix-code",
+		"tags": [],
+		"authors": [
+			{
+				"name": "sybillae",
+				"url": "https://github.com/sybillae"
+			}
+		],
+		"category": "editor"
 	},
 	{
 		"name": "Posting",
