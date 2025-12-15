@@ -1,11 +1,26 @@
 [
   {
+    "description": "Soho vibes for GoToSocial",
+    "homepageUrl": "https://social.wzykubek.xyz/@me",
+    "name": "gotosocial",
+    "repositoryTopics": [
+      "custom-css",
+      "fediverse",
+      "gotosocial",
+      "self-hosted"
+    ],
+    "stargazerCount": 0,
+    "updatedAt": "2025-12-14T16:57:29Z",
+    "url": "https://github.com/rose-pine/gotosocial",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 105,
-    "updatedAt": "2025-12-13T00:18:33Z",
+    "updatedAt": "2025-12-14T00:21:18Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -704,8 +719,8 @@
       "shell",
       "terminal"
     ],
-    "stargazerCount": 55,
-    "updatedAt": "2025-12-12T05:40:29Z",
+    "stargazerCount": 56,
+    "updatedAt": "2025-12-14T11:05:49Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
   },
