@@ -552,6 +552,18 @@
 		"category": "editor"
 	},
 	{
+		"name": "Phoenix Code",
+		"url": "https://github.com/sybillae/rose-pine-phoenix-code",
+		"tags": [],
+		"contributors": [
+			{
+				"name": "sybillae",
+				"url": "https://github.com/sybillae"
+			}
+		],
+		"category": "editor"
+	},
+	{
 		"name": "Posting",
 		"url": "https://github.com/elithper/posting",
 		"tags": [],
