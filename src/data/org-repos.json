@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 105,
+    "updatedAt": "2025-12-15T19:39:52Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for GoToSocial",
     "homepageUrl": "https://social.wzykubek.xyz/@me",
     "name": "gotosocial",
@@ -12,16 +22,6 @@
     "stargazerCount": 0,
     "updatedAt": "2025-12-14T16:57:29Z",
     "url": "https://github.com/rose-pine/gotosocial",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 105,
-    "updatedAt": "2025-12-14T00:21:18Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -130,8 +130,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 131,
-    "updatedAt": "2025-12-03T13:13:12Z",
+    "stargazerCount": 132,
+    "updatedAt": "2025-12-15T22:12:37Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
@@ -213,8 +213,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1488,
-    "updatedAt": "2025-12-12T21:13:43Z",
+    "stargazerCount": 1489,
+    "updatedAt": "2025-12-15T20:58:01Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1404,8 +1404,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 308,
-    "updatedAt": "2025-12-11T21:03:53Z",
+    "stargazerCount": 309,
+    "updatedAt": "2025-12-15T01:21:38Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -1456,7 +1456,7 @@
       "terminal-emulator"
     ],
     "stargazerCount": 49,
-    "updatedAt": "2025-12-03T22:24:59Z",
+    "updatedAt": "2025-12-15T20:42:45Z",
     "url": "https://github.com/rose-pine/gnome-terminal",
     "usesCustomOpenGraphImage": true
   },
