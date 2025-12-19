@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 105,
-    "updatedAt": "2025-12-17T00:18:59Z",
+    "updatedAt": "2025-12-18T00:16:22Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -183,8 +183,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2872,
-    "updatedAt": "2025-12-17T02:26:13Z",
+    "stargazerCount": 2871,
+    "updatedAt": "2025-12-18T00:38:59Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -213,8 +213,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1489,
-    "updatedAt": "2025-12-15T20:58:01Z",
+    "stargazerCount": 1487,
+    "updatedAt": "2025-12-18T07:45:55Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -397,8 +397,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 6,
-    "updatedAt": "2025-11-05T14:51:26Z",
+    "stargazerCount": 7,
+    "updatedAt": "2025-12-18T20:31:19Z",
     "url": "https://github.com/rose-pine/xresources",
     "usesCustomOpenGraphImage": true
   },
@@ -468,8 +468,8 @@
       "theme",
       "color-palette"
     ],
-    "stargazerCount": 53,
-    "updatedAt": "2025-12-06T14:37:13Z",
+    "stargazerCount": 54,
+    "updatedAt": "2025-12-18T11:53:55Z",
     "url": "https://github.com/rose-pine/waybar",
     "usesCustomOpenGraphImage": true
   },
@@ -1102,8 +1102,8 @@
       "misskey-theme",
       "theme"
     ],
-    "stargazerCount": 15,
-    "updatedAt": "2025-11-22T13:18:38Z",
+    "stargazerCount": 16,
+    "updatedAt": "2025-12-18T19:37:06Z",
     "url": "https://github.com/rose-pine/misskey",
     "usesCustomOpenGraphImage": true
   },
@@ -1281,8 +1281,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 110,
-    "updatedAt": "2025-11-08T09:23:40Z",
+    "stargazerCount": 111,
+    "updatedAt": "2025-12-18T11:36:14Z",
     "url": "https://github.com/rose-pine/kitty",
     "usesCustomOpenGraphImage": true
   },
@@ -1404,8 +1404,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 310,
-    "updatedAt": "2025-12-17T02:52:52Z",
+    "stargazerCount": 312,
+    "updatedAt": "2025-12-18T18:51:54Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -1557,8 +1557,8 @@
       "terminal-emulator",
       "theme"
     ],
-    "stargazerCount": 15,
-    "updatedAt": "2025-11-05T14:46:24Z",
+    "stargazerCount": 14,
+    "updatedAt": "2025-12-18T00:38:37Z",
     "url": "https://github.com/rose-pine/foot",
     "usesCustomOpenGraphImage": true
   },
