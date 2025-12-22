@@ -1,11 +1,32 @@
 [
   {
+    "description": "Soho vibes for Neovim",
+    "homepageUrl": "",
+    "name": "neovim",
+    "repositoryTopics": [
+      "theme",
+      "neovim",
+      "soho-vibes",
+      "rose-pine",
+      "lua",
+      "vim",
+      "nvim",
+      "neovim-theme",
+      "vim-theme",
+      "editor"
+    ],
+    "stargazerCount": 2873,
+    "updatedAt": "2025-12-20T05:40:49Z",
+    "url": "https://github.com/rose-pine/neovim",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 105,
-    "updatedAt": "2025-12-20T00:18:33Z",
+    "updatedAt": "2025-12-21T00:20:53Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -69,8 +90,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 301,
-    "updatedAt": "2025-12-20T03:17:10Z",
+    "stargazerCount": 302,
+    "updatedAt": "2025-12-21T20:47:09Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -165,27 +186,6 @@
     "stargazerCount": 21,
     "updatedAt": "2025-12-11T06:31:29Z",
     "url": "https://github.com/rose-pine/rofi",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Neovim",
-    "homepageUrl": "",
-    "name": "neovim",
-    "repositoryTopics": [
-      "theme",
-      "neovim",
-      "soho-vibes",
-      "rose-pine",
-      "lua",
-      "vim",
-      "nvim",
-      "neovim-theme",
-      "vim-theme",
-      "editor"
-    ],
-    "stargazerCount": 2873,
-    "updatedAt": "2025-12-20T05:40:49Z",
-    "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -573,8 +573,8 @@
       "terminal",
       "mobile"
     ],
-    "stargazerCount": 19,
-    "updatedAt": "2025-11-27T04:53:19Z",
+    "stargazerCount": 20,
+    "updatedAt": "2025-12-21T00:49:18Z",
     "url": "https://github.com/rose-pine/termux",
     "usesCustomOpenGraphImage": true
   },
@@ -633,8 +633,8 @@
       "swaync",
       "theme"
     ],
-    "stargazerCount": 25,
-    "updatedAt": "2025-12-13T14:43:43Z",
+    "stargazerCount": 24,
+    "updatedAt": "2025-12-21T19:22:52Z",
     "url": "https://github.com/rose-pine/swaync",
     "usesCustomOpenGraphImage": true
   },
@@ -817,8 +817,8 @@
       "color",
       "css"
     ],
-    "stargazerCount": 35,
-    "updatedAt": "2025-11-22T10:32:27Z",
+    "stargazerCount": 36,
+    "updatedAt": "2025-12-21T06:04:14Z",
     "url": "https://github.com/rose-pine/rose-pine-palette",
     "usesCustomOpenGraphImage": true
   },
