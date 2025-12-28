@@ -1,11 +1,29 @@
 [
   {
+    "description": "Soho vibes for Discord",
+    "homepageUrl": "",
+    "name": "discord",
+    "repositoryTopics": [
+      "betterdiscord",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "goosemod",
+      "discord",
+      "hacktoberfest"
+    ],
+    "stargazerCount": 112,
+    "updatedAt": "2025-12-27T15:36:54Z",
+    "url": "https://github.com/rose-pine/discord",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 105,
-    "updatedAt": "2025-12-26T00:19:19Z",
+    "updatedAt": "2025-12-27T00:18:49Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -25,8 +43,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2874,
-    "updatedAt": "2025-12-25T21:46:34Z",
+    "stargazerCount": 2875,
+    "updatedAt": "2025-12-27T19:39:17Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -90,8 +108,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 304,
-    "updatedAt": "2025-12-25T16:06:18Z",
+    "stargazerCount": 305,
+    "updatedAt": "2025-12-27T04:51:40Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -119,8 +137,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 46,
-    "updatedAt": "2025-12-20T15:01:39Z",
+    "stargazerCount": 47,
+    "updatedAt": "2025-12-27T20:38:49Z",
     "url": "https://github.com/rose-pine/rose-pine-template",
     "usesCustomOpenGraphImage": true
   },
@@ -255,24 +273,6 @@
     "usesCustomOpenGraphImage": false
   },
   {
-    "description": "Soho vibes for Discord",
-    "homepageUrl": "",
-    "name": "discord",
-    "repositoryTopics": [
-      "betterdiscord",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "goosemod",
-      "discord",
-      "hacktoberfest"
-    ],
-    "stargazerCount": 112,
-    "updatedAt": "2025-12-22T00:56:54Z",
-    "url": "https://github.com/rose-pine/discord",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for iTerm2",
     "homepageUrl": "",
     "name": "iterm",
@@ -327,8 +327,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 573,
-    "updatedAt": "2025-12-12T22:35:13Z",
+    "stargazerCount": 574,
+    "updatedAt": "2025-12-27T17:51:09Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -1254,8 +1254,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 17,
-    "updatedAt": "2025-12-02T14:12:02Z",
+    "stargazerCount": 16,
+    "updatedAt": "2025-12-27T14:47:49Z",
     "url": "https://github.com/rose-pine/konsole",
     "usesCustomOpenGraphImage": true
   },
@@ -1687,8 +1687,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 40,
-    "updatedAt": "2025-12-20T21:29:35Z",
+    "stargazerCount": 41,
+    "updatedAt": "2025-12-27T20:30:55Z",
     "url": "https://github.com/rose-pine/dark-reader",
     "usesCustomOpenGraphImage": true
   },
