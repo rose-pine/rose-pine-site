@@ -11,11 +11,11 @@
 		"sync": "./script/fetch-data.sh"
 	},
 	"dependencies": {
-		"@astrojs/svelte": "^7.2.1",
+		"@astrojs/svelte": "^7.2.4",
 		"@lucide/astro": "^0.552.0",
 		"@lucide/svelte": "^0.542.0",
 		"@tailwindcss/vite": "^4.1.16",
-		"astro": "^5.15.3",
+		"astro": "^5.16.6",
 		"bits-ui": "^2.14.1",
 		"has-match": "^2.0.0",
 		"sharp": "^0.34.4",
