@@ -23,34 +23,36 @@ let t = useTranslations(lang);
 	<div class="h-page-top"></div>
 
 	<section class="wrapper">
-		<form
-			name="theme"
-			method="POST"
-			netlify-honeypot="bot-field"
-			data-netlify="true"
-			class="flex flex-col gap-6"
-		>
-			<div class="hidden">
-				<label>Don't fill this out if you're human</label>
-				<input name="bot-field" type="text" />
-			</div>
-			<div class="flex max-w-md flex-col gap-1.5">
-				<label class="font-medium">{t("submit.form.link_label")}</label>
-				<input
-					required
-					name="repository-link"
-					type="text"
-					class="h-10 rounded-sm border border-muted/20 px-3 font-mono placeholder-muted placeholder:text-sm"
-					placeholder="https://sr.ht/~her/love"
-				/>
-			</div>
-			<div>
-				<button
-					type="submit"
-					class="flex shrink-0 items-center gap-2.5 rounded-lg border border-pine/20 bg-pine/90 px-4 py-2.5 font-medium text-surface shadow-sm shadow-pine/30 transition select-none hover:bg-pine dark:text-text"
-					>{t("submit.form.primary_action")}</button
-				>
-			</div>
-		</form>
+		<div class="animate-enter" style="--stagger: 3">
+			<form
+				name="theme"
+				method="POST"
+				netlify-honeypot="bot-field"
+				data-netlify="true"
+				class="flex flex-col gap-6"
+			>
+				<div class="hidden">
+					<label>Don't fill this out if you're human</label>
+					<input name="bot-field" type="text" />
+				</div>
+				<div class="flex max-w-md flex-col gap-1.5">
+					<label class="font-medium">{t("submit.form.link_label")}</label>
+					<input
+						required
+						name="repository-link"
+						type="text"
+						class="h-10 rounded-sm border border-muted/20 px-3 font-mono placeholder-muted placeholder:text-sm"
+						placeholder="https://sr.ht/~her/love"
+					/>
+				</div>
+				<div>
+					<button
+						type="submit"
+						class="flex shrink-0 items-center gap-2.5 rounded-lg border border-pine/20 bg-pine/90 px-4 py-2.5 font-medium text-surface shadow-sm shadow-pine/30 transition select-none hover:bg-pine dark:text-text"
+						>{t("submit.form.primary_action")}</button
+					>
+				</div>
+			</form>
+		</div>
 	</section>
 </Page>
