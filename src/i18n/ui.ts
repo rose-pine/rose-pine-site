@@ -64,6 +64,11 @@ export const ui = {
 		"resources.description":
 			"Guides, tools, and inspiration for creating beautiful themes.",
 		"resources.also_available_in": "Also available in:",
+
+		"submit.title": "Submit a theme",
+		"submit.description": "Send in your theme to be added to Rosé Pine.",
+		"submit.form.link_label": "Link to repository",
+		"submit.form.primary_action": "Submit",
 	},
 	it: {
 		"shared.all": "Tutti",
@@ -118,5 +123,10 @@ export const ui = {
 		"resources.description":
 			"Guide, strumenti e ispirazione per creare temi bellissimi.",
 		"resources.also_available_in": "Disponibile anche in:",
+
+		"submit.title": "Invia un tema",
+		"submit.description": "Invia il tuo tema per aggiungerlo a Rosé Pine.",
+		"submit.form.link_label": "Link al repository",
+		"submit.form.primary_action": "Invia",
 	},
 } as const;
