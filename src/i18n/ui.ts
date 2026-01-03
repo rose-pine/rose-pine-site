@@ -1,7 +1,11 @@
 export const languages = {
 	en: "English",
 	it: "Italiano",
-};
+} as const;
+export const locales = Object.keys(languages) as [
+	keyof typeof languages,
+	...(keyof typeof languages)[],
+];
 
 export const defaultLang = "en";
 export const showDefaultLang = false;
@@ -22,7 +26,7 @@ export const ui = {
 		"nav.themes": "Themes",
 		"nav.garden": "Garden",
 		"nav.palette": "Palette",
-		"nav.create": "Create",
+		"nav.resources": "Create",
 
 		"command.close": "Close command menu",
 		"command.empty_results": "No results found",
@@ -56,8 +60,10 @@ export const ui = {
 		"palette.variants": "Variants",
 		"palette.colours": "Colours",
 
-		"create.title": "Create",
-		"create.description": "Your canvas, shared with the community.",
+		"resources.title": "Resources",
+		"resources.description":
+			"Guides, tools, and inspiration for creating beautiful themes.",
+		"resources.also_available_in": "Also available in:",
 	},
 	it: {
 		"shared.all": "Tutti",
@@ -74,7 +80,7 @@ export const ui = {
 		"nav.themes": "Temi",
 		"nav.garden": "Giardino",
 		"nav.palette": "Tavolozza",
-		"nav.create": "Crea",
+		"nav.resources": "Crea",
 
 		"command.close": "Chiudi il menu dei comandi",
 		"command.empty_results": "Nessun risultato trovato",
@@ -108,7 +114,9 @@ export const ui = {
 		"palette.variants": "Varianti",
 		"palette.colours": "Colori",
 
-		"create.title": "Crea",
-		"create.description": "La tua tela, condivisa con la comunità.",
+		"resources.title": "Risorse",
+		"resources.description":
+			"Guide, strumenti e ispirazione per creare temi bellissimi.",
+		"resources.also_available_in": "Disponibile anche in:",
 	},
 } as const;

@@ -1,6 +1,6 @@
 ---
-import { Image } from "astro:assets";
 import { getCollection, type CollectionEntry } from "astro:content";
+import ContentCard from "../../../components/content-card.astro";
 import IntroSection from "../../../components/intro-section.astro";
 import {
 	useTranslatedPath,
@@ -36,47 +36,21 @@ let translatePath = useTranslatedPath(lang);
 
 	<div class="h-page-top"></div>
 
-	<section class="wrapper animate-enter" style="--stagger: 3">
+	<section class="wrapper animate-enter space-y-4" style="--stagger: 3">
 		{
 			pages.map((page) => (
-				<article>
-					<a
-						href={translatePath(`/garden/${page.id}`)}
-						aria-labelledby={`${page.id}-title`}
-						aria-describedby={`${page.id}-description`}
-						class="isolate mb-4 flex w-full flex-col items-center overflow-clip rounded-3xl border border-overlay bg-surface p-6 transition hover:border-iris/20 hover:bg-iris/5 sm:flex-row sm:p-4"
-					>
-						<div class="mb-8 shrink-0 sm:mr-8 sm:mb-0 sm:w-64">
-							<Image
-								src={page.data.image}
-								alt={page.data.title}
-								width="2000"
-								height="1200"
-								layout="full-width"
-								fit="cover"
-								position="top"
-								class="w-full rounded-2xl border border-overlay"
-							/>
-						</div>
-						<div class="w-full">
-							<h2
-								id={`${page.id}-title`}
-								class="mb-2 text-2xl font-semibold tracking-tight sm:mb-1"
-							>
-								{page.data.title}
-							</h2>
-							<div id={`${page.id}-description`} class="mb-2 text-subtle">
-								{page.data.description}
-							</div>
-							<div class="text-sm text-muted italic">
-								Published on{" "}
-								{page.data.publishedAt.toLocaleString(lang, {
-									dateStyle: "long",
-								})}
-							</div>
-						</div>
-					</a>
-				</article>
+				<ContentCard
+					id={page.id}
+					href={translatePath(`/garden/${page.id}`)}
+					title={page.data.title}
+					description={page.data.description}
+					image={{
+						src: page.data.image,
+						alt: page.data.imageAlt,
+					}}
+					publishedAt={page.data.publishedAt}
+					lang={page.data.locale}
+				/>
 			))
 		}
 	</section>

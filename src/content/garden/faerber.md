@@ -6,6 +6,7 @@ imageAlt: A moon illustration in the Rosé Pine palette (bright indigo-white, fo
 author: fvrests
 publishedAt: 2025-08-02T12:00:00-06:00
 updatedAt: 2025-08-06T12:00:00-06:00
+locale: en
 ---
 
 [Faerber](https://farbenfroh.io/) is an image generator that converts the palettes in your favorite wallpapers to fit a variety of themes, including our very own Rosé Pine.

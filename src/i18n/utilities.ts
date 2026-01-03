@@ -1,8 +1,8 @@
 import { type GetStaticPathsItem } from "astro";
-import { ui, defaultLang, showDefaultLang, languages } from "./ui";
+import { defaultLang, languages, showDefaultLang, ui } from "./ui";
 
 // Supported languages and `undefined` for the default language.
-type Lang = keyof typeof languages | undefined;
+export type Lang = keyof typeof languages | undefined;
 type LangPath<T extends GetStaticPathsItem> = Omit<T, "params"> & {
 	params: T["params"] & { lang: Lang };
 };

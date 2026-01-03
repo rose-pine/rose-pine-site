@@ -1,0 +1,88 @@
+---
+import { Image } from "astro:assets";
+import { languages, type locales } from "../i18n/ui";
+
+export type Props = {
+	id: string;
+	href: string;
+	title: string;
+	description: string;
+	image?: {
+		src: string | ImageMetadata;
+		alt: string;
+	};
+	publishedAt?: Date;
+	lang?: string;
+};
+
+const {
+	id,
+	href,
+	title,
+	description,
+	image,
+	publishedAt,
+	lang = "en",
+} = Astro.props;
+---
+
+<article>
+	<a
+		href={href}
+		aria-labelledby={`${id}-title`}
+		aria-describedby={`${id}-description`}
+		class:list={[
+			"isolate flex h-full w-full overflow-clip rounded-3xl border border-overlay bg-surface p-6 transition hover:border-iris/20 hover:bg-iris/5",
+			image
+				? "flex-col items-center sm:flex-row sm:p-4"
+				: "flex-col items-center",
+		]}
+	>
+		{
+			image && (
+				<div class="mb-4 shrink-0 sm:mr-8 sm:mb-0 sm:w-64">
+					<Image
+						src={image.src as any}
+						alt={image.alt}
+						width={2000}
+						height={1200}
+						class="w-full rounded-2xl border border-overlay"
+					/>
+				</div>
+			)
+		}
+		<div class="w-full">
+			<h2 id={`${id}-title`} class="text-2xl font-semibold tracking-tight">
+				{title}
+			</h2>
+			<div id={`${id}-description`} class="mt-2 text-subtle sm:mt-1">
+				{description}
+			</div>
+			{
+				lang || publishedAt ? (
+					<div class="mt-2 flex items-center gap-3">
+						{lang ? (
+							<div
+								title={languages[lang]}
+								class="rounded-sm bg-text px-1 py-px font-mono text-[10px] font-semibold text-surface uppercase"
+							>
+								{lang}
+							</div>
+						) : (
+							""
+						)}
+						{publishedAt && (
+							<div class="text-sm text-muted italic">
+								{publishedAt.toLocaleString(lang, {
+									dateStyle: "long",
+								})}
+							</div>
+						)}
+					</div>
+				) : (
+					""
+				)
+			}
+		</div>
+	</a>
+</article>

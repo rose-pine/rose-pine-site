@@ -6,6 +6,7 @@ imageAlt: A moon illustration on a dark starry background.
 author: fvrests
 publishedAt: 2025-01-01T12:00:00-06:00
 updatedAt: 2025-01-01T12:00:00-06:00
+locale: en
 draft: true
 ---
 

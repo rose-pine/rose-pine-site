@@ -1,5 +1,6 @@
 import { glob } from "astro/loaders";
 import { defineCollection, reference, z } from "astro:content";
+import { locales } from "../i18n/ui";
 
 const garden = defineCollection({
 	loader: glob({ pattern: "**/[^_]*.md", base: "./src/content/garden" }),
@@ -12,7 +13,21 @@ const garden = defineCollection({
 			author: reference("authors"),
 			publishedAt: z.date(),
 			updatedAt: z.date(),
-			draft: z.optional(z.boolean()),
+			locale: z.enum(locales).default("en"),
+			draft: z.boolean().optional(),
+		}),
+});
+
+const guides = defineCollection({
+	loader: glob({ pattern: "**/[^_]*.md", base: "./src/content/guides" }),
+	schema: () =>
+		z.object({
+			title: z.string(),
+			description: z.string(),
+			author: reference("authors"),
+			publishedAt: z.date(),
+			updatedAt: z.date(),
+			draft: z.boolean().optional(),
 		}),
 });
 
@@ -25,4 +40,4 @@ const authors = defineCollection({
 	}),
 });
 
-export const collections = { garden, authors };
+export const collections = { garden, guides, authors };

@@ -41,8 +41,8 @@ let searchGroups = [
 				icon: "palette",
 			},
 			{
-				label: t("nav.create"),
-				href: translatePath("/create"),
+				label: t("nav.resources"),
+				href: translatePath("/resources"),
 				icon: "sparkles",
 			},
 		],
@@ -127,14 +127,14 @@ let defaultGroups = [
 			}
 			<li class="pl-3">
 				<a
-					href={translatePath("/create")}
+					href={translatePath("/resources")}
 					class="group/cta flex h-8 shrink-0 items-center gap-2 rounded-lg border border-text pr-4 pl-3 font-serif italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
 				>
 					<SparklesIcon
 						size="16"
 						class="transition-transform group-hover/cta:-rotate-3"
 					/>
-					<span class="pb-px">{t("nav.create")}</span>
+					<span class="pb-px">{t("nav.resources")}</span>
 				</a>
 			</li>
 		</ul>
@@ -190,11 +190,11 @@ let defaultGroups = [
 				}
 				<li class="w-full pt-3">
 					<a
-						href={translatePath("/create")}
+						href={translatePath("/resources")}
 						class="group/cta flex h-14 shrink-0 items-center justify-center gap-4 rounded-(--card-inner-radius) border border-text pr-5 pl-4 font-serif text-xl italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
 					>
 						<SparklesIcon width={24} height={24} stroke-width="1.5" />
-						<span class="pb-px">{t("nav.create")}</span>
+						<span class="pb-px">{t("nav.resources")}</span>
 					</a>
 				</li>
 			</ul>

@@ -14,8 +14,11 @@ let t = useTranslations(lang);
 let translatePath = useTranslatedPath(lang);
 
 let resourceItems = [
-	{ name: "Create a theme", href: "#!" },
-	{ name: "Add a translation", href: "#!" },
+	{ name: "Create a theme", href: translatePath("/resources/create-a-theme") },
+	{
+		name: "Add a translation",
+		href: translatePath("/resources/add-a-translation"),
+	},
 	{
 		name: "Repository template",
 		href: "https://github.com/rose-pine/rose-pine-template",

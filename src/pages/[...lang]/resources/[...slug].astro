@@ -1,33 +1,53 @@
 ---
 import FlowerIcon from "@lucide/astro/icons/flower";
-import { Image } from "astro:assets";
 import { getCollection, getEntry, render } from "astro:content";
+import { languages } from "../../../i18n/ui";
 import {
-	getLangFromUrl,
 	useTranslatedPath,
 	useTranslations,
-	withLangPaths,
+	type Lang,
 } from "../../../i18n/utilities";
 import Page from "../../../layouts/page.astro";
 
-let lang = getLangFromUrl(Astro.url);
-let t = useTranslations(lang);
-let translatePath = useTranslatedPath(lang);
-
 export async function getStaticPaths() {
-	const pages = await getCollection("garden", ({ data }) => {
+	const pages = await getCollection("guides", ({ data }) => {
 		return import.meta.env.PROD ? data.draft !== true : true;
 	});
-	const entries = pages.map((page) => ({
-		params: { id: page.id },
-		props: { page },
-	}));
-	return await withLangPaths(entries);
+
+	return pages.map((page) => {
+		const [pageLang, ...slug] = page.id.split("/");
+		return {
+			params: {
+				lang: pageLang === "en" ? undefined : (pageLang as Lang),
+				slug: slug.join("/") || undefined,
+			},
+			props: { page },
+		};
+	});
 }
+
+const { lang = "en" } = Astro.params;
+let t = useTranslations(lang);
+let translatePath = useTranslatedPath(lang);
 
 const { page } = Astro.props;
 const author = await getEntry(page.data.author);
 const { Content } = await render(page);
+
+const slug = page.id.split("/").slice(1).join("/");
+const allPages = await getCollection("guides");
+const availableLanguages = Object.entries(languages)
+	.filter(
+		([langCode]) =>
+			langCode !== lang &&
+			allPages.some((page) => page.id === `${langCode}/${slug}`),
+	)
+	.map(([langCode, langName]) => ({
+		name: langName,
+		url: useTranslatedPath(langCode as keyof typeof languages)(
+			`/resources/${slug}`,
+		),
+	}));
 
 const publishedAt = new Date(page.data.publishedAt).toLocaleDateString(
 	[lang, "en"],
@@ -55,9 +75,9 @@ const updatedAt = new Date(page.data.updatedAt).toLocaleDateString(
 			style="--stagger: 1"
 		>
 			<a
-				href={translatePath("/garden")}
+				href={translatePath("/resources")}
 				class="rounded-full py-1.5 pr-4 pl-3 text-sm font-medium text-subtle transition before:pr-1.5 before:content-['←'] hover:bg-muted/10 hover:text-text"
-				>{t("garden.title")}</a
+				>{t("resources.title")}</a
 			>
 		</div>
 
@@ -74,12 +94,6 @@ const updatedAt = new Date(page.data.updatedAt).toLocaleDateString(
 			>
 				{page.data.description}
 			</p>
-			<div
-				class="animate-enter mb-8 overflow-clip rounded-2xl border border-muted/20"
-				style="--stagger: 2"
-			>
-				<Image src={page.data.image} alt={page.data.imageAlt} />
-			</div>
 			<div
 				class="animate-enter prose mb-8 prose-headings:text-text prose-p:text-text/90 prose-blockquote:border-iris/50 prose-blockquote:**:text-text/70! prose-strong:text-text/90 prose-em:text-text/90 prose-code:text-text prose-li:text-text/90 prose-li:marker:text-subtle prose-thead:border-muted"
 				style="--stagger: 2.5"
@@ -122,6 +136,31 @@ const updatedAt = new Date(page.data.updatedAt).toLocaleDateString(
 					</div>
 				) : (
 					""
+				)
+			}
+
+			{
+				availableLanguages.length > 0 && (
+					<div class="mt-8 border-t border-muted/20 pt-6">
+						<div class="flex flex-wrap items-center gap-2 text-sm text-subtle">
+							<span class="font-medium">
+								{t("resources.also_available_in")}
+							</span>
+							{availableLanguages.map((language, index) => (
+								<>
+									<a
+										href={language.url}
+										class="rounded-lg bg-muted/10 px-2 py-1 font-medium text-text transition hover:bg-muted/20"
+									>
+										{language.name}
+									</a>
+									{index < availableLanguages.length - 1 && (
+										<span class="text-subtle/50">•</span>
+									)}
+								</>
+							))}
+						</div>
+					</div>
 				)
 			}
 		</article>

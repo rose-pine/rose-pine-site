@@ -1,0 +1,78 @@
+---
+import { getCollection, type CollectionEntry } from "astro:content";
+import ContentCard from "../../../components/content-card.astro";
+import IntroSection from "../../../components/intro-section.astro";
+import {
+	useTranslatedPath,
+	useTranslations,
+	withLangPaths,
+} from "../../../i18n/utilities";
+import Page from "../../../layouts/page.astro";
+
+export async function getStaticPaths() {
+	return await withLangPaths();
+}
+
+let { lang = "en" } = Astro.params;
+let t = useTranslations(lang);
+let translatePath = useTranslatedPath(lang);
+
+const currentLangGuides = await getCollection("guides", ({ id, data }) => {
+	const isCorrectLang = id.startsWith(`${lang}/`);
+	const shouldShow = import.meta.env.PROD ? data.draft !== true : true;
+	return isCorrectLang && shouldShow;
+});
+
+const englishFallbacks =
+	lang !== "en"
+		? (() => {
+				const existingSlugs = new Set(
+					currentLangGuides.map((g) => g.id.split("/").slice(1).join("/")),
+				);
+
+				return getCollection("guides", ({ id, data }) => {
+					const isEnglish = id.startsWith("en/");
+					const shouldShow = import.meta.env.PROD ? data.draft !== true : true;
+					if (!isEnglish || !shouldShow) {
+						return false;
+					}
+
+					const slug = id.split("/").slice(1).join("/");
+					return !existingSlugs.has(slug);
+				});
+			})()
+		: [];
+
+const pages = [...currentLangGuides, ...(await englishFallbacks)].sort(
+	(a: CollectionEntry<"guides">, b: CollectionEntry<"guides">) =>
+		b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf(),
+);
+---
+
+<Page title={t("resources.title")} description={t("resources.description")}>
+	<IntroSection
+		headline={t("resources.title")}
+		subheadline={t("resources.description")}
+	/>
+
+	<div class="h-page-top"></div>
+
+	<section class="wrapper animate-enter" style="--stagger: 3">
+		<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+			{
+				pages.map((page) => (
+					<ContentCard
+						id={page.id}
+						href={translatePath(
+							`/resources/${page.id.split("/").slice(1).join("/")}`,
+							page.id.split("/")[0],
+						)}
+						title={page.data.title}
+						description={page.data.description}
+						lang={page.id.split("/")[0]}
+					/>
+				))
+			}
+		</div>
+	</section>
+</Page>
