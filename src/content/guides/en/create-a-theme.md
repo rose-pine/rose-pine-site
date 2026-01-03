@@ -1,6 +1,6 @@
 ---
 title: Create a theme
-description: A comprehensive guide for bringing Rosé Pine to your favourite platforms
+description: A comprehensive guide for bringing Rosé Pine to your favourite platforms.
 author: mvllow
 publishedAt: 2025-11-09T12:00:00-06:00
 updatedAt: 2025-11-09T12:00:00-06:00

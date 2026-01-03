@@ -1,6 +1,6 @@
 ---
 title: Your view through Rosé-colored glasses
-description: An image generator to reimagine your favorite wallpapers in Rosé Pine
+description: An image generator to reimagine your favorite wallpapers in Rosé Pine.
 image: ../../assets/garden/moon-de2000.png
 imageAlt: A moon illustration in the Rosé Pine palette (bright indigo-white, foam and rose) on a starry dark indigo background.
 author: fvrests

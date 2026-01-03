@@ -1,6 +1,6 @@
 ---
 title: Markdown test file
-description: A file to test markdown syntax
+description: A file to test markdown syntax.
 image: ../../assets/garden/moon.png
 imageAlt: A moon illustration on a dark starry background.
 author: fvrests
