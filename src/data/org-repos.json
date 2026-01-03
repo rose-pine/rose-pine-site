@@ -1,11 +1,26 @@
 [
   {
+    "description": "Soho vibes for tmux",
+    "homepageUrl": "",
+    "name": "tmux",
+    "repositoryTopics": [
+      "app",
+      "terminal",
+      "tmux",
+      "theme"
+    ],
+    "stargazerCount": 234,
+    "updatedAt": "2026-01-02T12:58:37Z",
+    "url": "https://github.com/rose-pine/tmux",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 105,
-    "updatedAt": "2026-01-01T00:22:26Z",
+    "updatedAt": "2026-01-02T00:19:49Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -43,8 +58,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2879,
-    "updatedAt": "2026-01-01T13:59:33Z",
+    "stargazerCount": 2880,
+    "updatedAt": "2026-01-02T10:43:03Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -108,8 +123,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 309,
-    "updatedAt": "2025-12-31T01:44:27Z",
+    "stargazerCount": 310,
+    "updatedAt": "2026-01-02T17:02:49Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -140,21 +155,6 @@
     "stargazerCount": 47,
     "updatedAt": "2025-12-27T20:38:49Z",
     "url": "https://github.com/rose-pine/rose-pine-template",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for tmux",
-    "homepageUrl": "",
-    "name": "tmux",
-    "repositoryTopics": [
-      "app",
-      "terminal",
-      "tmux",
-      "theme"
-    ],
-    "stargazerCount": 234,
-    "updatedAt": "2025-12-29T12:29:08Z",
-    "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -231,8 +231,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1492,
-    "updatedAt": "2026-01-01T19:12:28Z",
+    "stargazerCount": 1495,
+    "updatedAt": "2026-01-02T16:15:30Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -932,8 +932,8 @@
       "terminal-emulator",
       "theme"
     ],
-    "stargazerCount": 1,
-    "updatedAt": "2025-11-05T14:50:34Z",
+    "stargazerCount": 2,
+    "updatedAt": "2026-01-02T19:12:34Z",
     "url": "https://github.com/rose-pine/pywal",
     "usesCustomOpenGraphImage": true
   },
@@ -1687,8 +1687,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 41,
-    "updatedAt": "2025-12-27T20:30:55Z",
+    "stargazerCount": 42,
+    "updatedAt": "2026-01-02T21:50:22Z",
     "url": "https://github.com/rose-pine/dark-reader",
     "usesCustomOpenGraphImage": true
   },
