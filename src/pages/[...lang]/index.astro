@@ -23,7 +23,7 @@ let allRepos = getAllRepos();
 
 <Page title={t("home.title")} description={t("home.description")}>
 	<section class="wrapper flex min-h-[58svh] flex-1 items-center">
-		<div class="grid grid-cols-1 gap-20 md:grid-cols-2">
+		<div class="grid grid-cols-1 gap-20 lg:grid-cols-2">
 			<div class="flex flex-col">
 				<h1
 					class="animate-enter mb-4 max-w-2xl text-6xl font-bold tracking-tight text-balance sm:text-8xl lg:text-9xl"
@@ -55,52 +55,54 @@ let allRepos = getAllRepos();
 				</div>
 			</div>
 
-			<aside class="animate-enter" style="--stagger: 2">
+			<aside class="relative">
 				<svg
-					width="724"
-					height="506"
-					viewBox="0 0 724 506"
+					width="611"
+					height="629"
+					viewBox="0 0 611 629"
 					fill="none"
 					xmlns="http://www.w3.org/2000/svg"
-					class="pr-10 max-md:-mt-80 max-md:opacity-30 md:ml-auto"
+					class="pointer-events-none absolute right-0 -z-10 max-lg:-top-80 max-lg:opacity-10"
 				>
-					<path
-						d="M494.21 202.834C466.014 190.404 466.014 138.596 494.21 126.166C520.281 114.672 555.938 136.816 555.938 164.5C555.938 192.184 520.281 214.328 494.21 202.834Z"
-						stroke="var(--color-gold)"
-						stroke-linejoin="round"></path>
-					<path
-						d="M313.287 351.662C308.314 366.25 313.536 380.177 326.51 386.929C334.287 390.976 348.986 391.035 348.986 391.035C438.008 393.605 370.511 330.928 367.603 386.068C364.372 447.309 458.139 408.34 476.807 427.008"
-						stroke="var(--color-pine)"
-						stroke-linecap="round"
-						stroke-linejoin="round"></path>
-					<g clip-path="url(#clip0_1114_90)">
+					<g clip-path="url(#a)">
 						<path
-							d="M231.278 201.326C275.195 222.822 330.637 235.872 338.264 196.362C345.891 156.852 262.514 61.6903 366.796 65.807C471.079 69.9236 350.422 -19.8417 383.544 -52.9638C416.667 -86.0859 457.196 -79.4782 502.315 -69.7118"
+							d="M414.21 283.557C386.013 271.127 386.013 219.319 414.21 206.889C440.281 195.395 475.937 217.539 475.937 245.223C475.937 272.907 440.281 295.051 414.21 283.557Z"
+							stroke="var(--color-gold)"
+							stroke-width="6"
+							stroke-linejoin="round"></path>
+						<path
+							d="M233.287 432.385C228.314 446.973 233.536 460.9 246.51 467.652C254.287 471.699 268.986 471.758 268.986 471.758C358.008 474.328 290.511 411.651 287.603 466.791C284.372 528.032 378.138 489.063 396.807 507.731"
+							stroke="var(--color-pine)"
+							stroke-width="6"
+							stroke-linecap="round"
+							stroke-linejoin="round"></path>
+						<path
+							d="M151.277 282.049C195.194 303.545 250.637 316.595 258.264 277.085C265.891 237.575 182.513 142.413 286.796 146.53C391.079 150.647 270.422 60.8814 303.544 27.7593C336.666 -5.36278 377.196 1.24501 422.315 11.0114"
 							stroke="var(--color-iris)"
+							stroke-width="6"
+							stroke-linecap="round"
+							stroke-linejoin="round"></path>
+						<path
+							d="M444.896 236.286L444.896 142.161L518.104 189.223L444.896 236.286Z"
+							stroke="var(--color-love)"
+							stroke-width="6"
+							stroke-linejoin="round"></path>
+						<path
+							d="M565.756 390.83C565.756 390.83 604.783 421.604 604.783 449.528C604.783 477.452 556.857 457.456 538.925 480.153C518.068 506.552 607.222 518.109 607.222 543.955C607.222 569.801 565.756 625.622 565.756 625.622"
+							stroke="var(--color-rose)"
+							stroke-width="6"
+							stroke-linecap="round"
+							stroke-linejoin="round"></path>
+						<path
+							d="M26.4824 530.364L38.1741 495.897M49.8657 461.429L38.1741 495.897M38.1741 495.897L3.70668 484.205M38.1741 495.897L72.6414 507.589"
+							stroke="var(--color-foam)"
+							stroke-width="6"
 							stroke-linecap="round"
 							stroke-linejoin="round"></path>
 					</g>
-					<path
-						d="M524.896 155.563L524.896 61.4375L598.104 108.5L524.896 155.563Z"
-						stroke="var(--color-love)"
-						stroke-linejoin="round"></path>
-					<path
-						d="M645.756 310.107C645.756 310.107 684.783 340.881 684.783 368.805C684.783 396.729 636.858 376.733 618.926 399.43C598.069 425.829 687.222 437.386 687.222 463.232C687.222 489.078 645.756 544.899 645.756 544.899"
-						stroke="var(--color-rose)"
-						stroke-linecap="round"
-						stroke-linejoin="round"></path>
-					<path
-						d="M106.482 449.641L118.174 415.174M129.866 380.706L118.174 415.174M118.174 415.174L83.7065 403.482M118.174 415.174L152.641 426.865"
-						stroke="var(--color-foam)"
-						stroke-linecap="round"
-						stroke-linejoin="round"></path>
 					<defs>
-						<clipPath id="clip0_1114_90">
-							<rect
-								width="399.97"
-								height="399.97"
-								fill="white"
-								transform="translate(651.636 67.8247) rotate(135)"></rect>
+						<clipPath id="a">
+							<rect width="611" height="629" fill="white"></rect>
 						</clipPath>
 					</defs>
 				</svg>
