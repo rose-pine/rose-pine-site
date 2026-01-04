@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 105,
+    "updatedAt": "2026-01-03T00:18:51Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for tmux",
     "homepageUrl": "",
     "name": "tmux",
@@ -12,16 +22,6 @@
     "stargazerCount": 234,
     "updatedAt": "2026-01-02T12:58:37Z",
     "url": "https://github.com/rose-pine/tmux",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 105,
-    "updatedAt": "2026-01-02T00:19:49Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -58,8 +58,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2880,
-    "updatedAt": "2026-01-02T10:43:03Z",
+    "stargazerCount": 2881,
+    "updatedAt": "2026-01-03T18:12:09Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -185,12 +185,12 @@
     "usesCustomOpenGraphImage": false
   },
   {
-    "description": "Soho vibes for ghostty",
+    "description": "Soho vibes for Ghostty",
     "homepageUrl": "",
     "name": "ghostty",
     "repositoryTopics": [],
     "stargazerCount": 42,
-    "updatedAt": "2025-12-31T09:31:31Z",
+    "updatedAt": "2026-01-03T18:05:03Z",
     "url": "https://github.com/rose-pine/ghostty",
     "usesCustomOpenGraphImage": true
   },
@@ -231,8 +231,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1495,
-    "updatedAt": "2026-01-02T16:15:30Z",
+    "stargazerCount": 1496,
+    "updatedAt": "2026-01-03T04:27:27Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
