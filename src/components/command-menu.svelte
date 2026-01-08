@@ -38,6 +38,7 @@
 
 	let open = $state(false);
 	let search = $state("");
+	let previouslyActiveElement = $state<Element | null>(null);
 	let isSearching = $derived(search.length > 0);
 	let groups = $derived(isSearching ? searchGroups : defaultGroups);
 
@@ -92,6 +93,20 @@
 		<Dialog.Overlay class="fixed inset-0 z-80 bg-black/50" />
 
 		<Dialog.Content
+			onOpenAutoFocus={() => {
+				previouslyActiveElement = document.activeElement;
+			}}
+			onCloseAutoFocus={(e) => {
+				e.preventDefault();
+				if (document.activeElement instanceof HTMLElement) {
+					// Prevent scroll jump to active element
+					document.activeElement.blur();
+				}
+				if (previouslyActiveElement instanceof HTMLElement) {
+					// Restore active element focus
+					previouslyActiveElement.focus();
+				}
+			}}
 			class="fixed bottom-page-gutter left-1/2 z-90 w-9/10 max-w-xl -translate-x-1/2 overflow-hidden rounded-(--dialog-radius) bg-surface shadow-xl [--dialog-gutter-half:calc(var(--dialog-gutter)/2)] [--dialog-gutter:--spacing(5)] [--dialog-inner-radius:calc(var(--dialog-radius)/2)] [--dialog-radius:1.5rem] supports-backdrop-filter:bg-surface/95 supports-backdrop-filter:backdrop-blur-sm md:top-20 md:bottom-auto"
 		>
 			<Dialog.Title class="sr-only">Command Menu</Dialog.Title>
