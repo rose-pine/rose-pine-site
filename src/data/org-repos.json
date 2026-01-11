@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 105,
-    "updatedAt": "2026-01-09T00:19:35Z",
+    "updatedAt": "2026-01-10T00:19:23Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -19,8 +19,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 237,
-    "updatedAt": "2026-01-08T23:43:17Z",
+    "stargazerCount": 238,
+    "updatedAt": "2026-01-10T14:31:41Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -58,8 +58,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2885,
-    "updatedAt": "2026-01-09T19:34:31Z",
+    "stargazerCount": 2887,
+    "updatedAt": "2026-01-10T14:57:35Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -123,8 +123,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 310,
-    "updatedAt": "2026-01-02T17:02:49Z",
+    "stargazerCount": 311,
+    "updatedAt": "2026-01-10T14:32:26Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -231,8 +231,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1499,
-    "updatedAt": "2026-01-09T14:59:32Z",
+    "stargazerCount": 1501,
+    "updatedAt": "2026-01-10T14:31:40Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -351,8 +351,8 @@
     "repositoryTopics": [
       "app"
     ],
-    "stargazerCount": 22,
-    "updatedAt": "2026-01-08T23:43:18Z",
+    "stargazerCount": 23,
+    "updatedAt": "2026-01-10T14:31:42Z",
     "url": "https://github.com/rose-pine/zen-browser",
     "usesCustomOpenGraphImage": true
   },
@@ -385,8 +385,8 @@
     "homepageUrl": "",
     "name": "yazi",
     "repositoryTopics": [],
-    "stargazerCount": 4,
-    "updatedAt": "2026-01-08T23:43:19Z",
+    "stargazerCount": 5,
+    "updatedAt": "2026-01-10T14:31:43Z",
     "url": "https://github.com/rose-pine/yazi",
     "usesCustomOpenGraphImage": false
   },
@@ -719,8 +719,8 @@
       "shell",
       "terminal"
     ],
-    "stargazerCount": 53,
-    "updatedAt": "2026-01-08T23:43:18Z",
+    "stargazerCount": 54,
+    "updatedAt": "2026-01-10T14:31:42Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
   },
@@ -1343,8 +1343,8 @@
       "tiling-window-manager",
       "theme"
     ],
-    "stargazerCount": 27,
-    "updatedAt": "2026-01-08T23:43:17Z",
+    "stargazerCount": 28,
+    "updatedAt": "2026-01-10T14:31:41Z",
     "url": "https://github.com/rose-pine/hyprland",
     "usesCustomOpenGraphImage": true
   },
@@ -1709,8 +1709,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 149,
-    "updatedAt": "2025-12-25T16:10:39Z",
+    "stargazerCount": 150,
+    "updatedAt": "2026-01-10T15:05:16Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
