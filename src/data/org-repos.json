@@ -1,11 +1,21 @@
 [
   {
+    "description": "Soho vibes for GNOME Builder",
+    "homepageUrl": "",
+    "name": "gnome-builder",
+    "repositoryTopics": [],
+    "stargazerCount": 0,
+    "updatedAt": "2026-01-13T20:26:42Z",
+    "url": "https://github.com/rose-pine/gnome-builder",
+    "usesCustomOpenGraphImage": false
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 105,
-    "updatedAt": "2026-01-12T00:20:56Z",
+    "updatedAt": "2026-01-13T00:16:59Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -58,8 +68,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2888,
-    "updatedAt": "2026-01-12T08:54:03Z",
+    "stargazerCount": 2887,
+    "updatedAt": "2026-01-13T08:35:24Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -1939,16 +1949,6 @@
     "updatedAt": "2025-10-27T10:36:32Z",
     "url": "https://github.com/rose-pine/pygments",
     "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for GNOME Builder",
-    "homepageUrl": "",
-    "name": "gnome-builder",
-    "repositoryTopics": [],
-    "stargazerCount": 0,
-    "updatedAt": "2025-07-13T15:29:46Z",
-    "url": "https://github.com/rose-pine/gnome-builder",
-    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Soho vibes for Flow Launcher",
