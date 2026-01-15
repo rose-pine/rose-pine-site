@@ -23,7 +23,7 @@
 </script>
 
 <section
-	class="grid grid-cols-2 gap-5 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
+	class="grid grid-cols-2 gap-2.5 sm:grid-cols-3 sm:gap-5 md:grid-cols-4 lg:grid-cols-5"
 >
 	{#each filteredThemes as theme}
 		{@const IconComponent = getSvelteIconComponent(theme.category)}
