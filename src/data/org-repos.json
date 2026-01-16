@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 105,
-    "updatedAt": "2026-01-14T00:20:22Z",
+    "updatedAt": "2026-01-15T00:19:20Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -68,8 +68,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2888,
-    "updatedAt": "2026-01-14T14:41:02Z",
+    "stargazerCount": 2887,
+    "updatedAt": "2026-01-15T16:20:44Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -801,8 +801,8 @@
       "sharex",
       "theme"
     ],
-    "stargazerCount": 2,
-    "updatedAt": "2025-11-05T14:50:55Z",
+    "stargazerCount": 3,
+    "updatedAt": "2026-01-15T08:27:53Z",
     "url": "https://github.com/rose-pine/sharex",
     "usesCustomOpenGraphImage": false
   },
@@ -1291,8 +1291,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 111,
-    "updatedAt": "2025-12-18T11:36:14Z",
+    "stargazerCount": 112,
+    "updatedAt": "2026-01-15T15:46:26Z",
     "url": "https://github.com/rose-pine/kitty",
     "usesCustomOpenGraphImage": true
   },
