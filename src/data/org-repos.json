@@ -1,11 +1,21 @@
 [
   {
+    "description": "Soho vibes for Yazi",
+    "homepageUrl": "",
+    "name": "yazi",
+    "repositoryTopics": [],
+    "stargazerCount": 5,
+    "updatedAt": "2026-01-16T18:37:40Z",
+    "url": "https://github.com/rose-pine/yazi",
+    "usesCustomOpenGraphImage": false
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 105,
-    "updatedAt": "2026-01-15T00:19:20Z",
+    "updatedAt": "2026-01-16T00:20:02Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -68,8 +78,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2887,
-    "updatedAt": "2026-01-15T16:20:44Z",
+    "stargazerCount": 2888,
+    "updatedAt": "2026-01-16T11:34:42Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -199,8 +209,8 @@
     "homepageUrl": "",
     "name": "ghostty",
     "repositoryTopics": [],
-    "stargazerCount": 42,
-    "updatedAt": "2026-01-03T18:05:03Z",
+    "stargazerCount": 43,
+    "updatedAt": "2026-01-16T15:48:37Z",
     "url": "https://github.com/rose-pine/ghostty",
     "usesCustomOpenGraphImage": true
   },
@@ -241,8 +251,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1502,
-    "updatedAt": "2026-01-12T10:52:12Z",
+    "stargazerCount": 1504,
+    "updatedAt": "2026-01-16T21:17:31Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -337,8 +347,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 577,
-    "updatedAt": "2026-01-11T09:18:38Z",
+    "stargazerCount": 578,
+    "updatedAt": "2026-01-16T14:27:14Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -389,16 +399,6 @@
     "updatedAt": "2025-12-30T08:42:08Z",
     "url": "https://github.com/rose-pine/zed",
     "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Yazi",
-    "homepageUrl": "",
-    "name": "yazi",
-    "repositoryTopics": [],
-    "stargazerCount": 5,
-    "updatedAt": "2026-01-10T14:31:43Z",
-    "url": "https://github.com/rose-pine/yazi",
-    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Soho vibes for Xresources",
@@ -729,8 +729,8 @@
       "shell",
       "terminal"
     ],
-    "stargazerCount": 54,
-    "updatedAt": "2026-01-10T14:31:42Z",
+    "stargazerCount": 55,
+    "updatedAt": "2026-01-16T14:50:59Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
   },
@@ -1042,8 +1042,8 @@
     "repositoryTopics": [
       "app"
     ],
-    "stargazerCount": 24,
-    "updatedAt": "2025-12-04T05:06:59Z",
+    "stargazerCount": 25,
+    "updatedAt": "2026-01-16T07:58:54Z",
     "url": "https://github.com/rose-pine/obsidian",
     "usesCustomOpenGraphImage": false
   },
