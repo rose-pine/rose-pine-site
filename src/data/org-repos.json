@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 105,
+    "updatedAt": "2026-01-17T00:18:58Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Yazi",
     "homepageUrl": "",
     "name": "yazi",
@@ -8,16 +18,6 @@
     "updatedAt": "2026-01-16T18:37:40Z",
     "url": "https://github.com/rose-pine/yazi",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 105,
-    "updatedAt": "2026-01-16T00:20:02Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for GNOME Builder",
@@ -57,8 +57,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 112,
-    "updatedAt": "2025-12-27T15:36:54Z",
+    "stargazerCount": 113,
+    "updatedAt": "2026-01-17T02:08:27Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
@@ -78,8 +78,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2888,
-    "updatedAt": "2026-01-16T11:34:42Z",
+    "stargazerCount": 2887,
+    "updatedAt": "2026-01-17T09:37:33Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -453,8 +453,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 101,
-    "updatedAt": "2025-12-31T15:46:06Z",
+    "stargazerCount": 102,
+    "updatedAt": "2026-01-17T01:09:30Z",
     "url": "https://github.com/rose-pine/windows-terminal",
     "usesCustomOpenGraphImage": true
   },
@@ -1789,8 +1789,8 @@
       "music",
       "terminal"
     ],
-    "stargazerCount": 13,
-    "updatedAt": "2025-11-05T14:46:06Z",
+    "stargazerCount": 14,
+    "updatedAt": "2026-01-17T13:22:22Z",
     "url": "https://github.com/rose-pine/cava",
     "usesCustomOpenGraphImage": true
   },
