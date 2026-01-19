@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 105,
-    "updatedAt": "2026-01-17T00:18:58Z",
+    "updatedAt": "2026-01-18T00:21:58Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -39,8 +39,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 239,
-    "updatedAt": "2026-01-11T12:55:33Z",
+    "stargazerCount": 240,
+    "updatedAt": "2026-01-18T05:47:01Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -78,8 +78,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2887,
-    "updatedAt": "2026-01-17T09:37:33Z",
+    "stargazerCount": 2890,
+    "updatedAt": "2026-01-18T17:27:37Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -143,8 +143,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 311,
-    "updatedAt": "2026-01-10T14:32:26Z",
+    "stargazerCount": 312,
+    "updatedAt": "2026-01-18T13:32:42Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -252,7 +252,7 @@
       "aesthetic"
     ],
     "stargazerCount": 1504,
-    "updatedAt": "2026-01-16T21:17:31Z",
+    "updatedAt": "2026-01-18T15:06:47Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -453,8 +453,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 102,
-    "updatedAt": "2026-01-17T01:09:30Z",
+    "stargazerCount": 103,
+    "updatedAt": "2026-01-18T21:43:52Z",
     "url": "https://github.com/rose-pine/windows-terminal",
     "usesCustomOpenGraphImage": true
   },
@@ -1415,7 +1415,7 @@
       "rose-pine"
     ],
     "stargazerCount": 315,
-    "updatedAt": "2025-12-28T00:56:33Z",
+    "updatedAt": "2026-01-18T07:54:23Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -1600,8 +1600,8 @@
       "rose-pine",
       "shell"
     ],
-    "stargazerCount": 35,
-    "updatedAt": "2026-01-11T14:30:02Z",
+    "stargazerCount": 36,
+    "updatedAt": "2026-01-18T13:34:50Z",
     "url": "https://github.com/rose-pine/fish",
     "usesCustomOpenGraphImage": true
   },
