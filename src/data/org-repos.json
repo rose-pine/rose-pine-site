@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 105,
-    "updatedAt": "2026-01-20T00:19:17Z",
+    "updatedAt": "2026-01-21T00:20:42Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -39,8 +39,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 240,
-    "updatedAt": "2026-01-18T05:47:01Z",
+    "stargazerCount": 241,
+    "updatedAt": "2026-01-21T09:08:40Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -78,8 +78,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2906,
-    "updatedAt": "2026-01-20T15:00:49Z",
+    "stargazerCount": 2910,
+    "updatedAt": "2026-01-21T09:42:23Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -251,8 +251,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1505,
-    "updatedAt": "2026-01-20T03:43:39Z",
+    "stargazerCount": 1506,
+    "updatedAt": "2026-01-21T08:31:49Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1415,7 +1415,7 @@
       "rose-pine"
     ],
     "stargazerCount": 315,
-    "updatedAt": "2026-01-18T07:54:23Z",
+    "updatedAt": "2026-01-21T11:35:39Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
@@ -1741,8 +1741,8 @@
     "homepageUrl": "",
     "name": "cosmic-desktop",
     "repositoryTopics": [],
-    "stargazerCount": 10,
-    "updatedAt": "2025-11-05T14:46:08Z",
+    "stargazerCount": 11,
+    "updatedAt": "2026-01-21T02:24:26Z",
     "url": "https://github.com/rose-pine/cosmic-desktop",
     "usesCustomOpenGraphImage": false
   },
