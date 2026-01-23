@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 105,
-    "updatedAt": "2026-01-21T00:20:42Z",
+    "updatedAt": "2026-01-22T00:21:11Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -39,8 +39,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 241,
-    "updatedAt": "2026-01-21T09:08:40Z",
+    "stargazerCount": 242,
+    "updatedAt": "2026-01-22T03:52:52Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -78,8 +78,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2910,
-    "updatedAt": "2026-01-21T09:42:23Z",
+    "stargazerCount": 2911,
+    "updatedAt": "2026-01-22T03:30:51Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -251,8 +251,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1506,
-    "updatedAt": "2026-01-21T08:31:49Z",
+    "stargazerCount": 1507,
+    "updatedAt": "2026-01-22T20:03:24Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -347,8 +347,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 578,
-    "updatedAt": "2026-01-16T14:27:14Z",
+    "stargazerCount": 579,
+    "updatedAt": "2026-01-22T02:44:20Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -729,8 +729,8 @@
       "shell",
       "terminal"
     ],
-    "stargazerCount": 56,
-    "updatedAt": "2026-01-19T09:31:01Z",
+    "stargazerCount": 57,
+    "updatedAt": "2026-01-22T06:53:22Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
   },
@@ -1682,8 +1682,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 2,
-    "updatedAt": "2025-11-05T14:46:14Z",
+    "stargazerCount": 3,
+    "updatedAt": "2026-01-22T06:23:51Z",
     "url": "https://github.com/rose-pine/desmos-desktop",
     "usesCustomOpenGraphImage": true
   },
@@ -1741,8 +1741,8 @@
     "homepageUrl": "",
     "name": "cosmic-desktop",
     "repositoryTopics": [],
-    "stargazerCount": 11,
-    "updatedAt": "2026-01-21T02:24:26Z",
+    "stargazerCount": 13,
+    "updatedAt": "2026-01-22T17:54:15Z",
     "url": "https://github.com/rose-pine/cosmic-desktop",
     "usesCustomOpenGraphImage": false
   },
