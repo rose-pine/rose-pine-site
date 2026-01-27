@@ -1,6 +1,7 @@
 import { glob } from "astro/loaders";
-import { defineCollection, reference, z } from "astro:content";
-import { locales } from "../i18n/ui";
+import { z } from "astro/zod";
+import { defineCollection, reference } from "astro:content";
+import { locales } from "./i18n/ui";
 
 const garden = defineCollection({
 	loader: glob({ pattern: "**/[^_]*.md", base: "./src/content/garden" }),
