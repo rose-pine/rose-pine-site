@@ -37,20 +37,13 @@ let allRepos = getAllRepos();
 				>
 					{t("home.description")}
 				</p>
-				<div class="flex items-center gap-5">
+				<div class="flex flex-wrap items-center gap-5">
 					<a
 						href={translatePath("/themes")}
-						class="animate-enter flex shrink-0 items-center gap-2.5 rounded-lg border border-pine/20 bg-pine/90 px-4 py-2.5 font-medium text-surface shadow-sm shadow-pine/30 transition select-none hover:bg-pine dark:text-text"
+						class="animate-enter flex shrink-0 items-center rounded-full border-2 border-pine bg-pine px-7 py-5 text-xl font-semibold tracking-tight text-surface shadow-md shadow-pine/30 transition select-none hover:bg-pine/80 dark:text-text"
 						style="--stagger: 2.5"
 					>
 						{t("home.primary_action")}
-					</a>
-					<a
-						href={translatePath("/resources")}
-						class="animate-enter flex shrink-0 items-center gap-2.5 rounded-lg border border-muted/20 bg-muted/10 px-4 py-2.5 font-medium shadow-sm transition select-none hover:bg-muted/15"
-						style="--stagger: 2.75"
-					>
-						{t("home.secondary_action")}
 					</a>
 				</div>
 			</div>

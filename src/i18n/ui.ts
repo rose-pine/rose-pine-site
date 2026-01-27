@@ -40,7 +40,6 @@ export const ui = {
 		"home.description":
 			"All natural pine, faux fur and a bit of soho vibes for the classy minimalist.",
 		"home.primary_action": "Explore themes",
-		"home.secondary_action": "Get involved",
 
 		"themes.title": "Themes",
 		"themes.description": "Hand-crafted collection of personalisation.",
@@ -99,7 +98,6 @@ export const ui = {
 		"home.description":
 			"Pino naturale, pelliccia sintetica e un po' di vibrazioni soho per il minimalista di classe.",
 		"home.primary_action": "Esplora i temi",
-		"home.secondary_action": "Coinvolge",
 
 		"themes.title": "Temi",
 		"themes.description": "Collezione artigianale di personalizzazione.",
