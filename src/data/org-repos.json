@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 105,
+    "updatedAt": "2026-01-28T00:20:51Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for fish",
     "homepageUrl": "",
     "name": "fish",
@@ -13,16 +23,6 @@
     "stargazerCount": 37,
     "updatedAt": "2026-01-27T20:19:24Z",
     "url": "https://github.com/rose-pine/fish",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 105,
-    "updatedAt": "2026-01-27T00:21:43Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -109,8 +109,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2919,
-    "updatedAt": "2026-01-27T14:15:56Z",
+    "stargazerCount": 2918,
+    "updatedAt": "2026-01-28T03:52:59Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -159,8 +159,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 316,
-    "updatedAt": "2026-01-27T17:08:08Z",
+    "stargazerCount": 318,
+    "updatedAt": "2026-01-28T23:13:53Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -237,8 +237,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 22,
-    "updatedAt": "2026-01-04T17:35:06Z",
+    "stargazerCount": 23,
+    "updatedAt": "2026-01-28T00:57:03Z",
     "url": "https://github.com/rose-pine/rofi",
     "usesCustomOpenGraphImage": true
   },
@@ -320,8 +320,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 131,
-    "updatedAt": "2025-12-16T01:50:54Z",
+    "stargazerCount": 132,
+    "updatedAt": "2026-01-28T08:22:52Z",
     "url": "https://github.com/rose-pine/iterm",
     "usesCustomOpenGraphImage": true
   },
@@ -1246,8 +1246,8 @@
     "homepageUrl": "",
     "name": "lazygit",
     "repositoryTopics": [],
-    "stargazerCount": 3,
-    "updatedAt": "2025-11-05T14:46:51Z",
+    "stargazerCount": 4,
+    "updatedAt": "2026-01-28T01:02:24Z",
     "url": "https://github.com/rose-pine/lazygit",
     "usesCustomOpenGraphImage": true
   },
