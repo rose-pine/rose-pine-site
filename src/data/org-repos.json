@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 105,
-    "updatedAt": "2026-01-28T00:20:51Z",
+    "updatedAt": "2026-01-29T00:23:11Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -109,8 +109,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2918,
-    "updatedAt": "2026-01-28T03:52:59Z",
+    "stargazerCount": 2922,
+    "updatedAt": "2026-01-30T00:16:38Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -134,8 +134,8 @@
     "homepageUrl": "",
     "name": "rose-pine-bloom",
     "repositoryTopics": [],
-    "stargazerCount": 15,
-    "updatedAt": "2025-12-31T09:31:52Z",
+    "stargazerCount": 16,
+    "updatedAt": "2026-01-29T16:53:25Z",
     "url": "https://github.com/rose-pine/rose-pine-bloom",
     "usesCustomOpenGraphImage": false
   },
@@ -363,8 +363,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 579,
-    "updatedAt": "2026-01-22T02:44:20Z",
+    "stargazerCount": 581,
+    "updatedAt": "2026-01-29T19:10:23Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -745,8 +745,8 @@
       "shell",
       "terminal"
     ],
-    "stargazerCount": 57,
-    "updatedAt": "2026-01-22T06:53:22Z",
+    "stargazerCount": 58,
+    "updatedAt": "2026-01-29T02:55:24Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
   },
@@ -1036,8 +1036,8 @@
     "repositoryTopics": [
       "app"
     ],
-    "stargazerCount": 2,
-    "updatedAt": "2025-11-05T14:50:26Z",
+    "stargazerCount": 3,
+    "updatedAt": "2026-01-29T16:57:13Z",
     "url": "https://github.com/rose-pine/onecommander",
     "usesCustomOpenGraphImage": true
   },
@@ -1697,8 +1697,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 43,
-    "updatedAt": "2026-01-12T18:24:18Z",
+    "stargazerCount": 44,
+    "updatedAt": "2026-01-29T05:44:20Z",
     "url": "https://github.com/rose-pine/dark-reader",
     "usesCustomOpenGraphImage": true
   },
