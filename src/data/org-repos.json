@@ -1,11 +1,37 @@
 [
   {
+    "description": "Soho vibes for Miniflux",
+    "homepageUrl": "",
+    "name": "miniflux",
+    "repositoryTopics": [],
+    "stargazerCount": 0,
+    "updatedAt": "2026-02-02T23:05:46Z",
+    "url": "https://github.com/rose-pine/miniflux",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "Soho vibes for Pygments",
+    "homepageUrl": "",
+    "name": "pygments",
+    "repositoryTopics": [
+      "ipython",
+      "pygments-style",
+      "radian",
+      "rose-pine",
+      "pygments"
+    ],
+    "stargazerCount": 2,
+    "updatedAt": "2026-02-02T21:03:54Z",
+    "url": "https://github.com/rose-pine/pygments",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 105,
-    "updatedAt": "2026-02-01T00:27:37Z",
+    "updatedAt": "2026-02-02T00:24:55Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -45,8 +71,8 @@
     "homepageUrl": "",
     "name": "yazi",
     "repositoryTopics": [],
-    "stargazerCount": 6,
-    "updatedAt": "2026-01-27T11:28:08Z",
+    "stargazerCount": 7,
+    "updatedAt": "2026-02-02T00:27:02Z",
     "url": "https://github.com/rose-pine/yazi",
     "usesCustomOpenGraphImage": false
   },
@@ -70,8 +96,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 244,
-    "updatedAt": "2026-01-27T09:11:18Z",
+    "stargazerCount": 245,
+    "updatedAt": "2026-02-02T02:40:23Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -109,8 +135,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2925,
-    "updatedAt": "2026-02-01T00:58:42Z",
+    "stargazerCount": 2927,
+    "updatedAt": "2026-02-02T17:22:54Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -159,8 +185,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 320,
-    "updatedAt": "2026-01-31T12:31:11Z",
+    "stargazerCount": 321,
+    "updatedAt": "2026-02-02T22:32:55Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -225,8 +251,8 @@
     "homepageUrl": "",
     "name": "ghostty",
     "repositoryTopics": [],
-    "stargazerCount": 43,
-    "updatedAt": "2026-01-16T15:48:37Z",
+    "stargazerCount": 44,
+    "updatedAt": "2026-02-02T20:46:11Z",
     "url": "https://github.com/rose-pine/ghostty",
     "usesCustomOpenGraphImage": true
   },
@@ -268,7 +294,7 @@
       "aesthetic"
     ],
     "stargazerCount": 1515,
-    "updatedAt": "2026-02-01T02:17:31Z",
+    "updatedAt": "2026-02-02T07:50:14Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -440,8 +466,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 16,
-    "updatedAt": "2025-11-05T14:51:25Z",
+    "stargazerCount": 17,
+    "updatedAt": "2026-02-02T12:35:36Z",
     "url": "https://github.com/rose-pine/xfce-terminal",
     "usesCustomOpenGraphImage": true
   },
@@ -1369,8 +1395,8 @@
       "tiling-window-manager",
       "theme"
     ],
-    "stargazerCount": 28,
-    "updatedAt": "2026-01-10T14:31:41Z",
+    "stargazerCount": 29,
+    "updatedAt": "2026-02-02T14:32:36Z",
     "url": "https://github.com/rose-pine/hyprland",
     "usesCustomOpenGraphImage": true
   },
@@ -1932,22 +1958,6 @@
     "stargazerCount": 42,
     "updatedAt": "2025-11-05T13:41:28Z",
     "url": "https://github.com/rose-pine/terminal.app",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Pygments",
-    "homepageUrl": "",
-    "name": "pygments",
-    "repositoryTopics": [
-      "ipython",
-      "pygments-style",
-      "radian",
-      "rose-pine",
-      "pygments"
-    ],
-    "stargazerCount": 2,
-    "updatedAt": "2025-10-27T10:36:32Z",
-    "url": "https://github.com/rose-pine/pygments",
     "usesCustomOpenGraphImage": true
   },
   {
