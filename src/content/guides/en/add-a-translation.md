@@ -100,4 +100,4 @@ The author's username will be matched to a file inside the `src/content/authors/
 
 ## Submit your changes
 
-Create a pull request on [rose-pine/rose-pine-site](https://github.com/rose-pine/rose-pine-site). We'll review and share our appreciate for making Rosé Pine a lil more accessible!
+Create a pull request on [rose-pine/rose-pine-site](https://github.com/rose-pine/rose-pine-site). We'll review and share our appreciation for making Rosé Pine a lil more accessible!
