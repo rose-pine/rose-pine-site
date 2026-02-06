@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 105,
+    "updatedAt": "2026-02-05T00:24:47Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Userstyles",
     "homepageUrl": "",
     "name": "userstyles",
@@ -15,16 +25,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 105,
-    "updatedAt": "2026-02-04T00:22:38Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for tmux",
     "homepageUrl": "",
     "name": "tmux",
@@ -34,8 +34,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 247,
-    "updatedAt": "2026-02-03T22:47:09Z",
+    "stargazerCount": 248,
+    "updatedAt": "2026-02-05T06:36:52Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -76,8 +76,8 @@
       "rose-pine",
       "shell"
     ],
-    "stargazerCount": 37,
-    "updatedAt": "2026-01-27T20:19:24Z",
+    "stargazerCount": 38,
+    "updatedAt": "2026-02-05T18:57:48Z",
     "url": "https://github.com/rose-pine/fish",
     "usesCustomOpenGraphImage": true
   },
@@ -135,8 +135,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2928,
-    "updatedAt": "2026-02-04T17:32:06Z",
+    "stargazerCount": 2929,
+    "updatedAt": "2026-02-05T13:50:22Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -231,8 +231,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 136,
-    "updatedAt": "2026-01-12T00:28:56Z",
+    "stargazerCount": 137,
+    "updatedAt": "2026-02-05T09:30:52Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
@@ -293,8 +293,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1514,
-    "updatedAt": "2026-02-04T17:32:09Z",
+    "stargazerCount": 1515,
+    "updatedAt": "2026-02-05T13:48:03Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -389,8 +389,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 583,
-    "updatedAt": "2026-02-01T10:26:19Z",
+    "stargazerCount": 584,
+    "updatedAt": "2026-02-05T03:59:16Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
