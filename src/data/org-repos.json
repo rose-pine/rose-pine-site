@@ -1,11 +1,30 @@
 [
   {
+    "description": "Soho vibes for Tide",
+    "homepageUrl": "",
+    "name": "tide",
+    "repositoryTopics": [
+      "fish",
+      "fish-plugin",
+      "rose-pine",
+      "theme",
+      "tide",
+      "soho-vibes",
+      "prompt",
+      "fish-shell"
+    ],
+    "stargazerCount": 0,
+    "updatedAt": "2026-02-06T15:37:52Z",
+    "url": "https://github.com/rose-pine/tide",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 105,
-    "updatedAt": "2026-02-05T00:24:47Z",
+    "updatedAt": "2026-02-06T00:22:23Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -19,8 +38,8 @@
       "userstyles",
       "stylus"
     ],
-    "stargazerCount": 36,
-    "updatedAt": "2026-02-04T10:25:14Z",
+    "stargazerCount": 37,
+    "updatedAt": "2026-02-06T10:42:54Z",
     "url": "https://github.com/rose-pine/userstyles",
     "usesCustomOpenGraphImage": true
   },
@@ -135,8 +154,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2929,
-    "updatedAt": "2026-02-05T13:50:22Z",
+    "stargazerCount": 2930,
+    "updatedAt": "2026-02-06T09:56:50Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -251,8 +270,8 @@
     "homepageUrl": "",
     "name": "ghostty",
     "repositoryTopics": [],
-    "stargazerCount": 44,
-    "updatedAt": "2026-02-02T20:46:11Z",
+    "stargazerCount": 45,
+    "updatedAt": "2026-02-06T09:55:00Z",
     "url": "https://github.com/rose-pine/ghostty",
     "usesCustomOpenGraphImage": true
   },
@@ -293,8 +312,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1515,
-    "updatedAt": "2026-02-05T13:48:03Z",
+    "stargazerCount": 1514,
+    "updatedAt": "2026-02-06T21:22:02Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1745,8 +1764,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 153,
-    "updatedAt": "2026-01-27T10:13:30Z",
+    "stargazerCount": 154,
+    "updatedAt": "2026-02-06T12:17:58Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
