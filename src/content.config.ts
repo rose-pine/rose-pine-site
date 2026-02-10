@@ -36,8 +36,8 @@ const authors = defineCollection({
 	loader: glob({ pattern: "**/[^_]*.json", base: "./src/content/authors" }),
 	schema: z.object({
 		name: z.string(),
-		url: z.string().url(),
-		avatarUrl: z.string().url(),
+		url: z.url(),
+		avatarUrl: z.url(),
 	}),
 });
 
