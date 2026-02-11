@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 105,
-    "updatedAt": "2026-02-09T00:25:43Z",
+    "updatedAt": "2026-02-10T00:30:15Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -53,8 +53,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 248,
-    "updatedAt": "2026-02-09T12:55:13Z",
+    "stargazerCount": 250,
+    "updatedAt": "2026-02-10T22:49:48Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -154,8 +154,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2933,
-    "updatedAt": "2026-02-08T17:53:21Z",
+    "stargazerCount": 2936,
+    "updatedAt": "2026-02-10T22:26:58Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -204,8 +204,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 321,
-    "updatedAt": "2026-02-04T22:51:09Z",
+    "stargazerCount": 322,
+    "updatedAt": "2026-02-10T22:50:08Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -250,8 +250,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 137,
-    "updatedAt": "2026-02-05T09:30:52Z",
+    "stargazerCount": 138,
+    "updatedAt": "2026-02-10T22:50:20Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
@@ -313,7 +313,7 @@
       "aesthetic"
     ],
     "stargazerCount": 1515,
-    "updatedAt": "2026-02-07T09:10:04Z",
+    "updatedAt": "2026-02-10T21:32:01Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -408,8 +408,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 585,
-    "updatedAt": "2026-02-09T22:14:07Z",
+    "stargazerCount": 586,
+    "updatedAt": "2026-02-10T12:52:12Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -1663,8 +1663,8 @@
       "addon",
       "firefox-extension"
     ],
-    "stargazerCount": 89,
-    "updatedAt": "2026-02-09T22:09:15Z",
+    "stargazerCount": 90,
+    "updatedAt": "2026-02-10T22:48:37Z",
     "url": "https://github.com/rose-pine/firefox",
     "usesCustomOpenGraphImage": true
   },
