@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 104,
-    "updatedAt": "2026-02-13T10:00:55Z",
+    "updatedAt": "2026-02-14T00:25:16Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -154,8 +154,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2939,
-    "updatedAt": "2026-02-13T17:50:58Z",
+    "stargazerCount": 2940,
+    "updatedAt": "2026-02-14T06:03:43Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -179,8 +179,8 @@
     "homepageUrl": "",
     "name": "rose-pine-bloom",
     "repositoryTopics": [],
-    "stargazerCount": 17,
-    "updatedAt": "2026-02-07T20:14:15Z",
+    "stargazerCount": 18,
+    "updatedAt": "2026-02-14T07:30:21Z",
     "url": "https://github.com/rose-pine/rose-pine-bloom",
     "usesCustomOpenGraphImage": false
   },
@@ -282,8 +282,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 23,
-    "updatedAt": "2026-01-28T00:57:03Z",
+    "stargazerCount": 24,
+    "updatedAt": "2026-02-14T07:33:53Z",
     "url": "https://github.com/rose-pine/rofi",
     "usesCustomOpenGraphImage": true
   },
@@ -312,8 +312,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1516,
-    "updatedAt": "2026-02-12T05:12:53Z",
+    "stargazerCount": 1518,
+    "updatedAt": "2026-02-14T07:17:39Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -328,8 +328,8 @@
       "vim",
       "editor"
     ],
-    "stargazerCount": 45,
-    "updatedAt": "2026-02-01T22:12:35Z",
+    "stargazerCount": 46,
+    "updatedAt": "2026-02-14T14:56:23Z",
     "url": "https://github.com/rose-pine/vim",
     "usesCustomOpenGraphImage": true
   },
@@ -1399,8 +1399,8 @@
       "theme",
       "window-manager"
     ],
-    "stargazerCount": 13,
-    "updatedAt": "2025-12-03T13:15:40Z",
+    "stargazerCount": 14,
+    "updatedAt": "2026-02-14T07:38:37Z",
     "url": "https://github.com/rose-pine/i3",
     "usesCustomOpenGraphImage": true
   },
@@ -1860,8 +1860,8 @@
       "terminal",
       "theme"
     ],
-    "stargazerCount": 40,
-    "updatedAt": "2026-02-01T08:07:10Z",
+    "stargazerCount": 41,
+    "updatedAt": "2026-02-14T07:41:55Z",
     "url": "https://github.com/rose-pine/btop",
     "usesCustomOpenGraphImage": true
   },
