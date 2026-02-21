@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 104,
-    "updatedAt": "2026-02-19T00:25:40Z",
+    "updatedAt": "2026-02-20T00:23:00Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -38,8 +38,8 @@
       "userstyles",
       "stylus"
     ],
-    "stargazerCount": 37,
-    "updatedAt": "2026-02-06T10:42:54Z",
+    "stargazerCount": 38,
+    "updatedAt": "2026-02-20T22:59:48Z",
     "url": "https://github.com/rose-pine/userstyles",
     "usesCustomOpenGraphImage": true
   },
@@ -53,8 +53,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 250,
-    "updatedAt": "2026-02-18T23:16:08Z",
+    "stargazerCount": 251,
+    "updatedAt": "2026-02-20T03:43:08Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -154,8 +154,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2942,
-    "updatedAt": "2026-02-18T20:21:58Z",
+    "stargazerCount": 2943,
+    "updatedAt": "2026-02-20T00:58:15Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -1902,8 +1902,8 @@
       "bear",
       "hacktoberfest"
     ],
-    "stargazerCount": 10,
-    "updatedAt": "2025-11-05T14:46:00Z",
+    "stargazerCount": 11,
+    "updatedAt": "2026-02-20T11:25:05Z",
     "url": "https://github.com/rose-pine/bear-blog",
     "usesCustomOpenGraphImage": true
   },
