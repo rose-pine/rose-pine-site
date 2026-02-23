@@ -1,22 +1,49 @@
 [
   {
-    "description": "Soho vibes for Ghostty",
+    "description": "Soho vibes for Limine",
     "homepageUrl": "",
-    "name": "ghostty",
+    "name": "limine",
+    "repositoryTopics": [
+      "bootloader",
+      "limine",
+      "limine-bootloader",
+      "rose-pine",
+      "soho-vibes",
+      "theme"
+    ],
+    "stargazerCount": 0,
+    "updatedAt": "2026-02-22T16:32:21Z",
+    "url": "https://github.com/rose-pine/limine",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "Generate Rosé Pine themes",
+    "homepageUrl": "",
+    "name": "rose-pine-bloom",
     "repositoryTopics": [],
-    "stargazerCount": 46,
-    "updatedAt": "2026-02-17T07:38:31Z",
-    "url": "https://github.com/rose-pine/ghostty",
-    "usesCustomOpenGraphImage": true
+    "stargazerCount": 18,
+    "updatedAt": "2026-02-14T07:30:21Z",
+    "url": "https://github.com/rose-pine/rose-pine-bloom",
+    "usesCustomOpenGraphImage": false
   },
   {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
-    "stargazerCount": 104,
-    "updatedAt": "2026-02-21T00:23:59Z",
+    "stargazerCount": 105,
+    "updatedAt": "2026-02-22T01:00:44Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Ghostty",
+    "homepageUrl": "",
+    "name": "ghostty",
+    "repositoryTopics": [],
+    "stargazerCount": 47,
+    "updatedAt": "2026-02-22T13:45:37Z",
+    "url": "https://github.com/rose-pine/ghostty",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -164,8 +191,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2944,
-    "updatedAt": "2026-02-21T03:03:05Z",
+    "stargazerCount": 2946,
+    "updatedAt": "2026-02-22T15:15:10Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -183,16 +210,6 @@
     "updatedAt": "2025-12-14T16:57:29Z",
     "url": "https://github.com/rose-pine/gotosocial",
     "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Generate Rosé Pine themes",
-    "homepageUrl": "",
-    "name": "rose-pine-bloom",
-    "repositoryTopics": [],
-    "stargazerCount": 18,
-    "updatedAt": "2026-02-14T07:30:21Z",
-    "url": "https://github.com/rose-pine/rose-pine-bloom",
-    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Rosé Pine community health files",
@@ -312,8 +329,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1520,
-    "updatedAt": "2026-02-21T23:16:40Z",
+    "stargazerCount": 1521,
+    "updatedAt": "2026-02-22T00:59:51Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -514,8 +531,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 104,
-    "updatedAt": "2026-01-26T21:40:57Z",
+    "stargazerCount": 105,
+    "updatedAt": "2026-02-22T03:27:06Z",
     "url": "https://github.com/rose-pine/windows-terminal",
     "usesCustomOpenGraphImage": true
   },
@@ -1132,8 +1149,8 @@
       "rose-pine",
       "soho-vibes"
     ],
-    "stargazerCount": 0,
-    "updatedAt": "2025-11-05T14:50:22Z",
+    "stargazerCount": 1,
+    "updatedAt": "2026-02-22T03:39:22Z",
     "url": "https://github.com/rose-pine/nomacs",
     "usesCustomOpenGraphImage": true
   },
@@ -1475,8 +1492,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 318,
-    "updatedAt": "2026-02-21T00:52:50Z",
+    "stargazerCount": 319,
+    "updatedAt": "2026-02-22T09:01:41Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
