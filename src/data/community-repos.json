@@ -605,4 +605,11 @@
 		"authors": [{ "name": "bomgar", "url": "https://github.com/bomgar" }],
 		"has_variants": true
 	}
+	{
+		"name": "Archive of Our Own",
+		"url": "https://github.com/Wolfbatcat/ao3-rose-pine",
+		"tags": ["community"],
+		"authors": [{ "name": "BlackBatCat", "url": "https://github.com/Wolfbatcat" }],
+		"has_variants": true
+	}
 ]
