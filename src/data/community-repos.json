@@ -604,5 +604,12 @@
 		"tags": ["community"],
 		"authors": [{ "name": "bomgar", "url": "https://github.com/bomgar" }],
 		"has_variants": true
+	},
+	{
+		"name": "Starlight",
+		"url": "https://github.com/trueberryless-org/starlight-theme-rose-pine",
+		"tags": ["community"],
+		"authors": [{ "name": "Felix Schneider", "url": "https://github.com/trueberryless" }],
+		"has_variants": true
 	}
 ]
