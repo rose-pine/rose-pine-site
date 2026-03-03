@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 105,
-    "updatedAt": "2026-03-01T00:27:24Z",
+    "updatedAt": "2026-03-02T00:23:53Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -43,8 +43,8 @@
     "homepageUrl": "",
     "name": "yazi",
     "repositoryTopics": [],
-    "stargazerCount": 7,
-    "updatedAt": "2026-02-23T19:28:59Z",
+    "stargazerCount": 8,
+    "updatedAt": "2026-03-02T08:49:33Z",
     "url": "https://github.com/rose-pine/yazi",
     "usesCustomOpenGraphImage": false
   },
@@ -145,8 +145,8 @@
       "rose-pine",
       "pygments"
     ],
-    "stargazerCount": 2,
-    "updatedAt": "2026-02-02T21:03:54Z",
+    "stargazerCount": 3,
+    "updatedAt": "2026-03-02T08:58:05Z",
     "url": "https://github.com/rose-pine/pygments",
     "usesCustomOpenGraphImage": true
   },
@@ -210,8 +210,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2952,
-    "updatedAt": "2026-03-01T15:39:53Z",
+    "stargazerCount": 2953,
+    "updatedAt": "2026-03-02T19:21:21Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -250,8 +250,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 335,
-    "updatedAt": "2026-02-28T23:34:30Z",
+    "stargazerCount": 336,
+    "updatedAt": "2026-03-02T06:01:20Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -348,8 +348,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1529,
-    "updatedAt": "2026-03-01T15:46:39Z",
+    "stargazerCount": 1530,
+    "updatedAt": "2026-03-02T04:56:36Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -444,8 +444,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 586,
-    "updatedAt": "2026-02-10T12:52:12Z",
+    "stargazerCount": 585,
+    "updatedAt": "2026-03-02T17:08:09Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -550,8 +550,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 105,
-    "updatedAt": "2026-02-22T03:27:06Z",
+    "stargazerCount": 106,
+    "updatedAt": "2026-03-02T07:13:28Z",
     "url": "https://github.com/rose-pine/windows-terminal",
     "usesCustomOpenGraphImage": true
   },
@@ -1778,8 +1778,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 44,
-    "updatedAt": "2026-01-29T05:44:20Z",
+    "stargazerCount": 45,
+    "updatedAt": "2026-03-02T10:09:34Z",
     "url": "https://github.com/rose-pine/dark-reader",
     "usesCustomOpenGraphImage": true
   },
