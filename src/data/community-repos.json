@@ -24,6 +24,18 @@
 		"category": "terminal"
 	},
 	{
+		"name": "Archive of Our Own",
+		"url": "https://github.com/Wolfbatcat/ao3-rose-pine",
+		"tags": [],
+		"contributors": [
+			{
+				"name": "BlackBatCat",
+				"url": "https://github.com/Wolfbatcat"
+			}
+		],
+		"category": "browser"
+	},
+	{
 		"name": "Base16",
 		"url": "https://github.com/edunfelt/base16-rose-pine-scheme",
 		"tags": [],
