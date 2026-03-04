@@ -606,6 +606,14 @@
 		"has_variants": true
 	},
 	{
+
+		"name": "Archive of Our Own",
+		"url": "https://github.com/Wolfbatcat/ao3-rose-pine",
+		"tags": ["community"],
+		"authors": [{ "name": "BlackBatCat", "url": "https://github.com/Wolfbatcat" }],
+    "has_variants": true
+  },
+  {
 		"name": "Starlight",
 		"url": "https://github.com/trueberryless-org/starlight-theme-rose-pine",
 		"tags": ["community"],
