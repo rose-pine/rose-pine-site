@@ -32,10 +32,8 @@ const {
 		aria-labelledby={`${id}-title`}
 		aria-describedby={`${id}-description`}
 		class:list={[
-			"isolate flex h-full w-full overflow-clip rounded-3xl border border-overlay bg-surface p-6 transition hover:border-iris/20 hover:bg-iris/5",
-			image
-				? "flex-col items-center sm:flex-row sm:p-4"
-				: "flex-col items-center",
+			"isolate flex h-full w-full overflow-clip rounded-3xl border border-overlay bg-surface p-card-gutter transition hover:border-iris/20 hover:bg-iris/5",
+			image ? "flex-col items-center sm:flex-row" : "flex-col items-center",
 		]}
 	>
 		{
