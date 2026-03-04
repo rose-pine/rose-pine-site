@@ -32,13 +32,16 @@ let t = useTranslations(lang);
 				class="flex flex-col gap-6"
 			>
 				<div class="hidden">
-					<label>Don't fill this out if you're human</label>
-					<input name="bot-field" type="text" />
+					<label for="bot-field">Don't fill this out if you're human</label>
+					<input id="bot-field" name="bot-field" type="text" />
 				</div>
 				<div class="flex max-w-md flex-col gap-1.5">
-					<label class="font-medium">{t("submit.form.link_label")}</label>
+					<label for="repository-link" class="font-medium"
+						>{t("submit.form.link_label")}</label
+					>
 					<input
 						required
+						id="repository-link"
 						name="repository-link"
 						type="text"
 						class="h-10 rounded-sm border border-muted/20 px-3 font-mono placeholder-muted placeholder:text-sm"
