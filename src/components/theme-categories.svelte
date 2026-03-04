@@ -14,7 +14,7 @@
 	<RadioGroup.Item
 		id="category-{label}"
 		value={category}
-		class="flex rounded-full border tonal-muted px-3 py-1.5 font-mono text-xs font-medium text-subtle capitalize transition-all select-none hover:tonal-pressed-muted hover:text-text focus:outline-none focus-visible:ring focus-visible:ring-rose data-[state=checked]:tonal-rose data-[state=checked]:font-semibold data-[state=checked]:hover:tonal-pressed-rose"
+		class="flex rounded-full border tonal-muted px-3 py-1.5 font-mono text-xs font-medium text-subtle capitalize transition-[background-color] select-none hover:tonal-pressed-muted hover:text-text focus:outline-none focus-visible:ring focus-visible:ring-rose data-[state=checked]:tonal-rose data-[state=checked]:font-semibold data-[state=checked]:hover:tonal-pressed-rose"
 	>
 		<Label.Root for="category-{label}">{label}</Label.Root>
 	</RadioGroup.Item>
