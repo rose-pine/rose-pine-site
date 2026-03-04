@@ -163,7 +163,7 @@
 
 							<Command.Group value="{group.heading} {groupIndex} group">
 								<Command.GroupHeading
-									class="px-(--dialog-gutter) font-serif text-sm text-muted italic"
+									class="px-(--dialog-gutter) font-serif text-sm text-subtle italic"
 								>
 									{group.heading}
 								</Command.GroupHeading>
