@@ -2,6 +2,7 @@
 import IntroSection from "../../components/intro-section.astro";
 import { useTranslations, withLangPaths } from "../../i18n/utilities";
 import Page from "../../layouts/page.astro";
+import categories from "../../data/categories.json";
 
 export async function getStaticPaths() {
 	return await withLangPaths();
@@ -47,6 +48,23 @@ let t = useTranslations(lang);
 						class="h-10 rounded-sm border border-muted/20 px-3 font-mono placeholder-muted placeholder:text-sm"
 						placeholder="https://sr.ht/~her/love"
 					/>
+				</div>
+				<div class="flex max-w-md flex-col gap-1.5">
+					<label for="repository-category" class="font-medium"
+						>{t("submit.form.category_label")}</label
+					>
+					<select
+						required
+						id="repository-category"
+						name="repository-category"
+						class="h-10 appearance-none rounded-sm border border-muted/20 px-3 font-mono capitalize placeholder-muted placeholder:text-sm"
+					>
+						{
+							categories.map((category) => (
+								<option value={category}>{category}</option>
+							))
+						}
+					</select>
 				</div>
 				<div>
 					<button

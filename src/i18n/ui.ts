@@ -67,6 +67,7 @@ export const ui = {
 		"submit.title": "Submit a theme",
 		"submit.description": "Send in your theme to be added to Rosé Pine.",
 		"submit.form.link_label": "Link to repository",
+		"submit.form.category_label": "Category",
 		"submit.form.primary_action": "Submit",
 	},
 	it: {
@@ -125,6 +126,7 @@ export const ui = {
 		"submit.title": "Invia un tema",
 		"submit.description": "Invia il tuo tema per aggiungerlo a Rosé Pine.",
 		"submit.form.link_label": "Link al repository",
+		"submit.form.category_label": "Categoria",
 		"submit.form.primary_action": "Invia",
 	},
 } as const;
