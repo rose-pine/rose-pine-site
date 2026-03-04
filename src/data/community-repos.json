@@ -708,6 +708,18 @@
 		"category": "editor"
 	},
 	{
+		"name": "Starlight",
+		"url": "https://github.com/trueberryless-org/starlight-theme-rose-pine",
+		"tags": [],
+		"contributors": [
+			{
+				"name": "Felix Schneider",
+				"url": "https://github.com/trueberryless"
+			}
+		],
+		"category": "browser"
+	},
+	{
 		"name": "swaylock",
 		"url": "https://github.com/d2718nis/rose-pine-swaylock",
 		"tags": [],
