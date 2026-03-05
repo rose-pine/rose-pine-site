@@ -15,15 +15,7 @@ export type Props = {
 	lang?: string;
 };
 
-const {
-	id,
-	href,
-	title,
-	description,
-	image,
-	publishedAt,
-	lang = "en",
-} = Astro.props;
+const { id, href, title, description, image, publishedAt, lang } = Astro.props;
 ---
 
 <article>
