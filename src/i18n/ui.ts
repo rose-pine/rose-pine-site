@@ -19,7 +19,12 @@ export const ui = {
 
 		"footer.nav_label": "Secondary",
 		"footer.heading.collections": "Collections",
+		"footer.collection.photography": "Photography",
 		"footer.heading.resources": "Resources",
+		"footer.resource.create": "Create a theme",
+		"footer.resource.submit": "Submit your theme",
+		"footer.resource.translate": "Add a translation",
+		"footer.resource.repo_template": "Repository template",
 		"footer.heading.social": "Social",
 
 		"nav.home": "Home",
@@ -78,7 +83,12 @@ export const ui = {
 
 		"footer.nav_label": "Secondaria",
 		"footer.heading.collections": "Collezioni",
+		"footer.collection.photography": "Fotografie",
 		"footer.heading.resources": "Risorse",
+		"footer.resource.create": "Crea un tema",
+		"footer.resource.submit": "Invia il tuo tema",
+		"footer.resource.translate": "Aggiungi una traduzione",
+		"footer.resource.repo_template": "Modello di repository",
 		"footer.heading.social": "Sociale",
 
 		"nav.home": "Casa",

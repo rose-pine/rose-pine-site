@@ -14,20 +14,27 @@ let t = useTranslations(lang);
 let translatePath = useTranslatedPath(lang);
 
 let resourceItems = [
-	{ name: "Create a theme", href: translatePath("/resources/create-a-theme") },
 	{
-		name: "Add a translation",
+		name: t("footer.resource.create"),
+		href: translatePath("/resources/create-a-theme"),
+	},
+	{
+		name: t("footer.resource.submit"),
+		href: translatePath("/resources/submit-a-theme"),
+	},
+	{
+		name: t("footer.resource.translate"),
 		href: translatePath("/resources/add-a-translation"),
 	},
 	{
-		name: "Repository template",
+		name: t("footer.resource.repo_template"),
 		href: "https://github.com/rose-pine/rose-pine-template",
 	},
 ];
 
 let featureItems = [
 	{
-		name: t("photography.title"),
+		name: t("footer.collection.photography"),
 		href: translatePath("/photography"),
 	},
 ];
