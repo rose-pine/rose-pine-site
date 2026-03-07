@@ -588,6 +588,18 @@
 		"category": "editor"
 	},
 	{
+		"name": "Piskel",
+		"url": "https://github.com/smolderdev/rose-pine-piskel",
+		"tags": [],
+		"contributors": [
+			{
+				"name": "Smolder",
+				"url": "https://github.com/smolderdev"
+			}
+		],
+		"category": "library"
+	},
+	{
 		"name": "Posting",
 		"url": "https://github.com/elithper/posting",
 		"tags": [],
