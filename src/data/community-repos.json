@@ -180,6 +180,18 @@
 		"category": "system"
 	},
 	{
+		"name": "Eclipse IDE",
+		"url": "https://github.com/smolderdev/rose-pine-eclipse",
+		"tags": [],
+		"contributors": [
+			{
+				"name": "Smolder",
+				"url": "https://github.com/smolderdev"
+			}
+		],
+		"category": "editor"
+	},
+	{
 		"name": "Emacs",
 		"url": "https://github.com/konrad1977/pinerose-emacs",
 		"tags": [],
