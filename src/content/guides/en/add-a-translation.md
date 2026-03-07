@@ -8,7 +8,7 @@ updatedAt: 2025-11-09T12:00:00-06:00
 
 Language is beautiful and we appreciate you sharing your language with others! Below, we'll go into translating different parts of the website and articles.
 
-While not strictly necessary, having a local development environment will enable live previewing your changes. Alternatively, you may [make changes directly on GitHub](https://github.com/rose-pine/rose-pine-site).
+While not strictly necessary, having a local development environment will enable you to live preview your changes. Alternatively, you may [make changes directly on GitHub](https://github.com/rose-pine/rose-pine-site).
 
 ## Setup your development environment
 
