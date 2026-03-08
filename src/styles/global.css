@@ -12,7 +12,6 @@
 	--spacing-page-gutter: 1rem;
 	--spacing-page-gutter-half: calc(var(--spacing-page-gutter) / 2);
 	--spacing-page-gutter-quarter: calc(var(--spacing-page-gutter) / 4);
-	--spacing-card-gutter: 1.5rem;
 
 	--color-main-base: #191724;
 	--color-main-surface: #1f1d2e;
@@ -78,7 +77,6 @@
 
 	@media (width >= theme(--breakpoint-md)) {
 		--spacing-page-gutter: 3rem;
-		--spacing-card-gutter: 2rem;
 	}
 
 	@media (prefers-color-scheme: dark) {
