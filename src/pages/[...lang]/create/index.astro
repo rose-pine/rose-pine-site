@@ -49,10 +49,10 @@ const pages = [...currentLangGuides, ...(await englishFallbacks)].sort(
 );
 ---
 
-<Page title={t("resources.title")} description={t("resources.description")}>
+<Page title={t("create.title")} description={t("create.description")}>
 	<IntroSection
-		headline={t("resources.title")}
-		subheadline={t("resources.description")}
+		headline={t("create.title")}
+		subheadline={t("create.description")}
 	/>
 
 	<div class="h-page-top"></div>
@@ -64,7 +64,7 @@ const pages = [...currentLangGuides, ...(await englishFallbacks)].sort(
 					<ContentCard
 						id={page.id}
 						href={translatePath(
-							`/resources/${page.id.split("/").slice(1).join("/")}`,
+							`/create/${page.id.split("/").slice(1).join("/")}`,
 							page.id.split("/")[0],
 						)}
 						title={page.data.title}

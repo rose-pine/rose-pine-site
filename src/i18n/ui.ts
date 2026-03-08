@@ -24,13 +24,12 @@ export const ui = {
 		"footer.resource.create": "Create a theme",
 		"footer.resource.submit": "Submit your theme",
 		"footer.resource.translate": "Add a translation",
-		"footer.resource.repo_template": "Repository template",
 		"footer.heading.social": "Social",
 
 		"nav.home": "Home",
 		"nav.themes": "Themes",
 		"nav.palette": "Palette",
-		"nav.resources": "Create",
+		"nav.create": "Create",
 
 		"command.close": "Close command menu",
 		"command.empty_results": "No results found",
@@ -50,7 +49,6 @@ export const ui = {
 		"themes.ports": "Ports",
 		"themes.contributors": "Contributors",
 
-
 		"photography.title": "Photography",
 		"photography.description":
 			"If you don't stop for a while, you might miss a perfect view.",
@@ -60,10 +58,10 @@ export const ui = {
 		"palette.variants": "Variants",
 		"palette.colours": "Colours",
 
-		"resources.title": "Resources",
-		"resources.description":
+		"create.title": "Create",
+		"create.description":
 			"Guides, tools, and inspiration for creating beautiful themes.",
-		"resources.also_available_in": "Also available in:",
+		"create.also_available_in": "Also available in:",
 
 		"submit.title": "Submit a theme",
 		"submit.description": "Send in your theme to be added to Rosé Pine.",
@@ -84,13 +82,12 @@ export const ui = {
 		"footer.resource.create": "Crea un tema",
 		"footer.resource.submit": "Invia il tuo tema",
 		"footer.resource.translate": "Aggiungi una traduzione",
-		"footer.resource.repo_template": "Modello di repository",
 		"footer.heading.social": "Sociale",
 
 		"nav.home": "Casa",
 		"nav.themes": "Temi",
 		"nav.palette": "Tavolozza",
-		"nav.resources": "Crea",
+		"nav.create": "Crea",
 
 		"command.close": "Chiudi il menu dei comandi",
 		"command.empty_results": "Nessun risultato trovato",
@@ -110,7 +107,6 @@ export const ui = {
 		"themes.ports": "Porti",
 		"themes.contributors": "Collaboratrici",
 
-
 		"photography.title": "Fotografie",
 		"photography.description":
 			"Se non ti fermi un attimo, potresti perdere una vista perfetta.",
@@ -120,10 +116,10 @@ export const ui = {
 		"palette.variants": "Varianti",
 		"palette.colours": "Colori",
 
-		"resources.title": "Risorse",
-		"resources.description":
+		"create.title": "Crea",
+		"create.description":
 			"Guide, strumenti e ispirazione per creare temi bellissimi.",
-		"resources.also_available_in": "Disponibile anche in:",
+		"create.also_available_in": "Disponibile anche in:",
 
 		"submit.title": "Invia un tema",
 		"submit.description": "Invia il tuo tema per aggiungerlo a Rosé Pine.",

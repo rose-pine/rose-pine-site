@@ -45,7 +45,7 @@ const availableLanguages = Object.entries(languages)
 	.map(([langCode, langName]) => ({
 		name: langName,
 		url: useTranslatedPath(langCode as keyof typeof languages)(
-			`/resources/${slug}`,
+			`/create/${slug}`,
 		),
 	}));
 
@@ -75,9 +75,9 @@ const updatedAt = new Date(page.data.updatedAt).toLocaleDateString(
 			style="--stagger: 1"
 		>
 			<a
-				href={translatePath("/resources")}
+				href={translatePath("/create")}
 				class="rounded-full py-1.5 pr-4 pl-3 text-sm font-medium text-subtle transition before:pr-1.5 before:content-['←'] hover:bg-muted/10 hover:text-text"
-				>{t("resources.title")}</a
+				>{t("create.title")}</a
 			>
 		</div>
 
@@ -143,9 +143,7 @@ const updatedAt = new Date(page.data.updatedAt).toLocaleDateString(
 				availableLanguages.length > 0 && (
 					<div class="mt-8 border-t border-muted/20 pt-6">
 						<div class="flex flex-wrap items-center gap-2 text-sm text-subtle">
-							<span class="font-medium">
-								{t("resources.also_available_in")}
-							</span>
+							<span class="font-medium">{t("create.also_available_in")}</span>
 							{availableLanguages.map((language, index) => (
 								<>
 									<a

@@ -21,4 +21,9 @@ export default defineConfig({
 			themes: { dark: "rose-pine", light: "rose-pine-dawn" },
 		},
 	},
+
+	redirects: {
+		"/[...lang]/resources": "/[...lang]/create",
+		"/[...lang]/resources/[...slug]": "/[...lang]/create/[...slug]",
+	},
 });
