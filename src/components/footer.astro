@@ -28,10 +28,10 @@ let resourceItems = [
 	},
 ];
 
-let featureItems = [
+let collectionItems = [
 	{
 		name: t("footer.collection.photography"),
-		href: translatePath("/photography"),
+		href: translatePath("/collections/photography"),
 	},
 ];
 
@@ -63,7 +63,7 @@ let socialItems = [
 		<ul class="leading-loose">
 			<li class="font-medium">{t("footer.heading.collections")}</li>
 			{
-				featureItems.map((item) => (
+				collectionItems.map((item) => (
 					<li>
 						<a href={item.href} class="link">
 							{item.name}
