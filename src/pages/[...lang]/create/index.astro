@@ -2,51 +2,65 @@
 import { getCollection, type CollectionEntry } from "astro:content";
 import ContentCard from "../../../components/content-card.astro";
 import IntroSection from "../../../components/intro-section.astro";
+import { defaultLang, languages, showDefaultLang } from "../../../i18n/ui";
 import {
 	useTranslatedPath,
 	useTranslations,
-	withLangPaths,
+	type Lang,
 } from "../../../i18n/utilities";
 import Page from "../../../layouts/page.astro";
 
 export async function getStaticPaths() {
-	return await withLangPaths();
+	const guides = await getCollection("guides");
+	const showcase = await getCollection("showcase");
+
+	const buildPages = (lang: NonNullable<Lang>): CollectionEntry<"guides">[] => {
+		const guidesInLang = guides.filter(
+			({ id, data }) =>
+				id.startsWith(`${lang}/`) && (!import.meta.env.PROD || !data.draft),
+		);
+
+		const existingSlugs = new Set(
+			guidesInLang.map((g) => g.id.split("/").slice(1).join("/")),
+		);
+
+		// fill in guides not yet translated with english versions
+		const englishFallbacks =
+			lang !== defaultLang
+				? guides.filter(
+						({ id, data }) =>
+							id.startsWith(`${defaultLang}/`) &&
+							(!import.meta.env.PROD || !data.draft) &&
+							!existingSlugs.has(id.split("/").slice(1).join("/")),
+					)
+				: [];
+
+		return [...guidesInLang, ...englishFallbacks].sort(
+			(a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf(),
+		);
+	};
+
+	const langs: Lang[] = Object.keys(languages) as NonNullable<Lang>[];
+	if (!showDefaultLang) langs.push(undefined);
+
+	return langs.map((lang) => ({
+		params: { lang },
+		props: { pages: buildPages(lang ?? defaultLang), showcase },
+	}));
 }
 
-let { lang = "en" } = Astro.params;
-let t = useTranslations(lang);
-let translatePath = useTranslatedPath(lang);
+const { lang = defaultLang } = Astro.params as { lang: Lang };
+const { pages, showcase } = Astro.props;
+const resolvedLang = lang ?? defaultLang;
+const t = useTranslations(resolvedLang);
+const translatePath = useTranslatedPath(resolvedLang);
 
-const currentLangGuides = await getCollection("guides", ({ id, data }) => {
-	const isCorrectLang = id.startsWith(`${lang}/`);
-	const shouldShow = import.meta.env.PROD ? data.draft !== true : true;
-	return isCorrectLang && shouldShow;
-});
-
-const englishFallbacks =
-	lang !== "en"
-		? (() => {
-				const existingSlugs = new Set(
-					currentLangGuides.map((g) => g.id.split("/").slice(1).join("/")),
-				);
-
-				return getCollection("guides", ({ id, data }) => {
-					const isEnglish = id.startsWith("en/");
-					const shouldShow = import.meta.env.PROD ? data.draft !== true : true;
-					if (!isEnglish || !shouldShow) {
-						return false;
-					}
-
-					const slug = id.split("/").slice(1).join("/");
-					return !existingSlugs.has(slug);
-				});
-			})()
-		: [];
-
-const pages = [...currentLangGuides, ...(await englishFallbacks)].sort(
-	(a: CollectionEntry<"guides">, b: CollectionEntry<"guides">) =>
-		b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf(),
-);
+// pass the guide's own lang so english fallbacks link correctly
+const guideHref = (id: string) =>
+	translatePath(
+		`/create/${id.split("/").slice(1).join("/")}`,
+		id.split("/")[0],
+	);
 ---
 
 <Page title={t("create.title")} description={t("create.description")}>
@@ -59,17 +73,28 @@ const pages = [...currentLangGuides, ...(await englishFallbacks)].sort(
 
 	<section class="wrapper animate-enter" style="--stagger: 3">
 		<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+			<h2 class="col-span-full font-semibold">Guides</h2>
 			{
 				pages.map((page) => (
 					<ContentCard
 						id={page.id}
-						href={translatePath(
-							`/create/${page.id.split("/").slice(1).join("/")}`,
-							page.id.split("/")[0],
-						)}
+						href={guideHref(page.id)}
 						title={page.data.title}
 						description={page.data.description}
-						lang={page.id.split("/")[0]}
+						lang={page.id.split("/")[0] as Lang}
+					/>
+				))
+			}
+
+			<h2 class="col-span-full mt-page-gutter font-semibold">Showcase</h2>
+			{
+				showcase.map((site) => (
+					<ContentCard
+						id={site.id}
+						href={site.data.url}
+						title={site.data.name}
+						description=""
+						image={{ src: site.data.image, alt: site.data.name }}
 					/>
 				))
 			}

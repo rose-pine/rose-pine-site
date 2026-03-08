@@ -24,25 +24,20 @@ const { id, href, title, description, image, publishedAt, lang } = Astro.props;
 		href={href}
 		aria-labelledby={`${id}-title`}
 		aria-describedby={`${id}-description`}
-		class:list={[
-			"isolate flex h-full w-full overflow-clip rounded-3xl border border-overlay bg-surface p-card-gutter transition hover:border-iris/20 hover:bg-iris/5",
-			image ? "flex-col items-center sm:flex-row" : "flex-col items-center",
-		]}
+		class="isolate flex h-full w-full flex-col items-center overflow-clip rounded-3xl border border-overlay bg-surface transition hover:border-iris/20 hover:bg-iris/5"
 	>
 		{
 			image && (
-				<div class="mb-4 shrink-0 sm:mr-8 sm:mb-0 sm:w-64">
-					<Image
-						src={image.src as any}
-						alt={image.alt}
-						width={2000}
-						height={1200}
-						class="w-full rounded-2xl border border-overlay"
-					/>
-				</div>
+				<Image
+					src={image.src as any}
+					alt={image.alt}
+					width={2000}
+					height={1200}
+					class="h-40 w-full border-b border-b-overlay object-cover"
+				/>
 			)
 		}
-		<div class="w-full">
+		<div class="w-full p-card-gutter">
 			<h2
 				id={`${id}-title`}
 				class="line-clamp-2 text-2xl font-semibold tracking-tight"

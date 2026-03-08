@@ -18,6 +18,19 @@ export const collections = {
 		}),
 	}),
 
+	showcase: defineCollection({
+		loader: glob({
+			base: "./src/content/showcase",
+			pattern: "**/*.yml",
+		}),
+		schema: ({ image }) =>
+			z.object({
+				name: z.string(),
+				image: image(),
+				url: z.string().url(),
+			}),
+	}),
+
 	authors: defineCollection({
 		loader: glob({
 			base: "./src/content/authors",
