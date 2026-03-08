@@ -1,8 +1,8 @@
 ---
-import IntroSection from "../../components/intro-section.astro";
-import { useTranslations, withLangPaths } from "../../i18n/utilities";
-import Page from "../../layouts/page.astro";
-import categories from "../../data/categories.json";
+import IntroSection from "../../../components/intro-section.astro";
+import { useTranslations, withLangPaths } from "../../../i18n/utilities";
+import Page from "../../../layouts/page.astro";
+import categories from "../../../data/categories.json";
 
 export async function getStaticPaths() {
 	return await withLangPaths();
@@ -12,10 +12,7 @@ let { lang = "en" } = Astro.params;
 let t = useTranslations(lang);
 ---
 
-<Page
-	title="Submit a theme"
-	description="Send in your theme to be added to Rosé Pine."
->
+<Page title={t("submit.title")} description={t("submit.description")}>
 	<IntroSection
 		headline={t("submit.title")}
 		subheadline={t("submit.description")}
