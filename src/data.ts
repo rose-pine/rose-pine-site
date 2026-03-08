@@ -9,6 +9,7 @@ export type Category = (typeof categories)[number];
 const repos = reposData as Repo[];
 const communityRepos = communityReposData as Array<{
 	name: string;
+	description?: string;
 	url: string;
 	tags: string[];
 	contributors: Array<{ name: string; url?: string }>;
@@ -21,7 +22,7 @@ export function getAllRepos(): Repo[] {
 		...communityRepos.map((repo) => ({
 			...repo,
 			slug: repo.name.toLowerCase().replaceAll(" ", "-"),
-			description: `Soho vibes for ${repo.name}`,
+			description: repo.description ?? `Soho vibes for ${repo.name}`,
 			tags: [...(repo.tags ?? []), "Community"],
 			hidden: "false" as const,
 		})),
