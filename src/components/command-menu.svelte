@@ -4,7 +4,6 @@
 	import Dice3Icon from "@lucide/svelte/icons/dice-3";
 	import HouseIcon from "@lucide/svelte/icons/house";
 	import ImageIcon from "@lucide/svelte/icons/image";
-	import LibraryIcon from "@lucide/svelte/icons/library";
 	import MailIcon from "@lucide/svelte/icons/mail";
 	import PaletteIcon from "@lucide/svelte/icons/palette";
 	import SailboatIcon from "@lucide/svelte/icons/sailboat";
@@ -52,7 +51,6 @@
 		github: GithubIcon,
 		house: HouseIcon,
 		image: ImageIcon,
-		library: LibraryIcon,
 		mail: MailIcon,
 		palette: PaletteIcon,
 		sailboat: SailboatIcon,

@@ -29,7 +29,6 @@ export const ui = {
 
 		"nav.home": "Home",
 		"nav.themes": "Themes",
-		"nav.garden": "Garden",
 		"nav.palette": "Palette",
 		"nav.resources": "Create",
 
@@ -51,9 +50,6 @@ export const ui = {
 		"themes.ports": "Ports",
 		"themes.contributors": "Contributors",
 
-		"garden.title": "Garden",
-		"garden.description": "Musings from the Rosé Pine community.",
-		"garden.articles": "Articles",
 
 		"photography.title": "Photography",
 		"photography.description":
@@ -93,7 +89,6 @@ export const ui = {
 
 		"nav.home": "Casa",
 		"nav.themes": "Temi",
-		"nav.garden": "Giardino",
 		"nav.palette": "Tavolozza",
 		"nav.resources": "Crea",
 
@@ -115,9 +110,6 @@ export const ui = {
 		"themes.ports": "Porti",
 		"themes.contributors": "Collaboratrici",
 
-		"garden.title": "Giardino",
-		"garden.description": "Riflessioni della comunità Rosé Pine.",
-		"garden.articles": "Articoli",
 
 		"photography.title": "Fotografie",
 		"photography.description":
