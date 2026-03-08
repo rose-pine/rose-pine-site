@@ -1,11 +1,59 @@
 [
   {
+    "description": "Soho vibes for TextMate",
+    "homepageUrl": "",
+    "name": "tm-theme",
+    "repositoryTopics": [
+      "rose-pine",
+      "soho-vibes",
+      "theme"
+    ],
+    "stargazerCount": 17,
+    "updatedAt": "2026-03-07T22:46:47Z",
+    "url": "https://github.com/rose-pine/tm-theme",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Firefox",
+    "homepageUrl": "",
+    "name": "firefox",
+    "repositoryTopics": [
+      "firefox",
+      "soho-vibes",
+      "theme",
+      "rose-pine",
+      "firefox-addon",
+      "addon",
+      "firefox-extension"
+    ],
+    "stargazerCount": 90,
+    "updatedAt": "2026-03-07T16:20:27Z",
+    "url": "https://github.com/rose-pine/firefox",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for fish",
+    "homepageUrl": "",
+    "name": "fish",
+    "repositoryTopics": [
+      "theme",
+      "fish",
+      "soho-vibes",
+      "rose-pine",
+      "shell"
+    ],
+    "stargazerCount": 39,
+    "updatedAt": "2026-03-07T16:13:32Z",
+    "url": "https://github.com/rose-pine/fish",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 104,
-    "updatedAt": "2026-03-06T00:28:46Z",
+    "updatedAt": "2026-03-07T00:23:41Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -19,8 +67,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 335,
-    "updatedAt": "2026-03-06T20:26:24Z",
+    "stargazerCount": 337,
+    "updatedAt": "2026-03-07T16:13:56Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -105,7 +153,7 @@
       "fish-shell"
     ],
     "stargazerCount": 0,
-    "updatedAt": "2026-02-06T15:37:52Z",
+    "updatedAt": "2026-03-07T22:10:37Z",
     "url": "https://github.com/rose-pine/tide",
     "usesCustomOpenGraphImage": true
   },
@@ -166,22 +214,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for fish",
-    "homepageUrl": "",
-    "name": "fish",
-    "repositoryTopics": [
-      "theme",
-      "fish",
-      "soho-vibes",
-      "rose-pine",
-      "shell"
-    ],
-    "stargazerCount": 38,
-    "updatedAt": "2026-02-05T18:57:48Z",
-    "url": "https://github.com/rose-pine/fish",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for GNOME Builder",
     "homepageUrl": "",
     "name": "gnome-builder",
@@ -225,8 +257,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2958,
-    "updatedAt": "2026-03-06T21:53:33Z",
+    "stargazerCount": 2959,
+    "updatedAt": "2026-03-07T07:47:36Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -324,20 +356,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for TextMate",
-    "homepageUrl": "",
-    "name": "tm-theme",
-    "repositoryTopics": [
-      "rose-pine",
-      "soho-vibes",
-      "theme"
-    ],
-    "stargazerCount": 17,
-    "updatedAt": "2026-01-11T14:15:47Z",
-    "url": "https://github.com/rose-pine/tm-theme",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-theme",
@@ -348,8 +366,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1529,
-    "updatedAt": "2026-03-06T11:41:13Z",
+    "stargazerCount": 1531,
+    "updatedAt": "2026-03-07T12:05:49Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -444,8 +462,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 587,
-    "updatedAt": "2026-03-05T15:20:55Z",
+    "stargazerCount": 586,
+    "updatedAt": "2026-03-07T04:39:31Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -1687,24 +1705,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Firefox",
-    "homepageUrl": "",
-    "name": "firefox",
-    "repositoryTopics": [
-      "firefox",
-      "soho-vibes",
-      "theme",
-      "rose-pine",
-      "firefox-addon",
-      "addon",
-      "firefox-extension"
-    ],
-    "stargazerCount": 90,
-    "updatedAt": "2026-03-03T06:06:32Z",
-    "url": "https://github.com/rose-pine/firefox",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for fcitx5",
     "homepageUrl": "",
     "name": "fcitx5",
@@ -2010,8 +2010,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 42,
-    "updatedAt": "2025-11-05T13:41:28Z",
+    "stargazerCount": 43,
+    "updatedAt": "2026-03-07T18:21:31Z",
     "url": "https://github.com/rose-pine/terminal.app",
     "usesCustomOpenGraphImage": true
   },
