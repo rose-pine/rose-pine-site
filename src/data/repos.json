@@ -515,8 +515,8 @@
 		"slug": "fish",
 		"description": "Soho vibes for fish",
 		"repositoryTopics": ["theme", "fish", "soho-vibes", "rose-pine", "shell"],
-		"stargazerCount": 39,
-		"updatedAt": "2026-03-07T16:13:32Z",
+		"stargazerCount": 40,
+		"updatedAt": "2026-03-08T05:22:17Z",
 		"url": "https://github.com/rose-pine/fish",
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
@@ -1398,8 +1398,8 @@
 		"url": "https://github.com/rose-pine/miniflux",
 		"usesCustomOpenGraphImage": false,
 		"hidden": "false",
-		"name": "App",
-		"category": "none",
+		"name": "Miniflux",
+		"category": "browser",
 		"tags": [],
 		"children": [],
 		"contributors": ["juliamertz"]
@@ -2134,7 +2134,7 @@
 		"description": "The Rosé Pine garden",
 		"repositoryTopics": [],
 		"stargazerCount": 104,
-		"updatedAt": "2026-03-07T00:23:41Z",
+		"updatedAt": "2026-03-08T00:24:26Z",
 		"url": "https://github.com/rose-pine/rose-pine-site",
 		"usesCustomOpenGraphImage": true,
 		"hidden": "true",
@@ -2541,8 +2541,8 @@
 			"terminal",
 			"terminal-emulator"
 		],
-		"stargazerCount": 42,
-		"updatedAt": "2025-11-05T13:41:28Z",
+		"stargazerCount": 43,
+		"updatedAt": "2026-03-07T18:21:31Z",
 		"url": "https://github.com/rose-pine/terminal.app",
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
@@ -2692,7 +2692,7 @@
 			"fish-shell"
 		],
 		"stargazerCount": 0,
-		"updatedAt": "2026-02-06T15:37:52Z",
+		"updatedAt": "2026-03-07T22:10:37Z",
 		"url": "https://github.com/rose-pine/tide",
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
@@ -2716,7 +2716,7 @@
 		"description": "Soho vibes for TextMate",
 		"repositoryTopics": ["rose-pine", "soho-vibes", "theme"],
 		"stargazerCount": 17,
-		"updatedAt": "2026-01-11T14:15:47Z",
+		"updatedAt": "2026-03-07T22:46:47Z",
 		"url": "https://github.com/rose-pine/tm-theme",
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
@@ -2724,7 +2724,7 @@
 		"category": "editor",
 		"tags": ["rose-pine", "soho-vibes", "theme"],
 		"children": [],
-		"contributors": ["arrrgi", "mvllow", "wzykubek"]
+		"contributors": ["arrrgi", "mvllow", "simono", "wzykubek"]
 	},
 	{
 		"slug": "tmux",
@@ -2968,7 +2968,7 @@
 		"usesCustomOpenGraphImage": true,
 		"hidden": "false",
 		"name": "Wallpapers",
-		"category": "made-with",
+		"category": "system",
 		"tags": ["wallpapers", "soho-vibes", "rose-pine", "theme"],
 		"children": [],
 		"contributors": [
