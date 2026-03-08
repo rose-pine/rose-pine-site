@@ -1,11 +1,11 @@
+import type { Lang } from "./utilities";
+
 export const languages = {
 	en: "English",
 	it: "Italiano",
 } as const;
 
-export type Locale = keyof typeof languages;
-
-export const locales = Object.keys(languages) as Locale[];
+export const locales = Object.keys(languages) as Lang[];
 
 export const defaultLang = "en";
 export const showDefaultLang = false;
