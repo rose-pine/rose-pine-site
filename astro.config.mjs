@@ -23,6 +23,7 @@ export default defineConfig({
 	},
 
 	redirects: {
+		"/[...lang]/palette/ingredients": "/[...lang]/palette",
 		"/[...lang]/resources": "/[...lang]/create",
 		"/[...lang]/resources/[...slug]": "/[...lang]/create/[...slug]",
 	},
