@@ -108,11 +108,11 @@ const updatedAt = new Date(page.data.updatedAt).toLocaleDateString(
 							href={author.data.url ?? "#!"}
 							class="flex items-center gap-1 rounded-lg bg-muted/10 px-2 leading-8 font-medium text-text transition hover:bg-muted/20"
 						>
-							{author.data.avatarUrl ? (
+							{author.data.image ? (
 								<img
 									width="20"
 									height="20"
-									src={author.data.avatarUrl}
+									src={author.data.image}
 									alt={author.data.name}
 									class="rounded-md border border-muted/10"
 								/>
