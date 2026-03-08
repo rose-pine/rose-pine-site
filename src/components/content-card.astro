@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import { languages, type locales } from "../i18n/ui";
+import { languages, type Locale } from "../i18n/ui";
 
 export type Props = {
 	id: string;
@@ -12,7 +12,7 @@ export type Props = {
 		alt: string;
 	};
 	publishedAt?: Date;
-	lang?: string;
+	lang?: Locale;
 };
 
 const { id, href, title, description, image, publishedAt, lang } = Astro.props;

@@ -2,10 +2,10 @@ export const languages = {
 	en: "English",
 	it: "Italiano",
 } as const;
-export const locales = Object.keys(languages) as [
-	keyof typeof languages,
-	...(keyof typeof languages)[],
-];
+
+export type Locale = keyof typeof languages;
+
+export const locales = Object.keys(languages) as Locale[];
 
 export const defaultLang = "en";
 export const showDefaultLang = false;
