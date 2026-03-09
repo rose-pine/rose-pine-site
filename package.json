@@ -11,6 +11,7 @@
 		"sync": "./script/fetch-data.sh"
 	},
 	"dependencies": {
+		"@astrojs/netlify": "^6.6.4",
 		"@astrojs/svelte": "8.0.0-beta.2",
 		"@lucide/astro": "^0.562.0",
 		"@lucide/svelte": "^0.562.0",
