@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 104,
+    "updatedAt": "2026-03-08T00:24:26Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for TextMate",
     "homepageUrl": "",
     "name": "tm-theme",
@@ -42,19 +52,9 @@
       "rose-pine",
       "shell"
     ],
-    "stargazerCount": 39,
-    "updatedAt": "2026-03-07T16:13:32Z",
+    "stargazerCount": 41,
+    "updatedAt": "2026-03-08T15:48:00Z",
     "url": "https://github.com/rose-pine/fish",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 104,
-    "updatedAt": "2026-03-07T00:23:41Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
