@@ -24,7 +24,7 @@ const { id, href, title, description, image, publishedAt, lang } = Astro.props;
 		href={href}
 		aria-labelledby={`${id}-title`}
 		aria-describedby={`${id}-description`}
-		class="isolate flex h-full w-full flex-col items-center overflow-clip rounded-3xl border border-overlay bg-surface transition hover:border-iris/20 hover:bg-iris/5"
+		class="flex h-full w-full flex-col gap-(--card-gutter) rounded-(--card-radius) border border-overlay bg-surface p-(--card-gutter) transition [--card-gutter:--spacing(5)] [--card-inner-radius:calc(var(--card-radius)/2)] [--card-radius:--spacing(6)] hover:border-iris/20 hover:bg-iris/5"
 	>
 		{
 			image && (
@@ -33,35 +33,31 @@ const { id, href, title, description, image, publishedAt, lang } = Astro.props;
 					alt={image.alt}
 					width={2000}
 					height={1200}
-					class="h-40 w-full border-b border-b-overlay object-cover"
+					class="h-42 w-full rounded-(--card-inner-radius) border border-base object-cover"
 				/>
 			)
 		}
-		<div class="w-full p-card-gutter">
+		<div class="w-full">
 			<h2
 				id={`${id}-title`}
-				class="line-clamp-2 text-2xl font-semibold tracking-tight"
+				class="line-clamp-2 text-lg font-semibold tracking-tight"
 			>
 				{title}
 			</h2>
-			<div
-				id={`${id}-description`}
-				class="mt-2 line-clamp-2 text-subtle sm:mt-1"
-			>
+			<div id={`${id}-description`} class="mt-1 line-clamp-2 text-subtle">
 				{description}
 			</div>
+			{href.startsWith("http") && <div class="link">View project &nearr;</div>}
 			{
-				lang || publishedAt ? (
+				(lang || publishedAt) && (
 					<div class="mt-2 flex items-center gap-3">
-						{lang ? (
+						{lang && (
 							<div
 								title={languages[lang]}
 								class="rounded-sm bg-text px-1 py-px font-mono text-[10px] font-semibold text-surface uppercase"
 							>
 								{lang}
 							</div>
-						) : (
-							""
 						)}
 						{publishedAt && (
 							<div class="text-sm text-muted italic">
@@ -71,8 +67,6 @@ const { id, href, title, description, image, publishedAt, lang } = Astro.props;
 							</div>
 						)}
 					</div>
-				) : (
-					""
 				)
 			}
 		</div>
