@@ -215,8 +215,8 @@ ul[role="list"] {
 
 .animate-enter {
 	opacity: 0;
-	animation: enter 500ms forwards;
-	animation-delay: calc(var(--stagger) * 200ms);
+	animation: enter 400ms forwards;
+	animation-delay: calc(var(--stagger) * 150ms);
 
 	@media (prefers-reduced-motion: reduce) {
 		animation-delay: -1ms !important;
