@@ -27,7 +27,7 @@ export const collections = {
 			z.object({
 				name: z.string(),
 				image: image(),
-				url: z.string().url(),
+				url: z.url(),
 			}),
 	}),
 
