@@ -2,6 +2,7 @@
 import { getCollection, type CollectionEntry } from "astro:content";
 import ContentCard from "../../../components/content-card.astro";
 import IntroSection from "../../../components/intro-section.astro";
+import ShowcaseCard from "../../../components/showcase-card.astro";
 import { defaultLang, languages, showDefaultLang } from "../../../i18n/ui";
 import {
 	useTranslatedPath,
@@ -87,7 +88,7 @@ const guideHref = (id: string) =>
 			<h2 class="col-span-full mt-page-gutter font-semibold">Showcase</h2>
 			{
 				showcase.map((site) => (
-					<ContentCard
+					<ShowcaseCard
 						id={site.id}
 						href={site.data.url}
 						title={site.data.name}

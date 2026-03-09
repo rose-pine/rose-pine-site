@@ -1,0 +1,45 @@
+---
+import { Image } from "astro:assets";
+
+export type Props = {
+	id: string;
+	href: string;
+	title: string;
+	description: string;
+	image: {
+		src: string | ImageMetadata;
+		alt: string;
+	};
+};
+
+const { id, href, title, description, image } = Astro.props;
+---
+
+<article>
+	<a
+		href={href}
+		aria-labelledby={`${id}-title`}
+		aria-describedby={`${id}-description`}
+		class="group/showcase relative flex h-full w-full flex-col overflow-hidden rounded-(--card-radius) border border-overlay bg-surface transition [--card-gutter:--spacing(5)] [--card-inner-radius:calc(var(--card-radius)/2)] [--card-radius:--spacing(6)]"
+	>
+		<Image
+			src={image.src as any}
+			alt={image.alt}
+			width={1000}
+			height={600}
+			class="h-52 w-full rounded-(--card-radius) object-cover object-top"
+		/>
+		<div
+			class="absolute top-0 bottom-0 flex w-full items-end gap-3 bg-linear-to-t from-main-base p-(--card-gutter) text-main-text transition group-hover/showcase:text-main-iris"
+		>
+			<h2
+				id={`${id}-title`}
+				class="flex-1 truncate text-sm font-semibold tracking-tight"
+			>
+				{title}
+			</h2>
+			<div id={`${id}-description`} class="sr-only">{description}</div>
+			<div class="shrink-0 text-sm font-semibold tracking-tight">&nearr;</div>
+		</div>
+	</a>
+</article>

@@ -12,11 +12,10 @@ export type Props = {
 		src: string | ImageMetadata;
 		alt: string;
 	};
-	publishedAt?: Date;
 	lang?: Lang;
 };
 
-const { id, href, title, description, image, publishedAt, lang } = Astro.props;
+const { id, href, title, description, image, lang } = Astro.props;
 ---
 
 <article>
@@ -24,20 +23,20 @@ const { id, href, title, description, image, publishedAt, lang } = Astro.props;
 		href={href}
 		aria-labelledby={`${id}-title`}
 		aria-describedby={`${id}-description`}
-		class="flex h-full w-full flex-col gap-(--card-gutter) rounded-(--card-radius) border border-overlay bg-surface p-(--card-gutter) transition [--card-gutter:--spacing(5)] [--card-inner-radius:calc(var(--card-radius)/2)] [--card-radius:--spacing(6)] hover:border-iris/20 hover:bg-iris/5"
+		class="flex h-full w-full flex-col rounded-(--card-radius) border border-overlay bg-surface transition [--card-gutter:--spacing(5)] [--card-inner-radius:calc(var(--card-radius)/2)] [--card-radius:--spacing(6)] hover:border-iris/20 hover:bg-iris/5"
 	>
 		{
 			image && (
 				<Image
 					src={image.src as any}
 					alt={image.alt}
-					width={2000}
-					height={1200}
-					class="h-42 w-full rounded-(--card-inner-radius) border border-base object-cover"
+					width={1000}
+					height={600}
+					class="h-56 w-full rounded-(--card-radius) border border-base object-cover"
 				/>
 			)
 		}
-		<div class="w-full">
+		<div class="w-full p-(--card-gutter)">
 			<h2
 				id={`${id}-title`}
 				class="line-clamp-2 text-lg font-semibold tracking-tight"
@@ -49,23 +48,14 @@ const { id, href, title, description, image, publishedAt, lang } = Astro.props;
 			</div>
 			{href.startsWith("http") && <div class="link">View project &nearr;</div>}
 			{
-				(lang || publishedAt) && (
+				lang && (
 					<div class="mt-2 flex items-center gap-3">
-						{lang && (
-							<div
-								title={languages[lang]}
-								class="rounded-sm bg-text px-1 py-px font-mono text-[10px] font-semibold text-surface uppercase"
-							>
-								{lang}
-							</div>
-						)}
-						{publishedAt && (
-							<div class="text-sm text-muted italic">
-								{publishedAt.toLocaleString(lang, {
-									dateStyle: "long",
-								})}
-							</div>
-						)}
+						<div
+							title={languages[lang]}
+							class="rounded-sm bg-text px-1 py-px font-mono text-[10px] font-semibold text-surface uppercase"
+						>
+							{lang}
+						</div>
 					</div>
 				)
 			}
