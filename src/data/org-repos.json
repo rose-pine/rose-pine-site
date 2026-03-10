@@ -1,11 +1,83 @@
 [
   {
+    "description": "Soho vibes for Pure",
+    "homepageUrl": "",
+    "name": "pure",
+    "repositoryTopics": [
+      "fish",
+      "fish-plugin",
+      "fish-shell",
+      "prompt",
+      "pure",
+      "rose-pine",
+      "soho-vibes",
+      "theme"
+    ],
+    "stargazerCount": 1,
+    "updatedAt": "2026-03-09T19:18:20Z",
+    "url": "https://github.com/rose-pine/pure",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Tide",
+    "homepageUrl": "",
+    "name": "tide",
+    "repositoryTopics": [
+      "fish",
+      "fish-plugin",
+      "rose-pine",
+      "theme",
+      "tide",
+      "soho-vibes",
+      "prompt",
+      "fish-shell"
+    ],
+    "stargazerCount": 0,
+    "updatedAt": "2026-03-09T19:18:14Z",
+    "url": "https://github.com/rose-pine/tide",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for foot",
+    "homepageUrl": "",
+    "name": "foot",
+    "repositoryTopics": [
+      "foot",
+      "foot-terminal",
+      "rose-pine",
+      "soho-vibes",
+      "terminal",
+      "terminal-emulator",
+      "theme"
+    ],
+    "stargazerCount": 16,
+    "updatedAt": "2026-03-09T19:08:03Z",
+    "url": "https://github.com/rose-pine/foot",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for fish",
+    "homepageUrl": "",
+    "name": "fish",
+    "repositoryTopics": [
+      "theme",
+      "fish",
+      "soho-vibes",
+      "rose-pine",
+      "shell"
+    ],
+    "stargazerCount": 41,
+    "updatedAt": "2026-03-09T15:40:16Z",
+    "url": "https://github.com/rose-pine/fish",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 104,
-    "updatedAt": "2026-03-08T00:24:26Z",
+    "updatedAt": "2026-03-09T00:24:37Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -42,22 +114,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for fish",
-    "homepageUrl": "",
-    "name": "fish",
-    "repositoryTopics": [
-      "theme",
-      "fish",
-      "soho-vibes",
-      "rose-pine",
-      "shell"
-    ],
-    "stargazerCount": 41,
-    "updatedAt": "2026-03-08T15:48:00Z",
-    "url": "https://github.com/rose-pine/fish",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Wallpapers",
     "homepageUrl": "",
     "name": "wallpapers",
@@ -70,25 +126,6 @@
     "stargazerCount": 337,
     "updatedAt": "2026-03-07T16:13:56Z",
     "url": "https://github.com/rose-pine/wallpapers",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Pure",
-    "homepageUrl": "",
-    "name": "pure",
-    "repositoryTopics": [
-      "fish",
-      "fish-plugin",
-      "fish-shell",
-      "prompt",
-      "pure",
-      "rose-pine",
-      "soho-vibes",
-      "theme"
-    ],
-    "stargazerCount": 1,
-    "updatedAt": "2026-03-01T04:29:03Z",
-    "url": "https://github.com/rose-pine/pure",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -106,8 +143,8 @@
     "homepageUrl": "",
     "name": "yazi",
     "repositoryTopics": [],
-    "stargazerCount": 8,
-    "updatedAt": "2026-03-02T08:49:33Z",
+    "stargazerCount": 9,
+    "updatedAt": "2026-03-09T15:34:04Z",
     "url": "https://github.com/rose-pine/yazi",
     "usesCustomOpenGraphImage": false
   },
@@ -137,25 +174,6 @@
     "updatedAt": "2026-02-28T21:12:57Z",
     "url": "https://github.com/rose-pine/rose-pine-bloom",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Soho vibes for Tide",
-    "homepageUrl": "",
-    "name": "tide",
-    "repositoryTopics": [
-      "fish",
-      "fish-plugin",
-      "rose-pine",
-      "theme",
-      "tide",
-      "soho-vibes",
-      "prompt",
-      "fish-shell"
-    ],
-    "stargazerCount": 0,
-    "updatedAt": "2026-03-07T22:10:37Z",
-    "url": "https://github.com/rose-pine/tide",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Soho vibes for Userstyles",
@@ -257,8 +275,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2959,
-    "updatedAt": "2026-03-07T07:47:36Z",
+    "stargazerCount": 2962,
+    "updatedAt": "2026-03-09T17:38:02Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -366,8 +384,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1531,
-    "updatedAt": "2026-03-07T12:05:49Z",
+    "stargazerCount": 1533,
+    "updatedAt": "2026-03-09T21:13:31Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -510,8 +528,8 @@
     "homepageUrl": "",
     "name": "zed",
     "repositoryTopics": [],
-    "stargazerCount": 50,
-    "updatedAt": "2026-03-03T12:42:05Z",
+    "stargazerCount": 51,
+    "updatedAt": "2026-03-09T17:47:59Z",
     "url": "https://github.com/rose-pine/zed",
     "usesCustomOpenGraphImage": true
   },
@@ -1670,24 +1688,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for foot",
-    "homepageUrl": "",
-    "name": "foot",
-    "repositoryTopics": [
-      "foot",
-      "foot-terminal",
-      "rose-pine",
-      "soho-vibes",
-      "terminal",
-      "terminal-emulator",
-      "theme"
-    ],
-    "stargazerCount": 16,
-    "updatedAt": "2026-01-27T08:57:09Z",
-    "url": "https://github.com/rose-pine/foot",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Fluent Terminal",
     "homepageUrl": "",
     "name": "fluent-terminal",
@@ -1748,8 +1748,8 @@
       "theme",
       "mobile-app"
     ],
-    "stargazerCount": 19,
-    "updatedAt": "2025-11-18T03:22:53Z",
+    "stargazerCount": 20,
+    "updatedAt": "2026-03-09T13:17:57Z",
     "url": "https://github.com/rose-pine/discord-mobile",
     "usesCustomOpenGraphImage": true
   },
