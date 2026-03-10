@@ -10,7 +10,7 @@ export default defineConfig({
 	},
 
 	image: {
-		domains: ["raw.githubusercontent.com"],
+		domains: ["avatars.githubusercontent.com", "raw.githubusercontent.com"],
 		responsiveStyles: true,
 	},
 
