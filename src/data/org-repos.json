@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 104,
-    "updatedAt": "2026-03-11T00:21:41Z",
+    "updatedAt": "2026-03-12T00:20:45Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -123,8 +123,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 337,
-    "updatedAt": "2026-03-07T16:13:56Z",
+    "stargazerCount": 341,
+    "updatedAt": "2026-03-12T19:28:35Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -275,8 +275,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2965,
-    "updatedAt": "2026-03-12T00:09:12Z",
+    "stargazerCount": 2968,
+    "updatedAt": "2026-03-12T15:30:19Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -384,8 +384,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1537,
-    "updatedAt": "2026-03-11T18:36:43Z",
+    "stargazerCount": 1538,
+    "updatedAt": "2026-03-12T13:59:28Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -437,8 +437,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 134,
-    "updatedAt": "2026-02-21T14:18:30Z",
+    "stargazerCount": 135,
+    "updatedAt": "2026-03-12T20:38:45Z",
     "url": "https://github.com/rose-pine/iterm",
     "usesCustomOpenGraphImage": true
   },
@@ -480,8 +480,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 585,
-    "updatedAt": "2026-03-10T02:37:12Z",
+    "stargazerCount": 584,
+    "updatedAt": "2026-03-12T15:30:30Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -862,8 +862,8 @@
       "shell",
       "terminal"
     ],
-    "stargazerCount": 62,
-    "updatedAt": "2026-03-10T04:40:46Z",
+    "stargazerCount": 63,
+    "updatedAt": "2026-03-12T14:26:16Z",
     "url": "https://github.com/rose-pine/starship",
     "usesCustomOpenGraphImage": false
   },
@@ -1547,8 +1547,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 321,
-    "updatedAt": "2026-03-03T08:58:33Z",
+    "stargazerCount": 322,
+    "updatedAt": "2026-03-12T14:55:41Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
