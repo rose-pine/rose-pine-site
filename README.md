@@ -25,5 +25,5 @@ Thank you to the teams and individuals behind the tools we rely on:
 
 We love and appreciate any help 💜
 
-- For contributing to the website, see our [website contributing guide](./contributing.md).
+- For contributing to the website, see our [website contributing guide](./CONTRIBUTING.md).
 - For contributing to the Rosé Pine community, visit our [resources](https://rosepinetheme.com/resources) to get started.
