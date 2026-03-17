@@ -1,11 +1,28 @@
 [
   {
+    "description": "Soho vibes for Helix",
+    "homepageUrl": "",
+    "name": "helix",
+    "repositoryTopics": [
+      "theme",
+      "soho-vibes",
+      "rose-pine",
+      "helix",
+      "editor",
+      "hacktoberfest"
+    ],
+    "stargazerCount": 37,
+    "updatedAt": "2026-03-16T12:38:10Z",
+    "url": "https://github.com/rose-pine/helix",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 104,
-    "updatedAt": "2026-03-15T00:28:03Z",
+    "updatedAt": "2026-03-16T00:28:26Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -123,8 +140,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 342,
-    "updatedAt": "2026-03-13T07:02:41Z",
+    "stargazerCount": 343,
+    "updatedAt": "2026-03-16T10:06:44Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -133,8 +150,8 @@
     "homepageUrl": "",
     "name": "ghostty",
     "repositoryTopics": [],
-    "stargazerCount": 51,
-    "updatedAt": "2026-03-13T16:14:01Z",
+    "stargazerCount": 52,
+    "updatedAt": "2026-03-16T07:50:32Z",
     "url": "https://github.com/rose-pine/ghostty",
     "usesCustomOpenGraphImage": true
   },
@@ -200,8 +217,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 254,
-    "updatedAt": "2026-03-14T07:02:21Z",
+    "stargazerCount": 255,
+    "updatedAt": "2026-03-16T11:43:23Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -237,7 +254,7 @@
     "name": "gnome-builder",
     "repositoryTopics": [],
     "stargazerCount": 0,
-    "updatedAt": "2026-01-13T20:26:42Z",
+    "updatedAt": "2026-03-16T18:27:20Z",
     "url": "https://github.com/rose-pine/gnome-builder",
     "usesCustomOpenGraphImage": false
   },
@@ -275,8 +292,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2969,
-    "updatedAt": "2026-03-15T23:09:41Z",
+    "stargazerCount": 2972,
+    "updatedAt": "2026-03-16T16:53:05Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -368,8 +385,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 25,
-    "updatedAt": "2026-02-24T02:08:15Z",
+    "stargazerCount": 26,
+    "updatedAt": "2026-03-16T23:02:53Z",
     "url": "https://github.com/rose-pine/rofi",
     "usesCustomOpenGraphImage": true
   },
@@ -1089,8 +1106,8 @@
       "soho-vibes",
       "rose-pine"
     ],
-    "stargazerCount": 2,
-    "updatedAt": "2025-12-29T05:42:52Z",
+    "stargazerCount": 3,
+    "updatedAt": "2026-03-16T12:55:09Z",
     "url": "https://github.com/rose-pine/pureref",
     "usesCustomOpenGraphImage": true
   },
@@ -1424,8 +1441,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 114,
-    "updatedAt": "2026-02-01T03:32:58Z",
+    "stargazerCount": 115,
+    "updatedAt": "2026-03-16T14:01:13Z",
     "url": "https://github.com/rose-pine/kitty",
     "usesCustomOpenGraphImage": true
   },
@@ -1521,23 +1538,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Helix",
-    "homepageUrl": "",
-    "name": "helix",
-    "repositoryTopics": [
-      "theme",
-      "soho-vibes",
-      "rose-pine",
-      "helix",
-      "editor",
-      "hacktoberfest"
-    ],
-    "stargazerCount": 36,
-    "updatedAt": "2026-03-15T18:16:59Z",
-    "url": "https://github.com/rose-pine/helix",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for GTK",
     "homepageUrl": "",
     "name": "gtk",
@@ -1547,8 +1547,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 322,
-    "updatedAt": "2026-03-12T14:55:41Z",
+    "stargazerCount": 324,
+    "updatedAt": "2026-03-16T08:39:48Z",
     "url": "https://github.com/rose-pine/gtk",
     "usesCustomOpenGraphImage": true
   },
