@@ -18,6 +18,15 @@
 		"has_variants": false
 	},
 	{
+	    "name": "Adwaita Rose Pine",
+		"url": "https://github.com/librerob/Adwaita-Rose-Pine",
+		"tags": ["adwaita", "ui", "gtk", "theme"],
+		"authors": [
+		{ "name": "librerob", "url": "https://github.com/librerob" }
+	],
+	"has_variants": true
+   },
+   {
 		"name": "Base16",
 		"url": "https://github.com/edunfelt/base16-rose-pine-scheme",
 		"tags": ["palette"],
