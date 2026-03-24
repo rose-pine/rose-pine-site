@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 105,
-    "updatedAt": "2026-03-22T00:26:21Z",
+    "updatedAt": "2026-03-23T00:27:53Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -36,8 +36,8 @@
       "editor",
       "hacktoberfest"
     ],
-    "stargazerCount": 37,
-    "updatedAt": "2026-03-16T12:38:10Z",
+    "stargazerCount": 38,
+    "updatedAt": "2026-03-23T16:19:12Z",
     "url": "https://github.com/rose-pine/helix",
     "usesCustomOpenGraphImage": true
   },
@@ -92,8 +92,8 @@
       "terminal-emulator",
       "theme"
     ],
-    "stargazerCount": 16,
-    "updatedAt": "2026-03-09T19:08:03Z",
+    "stargazerCount": 17,
+    "updatedAt": "2026-03-23T23:03:19Z",
     "url": "https://github.com/rose-pine/foot",
     "usesCustomOpenGraphImage": true
   },
@@ -292,8 +292,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2968,
-    "updatedAt": "2026-03-22T19:57:57Z",
+    "stargazerCount": 2967,
+    "updatedAt": "2026-03-23T19:34:08Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -521,8 +521,8 @@
     "repositoryTopics": [
       "app"
     ],
-    "stargazerCount": 24,
-    "updatedAt": "2026-03-13T08:16:14Z",
+    "stargazerCount": 25,
+    "updatedAt": "2026-03-23T21:17:32Z",
     "url": "https://github.com/rose-pine/zen-browser",
     "usesCustomOpenGraphImage": true
   },
@@ -1488,8 +1488,8 @@
       "theme",
       "window-manager"
     ],
-    "stargazerCount": 14,
-    "updatedAt": "2026-02-14T07:38:37Z",
+    "stargazerCount": 15,
+    "updatedAt": "2026-03-23T21:10:48Z",
     "url": "https://github.com/rose-pine/i3",
     "usesCustomOpenGraphImage": true
   },
@@ -1800,8 +1800,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 157,
-    "updatedAt": "2026-03-13T19:53:33Z",
+    "stargazerCount": 158,
+    "updatedAt": "2026-03-23T03:15:21Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -1908,8 +1908,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 11,
-    "updatedAt": "2025-11-05T14:46:03Z",
+    "stargazerCount": 12,
+    "updatedAt": "2026-03-23T21:11:17Z",
     "url": "https://github.com/rose-pine/bspwm",
     "usesCustomOpenGraphImage": true
   },
