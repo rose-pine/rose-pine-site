@@ -6,7 +6,10 @@ import reposData from "./data/repos.json";
 const categories = [...categoriesData] as const;
 export type Category = (typeof categories)[number];
 
-const repos = reposData as Repo[];
+const repos = (reposData as Repo[]).map((repo) => ({
+	...repo,
+	featured: (repo.stargazersCount ?? 0) > 100,
+}));
 const communityRepos = (communityReposData as Repo[]).map((repo) => ({
 	...repo,
 	contributors: repo.contributors.map((contributor) => {
