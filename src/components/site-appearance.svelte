@@ -1,6 +1,13 @@
 <script lang="ts">
+	import { onMount } from "svelte";
+
 	let themes = ["system", "main", "moon", "dawn"] as const;
-	let appearance = $state(localStorage.theme ?? "system");
+
+	let appearance = $state("");
+
+	onMount(() => {
+		appearance = localStorage.theme ?? "system";
+	});
 
 	function updateTheme(theme: string) {
 		appearance = theme;
