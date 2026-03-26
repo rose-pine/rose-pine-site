@@ -7,27 +7,21 @@ const categories = [...categoriesData] as const;
 export type Category = (typeof categories)[number];
 
 const repos = reposData as Repo[];
-const communityRepos = communityReposData as Repo[];
+const communityRepos = (communityReposData as Repo[]).map((repo) => ({
+	...repo,
+	contributors: repo.contributors.map((contributor) => {
+		return {
+			...contributor,
+			image: getContributorImage(contributor),
+		};
+	}),
+	slug: repo.name.toLowerCase().replaceAll(" ", "-"),
+	description: repo.description ?? `Soho vibes for ${repo.name}`,
+	tags: [...(repo.tags ?? []), "Community"],
+}));
 
 export function getAllRepos(): Repo[] {
-	return [
-		...repos,
-		...communityRepos.map((repo) => ({
-			...repo,
-			contributors: repo.contributors.map((contributor) => {
-				return {
-					...contributor,
-					image: getContributorImage(contributor),
-				};
-			}),
-			slug: repo.name.toLowerCase().replaceAll(" ", "-"),
-			description: repo.description ?? `Soho vibes for ${repo.name}`,
-			tags: [...(repo.tags ?? []), "Community"],
-		})),
-	].map((repo) => ({
-		...repo,
-		featured: (repo.stargazersCount ?? 0) > 100,
-	}));
+	return [...repos, ...communityRepos];
 }
 
 export function getFeaturedRepos(): Repo[] {
