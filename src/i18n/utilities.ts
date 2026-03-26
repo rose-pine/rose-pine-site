@@ -6,6 +6,7 @@ export type Lang = keyof typeof languages | undefined;
 type LangPath<T extends GetStaticPathsItem> = Omit<T, "params"> & {
 	params: T["params"] & { lang: Lang };
 };
+type Data = { [key: string]: any };
 
 /**
  * Generates localized static paths by combining entries with each language
@@ -56,8 +57,14 @@ export function getLangFromUrl(url: URL = new URL(window.location.href)) {
 }
 
 export function useTranslations(lang: keyof typeof ui) {
-	return function t(key: keyof (typeof ui)[typeof defaultLang]) {
-		return ui[lang][key] || ui[defaultLang][key];
+	return function t(key: keyof (typeof ui)[typeof defaultLang], data?: Data) {
+		let result: string = ui[lang][key] ?? ui[defaultLang][key];
+		if (data) {
+			Object.entries(data).forEach(([k, v]) => {
+				result = result.replaceAll(`{{${k}}}`, v);
+			});
+		}
+		return result;
 	};
 }
 

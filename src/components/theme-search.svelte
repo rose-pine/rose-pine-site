@@ -1,5 +1,10 @@
 <script lang="ts">
 	import { themeSearch } from "../state.svelte";
+	import { getLangFromUrl } from "../i18n/utilities";
+	import { useTranslations } from "../i18n/utilities";
+
+	let lang = getLangFromUrl();
+	let t = useTranslations(lang);
 
 	let searchInput: HTMLInputElement;
 
@@ -35,11 +40,11 @@
 		bind:this={searchInput}
 		bind:value={themeSearch.query}
 		type="search"
-		placeholder="Search themes..."
+		placeholder={t("themes.search_placeholder")}
 		class="flex-1 placeholder:text-muted focus:outline-none"
 	/>
 	<kbd
-		title="Press '/' to focus"
+		title={t("themes.search_focus_cue")}
 		class="rounded-(--input-inner-radius) border tonal-muted px-1.5 py-0.5 font-mono text-sm"
 		>/</kbd
 	>

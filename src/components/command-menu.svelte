@@ -73,7 +73,7 @@
 		class="hidden h-7 cursor-pointer items-center justify-center gap-1.5 rounded-full border border-muted/20 bg-muted/5 px-2 transition hover:bg-muted/10 md:flex"
 	>
 		<SearchIcon size="16" />
-		<span class="sr-only">{t("command.search")}</span>
+		<span class="sr-only">{t("command.trigger")}</span>
 		<kbd class="rounded-full font-mono text-sm tracking-widest text-subtle"
 			>⌘K</kbd
 		>
@@ -84,7 +84,7 @@
 		class="relative z-50 flex size-(--badge-size) cursor-pointer items-center justify-center rounded-(--card-inner-radius) transition hover:bg-muted/10 md:hidden"
 	>
 		<SearchIcon size="20" />
-		<span class="sr-only">{t("command.search")}</span>
+		<span class="sr-only">{t("command.trigger")}</span>
 	</Dialog.Trigger>
 
 	<Dialog.Portal>
@@ -107,13 +107,14 @@
 			}}
 			class="fixed bottom-0 left-1/2 z-90 w-full max-w-xl -translate-x-1/2 overflow-hidden rounded-t-(--dialog-radius) bg-surface shadow-xl [--dialog-gutter-half:calc(var(--dialog-gutter)/2)] [--dialog-gutter:--spacing(5)] [--dialog-inner-radius:calc(var(--dialog-radius)/2)] [--dialog-radius:1.5rem] supports-backdrop-filter:bg-surface/95 supports-backdrop-filter:backdrop-blur-sm sm:bottom-page-gutter sm:w-9/10 sm:rounded-(--dialog-radius) md:top-20 md:bottom-auto"
 		>
-			<Dialog.Title class="sr-only">Command Menu</Dialog.Title>
+			<Dialog.Title class="sr-only">
+				{t("command.title")}
+			</Dialog.Title>
 			<Dialog.Description class="sr-only">
-				{t("command.search_detail")}
+				{t("command.description")}
 			</Dialog.Description>
 
 			<Command.Root
-				label="Global site search"
 				class="flex h-full w-full flex-col-reverse overflow-hidden [--close-size:calc(var(--input-height)-var(--dialog-gutter))] [--input-height:--spacing(15)] md:flex-col"
 			>
 				<div
@@ -125,7 +126,7 @@
 					<Command.Input
 						id="global-search"
 						bind:value={search}
-						placeholder="Search pages, themes and palette..."
+						placeholder={t("command.search_placeholder")}
 						class="placeholder h-(--input-height) w-full placeholder-muted focus:outline-none"
 					/>
 					<button

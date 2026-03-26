@@ -19,6 +19,8 @@ let t = useTranslations(lang);
 let translatePath = useTranslatedPath(lang);
 
 let allRepos = getAllRepos();
+
+let REPOS_COUNT = Math.floor(allRepos.length / 10) * 10;
 ---
 
 <Page title={t("home.title")} description={t("home.description")}>
@@ -112,16 +114,11 @@ let allRepos = getAllRepos();
 			<Flower7Icon class="size-11 fill-rose/20 stroke-rose" />
 
 			<h2 class="text-4xl font-semibold tracking-tight">
-				Colours &amp; community
+				{t("home.feature.colours_and_community.title")}
 			</h2>
 
 			<p class="text-xl leading-relaxed text-subtle">
-				Rosé Pine is an elegant palette featured in over {
-					Math.floor(allRepos.length / 10) * 10
-				} of your favourite apps, thanks to our lovely and generous <a
-					href={translatePath("/contributors")}
-					class="link">contributors</a
-				>.
+				{t("home.feature.colours_and_community.description", { REPOS_COUNT })}
 			</p>
 		</div>
 		<div
@@ -129,15 +126,12 @@ let allRepos = getAllRepos();
 		>
 			<Flower5Icon class="size-11 fill-foam/20 stroke-foam" />
 
-			<h2 class="text-4xl font-semibold tracking-tight">Passionately subtle</h2>
+			<h2 class="text-4xl font-semibold tracking-tight">
+				{t("home.feature.passionately_subtle.title")}
+			</h2>
 
 			<p class="text-xl leading-relaxed text-subtle">
-				With a focus on quality and purpose, our curated colours are built <i
-					class="font-serif">to inspire</i
-				>, not to overwhelm. We're excited for you to <a
-					href={translatePath("/create")}
-					class="link">share your creations</a
-				> with the world.
+				{t("home.feature.passionately_subtle.description")}
 			</p>
 		</div>
 		<div
@@ -146,12 +140,11 @@ let allRepos = getAllRepos();
 			<Flower10Icon class="size-11 fill-gold/20 stroke-gold" />
 
 			<h2 class="text-4xl font-semibold tracking-tight">
-				Inclusive, equal, diverse
+				{t("home.feature.inclusive_equal_diverse.title")}
 			</h2>
 
 			<p class="text-xl leading-relaxed text-subtle">
-				We are constantly striving to provide a safe and encouraging environment
-				for all. You are loved and appreciated.
+				{t("home.feature.inclusive_equal_diverse.description")}
 			</p>
 		</div>
 	</section>

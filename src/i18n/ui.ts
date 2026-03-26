@@ -31,23 +31,40 @@ export const ui = {
 		"nav.palette": "Palette",
 		"nav.create": "Create",
 
+		"command.trigger": "Open command menu",
+		"command.title": "Command menu",
+		"command.description": "Global site search",
+		"command.search_placeholder": "Search pages, themes and palette...",
 		"command.close": "Close command menu",
 		"command.empty_results": "No results found",
 		"command.feeling_lucky": "Feeling lucky",
 		"command.featured_themes": "Featured themes",
-		"command.search": "Search",
-		"command.search_detail":
-			"Search pages, themes, palette and more. Use the arrow keys to navigate.",
+		"command.pages": "Pages",
+		"command.home": "Home",
+		"command.themes": "Themes",
+		"command.palette": "Palette",
+		"command.community": "Community",
 
 		"home.title": "Something beautiful",
 		"home.description":
 			"All natural pine, faux fur and a bit of soho vibes for the classy minimalist.",
 		"home.primary_action": "Explore themes",
+		"home.feature.colours_and_community.title": "Colours & Community",
+		"home.feature.colours_and_community.description":
+			"Rosé Pine is an elegant palette featured in over {{REPOS_COUNT}} of your favourite apps, thanks to our lovely and generous contributors.",
+		"home.feature.passionately_subtle.title": "Passionately subtle",
+		"home.feature.passionately_subtle.description":
+			"With a focus on quality and purpose, our curated colours are built to inspire, not to overwhelm. We're excited for you to share your creations with the world.",
+		"home.feature.inclusive_equal_diverse.title": "Inclusive, equal, diverse",
+		"home.feature.inclusive_equal_diverse.description":
+			"We are constantly striving to provide a safe and encouraging environment for all. You are loved and appreciated.",
 
 		"themes.title": "Themes",
 		"themes.description": "Hand-crafted collection of personalisation.",
 		"themes.ports": "Ports",
 		"themes.contributors": "Contributors",
+		"themes.search_placeholder": "Search themes...",
+		"themes.search_focus_cue": "Press / to focus",
 
 		"photography.title": "Photography",
 		"photography.description":
@@ -89,23 +106,34 @@ export const ui = {
 		"nav.palette": "Tavolozza",
 		"nav.create": "Crea",
 
+		"command.trigger": "Apre il menu dei comandi",
+		"command.title": "Menu dei comandi",
+		"command.description": "Cerca globale del sito",
+		"command.search_placeholder": "Cerca pagine, temi, e tavolozze...",
 		"command.close": "Chiudi il menu dei comandi",
 		"command.empty_results": "Nessun risultato trovato",
 		"command.feeling_lucky": "Mi sento fortunato",
 		"command.featured_themes": "Temi in evidenza",
-		"command.search": "Cerca",
-		"command.search_detail":
-			"Cerca tra pagine, temi, tavolozze e altro. Usa le frecce per navigare.",
+		"command.pages": "Pagine",
+		"command.home": "Casa",
+		"command.themes": "Temi",
+		"command.palette": "Tavolozza",
+		"command.community": "Comunità",
 
 		"home.title": "Qualcosa di bello",
 		"home.description":
 			"Pino naturale, pelliccia sintetica e un po' di vibrazioni soho per il minimalista di classe.",
 		"home.primary_action": "Esplora i temi",
+		"home.feature.colours_and_community.title": "Colori & Comunità",
+		"home.feature.colours_and_community.description":
+			"Rosé Pine è un'elegante palette presente in oltre {{REPOS_COUNT}} delle tue app preferite, grazie ai nostri piacevoli e generosi collaboratori.",
 
 		"themes.title": "Temi",
 		"themes.description": "Collezione artigianale di personalizzazione.",
 		"themes.ports": "Porti",
 		"themes.contributors": "Collaboratrici",
+		"themes.search_placeholder": "Cerca temi...",
+		"themes.search_focus_cue": "Premi / per focare",
 
 		"photography.title": "Fotografie",
 		"photography.description":
