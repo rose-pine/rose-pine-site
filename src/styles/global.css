@@ -1,9 +1,21 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
-@variant theme-main (&:where([data-theme="main"] *));
-@variant theme-moon (&:where([data-theme="moon"] *));
-@variant theme-dawn (&:where([data-theme="dawn"] *));
+@custom-variant dark {
+	@media (prefers-color-scheme: dark) {
+		&:where(:not([data-theme], [data-theme] *)) {
+			@slot;
+		}
+	}
+	&:where(
+		[data-theme="main"],
+		[data-theme="main"] *,
+		[data-theme="moon"],
+		[data-theme="moon"] *
+	) {
+		@slot;
+	}
+}
 
 @theme {
 	--breakpoint-wrapper: 80rem;

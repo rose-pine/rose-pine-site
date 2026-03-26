@@ -25,6 +25,11 @@ let lang = getLangFromUrl(Astro.url);
 		<meta name="description" content={description} />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title} – Rosé Pine</title>
+		<script>
+			if (localStorage.theme) {
+				document.documentElement.dataset.theme = localStorage.theme;
+			}
+		</script>
 	</head>
 	<body>
 		<div class="overflow-hidden">
