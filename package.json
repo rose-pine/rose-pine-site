@@ -8,7 +8,7 @@
 		"preview": "astro preview",
 		"astro": "astro",
 		"format": "pnpm exec prettier --write .",
-		"sync": "./script/fetch-data.sh"
+		"update:data": "node scripts/update-data.mjs"
 	},
 	"dependencies": {
 		"@astrojs/netlify": "^7.0.4",

@@ -6,24 +6,24 @@ type Color = {
 	hsl: number[];
 	rgb: number[];
 };
+
 type ColorFormat = "hex" | "hsl" | "rgb";
+
+type Contributor = {
+	name: string;
+	image?: string;
+	url: string;
+};
 
 type Repo = {
 	url: string;
 	slug: string;
 	name: string;
 	description: string;
-	tags: Array<string>;
-	contributors: Array<string> | Array<{ name: string; url?: string }>;
-	hidden: "true" | "false";
+	tags: string[];
+	contributors: Contributor[];
 	updatedAt?: string;
-	stargazerCount?: number;
-	category: import("./data").Category;
+	stargazersCount?: number;
+	category: string;
 	children?: string[];
-	[key?: string]: any;
-};
-
-type Contributor = {
-	name: string;
-	url?: string;
 };

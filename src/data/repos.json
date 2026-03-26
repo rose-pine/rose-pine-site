@@ -1,1238 +1,1763 @@
 [
 	{
-		"slug": ".github",
-		"description": "Rosé Pine community health files",
-		"repositoryTopics": [],
-		"stargazerCount": 2,
-		"updatedAt": "2025-12-10T14:31:32Z",
-		"url": "https://github.com/rose-pine/.github",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "true",
-		"name": "App",
-		"category": "none",
-		"tags": [],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow", "skewb1k"]
-	},
-	{
 		"slug": "alacritty",
 		"description": "Soho vibes for Alacritty",
-		"repositoryTopics": [
-			"alacritty",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"terminal",
-			"terminal-emulator"
-		],
-		"stargazerCount": 137,
-		"updatedAt": "2026-02-18T15:11:17Z",
-		"url": "https://github.com/rose-pine/alacritty",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "Alacritty",
-		"category": "terminal",
+		"stargazersCount": 139,
+		"updatedAt": "2026-03-22T16:17:46Z",
 		"tags": [
 			"alacritty",
-			"soho-vibes",
-			"theme",
 			"rose-pine",
+			"soho-vibes",
 			"terminal",
-			"terminal-emulator"
+			"terminal-emulator",
+			"theme"
 		],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "dolichomps", "mvllow", "quunnb"]
+		"url": "https://github.com/rose-pine/alacritty",
+		"name": "Alacritty",
+		"category": "terminal",
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "dolichomps",
+				"image": "https://avatars.githubusercontent.com/u/3454148?v=4",
+				"url": "https://github.com/dolichomps"
+			},
+			{
+				"name": "quunnb",
+				"image": "https://avatars.githubusercontent.com/u/76442633?v=4",
+				"url": "https://github.com/quunnb"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "alfred",
 		"description": "Soho vibes for Alfred",
-		"repositoryTopics": [],
-		"stargazerCount": 4,
+		"stargazersCount": 4,
 		"updatedAt": "2025-12-22T21:42:39Z",
+		"tags": [],
 		"url": "https://github.com/rose-pine/alfred",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Alfred",
 		"category": "system",
-		"tags": [],
-		"children": [],
-		"contributors": ["juliamertz", "mvllow"]
+		"contributors": [
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "juliamertz",
+				"image": "https://avatars.githubusercontent.com/u/35079666?v=4",
+				"url": "https://github.com/juliamertz"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "aliucord",
 		"description": "Soho vibes for Aliucord",
-		"repositoryTopics": ["theme", "mobile"],
-		"stargazerCount": 4,
+		"stargazersCount": 4,
 		"updatedAt": "2025-11-05T14:45:55Z",
+		"tags": ["mobile", "theme"],
 		"url": "https://github.com/rose-pine/aliucord",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Aliucord",
 		"category": "social",
-		"tags": ["theme", "mobile"],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow"]
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "amfora",
 		"description": "Soho vibes for Amfora",
-		"repositoryTopics": ["theme", "amfora", "soho-vibes", "rose-pine", "cli"],
-		"stargazerCount": 9,
+		"stargazersCount": 9,
 		"updatedAt": "2025-11-05T14:45:57Z",
+		"tags": ["amfora", "cli", "rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/amfora",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Amfora",
 		"category": "terminal",
-		"tags": ["theme", "amfora", "soho-vibes", "rose-pine", "cli"],
-		"children": [],
-		"contributors": ["mvllow"]
+		"contributors": [
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "anytype",
 		"description": "Soho vibes for Anytype",
-		"repositoryTopics": [],
-		"stargazerCount": 14,
+		"stargazersCount": 14,
 		"updatedAt": "2026-02-16T05:15:27Z",
+		"tags": [],
 		"url": "https://github.com/rose-pine/anytype",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Anytype",
 		"category": "editor",
-		"tags": [],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow"]
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "atom",
 		"description": "Soho vibes for Atom",
-		"repositoryTopics": ["atom", "soho-vibes", "theme", "rose-pine", "editor"],
-		"stargazerCount": 6,
+		"stargazersCount": 6,
 		"updatedAt": "2025-11-05T14:46:00Z",
+		"tags": ["atom", "editor", "rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/atom",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Atom",
 		"category": "editor",
-		"tags": ["atom", "soho-vibes", "theme", "rose-pine", "editor"],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "fvrests", "mvllow"]
+		"contributors": [
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "fvrests",
+				"image": "https://avatars.githubusercontent.com/u/47515065?v=4",
+				"url": "https://github.com/fvrests"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "bear-blog",
 		"description": "Soho vibes for ʕ•ᴥ•ʔ Bear",
-		"repositoryTopics": [
-			"theme",
-			"soho-vibes",
-			"rose-pine",
-			"bear",
-			"hacktoberfest"
-		],
-		"stargazerCount": 11,
+		"stargazersCount": 11,
 		"updatedAt": "2026-02-20T11:25:05Z",
+		"tags": ["bear", "hacktoberfest", "rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/bear-blog",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Bear Blog",
 		"category": "browser",
-		"tags": ["theme", "soho-vibes", "rose-pine", "bear", "hacktoberfest"],
-		"children": [],
-		"contributors": ["mvllow"]
+		"contributors": [
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "black-box",
 		"description": "Soho vibes for Black Box",
-		"repositoryTopics": ["theme", "terminal", "terminal-emulator"],
-		"stargazerCount": 9,
+		"stargazersCount": 9,
 		"updatedAt": "2025-11-05T14:46:01Z",
+		"tags": ["terminal", "terminal-emulator", "theme"],
 		"url": "https://github.com/rose-pine/black-box",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Black Box",
 		"category": "terminal",
-		"tags": ["theme", "terminal", "terminal-emulator"],
-		"children": [],
-		"contributors": ["marcelovbcfilho", "mvllow"]
+		"contributors": [
+			{
+				"name": "marcelovbcfilho",
+				"image": "https://avatars.githubusercontent.com/u/51462138?v=4",
+				"url": "https://github.com/marcelovbcfilho"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "bspwm",
 		"description": "Soho vibes for bspwm",
-		"repositoryTopics": ["theme"],
-		"stargazerCount": 11,
-		"updatedAt": "2025-11-05T14:46:03Z",
+		"stargazersCount": 12,
+		"updatedAt": "2026-03-23T21:11:17Z",
+		"tags": ["theme"],
 		"url": "https://github.com/rose-pine/bspwm",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "bspwm",
 		"category": "system",
-		"tags": ["theme"],
-		"children": [],
-		"contributors": ["Jimmysit0", "ThatOneCalculator", "harishnkr", "mvllow"]
+		"contributors": [
+			{
+				"name": "Jimmysit0",
+				"image": "https://avatars.githubusercontent.com/u/69643443?v=4",
+				"url": "https://github.com/Jimmysit0"
+			},
+			{
+				"name": "harishnkr",
+				"image": "https://avatars.githubusercontent.com/u/48408097?v=4",
+				"url": "https://github.com/harishnkr"
+			},
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "btop",
 		"description": "Soho vibes for btop",
-		"repositoryTopics": ["app", "btop", "btop-theme", "terminal", "theme"],
-		"stargazerCount": 41,
-		"updatedAt": "2026-02-14T07:41:55Z",
+		"stargazersCount": 43,
+		"updatedAt": "2026-03-14T02:40:47Z",
+		"tags": ["app", "btop", "btop-theme", "terminal", "theme"],
 		"url": "https://github.com/rose-pine/btop",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "btop",
 		"category": "terminal",
-		"tags": ["app", "btop", "btop-theme", "terminal", "theme"],
-		"children": [],
-		"contributors": ["mrs4ndman", "mvllow"]
-	},
-	{
-		"slug": "build",
-		"description": "Theme generator for Rosé Pine",
-		"repositoryTopics": [],
-		"stargazerCount": 28,
-		"updatedAt": "2025-11-05T14:46:04Z",
-		"url": "https://github.com/rose-pine/build",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "true",
-		"name": "App",
-		"category": "none",
-		"tags": [],
-		"children": [],
 		"contributors": [
-			"const-void",
-			"fvrests",
-			"juliamertz",
-			"mvllow",
-			"spenserblack",
-			"stefanasandei"
-		]
+			{
+				"name": "mrs4ndman",
+				"image": "https://avatars.githubusercontent.com/u/121260905?v=4",
+				"url": "https://github.com/mrs4ndman"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "cava",
 		"description": "Soho vibes for cava",
-		"repositoryTopics": ["theme", "cli", "music", "terminal"],
-		"stargazerCount": 15,
+		"stargazersCount": 15,
 		"updatedAt": "2026-01-19T21:11:32Z",
+		"tags": ["cli", "music", "terminal", "theme"],
 		"url": "https://github.com/rose-pine/cava",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "cava",
 		"category": "editor",
-		"tags": ["theme", "cli", "music", "terminal"],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow"]
-	},
-	{
-		"slug": "code-quick-tester",
-		"description": "Soho vibes for CodeQuickTester",
-		"repositoryTopics": ["ahk", "editor", "rose-pine", "soho-vibes", "theme"],
-		"stargazerCount": 0,
-		"updatedAt": "2025-11-05T14:46:06Z",
-		"url": "https://github.com/rose-pine/code-quick-tester",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "CodeQuickTester",
-		"category": "editor",
-		"tags": ["ahk", "editor", "rose-pine", "soho-vibes", "theme"],
-		"children": [],
-		"contributors": ["mvllow", "qupufu"]
-	},
-	{
-		"slug": "cool-retro-term",
-		"description": "Soho vibes for cool-retro-term",
-		"repositoryTopics": [
-			"retro-term",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"terminal",
-			"terminal-emulator"
-		],
-		"stargazerCount": 6,
-		"updatedAt": "2025-11-05T14:46:08Z",
-		"url": "https://github.com/rose-pine/cool-retro-term",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "cool-retro-term",
-		"category": "terminal",
-		"tags": [
-			"retro-term",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"terminal",
-			"terminal-emulator"
-		],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow"]
-	},
-	{
-		"slug": "cosmic-desktop",
-		"description": "Soho vibes for COSMIC Desktop ",
-		"repositoryTopics": [],
-		"stargazerCount": 14,
-		"updatedAt": "2026-02-13T20:08:42Z",
-		"url": "https://github.com/rose-pine/cosmic-desktop",
-		"usesCustomOpenGraphImage": false,
-		"hidden": "false",
-		"name": "COSMIC Desktop",
-		"category": "system",
-		"tags": [],
-		"children": [],
-		"contributors": ["juliamertz", "mvllow"]
-	},
-	{
-		"slug": "ct.js",
-		"description": "Soho vibes for ct.js",
-		"repositoryTopics": ["theme"],
-		"stargazerCount": 3,
-		"updatedAt": "2025-11-05T14:46:09Z",
-		"url": "https://github.com/rose-pine/ct.js",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "ct.js",
-		"category": "editor",
-		"tags": ["theme"],
-		"children": [],
-		"contributors": ["ehanahamed", "mvllow"]
-	},
-	{
-		"slug": "cursor",
-		"description": "Soho vibes for Cursors",
-		"repositoryTopics": [],
-		"stargazerCount": 156,
-		"updatedAt": "2026-02-24T08:39:07Z",
-		"url": "https://github.com/rose-pine/cursor",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "Cursors",
-		"category": "system",
-		"tags": [],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow", "rahaaatul", "waruhachi"]
-	},
-	{
-		"slug": "daisyui",
-		"description": "Soho vibes for daisyUI",
-		"repositoryTopics": ["theme"],
-		"stargazerCount": 20,
-		"updatedAt": "2026-02-11T07:41:25Z",
-		"url": "https://github.com/rose-pine/daisyui",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "daisyUI",
-		"category": "library",
-		"tags": ["theme"],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow"]
-	},
-	{
-		"slug": "dark-reader",
-		"description": "Soho vibes for Dark Reader",
-		"repositoryTopics": ["dark-reader", "soho-vibes", "theme", "rose-pine"],
-		"stargazerCount": 45,
-		"updatedAt": "2026-03-02T10:09:34Z",
-		"url": "https://github.com/rose-pine/dark-reader",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "Dark Reader",
-		"category": "browser",
-		"tags": ["dark-reader", "soho-vibes", "theme", "rose-pine"],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow", "nathansCodes"]
-	},
-	{
-		"slug": "desmos-desktop",
-		"description": "Soho vibes for Desmos Desktop",
-		"repositoryTopics": ["desmos", "soho-vibes", "theme", "rose-pine"],
-		"stargazerCount": 4,
-		"updatedAt": "2026-02-28T23:15:54Z",
-		"url": "https://github.com/rose-pine/desmos-desktop",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "Desmos Desktop",
-		"category": "editor",
-		"tags": ["desmos", "soho-vibes", "theme", "rose-pine"],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow"]
-	},
-	{
-		"slug": "discord",
-		"description": "Soho vibes for Discord",
-		"repositoryTopics": [
-			"betterdiscord",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"goosemod",
-			"discord",
-			"hacktoberfest"
-		],
-		"stargazerCount": 114,
-		"updatedAt": "2026-02-25T18:51:48Z",
-		"url": "https://github.com/rose-pine/discord",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "Discord",
-		"category": "social",
-		"tags": [
-			"betterdiscord",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"goosemod",
-			"discord",
-			"hacktoberfest"
-		],
-		"children": [],
 		"contributors": [
-			"Ace-Extrenof",
-			"CovertDuck",
-			"Darsh-A",
-			"ImaginaryO",
-			"ItsRedlyXD",
-			"JTrenerry",
-			"Papa-Quill",
-			"ThatOneCalculator",
-			"apriltaoyvr",
-			"bw8686",
-			"itendtostare",
-			"lrockreal",
-			"mvllow",
-			"siily-g",
-			"sojudev",
-			"waruhachi",
-			"yvvki"
-		]
-	},
-	{
-		"slug": "discord-mobile",
-		"description": "Soho vibes for Discord mobile",
-		"repositoryTopics": ["theme", "mobile-app"],
-		"stargazerCount": 19,
-		"updatedAt": "2025-11-18T03:22:53Z",
-		"url": "https://github.com/rose-pine/discord-mobile",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "Discord Mobile",
-		"category": "social",
-		"tags": ["theme", "mobile-app"],
-		"children": [],
-		"contributors": [
-			"Ace-Extrenof",
-			"Cirkutry",
-			"DokterKaj",
-			"NECOtype",
-			"mudrhiod",
-			"mvllow"
-		]
-	},
-	{
-		"slug": "discord-rpc-maker",
-		"description": "Soho vibes for Discord RPC Maker",
-		"repositoryTopics": ["theme", "discord"],
-		"stargazerCount": 1,
-		"updatedAt": "2025-11-05T14:46:17Z",
-		"url": "https://github.com/rose-pine/discord-rpc-maker",
-		"usesCustomOpenGraphImage": false,
-		"hidden": "false",
-		"name": "Discord RPC Maker",
-		"category": "editor",
-		"tags": ["theme", "discord"],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow"]
-	},
-	{
-		"slug": "dwm",
-		"description": "Soho vibes for dwm",
-		"repositoryTopics": [],
-		"stargazerCount": 2,
-		"updatedAt": "2025-11-05T14:46:17Z",
-		"url": "https://github.com/rose-pine/dwm",
-		"usesCustomOpenGraphImage": false,
-		"hidden": "false",
-		"name": "dwm",
-		"category": "system",
-		"tags": [],
-		"children": [],
-		"contributors": ["butteronarchbtw", "mvllow"]
-	},
-	{
-		"slug": "fcitx5",
-		"description": "Soho vibes for fcitx5",
-		"repositoryTopics": ["app", "theme"],
-		"stargazerCount": 6,
-		"updatedAt": "2025-11-15T05:51:29Z",
-		"url": "https://github.com/rose-pine/fcitx5",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "fcitx5",
-		"category": "system",
-		"tags": ["app", "theme"],
-		"children": [],
-		"contributors": ["mvllow", "scotabroad"]
-	},
-	{
-		"slug": "firefox",
-		"description": "Soho vibes for Firefox",
-		"repositoryTopics": [
-			"firefox",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"firefox-addon",
-			"addon",
-			"firefox-extension"
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
 		],
-		"stargazerCount": 90,
-		"updatedAt": "2026-03-07T16:20:27Z",
-		"url": "https://github.com/rose-pine/firefox",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "Firefox",
-		"category": "browser",
-		"tags": [
-			"firefox",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"firefox-addon",
-			"addon",
-			"firefox-extension"
-		],
-		"children": [],
-		"contributors": [
-			"ChronoInferna",
-			"NovaAndrom3da",
-			"Starcr0ss",
-			"ThatOneCalculator",
-			"ashbork",
-			"mvllow",
-			"romacub",
-			"yoy333"
-		]
-	},
-	{
-		"slug": "fish",
-		"description": "Soho vibes for fish",
-		"repositoryTopics": ["theme", "fish", "soho-vibes", "rose-pine", "shell"],
-		"stargazerCount": 40,
-		"updatedAt": "2026-03-08T05:22:17Z",
-		"url": "https://github.com/rose-pine/fish",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "fish",
-		"category": "terminal",
-		"tags": ["theme", "fish", "soho-vibes", "rose-pine", "shell"],
-		"children": [],
-		"contributors": ["mvllow", "simono", "ubmit"]
-	},
-	{
-		"slug": "flow-launcher",
-		"description": "Soho vibes for Flow Launcher",
-		"repositoryTopics": [],
-		"stargazerCount": 2,
-		"updatedAt": "2025-06-12T16:29:44Z",
-		"url": "https://github.com/rose-pine/flow-launcher",
-		"usesCustomOpenGraphImage": false,
-		"hidden": "false",
-		"name": "Flow Launcher",
-		"category": "system",
-		"tags": [],
-		"children": [],
-		"contributors": ["ianklapouch"]
-	},
-	{
-		"slug": "fluent-terminal",
-		"description": "Soho vibes for Fluent Terminal",
-		"repositoryTopics": [
-			"fluent-terminal",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"terminal",
-			"terminal-emulator"
-		],
-		"stargazerCount": 7,
-		"updatedAt": "2025-11-05T14:46:23Z",
-		"url": "https://github.com/rose-pine/fluent-terminal",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "Fluent Terminal",
-		"category": "terminal",
-		"tags": [
-			"fluent-terminal",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"terminal",
-			"terminal-emulator"
-		],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow"]
-	},
-	{
-		"slug": "foot",
-		"description": "Soho vibes for foot",
-		"repositoryTopics": [
-			"foot",
-			"foot-terminal",
-			"rose-pine",
-			"soho-vibes",
-			"terminal",
-			"terminal-emulator",
-			"theme"
-		],
-		"stargazerCount": 16,
-		"updatedAt": "2026-01-27T08:57:09Z",
-		"url": "https://github.com/rose-pine/foot",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "foot",
-		"category": "terminal",
-		"tags": [
-			"foot",
-			"foot-terminal",
-			"rose-pine",
-			"soho-vibes",
-			"terminal",
-			"terminal-emulator",
-			"theme"
-		],
-		"children": [],
-		"contributors": [
-			"EuCaue",
-			"arthurbacci",
-			"cement-drinker",
-			"d2718nis",
-			"mvllow",
-			"nezia1",
-			"void1024"
-		]
-	},
-	{
-		"slug": "fzf",
-		"description": "Soho vibes for fzf",
-		"repositoryTopics": ["theme"],
-		"stargazerCount": 31,
-		"updatedAt": "2026-02-28T23:21:43Z",
-		"url": "https://github.com/rose-pine/fzf",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "fzf",
-		"category": "terminal",
-		"tags": ["theme"],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "cutbypham", "jovark", "mvllow"]
-	},
-	{
-		"slug": "gdevelop",
-		"description": "Soho vibes for GDevelop",
-		"repositoryTopics": [
-			"gdevelop",
-			"rose-pine",
-			"soho-vibes",
-			"theme",
-			"hacktoberfest"
-		],
-		"stargazerCount": 2,
-		"updatedAt": "2025-11-05T14:46:26Z",
-		"url": "https://github.com/rose-pine/gdevelop",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "GDevelop",
-		"category": "editor",
-		"tags": ["gdevelop", "rose-pine", "soho-vibes", "theme", "hacktoberfest"],
-		"children": [],
-		"contributors": ["ehanahamed", "mvllow"]
-	},
-	{
-		"slug": "geany",
-		"description": "Soho vibes for Geany",
-		"repositoryTopics": ["theme", "rose-pine", "soho-vibes"],
-		"stargazerCount": 0,
-		"updatedAt": "2025-11-05T14:46:27Z",
-		"url": "https://github.com/rose-pine/geany",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "Geany",
-		"category": "editor",
-		"tags": ["theme", "rose-pine", "soho-vibes"],
-		"children": [],
-		"contributors": [
-			"Waxxx333",
-			"bonbuggie",
-			"isabelincorp",
-			"mvllow",
-			"nekowinston",
-			"pocco81"
-		]
-	},
-	{
-		"slug": "ghostty",
-		"description": "Soho vibes for Ghostty",
-		"repositoryTopics": [],
-		"stargazerCount": 49,
-		"updatedAt": "2026-02-25T04:57:20Z",
-		"url": "https://github.com/rose-pine/ghostty",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "Ghostty",
-		"category": "terminal",
-		"tags": [],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "kjvdven", "mininerva", "mvllow"]
-	},
-	{
-		"slug": "github-readme-stats",
-		"description": "Soho vibes for GitHub Readme Stats",
-		"repositoryTopics": [
-			"theme",
-			"soho-vibes",
-			"rose-pine",
-			"github-readme-stats",
-			"github"
-		],
-		"stargazerCount": 11,
-		"updatedAt": "2025-11-05T14:46:28Z",
-		"url": "https://github.com/rose-pine/github-readme-stats",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "GitHub Readme Stats",
-		"category": "browser",
-		"tags": [
-			"theme",
-			"soho-vibes",
-			"rose-pine",
-			"github-readme-stats",
-			"github"
-		],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow"]
-	},
-	{
-		"slug": "gitkraken",
-		"description": "Soho vibes for GitKraken",
-		"repositoryTopics": [
-			"theme",
-			"soho-vibes",
-			"rose-pine",
-			"hacktoberfest",
-			"git"
-		],
-		"stargazerCount": 6,
-		"updatedAt": "2025-11-05T14:46:30Z",
-		"url": "https://github.com/rose-pine/gitkraken",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "GitKraken",
-		"category": "editor",
-		"tags": ["theme", "soho-vibes", "rose-pine", "hacktoberfest", "git"],
-		"children": [],
-		"contributors": ["Henriquehnnm", "diorcula", "fvrests", "mvllow"]
-	},
-	{
-		"slug": "glazewm",
-		"description": "Soho vibes for GlazeWM",
-		"repositoryTopics": [],
-		"stargazerCount": 7,
-		"updatedAt": "2025-11-05T14:46:31Z",
-		"url": "https://github.com/rose-pine/glazewm",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "GlazeWM",
-		"category": "system",
-		"tags": [],
-		"children": [],
-		"contributors": ["jishnurajendran", "jovark", "mvllow"]
-	},
-	{
-		"slug": "gnome-builder",
-		"description": "Soho vibes for GNOME Builder",
-		"repositoryTopics": [],
-		"stargazerCount": 0,
-		"updatedAt": "2026-01-13T20:26:42Z",
-		"url": "https://github.com/rose-pine/gnome-builder",
-		"usesCustomOpenGraphImage": false,
-		"hidden": "false",
-		"name": "GNOME Builder",
-		"category": "editor",
-		"tags": [],
-		"children": [],
-		"contributors": ["Henriquehnnm", "ThatOneCalculator", "mvllow"]
-	},
-	{
-		"slug": "gnome-terminal",
-		"description": "Soho vibes for GNOME Terminal",
-		"repositoryTopics": [
-			"gnome-terminal",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"hacktoberfest",
-			"terminal",
-			"terminal-emulator"
-		],
-		"stargazerCount": 53,
-		"updatedAt": "2026-02-24T13:35:18Z",
-		"url": "https://github.com/rose-pine/gnome-terminal",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "GNOME Terminal",
-		"category": "terminal",
-		"tags": [
-			"gnome-terminal",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"hacktoberfest",
-			"terminal",
-			"terminal-emulator"
-		],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "ashbork", "diorcula", "mvllow"]
+		"children": []
 	},
 	{
 		"slug": "google-chrome",
 		"description": "Soho vibes for Google Chrome",
-		"repositoryTopics": [
-			"theme",
-			"google-chrome",
-			"google-chrome-theme",
+		"stargazersCount": 64,
+		"updatedAt": "2026-02-13T22:01:56Z",
+		"tags": [
 			"chrome",
 			"chrome-theme",
+			"google-chrome",
+			"google-chrome-theme",
+			"rose-pine",
 			"soho-vibes",
-			"rose-pine"
+			"theme"
 		],
-		"stargazerCount": 64,
-		"updatedAt": "2026-02-13T22:01:56Z",
 		"url": "https://github.com/rose-pine/google-chrome",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Chrome",
 		"category": "browser",
-		"tags": [
-			"theme",
-			"google-chrome",
-			"google-chrome-theme",
-			"chrome",
-			"chrome-theme",
-			"soho-vibes",
-			"rose-pine"
+		"contributors": [
+			{
+				"name": "fvrests",
+				"image": "https://avatars.githubusercontent.com/u/47515065?v=4",
+				"url": "https://github.com/fvrests"
+			},
+			{
+				"name": "cutbypham",
+				"image": "https://avatars.githubusercontent.com/u/40050527?v=4",
+				"url": "https://github.com/cutbypham"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
 		],
-		"children": [],
-		"contributors": ["cutbypham", "fvrests", "mvllow"]
+		"children": []
+	},
+	{
+		"slug": "code-quick-tester",
+		"description": "Soho vibes for CodeQuickTester",
+		"stargazersCount": 0,
+		"updatedAt": "2025-11-05T14:46:06Z",
+		"tags": ["ahk", "editor", "rose-pine", "soho-vibes", "theme"],
+		"url": "https://github.com/rose-pine/code-quick-tester",
+		"name": "CodeQuickTester",
+		"category": "editor",
+		"contributors": [
+			{
+				"name": "qupufu",
+				"image": "https://avatars.githubusercontent.com/u/68669265?v=4",
+				"url": "https://github.com/qupufu"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "cool-retro-term",
+		"description": "Soho vibes for cool-retro-term",
+		"stargazersCount": 6,
+		"updatedAt": "2025-11-05T14:46:08Z",
+		"tags": [
+			"retro-term",
+			"rose-pine",
+			"soho-vibes",
+			"terminal",
+			"terminal-emulator",
+			"theme"
+		],
+		"url": "https://github.com/rose-pine/cool-retro-term",
+		"name": "cool-retro-term",
+		"category": "terminal",
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "cosmic-desktop",
+		"description": "Soho vibes for COSMIC Desktop ",
+		"stargazersCount": 14,
+		"updatedAt": "2026-02-13T20:08:42Z",
+		"tags": [],
+		"url": "https://github.com/rose-pine/cosmic-desktop",
+		"name": "COSMIC Desktop",
+		"category": "system",
+		"contributors": [
+			{
+				"name": "juliamertz",
+				"image": "https://avatars.githubusercontent.com/u/35079666?v=4",
+				"url": "https://github.com/juliamertz"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "ct.js",
+		"description": "Soho vibes for ct.js",
+		"stargazersCount": 3,
+		"updatedAt": "2025-11-05T14:46:09Z",
+		"tags": ["theme"],
+		"url": "https://github.com/rose-pine/ct.js",
+		"name": "ct.js",
+		"category": "editor",
+		"contributors": [
+			{
+				"name": "ehanahamed",
+				"image": "https://avatars.githubusercontent.com/u/98765025?v=4",
+				"url": "https://github.com/ehanahamed"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "cursor",
+		"description": "Soho vibes for Cursors",
+		"stargazersCount": 158,
+		"updatedAt": "2026-03-23T03:15:21Z",
+		"tags": [],
+		"url": "https://github.com/rose-pine/cursor",
+		"name": "Cursors",
+		"category": "system",
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "rahaaatul",
+				"image": "https://avatars.githubusercontent.com/u/86149861?v=4",
+				"url": "https://github.com/rahaaatul"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "waruhachi",
+				"image": "https://avatars.githubusercontent.com/u/156133757?v=4",
+				"url": "https://github.com/waruhachi"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "daisyui",
+		"description": "Soho vibes for daisyUI",
+		"stargazersCount": 20,
+		"updatedAt": "2026-02-11T07:41:25Z",
+		"tags": ["theme"],
+		"url": "https://github.com/rose-pine/daisyui",
+		"name": "daisyUI",
+		"category": "library",
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "dark-reader",
+		"description": "Soho vibes for Dark Reader",
+		"stargazersCount": 47,
+		"updatedAt": "2026-03-25T12:59:12Z",
+		"tags": ["dark-reader", "rose-pine", "soho-vibes", "theme"],
+		"url": "https://github.com/rose-pine/dark-reader",
+		"name": "Dark Reader",
+		"category": "browser",
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "nathansCodes",
+				"image": "https://avatars.githubusercontent.com/u/99505972?v=4",
+				"url": "https://github.com/nathansCodes"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "desmos-desktop",
+		"description": "Soho vibes for Desmos Desktop",
+		"stargazersCount": 4,
+		"updatedAt": "2026-02-28T23:15:54Z",
+		"tags": ["desmos", "rose-pine", "soho-vibes", "theme"],
+		"url": "https://github.com/rose-pine/desmos-desktop",
+		"name": "Desmos Desktop",
+		"category": "editor",
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "discord",
+		"description": "Soho vibes for Discord",
+		"stargazersCount": 114,
+		"updatedAt": "2026-02-25T18:51:48Z",
+		"tags": [
+			"betterdiscord",
+			"discord",
+			"goosemod",
+			"hacktoberfest",
+			"rose-pine",
+			"soho-vibes",
+			"theme"
+		],
+		"url": "https://github.com/rose-pine/discord",
+		"name": "Discord",
+		"category": "social",
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "Darsh-A",
+				"image": "https://avatars.githubusercontent.com/u/87588873?v=4",
+				"url": "https://github.com/Darsh-A"
+			},
+			{
+				"name": "bw8686",
+				"image": "https://avatars.githubusercontent.com/u/51877146?v=4",
+				"url": "https://github.com/bw8686"
+			},
+			{
+				"name": "yvvki",
+				"image": "https://avatars.githubusercontent.com/u/69618058?v=4",
+				"url": "https://github.com/yvvki"
+			},
+			{
+				"name": "waruhachi",
+				"image": "https://avatars.githubusercontent.com/u/156133757?v=4",
+				"url": "https://github.com/waruhachi"
+			},
+			{
+				"name": "siily-g",
+				"image": "https://avatars.githubusercontent.com/u/149881151?v=4",
+				"url": "https://github.com/siily-g"
+			},
+			{
+				"name": "sojudev",
+				"image": "https://avatars.githubusercontent.com/u/76633125?v=4",
+				"url": "https://github.com/sojudev"
+			},
+			{
+				"name": "itendtostare",
+				"image": "https://avatars.githubusercontent.com/u/20223765?v=4",
+				"url": "https://github.com/itendtostare"
+			},
+			{
+				"name": "CovertDuck",
+				"image": "https://avatars.githubusercontent.com/u/4457765?v=4",
+				"url": "https://github.com/CovertDuck"
+			},
+			{
+				"name": "Papa-Quill",
+				"image": "https://avatars.githubusercontent.com/u/70424791?v=4",
+				"url": "https://github.com/Papa-Quill"
+			},
+			{
+				"name": "Ace-Extrenof",
+				"image": "https://avatars.githubusercontent.com/u/167178552?v=4",
+				"url": "https://github.com/Ace-Extrenof"
+			},
+			{
+				"name": "ImaginaryO",
+				"image": "https://avatars.githubusercontent.com/u/101225924?v=4",
+				"url": "https://github.com/ImaginaryO"
+			},
+			{
+				"name": "JTrenerry",
+				"image": "https://avatars.githubusercontent.com/u/105094182?v=4",
+				"url": "https://github.com/JTrenerry"
+			},
+			{
+				"name": "ItsRedlyXD",
+				"image": "https://avatars.githubusercontent.com/u/131612133?v=4",
+				"url": "https://github.com/ItsRedlyXD"
+			},
+			{
+				"name": "lrockreal",
+				"image": "https://avatars.githubusercontent.com/u/29684696?v=4",
+				"url": "https://github.com/lrockreal"
+			},
+			{
+				"name": "apriltaoyvr",
+				"image": "https://avatars.githubusercontent.com/u/95392008?v=4",
+				"url": "https://github.com/apriltaoyvr"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "discord-mobile",
+		"description": "Soho vibes for Discord mobile",
+		"stargazersCount": 20,
+		"updatedAt": "2026-03-09T13:17:57Z",
+		"tags": ["mobile-app", "theme"],
+		"url": "https://github.com/rose-pine/discord-mobile",
+		"name": "Discord Mobile",
+		"category": "social",
+		"contributors": [
+			{
+				"name": "mudrhiod",
+				"image": "https://avatars.githubusercontent.com/u/88912716?v=4",
+				"url": "https://github.com/mudrhiod"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "Cirkutry",
+				"image": "https://avatars.githubusercontent.com/u/149087292?v=4",
+				"url": "https://github.com/Cirkutry"
+			},
+			{
+				"name": "DokterKaj",
+				"image": "https://avatars.githubusercontent.com/u/54882101?v=4",
+				"url": "https://github.com/DokterKaj"
+			},
+			{
+				"name": "NECOtype",
+				"image": "https://avatars.githubusercontent.com/u/89935904?v=4",
+				"url": "https://github.com/NECOtype"
+			},
+			{
+				"name": "Ace-Extrenof",
+				"image": "https://avatars.githubusercontent.com/u/167178552?v=4",
+				"url": "https://github.com/Ace-Extrenof"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "discord-rpc-maker",
+		"description": "Soho vibes for Discord RPC Maker",
+		"stargazersCount": 1,
+		"updatedAt": "2025-11-05T14:46:17Z",
+		"tags": ["discord", "theme"],
+		"url": "https://github.com/rose-pine/discord-rpc-maker",
+		"name": "Discord RPC Maker",
+		"category": "editor",
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "dwm",
+		"description": "Soho vibes for dwm",
+		"stargazersCount": 2,
+		"updatedAt": "2025-11-05T14:46:17Z",
+		"tags": [],
+		"url": "https://github.com/rose-pine/dwm",
+		"name": "dwm",
+		"category": "system",
+		"contributors": [
+			{
+				"name": "butteronarchbtw",
+				"image": "https://avatars.githubusercontent.com/u/152636161?v=4",
+				"url": "https://github.com/butteronarchbtw"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "fcitx5",
+		"description": "Soho vibes for fcitx5",
+		"stargazersCount": 6,
+		"updatedAt": "2025-11-15T05:51:29Z",
+		"tags": ["app", "theme"],
+		"url": "https://github.com/rose-pine/fcitx5",
+		"name": "fcitx5",
+		"category": "system",
+		"contributors": [
+			{
+				"name": "scotabroad",
+				"image": "https://avatars.githubusercontent.com/u/65510090?v=4",
+				"url": "https://github.com/scotabroad"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "firefox",
+		"description": "Soho vibes for Firefox",
+		"stargazersCount": 90,
+		"updatedAt": "2026-03-07T16:20:27Z",
+		"tags": [
+			"addon",
+			"firefox",
+			"firefox-addon",
+			"firefox-extension",
+			"rose-pine",
+			"soho-vibes",
+			"theme"
+		],
+		"url": "https://github.com/rose-pine/firefox",
+		"name": "Firefox",
+		"category": "browser",
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "ashbork",
+				"image": "https://avatars.githubusercontent.com/u/82605611?v=4",
+				"url": "https://github.com/ashbork"
+			},
+			{
+				"name": "Starcr0ss",
+				"image": "https://avatars.githubusercontent.com/u/26168814?v=4",
+				"url": "https://github.com/Starcr0ss"
+			},
+			{
+				"name": "romacub",
+				"image": "https://avatars.githubusercontent.com/u/115785933?v=4",
+				"url": "https://github.com/romacub"
+			},
+			{
+				"name": "ChronoInferna",
+				"image": "https://avatars.githubusercontent.com/u/32346067?v=4",
+				"url": "https://github.com/ChronoInferna"
+			},
+			{
+				"name": "yoy333",
+				"image": "https://avatars.githubusercontent.com/u/42850829?v=4",
+				"url": "https://github.com/yoy333"
+			},
+			{
+				"name": "NovaAndrom3da",
+				"image": "https://avatars.githubusercontent.com/u/92762044?v=4",
+				"url": "https://github.com/NovaAndrom3da"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "fish",
+		"description": "Soho vibes for fish",
+		"stargazersCount": 42,
+		"updatedAt": "2026-03-21T17:02:09Z",
+		"tags": ["fish", "rose-pine", "shell", "soho-vibes", "theme"],
+		"url": "https://github.com/rose-pine/fish",
+		"name": "fish",
+		"category": "terminal",
+		"contributors": [
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "simono",
+				"image": "https://avatars.githubusercontent.com/u/874148?v=4",
+				"url": "https://github.com/simono"
+			},
+			{
+				"name": "ubmit",
+				"image": "https://avatars.githubusercontent.com/u/8797405?v=4",
+				"url": "https://github.com/ubmit"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "flow-launcher",
+		"description": "Soho vibes for Flow Launcher",
+		"stargazersCount": 2,
+		"updatedAt": "2025-06-12T16:29:44Z",
+		"tags": [],
+		"url": "https://github.com/rose-pine/flow-launcher",
+		"name": "Flow Launcher",
+		"category": "system",
+		"contributors": [
+			{
+				"name": "ianklapouch",
+				"image": "https://avatars.githubusercontent.com/u/61709223?v=4",
+				"url": "https://github.com/ianklapouch"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "fluent-terminal",
+		"description": "Soho vibes for Fluent Terminal",
+		"stargazersCount": 7,
+		"updatedAt": "2025-11-05T14:46:23Z",
+		"tags": [
+			"fluent-terminal",
+			"rose-pine",
+			"soho-vibes",
+			"terminal",
+			"terminal-emulator",
+			"theme"
+		],
+		"url": "https://github.com/rose-pine/fluent-terminal",
+		"name": "Fluent Terminal",
+		"category": "terminal",
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "foot",
+		"description": "Soho vibes for foot",
+		"stargazersCount": 17,
+		"updatedAt": "2026-03-23T23:03:19Z",
+		"tags": [
+			"foot",
+			"foot-terminal",
+			"rose-pine",
+			"soho-vibes",
+			"terminal",
+			"terminal-emulator",
+			"theme"
+		],
+		"url": "https://github.com/rose-pine/foot",
+		"name": "foot",
+		"category": "terminal",
+		"contributors": [
+			{
+				"name": "d2718nis",
+				"image": "https://avatars.githubusercontent.com/u/18328279?v=4",
+				"url": "https://github.com/d2718nis"
+			},
+			{
+				"name": "EuCaue",
+				"image": "https://avatars.githubusercontent.com/u/69485603?v=4",
+				"url": "https://github.com/EuCaue"
+			},
+			{
+				"name": "cement-drinker",
+				"image": "https://avatars.githubusercontent.com/u/119074275?v=4",
+				"url": "https://github.com/cement-drinker"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "nezia1",
+				"image": "https://avatars.githubusercontent.com/u/43719748?v=4",
+				"url": "https://github.com/nezia1"
+			},
+			{
+				"name": "arthurbacci",
+				"image": "https://avatars.githubusercontent.com/u/59983362?v=4",
+				"url": "https://github.com/arthurbacci"
+			},
+			{
+				"name": "void1024",
+				"image": "https://avatars.githubusercontent.com/u/45062062?v=4",
+				"url": "https://github.com/void1024"
+			},
+			{
+				"name": "vonkossel",
+				"image": "https://avatars.githubusercontent.com/u/256469383?v=4",
+				"url": "https://github.com/vonkossel"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "fzf",
+		"description": "Soho vibes for fzf",
+		"stargazersCount": 34,
+		"updatedAt": "2026-03-24T10:44:58Z",
+		"tags": ["theme"],
+		"url": "https://github.com/rose-pine/fzf",
+		"name": "fzf",
+		"category": "terminal",
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "jovark",
+				"image": "https://avatars.githubusercontent.com/u/57330540?v=4",
+				"url": "https://github.com/jovark"
+			},
+			{
+				"name": "cutbypham",
+				"image": "https://avatars.githubusercontent.com/u/40050527?v=4",
+				"url": "https://github.com/cutbypham"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "gdevelop",
+		"description": "Soho vibes for GDevelop",
+		"stargazersCount": 2,
+		"updatedAt": "2025-11-05T14:46:26Z",
+		"tags": ["gdevelop", "hacktoberfest", "rose-pine", "soho-vibes", "theme"],
+		"url": "https://github.com/rose-pine/gdevelop",
+		"name": "GDevelop",
+		"category": "editor",
+		"contributors": [
+			{
+				"name": "ehanahamed",
+				"image": "https://avatars.githubusercontent.com/u/98765025?v=4",
+				"url": "https://github.com/ehanahamed"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "geany",
+		"description": "Soho vibes for Geany",
+		"stargazersCount": 0,
+		"updatedAt": "2025-11-05T14:46:27Z",
+		"tags": ["rose-pine", "soho-vibes", "theme"],
+		"url": "https://github.com/rose-pine/geany",
+		"name": "Geany",
+		"category": "editor",
+		"contributors": [
+			{
+				"name": "bonbuggie",
+				"image": "https://avatars.githubusercontent.com/u/81865850?v=4",
+				"url": "https://github.com/bonbuggie"
+			},
+			{
+				"name": "Waxxx333",
+				"image": "https://avatars.githubusercontent.com/u/59426207?v=4",
+				"url": "https://github.com/Waxxx333"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "pocco81",
+				"image": "https://avatars.githubusercontent.com/u/58336662?v=4",
+				"url": "https://github.com/pocco81"
+			},
+			{
+				"name": "isabelincorp",
+				"image": "https://avatars.githubusercontent.com/u/114378481?v=4",
+				"url": "https://github.com/isabelincorp"
+			},
+			{
+				"name": "nekowinston",
+				"image": "https://avatars.githubusercontent.com/u/79978224?v=4",
+				"url": "https://github.com/nekowinston"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "ghostty",
+		"description": "Soho vibes for Ghostty",
+		"stargazersCount": 54,
+		"updatedAt": "2026-03-24T12:05:27Z",
+		"tags": [],
+		"url": "https://github.com/rose-pine/ghostty",
+		"name": "Ghostty",
+		"category": "terminal",
+		"contributors": [
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "kjvdven",
+				"image": "https://avatars.githubusercontent.com/u/306806?v=4",
+				"url": "https://github.com/kjvdven"
+			},
+			{
+				"name": "mininerva",
+				"image": "https://avatars.githubusercontent.com/u/145420456?v=4",
+				"url": "https://github.com/mininerva"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "github-readme-stats",
+		"description": "Soho vibes for GitHub Readme Stats",
+		"stargazersCount": 11,
+		"updatedAt": "2025-11-05T14:46:28Z",
+		"tags": [
+			"github",
+			"github-readme-stats",
+			"rose-pine",
+			"soho-vibes",
+			"theme"
+		],
+		"url": "https://github.com/rose-pine/github-readme-stats",
+		"name": "GitHub Readme Stats",
+		"category": "browser",
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "gitkraken",
+		"description": "Soho vibes for GitKraken",
+		"stargazersCount": 6,
+		"updatedAt": "2025-11-05T14:46:30Z",
+		"tags": ["git", "hacktoberfest", "rose-pine", "soho-vibes", "theme"],
+		"url": "https://github.com/rose-pine/gitkraken",
+		"name": "GitKraken",
+		"category": "editor",
+		"contributors": [
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "diorcula",
+				"image": "https://avatars.githubusercontent.com/u/32682696?v=4",
+				"url": "https://github.com/diorcula"
+			},
+			{
+				"name": "Henriquehnnm",
+				"image": "https://avatars.githubusercontent.com/u/189361616?v=4",
+				"url": "https://github.com/Henriquehnnm"
+			},
+			{
+				"name": "fvrests",
+				"image": "https://avatars.githubusercontent.com/u/47515065?v=4",
+				"url": "https://github.com/fvrests"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "glazewm",
+		"description": "Soho vibes for GlazeWM",
+		"stargazersCount": 7,
+		"updatedAt": "2025-11-05T14:46:31Z",
+		"tags": [],
+		"url": "https://github.com/rose-pine/glazewm",
+		"name": "GlazeWM",
+		"category": "system",
+		"contributors": [
+			{
+				"name": "jishnurajendran",
+				"image": "https://avatars.githubusercontent.com/u/10544069?v=4",
+				"url": "https://github.com/jishnurajendran"
+			},
+			{
+				"name": "jovark",
+				"image": "https://avatars.githubusercontent.com/u/57330540?v=4",
+				"url": "https://github.com/jovark"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "gnome-builder",
+		"description": "Soho vibes for GNOME Builder",
+		"stargazersCount": 0,
+		"updatedAt": "2026-03-16T18:27:20Z",
+		"tags": [],
+		"url": "https://github.com/rose-pine/gnome-builder",
+		"name": "GNOME Builder",
+		"category": "editor",
+		"contributors": [
+			{
+				"name": "Henriquehnnm",
+				"image": "https://avatars.githubusercontent.com/u/189361616?v=4",
+				"url": "https://github.com/Henriquehnnm"
+			},
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "gnome-terminal",
+		"description": "Soho vibes for GNOME Terminal",
+		"stargazersCount": 54,
+		"updatedAt": "2026-03-13T08:22:25Z",
+		"tags": [
+			"gnome-terminal",
+			"hacktoberfest",
+			"rose-pine",
+			"soho-vibes",
+			"terminal",
+			"terminal-emulator",
+			"theme"
+		],
+		"url": "https://github.com/rose-pine/gnome-terminal",
+		"name": "GNOME Terminal",
+		"category": "terminal",
+		"contributors": [
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "ashbork",
+				"image": "https://avatars.githubusercontent.com/u/82605611?v=4",
+				"url": "https://github.com/ashbork"
+			},
+			{
+				"name": "diorcula",
+				"image": "https://avatars.githubusercontent.com/u/32682696?v=4",
+				"url": "https://github.com/diorcula"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "gotosocial",
 		"description": "Soho vibes for GoToSocial",
-		"repositoryTopics": [
-			"custom-css",
-			"fediverse",
-			"gotosocial",
-			"self-hosted"
-		],
-		"stargazerCount": 0,
+		"stargazersCount": 0,
 		"updatedAt": "2025-12-14T16:57:29Z",
+		"tags": ["custom-css", "fediverse", "gotosocial", "self-hosted"],
 		"url": "https://github.com/rose-pine/gotosocial",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "GoToSocial",
 		"category": "browser",
-		"tags": ["custom-css", "fediverse", "gotosocial", "self-hosted"],
-		"children": [],
-		"contributors": ["wzykubek"]
+		"contributors": [
+			{
+				"name": "wzykubek",
+				"image": "https://avatars.githubusercontent.com/u/37913333?v=4",
+				"url": "https://github.com/wzykubek"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "grub",
 		"description": "Soho vibes for GRUB 2",
-		"repositoryTopics": ["grub", "soho-vibes", "theme", "rose-pine"],
-		"stargazerCount": 20,
+		"stargazersCount": 20,
 		"updatedAt": "2025-11-22T13:20:02Z",
+		"tags": ["grub", "rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/grub",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "GRUB",
 		"category": "system",
-		"tags": ["grub", "soho-vibes", "theme", "rose-pine"],
-		"children": [],
 		"contributors": [
-			"ThatOneCalculator",
-			"mvllow",
-			"nofishleft",
-			"quunnb",
-			"revsuine"
-		]
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "revsuine",
+				"image": "https://avatars.githubusercontent.com/u/10424281?v=4",
+				"url": "https://github.com/revsuine"
+			},
+			{
+				"name": "nofishleft",
+				"image": "https://avatars.githubusercontent.com/u/38971061?v=4",
+				"url": "https://github.com/nofishleft"
+			},
+			{
+				"name": "quunnb",
+				"image": "https://avatars.githubusercontent.com/u/76442633?v=4",
+				"url": "https://github.com/quunnb"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "gtk",
 		"description": "Soho vibes for GTK",
-		"repositoryTopics": ["gtk", "soho-vibes", "theme", "rose-pine"],
-		"stargazerCount": 321,
-		"updatedAt": "2026-03-03T08:58:33Z",
+		"stargazersCount": 325,
+		"updatedAt": "2026-03-25T20:19:05Z",
+		"tags": ["gtk", "rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/gtk",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "GTK",
 		"category": "system",
-		"tags": ["gtk", "soho-vibes", "theme", "rose-pine"],
-		"children": [],
 		"contributors": [
-			"Daniel-McLarty",
-			"IamGianluca",
-			"LordImmaculate",
-			"ThatOneCalculator",
-			"VLPatton",
-			"ashbork",
-			"felipeehm",
-			"festiveelephantseal",
-			"mvllow"
-		]
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "ashbork",
+				"image": "https://avatars.githubusercontent.com/u/82605611?v=4",
+				"url": "https://github.com/ashbork"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "Daniel-McLarty",
+				"image": "https://avatars.githubusercontent.com/u/143743404?v=4",
+				"url": "https://github.com/Daniel-McLarty"
+			},
+			{
+				"name": "IamGianluca",
+				"image": "https://avatars.githubusercontent.com/u/4025968?v=4",
+				"url": "https://github.com/IamGianluca"
+			},
+			{
+				"name": "VLPatton",
+				"image": "https://avatars.githubusercontent.com/u/93827632?v=4",
+				"url": "https://github.com/VLPatton"
+			},
+			{
+				"name": "LordImmaculate",
+				"image": "https://avatars.githubusercontent.com/u/101836390?v=4",
+				"url": "https://github.com/LordImmaculate"
+			},
+			{
+				"name": "felipeehm",
+				"image": "https://avatars.githubusercontent.com/u/34879656?v=4",
+				"url": "https://github.com/felipeehm"
+			},
+			{
+				"name": "festiveelephantseal",
+				"image": "https://avatars.githubusercontent.com/u/33642056?v=4",
+				"url": "https://github.com/festiveelephantseal"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "helix",
 		"description": "Soho vibes for Helix",
-		"repositoryTopics": [
-			"theme",
-			"soho-vibes",
-			"rose-pine",
-			"helix",
+		"stargazersCount": 38,
+		"updatedAt": "2026-03-23T16:19:12Z",
+		"tags": [
 			"editor",
-			"hacktoberfest"
+			"hacktoberfest",
+			"helix",
+			"rose-pine",
+			"soho-vibes",
+			"theme"
 		],
-		"stargazerCount": 36,
-		"updatedAt": "2026-02-19T23:47:05Z",
 		"url": "https://github.com/rose-pine/helix",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Helix",
 		"category": "editor",
-		"tags": [
-			"theme",
-			"soho-vibes",
-			"rose-pine",
-			"helix",
-			"editor",
-			"hacktoberfest"
-		],
-		"children": [],
 		"contributors": [
-			"Iorvethe",
-			"ThatOneCalculator",
-			"fvrests",
-			"guillermoap",
-			"mvllow",
-			"nshern",
-			"th7mo",
-			"tobibrunner"
-		]
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "Iorvethe",
+				"image": "https://avatars.githubusercontent.com/u/58810330?v=4",
+				"url": "https://github.com/Iorvethe"
+			},
+			{
+				"name": "th7mo",
+				"image": "https://avatars.githubusercontent.com/u/73542945?v=4",
+				"url": "https://github.com/th7mo"
+			},
+			{
+				"name": "guillermoap",
+				"image": "https://avatars.githubusercontent.com/u/26125246?v=4",
+				"url": "https://github.com/guillermoap"
+			},
+			{
+				"name": "nshern",
+				"image": "https://avatars.githubusercontent.com/u/90867839?v=4",
+				"url": "https://github.com/nshern"
+			},
+			{
+				"name": "tobibrunner",
+				"image": "https://avatars.githubusercontent.com/u/50907345?v=4",
+				"url": "https://github.com/tobibrunner"
+			},
+			{
+				"name": "fvrests",
+				"image": "https://avatars.githubusercontent.com/u/47515065?v=4",
+				"url": "https://github.com/fvrests"
+			},
+			{
+				"name": "skewb1k",
+				"image": "https://avatars.githubusercontent.com/u/101928759?v=4",
+				"url": "https://github.com/skewb1k"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "hljs",
 		"description": "Soho vibes for highlight.js",
-		"repositoryTopics": ["theme"],
-		"stargazerCount": 5,
+		"stargazersCount": 5,
 		"updatedAt": "2025-11-05T14:46:38Z",
+		"tags": ["theme"],
 		"url": "https://github.com/rose-pine/hljs",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "highlight.js",
 		"category": "library",
-		"tags": ["theme"],
-		"children": [],
-		"contributors": ["JaninaWibker", "ThatOneCalculator", "mvllow"]
-	},
-	{
-		"slug": "homebrew-tap",
-		"description": "Homebrew tap repo for Rosé Pine",
-		"repositoryTopics": [],
-		"stargazerCount": 0,
-		"updatedAt": "2025-11-19T19:53:54Z",
-		"url": "https://github.com/rose-pine/homebrew-tap",
-		"usesCustomOpenGraphImage": false,
-		"hidden": "true",
-		"name": "homebrew-tap",
-		"category": "none",
-		"tags": [],
-		"children": [],
-		"contributors": ["mvllow"]
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "JaninaWibker",
+				"image": "https://avatars.githubusercontent.com/u/16372321?v=4",
+				"url": "https://github.com/JaninaWibker"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "hyper",
 		"description": "Soho vibes for Hyper",
-		"repositoryTopics": [
-			"hyper",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"terminal",
-			"terminal-emulator"
-		],
-		"stargazerCount": 37,
+		"stargazersCount": 37,
 		"updatedAt": "2025-12-04T05:06:58Z",
-		"url": "https://github.com/rose-pine/hyper",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "Hyper",
-		"category": "terminal",
 		"tags": [
 			"hyper",
-			"soho-vibes",
-			"theme",
 			"rose-pine",
+			"soho-vibes",
 			"terminal",
-			"terminal-emulator"
+			"terminal-emulator",
+			"theme"
 		],
-		"children": [],
+		"url": "https://github.com/rose-pine/hyper",
+		"name": "Hyper",
+		"category": "terminal",
 		"contributors": [
-			"0xK3vin",
-			"ThatOneCalculator",
-			"fvrests",
-			"lmunozdiaz",
-			"mvllow"
-		]
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "fvrests",
+				"image": "https://avatars.githubusercontent.com/u/47515065?v=4",
+				"url": "https://github.com/fvrests"
+			},
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "0xK3vin",
+				"image": "https://avatars.githubusercontent.com/u/17069304?v=4",
+				"url": "https://github.com/0xK3vin"
+			},
+			{
+				"name": "lmunozdiaz",
+				"image": "https://avatars.githubusercontent.com/u/73846345?v=4",
+				"url": "https://github.com/lmunozdiaz"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "hyprland",
 		"description": "Soho vibes for Hyprland ",
-		"repositoryTopics": [
-			"color-palette",
-			"hyprland",
-			"tiling-window-manager",
-			"theme"
-		],
-		"stargazerCount": 30,
-		"updatedAt": "2026-02-26T21:34:43Z",
+		"stargazersCount": 31,
+		"updatedAt": "2026-03-11T20:48:05Z",
+		"tags": ["color-palette", "hyprland", "theme", "tiling-window-manager"],
 		"url": "https://github.com/rose-pine/hyprland",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Hyprland",
 		"category": "system",
-		"tags": ["color-palette", "hyprland", "tiling-window-manager", "theme"],
-		"children": [],
-		"contributors": ["Tasztalos69", "jishnurajendran", "mvllow"]
+		"contributors": [
+			{
+				"name": "jishnurajendran",
+				"image": "https://avatars.githubusercontent.com/u/10544069?v=4",
+				"url": "https://github.com/jishnurajendran"
+			},
+			{
+				"name": "Tasztalos69",
+				"image": "https://avatars.githubusercontent.com/u/42411122?v=4",
+				"url": "https://github.com/Tasztalos69"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "i3",
 		"description": "Soho vibes for i3 wm",
-		"repositoryTopics": [
-			"i3",
-			"rose-pine",
-			"soho-vibes",
-			"theme",
-			"window-manager"
-		],
-		"stargazerCount": 14,
-		"updatedAt": "2026-02-14T07:38:37Z",
+		"stargazersCount": 15,
+		"updatedAt": "2026-03-23T21:10:48Z",
+		"tags": ["i3", "rose-pine", "soho-vibes", "theme", "window-manager"],
 		"url": "https://github.com/rose-pine/i3",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "i3",
 		"category": "system",
-		"tags": ["i3", "rose-pine", "soho-vibes", "theme", "window-manager"],
-		"children": [],
-		"contributors": ["codepediair", "mvllow", "rznn7"]
+		"contributors": [
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "codepediair",
+				"image": "https://avatars.githubusercontent.com/u/25179980?v=4",
+				"url": "https://github.com/codepediair"
+			},
+			{
+				"name": "rznn7",
+				"image": "https://avatars.githubusercontent.com/u/160644362?v=4",
+				"url": "https://github.com/rznn7"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "instatus",
 		"description": "Soho vibes for Instatus",
-		"repositoryTopics": [
+		"stargazersCount": 1,
+		"updatedAt": "2025-11-05T14:46:43Z",
+		"tags": [
+			"css",
 			"instatus",
 			"status-page",
-			"css",
-			"status-pages",
 			"status-page-ui",
+			"status-pages",
 			"theme"
 		],
-		"stargazerCount": 1,
-		"updatedAt": "2025-11-05T14:46:43Z",
 		"url": "https://github.com/rose-pine/instatus",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Instatus",
 		"category": "browser",
-		"tags": [
-			"instatus",
-			"status-page",
-			"css",
-			"status-pages",
-			"status-page-ui",
-			"theme"
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
 		],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow"]
+		"children": []
 	},
 	{
 		"slug": "iterm",
 		"description": "Soho vibes for iTerm2",
-		"repositoryTopics": [
-			"iterm",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"terminal",
-			"terminal-emulator"
-		],
-		"stargazerCount": 134,
-		"updatedAt": "2026-02-21T14:18:30Z",
-		"url": "https://github.com/rose-pine/iterm",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "iTerm2",
-		"category": "terminal",
+		"stargazersCount": 138,
+		"updatedAt": "2026-03-19T20:07:05Z",
 		"tags": [
 			"iterm",
-			"soho-vibes",
-			"theme",
 			"rose-pine",
+			"soho-vibes",
 			"terminal",
-			"terminal-emulator"
+			"terminal-emulator",
+			"theme"
 		],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "fvrests", "mvllow"]
+		"url": "https://github.com/rose-pine/iterm",
+		"name": "iTerm2",
+		"category": "terminal",
+		"contributors": [
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "fvrests",
+				"image": "https://avatars.githubusercontent.com/u/47515065?v=4",
+				"url": "https://github.com/fvrests"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "jdownloader",
 		"description": "Soho vibes for JDownloader 2",
-		"repositoryTopics": ["app", "jdownloader", "theme"],
-		"stargazerCount": 4,
+		"stargazersCount": 4,
 		"updatedAt": "2025-11-27T04:25:20Z",
+		"tags": ["app", "jdownloader", "theme"],
 		"url": "https://github.com/rose-pine/jdownloader",
-		"usesCustomOpenGraphImage": false,
-		"hidden": "false",
 		"name": "JDownloader",
 		"category": "editor",
-		"tags": ["app", "jdownloader", "theme"],
-		"children": [],
-		"contributors": ["darkthemer", "mvllow"]
+		"contributors": [
+			{
+				"name": "darkthemer",
+				"image": "https://avatars.githubusercontent.com/u/111078063?v=4",
+				"url": "https://github.com/darkthemer"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "kate",
 		"description": "Soho vibes for Kate",
-		"repositoryTopics": [],
-		"stargazerCount": 2,
+		"stargazersCount": 2,
 		"updatedAt": "2026-03-03T12:09:14Z",
+		"tags": [],
 		"url": "https://github.com/rose-pine/kate",
-		"usesCustomOpenGraphImage": false,
-		"hidden": "false",
 		"name": "Kate",
 		"category": "editor",
-		"tags": [],
-		"children": [],
-		"contributors": ["Henriquehnnm", "mvllow"]
+		"contributors": [
+			{
+				"name": "Henriquehnnm",
+				"image": "https://avatars.githubusercontent.com/u/189361616?v=4",
+				"url": "https://github.com/Henriquehnnm"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "kitty",
 		"description": "Soho vibes for kitty",
-		"repositoryTopics": [
-			"kitty",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"terminal",
-			"terminal-emulator"
-		],
-		"stargazerCount": 114,
-		"updatedAt": "2026-02-01T03:32:58Z",
-		"url": "https://github.com/rose-pine/kitty",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "kitty",
-		"category": "terminal",
+		"stargazersCount": 117,
+		"updatedAt": "2026-03-21T20:38:56Z",
 		"tags": [
 			"kitty",
-			"soho-vibes",
-			"theme",
 			"rose-pine",
+			"soho-vibes",
 			"terminal",
-			"terminal-emulator"
+			"terminal-emulator",
+			"theme"
 		],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow"]
+		"url": "https://github.com/rose-pine/kitty",
+		"name": "kitty",
+		"category": "terminal",
+		"contributors": [
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "konsole",
 		"description": "Soho vibes for Konsole",
-		"repositoryTopics": [
-			"konsole",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"terminal",
-			"terminal-emulator"
-		],
-		"stargazerCount": 16,
+		"stargazersCount": 16,
 		"updatedAt": "2025-12-27T14:47:49Z",
-		"url": "https://github.com/rose-pine/konsole",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "Konsole",
-		"category": "terminal",
 		"tags": [
 			"konsole",
-			"soho-vibes",
-			"theme",
 			"rose-pine",
+			"soho-vibes",
 			"terminal",
-			"terminal-emulator"
+			"terminal-emulator",
+			"theme"
 		],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "ashbork", "mvllow"]
+		"url": "https://github.com/rose-pine/konsole",
+		"name": "Konsole",
+		"category": "terminal",
+		"contributors": [
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "ashbork",
+				"image": "https://avatars.githubusercontent.com/u/82605611?v=4",
+				"url": "https://github.com/ashbork"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "kvantum",
 		"description": "Soho vibes for Kvantum",
-		"repositoryTopics": [
-			"kvantum",
-			"rose-pine",
-			"soho-vibes",
-			"theme",
-			"kde",
-			"qt"
-		],
-		"stargazerCount": 6,
+		"stargazersCount": 6,
 		"updatedAt": "2025-11-05T18:42:19Z",
+		"tags": ["kde", "kvantum", "qt", "rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/kvantum",
-		"usesCustomOpenGraphImage": false,
-		"hidden": "false",
 		"name": "Kvantum",
 		"category": "editor",
-		"tags": ["kvantum", "rose-pine", "soho-vibes", "theme", "kde", "qt"],
-		"children": [],
-		"contributors": ["OyuDays", "mvllow"]
+		"contributors": [
+			{
+				"name": "OyuDays",
+				"image": "https://avatars.githubusercontent.com/u/168268697?v=4",
+				"url": "https://github.com/OyuDays"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "lazygit",
 		"description": "Soho vibes for lazygit",
-		"repositoryTopics": [],
-		"stargazerCount": 5,
+		"stargazersCount": 5,
 		"updatedAt": "2026-02-28T23:26:31Z",
+		"tags": [],
 		"url": "https://github.com/rose-pine/lazygit",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "lazygit",
 		"category": "terminal",
-		"tags": [],
-		"children": [],
-		"contributors": ["Mintass", "mvllow"]
+		"contributors": [
+			{
+				"name": "Mintass",
+				"image": "https://avatars.githubusercontent.com/u/116579758?v=4",
+				"url": "https://github.com/Mintass"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "limine",
 		"description": "Soho vibes for Limine",
-		"repositoryTopics": [
-			"bootloader",
-			"limine",
-			"limine-bootloader",
-			"rose-pine",
-			"soho-vibes",
-			"theme"
-		],
-		"stargazerCount": 1,
+		"stargazersCount": 1,
 		"updatedAt": "2026-02-27T09:11:20Z",
-		"url": "https://github.com/rose-pine/limine",
-		"usesCustomOpenGraphImage": false,
-		"hidden": "false",
-		"name": "Limine",
-		"category": "system",
 		"tags": [
 			"bootloader",
 			"limine",
@@ -1241,638 +1766,964 @@
 			"soho-vibes",
 			"theme"
 		],
-		"children": [],
-		"contributors": ["MotherStarry"]
+		"url": "https://github.com/rose-pine/limine",
+		"name": "Limine",
+		"category": "system",
+		"contributors": [
+			{
+				"name": "MotherStarry",
+				"image": "https://avatars.githubusercontent.com/u/204791320?v=4",
+				"url": "https://github.com/MotherStarry"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "linear",
 		"description": "Soho vibes for Linear",
-		"repositoryTopics": [
+		"stargazersCount": 0,
+		"updatedAt": "2025-11-05T14:46:52Z",
+		"tags": [
+			"issue-tracker",
 			"linear",
+			"project-management",
 			"rose-pine",
 			"soho-vibes",
-			"theme",
-			"issue-tracker",
-			"project-management"
+			"theme"
 		],
-		"stargazerCount": 0,
-		"updatedAt": "2025-11-05T14:46:52Z",
 		"url": "https://github.com/rose-pine/linear",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Linear",
 		"category": "browser",
-		"tags": [
-			"linear",
-			"rose-pine",
-			"soho-vibes",
-			"theme",
-			"issue-tracker",
-			"project-management"
+		"contributors": [
+			{
+				"name": "LopeAriyo",
+				"image": "https://avatars.githubusercontent.com/u/54779085?v=4",
+				"url": "https://github.com/LopeAriyo"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
 		],
-		"children": [],
-		"contributors": ["LopeAriyo", "mvllow"]
+		"children": []
 	},
 	{
 		"slug": "linux-tty",
 		"description": "Soho vibes for Linux TTY",
-		"repositoryTopics": ["linux-tty", "soho-vibes", "theme", "rose-pine"],
-		"stargazerCount": 16,
+		"stargazersCount": 16,
 		"updatedAt": "2026-01-27T09:22:15Z",
+		"tags": ["linux-tty", "rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/linux-tty",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Linux TTY",
 		"category": "terminal",
-		"tags": ["linux-tty", "soho-vibes", "theme", "rose-pine"],
-		"children": [],
 		"contributors": [
-			"ThatOneCalculator",
-			"mvllow",
-			"olekawaii",
-			"prateektade",
-			"quunnb"
-		]
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "olekawaii",
+				"image": "https://avatars.githubusercontent.com/u/89757188?v=4",
+				"url": "https://github.com/olekawaii"
+			},
+			{
+				"name": "prateektade",
+				"image": "https://avatars.githubusercontent.com/u/108054324?v=4",
+				"url": "https://github.com/prateektade"
+			},
+			{
+				"name": "quunnb",
+				"image": "https://avatars.githubusercontent.com/u/76442633?v=4",
+				"url": "https://github.com/quunnb"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "lxterminal",
 		"description": "Soho vibes for LXTerminal",
-		"repositoryTopics": [
-			"lxterminal",
-			"rose-pine",
-			"soho-vibes",
-			"theme",
-			"terminal",
-			"terminal-emulator"
-		],
-		"stargazerCount": 3,
+		"stargazersCount": 3,
 		"updatedAt": "2025-11-05T14:46:55Z",
-		"url": "https://github.com/rose-pine/lxterminal",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "LXTerminal",
-		"category": "terminal",
 		"tags": [
 			"lxterminal",
 			"rose-pine",
 			"soho-vibes",
-			"theme",
 			"terminal",
-			"terminal-emulator"
+			"terminal-emulator",
+			"theme"
 		],
-		"children": [],
-		"contributors": ["mvllow", "prateektade"]
+		"url": "https://github.com/rose-pine/lxterminal",
+		"name": "LXTerminal",
+		"category": "terminal",
+		"contributors": [
+			{
+				"name": "prateektade",
+				"image": "https://avatars.githubusercontent.com/u/108054324?v=4",
+				"url": "https://github.com/prateektade"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "mailspring",
 		"description": "Soho vibes for MailSpring",
-		"repositoryTopics": ["mailspring", "soho-vibes", "theme"],
-		"stargazerCount": 4,
+		"stargazersCount": 4,
 		"updatedAt": "2025-11-05T15:00:10Z",
+		"tags": ["mailspring", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/mailspring",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "MailSpring",
 		"category": "social",
-		"tags": ["mailspring", "soho-vibes", "theme"],
-		"children": [],
 		"contributors": [
-			"ThatOneCalculator",
-			"bacharakis",
-			"bengotow",
-			"mvllow",
-			"toxicmender"
-		]
+			{
+				"name": "bengotow",
+				"image": "https://avatars.githubusercontent.com/u/1037212?v=4",
+				"url": "https://github.com/bengotow"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "bacharakis",
+				"image": "https://avatars.githubusercontent.com/u/1435040?v=4",
+				"url": "https://github.com/bacharakis"
+			},
+			{
+				"name": "toxicmender",
+				"image": "https://avatars.githubusercontent.com/u/13049649?v=4",
+				"url": "https://github.com/toxicmender"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "mako",
 		"description": "Soho vibes for mako",
-		"repositoryTopics": ["mako", "theme"],
-		"stargazerCount": 3,
+		"stargazersCount": 3,
 		"updatedAt": "2025-11-05T14:46:57Z",
+		"tags": ["mako", "theme"],
 		"url": "https://github.com/rose-pine/mako",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "mako",
 		"category": "system",
-		"tags": ["mako", "theme"],
-		"children": [],
-		"contributors": ["mvllow", "stanekondrej"]
+		"contributors": [
+			{
+				"name": "stanekondrej",
+				"image": "https://avatars.githubusercontent.com/u/101977584?v=4",
+				"url": "https://github.com/stanekondrej"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "markdown-viewer",
 		"description": "Soho vibes for Markdown Viewer",
-		"repositoryTopics": ["extension", "rose-pine", "soho-vibes", "theme"],
-		"stargazerCount": 3,
+		"stargazersCount": 3,
 		"updatedAt": "2026-02-28T23:27:54Z",
+		"tags": ["extension", "rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/markdown-viewer",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Markdown Viewer",
 		"category": "browser",
-		"tags": ["extension", "rose-pine", "soho-vibes", "theme"],
-		"children": [],
-		"contributors": ["Swefton", "mvllow"]
+		"contributors": [
+			{
+				"name": "Swefton",
+				"image": "https://avatars.githubusercontent.com/u/92468954?v=4",
+				"url": "https://github.com/Swefton"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "mastodon",
 		"description": "Soho vibes for Mastodon",
-		"repositoryTopics": ["theme", "mastodon", "soho-vibes", "rose-pine", "css"],
-		"stargazerCount": 5,
+		"stargazersCount": 5,
 		"updatedAt": "2025-11-22T13:19:00Z",
+		"tags": ["css", "mastodon", "rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/mastodon",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Mastodon",
 		"category": "social",
-		"tags": ["theme", "mastodon", "soho-vibes", "rose-pine", "css"],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow"]
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "miniflux",
 		"description": "Soho vibes for Miniflux",
-		"repositoryTopics": [],
-		"stargazerCount": 0,
+		"stargazersCount": 0,
 		"updatedAt": "2026-02-02T23:05:46Z",
+		"tags": [],
 		"url": "https://github.com/rose-pine/miniflux",
-		"usesCustomOpenGraphImage": false,
-		"hidden": "false",
 		"name": "Miniflux",
 		"category": "browser",
-		"tags": [],
-		"children": [],
-		"contributors": ["juliamertz"]
+		"contributors": [
+			{
+				"name": "juliamertz",
+				"image": "https://avatars.githubusercontent.com/u/35079666?v=4",
+				"url": "https://github.com/juliamertz"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "mintty",
 		"description": "Soho vibes for MinTTY",
-		"repositoryTopics": ["mintty", "soho-vibes", "theme", "rose-pine"],
-		"stargazerCount": 3,
+		"stargazersCount": 3,
 		"updatedAt": "2025-11-05T14:47:00Z",
+		"tags": ["mintty", "rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/mintty",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "MinTTY",
 		"category": "terminal",
-		"tags": ["mintty", "soho-vibes", "theme", "rose-pine"],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow"]
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "misskey",
 		"description": "Soho vibes for Misskey",
-		"repositoryTopics": ["misskey", "misskey-theme", "theme"],
-		"stargazerCount": 16,
+		"stargazersCount": 16,
 		"updatedAt": "2025-12-18T19:37:06Z",
+		"tags": ["misskey", "misskey-theme", "theme"],
 		"url": "https://github.com/rose-pine/misskey",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Misskey",
 		"category": "browser",
-		"tags": ["misskey", "misskey-theme", "theme"],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow"]
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "mona",
 		"description": "Soho vibes for Mona",
-		"repositoryTopics": ["theme"],
-		"stargazerCount": 2,
+		"stargazersCount": 2,
 		"updatedAt": "2025-11-05T14:47:02Z",
+		"tags": ["theme"],
 		"url": "https://github.com/rose-pine/mona",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Mona",
 		"category": "social",
-		"tags": ["theme"],
-		"children": [],
-		"contributors": ["SocietasEvanescentes", "ThatOneCalculator", "mvllow"]
-	},
-	{
-		"slug": "monkeytype",
-		"description": "Soho vibes for Monkeytype",
-		"repositoryTopics": ["monkeytype", "theme", "collection"],
-		"stargazerCount": 5,
-		"updatedAt": "2024-02-04T13:43:47Z",
-		"url": "https://github.com/rose-pine/monkeytype",
-		"usesCustomOpenGraphImage": false,
-		"hidden": "false",
-		"name": "Monkeytype",
-		"category": "browser",
-		"tags": ["monkeytype", "theme", "collection"],
-		"children": [],
 		"contributors": [
-			"18praneeth",
-			"AfonsoVReis",
-			"Ahmad-A0",
-			"Alenygam",
-			"BarePotato",
-			"BlueGone",
-			"Bregoliii",
-			"Cosmeeeen",
-			"EmNudge",
-			"FabianSt305",
-			"Fraserbc",
-			"Fuwn",
-			"GFruit",
-			"GioSDA",
-			"HayataSama",
-			"Inirdin",
-			"JohnCassavetes",
-			"JonesSagabaen",
-			"Jonny-exe",
-			"JosueLeovani",
-			"Kungger-git",
-			"Magical-Penguin",
-			"MakerJake01",
-			"Marco-Pagani",
-			"MaticSulc",
-			"Miodec",
-			"Mollerz",
-			"OctahedronV2",
-			"OldMope",
-			"Oskar283",
-			"RealCyGuy",
-			"RebonackAl",
-			"SeerLite",
-			"ThatOneCalculator",
-			"a1usha",
-			"aditya1rawat",
-			"aezexa",
-			"alegottu",
-			"ammarptn",
-			"andrewtran1995",
-			"aoaaceai",
-			"ariebh",
-			"atbuy",
-			"avi123nash",
-			"aviegdown",
-			"b-paul",
-			"bataak",
-			"beckxie",
-			"bhomie",
-			"bilfri",
-			"bool3max",
-			"cBachoo",
-			"cincodenada",
-			"corey-b",
-			"cutbypham",
-			"dCubelic",
-			"danhogan",
-			"dependabot[bot]",
-			"dmartin-tech",
-			"dtuukkanen",
-			"eigenpaul",
-			"elswenson",
-			"eth0fox",
-			"f1sh33",
-			"gasbytes",
-			"gkeep",
-			"gmkanat",
-			"gwenzek",
-			"iitsalex",
-			"iokiou",
-			"jacekdobrowolski",
-			"jkjrmlg",
-			"kiriDevs",
-			"kokaloo",
-			"krsntn",
-			"kunal-rp",
-			"kwfk",
-			"l4ssc",
-			"lucas-fern",
-			"mendelmaleh",
-			"mia-riezebos",
-			"minerscale",
-			"monkeytypegeorge",
-			"mwahlig",
-			"narze",
-			"nextZed",
-			"nguyenanhducs",
-			"nlundee",
-			"noahpin",
-			"nullaf",
-			"phrohdoh",
-			"pjrelex",
-			"popey456963",
-			"ramnathk",
-			"rhesamu",
-			"ryan-harrington",
-			"ryevertigo",
-			"samyakbardiya",
-			"sergiathanzo",
-			"shinze",
-			"someotherotherguy",
-			"sonderingheights",
-			"stevep99",
-			"sudoerena",
-			"tawtis",
-			"thescripted",
-			"throwawaywords",
-			"tsara27",
-			"typerqeo",
-			"vansul",
-			"voroskoi",
-			"vuong-buihv",
-			"wRadion",
-			"webcrawls",
-			"willerbee",
-			"xZa-k",
-			"yaazkal",
-			"zachy-ho",
-			"zaxophone",
-			"zigotica"
-		]
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "SocietasEvanescentes",
+				"image": "https://avatars.githubusercontent.com/u/25782090?v=4",
+				"url": "https://github.com/SocietasEvanescentes"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "neovim",
 		"description": "Soho vibes for Neovim",
-		"repositoryTopics": [
-			"theme",
-			"neovim",
-			"soho-vibes",
-			"rose-pine",
+		"stargazersCount": 2970,
+		"updatedAt": "2026-03-25T01:12:54Z",
+		"tags": [
+			"editor",
 			"lua",
-			"vim",
-			"nvim",
+			"neovim",
 			"neovim-theme",
-			"vim-theme",
-			"editor"
+			"nvim",
+			"rose-pine",
+			"soho-vibes",
+			"theme",
+			"vim",
+			"vim-theme"
 		],
-		"stargazerCount": 2959,
-		"updatedAt": "2026-03-07T07:47:36Z",
 		"url": "https://github.com/rose-pine/neovim",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Neovim",
 		"category": "editor",
-		"tags": [
-			"theme",
-			"neovim",
-			"soho-vibes",
-			"rose-pine",
-			"lua",
-			"vim",
-			"nvim",
-			"neovim-theme",
-			"vim-theme",
-			"editor"
-		],
-		"children": [],
 		"contributors": [
-			"0oAstro",
-			"Asthestarsfalll",
-			"Diaoul",
-			"EdenEast",
-			"GuillaumeAllain",
-			"HectorOvid",
-			"HieuDao-code",
-			"Iorvethe",
-			"James-Kni",
-			"Masstronaut",
-			"MeanderingProgrammer",
-			"NTBBloodbath",
-			"Pkcarreno",
-			"SWiegandt",
-			"Slotos",
-			"TinusgragLin",
-			"Toorero",
-			"UsuallySleebee",
-			"VoxelPrismatic",
-			"Yagua",
-			"YarLama",
-			"aarnphm",
-			"abvee",
-			"adrior11",
-			"aileot",
-			"akthe-at",
-			"andreihh",
-			"anupam-basu",
-			"arkrost",
-			"atinylittleshell",
-			"bakageddy",
-			"bomgar",
-			"briandipalma",
-			"chillax",
-			"cmdrrobin",
-			"danymat",
-			"dav-cho",
-			"davepgreene",
-			"davkk",
-			"dhruvinsh",
-			"eaxly",
-			"echasnovski",
-			"emilford",
-			"fdcote",
-			"fedeya",
-			"fitrh",
-			"fvrests",
-			"hansumane",
-			"haydenrou",
-			"ikws4",
-			"jfkisafk",
-			"jostaub",
-			"kabouzeid",
-			"kaplanz",
-			"luissimas",
-			"matze",
-			"mortezadadgar",
-			"mrtnvgr",
-			"mvllow",
-			"myuwi",
-			"nanozuki",
-			"numToStr",
-			"pcattori",
-			"piersolenski",
-			"repl6669",
-			"sjclayton",
-			"sorachii",
-			"the-spanish-guy",
-			"tommarien",
-			"tomtomjhj",
-			"ubmit",
-			"vlanx",
-			"will",
-			"winter-again",
-			"yuhixyz"
-		]
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "sjclayton",
+				"image": "https://avatars.githubusercontent.com/u/21167492?v=4",
+				"url": "https://github.com/sjclayton"
+			},
+			{
+				"name": "danymat",
+				"image": "https://avatars.githubusercontent.com/u/5306901?v=4",
+				"url": "https://github.com/danymat"
+			},
+			{
+				"name": "ikws4",
+				"image": "https://avatars.githubusercontent.com/u/47056144?v=4",
+				"url": "https://github.com/ikws4"
+			},
+			{
+				"name": "will",
+				"image": "https://avatars.githubusercontent.com/u/1973?v=4",
+				"url": "https://github.com/will"
+			},
+			{
+				"name": "fvrests",
+				"image": "https://avatars.githubusercontent.com/u/47515065?v=4",
+				"url": "https://github.com/fvrests"
+			},
+			{
+				"name": "mrtnvgr",
+				"image": "https://avatars.githubusercontent.com/u/48406064?v=4",
+				"url": "https://github.com/mrtnvgr"
+			},
+			{
+				"name": "fitrh",
+				"image": "https://avatars.githubusercontent.com/u/55179750?v=4",
+				"url": "https://github.com/fitrh"
+			},
+			{
+				"name": "pcattori",
+				"image": "https://avatars.githubusercontent.com/u/1477317?v=4",
+				"url": "https://github.com/pcattori"
+			},
+			{
+				"name": "andreihh",
+				"image": "https://avatars.githubusercontent.com/u/5368018?v=4",
+				"url": "https://github.com/andreihh"
+			},
+			{
+				"name": "fdcote",
+				"image": "https://avatars.githubusercontent.com/u/48247604?v=4",
+				"url": "https://github.com/fdcote"
+			},
+			{
+				"name": "aileot",
+				"image": "https://avatars.githubusercontent.com/u/46470475?v=4",
+				"url": "https://github.com/aileot"
+			},
+			{
+				"name": "Slotos",
+				"image": "https://avatars.githubusercontent.com/u/314453?v=4",
+				"url": "https://github.com/Slotos"
+			},
+			{
+				"name": "kabouzeid",
+				"image": "https://avatars.githubusercontent.com/u/256352301?v=4",
+				"url": "https://github.com/kabouzeid"
+			},
+			{
+				"name": "repl6669",
+				"image": "https://avatars.githubusercontent.com/u/5587309?v=4",
+				"url": "https://github.com/repl6669"
+			},
+			{
+				"name": "briandipalma",
+				"image": "https://avatars.githubusercontent.com/u/1597820?v=4",
+				"url": "https://github.com/briandipalma"
+			},
+			{
+				"name": "vlanx",
+				"image": "https://avatars.githubusercontent.com/u/30477293?v=4",
+				"url": "https://github.com/vlanx"
+			},
+			{
+				"name": "SWiegandt",
+				"image": "https://avatars.githubusercontent.com/u/12746569?v=4",
+				"url": "https://github.com/SWiegandt"
+			},
+			{
+				"name": "eaxly",
+				"image": "https://avatars.githubusercontent.com/u/62254492?v=4",
+				"url": "https://github.com/eaxly"
+			},
+			{
+				"name": "cmdrrobin",
+				"image": "https://avatars.githubusercontent.com/u/2082795?v=4",
+				"url": "https://github.com/cmdrrobin"
+			},
+			{
+				"name": "piersolenski",
+				"image": "https://avatars.githubusercontent.com/u/1285419?v=4",
+				"url": "https://github.com/piersolenski"
+			},
+			{
+				"name": "Pkcarreno",
+				"image": "https://avatars.githubusercontent.com/u/34664891?v=4",
+				"url": "https://github.com/Pkcarreno"
+			},
+			{
+				"name": "bomgar",
+				"image": "https://avatars.githubusercontent.com/u/402052?v=4",
+				"url": "https://github.com/bomgar"
+			},
+			{
+				"name": "VoxelPrismatic",
+				"image": "https://avatars.githubusercontent.com/u/45671764?v=4",
+				"url": "https://github.com/VoxelPrismatic"
+			},
+			{
+				"name": "UsuallySleebee",
+				"image": "https://avatars.githubusercontent.com/u/81906761?v=4",
+				"url": "https://github.com/UsuallySleebee"
+			},
+			{
+				"name": "0oAstro",
+				"image": "https://avatars.githubusercontent.com/u/79555780?v=4",
+				"url": "https://github.com/0oAstro"
+			},
+			{
+				"name": "NTBBloodbath",
+				"image": "https://avatars.githubusercontent.com/u/36456999?v=4",
+				"url": "https://github.com/NTBBloodbath"
+			},
+			{
+				"name": "myuwi",
+				"image": "https://avatars.githubusercontent.com/u/42811084?v=4",
+				"url": "https://github.com/myuwi"
+			},
+			{
+				"name": "matze",
+				"image": "https://avatars.githubusercontent.com/u/115270?v=4",
+				"url": "https://github.com/matze"
+			},
+			{
+				"name": "luissimas",
+				"image": "https://avatars.githubusercontent.com/u/41878330?v=4",
+				"url": "https://github.com/luissimas"
+			},
+			{
+				"name": "aarnphm",
+				"image": "https://avatars.githubusercontent.com/u/29749331?v=4",
+				"url": "https://github.com/aarnphm"
+			},
+			{
+				"name": "HectorOvid",
+				"image": "https://avatars.githubusercontent.com/u/38364108?v=4",
+				"url": "https://github.com/HectorOvid"
+			},
+			{
+				"name": "tommarien",
+				"image": "https://avatars.githubusercontent.com/u/1032545?v=4",
+				"url": "https://github.com/tommarien"
+			},
+			{
+				"name": "MeanderingProgrammer",
+				"image": "https://avatars.githubusercontent.com/u/52591095?v=4",
+				"url": "https://github.com/MeanderingProgrammer"
+			},
+			{
+				"name": "YarLama",
+				"image": "https://avatars.githubusercontent.com/u/52606645?v=4",
+				"url": "https://github.com/YarLama"
+			},
+			{
+				"name": "kaplanz",
+				"image": "https://avatars.githubusercontent.com/u/50176264?v=4",
+				"url": "https://github.com/kaplanz"
+			},
+			{
+				"name": "abvee",
+				"image": "https://avatars.githubusercontent.com/u/82954751?v=4",
+				"url": "https://github.com/abvee"
+			},
+			{
+				"name": "kunchenguid",
+				"image": "https://avatars.githubusercontent.com/u/3233006?v=4",
+				"url": "https://github.com/kunchenguid"
+			},
+			{
+				"name": "nanozuki",
+				"image": "https://avatars.githubusercontent.com/u/4208028?v=4",
+				"url": "https://github.com/nanozuki"
+			},
+			{
+				"name": "dav-cho",
+				"image": "https://avatars.githubusercontent.com/u/78996780?v=4",
+				"url": "https://github.com/dav-cho"
+			},
+			{
+				"name": "bakageddy",
+				"image": "https://avatars.githubusercontent.com/u/91826760?v=4",
+				"url": "https://github.com/bakageddy"
+			},
+			{
+				"name": "jostaub",
+				"image": "https://avatars.githubusercontent.com/u/67969701?v=4",
+				"url": "https://github.com/jostaub"
+			},
+			{
+				"name": "mortezadadgar",
+				"image": "https://avatars.githubusercontent.com/u/27911493?v=4",
+				"url": "https://github.com/mortezadadgar"
+			},
+			{
+				"name": "numToStr",
+				"image": "https://avatars.githubusercontent.com/u/24727447?v=4",
+				"url": "https://github.com/numToStr"
+			},
+			{
+				"name": "jfkisafk",
+				"image": "https://avatars.githubusercontent.com/u/42366677?v=4",
+				"url": "https://github.com/jfkisafk"
+			},
+			{
+				"name": "yuhixyz",
+				"image": "https://avatars.githubusercontent.com/u/50203860?v=4",
+				"url": "https://github.com/yuhixyz"
+			},
+			{
+				"name": "akthe-at",
+				"image": "https://avatars.githubusercontent.com/u/105152139?v=4",
+				"url": "https://github.com/akthe-at"
+			},
+			{
+				"name": "adrior11",
+				"image": "https://avatars.githubusercontent.com/u/166428581?v=4",
+				"url": "https://github.com/adrior11"
+			},
+			{
+				"name": "Masstronaut",
+				"image": "https://avatars.githubusercontent.com/u/9017393?v=4",
+				"url": "https://github.com/Masstronaut"
+			},
+			{
+				"name": "Yagua",
+				"image": "https://avatars.githubusercontent.com/u/65829671?v=4",
+				"url": "https://github.com/Yagua"
+			},
+			{
+				"name": "winter-again",
+				"image": "https://avatars.githubusercontent.com/u/63322884?v=4",
+				"url": "https://github.com/winter-again"
+			},
+			{
+				"name": "Diaoul",
+				"image": "https://avatars.githubusercontent.com/u/319220?v=4",
+				"url": "https://github.com/Diaoul"
+			},
+			{
+				"name": "anupam-basu",
+				"image": "https://avatars.githubusercontent.com/u/25940600?v=4",
+				"url": "https://github.com/anupam-basu"
+			},
+			{
+				"name": "arkrost",
+				"image": "https://avatars.githubusercontent.com/u/1239844?v=4",
+				"url": "https://github.com/arkrost"
+			},
+			{
+				"name": "Asthestarsfalll",
+				"image": "https://avatars.githubusercontent.com/u/72954905?v=4",
+				"url": "https://github.com/Asthestarsfalll"
+			},
+			{
+				"name": "Iorvethe",
+				"image": "https://avatars.githubusercontent.com/u/58810330?v=4",
+				"url": "https://github.com/Iorvethe"
+			},
+			{
+				"name": "davepgreene",
+				"image": "https://avatars.githubusercontent.com/u/1459753?v=4",
+				"url": "https://github.com/davepgreene"
+			},
+			{
+				"name": "davkk",
+				"image": "https://avatars.githubusercontent.com/u/40724893?v=4",
+				"url": "https://github.com/davkk"
+			},
+			{
+				"name": "dhruvinsh",
+				"image": "https://avatars.githubusercontent.com/u/33428164?v=4",
+				"url": "https://github.com/dhruvinsh"
+			},
+			{
+				"name": "emilford",
+				"image": "https://avatars.githubusercontent.com/u/63003?v=4",
+				"url": "https://github.com/emilford"
+			},
+			{
+				"name": "echasnovski",
+				"image": "https://avatars.githubusercontent.com/u/24854248?v=4",
+				"url": "https://github.com/echasnovski"
+			},
+			{
+				"name": "fedeya",
+				"image": "https://avatars.githubusercontent.com/u/40874033?v=4",
+				"url": "https://github.com/fedeya"
+			},
+			{
+				"name": "ubmit",
+				"image": "https://avatars.githubusercontent.com/u/8797405?v=4",
+				"url": "https://github.com/ubmit"
+			},
+			{
+				"name": "GuillaumeAllain",
+				"image": "https://avatars.githubusercontent.com/u/13963457?v=4",
+				"url": "https://github.com/GuillaumeAllain"
+			},
+			{
+				"name": "haydenrou",
+				"image": "https://avatars.githubusercontent.com/u/21108297?v=4",
+				"url": "https://github.com/haydenrou"
+			},
+			{
+				"name": "HieuDao-code",
+				"image": "https://avatars.githubusercontent.com/u/106801182?v=4",
+				"url": "https://github.com/HieuDao-code"
+			},
+			{
+				"name": "hansumane",
+				"image": "https://avatars.githubusercontent.com/u/88616652?v=4",
+				"url": "https://github.com/hansumane"
+			},
+			{
+				"name": "tomtomjhj",
+				"image": "https://avatars.githubusercontent.com/u/19489738?v=4",
+				"url": "https://github.com/tomtomjhj"
+			},
+			{
+				"name": "EdenEast",
+				"image": "https://avatars.githubusercontent.com/u/2746374?v=4",
+				"url": "https://github.com/EdenEast"
+			},
+			{
+				"name": "James-Kni",
+				"image": "https://avatars.githubusercontent.com/u/61782266?v=4",
+				"url": "https://github.com/James-Kni"
+			},
+			{
+				"name": "chillax",
+				"image": "https://avatars.githubusercontent.com/u/1151848?v=4",
+				"url": "https://github.com/chillax"
+			},
+			{
+				"name": "Toorero",
+				"image": "https://avatars.githubusercontent.com/u/22551563?v=4",
+				"url": "https://github.com/Toorero"
+			},
+			{
+				"name": "sorachii",
+				"image": "https://avatars.githubusercontent.com/u/48826429?v=4",
+				"url": "https://github.com/sorachii"
+			},
+			{
+				"name": "TinusgragLin",
+				"image": "https://avatars.githubusercontent.com/u/57218218?v=4",
+				"url": "https://github.com/TinusgragLin"
+			},
+			{
+				"name": "the-spanish-guy",
+				"image": "https://avatars.githubusercontent.com/u/32144508?v=4",
+				"url": "https://github.com/the-spanish-guy"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "ninjabrain-bot",
 		"description": "Soho vibes for Ninjabrain Bot",
-		"repositoryTopics": ["app", "rose-pine", "soho-vibes", "theme"],
-		"stargazerCount": 2,
+		"stargazersCount": 2,
 		"updatedAt": "2025-11-05T14:50:21Z",
+		"tags": ["app", "rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/ninjabrain-bot",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Ninjabrain Bot",
 		"category": "editor",
-		"tags": ["app", "rose-pine", "soho-vibes", "theme"],
-		"children": [],
-		"contributors": ["lincoln-lm", "mvllow"]
+		"contributors": [
+			{
+				"name": "lincoln-lm",
+				"image": "https://avatars.githubusercontent.com/u/73306575?v=4",
+				"url": "https://github.com/lincoln-lm"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "nomacs",
 		"description": "Soho vibes for nomacs",
-		"repositoryTopics": ["theme", "rose-pine", "soho-vibes"],
-		"stargazerCount": 1,
+		"stargazersCount": 1,
 		"updatedAt": "2026-02-22T03:39:22Z",
+		"tags": ["rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/nomacs",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "nomacs",
 		"category": "editor",
-		"tags": ["theme", "rose-pine", "soho-vibes"],
-		"children": [],
-		"contributors": ["bonbuggie", "mvllow"]
+		"contributors": [
+			{
+				"name": "bonbuggie",
+				"image": "https://avatars.githubusercontent.com/u/81865850?v=4",
+				"url": "https://github.com/bonbuggie"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "obs",
 		"description": "Soho vibes for OBS Studio",
-		"repositoryTopics": ["app", "obs", "obsstudio", "theme"],
-		"stargazerCount": 6,
+		"stargazersCount": 6,
 		"updatedAt": "2025-11-27T22:54:52Z",
+		"tags": ["app", "obs", "obsstudio", "theme"],
 		"url": "https://github.com/rose-pine/obs",
-		"usesCustomOpenGraphImage": false,
-		"hidden": "false",
 		"name": "OBS Studio",
 		"category": "editor",
-		"tags": ["app", "obs", "obsstudio", "theme"],
-		"children": [],
-		"contributors": ["darkthemer", "mvllow"]
+		"contributors": [
+			{
+				"name": "darkthemer",
+				"image": "https://avatars.githubusercontent.com/u/111078063?v=4",
+				"url": "https://github.com/darkthemer"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "obsidian",
 		"description": "Soho vibes for Obsidian",
-		"repositoryTopics": ["app"],
-		"stargazerCount": 26,
+		"stargazersCount": 26,
 		"updatedAt": "2026-02-28T23:30:10Z",
+		"tags": ["app"],
 		"url": "https://github.com/rose-pine/obsidian",
-		"usesCustomOpenGraphImage": false,
-		"hidden": "false",
 		"name": "Obsidian",
 		"category": "editor",
-		"tags": ["app"],
-		"children": [],
 		"contributors": [
-			"JTrenerry",
-			"github-actions[bot]",
-			"mimishahzad",
-			"mvllow"
-		]
+			{
+				"name": "JTrenerry",
+				"image": "https://avatars.githubusercontent.com/u/105094182?v=4",
+				"url": "https://github.com/JTrenerry"
+			},
+			{
+				"name": "github-actions[bot]",
+				"image": "https://avatars.githubusercontent.com/in/15368?v=4",
+				"url": "https://github.com/apps/github-actions"
+			},
+			{
+				"name": "mimishahzad",
+				"image": "https://avatars.githubusercontent.com/u/34081810?v=4",
+				"url": "https://github.com/mimishahzad"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "ollama-webui",
 		"description": "Soho vibes for Ollama WebUI",
-		"repositoryTopics": [],
-		"stargazerCount": 12,
+		"stargazersCount": 12,
 		"updatedAt": "2026-03-04T20:57:10Z",
+		"tags": [],
 		"url": "https://github.com/rose-pine/ollama-webui",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Ollama WebUI",
 		"category": "browser",
-		"tags": [],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow"]
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "onecommander",
 		"description": "Soho vibes for OneCommander",
-		"repositoryTopics": ["app"],
-		"stargazerCount": 4,
+		"stargazersCount": 4,
 		"updatedAt": "2026-03-03T00:42:37Z",
+		"tags": ["app"],
 		"url": "https://github.com/rose-pine/onecommander",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "OneCommander",
 		"category": "editor",
-		"tags": ["app"],
-		"children": [],
-		"contributors": ["mvllow", "tandukuda"]
+		"contributors": [
+			{
+				"name": "tandukuda",
+				"image": "https://avatars.githubusercontent.com/u/133313292?v=4",
+				"url": "https://github.com/tandukuda"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "phemex",
 		"description": "Soho vibes for Phemex",
-		"repositoryTopics": ["web"],
-		"stargazerCount": 2,
+		"stargazersCount": 2,
 		"updatedAt": "2025-11-05T14:50:27Z",
+		"tags": ["web"],
 		"url": "https://github.com/rose-pine/phemex",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Phemex",
 		"category": "browser",
-		"tags": ["web"],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow"]
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "pleroma",
 		"description": "Soho vibes for Pleroma",
-		"repositoryTopics": ["theme"],
-		"stargazerCount": 7,
+		"stargazersCount": 7,
 		"updatedAt": "2025-11-22T13:17:34Z",
+		"tags": ["theme"],
 		"url": "https://github.com/rose-pine/pleroma",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Pleroma",
 		"category": "social",
-		"tags": ["theme"],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow", "wiredsis"]
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "wiredsis",
+				"image": "https://avatars.githubusercontent.com/u/26839383?v=4",
+				"url": "https://github.com/wiredsis"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "polybar",
 		"description": "Soho vibes for Polybar",
-		"repositoryTopics": ["app", "theme"],
-		"stargazerCount": 7,
+		"stargazersCount": 7,
 		"updatedAt": "2025-12-03T13:15:04Z",
+		"tags": ["app", "theme"],
 		"url": "https://github.com/rose-pine/polybar",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Polybar",
 		"category": "system",
-		"tags": ["app", "theme"],
-		"children": [],
-		"contributors": ["RosieZiutka", "mvllow"]
+		"contributors": [
+			{
+				"name": "RosieZiutka",
+				"image": "https://avatars.githubusercontent.com/u/129593622?v=4",
+				"url": "https://github.com/RosieZiutka"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "prism",
 		"description": "Soho vibes for Prism",
-		"repositoryTopics": ["theme", "prism", "soho-vibes", "rose-pine"],
-		"stargazerCount": 9,
+		"stargazersCount": 9,
 		"updatedAt": "2025-11-05T14:50:30Z",
+		"tags": ["prism", "rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/prism",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Prism",
 		"category": "library",
-		"tags": ["theme", "prism", "soho-vibes", "rose-pine"],
-		"children": [],
-		"contributors": ["fvrests", "mvllow"]
+		"contributors": [
+			{
+				"name": "fvrests",
+				"image": "https://avatars.githubusercontent.com/u/47515065?v=4",
+				"url": "https://github.com/fvrests"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "pure",
 		"description": "Soho vibes for Pure",
-		"repositoryTopics": [
-			"fish",
-			"fish-plugin",
-			"fish-shell",
-			"prompt",
-			"pure",
-			"rose-pine",
-			"soho-vibes",
-			"theme"
-		],
-		"stargazerCount": 1,
-		"updatedAt": "2026-03-01T04:29:03Z",
-		"url": "https://github.com/rose-pine/pure",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "Pure",
-		"category": "terminal",
+		"stargazersCount": 1,
+		"updatedAt": "2026-03-09T19:18:20Z",
 		"tags": [
 			"fish",
 			"fish-plugin",
@@ -1883,951 +2734,1343 @@
 			"soho-vibes",
 			"theme"
 		],
-		"children": [],
-		"contributors": ["simono"]
+		"url": "https://github.com/rose-pine/pure",
+		"name": "Pure",
+		"category": "terminal",
+		"contributors": [
+			{
+				"name": "simono",
+				"image": "https://avatars.githubusercontent.com/u/874148?v=4",
+				"url": "https://github.com/simono"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "pureref",
 		"description": "Soho vibes for PureRef",
-		"repositoryTopics": ["theme", "soho-vibes", "rose-pine"],
-		"stargazerCount": 2,
-		"updatedAt": "2025-12-29T05:42:52Z",
+		"stargazersCount": 3,
+		"updatedAt": "2026-03-16T12:55:09Z",
+		"tags": ["rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/pureref",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "PureRef",
 		"category": "editor",
-		"tags": ["theme", "soho-vibes", "rose-pine"],
-		"children": [],
-		"contributors": ["bonbuggie", "mvllow"]
+		"contributors": [
+			{
+				"name": "bonbuggie",
+				"image": "https://avatars.githubusercontent.com/u/81865850?v=4",
+				"url": "https://github.com/bonbuggie"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "pygments",
 		"description": "Soho vibes for Pygments",
-		"repositoryTopics": [
-			"ipython",
-			"pygments-style",
-			"radian",
-			"rose-pine",
-			"pygments"
-		],
-		"stargazerCount": 3,
+		"stargazersCount": 3,
 		"updatedAt": "2026-03-02T08:58:05Z",
+		"tags": ["ipython", "pygments", "pygments-style", "radian", "rose-pine"],
 		"url": "https://github.com/rose-pine/pygments",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Pygments",
 		"category": "library",
-		"tags": ["ipython", "pygments-style", "radian", "rose-pine", "pygments"],
-		"children": [],
-		"contributors": ["dependabot[bot]", "drearondov", "mvllow", "reillysiemens"]
+		"contributors": [
+			{
+				"name": "drearondov",
+				"image": "https://avatars.githubusercontent.com/u/63360808?v=4",
+				"url": "https://github.com/drearondov"
+			},
+			{
+				"name": "reillysiemens",
+				"image": "https://avatars.githubusercontent.com/u/3084059?v=4",
+				"url": "https://github.com/reillysiemens"
+			},
+			{
+				"name": "dependabot[bot]",
+				"image": "https://avatars.githubusercontent.com/in/29110?v=4",
+				"url": "https://github.com/apps/dependabot"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "pywal",
 		"description": "Soho vibes for pywal",
-		"repositoryTopics": ["terminal", "terminal-emulator", "theme"],
-		"stargazerCount": 2,
+		"stargazersCount": 2,
 		"updatedAt": "2026-01-02T19:12:34Z",
+		"tags": ["terminal", "terminal-emulator", "theme"],
 		"url": "https://github.com/rose-pine/pywal",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "pywal",
 		"category": "library",
-		"tags": ["terminal", "terminal-emulator", "theme"],
-		"children": [],
-		"contributors": ["fvrests", "jrc03c", "mvllow"]
+		"contributors": [
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "jrc03c",
+				"image": "https://avatars.githubusercontent.com/u/255934?v=4",
+				"url": "https://github.com/jrc03c"
+			},
+			{
+				"name": "fvrests",
+				"image": "https://avatars.githubusercontent.com/u/47515065?v=4",
+				"url": "https://github.com/fvrests"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "qbittorrent",
 		"description": "Soho vibes for qBittorrent ",
-		"repositoryTopics": [],
-		"stargazerCount": 16,
+		"stargazersCount": 16,
 		"updatedAt": "2026-01-30T03:21:47Z",
+		"tags": [],
 		"url": "https://github.com/rose-pine/qbittorrent",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "qBittorrent",
 		"category": "editor",
-		"tags": [],
-		"children": [],
-		"contributors": ["Xurdejl", "juliamertz", "mvllow"]
+		"contributors": [
+			{
+				"name": "juliamertz",
+				"image": "https://avatars.githubusercontent.com/u/35079666?v=4",
+				"url": "https://github.com/juliamertz"
+			},
+			{
+				"name": "Xurdejl",
+				"image": "https://avatars.githubusercontent.com/u/43864935?v=4",
+				"url": "https://github.com/Xurdejl"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "qterminal",
 		"description": "Soho vibes for QTerminal",
-		"repositoryTopics": [
-			"qterminal",
-			"rose-pine",
-			"soho-vibes",
-			"theme",
-			"terminal",
-			"terminal-emulator"
-		],
-		"stargazerCount": 4,
+		"stargazersCount": 4,
 		"updatedAt": "2025-11-05T14:50:36Z",
-		"url": "https://github.com/rose-pine/qterminal",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "QTerminal",
-		"category": "terminal",
 		"tags": [
 			"qterminal",
 			"rose-pine",
 			"soho-vibes",
-			"theme",
 			"terminal",
-			"terminal-emulator"
+			"terminal-emulator",
+			"theme"
 		],
-		"children": [],
-		"contributors": ["mvllow", "prateektade"]
+		"url": "https://github.com/rose-pine/qterminal",
+		"name": "QTerminal",
+		"category": "terminal",
+		"contributors": [
+			{
+				"name": "prateektade",
+				"image": "https://avatars.githubusercontent.com/u/108054324?v=4",
+				"url": "https://github.com/prateektade"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "r-markdown",
 		"description": "Soho vibes for R Markdown",
-		"repositoryTopics": ["theme"],
-		"stargazerCount": 7,
+		"stargazersCount": 7,
 		"updatedAt": "2025-11-05T14:50:37Z",
+		"tags": ["theme"],
 		"url": "https://github.com/rose-pine/r-markdown",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "R Markdown",
 		"category": "editor",
-		"tags": ["theme"],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow"]
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "razer-cli",
 		"description": "Soho vibes for Razer CLI",
-		"repositoryTopics": [
-			"razer-cli",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"razer",
-			"rgb"
-		],
-		"stargazerCount": 6,
+		"stargazersCount": 6,
 		"updatedAt": "2025-11-05T14:50:38Z",
+		"tags": ["razer", "razer-cli", "rgb", "rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/razer-cli",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Razer CLI",
 		"category": "terminal",
-		"tags": ["razer-cli", "soho-vibes", "theme", "rose-pine", "razer", "rgb"],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow"]
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "revolt",
 		"description": "Soho vibes for Revolt",
-		"repositoryTopics": [
-			"revolt",
+		"stargazersCount": 3,
+		"updatedAt": "2025-11-05T14:50:39Z",
+		"tags": [
 			"css",
 			"hacktoberfest",
-			"theme",
+			"revolt",
+			"rose-pine",
 			"soho-vibes",
-			"rose-pine"
+			"theme"
 		],
-		"stargazerCount": 3,
-		"updatedAt": "2025-11-05T14:50:39Z",
 		"url": "https://github.com/rose-pine/revolt",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Revolt",
 		"category": "browser",
-		"tags": [
-			"revolt",
-			"css",
-			"hacktoberfest",
-			"theme",
-			"soho-vibes",
-			"rose-pine"
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "bw8686",
+				"image": "https://avatars.githubusercontent.com/u/51877146?v=4",
+				"url": "https://github.com/bw8686"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
 		],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "bw8686", "mvllow"]
+		"children": []
 	},
 	{
 		"slug": "rio-terminal",
 		"description": "Soho vibes for Rio Terminal",
-		"repositoryTopics": ["rio-terminal", "rose-pine", "theme"],
-		"stargazerCount": 9,
+		"stargazersCount": 9,
 		"updatedAt": "2025-11-05T14:50:39Z",
+		"tags": ["rio-terminal", "rose-pine", "theme"],
 		"url": "https://github.com/rose-pine/rio-terminal",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Rio Terminal",
 		"category": "terminal",
-		"tags": ["rio-terminal", "rose-pine", "theme"],
-		"children": [],
-		"contributors": ["ImgBotApp", "avelino", "mvllow"]
+		"contributors": [
+			{
+				"name": "avelino",
+				"image": "https://avatars.githubusercontent.com/u/31996?v=4",
+				"url": "https://github.com/avelino"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "ImgBotApp",
+				"image": "https://avatars.githubusercontent.com/u/31427850?v=4",
+				"url": "https://github.com/ImgBotApp"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "roblox-studio",
 		"description": "Soho vibes for Roblox Studio",
-		"repositoryTopics": ["editor", "roblox-studio", "theme"],
-		"stargazerCount": 2,
+		"stargazersCount": 2,
 		"updatedAt": "2026-01-01T13:43:58Z",
+		"tags": ["editor", "roblox-studio", "theme"],
 		"url": "https://github.com/rose-pine/roblox-studio",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Roblox Studio",
 		"category": "editor",
-		"tags": ["editor", "roblox-studio", "theme"],
-		"children": [],
-		"contributors": ["mvllow", "wintertia"]
+		"contributors": [
+			{
+				"name": "wintertia",
+				"image": "https://avatars.githubusercontent.com/u/145762458?v=4",
+				"url": "https://github.com/wintertia"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "rofi",
 		"description": "Soho vibes for Rofi",
-		"repositoryTopics": ["theme"],
-		"stargazerCount": 25,
-		"updatedAt": "2026-02-24T02:08:15Z",
+		"stargazersCount": 26,
+		"updatedAt": "2026-03-16T23:02:53Z",
+		"tags": ["theme"],
 		"url": "https://github.com/rose-pine/rofi",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Rofi",
 		"category": "system",
-		"tags": ["theme"],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "milanglacier", "mvllow"]
-	},
-	{
-		"slug": "rose-pine-bloom",
-		"description": "Generate Rosé Pine themes",
-		"repositoryTopics": [],
-		"stargazerCount": 19,
-		"updatedAt": "2026-02-28T21:12:57Z",
-		"url": "https://github.com/rose-pine/rose-pine-bloom",
-		"usesCustomOpenGraphImage": false,
-		"hidden": "true",
-		"name": "Bloom",
-		"category": "none",
-		"tags": [],
-		"children": [],
 		"contributors": [
-			"OyuDays",
-			"bomgar",
-			"fvrests",
-			"github-actions[bot]",
-			"juliamertz",
-			"mvllow"
-		]
-	},
-	{
-		"slug": "rose-pine-palette",
-		"description": "Color palette tool for Rosé Pine",
-		"repositoryTopics": ["palette", "soho-vibes", "rose-pine", "color", "css"],
-		"stargazerCount": 37,
-		"updatedAt": "2026-02-26T01:02:29Z",
-		"url": "https://github.com/rose-pine/rose-pine-palette",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "true",
-		"name": "App",
-		"category": "none",
-		"tags": ["palette", "soho-vibes", "rose-pine", "color", "css"],
-		"children": [],
-		"contributors": ["barelyhuman", "fvrests", "mvllow"]
-	},
-	{
-		"slug": "rose-pine-site",
-		"description": "The Rosé Pine garden",
-		"repositoryTopics": [],
-		"stargazerCount": 104,
-		"updatedAt": "2026-03-08T00:24:26Z",
-		"url": "https://github.com/rose-pine/rose-pine-site",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "true",
-		"name": "App",
-		"category": "none",
-		"tags": [],
-		"children": [],
-		"contributors": [
-			"Cyborus04",
-			"Henriquehnnm",
-			"SLUCHABLUB",
-			"Skrriply",
-			"Wolfbatcat",
-			"Zlendy",
-			"aalbegr",
-			"aaravind100",
-			"adriankarlen",
-			"akopdev",
-			"bilaiii",
-			"bomgar",
-			"charliettaylor",
-			"const-void",
-			"d2718nis",
-			"ebarruel",
-			"elithper",
-			"fvrests",
-			"graknow",
-			"mvllow",
-			"nofishleft",
-			"nolight132",
-			"nonnullish",
-			"nymver",
-			"piersolenski",
-			"rainbowflesh",
-			"schoffeniels",
-			"shkrazini",
-			"slideglide",
-			"thairanaru",
-			"trueberryless",
-			"unseen-ninja",
-			"velzie",
-			"wujackwill",
-			"ysw421"
-		]
-	},
-	{
-		"slug": "rose-pine-template",
-		"description": "Soho vibes for App",
-		"repositoryTopics": ["theme"],
-		"stargazerCount": 46,
-		"updatedAt": "2026-03-04T16:25:16Z",
-		"url": "https://github.com/rose-pine/rose-pine-template",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "true",
-		"name": "App",
-		"category": "none",
-		"tags": ["theme"],
-		"children": [],
-		"contributors": ["fvrests", "mvllow"]
-	},
-	{
-		"slug": "rose-pine-theme",
-		"description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist",
-		"repositoryTopics": [
-			"syntax-theme",
-			"ui-theme",
-			"colorscheme",
-			"palette",
-			"aesthetic"
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "milanglacier",
+				"image": "https://avatars.githubusercontent.com/u/45728125?v=4",
+				"url": "https://github.com/milanglacier"
+			}
 		],
-		"stargazerCount": 1531,
-		"updatedAt": "2026-03-07T12:05:49Z",
-		"url": "https://github.com/rose-pine/rose-pine-theme",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "true",
-		"name": "App",
-		"category": "none",
-		"tags": ["syntax-theme", "ui-theme", "colorscheme", "palette", "aesthetic"],
-		"children": [],
-		"contributors": [
-			"BradPatras",
-			"Iorvethe",
-			"Jimmysit0",
-			"ThatOneCalculator",
-			"ashbork",
-			"catdevnull",
-			"fvrests",
-			"h4pZ",
-			"jonmorgs",
-			"ldakhoa",
-			"mimishahzad",
-			"mvllow"
-		]
+		"children": []
 	},
 	{
 		"slug": "rstudio",
 		"description": "Soho vibes for Rstudio",
-		"repositoryTopics": [],
-		"stargazerCount": 2,
+		"stargazersCount": 2,
 		"updatedAt": "2025-11-05T14:50:47Z",
+		"tags": [],
 		"url": "https://github.com/rose-pine/rstudio",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Rstudio",
 		"category": "editor",
-		"tags": [],
-		"children": [],
-		"contributors": ["mvllow", "wujackwill"]
+		"contributors": [
+			{
+				"name": "wujackwill",
+				"image": "https://avatars.githubusercontent.com/u/146716175?v=4",
+				"url": "https://github.com/wujackwill"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "sharex",
 		"description": "Soho vibes for ShareX",
-		"repositoryTopics": ["app", "sharex", "theme"],
-		"stargazerCount": 3,
-		"updatedAt": "2026-01-15T08:27:53Z",
+		"stargazersCount": 4,
+		"updatedAt": "2026-03-19T03:07:49Z",
+		"tags": ["app", "sharex", "theme"],
 		"url": "https://github.com/rose-pine/sharex",
-		"usesCustomOpenGraphImage": false,
-		"hidden": "false",
 		"name": "ShareX",
 		"category": "editor",
-		"tags": ["app", "sharex", "theme"],
-		"children": [],
-		"contributors": ["darkthemer", "mvllow"]
+		"contributors": [
+			{
+				"name": "darkthemer",
+				"image": "https://avatars.githubusercontent.com/u/111078063?v=4",
+				"url": "https://github.com/darkthemer"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "skiff",
 		"description": "Soho vibes for Skiff Mail",
-		"repositoryTopics": [],
-		"stargazerCount": 3,
+		"stargazersCount": 3,
 		"updatedAt": "2025-11-05T14:50:48Z",
+		"tags": [],
 		"url": "https://github.com/rose-pine/skiff",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Skiff Mail",
 		"category": "browser",
-		"tags": [],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow"]
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "slack",
 		"description": "Soho vibes for Slack",
-		"repositoryTopics": [
-			"theme",
-			"soho-vibes",
+		"stargazersCount": 26,
+		"updatedAt": "2025-11-05T14:50:50Z",
+		"tags": [
+			"css",
+			"hacktoberfest",
 			"rose-pine",
 			"slack",
-			"css",
-			"hacktoberfest"
+			"soho-vibes",
+			"theme"
 		],
-		"stargazerCount": 26,
-		"updatedAt": "2025-11-05T14:50:50Z",
 		"url": "https://github.com/rose-pine/slack",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Slack",
 		"category": "browser",
-		"tags": [
-			"theme",
-			"soho-vibes",
-			"rose-pine",
-			"slack",
-			"css",
-			"hacktoberfest"
+		"contributors": [
+			{
+				"name": "fvrests",
+				"image": "https://avatars.githubusercontent.com/u/47515065?v=4",
+				"url": "https://github.com/fvrests"
+			},
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
 		],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "fvrests", "mvllow"]
+		"children": []
 	},
 	{
 		"slug": "speedcrunch",
 		"description": "Soho vibes for SpeedCrunch",
-		"repositoryTopics": ["app", "speedcrunch", "theme"],
-		"stargazerCount": 2,
+		"stargazersCount": 2,
 		"updatedAt": "2025-12-01T18:31:40Z",
+		"tags": ["app", "speedcrunch", "theme"],
 		"url": "https://github.com/rose-pine/speedcrunch",
-		"usesCustomOpenGraphImage": false,
-		"hidden": "false",
 		"name": "SpeedCrunch",
 		"category": "editor",
-		"tags": ["app", "speedcrunch", "theme"],
-		"children": [],
-		"contributors": ["darkthemer", "mvllow"]
+		"contributors": [
+			{
+				"name": "darkthemer",
+				"image": "https://avatars.githubusercontent.com/u/111078063?v=4",
+				"url": "https://github.com/darkthemer"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "st",
 		"description": "Soho vibes for st",
-		"repositoryTopics": [
-			"st",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"terminal",
-			"terminal-emulator"
-		],
-		"stargazerCount": 10,
+		"stargazersCount": 10,
 		"updatedAt": "2025-11-30T08:00:59Z",
+		"tags": [
+			"rose-pine",
+			"soho-vibes",
+			"st",
+			"terminal",
+			"terminal-emulator",
+			"theme"
+		],
 		"url": "https://github.com/rose-pine/st",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "st",
 		"category": "terminal",
-		"tags": [
-			"st",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"terminal",
-			"terminal-emulator"
+		"contributors": [
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "fvrests",
+				"image": "https://avatars.githubusercontent.com/u/47515065?v=4",
+				"url": "https://github.com/fvrests"
+			},
+			{
+				"name": "prateektade",
+				"image": "https://avatars.githubusercontent.com/u/108054324?v=4",
+				"url": "https://github.com/prateektade"
+			}
 		],
-		"children": [],
-		"contributors": ["fvrests", "mvllow", "prateektade"]
+		"children": []
 	},
 	{
 		"slug": "starship",
 		"description": "Soho vibes for Starship",
-		"repositoryTopics": ["shell", "terminal"],
-		"stargazerCount": 61,
-		"updatedAt": "2026-03-04T14:27:26Z",
+		"stargazersCount": 65,
+		"updatedAt": "2026-03-15T10:27:53Z",
+		"tags": ["shell", "terminal"],
 		"url": "https://github.com/rose-pine/starship",
-		"usesCustomOpenGraphImage": false,
-		"hidden": "false",
 		"name": "Starship",
 		"category": "terminal",
-		"tags": ["shell", "terminal"],
-		"children": [],
 		"contributors": [
-			"Amoralchik",
-			"CongLuanTran",
-			"JTrenerry",
-			"XinZhangk",
-			"gamek0i",
-			"mistgc",
-			"mvllow",
-			"simono"
-		]
+			{
+				"name": "JTrenerry",
+				"image": "https://avatars.githubusercontent.com/u/105094182?v=4",
+				"url": "https://github.com/JTrenerry"
+			},
+			{
+				"name": "mistgc",
+				"image": "https://avatars.githubusercontent.com/u/61856080?v=4",
+				"url": "https://github.com/mistgc"
+			},
+			{
+				"name": "Amoralchik",
+				"image": "https://avatars.githubusercontent.com/u/26862281?v=4",
+				"url": "https://github.com/Amoralchik"
+			},
+			{
+				"name": "gamek0i",
+				"image": "https://avatars.githubusercontent.com/u/225254597?v=4",
+				"url": "https://github.com/gamek0i"
+			},
+			{
+				"name": "CongLuanTran",
+				"image": "https://avatars.githubusercontent.com/u/152266452?v=4",
+				"url": "https://github.com/CongLuanTran"
+			},
+			{
+				"name": "simono",
+				"image": "https://avatars.githubusercontent.com/u/874148?v=4",
+				"url": "https://github.com/simono"
+			},
+			{
+				"name": "XinZhangk",
+				"image": "https://avatars.githubusercontent.com/u/12904780?v=4",
+				"url": "https://github.com/XinZhangk"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "startpage",
 		"description": "Soho vibes for Startpage",
-		"repositoryTopics": ["startpage", "soho-vibes", "theme", "rose-pine"],
-		"stargazerCount": 30,
+		"stargazersCount": 30,
 		"updatedAt": "2026-01-30T03:21:53Z",
+		"tags": ["rose-pine", "soho-vibes", "startpage", "theme"],
 		"url": "https://github.com/rose-pine/startpage",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Startpage",
 		"category": "browser",
-		"tags": ["startpage", "soho-vibes", "theme", "rose-pine"],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow"]
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "steam-os",
 		"description": "Soho vibes for SteamOS",
-		"repositoryTopics": ["theme", "steam", "steam-os"],
-		"stargazerCount": 2,
-		"updatedAt": "2025-11-05T14:50:55Z",
+		"stargazersCount": 3,
+		"updatedAt": "2026-03-21T00:57:38Z",
+		"tags": ["steam", "steam-os", "theme"],
 		"url": "https://github.com/rose-pine/steam-os",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "SteamOS",
 		"category": "system",
-		"tags": ["theme", "steam", "steam-os"],
-		"children": [],
-		"contributors": ["BobobUnicorn", "EMERALD0874", "bw8686", "mvllow"]
+		"contributors": [
+			{
+				"name": "bw8686",
+				"image": "https://avatars.githubusercontent.com/u/51877146?v=4",
+				"url": "https://github.com/bw8686"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "BobobUnicorn",
+				"image": "https://avatars.githubusercontent.com/u/1285248?v=4",
+				"url": "https://github.com/BobobUnicorn"
+			},
+			{
+				"name": "EMERALD0874",
+				"image": "https://avatars.githubusercontent.com/u/11338953?v=4",
+				"url": "https://github.com/EMERALD0874"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "sublime-text",
 		"description": "Soho vibes for Sublime Text",
-		"repositoryTopics": [
-			"sublime-text",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"hacktoberfest"
-		],
-		"stargazerCount": 32,
+		"stargazersCount": 32,
 		"updatedAt": "2025-11-05T14:50:56Z",
+		"tags": [
+			"hacktoberfest",
+			"rose-pine",
+			"soho-vibes",
+			"sublime-text",
+			"theme"
+		],
 		"url": "https://github.com/rose-pine/sublime-text",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Sublime Text",
 		"category": "editor",
-		"tags": [
-			"sublime-text",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"hacktoberfest"
-		],
-		"children": [],
 		"contributors": [
-			"Shendisx",
-			"ThatOneCalculator",
-			"braver",
-			"crhallberg",
-			"mvllow"
-		]
+			{
+				"name": "braver",
+				"image": "https://avatars.githubusercontent.com/u/2543659?v=4",
+				"url": "https://github.com/braver"
+			},
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "crhallberg",
+				"image": "https://avatars.githubusercontent.com/u/451107?v=4",
+				"url": "https://github.com/crhallberg"
+			},
+			{
+				"name": "Aarrayy",
+				"image": "https://avatars.githubusercontent.com/u/68795737?v=4",
+				"url": "https://github.com/Aarrayy"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "sumatrapdf",
 		"description": "Soho vibes for SumatraPDF",
-		"repositoryTopics": ["app", "sumatrapdf", "theme"],
-		"stargazerCount": 1,
+		"stargazersCount": 1,
 		"updatedAt": "2026-02-28T23:32:56Z",
+		"tags": ["app", "sumatrapdf", "theme"],
 		"url": "https://github.com/rose-pine/sumatrapdf",
-		"usesCustomOpenGraphImage": false,
-		"hidden": "false",
 		"name": "SumatraPDF",
 		"category": "editor",
-		"tags": ["app", "sumatrapdf", "theme"],
-		"children": [],
-		"contributors": ["darkthemer", "mvllow"]
+		"contributors": [
+			{
+				"name": "darkthemer",
+				"image": "https://avatars.githubusercontent.com/u/111078063?v=4",
+				"url": "https://github.com/darkthemer"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "superfile",
 		"description": "Soho vibes for superfile",
-		"repositoryTopics": [],
-		"stargazerCount": 1,
+		"stargazersCount": 1,
 		"updatedAt": "2026-01-24T16:47:53Z",
+		"tags": [],
 		"url": "https://github.com/rose-pine/superfile",
-		"usesCustomOpenGraphImage": false,
-		"hidden": "false",
 		"name": "superfile",
 		"category": "terminal",
-		"tags": [],
-		"children": [],
-		"contributors": ["Henriquehnnm", "mvllow"]
+		"contributors": [
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "Henriquehnnm",
+				"image": "https://avatars.githubusercontent.com/u/189361616?v=4",
+				"url": "https://github.com/Henriquehnnm"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "surfingkeys",
 		"description": "Soho vibes for Surfingkeys",
-		"repositoryTopics": ["rose-pine", "surfingkeys", "theme"],
-		"stargazerCount": 30,
+		"stargazersCount": 30,
 		"updatedAt": "2026-02-12T01:58:34Z",
+		"tags": ["rose-pine", "surfingkeys", "theme"],
 		"url": "https://github.com/rose-pine/surfingkeys",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Surfingkeys",
 		"category": "browser",
-		"tags": ["rose-pine", "surfingkeys", "theme"],
-		"children": [],
-		"contributors": ["Legend28469", "cutbypham", "maiykill", "mvllow"]
+		"contributors": [
+			{
+				"name": "cutbypham",
+				"image": "https://avatars.githubusercontent.com/u/40050527?v=4",
+				"url": "https://github.com/cutbypham"
+			},
+			{
+				"name": "Legend28469",
+				"image": "https://avatars.githubusercontent.com/u/1295971?v=4",
+				"url": "https://github.com/Legend28469"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "maiykill",
+				"image": "https://avatars.githubusercontent.com/u/70015530?v=4",
+				"url": "https://github.com/maiykill"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "swaync",
 		"description": "Soho vibes for SwayNotificationCenter",
-		"repositoryTopics": ["swaync", "theme"],
-		"stargazerCount": 23,
+		"stargazersCount": 23,
 		"updatedAt": "2026-01-09T15:54:38Z",
+		"tags": ["swaync", "theme"],
 		"url": "https://github.com/rose-pine/swaync",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Sway Notification Center",
 		"category": "system",
-		"tags": ["swaync", "theme"],
-		"children": [],
-		"contributors": ["deadbody13", "mvllow", "pmoieni"]
+		"contributors": [
+			{
+				"name": "pmoieni",
+				"image": "https://avatars.githubusercontent.com/u/62774242?v=4",
+				"url": "https://github.com/pmoieni"
+			},
+			{
+				"name": "deadbody13",
+				"image": "https://avatars.githubusercontent.com/u/57448148?v=4",
+				"url": "https://github.com/deadbody13"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "tailwind-css",
 		"description": "Soho vibes for Tailwind CSS",
-		"repositoryTopics": ["tailwindcss", "theme", "tailwind"],
-		"stargazerCount": 31,
+		"stargazersCount": 31,
 		"updatedAt": "2026-02-19T15:49:53Z",
+		"tags": ["tailwind", "tailwindcss", "theme"],
 		"url": "https://github.com/rose-pine/tailwind-css",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Tailwind CSS",
 		"category": "library",
-		"tags": ["tailwindcss", "theme", "tailwind"],
-		"children": [],
-		"contributors": ["GoyoStach", "mvllow", "sleepybuildings"]
+		"contributors": [
+			{
+				"name": "GoyoStach",
+				"image": "https://avatars.githubusercontent.com/u/113206761?v=4",
+				"url": "https://github.com/GoyoStach"
+			},
+			{
+				"name": "sleepybuildings",
+				"image": "https://avatars.githubusercontent.com/u/1812536?v=4",
+				"url": "https://github.com/sleepybuildings"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "tauon",
 		"description": "Soho vibes for Tauon Music Box",
-		"repositoryTopics": [
-			"rose-pine",
-			"soho-vibes",
-			"theme",
-			"hacktoberfest",
-			"music"
-		],
-		"stargazerCount": 4,
+		"stargazersCount": 4,
 		"updatedAt": "2025-11-05T14:51:01Z",
+		"tags": ["hacktoberfest", "music", "rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/tauon",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Tauon Music Box",
 		"category": "social",
-		"tags": ["rose-pine", "soho-vibes", "theme", "hacktoberfest", "music"],
-		"children": [],
-		"contributors": ["mvllow"]
+		"contributors": [
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "terminal.app",
 		"description": "Soho vibes for Terminal.app",
-		"repositoryTopics": [
-			"terminal-app",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"terminal",
-			"terminal-emulator"
-		],
-		"stargazerCount": 43,
+		"stargazersCount": 43,
 		"updatedAt": "2026-03-07T18:21:31Z",
+		"tags": [
+			"rose-pine",
+			"soho-vibes",
+			"terminal",
+			"terminal-app",
+			"terminal-emulator",
+			"theme"
+		],
 		"url": "https://github.com/rose-pine/terminal.app",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Terminal.app",
 		"category": "terminal",
-		"tags": [
-			"terminal-app",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"terminal",
-			"terminal-emulator"
+		"contributors": [
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "fvrests",
+				"image": "https://avatars.githubusercontent.com/u/47515065?v=4",
+				"url": "https://github.com/fvrests"
+			}
 		],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "fvrests", "mvllow"]
+		"children": []
 	},
 	{
 		"slug": "terminator",
 		"description": "Soho vibes for Terminator",
-		"repositoryTopics": [
-			"terminator",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"terminal",
-			"terminal-emulator"
-		],
-		"stargazerCount": 3,
+		"stargazersCount": 3,
 		"updatedAt": "2025-11-28T04:18:02Z",
+		"tags": [
+			"rose-pine",
+			"soho-vibes",
+			"terminal",
+			"terminal-emulator",
+			"terminator",
+			"theme"
+		],
 		"url": "https://github.com/rose-pine/terminator",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Terminator",
 		"category": "terminal",
-		"tags": [
-			"terminator",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"terminal",
-			"terminal-emulator"
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "fvrests",
+				"image": "https://avatars.githubusercontent.com/u/47515065?v=4",
+				"url": "https://github.com/fvrests"
+			}
 		],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "fvrests", "mvllow"]
+		"children": []
 	},
 	{
 		"slug": "termite",
 		"description": "Soho vibes for Termite",
-		"repositoryTopics": [
-			"termite",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"terminal",
-			"terminal-emulator"
-		],
-		"stargazerCount": 2,
+		"stargazersCount": 2,
 		"updatedAt": "2025-11-05T14:51:03Z",
+		"tags": [
+			"rose-pine",
+			"soho-vibes",
+			"terminal",
+			"terminal-emulator",
+			"termite",
+			"theme"
+		],
 		"url": "https://github.com/rose-pine/termite",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Termite",
 		"category": "terminal",
-		"tags": [
-			"termite",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"terminal",
-			"terminal-emulator"
+		"contributors": [
+			{
+				"name": "Jimmysit0",
+				"image": "https://avatars.githubusercontent.com/u/69643443?v=4",
+				"url": "https://github.com/Jimmysit0"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			}
 		],
-		"children": [],
-		"contributors": ["Jimmysit0", "ThatOneCalculator", "mvllow"]
+		"children": []
 	},
 	{
 		"slug": "termusic",
 		"description": "Soho vibes for termusic",
-		"repositoryTopics": [],
-		"stargazerCount": 0,
+		"stargazersCount": 0,
 		"updatedAt": "2025-11-07T15:37:25Z",
+		"tags": [],
 		"url": "https://github.com/rose-pine/termusic",
-		"usesCustomOpenGraphImage": false,
-		"hidden": "false",
 		"name": "termusic",
 		"category": "terminal",
-		"tags": [],
-		"children": [],
-		"contributors": ["Henriquehnnm", "mvllow"]
+		"contributors": [
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "Henriquehnnm",
+				"image": "https://avatars.githubusercontent.com/u/189361616?v=4",
+				"url": "https://github.com/Henriquehnnm"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "termux",
 		"description": "Soho vibes for Termux",
-		"repositoryTopics": ["theme", "terminal", "mobile"],
-		"stargazerCount": 20,
+		"stargazersCount": 20,
 		"updatedAt": "2025-12-21T00:49:18Z",
+		"tags": ["mobile", "terminal", "theme"],
 		"url": "https://github.com/rose-pine/termux",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Termux",
 		"category": "terminal",
-		"tags": ["theme", "terminal", "mobile"],
-		"children": [],
 		"contributors": [
-			"Grimler91",
-			"Neo-Oli",
-			"Red54",
-			"ThatOneCalculator",
-			"agnostic-apollo",
-			"colin4124",
-			"cpixl",
-			"fornwall",
-			"khinsen",
-			"lassipulkkinen",
-			"lokesh-krishna",
-			"mamg22",
-			"mvllow",
-			"quangkr",
-			"zorro"
-		]
-	},
-	{
-		"slug": "tidal",
-		"description": "Soho vibes for TIDAL",
-		"repositoryTopics": ["music"],
-		"stargazerCount": 9,
-		"updatedAt": "2025-12-22T21:16:02Z",
-		"url": "https://github.com/rose-pine/tidal",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "TIDAL",
-		"category": "browser",
-		"tags": ["music"],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow"]
-	},
-	{
-		"slug": "tide",
-		"description": "Soho vibes for Tide",
-		"repositoryTopics": [
-			"fish",
-			"fish-plugin",
-			"rose-pine",
-			"theme",
-			"tide",
-			"soho-vibes",
-			"prompt",
-			"fish-shell"
+			{
+				"name": "fornwall",
+				"image": "https://avatars.githubusercontent.com/u/277251?v=4",
+				"url": "https://github.com/fornwall"
+			},
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "cpixl",
+				"image": "https://avatars.githubusercontent.com/u/6091633?v=4",
+				"url": "https://github.com/cpixl"
+			},
+			{
+				"name": "colin4124",
+				"image": "https://avatars.githubusercontent.com/u/1255176?v=4",
+				"url": "https://github.com/colin4124"
+			},
+			{
+				"name": "zorro",
+				"image": "https://avatars.githubusercontent.com/u/57064186?v=4",
+				"url": "https://github.com/zorro"
+			},
+			{
+				"name": "Grimler91",
+				"image": "https://avatars.githubusercontent.com/u/18900601?v=4",
+				"url": "https://github.com/Grimler91"
+			},
+			{
+				"name": "khinsen",
+				"image": "https://avatars.githubusercontent.com/u/94934?v=4",
+				"url": "https://github.com/khinsen"
+			},
+			{
+				"name": "lassipulkkinen",
+				"image": "https://avatars.githubusercontent.com/u/46759978?v=4",
+				"url": "https://github.com/lassipulkkinen"
+			},
+			{
+				"name": "lokesh-krishna",
+				"image": "https://avatars.githubusercontent.com/u/20235646?v=4",
+				"url": "https://github.com/lokesh-krishna"
+			},
+			{
+				"name": "Neo-Oli",
+				"image": "https://avatars.githubusercontent.com/u/7983745?v=4",
+				"url": "https://github.com/Neo-Oli"
+			},
+			{
+				"name": "quangkr",
+				"image": "https://avatars.githubusercontent.com/u/49685785?v=4",
+				"url": "https://github.com/quangkr"
+			},
+			{
+				"name": "agnostic-apollo",
+				"image": "https://avatars.githubusercontent.com/u/31106828?v=4",
+				"url": "https://github.com/agnostic-apollo"
+			},
+			{
+				"name": "mamg22",
+				"image": "https://avatars.githubusercontent.com/u/45301823?v=4",
+				"url": "https://github.com/mamg22"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "Red54",
+				"image": "https://avatars.githubusercontent.com/u/2240638?v=4",
+				"url": "https://github.com/Red54"
+			}
 		],
-		"stargazerCount": 0,
-		"updatedAt": "2026-03-07T22:10:37Z",
-		"url": "https://github.com/rose-pine/tide",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "Tide for fish",
-		"category": "terminal",
-		"tags": [
-			"fish",
-			"fish-plugin",
-			"rose-pine",
-			"theme",
-			"tide",
-			"soho-vibes",
-			"prompt",
-			"fish-shell"
-		],
-		"children": [],
-		"contributors": ["simono"]
+		"children": []
 	},
 	{
 		"slug": "tm-theme",
 		"description": "Soho vibes for TextMate",
-		"repositoryTopics": ["rose-pine", "soho-vibes", "theme"],
-		"stargazerCount": 17,
+		"stargazersCount": 17,
 		"updatedAt": "2026-03-07T22:46:47Z",
+		"tags": ["rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/tm-theme",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "TextMate",
 		"category": "editor",
-		"tags": ["rose-pine", "soho-vibes", "theme"],
-		"children": [],
-		"contributors": ["arrrgi", "mvllow", "simono", "wzykubek"]
+		"contributors": [
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "arrrgi",
+				"image": "https://avatars.githubusercontent.com/u/18177842?v=4",
+				"url": "https://github.com/arrrgi"
+			},
+			{
+				"name": "simono",
+				"image": "https://avatars.githubusercontent.com/u/874148?v=4",
+				"url": "https://github.com/simono"
+			},
+			{
+				"name": "wzykubek",
+				"image": "https://avatars.githubusercontent.com/u/37913333?v=4",
+				"url": "https://github.com/wzykubek"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "tidal",
+		"description": "Soho vibes for TIDAL",
+		"stargazersCount": 9,
+		"updatedAt": "2025-12-22T21:16:02Z",
+		"tags": ["music"],
+		"url": "https://github.com/rose-pine/tidal",
+		"name": "TIDAL",
+		"category": "browser",
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "tide",
+		"description": "Soho vibes for Tide",
+		"stargazersCount": 0,
+		"updatedAt": "2026-03-09T19:18:14Z",
+		"tags": [
+			"fish",
+			"fish-plugin",
+			"fish-shell",
+			"prompt",
+			"rose-pine",
+			"soho-vibes",
+			"theme",
+			"tide"
+		],
+		"url": "https://github.com/rose-pine/tide",
+		"name": "Tide for fish",
+		"category": "terminal",
+		"contributors": [
+			{
+				"name": "simono",
+				"image": "https://avatars.githubusercontent.com/u/874148?v=4",
+				"url": "https://github.com/simono"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "tmux",
 		"description": "Soho vibes for tmux",
-		"repositoryTopics": ["app", "terminal", "tmux", "theme"],
-		"stargazerCount": 251,
-		"updatedAt": "2026-03-03T04:37:42Z",
+		"stargazersCount": 256,
+		"updatedAt": "2026-03-24T16:21:36Z",
+		"tags": ["app", "terminal", "theme", "tmux"],
 		"url": "https://github.com/rose-pine/tmux",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "tmux",
 		"category": "terminal",
-		"tags": ["app", "terminal", "tmux", "theme"],
-		"children": [],
 		"contributors": [
-			"Badya",
-			"TymekDev",
-			"VKHR-0",
-			"alsmnn",
-			"cascassette",
-			"devyntk",
-			"emilknievel",
-			"gkanwar",
-			"haydenrou",
-			"lluchkaa",
-			"mrs4ndman",
-			"mvllow",
-			"nibley",
-			"piotrdurniat"
-		]
+			{
+				"name": "mrs4ndman",
+				"image": "https://avatars.githubusercontent.com/u/121260905?v=4",
+				"url": "https://github.com/mrs4ndman"
+			},
+			{
+				"name": "haydenrou",
+				"image": "https://avatars.githubusercontent.com/u/21108297?v=4",
+				"url": "https://github.com/haydenrou"
+			},
+			{
+				"name": "cascassette",
+				"image": "https://avatars.githubusercontent.com/u/1914551?v=4",
+				"url": "https://github.com/cascassette"
+			},
+			{
+				"name": "VKHR-0",
+				"image": "https://avatars.githubusercontent.com/u/77293145?v=4",
+				"url": "https://github.com/VKHR-0"
+			},
+			{
+				"name": "nibley",
+				"image": "https://avatars.githubusercontent.com/u/5225323?v=4",
+				"url": "https://github.com/nibley"
+			},
+			{
+				"name": "alsmnn",
+				"image": "https://avatars.githubusercontent.com/u/32334619?v=4",
+				"url": "https://github.com/alsmnn"
+			},
+			{
+				"name": "Badya",
+				"image": "https://avatars.githubusercontent.com/u/2569356?v=4",
+				"url": "https://github.com/Badya"
+			},
+			{
+				"name": "devyntk",
+				"image": "https://avatars.githubusercontent.com/u/10481864?v=4",
+				"url": "https://github.com/devyntk"
+			},
+			{
+				"name": "emilknievel",
+				"image": "https://avatars.githubusercontent.com/u/1216268?v=4",
+				"url": "https://github.com/emilknievel"
+			},
+			{
+				"name": "gkanwar",
+				"image": "https://avatars.githubusercontent.com/u/1031540?v=4",
+				"url": "https://github.com/gkanwar"
+			},
+			{
+				"name": "piotrdurniat",
+				"image": "https://avatars.githubusercontent.com/u/45066751?v=4",
+				"url": "https://github.com/piotrdurniat"
+			},
+			{
+				"name": "TymekDev",
+				"image": "https://avatars.githubusercontent.com/u/38053499?v=4",
+				"url": "https://github.com/TymekDev"
+			},
+			{
+				"name": "lluchkaa",
+				"image": "https://avatars.githubusercontent.com/u/37471864?v=4",
+				"url": "https://github.com/lluchkaa"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "tym",
 		"description": "Soho vibes for tym",
-		"repositoryTopics": ["terminal"],
-		"stargazerCount": 1,
+		"stargazersCount": 1,
 		"updatedAt": "2025-11-05T14:51:09Z",
+		"tags": ["terminal"],
 		"url": "https://github.com/rose-pine/tym",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "tym",
 		"category": "terminal",
-		"tags": ["terminal"],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow"]
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "typora",
 		"description": "Soho vibes for Typora",
-		"repositoryTopics": ["typora", "soho-vibes", "theme", "rose-pine"],
-		"stargazerCount": 7,
+		"stargazersCount": 7,
 		"updatedAt": "2025-11-05T14:51:10Z",
+		"tags": ["rose-pine", "soho-vibes", "theme", "typora"],
 		"url": "https://github.com/rose-pine/typora",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Typora",
 		"category": "editor",
-		"tags": ["typora", "soho-vibes", "theme", "rose-pine"],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow"]
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "typst",
 		"description": "Soho vibes for Typst",
-		"repositoryTopics": ["theme"],
-		"stargazerCount": 10,
+		"stargazersCount": 10,
 		"updatedAt": "2026-02-08T10:17:49Z",
+		"tags": ["theme"],
 		"url": "https://github.com/rose-pine/typst",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Typst",
 		"category": "terminal",
-		"tags": ["theme"],
-		"children": [],
-		"contributors": ["Iorvethe", "mvllow", "oplik0"]
+		"contributors": [
+			{
+				"name": "oplik0",
+				"image": "https://avatars.githubusercontent.com/u/25460763?v=4",
+				"url": "https://github.com/oplik0"
+			},
+			{
+				"name": "Iorvethe",
+				"image": "https://avatars.githubusercontent.com/u/58810330?v=4",
+				"url": "https://github.com/Iorvethe"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "ulauncher",
 		"description": "Soho vibes for Ulauncher",
-		"repositoryTopics": [],
-		"stargazerCount": 4,
+		"stargazersCount": 4,
 		"updatedAt": "2025-11-05T14:51:13Z",
+		"tags": [],
 		"url": "https://github.com/rose-pine/ulauncher",
-		"usesCustomOpenGraphImage": false,
-		"hidden": "false",
 		"name": "Ulauncher",
 		"category": "system",
-		"tags": [],
-		"children": [],
-		"contributors": ["Opposite34", "mvllow"]
+		"contributors": [
+			{
+				"name": "Opposite34",
+				"image": "https://avatars.githubusercontent.com/u/54463205?v=4",
+				"url": "https://github.com/Opposite34"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "userstyles",
 		"description": "Soho vibes for Userstyles",
-		"repositoryTopics": ["css", "stylish", "userstyles", "stylus"],
-		"stargazerCount": 39,
+		"stargazersCount": 39,
 		"updatedAt": "2026-03-04T21:22:37Z",
+		"tags": ["css", "stylish", "stylus", "userstyles"],
 		"url": "https://github.com/rose-pine/userstyles",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Userstyles",
 		"category": "browser",
-		"tags": ["css", "stylish", "userstyles", "stylus"],
+		"contributors": [
+			{
+				"name": "juliamertz",
+				"image": "https://avatars.githubusercontent.com/u/35079666?v=4",
+				"url": "https://github.com/juliamertz"
+			},
+			{
+				"name": "adriankarlen",
+				"image": "https://avatars.githubusercontent.com/u/113891532?v=4",
+				"url": "https://github.com/adriankarlen"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "JTrenerry",
+				"image": "https://avatars.githubusercontent.com/u/105094182?v=4",
+				"url": "https://github.com/JTrenerry"
+			},
+			{
+				"name": "Papa-Quill",
+				"image": "https://avatars.githubusercontent.com/u/70424791?v=4",
+				"url": "https://github.com/Papa-Quill"
+			},
+			{
+				"name": "revsuine",
+				"image": "https://avatars.githubusercontent.com/u/10424281?v=4",
+				"url": "https://github.com/revsuine"
+			},
+			{
+				"name": "jcyamo",
+				"image": "https://avatars.githubusercontent.com/u/684434?v=4",
+				"url": "https://github.com/jcyamo"
+			},
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "TrustworthyAdult",
+				"image": "https://avatars.githubusercontent.com/u/104172948?v=4",
+				"url": "https://github.com/TrustworthyAdult"
+			},
+			{
+				"name": "bunfluff",
+				"image": "https://avatars.githubusercontent.com/u/177128418?v=4",
+				"url": "https://github.com/bunfluff"
+			},
+			{
+				"name": "thairanaru",
+				"image": "https://avatars.githubusercontent.com/u/106037630?v=4",
+				"url": "https://github.com/thairanaru"
+			}
+		],
 		"children": [
 			"4get",
 			"advent-of-code",
@@ -2848,342 +4091,562 @@
 			"wikiwand",
 			"youtube",
 			"zimbra"
-		],
-		"contributors": [
-			"JTrenerry",
-			"Papa-Quill",
-			"ThatOneCalculator",
-			"TrustworthyAdult",
-			"adriankarlen",
-			"bunfluff",
-			"jcyamo",
-			"juliamertz",
-			"mvllow",
-			"revsuine",
-			"thairanaru"
 		]
 	},
 	{
 		"slug": "vim",
 		"description": "Soho vibes for Vim",
-		"repositoryTopics": ["rose-pine", "soho-vibes", "theme", "vim", "editor"],
-		"stargazerCount": 47,
-		"updatedAt": "2026-03-03T15:37:27Z",
+		"stargazersCount": 48,
+		"updatedAt": "2026-03-24T15:22:27Z",
+		"tags": ["editor", "rose-pine", "soho-vibes", "theme", "vim"],
 		"url": "https://github.com/rose-pine/vim",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Vim",
 		"category": "editor",
-		"tags": ["rose-pine", "soho-vibes", "theme", "vim", "editor"],
-		"children": [],
-		"contributors": ["DanielViberg", "arash28134", "mvllow", "prateektade"]
+		"contributors": [
+			{
+				"name": "prateektade",
+				"image": "https://avatars.githubusercontent.com/u/108054324?v=4",
+				"url": "https://github.com/prateektade"
+			},
+			{
+				"name": "DanielViberg",
+				"image": "https://avatars.githubusercontent.com/u/27137435?v=4",
+				"url": "https://github.com/DanielViberg"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "arash28134",
+				"image": "https://avatars.githubusercontent.com/u/74412308?v=4",
+				"url": "https://github.com/arash28134"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "vimium-c",
 		"description": "Soho vibes for Vimium C",
-		"repositoryTopics": ["theme", "rose-pine", "soho-vibes"],
-		"stargazerCount": 13,
+		"stargazersCount": 13,
 		"updatedAt": "2025-11-05T14:51:16Z",
+		"tags": ["rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/vimium-c",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Vimium C",
 		"category": "browser",
-		"tags": ["theme", "rose-pine", "soho-vibes"],
-		"children": [],
-		"contributors": ["mvllow", "zxx457"]
-	},
-	{
-		"slug": "vivaldi",
-		"description": "Soho vibes for Vivaldi",
-		"repositoryTopics": [
-			"rose-pine",
-			"rosepine",
-			"theme",
-			"vivaldi",
-			"vivaldi-theme"
+		"contributors": [
+			{
+				"name": "zxx457",
+				"image": "https://avatars.githubusercontent.com/u/114141362?v=4",
+				"url": "https://github.com/zxx457"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
 		],
-		"stargazerCount": 8,
-		"updatedAt": "2025-12-01T04:29:35Z",
-		"url": "https://github.com/rose-pine/vivaldi",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
-		"name": "Vivaldi",
-		"category": "browser",
-		"tags": ["rose-pine", "rosepine", "theme", "vivaldi", "vivaldi-theme"],
-		"children": [],
-		"contributors": ["SocietasEvanescentes", "mvllow"]
+		"children": []
 	},
 	{
 		"slug": "vscode",
 		"description": "Soho vibes for Visual Studio Code",
-		"repositoryTopics": [
-			"vscode",
+		"stargazersCount": 586,
+		"updatedAt": "2026-03-24T04:05:24Z",
+		"tags": [
+			"editor",
+			"hacktoberfest",
+			"rose-pine",
 			"soho-vibes",
 			"theme",
-			"rose-pine",
-			"vscode-extension",
-			"hacktoberfest",
 			"visual-studio-code",
-			"editor"
+			"vscode",
+			"vscode-extension"
 		],
-		"stargazerCount": 586,
-		"updatedAt": "2026-03-07T04:39:31Z",
 		"url": "https://github.com/rose-pine/vscode",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Visual Studio Code",
 		"category": "editor",
-		"tags": [
-			"vscode",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"vscode-extension",
-			"hacktoberfest",
-			"visual-studio-code",
-			"editor"
-		],
-		"children": [],
 		"contributors": [
-			"MenWhoRust",
-			"OtterBoops",
-			"dependabot[bot]",
-			"finnjames",
-			"fvrests",
-			"gwenwindflower",
-			"mvllow",
-			"rphlmr",
-			"skewb1k",
-			"ziw-liu"
-		]
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "fvrests",
+				"image": "https://avatars.githubusercontent.com/u/47515065?v=4",
+				"url": "https://github.com/fvrests"
+			},
+			{
+				"name": "OtterBoops",
+				"image": "https://avatars.githubusercontent.com/u/4331679?v=4",
+				"url": "https://github.com/OtterBoops"
+			},
+			{
+				"name": "ziw-liu",
+				"image": "https://avatars.githubusercontent.com/u/67518483?v=4",
+				"url": "https://github.com/ziw-liu"
+			},
+			{
+				"name": "dependabot[bot]",
+				"image": "https://avatars.githubusercontent.com/in/29110?v=4",
+				"url": "https://github.com/apps/dependabot"
+			},
+			{
+				"name": "finnjames",
+				"image": "https://avatars.githubusercontent.com/u/21144914?v=4",
+				"url": "https://github.com/finnjames"
+			},
+			{
+				"name": "MenWhoRust",
+				"image": "https://avatars.githubusercontent.com/u/27804703?v=4",
+				"url": "https://github.com/MenWhoRust"
+			},
+			{
+				"name": "rphlmr",
+				"image": "https://avatars.githubusercontent.com/u/20722140?v=4",
+				"url": "https://github.com/rphlmr"
+			},
+			{
+				"name": "skewb1k",
+				"image": "https://avatars.githubusercontent.com/u/101928759?v=4",
+				"url": "https://github.com/skewb1k"
+			},
+			{
+				"name": "gwenwindflower",
+				"image": "https://avatars.githubusercontent.com/u/91998347?v=4",
+				"url": "https://github.com/gwenwindflower"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "vivaldi",
+		"description": "Soho vibes for Vivaldi",
+		"stargazersCount": 8,
+		"updatedAt": "2025-12-01T04:29:35Z",
+		"tags": ["rose-pine", "rosepine", "theme", "vivaldi", "vivaldi-theme"],
+		"url": "https://github.com/rose-pine/vivaldi",
+		"name": "Vivaldi",
+		"category": "browser",
+		"contributors": [
+			{
+				"name": "SocietasEvanescentes",
+				"image": "https://avatars.githubusercontent.com/u/25782090?v=4",
+				"url": "https://github.com/SocietasEvanescentes"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "wallpapers",
 		"description": "Soho vibes for Wallpapers",
-		"repositoryTopics": ["wallpapers", "soho-vibes", "rose-pine", "theme"],
-		"stargazerCount": 337,
-		"updatedAt": "2026-03-07T16:13:56Z",
+		"stargazersCount": 347,
+		"updatedAt": "2026-03-25T15:21:12Z",
+		"tags": ["rose-pine", "soho-vibes", "theme", "wallpapers"],
 		"url": "https://github.com/rose-pine/wallpapers",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Wallpapers",
 		"category": "system",
-		"tags": ["wallpapers", "soho-vibes", "rose-pine", "theme"],
-		"children": [],
 		"contributors": [
-			"Henriquehnnm",
-			"TagYurIt",
-			"ThatOneCalculator",
-			"chunghha",
-			"fvrests",
-			"kelpwave",
-			"kirasok",
-			"mvllow",
-			"neyfua",
-			"smolderdev",
-			"vidy007"
-		]
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "fvrests",
+				"image": "https://avatars.githubusercontent.com/u/47515065?v=4",
+				"url": "https://github.com/fvrests"
+			},
+			{
+				"name": "Henriquehnnm",
+				"image": "https://avatars.githubusercontent.com/u/189361616?v=4",
+				"url": "https://github.com/Henriquehnnm"
+			},
+			{
+				"name": "kelpwave",
+				"image": "https://avatars.githubusercontent.com/u/108518033?v=4",
+				"url": "https://github.com/kelpwave"
+			},
+			{
+				"name": "chunghha",
+				"image": "https://avatars.githubusercontent.com/u/24458075?v=4",
+				"url": "https://github.com/chunghha"
+			},
+			{
+				"name": "kirasok",
+				"image": "https://avatars.githubusercontent.com/u/75790517?v=4",
+				"url": "https://github.com/kirasok"
+			},
+			{
+				"name": "smolderdev",
+				"image": "https://avatars.githubusercontent.com/u/223149891?v=4",
+				"url": "https://github.com/smolderdev"
+			},
+			{
+				"name": "TagYurIt",
+				"image": "https://avatars.githubusercontent.com/u/151072443?v=4",
+				"url": "https://github.com/TagYurIt"
+			},
+			{
+				"name": "neyfua",
+				"image": "https://avatars.githubusercontent.com/u/111333721?v=4",
+				"url": "https://github.com/neyfua"
+			},
+			{
+				"name": "nnHomoli",
+				"image": "https://avatars.githubusercontent.com/u/68507997?v=4",
+				"url": "https://github.com/nnHomoli"
+			},
+			{
+				"name": "vidy007",
+				"image": "https://avatars.githubusercontent.com/u/116507430?v=4",
+				"url": "https://github.com/vidy007"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "waybar",
 		"description": "Soho vibes for Waybar",
-		"repositoryTopics": ["theme", "color-palette"],
-		"stargazerCount": 57,
-		"updatedAt": "2026-01-31T08:36:48Z",
+		"stargazersCount": 59,
+		"updatedAt": "2026-03-26T00:50:35Z",
+		"tags": ["color-palette", "theme"],
 		"url": "https://github.com/rose-pine/waybar",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Waybar",
 		"category": "system",
-		"tags": ["theme", "color-palette"],
-		"children": [],
-		"contributors": ["DankoFox", "mvllow"]
+		"contributors": [
+			{
+				"name": "DankoFox",
+				"image": "https://avatars.githubusercontent.com/u/79992320?v=4",
+				"url": "https://github.com/DankoFox"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "whoogle",
 		"description": "Soho vibes for Whoogle",
-		"repositoryTopics": ["theme"],
-		"stargazerCount": 7,
+		"stargazersCount": 7,
 		"updatedAt": "2025-11-05T14:51:21Z",
+		"tags": ["theme"],
 		"url": "https://github.com/rose-pine/whoogle",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Whoogle",
 		"category": "browser",
-		"tags": ["theme"],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow"]
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "windows-terminal",
 		"description": "Soho vibes for Windows Terminal",
-		"repositoryTopics": [
-			"windows-terminal",
-			"soho-vibes",
-			"theme",
+		"stargazersCount": 106,
+		"updatedAt": "2026-03-20T13:26:24Z",
+		"tags": [
 			"rose-pine",
+			"soho-vibes",
 			"terminal",
-			"terminal-emulator"
+			"terminal-emulator",
+			"theme",
+			"windows-terminal"
 		],
-		"stargazerCount": 107,
-		"updatedAt": "2026-03-03T16:37:17Z",
 		"url": "https://github.com/rose-pine/windows-terminal",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Windows Terminal",
 		"category": "terminal",
-		"tags": [
-			"windows-terminal",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"terminal",
-			"terminal-emulator"
+		"contributors": [
+			{
+				"name": "Jimmysit0",
+				"image": "https://avatars.githubusercontent.com/u/69643443?v=4",
+				"url": "https://github.com/Jimmysit0"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "maxstollmayer",
+				"image": "https://avatars.githubusercontent.com/u/63783301?v=4",
+				"url": "https://github.com/maxstollmayer"
+			},
+			{
+				"name": "fvrests",
+				"image": "https://avatars.githubusercontent.com/u/47515065?v=4",
+				"url": "https://github.com/fvrests"
+			}
 		],
-		"children": [],
-		"contributors": ["Jimmysit0", "fvrests", "maxstollmayer", "mvllow"]
+		"children": []
 	},
 	{
 		"slug": "writefreely",
 		"description": "Soho vibes for WriteFreely",
-		"repositoryTopics": ["theme"],
-		"stargazerCount": 5,
+		"stargazersCount": 5,
 		"updatedAt": "2025-12-23T16:58:21Z",
+		"tags": ["theme"],
 		"url": "https://github.com/rose-pine/writefreely",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "WriteFreely",
 		"category": "browser",
-		"tags": ["theme"],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow"]
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "xfce-terminal",
 		"description": "Soho vibes for XFCE4 Terminal",
-		"repositoryTopics": [
-			"xfce-terminal",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"terminal",
-			"terminal-emulator"
-		],
-		"stargazerCount": 17,
+		"stargazersCount": 17,
 		"updatedAt": "2026-02-02T12:35:36Z",
+		"tags": [
+			"rose-pine",
+			"soho-vibes",
+			"terminal",
+			"terminal-emulator",
+			"theme",
+			"xfce-terminal"
+		],
 		"url": "https://github.com/rose-pine/xfce-terminal",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "XFCE4 Terminal",
 		"category": "terminal",
-		"tags": [
-			"xfce-terminal",
-			"soho-vibes",
-			"theme",
-			"rose-pine",
-			"terminal",
-			"terminal-emulator"
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "prateektade",
+				"image": "https://avatars.githubusercontent.com/u/108054324?v=4",
+				"url": "https://github.com/prateektade"
+			}
 		],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow", "prateektade"]
+		"children": []
 	},
 	{
 		"slug": "xresources",
 		"description": "Soho vibes for Xresources",
-		"repositoryTopics": ["theme"],
-		"stargazerCount": 7,
+		"stargazersCount": 7,
 		"updatedAt": "2025-12-18T20:31:19Z",
+		"tags": ["theme"],
 		"url": "https://github.com/rose-pine/xresources",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Xresources",
 		"category": "terminal",
-		"tags": ["theme"],
-		"children": [],
-		"contributors": ["harishnkr", "mvllow", "piperbly"]
+		"contributors": [
+			{
+				"name": "harishnkr",
+				"image": "https://avatars.githubusercontent.com/u/48408097?v=4",
+				"url": "https://github.com/harishnkr"
+			},
+			{
+				"name": "piperbly",
+				"image": "https://avatars.githubusercontent.com/u/8343978?v=4",
+				"url": "https://github.com/piperbly"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "yazi",
 		"description": "Soho vibes for Yazi",
-		"repositoryTopics": [],
-		"stargazerCount": 8,
-		"updatedAt": "2026-03-02T08:49:33Z",
+		"stargazersCount": 10,
+		"updatedAt": "2026-03-22T17:09:02Z",
+		"tags": [],
 		"url": "https://github.com/rose-pine/yazi",
-		"usesCustomOpenGraphImage": false,
-		"hidden": "false",
 		"name": "Yazi",
 		"category": "terminal",
-		"tags": [],
-		"children": [],
-		"contributors": ["Mintass", "hikaru-kajita", "mvllow"]
+		"contributors": [
+			{
+				"name": "Mintass",
+				"image": "https://avatars.githubusercontent.com/u/116579758?v=4",
+				"url": "https://github.com/Mintass"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "hikaru-kajita",
+				"image": "https://avatars.githubusercontent.com/u/61526956?v=4",
+				"url": "https://github.com/hikaru-kajita"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "zed",
 		"description": "Soho vibes for Zed",
-		"repositoryTopics": [],
-		"stargazerCount": 50,
-		"updatedAt": "2026-03-03T12:42:05Z",
+		"stargazersCount": 54,
+		"updatedAt": "2026-03-22T16:16:26Z",
+		"tags": [],
 		"url": "https://github.com/rose-pine/zed",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Zed",
 		"category": "editor",
-		"tags": [],
-		"children": [],
 		"contributors": [
-			"Angelk90",
-			"ThatOneCalculator",
-			"emillinden",
-			"invranet",
-			"mvllow",
-			"ryanolsonx",
-			"skewb1k"
-		]
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "invranet",
+				"image": "https://avatars.githubusercontent.com/u/109136291?v=4",
+				"url": "https://github.com/invranet"
+			},
+			{
+				"name": "skewb1k",
+				"image": "https://avatars.githubusercontent.com/u/101928759?v=4",
+				"url": "https://github.com/skewb1k"
+			},
+			{
+				"name": "Angelk90",
+				"image": "https://avatars.githubusercontent.com/u/20476002?v=4",
+				"url": "https://github.com/Angelk90"
+			},
+			{
+				"name": "emillinden",
+				"image": "https://avatars.githubusercontent.com/u/15101486?v=4",
+				"url": "https://github.com/emillinden"
+			},
+			{
+				"name": "ryanolsonx",
+				"image": "https://avatars.githubusercontent.com/u/238929?v=4",
+				"url": "https://github.com/ryanolsonx"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "zellij",
 		"description": "Soho vibes for Zellij",
-		"repositoryTopics": ["soho-vibes", "rose-pine", "theme"],
-		"stargazerCount": 40,
-		"updatedAt": "2026-02-28T23:35:18Z",
+		"stargazersCount": 41,
+		"updatedAt": "2026-03-20T04:36:55Z",
+		"tags": ["rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/zellij",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Zellij",
 		"category": "terminal",
-		"tags": ["soho-vibes", "rose-pine", "theme"],
-		"children": [],
-		"contributors": ["anihm136", "arrrgi", "bomgar", "mvllow"]
+		"contributors": [
+			{
+				"name": "anihm136",
+				"image": "https://avatars.githubusercontent.com/u/49116134?v=4",
+				"url": "https://github.com/anihm136"
+			},
+			{
+				"name": "bomgar",
+				"image": "https://avatars.githubusercontent.com/u/402052?v=4",
+				"url": "https://github.com/bomgar"
+			},
+			{
+				"name": "arrrgi",
+				"image": "https://avatars.githubusercontent.com/u/18177842?v=4",
+				"url": "https://github.com/arrrgi"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "zen-browser",
 		"description": "Soho vibes for Zen Browser",
-		"repositoryTopics": ["app"],
-		"stargazerCount": 23,
-		"updatedAt": "2026-02-21T06:18:29Z",
+		"stargazersCount": 25,
+		"updatedAt": "2026-03-23T21:17:32Z",
+		"tags": ["app"],
 		"url": "https://github.com/rose-pine/zen-browser",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "Zen Browser",
 		"category": "browser",
-		"tags": ["app"],
-		"children": [],
-		"contributors": ["Lalit64", "mvllow", "wzykubek"]
+		"contributors": [
+			{
+				"name": "wzykubek",
+				"image": "https://avatars.githubusercontent.com/u/37913333?v=4",
+				"url": "https://github.com/wzykubek"
+			},
+			{
+				"name": "Lalit64",
+				"image": "https://avatars.githubusercontent.com/u/79628080?v=4",
+				"url": "https://github.com/Lalit64"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	},
 	{
 		"slug": "zer0bin",
 		"description": "Soho vibes for zer0bin",
-		"repositoryTopics": ["theme"],
-		"stargazerCount": 2,
+		"stargazersCount": 2,
 		"updatedAt": "2025-11-05T14:51:31Z",
+		"tags": ["theme"],
 		"url": "https://github.com/rose-pine/zer0bin",
-		"usesCustomOpenGraphImage": true,
-		"hidden": "false",
 		"name": "zer0bin",
 		"category": "browser",
-		"tags": ["theme"],
-		"children": [],
-		"contributors": ["ThatOneCalculator", "mvllow"]
+		"contributors": [
+			{
+				"name": "ThatOneCalculator",
+				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
+				"url": "https://github.com/ThatOneCalculator"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
 	}
 ]

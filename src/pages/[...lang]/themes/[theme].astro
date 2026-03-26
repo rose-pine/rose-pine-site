@@ -1,6 +1,6 @@
 ---
 import FlowerIcon from "@lucide/astro/icons/flower";
-import { getAllRepoSlugs, getContributor, getRepoBySlug } from "../../../data";
+import { getAllRepoSlugs, getRepoBySlug } from "../../../data";
 import {
 	getLangFromUrl,
 	useTranslatedPath,
@@ -110,37 +110,29 @@ let { repo } = Astro.props;
 					<h2 class="mb-4 font-bold">Contributors</h2>
 					<ul role="list" class="flex flex-col gap-2">
 						{
-							repo.contributors.map((contributor) => {
-								let { name, url } = getContributor(contributor);
-								let image = "";
-								if (url?.startsWith("https://github.com")) {
-									let username = url.replace("https://github.com/", "");
-									image = `https://avatars.githubusercontent.com/${username}?size=80`;
-								}
-								return (
-									<li>
-										<a
-											href={url ?? "#!"}
-											class="inline-flex items-center gap-2 font-medium"
-										>
-											{image ? (
-												<img
-													width="20"
-													height="20"
-													src={image}
-													alt={name}
-													class="rounded-md border border-muted/10"
-												/>
-											) : (
-												<div class="flex size-5 items-center justify-center rounded-md border border-gold/10 bg-gold/10">
-													<FlowerIcon size="16" class="text-gold" />
-												</div>
-											)}
-											{name}
-										</a>
-									</li>
-								);
-							})
+							repo.contributors.map((contributor) => (
+								<li>
+									<a
+										href={contributor.url ?? "#!"}
+										class="inline-flex items-center gap-2 font-medium"
+									>
+										{contributor.image ? (
+											<img
+												width="20"
+												height="20"
+												src={contributor.image}
+												alt={contributor.name}
+												class="rounded-md border border-muted/10"
+											/>
+										) : (
+											<div class="flex size-5 items-center justify-center rounded-md border border-gold/10 bg-gold/10">
+												<FlowerIcon size="16" class="text-gold" />
+											</div>
+										)}
+										{contributor.name}
+									</a>
+								</li>
+							))
 						}
 					</ul>
 				</div>
