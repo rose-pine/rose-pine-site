@@ -18,12 +18,15 @@ export function getAllRepos(): Repo[] {
 			description: repo.description ?? `Soho vibes for ${repo.name}`,
 			tags: [...(repo.tags ?? []), "Community"],
 		})),
-	];
+	].map((repo) => ({
+		...repo,
+		featured: (repo.stargazersCount ?? 0) > 100,
+	}));
 }
 
 export function getFeaturedRepos(): Repo[] {
 	return repos
-		.filter((repo) => (repo.stargazersCount ?? 0) > 100)
+		.filter((repo) => repo.featured)
 		.sort((a, b) => (b.stargazersCount ?? 0) - (a.stargazersCount ?? 0));
 }
 

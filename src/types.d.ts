@@ -22,6 +22,7 @@ type Repo = {
 	description: string;
 	tags: string[];
 	contributors: Contributor[];
+	featured: boolean;
 	updatedAt?: string;
 	stargazersCount?: number;
 	category: string;
