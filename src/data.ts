@@ -14,6 +14,12 @@ export function getAllRepos(): Repo[] {
 		...repos,
 		...communityRepos.map((repo) => ({
 			...repo,
+			contributors: repo.contributors.map((contributor) => {
+				return {
+					...contributor,
+					image: getContributorImage(contributor),
+				};
+			}),
 			slug: repo.name.toLowerCase().replaceAll(" ", "-"),
 			description: repo.description ?? `Soho vibes for ${repo.name}`,
 			tags: [...(repo.tags ?? []), "Community"],
@@ -62,4 +68,11 @@ export function getContributorCount(): number {
 			repo.contributors.map((contributor) => contributor.name),
 		),
 	]).size;
+}
+
+function getContributorImage(contributor: Contributor) {
+	let username = contributor.url.replace("https://github.com/", "");
+	if (contributor.url.startsWith("https://github.com/")) {
+		return `https://avatars.githubusercontent.com/${username}?size=80`;
+	}
 }
