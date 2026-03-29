@@ -25,7 +25,7 @@
 				fill="none"
 				stroke-linecap="round"
 				stroke-linejoin="round"
-				class="-ml-1 mr-1.5"
+				class="-ml-1 mr-1.5 rtl:ml-1.5 rtl:-mr-1"
 			>
 				<path stroke="none" d="M0 0h24v24H0z" fill="none" />
 				<path
