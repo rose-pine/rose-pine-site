@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 106,
-    "updatedAt": "2026-03-28T00:26:19Z",
+    "updatedAt": "2026-03-29T00:29:34Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -19,8 +19,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 258,
-    "updatedAt": "2026-03-28T00:27:02Z",
+    "stargazerCount": 259,
+    "updatedAt": "2026-03-29T16:58:35Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -34,8 +34,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 348,
-    "updatedAt": "2026-03-28T21:24:46Z",
+    "stargazerCount": 349,
+    "updatedAt": "2026-03-29T19:59:10Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -292,8 +292,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2975,
-    "updatedAt": "2026-03-28T21:21:37Z",
+    "stargazerCount": 2974,
+    "updatedAt": "2026-03-29T10:36:05Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -385,8 +385,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 26,
-    "updatedAt": "2026-03-16T23:02:53Z",
+    "stargazerCount": 27,
+    "updatedAt": "2026-03-29T12:42:05Z",
     "url": "https://github.com/rose-pine/rofi",
     "usesCustomOpenGraphImage": true
   },
