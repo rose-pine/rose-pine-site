@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 106,
+    "updatedAt": "2026-04-03T00:28:25Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Wallpapers",
     "homepageUrl": "",
     "name": "wallpapers",
@@ -9,8 +19,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 353,
-    "updatedAt": "2026-04-02T16:50:51Z",
+    "stargazerCount": 354,
+    "updatedAt": "2026-04-03T07:28:23Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -26,19 +36,9 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 107,
-    "updatedAt": "2026-04-02T22:37:34Z",
+    "stargazerCount": 108,
+    "updatedAt": "2026-04-03T23:48:48Z",
     "url": "https://github.com/rose-pine/windows-terminal",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 106,
-    "updatedAt": "2026-04-02T00:26:45Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -309,8 +309,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2978,
-    "updatedAt": "2026-04-02T21:25:14Z",
+    "stargazerCount": 2980,
+    "updatedAt": "2026-04-03T19:15:38Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -552,8 +552,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 41,
-    "updatedAt": "2026-03-20T04:36:55Z",
+    "stargazerCount": 42,
+    "updatedAt": "2026-04-03T20:32:41Z",
     "url": "https://github.com/rose-pine/zellij",
     "usesCustomOpenGraphImage": true
   },
@@ -793,8 +793,8 @@
       "swaync",
       "theme"
     ],
-    "stargazerCount": 23,
-    "updatedAt": "2026-01-09T15:54:38Z",
+    "stargazerCount": 24,
+    "updatedAt": "2026-04-03T11:01:45Z",
     "url": "https://github.com/rose-pine/swaync",
     "usesCustomOpenGraphImage": true
   },
