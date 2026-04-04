@@ -167,7 +167,7 @@ article a:hover {
 	@apply underline;
 }
 article blockquote {
-	@apply border-l-2 pl-3 text-subtle;
+    @apply border-l-2 pl-3 text-subtle rtl:border-l-0 rtl:border-r-2 rtl:pl-0 rtl:pr-3;
 }
 article ul,
 article ol {
