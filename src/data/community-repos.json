@@ -623,7 +623,7 @@
 	{
 		"name": "VS Code Symbols",
 		"url": "https://github.com/ravenothere/Rose-Pine-Symbols",
-		"tags": ["vscode", "editor", "app", "icons", "file icons"],
+		"tags": ["vscode", "visual studio code", "editor", "app", "icons", "file icons"],
 		"authors": [{ "name": "ravenothere", "url": "https://github.com/ravenothere" }],
 		"has_variants": true
 	}
