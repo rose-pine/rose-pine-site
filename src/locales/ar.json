@@ -1,0 +1,70 @@
+{
+	"navigation": {
+		"home": "الرئيسية",
+		"themes": "السمات",
+		"palette": "لوحة الألوان",
+		"ingredients": "المكونات",
+		"resources": "الموارد",
+		"languages": "اللغات"
+	},
+	"home": {
+		"title": "شيء جميل",
+		"description": "صنوبر طبيعي بالكامل، فرو صناعي، ولمسة من أجواء سوهو لمحبّي البساطة الراقية.",
+		"discover_button": "اكتشف",
+		"feature_card_1": {
+			"title": "جماليات رقيقة",
+			"description": "امنح عينيك استراحة مع لوحتنا اللطيفة والمريحة.",
+			"link": "لوحتنا"
+		},
+		"feature_card_2": {
+			"title": "أجواء مُتكيّفة",
+			"description": "استمتع بخيارات مصمّمة لكل ساعة من يومك.",
+			"link": "تصفّح السمات"
+		},
+		"feature_card_3": {
+			"title": "بمساهمة المجتمع",
+			"description": "ساعدتنا في إيصال Rosé Pine إلى أكثر من {{numberOfPorts}} من تطبيقاتك المفضّلة.",
+			"link": "شارك معنا"
+		}
+	},
+	"themes": {
+		"title": "السمات",
+		"description": "مجموعة مصممة بعناية من التخصيصات.",
+		"tagline": "{{numberOfPorts}} مُنفِّذًا و{{numberOfAuthors}} مساهمًا",
+		"search_label": "ابحث عن سمات..."
+	},
+	"palette": {
+		"title": "لوحة الألوان",
+		"description": "ألوان مختارة بعناية، إبداعات لا حدود لها.",
+		"tagline": "{{numberOfVariants}} نسخ و{{numberOfColors}} لون",
+		"tabs": {
+			"swatches": "عيّنات الألوان",
+			"ingredients": "المكونات"
+		}
+	},
+	"ingredients": {
+		"title": "المكونات",
+		"description": "قِيم الألوان المُنَسَّقة.",
+		"decorations_label": "الزخارف"
+	},
+	"resources": {
+		"title": "الموارد",
+		"description": "صندوق أدوات خفيف للمساهمين.",
+		"help_link": "احصل على المساعدة عبر ديسكورد"
+	},
+	"global_search": {
+		"trigger": "بحث",
+		"placeholder": "ابحث في الصفحات والسمات ولوحة الألوان...",
+		"empty_text": "لا توجد نتائج.",
+		"empty_result_1": "تصفّح جميع السمات",
+		"empty_result_2": "ساهم في Rosé Pine",
+		"heading_pages": "الصفحات",
+		"heading_themes": "السمات",
+		"heading_featured_themes": "السمات المميّزة",
+		"heading_palette": "لوحة الألوان",
+		"heading_community": "المجتمع"
+	},
+	"shared": {
+		"read_more": "اقرأ المزيد"
+	}
+}
