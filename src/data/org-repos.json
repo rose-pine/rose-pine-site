@@ -1,11 +1,32 @@
 [
   {
+    "description": "Soho vibes for Neovim",
+    "homepageUrl": "",
+    "name": "neovim",
+    "repositoryTopics": [
+      "theme",
+      "neovim",
+      "soho-vibes",
+      "rose-pine",
+      "lua",
+      "vim",
+      "nvim",
+      "neovim-theme",
+      "vim-theme",
+      "editor"
+    ],
+    "stargazerCount": 2986,
+    "updatedAt": "2026-04-09T20:14:37Z",
+    "url": "https://github.com/rose-pine/neovim",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 107,
-    "updatedAt": "2026-04-08T00:30:02Z",
+    "updatedAt": "2026-04-09T13:27:47Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -294,27 +315,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Neovim",
-    "homepageUrl": "",
-    "name": "neovim",
-    "repositoryTopics": [
-      "theme",
-      "neovim",
-      "soho-vibes",
-      "rose-pine",
-      "lua",
-      "vim",
-      "nvim",
-      "neovim-theme",
-      "vim-theme",
-      "editor"
-    ],
-    "stargazerCount": 2986,
-    "updatedAt": "2026-04-08T05:58:13Z",
-    "url": "https://github.com/rose-pine/neovim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for GoToSocial",
     "homepageUrl": "https://social.wzykubek.xyz/@me",
     "name": "gotosocial",
@@ -418,8 +418,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1552,
-    "updatedAt": "2026-04-07T14:31:38Z",
+    "stargazerCount": 1553,
+    "updatedAt": "2026-04-09T15:12:56Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1870,8 +1870,8 @@
       "music",
       "terminal"
     ],
-    "stargazerCount": 15,
-    "updatedAt": "2026-01-19T21:11:32Z",
+    "stargazerCount": 16,
+    "updatedAt": "2026-04-09T14:07:57Z",
     "url": "https://github.com/rose-pine/cava",
     "usesCustomOpenGraphImage": true
   },
