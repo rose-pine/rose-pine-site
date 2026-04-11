@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 107,
+    "updatedAt": "2026-04-10T00:28:36Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -15,19 +25,9 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2986,
-    "updatedAt": "2026-04-09T20:14:37Z",
+    "stargazerCount": 2987,
+    "updatedAt": "2026-04-10T05:06:35Z",
     "url": "https://github.com/rose-pine/neovim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 107,
-    "updatedAt": "2026-04-09T13:27:47Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -89,8 +89,8 @@
       "editor",
       "hacktoberfest"
     ],
-    "stargazerCount": 39,
-    "updatedAt": "2026-03-27T19:00:39Z",
+    "stargazerCount": 38,
+    "updatedAt": "2026-04-10T07:33:37Z",
     "url": "https://github.com/rose-pine/helix",
     "usesCustomOpenGraphImage": true
   },
@@ -193,8 +193,8 @@
       "addon",
       "firefox-extension"
     ],
-    "stargazerCount": 94,
-    "updatedAt": "2026-04-05T21:04:04Z",
+    "stargazerCount": 95,
+    "updatedAt": "2026-04-10T19:44:53Z",
     "url": "https://github.com/rose-pine/firefox",
     "usesCustomOpenGraphImage": true
   },
@@ -255,8 +255,8 @@
       "userstyles",
       "stylus"
     ],
-    "stargazerCount": 40,
-    "updatedAt": "2026-03-27T20:29:48Z",
+    "stargazerCount": 41,
+    "updatedAt": "2026-04-10T17:20:51Z",
     "url": "https://github.com/rose-pine/userstyles",
     "usesCustomOpenGraphImage": true
   },
@@ -514,8 +514,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 586,
-    "updatedAt": "2026-04-04T00:34:25Z",
+    "stargazerCount": 587,
+    "updatedAt": "2026-04-10T03:49:57Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -837,8 +837,8 @@
       "rose-pine",
       "hacktoberfest"
     ],
-    "stargazerCount": 32,
-    "updatedAt": "2025-11-05T14:50:56Z",
+    "stargazerCount": 33,
+    "updatedAt": "2026-04-10T23:04:38Z",
     "url": "https://github.com/rose-pine/sublime-text",
     "usesCustomOpenGraphImage": true
   },
