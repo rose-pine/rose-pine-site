@@ -17,6 +17,13 @@
 		],
 		"has_variants": false
 	},
+		{
+		"name": "Bat",
+		"url": "https://github.com/drluckyspin/rose-pine-bat",
+		"tags": ["terminal", "shell", "bat"],
+		"authors": [{ "name": "drluckyspin", "url": "https://github.com/drluckyspin" }],
+		"has_variants": false
+	},
 	{
 		"name": "Base16",
 		"url": "https://github.com/edunfelt/base16-rose-pine-scheme",
