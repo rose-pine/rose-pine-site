@@ -1,0 +1,44 @@
+---
+import { categoryColorMap } from "../utilities/icon-config";
+import { getAstroIconComponent } from "../utilities/icons-astro";
+interface Props {
+	category: keyof typeof categoryColorMap;
+	size: Size;
+}
+const { category, size } = Astro.props;
+
+type Size = "sm" | "md" | "lg";
+let iconSizeMap = {
+	sm: 14,
+	md: 18,
+	lg: 32,
+};
+let containerSizeMap = {
+	sm: "size-6",
+	md: "size-8",
+	lg: "size-12",
+};
+let radiusMap = {
+	sm: "rounded-sm",
+	md: "rounded-md",
+	lg: "rounded-lg",
+};
+---
+
+<div
+	class:list={[
+		"flex items-center justify-center",
+		containerSizeMap[size],
+		radiusMap[size],
+		categoryColorMap[category],
+	]}
+	title={category}
+>
+	<div class="sr-only">{category}</div>
+	{
+		(() => {
+			const Icon = getAstroIconComponent(category);
+			return <Icon size={iconSizeMap[size]} />;
+		})()
+	}
+</div>

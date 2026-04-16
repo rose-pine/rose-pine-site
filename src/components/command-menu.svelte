@@ -6,7 +6,6 @@
 	import ImageIcon from "@lucide/svelte/icons/image";
 	import MailIcon from "@lucide/svelte/icons/mail";
 	import PaletteIcon from "@lucide/svelte/icons/palette";
-	import SailboatIcon from "@lucide/svelte/icons/sailboat";
 	import SearchIcon from "@lucide/svelte/icons/search";
 	import SparklesIcon from "@lucide/svelte/icons/sparkles";
 	import XIcon from "@lucide/svelte/icons/x";
@@ -17,8 +16,10 @@
 		useTranslatedPath,
 		useTranslations,
 	} from "../i18n/utilities";
+	import ThemeIcon from "./theme-icon.svelte";
 	import DiscordIcon from "./discord-icon.svelte";
 	import GithubIcon from "./github-icon.svelte";
+	import categories from "../data/categories.json";
 
 	type Group = {
 		heading: string;
@@ -53,7 +54,6 @@
 		image: ImageIcon,
 		mail: MailIcon,
 		palette: PaletteIcon,
-		sailboat: SailboatIcon,
 		sparkles: SparklesIcon,
 	};
 
@@ -178,16 +178,24 @@
 											{#if icon in iconMap}
 												{@const IconComponent =
 													iconMap[icon as keyof typeof iconMap]}
-												<IconComponent size="16" />
+												<div class="flex size-6 items-center justify-center">
+													<IconComponent size="16" />
+												</div>
+											{:else if categories.includes(icon)}
+												<div class="text-subtle hover:text-text">
+													<ThemeIcon size="sm" category={icon} />
+												</div>
 											{:else}
-												<div
-													class="size-4 rounded-lg border border-muted/20"
-													style:background="var(--color-{icon})"
-												></div>
+												<div class="flex size-6 items-center justify-center">
+													<div
+														class="size-4 rounded-lg border border-muted/20"
+														style:background="var(--color-{icon})"
+													></div>
+												</div>
 											{/if}
 											<div
 												class="flex-1 text-sm font-medium text-text"
-												class:capitalize={!(icon in iconMap)}
+												class:capitalize={href.startsWith("/palette/")}
 											>
 												{label}
 											</div>

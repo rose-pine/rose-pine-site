@@ -8,7 +8,7 @@ import {
 	withLangPaths,
 } from "../../../i18n/utilities";
 import Page from "../../../layouts/page.astro";
-import { getAstroIconComponent } from "../../../utilities/icons-astro";
+import ThemeIcon from "../../../components/theme-icon.astro";
 
 export async function getStaticPaths() {
 	const slugs = getAllRepoSlugs();
@@ -49,16 +49,8 @@ let { repo } = Astro.props;
 		<div class="flex flex-wrap justify-between gap-12 md:flex-nowrap">
 			<article>
 				<div>
-					<div
-						class="animate-enter mb-8 flex size-12 items-center justify-center rounded-lg bg-gold/10 text-gold"
-						style="--stagger: 1"
-					>
-						{
-							(() => {
-								const Icon = getAstroIconComponent(repo.category);
-								return <Icon size="32" />;
-							})()
-						}
+					<div class="animate-enter mb-8" style="--stagger: 1">
+						<ThemeIcon category={repo.category} size="lg" />
 					</div>
 					<h1
 						class="animate-enter mb-4 max-w-2xl text-4xl font-bold tracking-tight text-balance sm:text-6xl"
@@ -122,7 +114,7 @@ let { repo } = Astro.props;
 												height="20"
 												src={contributor.image}
 												alt={contributor.name}
-												class="rounded-md border border-muted/10"
+												class="rounded-md border border-muted/10 bg-overlay"
 											/>
 										) : (
 											<div class="flex size-5 items-center justify-center rounded-md border border-gold/10 bg-gold/10">

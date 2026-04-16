@@ -27,7 +27,7 @@ let searchGroups = [
 			{
 				label: t("nav.themes"),
 				href: translatePath("/themes"),
-				icon: "sailboat",
+				icon: "book-text",
 			},
 			{
 				label: t("nav.palette"),
@@ -46,7 +46,7 @@ let searchGroups = [
 		items: getSortedRepos().map((repo) => ({
 			label: repo.name,
 			href: translatePath(`/themes/${repo.slug}`),
-			icon: "book-text",
+			icon: repo.category,
 		})),
 	},
 	{
@@ -78,7 +78,7 @@ let defaultGroups = [
 		items: getFeaturedRepos().map((repo) => ({
 			label: repo.name,
 			href: translatePath(`/themes/${repo.slug}`),
-			icon: "book-text",
+			icon: repo.category,
 		})),
 	},
 	...searchGroups.slice(2),
