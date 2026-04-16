@@ -48,6 +48,15 @@
 		"category": "library"
 	},
 	{
+		"name": "bat",
+		"url": "https://github.com/drluckyspin/rose-pine-bat",
+		"tags": ["shell", "bat", "cat"],
+		"contributors": [
+			{ "name": "drluckyspin", "url": "https://github.com/drluckyspin" }
+		],
+		"category": "terminal"
+	},
+	{
 		"name": "Bibata Cursors",
 		"url": "https://github.com/harishnkr/Bibata-Original-Cursors",
 		"tags": [],
