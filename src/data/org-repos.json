@@ -1,11 +1,38 @@
 [
   {
+    "description": "Soho vibes for Helix",
+    "homepageUrl": "",
+    "name": "helix",
+    "repositoryTopics": [
+      "theme",
+      "soho-vibes",
+      "rose-pine",
+      "helix",
+      "editor",
+      "hacktoberfest"
+    ],
+    "stargazerCount": 39,
+    "updatedAt": "2026-04-16T23:44:06Z",
+    "url": "https://github.com/rose-pine/helix",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for rmpc",
+    "homepageUrl": "",
+    "name": "rmpc",
+    "repositoryTopics": [],
+    "stargazerCount": 0,
+    "updatedAt": "2026-04-16T17:24:44Z",
+    "url": "https://github.com/rose-pine/rmpc",
+    "usesCustomOpenGraphImage": false
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 107,
-    "updatedAt": "2026-04-15T00:34:41Z",
+    "updatedAt": "2026-04-16T14:46:12Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -25,8 +52,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 2996,
-    "updatedAt": "2026-04-15T10:47:17Z",
+    "stargazerCount": 2997,
+    "updatedAt": "2026-04-16T23:12:17Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -75,23 +102,6 @@
     "stargazerCount": 262,
     "updatedAt": "2026-04-12T20:33:24Z",
     "url": "https://github.com/rose-pine/tmux",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Helix",
-    "homepageUrl": "",
-    "name": "helix",
-    "repositoryTopics": [
-      "theme",
-      "soho-vibes",
-      "rose-pine",
-      "helix",
-      "editor",
-      "hacktoberfest"
-    ],
-    "stargazerCount": 39,
-    "updatedAt": "2026-04-14T06:34:11Z",
-    "url": "https://github.com/rose-pine/helix",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -562,8 +572,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 42,
-    "updatedAt": "2026-04-03T20:32:41Z",
+    "stargazerCount": 43,
+    "updatedAt": "2026-04-16T07:04:22Z",
     "url": "https://github.com/rose-pine/zellij",
     "usesCustomOpenGraphImage": true
   },
@@ -876,8 +886,8 @@
       "theme",
       "rose-pine"
     ],
-    "stargazerCount": 30,
-    "updatedAt": "2026-01-30T03:21:53Z",
+    "stargazerCount": 31,
+    "updatedAt": "2026-04-16T12:51:05Z",
     "url": "https://github.com/rose-pine/startpage",
     "usesCustomOpenGraphImage": true
   },
