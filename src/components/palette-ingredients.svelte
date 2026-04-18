@@ -22,7 +22,7 @@
 
 		<Card id={currentVariant.id}>
 			<div class="grid grid-cols-1 gap-6 min-[400px]:grid-cols-[1fr,auto]">
-				<div class="flex shrink-0 items-center space-x-3">
+				<div class="flex shrink-0 items-center gap-3">
 					<img
 						width="32"
 						height="32"
@@ -56,10 +56,10 @@
 				<table class="w-full min-w-max overflow-x-scroll">
 					<thead>
 						<tr class="border-b">
-							<th class="pl-2 text-left text-sm">Role</th>
-							<th class="pr-4 text-right text-sm">Hex</th>
-							<th class="pr-4 text-right text-sm">RGB</th>
-							<th class="pr-4 text-right text-sm">HSL</th>
+							<th class="pl-2 text-left text-sm rtl:pl-0 rtl:pr-2 rtl:text-right">Role</th>
+                            <th class="pr-4 text-right text-sm rtl:pr-0 rtl:pl-4 rtl:text-left">Hex</th>
+                            <th class="pr-4 text-right text-sm rtl:pr-0 rtl:pl-4 rtl:text-left">RGB</th>
+                            <th class="pr-4 text-right text-sm rtl:pr-0 rtl:pl-4 rtl:text-left">HSL</th>
 						</tr>
 					</thead>
 
@@ -76,7 +76,7 @@
 								class="h-10 bg-surface transition even:bg-muted/5 hover:bg-muted/10"
 							>
 								<td class="pl-2 text-left">
-									<div class="flex items-center space-x-3">
+									<div class="flex items-center gap-3">
 										<div
 											class="h-[18px] w-[18px] rounded-full border"
 											style:background={`#${currentColor.hex}`}
@@ -90,7 +90,7 @@
 								{#each colorFormats as format}
 									{@const position = `${variant}.${role}.${format}`}
 
-									<td class="pl-6 text-right font-mono text-sm">
+									<td class="pl-6 text-right font-mono text-sm rtl:pl-0 rtl:pr-6 rtl:text-left">
 										<button
 											on:click={() =>
 												clipboard.copy(formattedColor[format], position)}

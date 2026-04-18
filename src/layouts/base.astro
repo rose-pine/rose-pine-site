@@ -1,5 +1,7 @@
 ---
 import i18next, { t } from "i18next";
+const lang = i18next.language;
+const dir = lang === "ar" ? "rtl" : "ltr";
 import { localizePath, localizeUrl } from "astro-i18next";
 import { ViewTransitions } from "astro:transitions";
 import { roles, roleKeys } from "@rose-pine/palette";
@@ -101,7 +103,7 @@ const groups = [
 ];
 ---
 
-<html lang="en">
+<html lang={lang} dir={dir}>
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="/favicon.png" />
