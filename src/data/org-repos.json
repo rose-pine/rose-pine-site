@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 107,
+    "updatedAt": "2026-04-20T00:32:42Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Userstyles",
     "homepageUrl": "",
     "name": "userstyles",
@@ -12,16 +22,6 @@
     "stargazerCount": 41,
     "updatedAt": "2026-04-19T21:03:53Z",
     "url": "https://github.com/rose-pine/userstyles",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 107,
-    "updatedAt": "2026-04-19T00:32:49Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -82,8 +82,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 362,
-    "updatedAt": "2026-04-19T08:00:32Z",
+    "stargazerCount": 363,
+    "updatedAt": "2026-04-20T12:02:30Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -438,8 +438,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1557,
-    "updatedAt": "2026-04-18T14:00:34Z",
+    "stargazerCount": 1558,
+    "updatedAt": "2026-04-20T06:39:21Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -827,8 +827,8 @@
       "surfingkeys",
       "theme"
     ],
-    "stargazerCount": 30,
-    "updatedAt": "2026-02-12T01:58:34Z",
+    "stargazerCount": 31,
+    "updatedAt": "2026-04-21T00:20:07Z",
     "url": "https://github.com/rose-pine/surfingkeys",
     "usesCustomOpenGraphImage": true
   },
@@ -1820,8 +1820,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 164,
-    "updatedAt": "2026-04-13T18:17:12Z",
+    "stargazerCount": 165,
+    "updatedAt": "2026-04-20T13:44:43Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
