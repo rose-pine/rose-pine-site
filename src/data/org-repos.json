@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 107,
-    "updatedAt": "2026-04-21T00:33:48Z",
+    "updatedAt": "2026-04-22T00:30:29Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -67,8 +67,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 3001,
-    "updatedAt": "2026-04-21T06:16:59Z",
+    "stargazerCount": 3003,
+    "updatedAt": "2026-04-22T03:05:56Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -82,8 +82,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 364,
-    "updatedAt": "2026-04-21T16:31:42Z",
+    "stargazerCount": 365,
+    "updatedAt": "2026-04-22T04:22:21Z",
     "url": "https://github.com/rose-pine/wallpapers",
     "usesCustomOpenGraphImage": true
   },
@@ -99,8 +99,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 109,
-    "updatedAt": "2026-04-14T18:20:56Z",
+    "stargazerCount": 110,
+    "updatedAt": "2026-04-22T09:42:12Z",
     "url": "https://github.com/rose-pine/windows-terminal",
     "usesCustomOpenGraphImage": true
   },
@@ -329,8 +329,8 @@
       "discord",
       "hacktoberfest"
     ],
-    "stargazerCount": 115,
-    "updatedAt": "2026-03-27T14:32:46Z",
+    "stargazerCount": 116,
+    "updatedAt": "2026-04-22T08:49:59Z",
     "url": "https://github.com/rose-pine/discord",
     "usesCustomOpenGraphImage": true
   },
@@ -422,8 +422,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 28,
-    "updatedAt": "2026-04-15T08:31:50Z",
+    "stargazerCount": 27,
+    "updatedAt": "2026-04-22T20:21:47Z",
     "url": "https://github.com/rose-pine/rofi",
     "usesCustomOpenGraphImage": true
   },
@@ -572,8 +572,8 @@
       "rose-pine",
       "theme"
     ],
-    "stargazerCount": 43,
-    "updatedAt": "2026-04-16T07:04:22Z",
+    "stargazerCount": 44,
+    "updatedAt": "2026-04-22T03:26:20Z",
     "url": "https://github.com/rose-pine/zellij",
     "usesCustomOpenGraphImage": true
   },
@@ -582,8 +582,8 @@
     "homepageUrl": "",
     "name": "zed",
     "repositoryTopics": [],
-    "stargazerCount": 54,
-    "updatedAt": "2026-03-22T16:16:26Z",
+    "stargazerCount": 55,
+    "updatedAt": "2026-04-22T09:52:48Z",
     "url": "https://github.com/rose-pine/zed",
     "usesCustomOpenGraphImage": true
   },
@@ -1461,8 +1461,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 119,
-    "updatedAt": "2026-04-15T08:34:13Z",
+    "stargazerCount": 120,
+    "updatedAt": "2026-04-22T08:49:59Z",
     "url": "https://github.com/rose-pine/kitty",
     "usesCustomOpenGraphImage": true
   },
