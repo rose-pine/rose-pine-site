@@ -1,42 +1,36 @@
 <script lang="ts">
-	import { categoryColorMap } from "../utilities/icon-config";
-	import { getSvelteIconComponent } from "../utilities/icons-svelte";
-	let {
-		category,
-		size,
-	}: { category: keyof typeof categoryColorMap; size: Size } = $props();
+	import {
+		categoryColorMap,
+		containerSizeMap,
+		getSvelteIconComponent,
+		iconSizeMap,
+		radiusMap,
+		type IconCategory,
+		type IconSize,
+	} from "../utilities/icons";
 
-	type Size = "sm" | "md" | "lg";
-	let iconSizeMap = {
-		sm: 14,
-		md: 18,
-		lg: 32,
+	type Props = {
+		category: IconCategory;
+		size: IconSize;
 	};
-	let containerSizeMap = {
-		sm: "size-6",
-		md: "size-8",
-		lg: "size-12",
-	};
-	let radiusMap = {
-		sm: "rounded-sm",
-		md: "rounded-md",
-		lg: "rounded-lg",
-	};
+
+	let { category, size }: Props = $props();
 </script>
 
 {#snippet themeIcon()}
 	{@const IconComponent = getSvelteIconComponent(category)}
 	<div
+		title={category}
 		class={[
 			"flex items-center justify-center",
 			containerSizeMap[size],
 			radiusMap[size],
 			categoryColorMap[category],
 		]}
-		title={category}
 	>
 		<div class="sr-only">{category}</div>
-		<IconComponent size={iconSizeMap[size]} strokeWidth="2" />
+		<IconComponent size={iconSizeMap[size]} />
 	</div>
 {/snippet}
+
 {@render themeIcon()}

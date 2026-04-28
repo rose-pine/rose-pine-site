@@ -3,13 +3,13 @@
 	import categories from "../data/categories.json";
 	import { getLangFromUrl, useTranslations } from "../i18n/utilities";
 	import { themeSearch } from "../state.svelte";
-	import { getSvelteIconComponent } from "../utilities/icons-svelte";
+	import { getSvelteIconComponent } from "../utilities/icons";
 
 	let lang = getLangFromUrl();
 	let t = useTranslations(lang);
 </script>
 
-{#snippet radio(category: string = "")}
+{#snippet radio(category = "")}
 	{@const IconComponent = getSvelteIconComponent(category)}
 	{@const label = category === "" ? t("shared.all") : category}
 
@@ -18,7 +18,7 @@
 		value={category}
 		class="flex items-center gap-2 rounded-full border tonal-muted px-3 py-1.5 font-mono text-xs font-medium text-subtle capitalize transition-[background-color] select-none hover:tonal-pressed-muted hover:text-text focus:outline-none focus-visible:ring focus-visible:ring-rose data-[state=checked]:tonal-rose data-[state=checked]:font-semibold data-[state=checked]:hover:tonal-pressed-rose"
 	>
-		<IconComponent size="12" strokeWidth="2" />
+		<IconComponent size="12" />
 		<Label.Root for="category-{label}">{label}</Label.Root>
 	</RadioGroup.Item>
 {/snippet}

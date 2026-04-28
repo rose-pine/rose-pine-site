@@ -1,10 +1,6 @@
-import categoriesData from "./data/categories.json";
 import communityReposData from "./data/community-repos.json";
 import contributorsData from "./data/contributors.json";
 import reposData from "./data/repos.json";
-
-const categories = [...categoriesData] as const;
-export type Category = (typeof categories)[number];
 
 const repos = (reposData as Repo[]).map((repo) => ({
 	...repo,
@@ -52,10 +48,6 @@ export function getAllRepoSlugs(): string[] {
 export function getRandomRepo(): Repo {
 	const repos = getAllRepos();
 	return repos[Math.floor(Math.random() * repos.length)];
-}
-
-export function getAllCategories(): readonly Category[] {
-	return categories;
 }
 
 export function getContributorCount(): number {
