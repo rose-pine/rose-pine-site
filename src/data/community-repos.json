@@ -837,6 +837,18 @@
 		"category": "social"
 	},
 	{
+		"name": "Vimium",
+		"url": "https://github.com/iamgideonidoko/vimium-rose-pine",
+		"tags": ["Google Chrome"],
+		"contributors": [
+			{
+				"name": "Gideon Idoko",
+				"url": "https://github.com/iamgideonidoko"
+			}
+		],
+		"category": "browser"
+	},
+	{
 		"name": "Warp",
 		"url": "https://github.com/thanhsonng/rose-pine-warp",
 		"tags": [],
