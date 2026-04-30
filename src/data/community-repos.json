@@ -17,11 +17,13 @@
 		],
 		"has_variants": false
 	},
-		{
+	{
 		"name": "bat",
 		"url": "https://github.com/drluckyspin/rose-pine-bat",
 		"tags": ["terminal", "shell", "bat"],
-		"authors": [{ "name": "drluckyspin", "url": "https://github.com/drluckyspin" }],
+		"authors": [
+			{ "name": "drluckyspin", "url": "https://github.com/drluckyspin" }
+		],
 		"has_variants": false
 	},
 	{
@@ -526,6 +528,15 @@
 		"has_variants": true
 	},
 	{
+		"name": "Vimium",
+		"url": "https://github.com/iamgideonidoko/vimium-rose-pine",
+		"tags": [],
+		"authors": [
+			{ "name": "Gideon Idoko", "url": "https://github.com/iamgideonidoko" }
+		],
+		"has_variants": true
+	},
+	{
 		"name": "Warp",
 		"url": "https://github.com/thanhsonng/rose-pine-warp",
 		"tags": ["app", "terminal-emulator", "terminal", "command", "cli"],
@@ -613,25 +624,37 @@
 		"has_variants": true
 	},
 	{
-
 		"name": "Archive of Our Own",
 		"url": "https://github.com/Wolfbatcat/ao3-rose-pine",
 		"tags": ["community", "ao3"],
-		"authors": [{ "name": "BlackBatCat", "url": "https://github.com/Wolfbatcat" }],
-    "has_variants": true
-  },
-  {
+		"authors": [
+			{ "name": "BlackBatCat", "url": "https://github.com/Wolfbatcat" }
+		],
+		"has_variants": true
+	},
+	{
 		"name": "Starlight",
 		"url": "https://github.com/trueberryless-org/starlight-theme-rose-pine",
 		"tags": ["community"],
-		"authors": [{ "name": "Felix Schneider", "url": "https://github.com/trueberryless" }],
+		"authors": [
+			{ "name": "Felix Schneider", "url": "https://github.com/trueberryless" }
+		],
 		"has_variants": true
 	},
 	{
 		"name": "VS Code Symbols",
 		"url": "https://github.com/ravenothere/Rose-Pine-Symbols",
-		"tags": ["vscode", "visual studio code", "editor", "app", "icons", "file icons"],
-		"authors": [{ "name": "ravenothere", "url": "https://github.com/ravenothere" }],
+		"tags": [
+			"vscode",
+			"visual studio code",
+			"editor",
+			"app",
+			"icons",
+			"file icons"
+		],
+		"authors": [
+			{ "name": "ravenothere", "url": "https://github.com/ravenothere" }
+		],
 		"has_variants": true
 	}
 ]
