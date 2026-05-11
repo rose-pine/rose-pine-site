@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 107,
+    "updatedAt": "2026-05-10T00:40:59Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Visual Studio Code",
     "homepageUrl": "https://marketplace.visualstudio.com/items?itemName=mvllow.rose-pine",
     "name": "vscode",
@@ -16,16 +26,6 @@
     "stargazerCount": 589,
     "updatedAt": "2026-05-09T02:17:58Z",
     "url": "https://github.com/rose-pine/vscode",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 107,
-    "updatedAt": "2026-05-09T00:39:54Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -83,8 +83,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 3008,
-    "updatedAt": "2026-05-07T20:17:30Z",
+    "stargazerCount": 3007,
+    "updatedAt": "2026-05-10T10:44:11Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -172,7 +172,7 @@
       "terminal-emulator"
     ],
     "stargazerCount": 108,
-    "updatedAt": "2026-05-08T20:14:25Z",
+    "updatedAt": "2026-05-10T23:31:57Z",
     "url": "https://github.com/rose-pine/windows-terminal",
     "usesCustomOpenGraphImage": true
   },
@@ -500,8 +500,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1567,
-    "updatedAt": "2026-05-09T11:43:15Z",
+    "stargazerCount": 1566,
+    "updatedAt": "2026-05-10T23:28:50Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
