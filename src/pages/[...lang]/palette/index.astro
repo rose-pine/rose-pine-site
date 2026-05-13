@@ -1,12 +1,16 @@
 ---
-import Page from "../../../layouts/page.astro";
-import IntroSection from "../../../components/intro-section.astro";
+import BadgeIcon from "../../../assets/badge.svg";
 import CopyColorButton from "../../../components/copy-color-button.svelte";
+import IntroSection from "../../../components/intro-section.astro";
 import PaletteColumnActions from "../../../components/palette-column-actions.svelte";
 import PaletteStyleToggle from "../../../components/palette-style-toggle.svelte";
-import BadgeIcon from "../../../assets/badge.svg";
-import { useTranslations, withLangPaths } from "../../../i18n/utilities";
 import palette from "../../../data/palette.json";
+import {
+	useTranslatedPath,
+	useTranslations,
+	withLangPaths,
+} from "../../../i18n/utilities";
+import Page from "../../../layouts/page.astro";
 
 export async function getStaticPaths() {
 	return await withLangPaths();
@@ -14,6 +18,7 @@ export async function getStaticPaths() {
 
 let { lang = "en" } = Astro.params;
 let t = useTranslations(lang);
+let translatePath = useTranslatedPath(lang);
 
 let variants = Object.keys(palette) as (keyof typeof palette)[];
 ---
@@ -91,14 +96,19 @@ let variants = Object.keys(palette) as (keyof typeof palette)[];
 											return (
 												<tr class="bg-surface *:py-(--cell-gutter) even:bg-muted/5">
 													<td align="left" class="pl-(--card-gutter)">
-														<div class="flex items-center gap-2">
-															<div
-																class="size-4 rounded-full border border-muted/20"
-																style={{ background: `#${color.hex}` }}
-															/>
-															<div class="pb-px text-[15px] font-medium capitalize">
-																{color.role}
-															</div>
+														<div class="flex">
+															<a
+																href={translatePath(`/palette/${color.role}`)}
+																class="flex items-center gap-2 rounded-(--card-inner-radius) px-(--cell-offset) py-[calc(var(--cell-offset)/2)] hover:bg-muted/10"
+															>
+																<div
+																	class="size-4 rounded-full border border-muted/20"
+																	style={{ background: `#${color.hex}` }}
+																/>
+																<div class="pb-px text-[15px] font-medium capitalize">
+																	{color.role}
+																</div>
+															</a>
 														</div>
 													</td>
 
