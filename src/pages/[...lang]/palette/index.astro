@@ -1,12 +1,12 @@
 ---
-import Page from "../../layouts/page.astro";
-import IntroSection from "../../components/intro-section.astro";
-import CopyColorButton from "../../components/copy-color-button.svelte";
-import PaletteColumnActions from "../../components/palette-column-actions.svelte";
-import PaletteStyleToggle from "../../components/palette-style-toggle.svelte";
-import BadgeIcon from "../../assets/badge.svg";
-import { useTranslations, withLangPaths } from "../../i18n/utilities";
-import palette from "../../data/palette.json";
+import Page from "../../../layouts/page.astro";
+import IntroSection from "../../../components/intro-section.astro";
+import CopyColorButton from "../../../components/copy-color-button.svelte";
+import PaletteColumnActions from "../../../components/palette-column-actions.svelte";
+import PaletteStyleToggle from "../../../components/palette-style-toggle.svelte";
+import BadgeIcon from "../../../assets/badge.svg";
+import { useTranslations, withLangPaths } from "../../../i18n/utilities";
+import palette from "../../../data/palette.json";
 
 export async function getStaticPaths() {
 	return await withLangPaths();
