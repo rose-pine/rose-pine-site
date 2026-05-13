@@ -52,7 +52,7 @@ let searchGroups = [
 	{
 		heading: t("command.palette"),
 		items: palette.main.map((color) => ({
-			label: color.role,
+			label: color.role.charAt(0).toUpperCase() + color.role.slice(1),
 			href: translatePath(`/palette/${color.role}`),
 			icon: color.role,
 		})),
