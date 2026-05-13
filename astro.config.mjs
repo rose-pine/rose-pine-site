@@ -30,8 +30,11 @@ export default defineConfig({
 	// https://docs.astro.build/en/guides/integrations-guide/netlify/#static-sites-with-the-netlify-adapter
 	adapter: netlify({ imageCDN: false }),
 	redirects: {
-		"/[...lang]/palette/ingredients": "/[...lang]/palette",
-		"/[...lang]/resources": "/[...lang]/create",
-		"/[...lang]/resources/[...slug]": "/[...lang]/create/[...slug]",
+		"/palette/ingredients": "/palette",
+		"/:lang/palette/ingredients": "/:lang/palette",
+		"/resources": "/create",
+		"/:lang/resources": "/:lang/create",
+		"/resources/:slug*": "/create/:slug*",
+		"/:lang/resources/:slug*": "/:lang/create/:slug*",
 	},
 });
