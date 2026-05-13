@@ -11,24 +11,24 @@
 		"update:data": "node scripts/update-data.mjs"
 	},
 	"dependencies": {
-		"@astrojs/netlify": "^7.0.4",
-		"@astrojs/svelte": "8.0.0-beta.2",
-		"@lucide/astro": "^0.562.0",
-		"@lucide/svelte": "^0.562.0",
-		"@tailwindcss/vite": "^4.2.2",
-		"astro": "6.0.8",
-		"bits-ui": "^2.16.3",
+		"@astrojs/netlify": "^7.0.8",
+		"@astrojs/svelte": "8.1.0",
+		"@lucide/astro": "^1.14.0",
+		"@lucide/svelte": "^1.14.0",
+		"@tailwindcss/vite": "^4.3.0",
+		"astro": "6.3.1",
+		"bits-ui": "^2.18.1",
 		"has-match": "^2.0.0",
 		"sharp": "^0.34.5",
-		"svelte": "^5.55.0",
-		"tailwindcss": "^4.2.2"
+		"svelte": "^5.55.5",
+		"tailwindcss": "^4.3.0"
 	},
 	"devDependencies": {
 		"@tailwindcss/typography": "^0.5.19",
-		"prettier": "^3.8.1",
+		"prettier": "^3.8.3",
 		"prettier-plugin-astro": "^0.14.1",
-		"prettier-plugin-svelte": "^3.5.1",
-		"prettier-plugin-tailwindcss": "^0.7.2",
-		"typescript": "^5.9.3"
+		"prettier-plugin-svelte": "^3.5.2",
+		"prettier-plugin-tailwindcss": "^0.8.0",
+		"typescript": "^6.0.3"
 	}
 }
