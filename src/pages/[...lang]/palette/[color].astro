@@ -23,7 +23,9 @@ let { lang = "en", color } = Astro.params;
 let t = useTranslations(lang);
 let translatePath = useTranslatedPath(lang);
 
-let entry = await getEntry("palette", `${lang}/${color}`);
+let entry =
+	(await getEntry("palette", `${lang}/${color}`)) ??
+	(await getEntry("palette", `en/${color}`));
 if (!entry) return Astro.redirect("/404");
 let { Content } = await render(entry);
 
