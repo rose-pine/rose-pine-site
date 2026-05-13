@@ -18,6 +18,16 @@ export const collections = {
 		}),
 	}),
 
+	palette: defineCollection({
+		loader: glob({
+			base: "./src/content/palette",
+			pattern: "**/*.md",
+		}),
+		schema: z.object({
+			description: z.string(),
+		}),
+	}),
+
 	showcase: defineCollection({
 		loader: glob({
 			base: "./src/content/showcase",
