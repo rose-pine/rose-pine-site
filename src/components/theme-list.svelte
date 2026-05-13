@@ -1,9 +1,10 @@
 <script lang="ts">
+	import User from "@lucide/svelte/icons/user";
+	import Users from "@lucide/svelte/icons/users";
 	import hasMatch from "has-match";
 	import { getLangFromUrl, useTranslatedPath } from "../i18n/utilities";
 	import { themeSearch } from "../state.svelte";
-	import User from "@lucide/svelte/icons/user";
-	import Users from "@lucide/svelte/icons/users";
+	import { isValidIconCategory } from "../utilities/icons";
 	import ThemeIcon from "./theme-icon.svelte";
 
 	let { themes }: { themes: Repo[] } = $props();
@@ -32,7 +33,9 @@
 				aria-labelledby={theme.slug}
 				class="group isolate flex items-center gap-3 rounded-xl border border-muted/20 bg-surface px-4 py-3 hover:bg-muted/5"
 			>
-				<ThemeIcon size="md" category={theme.category} />
+				{#if isValidIconCategory(theme.category)}
+					<ThemeIcon size="md" category={theme.category} />
+				{/if}
 				<div class="flex flex-col truncate opacity-90 group-hover:opacity-100">
 					{#snippet contributors(number: number)}
 						<div class="flex items-center gap-1.5">

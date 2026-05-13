@@ -16,10 +16,10 @@
 		useTranslatedPath,
 		useTranslations,
 	} from "../i18n/utilities";
-	import ThemeIcon from "./theme-icon.svelte";
+	import { isValidIconCategory } from "../utilities/icons";
 	import DiscordIcon from "./discord-icon.svelte";
 	import GithubIcon from "./github-icon.svelte";
-	import categories from "../data/categories.json";
+	import ThemeIcon from "./theme-icon.svelte";
 
 	type Group = {
 		heading: string;
@@ -181,7 +181,7 @@
 												<div class="flex size-6 items-center justify-center">
 													<IconComponent size="16" />
 												</div>
-											{:else if categories.includes(icon)}
+											{:else if isValidIconCategory(icon)}
 												<div class="text-subtle hover:text-text">
 													<ThemeIcon size="sm" category={icon} />
 												</div>

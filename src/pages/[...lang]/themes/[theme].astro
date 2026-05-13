@@ -1,5 +1,6 @@
 ---
 import FlowerIcon from "@lucide/astro/icons/flower";
+import ThemeIcon from "../../../components/theme-icon.astro";
 import { getAllRepoSlugs, getRepoBySlug } from "../../../data";
 import {
 	getLangFromUrl,
@@ -8,7 +9,7 @@ import {
 	withLangPaths,
 } from "../../../i18n/utilities";
 import Page from "../../../layouts/page.astro";
-import ThemeIcon from "../../../components/theme-icon.astro";
+import { isValidIconCategory } from "../../../utilities/icons";
 
 export async function getStaticPaths() {
 	const slugs = getAllRepoSlugs();
@@ -50,7 +51,11 @@ let { repo } = Astro.props;
 			<article>
 				<div>
 					<div class="animate-enter mb-8" style="--stagger: 1">
-						<ThemeIcon category={repo.category} size="lg" />
+						{
+							isValidIconCategory(repo.category) && (
+								<ThemeIcon category={repo.category} size="lg" />
+							)
+						}
 					</div>
 					<h1
 						class="animate-enter mb-4 max-w-2xl text-4xl font-bold tracking-tight text-balance sm:text-6xl"
