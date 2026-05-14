@@ -13,56 +13,34 @@ While not strictly necessary, having a local development environment will enable
 ## Setup your development environment
 
 1. Fork and clone the [Rosé Pine website](https://github.com/rose-pine/rose-pine-site).
-2. Install [Node.js](https://nodejs.org) and [pnpm](https://pnpm.io). The below snippet is copied from the Node.js download page and handles installing both Node.js and pnpm:
-
-```bash
-# Download and install nvm:
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
-
-# in lieu of restarting the shell
-\. "$HOME/.nvm/nvm.sh"
-
-# Download and install Node.js:
-nvm install 24
-
-# Verify the Node.js version:
-node -v # Should print "v24.11.0".
-
-# Download and install pnpm:
-corepack enable pnpm
-
-# Verify pnpm version:
-pnpm -v
-```
-
+2. Install [Node.js](https://nodejs.org/en/download) and [pnpm](https://pnpm.io/installation) following their official guides.
 3. Start the dev server via `pnpm dev` for live previewing content.
 
 ## Translate the website
 
-Edit `src/i18n/ui.ts` to include your language:
+Copy the English locale file and rename it to your language code:
 
 ```diff
-  export const languages = {
-    en: "English",
-+   sd: "Sindarin",
+  src/i18n/locales/en.ts
++ src/i18n/locales/sd.ts
+```
+
+Update `displayName` at the top of the file to your language's name, then translate the strings below it:
+
+```diff
+- export const displayName = "English";
++ export const displayName = "Sindarin";
+
+  export default {
+-   "shared.all": "All",
+-   "shared.language": "Language",
++   "shared.all": "Pân",
++   "shared.language": "Lamb",
+    ...
   }
 ```
 
-In the same file, add your translations:
-
-```diff
-  export const ui = {
-    en: {
-      "shared.all": "All",
-      "shared.language": "Language",
-      ...
-    },
-+   sd: {
-+     "shared.all": "Pân",
-+     "shared.language": "Lamb",
-+   },
-  }
-```
+Any missing translations will automatically fall back to English.
 
 ## Translate guides
 
