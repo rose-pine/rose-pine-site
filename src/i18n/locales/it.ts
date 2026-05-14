@@ -1,0 +1,77 @@
+export const displayName = "Italiano";
+
+export default {
+	"shared.all": "Tutti",
+	"shared.language": "Lingua",
+
+	"header.nav_label": "Primaria",
+
+	"footer.nav_label": "Secondaria",
+	"footer.heading.collections": "Collezioni",
+	"footer.collection.photography": "Fotografie",
+	"footer.heading.resources": "Risorse",
+	"footer.resource.create": "Crea un tema",
+	"footer.resource.submit": "Invia il tuo tema",
+	"footer.resource.translate": "Aggiungi una traduzione",
+	"footer.heading.social": "Sociale",
+
+	"nav.home": "Casa",
+	"nav.themes": "Temi",
+	"nav.palette": "Tavolozza",
+	"nav.create": "Crea",
+
+	"command.trigger": "Apre il menu dei comandi",
+	"command.title": "Menu dei comandi",
+	"command.description": "Cerca globale del sito",
+	"command.search_placeholder": "Cerca pagine, temi, e tavolozze...",
+	"command.close": "Chiudi il menu dei comandi",
+	"command.empty_results": "Nessun risultato trovato",
+	"command.feeling_lucky": "Mi sento fortunato",
+	"command.featured_themes": "Temi in evidenza",
+	"command.pages": "Pagine",
+	"command.home": "Casa",
+	"command.themes": "Temi",
+	"command.palette": "Tavolozza",
+	"command.community": "Comunità",
+
+	"home.title": "Qualcosa di bello",
+	"home.description":
+		"Pino naturale, pelliccia sintetica e un po' di vibrazioni soho per il minimalista di classe.",
+	"home.primary_action": "Esplora i temi",
+	"home.feature.colours_and_community.title": "Colori & Comunità",
+	"home.feature.colours_and_community.description":
+		"Rosé Pine è un'elegante palette presente in oltre {{REPOS_COUNT}} delle tue app preferite, grazie ai nostri piacevoli e generosi collaboratori.",
+	"home.feature.passionately_subtle.title": "Appassionatamente discreto",
+	"home.feature.passionately_subtle.description":
+		"Con un'attenzione particolare alla qualità e allo scopo, i nostri colori accuratamente selezionati sono pensati per ispirare, non per sopraffare. Non vediamo l'ora che condividiate le vostre creazioni con il mondo.",
+	"home.feature.inclusive_equal_diverse.title": "Inclusivi, equi, diversi",
+	"home.feature.inclusive_equal_diverse.description":
+		"Ci impegniamo costantemente a offrire un ambiente sicuro e stimolante per tutti. Sei amato e apprezzato.",
+
+	"themes.title": "Temi",
+	"themes.description": "Collezione artigianale di personalizzazione.",
+	"themes.ports": "Porti",
+	"themes.contributors": "Collaboratrici",
+	"themes.search_placeholder": "Cerca temi...",
+	"themes.search_focus_cue": "Premi / per focare",
+
+	"photography.title": "Fotografie",
+	"photography.description":
+		"Se non ti fermi un attimo, potresti perdere una vista perfetta.",
+
+	"palette.title": "Tavolozza",
+	"palette.description": "Colori curati, pensati per ispirare.",
+	"palette.variants": "Varianti",
+	"palette.colours": "Colori",
+
+	"create.title": "Crea",
+	"create.description":
+		"Guide, strumenti e ispirazione per creare temi bellissimi.",
+	"create.also_available_in": "Disponibile anche in:",
+
+	"submit.title": "Invia un tema",
+	"submit.description": "Invia il tuo tema per aggiungerlo a Rosé Pine.",
+	"submit.form.link_label": "Link al repository",
+	"submit.form.category_label": "Categoria",
+	"submit.form.primary_action": "Invia",
+} as const;
