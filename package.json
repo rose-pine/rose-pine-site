@@ -5,7 +5,7 @@
 	"scripts": {
 		"dev": "astro dev",
 		"build": "astro build",
-		"preview": "astro preview",
+		"preview": "netlify serve",
 		"astro": "astro",
 		"format": "pnpm exec prettier --write .",
 		"update:data": "node scripts/update-data.mjs"
