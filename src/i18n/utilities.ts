@@ -1,7 +1,7 @@
 import { type GetStaticPathsItem } from "astro";
+import type { Locale } from "./locale";
 import { defaultLocale, languages, showDefaultLocale, ui } from "./ui";
 
-export type Locale = keyof typeof languages;
 export type LocaleParam = Locale | undefined;
 type LocalePath<T extends GetStaticPathsItem> = Omit<T, "params"> & {
 	params: T["params"] & { locale: LocaleParam };

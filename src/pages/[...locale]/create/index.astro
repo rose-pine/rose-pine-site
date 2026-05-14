@@ -3,11 +3,11 @@ import { getCollection, type CollectionEntry } from "astro:content";
 import ContentCard from "../../../components/content-card.astro";
 import IntroSection from "../../../components/intro-section.astro";
 import ShowcaseCard from "../../../components/showcase-card.astro";
+import type { Locale } from "../../../i18n/locale";
 import { defaultLocale, languages, showDefaultLocale } from "../../../i18n/ui";
 import {
 	useTranslatedPath,
 	useTranslations,
-	type Locale,
 	type LocaleParam,
 } from "../../../i18n/utilities";
 import Page from "../../../layouts/page.astro";
@@ -42,10 +42,10 @@ export async function getStaticPaths() {
 		);
 	};
 
-	const localeCodes: LocaleParam[] = Object.keys(languages) as Locale[];
-	if (!showDefaultLocale) localeCodes.push(undefined);
+	const locales: LocaleParam[] = Object.keys(languages) as Locale[];
+	if (!showDefaultLocale) locales.push(undefined);
 
-	return localeCodes.map((locale) => ({
+	return locales.map((locale) => ({
 		params: { locale },
 		props: { pages: buildPages(locale ?? defaultLocale), showcase },
 	}));
@@ -58,11 +58,13 @@ const t = useTranslations(resolvedLocale);
 const translatePath = useTranslatedPath(resolvedLocale);
 
 // pass the guide's own locale so english fallbacks link correctly
-const guideHref = (id: string) =>
-	translatePath(
-		`/create/${id.split("/").slice(1).join("/")}`,
-		id.split("/")[0],
+const guideHref = (id: string) => {
+	const parts = id.split("/");
+	return translatePath(
+		`/create/${parts.slice(1).join("/")}`,
+		parts[0] as Locale,
 	);
+};
 ---
 
 <Page title={t("create.title")} description={t("create.description")}>

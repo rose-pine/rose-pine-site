@@ -4,8 +4,31 @@ import netlify from "@astrojs/netlify";
 import svelte from "@astrojs/svelte";
 import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "astro/config";
+import { readdirSync, writeFileSync } from "fs";
 
-/* https://docs.netlify.com/configure-builds/environment-variables/#read-only-variables */
+/**
+ * Vite plugin that generates a strict Locale type from the locales directory,
+ * so adding a new locale file is all that's needed.
+ */
+function localeTypes() {
+	function generate() {
+		const dir = new URL("src/i18n/locales/", import.meta.url);
+		const type = readdirSync(dir)
+			.filter((f) => f.endsWith(".ts")) // find .ts files
+			.map((f) => `"${f.slice(0, -3)}"`) // strip file extension
+			.join(" | "); // join with union delimiter
+		writeFileSync(
+			new URL("src/i18n/locale.d.ts", import.meta.url),
+			`// Auto-generated — do not edit\nexport type Locale = ${type};\n`,
+		);
+	}
+	return {
+		name: "locale-types",
+		buildStart: generate,
+	};
+}
+
+/** https://docs.netlify.com/configure-builds/environment-variables/#read-only-variables */
 const NETLIFY_PREVIEW_SITE =
 	process.env.CONTEXT !== "production" && process.env.DEPLOY_PRIME_URL;
 
@@ -19,7 +42,7 @@ export default defineConfig({
 		responsiveStyles: true,
 	},
 	vite: {
-		plugins: [tailwindcss()],
+		plugins: [tailwindcss(), localeTypes()],
 	},
 	markdown: {
 		shikiConfig: {
