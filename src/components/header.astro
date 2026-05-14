@@ -4,15 +4,15 @@ import BadgeIcon from "../assets/badge.svg";
 import { getFeaturedRepos, getSortedRepos } from "../data";
 import palette from "../data/palette.json";
 import {
-	getLangFromUrl,
+	getLocaleFromUrl,
 	useTranslatedPath,
 	useTranslations,
 } from "../i18n/utilities";
 import CommandMenu from "./command-menu.svelte";
 
-let lang = getLangFromUrl(Astro.url);
-let t = useTranslations(lang);
-let translatePath = useTranslatedPath(lang);
+let locale = getLocaleFromUrl(Astro.url);
+let t = useTranslations(locale);
+let translatePath = useTranslatedPath(locale);
 
 let menuItems = [
 	{ name: t("nav.themes"), href: translatePath("/themes") },

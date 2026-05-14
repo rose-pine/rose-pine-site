@@ -1,32 +1,34 @@
 import { type GetStaticPathsItem } from "astro";
-import { defaultLang, languages, showDefaultLang, ui } from "./ui";
+import { defaultLocale, languages, showDefaultLocale, ui } from "./ui";
 
-export type Lang = keyof typeof languages | undefined;
-type LangPath<T extends GetStaticPathsItem> = Omit<T, "params"> & {
-	params: T["params"] & { lang: Lang };
+export type Locale = keyof typeof languages;
+export type LocaleParam = Locale | undefined;
+type LocalePath<T extends GetStaticPathsItem> = Omit<T, "params"> & {
+	params: T["params"] & { locale: LocaleParam };
 };
 type Data = { [key: string]: any };
 
 /**
- * Generates localized static paths by combining entries with each language
- * variant. If no entries are provided, returns one path per language.
+ * Generates localized static paths by combining entries with each locale
+ * variant. If no entries are provided, returns one path per locale.
  */
-export async function withLangPaths<T extends GetStaticPathsItem>(
+export async function withLocalePaths<T extends GetStaticPathsItem>(
 	entries: T[] = [],
-): Promise<LangPath<T>[]> {
-	const langVariants = Object.keys(languages).map((lang) => ({
-		lang: lang as Lang,
+): Promise<LocalePath<T>[]> {
+	const locales = Object.keys(languages);
+	const variants: { locale: LocaleParam }[] = locales.map((locale) => ({
+		locale: locale as Locale,
 	}));
 
-	if (!showDefaultLang) {
-		langVariants.push({ lang: undefined });
+	if (!showDefaultLocale) {
+		variants.push({ locale: undefined });
 	}
 
 	if (entries.length === 0) {
-		return langVariants.map((lang) => ({ params: lang }) as LangPath<T>);
+		return variants.map((variant) => ({ params: variant }) as LocalePath<T>);
 	}
 
-	const localizedPaths = langVariants.flatMap((variant) =>
+	return variants.flatMap((variant) =>
 		entries.map((entry) => ({
 			...entry,
 			params: {
@@ -35,29 +37,27 @@ export async function withLangPaths<T extends GetStaticPathsItem>(
 			},
 		})),
 	);
-
-	return localizedPaths;
 }
 
-export function getUrlWithoutLang(url: URL = new URL(window.location.href)) {
-	let [, lang] = url.pathname.split("/");
-	if (lang in languages) {
-		return url.pathname.replace(`/${lang}`, "");
+export function getUrlWithoutLocale(url: URL = new URL(window.location.href)) {
+	let [, locale] = url.pathname.split("/");
+	if (locale in languages) {
+		return url.pathname.replace(`/${locale}`, "");
 	}
 	return url.pathname;
 }
 
-export function getLangFromUrl(url: URL = new URL(window.location.href)) {
-	let [, lang] = url.pathname.split("/");
-	if (lang in languages) {
-		return lang as keyof typeof languages;
+export function getLocaleFromUrl(url: URL = new URL(window.location.href)) {
+	let [, locale] = url.pathname.split("/");
+	if (locale in languages) {
+		return locale as Locale;
 	}
-	return defaultLang;
+	return defaultLocale;
 }
 
-export function useTranslations(lang: keyof typeof ui) {
-	return function t(key: keyof (typeof ui)[typeof defaultLang], data?: Data) {
-		const value = ui[lang][key] ?? ui[defaultLang][key] ?? "";
+export function useTranslations(locale: Locale) {
+	return function t(key: keyof (typeof ui)[typeof defaultLocale], data?: Data) {
+		const value = ui[locale][key] ?? ui[defaultLocale][key] ?? "";
 		if (!data) {
 			return value;
 		}
@@ -68,10 +68,10 @@ export function useTranslations(lang: keyof typeof ui) {
 	};
 }
 
-export function useTranslatedPath(lang: keyof typeof ui) {
-	return function translatePath(path: string, currentLang: string = lang) {
-		return !showDefaultLang && currentLang === defaultLang
+export function useTranslatedPath(locale: Locale) {
+	return function translatePath(path: string, currentLocale = locale) {
+		return !showDefaultLocale && currentLocale === defaultLocale
 			? path
-			: `/${currentLang}${path}`;
+			: `/${currentLocale}${path}`;
 	};
 }

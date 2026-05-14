@@ -3,7 +3,7 @@ import { getCollection, getEntry, render } from "astro:content";
 import {
 	useTranslatedPath,
 	useTranslations,
-	withLangPaths,
+	withLocalePaths,
 } from "../../../i18n/utilities";
 import Page from "../../../layouts/page.astro";
 import palette from "../../../data/palette.json";
@@ -16,15 +16,15 @@ export async function getStaticPaths() {
 		params: { color: id.replace("en/", "") },
 	}));
 
-	return await withLangPaths(entries);
+	return await withLocalePaths(entries);
 }
 
-let { lang = "en", color } = Astro.params;
-let t = useTranslations(lang);
-let translatePath = useTranslatedPath(lang);
+let { locale = "en", color } = Astro.params;
+let t = useTranslations(locale);
+let translatePath = useTranslatedPath(locale);
 
 let entry =
-	(await getEntry("palette", `${lang}/${color}`)) ??
+	(await getEntry("palette", `${locale}/${color}`)) ??
 	(await getEntry("palette", `en/${color}`));
 if (!entry) return Astro.redirect("/404");
 let { Content } = await render(entry);

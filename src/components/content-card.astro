@@ -1,7 +1,7 @@
 ---
 import { Image } from "astro:assets";
 import { languages } from "../i18n/ui";
-import { type Lang } from "../i18n/utilities";
+import { type Locale } from "../i18n/utilities";
 
 export type Props = {
 	id: string;
@@ -12,10 +12,10 @@ export type Props = {
 		src: string | ImageMetadata;
 		alt: string;
 	};
-	lang?: Lang;
+	locale?: Locale;
 };
 
-const { id, href, title, description, image, lang } = Astro.props;
+const { id, href, title, description, image, locale } = Astro.props;
 ---
 
 <article>
@@ -48,13 +48,13 @@ const { id, href, title, description, image, lang } = Astro.props;
 			</div>
 			{href.startsWith("http") && <div class="link">View project &nearr;</div>}
 			{
-				lang && (
+				locale && (
 					<div class="mt-2 flex items-center gap-3">
 						<div
-							title={languages[lang]}
+							title={languages[locale]}
 							class="rounded-sm bg-text px-1 py-px font-mono text-[10px] font-semibold text-surface uppercase"
 						>
-							{lang}
+							{locale}
 						</div>
 					</div>
 				)

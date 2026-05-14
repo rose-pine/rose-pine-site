@@ -8,17 +8,17 @@ import palette from "../../../data/palette.json";
 import {
 	useTranslatedPath,
 	useTranslations,
-	withLangPaths,
+	withLocalePaths,
 } from "../../../i18n/utilities";
 import Page from "../../../layouts/page.astro";
 
 export async function getStaticPaths() {
-	return await withLangPaths();
+	return await withLocalePaths();
 }
 
-let { lang = "en" } = Astro.params;
-let t = useTranslations(lang);
-let translatePath = useTranslatedPath(lang);
+let { locale = "en" } = Astro.params;
+let t = useTranslations(locale);
+let translatePath = useTranslatedPath(locale);
 
 let variants = Object.keys(palette) as (keyof typeof palette)[];
 ---

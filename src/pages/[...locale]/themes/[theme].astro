@@ -3,10 +3,10 @@ import FlowerIcon from "@lucide/astro/icons/flower";
 import ThemeIcon from "../../../components/theme-icon.astro";
 import { getAllRepoSlugs, getRepoBySlug } from "../../../data";
 import {
-	getLangFromUrl,
+	getLocaleFromUrl,
 	useTranslatedPath,
 	useTranslations,
-	withLangPaths,
+	withLocalePaths,
 } from "../../../i18n/utilities";
 import Page from "../../../layouts/page.astro";
 import { isValidIconCategory } from "../../../utilities/icons";
@@ -24,12 +24,12 @@ export async function getStaticPaths() {
 		};
 	});
 
-	return await withLangPaths(entries);
+	return await withLocalePaths(entries);
 }
 
-let lang = getLangFromUrl(Astro.url);
-let t = useTranslations(lang);
-let translatePath = useTranslatedPath(lang);
+let locale = getLocaleFromUrl(Astro.url);
+let t = useTranslations(locale);
+let translatePath = useTranslatedPath(locale);
 
 let { repo } = Astro.props;
 ---
@@ -159,7 +159,7 @@ let { repo } = Astro.props;
 								class="text-sm font-medium text-subtle italic"
 							>
 								Updated on{" "}
-								{new Date(repo.updatedAt).toLocaleDateString([lang, "en"], {
+								{new Date(repo.updatedAt).toLocaleDateString([locale, "en"], {
 									year: "numeric",
 									month: "long",
 									day: "numeric",

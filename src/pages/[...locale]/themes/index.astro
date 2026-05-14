@@ -4,15 +4,15 @@ import ThemeCategories from "../../../components/theme-categories.svelte";
 import ThemeList from "../../../components/theme-list.svelte";
 import ThemeSearch from "../../../components/theme-search.svelte";
 import { getContributorCount, getSortedRepos } from "../../../data";
-import { useTranslations, withLangPaths } from "../../../i18n/utilities";
+import { useTranslations, withLocalePaths } from "../../../i18n/utilities";
 import Page from "../../../layouts/page.astro";
 
 export async function getStaticPaths() {
-	return await withLangPaths();
+	return await withLocalePaths();
 }
 
-let { lang = "en" } = Astro.params;
-let t = useTranslations(lang);
+let { locale = "en" } = Astro.params;
+let t = useTranslations(locale);
 
 let sortedRepos = getSortedRepos();
 

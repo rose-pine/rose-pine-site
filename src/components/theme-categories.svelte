@@ -1,12 +1,12 @@
 <script lang="ts">
 	import { Label, RadioGroup } from "bits-ui";
 	import categories from "../data/categories.json";
-	import { getLangFromUrl, useTranslations } from "../i18n/utilities";
+	import { getLocaleFromUrl, useTranslations } from "../i18n/utilities";
 	import { themeSearch } from "../state.svelte";
 	import { getSvelteIconComponent } from "../utilities/icons";
 
-	let lang = getLangFromUrl();
-	let t = useTranslations(lang);
+	let locale = getLocaleFromUrl();
+	let t = useTranslations(locale);
 </script>
 
 {#snippet radio(category = "")}

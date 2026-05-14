@@ -2,7 +2,7 @@
 	import User from "@lucide/svelte/icons/user";
 	import Users from "@lucide/svelte/icons/users";
 	import hasMatch from "has-match";
-	import { getLangFromUrl, useTranslatedPath } from "../i18n/utilities";
+	import { getLocaleFromUrl, useTranslatedPath } from "../i18n/utilities";
 	import { themeSearch } from "../state.svelte";
 	import { isValidIconCategory } from "../utilities/icons";
 	import ThemeIcon from "./theme-icon.svelte";
@@ -21,8 +21,8 @@
 		}),
 	);
 
-	let lang = getLangFromUrl();
-	let translatePath = useTranslatedPath(lang);
+	let locale = getLocaleFromUrl();
+	let translatePath = useTranslatedPath(locale);
 </script>
 
 <section class="grid gap-3 md:grid-cols-2 lg:grid-cols-3">

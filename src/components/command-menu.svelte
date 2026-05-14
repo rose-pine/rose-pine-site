@@ -12,7 +12,7 @@
 	import { Command, Dialog } from "bits-ui";
 	import { getRandomRepo } from "../data";
 	import {
-		getLangFromUrl,
+		getLocaleFromUrl,
 		useTranslatedPath,
 		useTranslations,
 	} from "../i18n/utilities";
@@ -42,9 +42,9 @@
 	let isSearching = $derived(search.length > 0);
 	let groups = $derived(isSearching ? searchGroups : defaultGroups);
 
-	let lang = getLangFromUrl();
-	let t = useTranslations(lang);
-	let translatePath = useTranslatedPath(lang);
+	let locale = getLocaleFromUrl();
+	let t = useTranslations(locale);
+	let translatePath = useTranslatedPath(locale);
 
 	let iconMap = {
 		"book-text": BookTextIcon,

@@ -1,10 +1,10 @@
 <script lang="ts">
 	import { themeSearch } from "../state.svelte";
-	import { getLangFromUrl } from "../i18n/utilities";
+	import { getLocaleFromUrl } from "../i18n/utilities";
 	import { useTranslations } from "../i18n/utilities";
 
-	let lang = getLangFromUrl();
-	let t = useTranslations(lang);
+	let locale = getLocaleFromUrl();
+	let t = useTranslations(locale);
 
 	let searchInput: HTMLInputElement;
 

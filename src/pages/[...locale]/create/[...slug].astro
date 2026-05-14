@@ -5,7 +5,7 @@ import { languages } from "../../../i18n/ui";
 import {
 	useTranslatedPath,
 	useTranslations,
-	type Lang,
+	type Locale,
 } from "../../../i18n/utilities";
 import Page from "../../../layouts/page.astro";
 
@@ -15,10 +15,10 @@ export async function getStaticPaths() {
 	});
 
 	return pages.map((page) => {
-		const [pageLang, ...slug] = page.id.split("/");
+		const [locale, ...slug] = page.id.split("/");
 		return {
 			params: {
-				lang: pageLang === "en" ? undefined : (pageLang as Lang),
+				locale: locale === "en" ? undefined : (locale as Locale),
 				slug: slug.join("/") || undefined,
 			},
 			props: { page },
@@ -26,9 +26,9 @@ export async function getStaticPaths() {
 	});
 }
 
-const { lang = "en" } = Astro.params;
-let t = useTranslations(lang);
-let translatePath = useTranslatedPath(lang);
+const { locale = "en" } = Astro.params;
+let t = useTranslations(locale);
+let translatePath = useTranslatedPath(locale);
 
 const { page } = Astro.props;
 const author = await getEntry(page.data.author);
@@ -38,19 +38,16 @@ const slug = page.id.split("/").slice(1).join("/");
 const allPages = await getCollection("guides");
 const availableLanguages = Object.entries(languages)
 	.filter(
-		([langCode]) =>
-			langCode !== lang &&
-			allPages.some((page) => page.id === `${langCode}/${slug}`),
+		([code]) =>
+			code !== locale && allPages.some((page) => page.id === `${code}/${slug}`),
 	)
-	.map(([langCode, langName]) => ({
-		name: langName,
-		url: useTranslatedPath(langCode as keyof typeof languages)(
-			`/create/${slug}`,
-		),
+	.map(([code, name]) => ({
+		name,
+		url: useTranslatedPath(code)(`/create/${slug}`),
 	}));
 
 const publishedAt = new Date(page.data.publishedAt).toLocaleDateString(
-	[lang, "en"],
+	[locale, "en"],
 	{
 		year: "numeric",
 		month: "long",
@@ -59,7 +56,7 @@ const publishedAt = new Date(page.data.publishedAt).toLocaleDateString(
 );
 
 const updatedAt = new Date(page.data.updatedAt).toLocaleDateString(
-	[lang, "en"],
+	[locale, "en"],
 	{
 		year: "numeric",
 		month: "long",

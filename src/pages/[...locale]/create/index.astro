@@ -3,11 +3,12 @@ import { getCollection, type CollectionEntry } from "astro:content";
 import ContentCard from "../../../components/content-card.astro";
 import IntroSection from "../../../components/intro-section.astro";
 import ShowcaseCard from "../../../components/showcase-card.astro";
-import { defaultLang, languages, showDefaultLang } from "../../../i18n/ui";
+import { defaultLocale, languages, showDefaultLocale } from "../../../i18n/ui";
 import {
 	useTranslatedPath,
 	useTranslations,
-	type Lang,
+	type Locale,
+	type LocaleParam,
 } from "../../../i18n/utilities";
 import Page from "../../../layouts/page.astro";
 
@@ -15,48 +16,48 @@ export async function getStaticPaths() {
 	const guides = await getCollection("guides");
 	const showcase = await getCollection("showcase");
 
-	const buildPages = (lang: NonNullable<Lang>): CollectionEntry<"guides">[] => {
-		const guidesInLang = guides.filter(
+	const buildPages = (locale: Locale): CollectionEntry<"guides">[] => {
+		const guidesInLocale = guides.filter(
 			({ id, data }) =>
-				id.startsWith(`${lang}/`) && (!import.meta.env.PROD || !data.draft),
+				id.startsWith(`${locale}/`) && (!import.meta.env.PROD || !data.draft),
 		);
 
 		const existingSlugs = new Set(
-			guidesInLang.map((g) => g.id.split("/").slice(1).join("/")),
+			guidesInLocale.map((g) => g.id.split("/").slice(1).join("/")),
 		);
 
 		// fill in guides not yet translated with english versions
 		const englishFallbacks =
-			lang !== defaultLang
+			locale !== defaultLocale
 				? guides.filter(
 						({ id, data }) =>
-							id.startsWith(`${defaultLang}/`) &&
+							id.startsWith(`${defaultLocale}/`) &&
 							(!import.meta.env.PROD || !data.draft) &&
 							!existingSlugs.has(id.split("/").slice(1).join("/")),
 					)
 				: [];
 
-		return [...guidesInLang, ...englishFallbacks].sort(
+		return [...guidesInLocale, ...englishFallbacks].sort(
 			(a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf(),
 		);
 	};
 
-	const langs: Lang[] = Object.keys(languages) as NonNullable<Lang>[];
-	if (!showDefaultLang) langs.push(undefined);
+	const localeCodes: LocaleParam[] = Object.keys(languages) as Locale[];
+	if (!showDefaultLocale) localeCodes.push(undefined);
 
-	return langs.map((lang) => ({
-		params: { lang },
-		props: { pages: buildPages(lang ?? defaultLang), showcase },
+	return localeCodes.map((locale) => ({
+		params: { locale },
+		props: { pages: buildPages(locale ?? defaultLocale), showcase },
 	}));
 }
 
-const { lang = defaultLang } = Astro.params as { lang: Lang };
+const { locale = defaultLocale } = Astro.params as { locale: LocaleParam };
 const { pages, showcase } = Astro.props;
-const resolvedLang = lang ?? defaultLang;
-const t = useTranslations(resolvedLang);
-const translatePath = useTranslatedPath(resolvedLang);
+const resolvedLocale = locale ?? defaultLocale;
+const t = useTranslations(resolvedLocale);
+const translatePath = useTranslatedPath(resolvedLocale);
 
-// pass the guide's own lang so english fallbacks link correctly
+// pass the guide's own locale so english fallbacks link correctly
 const guideHref = (id: string) =>
 	translatePath(
 		`/create/${id.split("/").slice(1).join("/")}`,
@@ -80,7 +81,7 @@ const guideHref = (id: string) =>
 						href={guideHref(page.id)}
 						title={page.data.title}
 						description={page.data.description}
-						lang={page.id.split("/")[0] as Lang}
+						locale={page.id.split("/")[0] as Locale}
 					/>
 				))
 			}

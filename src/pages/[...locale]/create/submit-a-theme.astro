@@ -1,15 +1,15 @@
 ---
 import IntroSection from "../../../components/intro-section.astro";
-import { useTranslations, withLangPaths } from "../../../i18n/utilities";
+import { useTranslations, withLocalePaths } from "../../../i18n/utilities";
 import Page from "../../../layouts/page.astro";
 import categories from "../../../data/categories.json";
 
 export async function getStaticPaths() {
-	return await withLangPaths();
+	return await withLocalePaths();
 }
 
-let { lang = "en" } = Astro.params;
-let t = useTranslations(lang);
+let { locale = "en" } = Astro.params;
+let t = useTranslations(locale);
 ---
 
 <Page title={t("submit.title")} description={t("submit.description")}>
