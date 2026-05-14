@@ -58,9 +58,9 @@ let variants = Object.keys(palette) as (keyof typeof palette)[];
 										<th class="pl-(--col-gap) text-right text-sm font-semibold">
 											<div class="flex w-full items-center justify-end">
 												<PaletteColumnActions
+													client:only="svelte"
 													format="hex"
 													variant={variant}
-													client:only="svelte"
 												>
 													Hex
 												</PaletteColumnActions>
@@ -69,9 +69,9 @@ let variants = Object.keys(palette) as (keyof typeof palette)[];
 										<th class="pl-(--col-gap) text-right text-sm font-semibold">
 											<div class="flex w-full items-center justify-end">
 												<PaletteColumnActions
+													client:only="svelte"
 													format="hsl"
 													variant={variant}
-													client:only="svelte"
 												>
 													HSL
 												</PaletteColumnActions>
@@ -80,9 +80,9 @@ let variants = Object.keys(palette) as (keyof typeof palette)[];
 										<th class="pl-(--col-gap) text-right text-sm font-semibold">
 											<div class="flex w-full items-center justify-end">
 												<PaletteColumnActions
+													client:only="svelte"
 													format="rgb"
 													variant={variant}
-													client:only="svelte"
 												>
 													RGB
 												</PaletteColumnActions>

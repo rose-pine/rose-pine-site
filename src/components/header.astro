@@ -100,7 +100,7 @@ let defaultGroups = [
 	</a>
 
 	<div class="flex flex-1 items-center justify-end">
-		<CommandMenu {defaultGroups} {searchGroups} client:only="svelte" />
+		<CommandMenu client:only="svelte" {defaultGroups} {searchGroups} />
 	</div>
 
 	<div class="z-50 h-7 w-px bg-muted/20 md:-mr-(--nav-item-px)"></div>
