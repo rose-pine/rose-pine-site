@@ -57,13 +57,14 @@ export function getLangFromUrl(url: URL = new URL(window.location.href)) {
 
 export function useTranslations(lang: keyof typeof ui) {
 	return function t(key: keyof (typeof ui)[typeof defaultLang], data?: Data) {
-		let result: string = ui[lang][key] ?? ui[defaultLang][key];
-		if (data) {
-			Object.entries(data).forEach(([k, v]) => {
-				result = result.replaceAll(`{{${k}}}`, v);
-			});
+		const value = ui[lang][key] ?? ui[defaultLang][key] ?? "";
+		if (!data) {
+			return value;
 		}
-		return result;
+		return Object.entries(data).reduce(
+			(result, [k, v]) => result.replaceAll(`{{${k}}}`, v),
+			value,
+		);
 	};
 }
 
