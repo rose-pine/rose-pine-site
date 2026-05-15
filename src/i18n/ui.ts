@@ -25,7 +25,7 @@ export const languages = Object.fromEntries(
 	{ name: string; dir: "ltr" | "rtl"; translations: Partial<Translations> }
 >;
 
-export const defaultLocale = "en";
+export const defaultLocale = "en" as const;
 export const showDefaultLocale = false;
 
 if (!languages[defaultLocale]) {
