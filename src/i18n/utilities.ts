@@ -11,7 +11,6 @@ export type LocaleParam = Locale | undefined;
 type LocalePath<T extends GetStaticPathsItem> = Omit<T, "params"> & {
 	params: T["params"] & { locale: LocaleParam };
 };
-type Data = { [key: string]: any };
 
 /**
  * Generates localized static paths by combining entries with each locale
@@ -62,7 +61,7 @@ export function getLocaleFromUrl(url: URL = new URL(window.location.href)) {
 }
 
 export function useTranslations(locale: Locale) {
-	return function t(key: keyof Translations, data?: Data) {
+	return function t(key: keyof Translations, data?: Record<string, string>) {
 		const value =
 			languages[locale].translations[key] ??
 			languages[defaultLocale].translations[key] ??
