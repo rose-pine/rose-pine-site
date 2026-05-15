@@ -80,7 +80,7 @@
 					copyToClipboard(syntax.value);
 				}}
 				aria-label={`Copy ${variant} palette as ${syntax.label}`}
-				class="flex cursor-pointer items-center gap-2 rounded-(--card-inner-radius) border tonal-subtle py-1.5 pr-3 pl-2.5 font-mono text-sm font-medium transition hover:tonal-gold"
+				class="flex cursor-pointer items-center gap-2 rounded-(--card-inner-radius) border tonal-subtle py-1.5 ps-2.5 pe-3 font-mono text-sm font-medium transition hover:tonal-gold"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -109,7 +109,7 @@
 		<span>{@render children()}</span>
 		<div
 			class={[
-				"flex items-center gap-0.5 rounded-md border py-1 pr-1 pl-1.5",
+				"flex items-center gap-0.5 rounded-md border py-1 ps-1.5 pe-1",
 				copied
 					? "tonal-gold"
 					: "tonal-muted transition group-hover:tonal-pressed-muted",

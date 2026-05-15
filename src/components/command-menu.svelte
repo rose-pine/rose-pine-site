@@ -120,7 +120,7 @@
 				<div
 					class="flex items-center gap-3 border-t border-muted/10 bg-surface supports-backdrop-filter:bg-surface/95 supports-backdrop-filter:backdrop-blur-sm md:border-t-0 md:border-b"
 				>
-					<label for="global-search" class="pl-(--dialog-gutter) text-subtle">
+					<label for="global-search" class="ps-(--dialog-gutter) text-subtle">
 						<SearchIcon size="20" />
 					</label>
 					<Command.Input
@@ -132,7 +132,7 @@
 					<button
 						aria-label={t("command.close")}
 						onclick={() => (open = false)}
-						class="mr-(--dialog-gutter-half) flex size-(--close-size) shrink-0 items-center justify-center rounded-(--dialog-inner-radius) text-subtle transition hover:bg-muted/10 hover:text-text"
+						class="me-(--dialog-gutter-half) flex size-(--close-size) shrink-0 items-center justify-center rounded-(--dialog-inner-radius) text-subtle transition hover:bg-muted/10 hover:text-text"
 					>
 						<XIcon size="24" strokeWidth="1.5" />
 					</button>
@@ -145,7 +145,7 @@
 						<Command.Empty class="flex justify-center p-(--dialog-gutter-half)">
 							<a
 								href={translatePath(`/themes/${getRandomRepo().slug}`)}
-								class="group/cta flex h-8 shrink-0 items-center gap-2 rounded-lg border border-text pr-4 pl-3 font-serif italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
+								class="group/cta flex h-8 shrink-0 items-center gap-2 rounded-lg border border-text ps-3 pe-4 font-serif italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
 							>
 								<Dice3Icon
 									size="16"
@@ -201,7 +201,7 @@
 											</div>
 											<ChevronRightIcon
 												size="18"
-												class="text-muted group-data-selected:text-text"
+												class="text-muted group-data-selected:text-text rtl:rotate-180"
 											/>
 										</Command.LinkItem>
 									{/each}

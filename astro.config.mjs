@@ -18,7 +18,7 @@ function localeTypes() {
 			.map((f) => `"${f.slice(0, -3)}"`) // strip file extension
 			.join(" | "); // join with union delimiter
 		writeFileSync(
-			new URL("src/i18n/locale.d.ts", import.meta.url),
+			new URL("src/i18n/locale.gen.ts", import.meta.url),
 			`// Auto-generated — do not edit\nexport type Locale = ${type};\n`,
 		);
 	}

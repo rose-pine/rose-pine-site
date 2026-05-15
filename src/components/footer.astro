@@ -92,13 +92,13 @@ let socialItems = [
 				{t("shared.language")}
 			</li>
 			{
-				Object.entries(languages).map(([locale, label]) => (
+				Object.entries(languages).map(([locale, { name }]) => (
 					<li>
 						<a
 							href={translatePath(getUrlWithoutLocale(Astro.url), locale)}
 							class="link"
 						>
-							{label}
+							{name}
 						</a>
 					</li>
 				))

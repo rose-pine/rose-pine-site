@@ -23,7 +23,7 @@ let searchGroups = [
 	{
 		heading: t("command.pages"),
 		items: [
-			{ label: t("command.home"), href: translatePath("/"), icon: "house" },
+			{ label: t("nav.home"), href: translatePath("/"), icon: "house" },
 			{
 				label: t("nav.themes"),
 				href: translatePath("/themes"),
@@ -42,7 +42,7 @@ let searchGroups = [
 		],
 	},
 	{
-		heading: t("command.themes"),
+		heading: t("nav.themes"),
 		items: getSortedRepos().map((repo) => ({
 			label: repo.name,
 			href: translatePath(`/themes/${repo.slug}`),
@@ -50,7 +50,7 @@ let searchGroups = [
 		})),
 	},
 	{
-		heading: t("command.palette"),
+		heading: t("nav.palette"),
 		items: palette.main.map((color) => ({
 			label: color.role.charAt(0).toUpperCase() + color.role.slice(1),
 			href: translatePath(`/palette/${color.role}`),
@@ -94,7 +94,7 @@ let defaultGroups = [
 		class="z-50 flex shrink-0 items-center gap-3 rounded-lg"
 	>
 		<BadgeIcon class="size-(--badge-size) shrink-0" />
-		<span class="pr-1 font-serif text-xl font-medium tracking-tight italic"
+		<span class="pe-1 font-serif text-xl font-medium tracking-tight italic"
 			>Rosé Pine</span
 		>
 	</a>
@@ -103,7 +103,7 @@ let defaultGroups = [
 		<CommandMenu client:only="svelte" {defaultGroups} {searchGroups} />
 	</div>
 
-	<div class="z-50 h-7 w-px bg-muted/20 md:-mr-(--nav-item-px)"></div>
+	<div class="z-50 h-7 w-px bg-muted/20 md:-me-(--nav-item-px)"></div>
 
 	<nav aria-label={t("header.nav_label")} class="hidden md:block">
 		<ul class="flex items-center gap-1.5">
@@ -119,10 +119,10 @@ let defaultGroups = [
 					</li>
 				))
 			}
-			<li class="pl-3">
+			<li class="ps-3">
 				<a
 					href={translatePath("/create")}
-					class="group/cta flex h-8 shrink-0 items-center gap-2 rounded-lg border border-text pr-4 pl-3 font-serif italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
+					class="group/cta flex h-8 shrink-0 items-center gap-2 rounded-lg border border-text ps-3 pe-4 font-serif italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
 				>
 					<SparklesIcon
 						size="16"
@@ -176,7 +176,7 @@ let defaultGroups = [
 							<a
 								aria-label={item.name}
 								href={item.href}
-								class="flex h-14 w-full items-center rounded-(--card-inner-radius) text-xl font-semibold transition-[background-color,padding] hover:bg-muted/10 hover:pl-page-gutter-half"
+								class="flex h-14 w-full items-center rounded-(--card-inner-radius) text-xl font-semibold transition-[background-color,padding] hover:bg-muted/10 hover:ps-page-gutter-half"
 							>
 								{item.name}
 							</a>
@@ -187,7 +187,7 @@ let defaultGroups = [
 					<a
 						aria-label={t("nav.create")}
 						href={translatePath("/create")}
-						class="group/cta flex h-14 shrink-0 items-center justify-center gap-4 rounded-(--card-inner-radius) border border-text pr-5 pl-4 font-serif text-xl italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
+						class="group/cta flex h-14 shrink-0 items-center justify-center gap-4 rounded-(--card-inner-radius) border border-text ps-4 pe-5 font-serif text-xl italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
 					>
 						<SparklesIcon width={24} height={24} stroke-width="1.5" />
 						<span class="pb-px">{t("nav.create")}</span>

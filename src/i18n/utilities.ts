@@ -1,6 +1,11 @@
 import { type GetStaticPathsItem } from "astro";
-import type { Locale } from "./locale";
-import { defaultLocale, languages, showDefaultLocale, ui } from "./ui";
+import type { Locale } from "./locale.gen";
+import {
+	defaultLocale,
+	languages,
+	showDefaultLocale,
+	type Translations,
+} from "./ui";
 
 export type LocaleParam = Locale | undefined;
 type LocalePath<T extends GetStaticPathsItem> = Omit<T, "params"> & {
@@ -15,10 +20,11 @@ type Data = { [key: string]: any };
 export async function withLocalePaths<T extends GetStaticPathsItem>(
 	entries: T[] = [],
 ): Promise<LocalePath<T>[]> {
-	const locales = Object.keys(languages);
-	const variants: { locale: LocaleParam }[] = locales.map((locale) => ({
-		locale: locale as Locale,
-	}));
+	const variants: { locale: LocaleParam }[] = Object.keys(languages).map(
+		(locale) => ({
+			locale: locale as Locale,
+		}),
+	);
 
 	if (!showDefaultLocale) {
 		variants.push({ locale: undefined });
@@ -56,8 +62,11 @@ export function getLocaleFromUrl(url: URL = new URL(window.location.href)) {
 }
 
 export function useTranslations(locale: Locale) {
-	return function t(key: keyof (typeof ui)[typeof defaultLocale], data?: Data) {
-		const value = ui[locale][key] ?? ui[defaultLocale][key] ?? "";
+	return function t(key: keyof Translations, data?: Data) {
+		const value =
+			languages[locale].translations[key] ??
+			languages[defaultLocale].translations[key] ??
+			"";
 		if (!data) {
 			return value;
 		}

@@ -1,10 +1,10 @@
 import en from "./locales/en";
+import type { LocaleConfig } from "./define-locale";
 
-type Translations = typeof en;
+export type Translations = (typeof en)["translations"];
 
 const modules = import.meta.glob<{
-	default: Partial<Translations>;
-	displayName: string;
+	default: { config: LocaleConfig; translations: Partial<Translations> };
 }>("./locales/*.ts", { eager: true });
 
 function localeFromPath(path: string) {
@@ -14,21 +14,21 @@ function localeFromPath(path: string) {
 export const languages = Object.fromEntries(
 	Object.entries(modules).map(([path, mod]) => [
 		localeFromPath(path),
-		mod.displayName,
+		{
+			...mod.default.config,
+			dir: mod.default.config.dir ?? "ltr",
+			translations: mod.default.translations,
+		},
 	]),
-) as Record<string, string>;
-
-export const ui = Object.fromEntries(
-	Object.entries(modules).map(([path, mod]) => [
-		localeFromPath(path),
-		mod.default,
-	]),
-) as Record<string, Partial<Translations>>;
+) as Record<
+	string,
+	{ name: string; dir: "ltr" | "rtl"; translations: Partial<Translations> }
+>;
 
 export const defaultLocale = "en";
 export const showDefaultLocale = false;
 
-if (!ui[defaultLocale]) {
+if (!languages[defaultLocale]) {
 	throw new Error(
 		`Default locale "${defaultLocale}" not found. Make sure src/i18n/locales/${defaultLocale}.ts exists.`,
 	);

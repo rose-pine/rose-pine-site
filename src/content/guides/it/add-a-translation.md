@@ -25,11 +25,17 @@ Copia il file della lingua inglese e rinominalo con il codice della tua lingua:
 + src/i18n/locales/sd.ts
 ```
 
-Aggiorna `displayName` in cima al file con il nome della tua lingua, poi traduci le stringhe sottostanti:
+Aggiorna `name` all'interno di `config` con il nome della tua lingua, poi aggiungi le tue traduzioni:
 
 ```diff
-- export const displayName = "English";
-+ export const displayName = "Sindarin";
+  import { defineLocale } from "../define-locale";
+
+  export default defineLocale({
+    config: {
+-     name: "English",
++     name: "Sindarin",
+    },
+    translations: {
 
   export default {
 -   "shared.all": "All",

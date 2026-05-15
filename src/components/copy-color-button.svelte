@@ -49,6 +49,8 @@
 				<path d="m9 14 2 2 4-4" />
 			{/if}
 		</svg>
-		{formattedColor}
+		<!-- Ensure colours are output LTR to preserve RGB/HSL order
+			 (specifically with decorations disabled) -->
+		<span dir="ltr">{formattedColor}</span>
 	</button>
 </div>
