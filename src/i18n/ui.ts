@@ -8,7 +8,7 @@ const modules = import.meta.glob<{
 }>("./locales/*.ts", { eager: true });
 
 function localeFromPath(path: string) {
-	return path.split("/").pop()!.replace(".ts", "");
+	return path.split("/").pop()!.slice(0, -3);
 }
 
 export const languages = Object.fromEntries(
