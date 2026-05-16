@@ -1,11 +1,32 @@
 [
   {
+    "description": "Soho vibes for Neovim",
+    "homepageUrl": "",
+    "name": "neovim",
+    "repositoryTopics": [
+      "theme",
+      "neovim",
+      "soho-vibes",
+      "rose-pine",
+      "lua",
+      "vim",
+      "nvim",
+      "neovim-theme",
+      "vim-theme",
+      "editor"
+    ],
+    "stargazerCount": 3009,
+    "updatedAt": "2026-05-15T15:21:59Z",
+    "url": "https://github.com/rose-pine/neovim",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 107,
-    "updatedAt": "2026-05-14T00:43:44Z",
+    "updatedAt": "2026-05-15T00:41:02Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -68,27 +89,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Soho vibes for Neovim",
-    "homepageUrl": "",
-    "name": "neovim",
-    "repositoryTopics": [
-      "theme",
-      "neovim",
-      "soho-vibes",
-      "rose-pine",
-      "lua",
-      "vim",
-      "nvim",
-      "neovim-theme",
-      "vim-theme",
-      "editor"
-    ],
-    "stargazerCount": 3009,
-    "updatedAt": "2026-05-14T16:33:41Z",
-    "url": "https://github.com/rose-pine/neovim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Tabby",
     "homepageUrl": "",
     "name": "tabby",
@@ -112,8 +112,8 @@
       "userstyles",
       "stylus"
     ],
-    "stargazerCount": 42,
-    "updatedAt": "2026-05-14T10:14:31Z",
+    "stargazerCount": 43,
+    "updatedAt": "2026-05-15T13:14:30Z",
     "url": "https://github.com/rose-pine/userstyles",
     "usesCustomOpenGraphImage": true
   },
@@ -186,8 +186,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 265,
-    "updatedAt": "2026-04-25T12:11:42Z",
+    "stargazerCount": 264,
+    "updatedAt": "2026-05-15T13:41:01Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -310,8 +310,8 @@
     "homepageUrl": "",
     "name": "ghostty",
     "repositoryTopics": [],
-    "stargazerCount": 59,
-    "updatedAt": "2026-04-30T00:48:04Z",
+    "stargazerCount": 60,
+    "updatedAt": "2026-05-15T14:52:51Z",
     "url": "https://github.com/rose-pine/ghostty",
     "usesCustomOpenGraphImage": true
   },
@@ -462,8 +462,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 142,
-    "updatedAt": "2026-05-06T14:51:35Z",
+    "stargazerCount": 141,
+    "updatedAt": "2026-05-15T13:41:03Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
@@ -500,8 +500,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1568,
-    "updatedAt": "2026-05-14T16:37:04Z",
+    "stargazerCount": 1569,
+    "updatedAt": "2026-05-15T20:37:11Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -625,8 +625,8 @@
     "homepageUrl": "",
     "name": "zed",
     "repositoryTopics": [],
-    "stargazerCount": 58,
-    "updatedAt": "2026-05-07T02:26:31Z",
+    "stargazerCount": 59,
+    "updatedAt": "2026-05-15T17:52:52Z",
     "url": "https://github.com/rose-pine/zed",
     "usesCustomOpenGraphImage": true
   },
