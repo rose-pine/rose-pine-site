@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 107,
+    "updatedAt": "2026-05-16T00:38:50Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Neovim",
     "homepageUrl": "",
     "name": "neovim",
@@ -18,16 +28,6 @@
     "stargazerCount": 3009,
     "updatedAt": "2026-05-15T15:21:59Z",
     "url": "https://github.com/rose-pine/neovim",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 107,
-    "updatedAt": "2026-05-15T00:41:02Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -112,8 +112,8 @@
       "userstyles",
       "stylus"
     ],
-    "stargazerCount": 43,
-    "updatedAt": "2026-05-15T13:14:30Z",
+    "stargazerCount": 44,
+    "updatedAt": "2026-05-16T07:21:12Z",
     "url": "https://github.com/rose-pine/userstyles",
     "usesCustomOpenGraphImage": true
   },
@@ -290,8 +290,8 @@
       "addon",
       "firefox-extension"
     ],
-    "stargazerCount": 99,
-    "updatedAt": "2026-04-25T07:03:02Z",
+    "stargazerCount": 100,
+    "updatedAt": "2026-05-16T16:26:04Z",
     "url": "https://github.com/rose-pine/firefox",
     "usesCustomOpenGraphImage": true
   },
@@ -831,8 +831,8 @@
       "theme",
       "tailwind"
     ],
-    "stargazerCount": 31,
-    "updatedAt": "2026-02-19T15:49:53Z",
+    "stargazerCount": 30,
+    "updatedAt": "2026-05-16T07:16:57Z",
     "url": "https://github.com/rose-pine/tailwind-css",
     "usesCustomOpenGraphImage": true
   },
@@ -1414,8 +1414,8 @@
     "homepageUrl": "",
     "name": "lazygit",
     "repositoryTopics": [],
-    "stargazerCount": 6,
-    "updatedAt": "2026-03-28T21:21:03Z",
+    "stargazerCount": 7,
+    "updatedAt": "2026-05-17T00:24:05Z",
     "url": "https://github.com/rose-pine/lazygit",
     "usesCustomOpenGraphImage": true
   },
