@@ -147,6 +147,15 @@
 		"has_variants": true
 	},
 	{
+		"name": "Glow",
+		"url": "https://github.com/drluckyspin/rose-pine-glow",
+		"tags": ["terminal", "shell", "glow", "markdown"],
+		"authors": [
+			{ "name": "drluckyspin", "url": "https://github.com/drluckyspin" }
+		],
+		"has_variants": true
+	},
+	{
 		"name": "Gradience Presets",
 		"url": "https://github.com/gradience-presets?q=rose&type=all&sort=",
 		"tags": ["adwaita", "ui"],
