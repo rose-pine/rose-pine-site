@@ -81,9 +81,13 @@ export async function withLocalePaths<T extends GetStaticPathsItem>(
 	);
 }
 
+export function isLocale(value: string): value is Locale {
+	return value in languages;
+}
+
 export function getUrlWithoutLocale(url: URL = new URL(window.location.href)) {
 	let [, locale] = url.pathname.split("/");
-	if (locale in languages) {
+	if (isLocale(locale)) {
 		return url.pathname.replace(`/${locale}`, "");
 	}
 	return url.pathname;
@@ -91,8 +95,8 @@ export function getUrlWithoutLocale(url: URL = new URL(window.location.href)) {
 
 export function getLocaleFromUrl(url: URL = new URL(window.location.href)) {
 	let [, locale] = url.pathname.split("/");
-	if (locale in languages) {
-		return locale as Locale;
+	if (isLocale(locale)) {
+		return locale;
 	}
 	return defaultLocale;
 }

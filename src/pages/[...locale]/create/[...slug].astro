@@ -1,9 +1,11 @@
 ---
 import FlowerIcon from "@lucide/astro/icons/flower";
 import { getCollection, getEntry, render } from "astro:content";
-import type { Locale } from "../../../types/locale.gen";
 import {
+	defaultLocale,
+	isLocale,
 	languages,
+	showDefaultLocale,
 	useTranslatedPath,
 	useTranslations,
 } from "../../../utilities/i18n";
@@ -16,11 +18,13 @@ export async function getStaticPaths() {
 	});
 
 	return pages.map((page) => {
-		const [locale, ...slug] = page.id.split("/");
+		const [first, ...rest] = page.id.split("/");
+		const locale = isLocale(first) ? first : defaultLocale;
 		return {
 			params: {
-				locale: locale === "en" ? undefined : (locale as Locale),
-				slug: slug.join("/") || undefined,
+				locale:
+					!showDefaultLocale && locale === defaultLocale ? undefined : locale,
+				slug: rest.join("/") || undefined,
 			},
 			props: { page },
 		};

@@ -7,6 +7,7 @@ import Page from "../../../layouts/page.astro";
 import type { Locale } from "../../../types/locale.gen";
 import {
 	defaultLocale,
+	isLocale,
 	languages,
 	showDefaultLocale,
 	useTranslatedPath,
@@ -62,10 +63,10 @@ const translatePath = useTranslatedPath(resolvedLocale);
 
 // pass the guide's own locale so english fallbacks link correctly
 const guideHref = (id: string) => {
-	const parts = id.split("/");
+	const [first, ...rest] = id.split("/");
 	return translatePath(
-		`/create/${parts.slice(1).join("/")}`,
-		parts[0] as Locale,
+		`/create/${rest.join("/")}`,
+		isLocale(first) ? first : defaultLocale,
 	);
 };
 ---
@@ -86,7 +87,11 @@ const guideHref = (id: string) => {
 						href={guideHref(page.id)}
 						title={page.data.title}
 						description={page.data.description}
-						locale={page.id.split("/")[0] as Locale}
+						locale={
+							isLocale(page.id.split("/")[0])
+								? page.id.split("/")[0]
+								: defaultLocale
+						}
 					/>
 				))
 			}
