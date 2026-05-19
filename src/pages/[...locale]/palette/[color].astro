@@ -1,12 +1,12 @@
 ---
 import { getCollection, getEntry, render } from "astro:content";
+import palette from "../../../data/palette.json";
+import Page from "../../../layouts/page.astro";
 import {
 	useTranslatedPath,
 	useTranslations,
 	withLocalePaths,
 } from "../../../utilities/i18n";
-import Page from "../../../layouts/page.astro";
-import palette from "../../../data/palette.json";
 
 export async function getStaticPaths() {
 	const colors = await getCollection("palette", ({ id }) =>

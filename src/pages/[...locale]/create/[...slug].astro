@@ -1,6 +1,7 @@
 ---
 import FlowerIcon from "@lucide/astro/icons/flower";
 import { getCollection, getEntry, render } from "astro:content";
+import Page from "../../../layouts/page.astro";
 import {
 	defaultLocale,
 	isLocale,
@@ -10,7 +11,6 @@ import {
 	useTranslations,
 } from "../../../utilities/i18n";
 import { objectEntries } from "../../../utilities/object";
-import Page from "../../../layouts/page.astro";
 
 export async function getStaticPaths() {
 	const pages = await getCollection("guides", ({ data }) => {

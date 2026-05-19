@@ -1,8 +1,8 @@
 ---
 import { Image } from "astro:assets";
 import IntroSection from "../../../components/intro-section.astro";
-import { useTranslations, withLocalePaths } from "../../../utilities/i18n";
 import Page from "../../../layouts/page.astro";
+import { useTranslations, withLocalePaths } from "../../../utilities/i18n";
 
 export async function getStaticPaths() {
 	return await withLocalePaths();

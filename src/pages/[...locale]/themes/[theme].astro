@@ -2,13 +2,13 @@
 import FlowerIcon from "@lucide/astro/icons/flower";
 import ThemeIcon from "../../../components/theme-icon.astro";
 import { getAllRepoSlugs, getRepoBySlug } from "../../../data";
+import Page from "../../../layouts/page.astro";
 import {
 	getLocaleFromUrl,
 	useTranslatedPath,
 	useTranslations,
 	withLocalePaths,
 } from "../../../utilities/i18n";
-import Page from "../../../layouts/page.astro";
 import { isValidIconCategory } from "../../../utilities/icons";
 
 export async function getStaticPaths() {

@@ -1,14 +1,14 @@
 ---
-import Page from "../../layouts/page.astro";
+import Flower10Icon from "../../assets/flower10.svg";
 import Flower5Icon from "../../assets/flower5.svg";
 import Flower7Icon from "../../assets/flower7.svg";
-import Flower10Icon from "../../assets/flower10.svg";
+import { getAllRepos } from "../../data";
+import Page from "../../layouts/page.astro";
 import {
 	useTranslatedPath,
 	useTranslations,
 	withLocalePaths,
 } from "../../utilities/i18n";
-import { getAllRepos } from "../../data";
 
 export async function getStaticPaths() {
 	return await withLocalePaths();
