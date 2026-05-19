@@ -47,6 +47,7 @@ let searchGroups = [
 			label: repo.name,
 			href: translatePath(`/themes/${repo.slug}`),
 			icon: repo.category,
+			additionalSearchString: repo.tags.join(" "),
 		})),
 	},
 	{
@@ -79,6 +80,7 @@ let defaultGroups = [
 			label: repo.name,
 			href: translatePath(`/themes/${repo.slug}`),
 			icon: repo.category,
+			additionalSearchString: repo.tags.join(" "),
 		})),
 	},
 	...searchGroups.slice(2),

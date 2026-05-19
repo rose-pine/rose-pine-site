@@ -27,6 +27,7 @@
 			label: string;
 			href: string;
 			icon: string;
+			additionalSearchString?: string;
 		}[];
 	};
 
@@ -169,10 +170,10 @@
 								<Command.GroupItems
 									class="flex flex-col px-(--dialog-gutter-half) has-data-command-item:pt-3"
 								>
-									{#each group.items as { label, href, icon }, itemIndex (`${label}:${group.heading}`)}
+									{#each group.items as { label, href, icon, additionalSearchString = '' }, itemIndex (`${label}:${href}:${group.heading}`)}
 										<Command.LinkItem
 											{href}
-											value="{label} {itemIndex}"
+											value="{label} {additionalSearchString} {itemIndex}"
 											class="group flex h-11 scroll-mt-11 scroll-mb-(--dialog-gutter-half) items-center gap-3 rounded-lg px-(--dialog-gutter-half) text-subtle data-selected:bg-muted/10 data-selected:text-text"
 										>
 											{#if icon in iconMap}
