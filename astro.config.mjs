@@ -12,13 +12,13 @@ import { readdirSync, writeFileSync } from "fs";
  */
 function localeTypes() {
 	function generate() {
-		const dir = new URL("src/i18n/locales/", import.meta.url);
+		const dir = new URL("src/locales/", import.meta.url);
 		const type = readdirSync(dir)
 			.filter((f) => f.endsWith(".ts")) // find .ts files
 			.map((f) => `"${f.slice(0, -3)}"`) // strip file extension
 			.join(" | "); // join with union delimiter
 		writeFileSync(
-			new URL("src/i18n/locale.gen.ts", import.meta.url),
+			new URL("src/types/locale.gen.ts", import.meta.url),
 			`// Auto-generated — do not edit\nexport type Locale = ${type};\n`,
 		);
 	}

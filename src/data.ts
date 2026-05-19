@@ -1,6 +1,7 @@
 import communityReposData from "./data/community-repos.json";
 import contributorsData from "./data/contributors.json";
 import reposData from "./data/repos.json";
+import type { Contributor, Repo } from "./types/theme";
 
 const repos = (reposData as Repo[]).map((repo) => ({
 	...repo,

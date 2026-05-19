@@ -1,9 +1,13 @@
 ---
 import FlowerIcon from "@lucide/astro/icons/flower";
 import { getCollection, getEntry, render } from "astro:content";
-import type { Locale } from "../../../i18n/locale.gen";
-import { languages } from "../../../i18n/ui";
-import { useTranslatedPath, useTranslations } from "../../../i18n/utilities";
+import type { Locale } from "../../../types/locale.gen";
+import {
+	languages,
+	useTranslatedPath,
+	useTranslations,
+} from "../../../utilities/i18n";
+import { objectEntries } from "../../../utilities/object";
 import Page from "../../../layouts/page.astro";
 
 export async function getStaticPaths() {
@@ -33,14 +37,14 @@ const { Content } = await render(page);
 
 const slug = page.id.split("/").slice(1).join("/");
 const allPages = await getCollection("guides");
-const availableLanguages = Object.entries(languages)
+const availableLanguages = objectEntries(languages)
 	.filter(
 		([code]) =>
 			code !== locale && allPages.some((page) => page.id === `${code}/${slug}`),
 	)
 	.map(([code, { name }]) => ({
 		name,
-		url: useTranslatedPath(code as Locale)(`/create/${slug}`),
+		url: useTranslatedPath(code)(`/create/${slug}`),
 	}));
 
 const publishedAt = new Date(page.data.publishedAt).toLocaleDateString(

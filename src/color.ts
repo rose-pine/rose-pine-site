@@ -1,3 +1,5 @@
+import type { Color, ColorFormat } from "./types/palette";
+
 export function formatColor(
 	{ hex, hsl: [h, s, l], rgb: [r, g, b] }: Color,
 	format: ColorFormat,

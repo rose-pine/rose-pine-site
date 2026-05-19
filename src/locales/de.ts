@@ -1,4 +1,4 @@
-import { defineLocale } from "../define-locale";
+import { defineLocale } from "../utilities/i18n";
 
 export default defineLocale({
 	config: {

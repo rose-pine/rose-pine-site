@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { Label, RadioGroup } from "bits-ui";
 	import categories from "../data/categories.json";
-	import { getLocaleFromUrl, useTranslations } from "../i18n/utilities";
 	import { themeSearch } from "../state.svelte";
+	import { getLocaleFromUrl, useTranslations } from "../utilities/i18n";
 	import { getSvelteIconComponent } from "../utilities/icons";
 
 	let locale = getLocaleFromUrl();

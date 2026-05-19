@@ -1,12 +1,13 @@
 ---
 import BadgeIcon from "../assets/badge.svg";
-import { languages } from "../i18n/ui";
 import {
 	getLocaleFromUrl,
 	getUrlWithoutLocale,
+	languages,
 	useTranslatedPath,
 	useTranslations,
-} from "../i18n/utilities";
+} from "../utilities/i18n";
+import { objectEntries } from "../utilities/object";
 import LoveAll from "./love-all.astro";
 import SiteAppearance from "./site-appearance.svelte";
 
@@ -92,7 +93,7 @@ let socialItems = [
 				{t("shared.language")}
 			</li>
 			{
-				Object.entries(languages).map(([locale, { name }]) => (
+				objectEntries(languages).map(([locale, { name }]) => (
 					<li>
 						<a
 							href={translatePath(getUrlWithoutLocale(Astro.url), locale)}

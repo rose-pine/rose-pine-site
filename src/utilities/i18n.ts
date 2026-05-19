@@ -1,11 +1,52 @@
 import { type GetStaticPathsItem } from "astro";
-import type { Locale } from "./locale.gen";
-import {
-	defaultLocale,
-	languages,
-	showDefaultLocale,
-	type Translations,
-} from "./ui";
+import en from "../locales/en";
+import type { Locale } from "../types/locale.gen";
+import { objectKeys } from "./object";
+
+export type LocaleConfig = {
+	name: string;
+	dir?: "ltr" | "rtl";
+};
+
+export function defineLocale<T extends Record<string, string>>(options: {
+	config: LocaleConfig;
+	translations: T;
+}) {
+	return options;
+}
+
+export type Translations = (typeof en)["translations"];
+
+const modules = import.meta.glob<{
+	default: { config: LocaleConfig; translations: Partial<Translations> };
+}>("../locales/*.ts", { eager: true });
+
+function localeFromPath(path: string) {
+	return path.split("/").pop()!.slice(0, -3);
+}
+
+export const languages = Object.fromEntries(
+	Object.entries(modules).map(([path, mod]) => [
+		localeFromPath(path),
+		{
+			...mod.default.config,
+			dir: mod.default.config.dir ?? "ltr",
+			translations: mod.default.translations,
+		},
+	]),
+) as Record<
+	Locale,
+	{ name: string; dir: "ltr" | "rtl"; translations: Partial<Translations> }
+>;
+
+export const defaultLocale = "en" as const;
+export const showDefaultLocale = false;
+
+if (!languages[defaultLocale]) {
+	throw new Error(
+		`Default locale "${defaultLocale}" not found. Make sure src/locales/${defaultLocale}.ts exists.`,
+	);
+}
 
 export type LocaleParam = Locale | undefined;
 type LocalePath<T extends GetStaticPathsItem> = Omit<T, "params"> & {
@@ -19,26 +60,22 @@ type LocalePath<T extends GetStaticPathsItem> = Omit<T, "params"> & {
 export async function withLocalePaths<T extends GetStaticPathsItem>(
 	entries: T[] = [],
 ): Promise<LocalePath<T>[]> {
-	const variants: { locale: LocaleParam }[] = Object.keys(languages).map(
-		(locale) => ({
-			locale: locale as Locale,
-		}),
-	);
+	const locales: LocaleParam[] = objectKeys(languages);
 
 	if (!showDefaultLocale) {
-		variants.push({ locale: undefined });
+		locales.push(undefined);
 	}
 
 	if (entries.length === 0) {
-		return variants.map((variant) => ({ params: variant }) as LocalePath<T>);
+		return locales.map((locale) => ({ params: { locale } }) as LocalePath<T>);
 	}
 
-	return variants.flatMap((variant) =>
+	return locales.flatMap((locale) =>
 		entries.map((entry) => ({
 			...entry,
 			params: {
 				...entry.params,
-				...variant,
+				locale,
 			},
 		})),
 	);

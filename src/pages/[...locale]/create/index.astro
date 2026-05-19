@@ -3,14 +3,17 @@ import { getCollection, type CollectionEntry } from "astro:content";
 import ContentCard from "../../../components/content-card.astro";
 import IntroSection from "../../../components/intro-section.astro";
 import ShowcaseCard from "../../../components/showcase-card.astro";
-import type { Locale } from "../../../i18n/locale.gen";
-import { defaultLocale, languages, showDefaultLocale } from "../../../i18n/ui";
+import Page from "../../../layouts/page.astro";
+import type { Locale } from "../../../types/locale.gen";
 import {
+	defaultLocale,
+	languages,
+	showDefaultLocale,
 	useTranslatedPath,
 	useTranslations,
 	type LocaleParam,
-} from "../../../i18n/utilities";
-import Page from "../../../layouts/page.astro";
+} from "../../../utilities/i18n";
+import { objectKeys } from "../../../utilities/object";
 
 export async function getStaticPaths() {
 	const guides = await getCollection("guides");
@@ -42,7 +45,7 @@ export async function getStaticPaths() {
 		);
 	};
 
-	const locales: LocaleParam[] = Object.keys(languages) as Locale[];
+	const locales: LocaleParam[] = objectKeys(languages);
 	if (!showDefaultLocale) locales.push(undefined);
 
 	return locales.map((locale) => ({

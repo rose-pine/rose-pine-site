@@ -15,7 +15,7 @@
 		getLocaleFromUrl,
 		useTranslatedPath,
 		useTranslations,
-	} from "../i18n/utilities";
+	} from "../utilities/i18n";
 	import { isValidIconCategory } from "../utilities/icons";
 	import DiscordIcon from "./discord-icon.svelte";
 	import GithubIcon from "./github-icon.svelte";

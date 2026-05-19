@@ -2,8 +2,9 @@
 	import User from "@lucide/svelte/icons/user";
 	import Users from "@lucide/svelte/icons/users";
 	import hasMatch from "has-match";
-	import { getLocaleFromUrl, useTranslatedPath } from "../i18n/utilities";
 	import { themeSearch } from "../state.svelte";
+	import type { Repo } from "../types/theme";
+	import { getLocaleFromUrl, useTranslatedPath } from "../utilities/i18n";
 	import { isValidIconCategory } from "../utilities/icons";
 	import ThemeIcon from "./theme-icon.svelte";
 

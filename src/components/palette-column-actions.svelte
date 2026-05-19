@@ -1,9 +1,10 @@
 <script lang="ts">
 	import { DropdownMenu } from "bits-ui";
+	import type { Snippet } from "svelte";
 	import { formatColor } from "../color";
 	import palette from "../data/palette.json";
 	import { preferences } from "../state.svelte";
-	import type { Snippet } from "svelte";
+	import type { ColorFormat, Variant } from "../types/palette";
 
 	type Props = {
 		format: ColorFormat;

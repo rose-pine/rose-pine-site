@@ -5,12 +5,13 @@ import IntroSection from "../../../components/intro-section.astro";
 import PaletteColumnActions from "../../../components/palette-column-actions.svelte";
 import PaletteStyleToggle from "../../../components/palette-style-toggle.svelte";
 import palette from "../../../data/palette.json";
+import Page from "../../../layouts/page.astro";
 import {
 	useTranslatedPath,
 	useTranslations,
 	withLocalePaths,
-} from "../../../i18n/utilities";
-import Page from "../../../layouts/page.astro";
+} from "../../../utilities/i18n";
+import { objectKeys } from "../../../utilities/object";
 
 export async function getStaticPaths() {
 	return await withLocalePaths();
@@ -20,7 +21,7 @@ let { locale = "en" } = Astro.params;
 let t = useTranslations(locale);
 let translatePath = useTranslatedPath(locale);
 
-let variants = Object.keys(palette) as (keyof typeof palette)[];
+let variants = objectKeys(palette);
 ---
 
 <Page title={t("palette.title")} description={t("palette.description")}>

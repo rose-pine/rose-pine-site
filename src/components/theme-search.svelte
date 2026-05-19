@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { themeSearch } from "../state.svelte";
-	import { getLocaleFromUrl } from "../i18n/utilities";
-	import { useTranslations } from "../i18n/utilities";
+	import { getLocaleFromUrl, useTranslations } from "../utilities/i18n";
 
 	let locale = getLocaleFromUrl();
 	let t = useTranslations(locale);
