@@ -104,6 +104,7 @@
 
 <DropdownMenu.Root bind:open>
 	<DropdownMenu.Trigger
+		dir="ltr"
 		class="group flex h-full cursor-pointer items-center justify-between gap-1.5"
 	>
 		<span>{@render children()}</span>
