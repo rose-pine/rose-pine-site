@@ -16,7 +16,7 @@ tavolozza](/palette) e che la struttura della tua repository rispecchi il nostro
 2. Sviluppa il tuo tema utilizzando lo [strumento di
    build](https://github.com/rose-pine/build) ufficiale, quando possibile, per includere
    tutte e tre le varianti.
-3. Invia il tuo tema [aprendo una issue] e ti inviteremo a unirti all'
+3. Invia il tuo tema [aprendo una issue](https://github.com/rose-pine/rose-pine-site/issues/new/choose) e ti inviteremo a unirti all'
    organizzazione.
 
 ## Repository della community
