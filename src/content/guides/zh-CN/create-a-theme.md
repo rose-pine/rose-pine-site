@@ -10,7 +10,7 @@ priority: 99
 
 1. 使用[Rosé Pine 模板](https://github.com/rose-pine/rose-pine-template)作为新存储库的基础。
 2. 在可能的情况下，使用官方[构建工具](https://github.com/rose-pine/build)构建您的主题，以包含所有三个变体。
-3. 通过[创建问题]提交您的主题，我们将邀请您加入组织。
+3. 通过[创建问题](https://github.com/rose-pine/rose-pine-theme/issues/new/choose)提交您的主题，我们将邀请您加入组织。
 
 ## 社区存储库
 
