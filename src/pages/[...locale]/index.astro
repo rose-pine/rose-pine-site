@@ -20,7 +20,7 @@ let translatePath = useTranslatedPath(locale);
 
 let allRepos = getAllRepos();
 
-let REPOS_COUNT = Math.floor(allRepos.length / 10) * 10;
+let REPOS_COUNT = String(Math.floor(allRepos.length / 10) * 10);
 ---
 
 <Page title={t("home.title")} description={t("home.description")}>
