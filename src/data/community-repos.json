@@ -329,7 +329,7 @@
 	{
 		"name": "Nimbalyst",
 		"url": "https://github.com/omartelo/rose-pine-nimbalyst",
-		"tags": ["app", "editor", "Nimbalyst"],
+		"tags": ["app", "editor", "nimbalyst"],
 		"authors": [
 			{ "name": "omartelo", "url": "https://github.com/omartelo" }
 		],
