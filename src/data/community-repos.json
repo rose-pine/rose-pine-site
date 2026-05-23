@@ -327,6 +327,15 @@
 		"has_variants": true
 	},
 	{
+		"name": "Nimbalyst",
+		"url": "https://github.com/omartelo/rose-pine-nimbalyst",
+		"tags": ["app", "editor", "Nimbalyst"],
+		"authors": [
+			{ "name": "omartelo", "url": "https://github.com/omartelo" }
+		],
+		"has_variants": true
+	},
+	{
 		"name": "Notepad++",
 		"url": "https://github.com/aaravind100/notepad-plus-plus",
 		"tags": ["app", "editor"],
