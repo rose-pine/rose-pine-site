@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 107,
-    "updatedAt": "2026-05-23T00:43:30Z",
+    "updatedAt": "2026-05-24T00:44:38Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -25,8 +25,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 3012,
-    "updatedAt": "2026-05-23T13:48:08Z",
+    "stargazerCount": 3013,
+    "updatedAt": "2026-05-24T10:27:20Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -186,8 +186,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 265,
-    "updatedAt": "2026-05-19T00:03:07Z",
+    "stargazerCount": 266,
+    "updatedAt": "2026-05-24T23:16:48Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
