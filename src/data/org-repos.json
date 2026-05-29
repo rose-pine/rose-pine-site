@@ -1,11 +1,23 @@
 [
   {
+    "description": "Soho vibes for Zen Browser",
+    "homepageUrl": "",
+    "name": "zen-browser",
+    "repositoryTopics": [
+      "app"
+    ],
+    "stargazerCount": 27,
+    "updatedAt": "2026-05-28T19:57:23Z",
+    "url": "https://github.com/rose-pine/zen-browser",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 107,
-    "updatedAt": "2026-05-27T00:46:02Z",
+    "updatedAt": "2026-05-28T00:41:48Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -25,8 +37,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 3017,
-    "updatedAt": "2026-05-27T06:07:41Z",
+    "stargazerCount": 3019,
+    "updatedAt": "2026-05-28T20:48:23Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -44,8 +56,8 @@
       "visual-studio-code",
       "editor"
     ],
-    "stargazerCount": 591,
-    "updatedAt": "2026-05-25T22:58:36Z",
+    "stargazerCount": 592,
+    "updatedAt": "2026-05-28T10:53:05Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
@@ -500,8 +512,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1573,
-    "updatedAt": "2026-05-27T01:01:46Z",
+    "stargazerCount": 1572,
+    "updatedAt": "2026-05-28T03:12:49Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -592,18 +604,6 @@
     "stargazerCount": 2,
     "updatedAt": "2025-11-05T14:51:31Z",
     "url": "https://github.com/rose-pine/zer0bin",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Zen Browser",
-    "homepageUrl": "",
-    "name": "zen-browser",
-    "repositoryTopics": [
-      "app"
-    ],
-    "stargazerCount": 27,
-    "updatedAt": "2026-05-21T22:09:46Z",
-    "url": "https://github.com/rose-pine/zen-browser",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -1025,8 +1025,8 @@
       "roblox-studio",
       "theme"
     ],
-    "stargazerCount": 2,
-    "updatedAt": "2026-01-01T13:43:58Z",
+    "stargazerCount": 3,
+    "updatedAt": "2026-05-28T03:01:23Z",
     "url": "https://github.com/rose-pine/roblox-studio",
     "usesCustomOpenGraphImage": true
   },
