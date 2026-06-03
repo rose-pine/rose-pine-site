@@ -88,7 +88,7 @@ let defaultGroups = [
 ---
 
 <header
-	class="wrapper relative mt-page-top flex items-center gap-6 py-(--card-gutter) [--badge-size:44px] [--card-gutter:var(--spacing-page-gutter-half)] [--card-inner-radius:calc(var(--card-radius)/2)] [--card-radius:1rem] [--nav-item-px:--spacing(3)]"
+	class="relative wrapper mt-page-start flex items-center gap-6 py-(--card-gutters)"
 >
 	<a
 		title={t("nav.home")}
@@ -105,7 +105,7 @@ let defaultGroups = [
 		<CommandMenu client:only="svelte" {defaultGroups} {searchGroups} />
 	</div>
 
-	<div class="z-50 h-7 w-px bg-muted/20 md:-me-(--nav-item-px)"></div>
+	<div class="z-50 h-7 w-px bg-muted/20 md:-me-(--nav-item-space)"></div>
 
 	<nav aria-label={t("header.nav_label")} class="hidden md:block">
 		<ul class="flex items-center gap-1.5">
@@ -114,7 +114,7 @@ let defaultGroups = [
 					<li>
 						<a
 							href={item.href}
-							class="flex h-8 items-center rounded-lg px-(--nav-item-px) font-medium transition hover:bg-muted/10"
+							class="flex h-8 items-center rounded-lg px-(--nav-item-space) font-medium transition hover:bg-muted/10"
 						>
 							{item.name}
 						</a>
@@ -168,17 +168,17 @@ let defaultGroups = [
 
 		<nav
 			aria-label={t("header.nav_label")}
-			class="absolute inset-x-(--card-gutter) top-0 z-40 rounded-(--card-radius) bg-surface/80 pt-(--badge-size) shadow-lg shadow-black/10 backdrop-blur-xl backdrop-saturate-150 transition"
+			class="absolute inset-x-(--card-gutters) top-0 z-40 rounded-(--card-radius) bg-surface/80 pt-(--badge-size) shadow-lg shadow-black/10 backdrop-blur-xl backdrop-saturate-150 transition"
 		>
-			<div class="h-(--card-gutter)"></div>
-			<ul class="flex flex-col p-(--card-gutter)">
+			<div class="h-(--card-gutters)"></div>
+			<ul class="flex flex-col p-(--card-gutters)">
 				{
 					menuItems.map((item) => (
 						<li>
 							<a
 								aria-label={item.name}
 								href={item.href}
-								class="flex h-14 w-full items-center rounded-(--card-inner-radius) text-xl font-semibold transition-[background-color,padding] hover:bg-muted/10 hover:ps-page-gutter-half"
+								class="flex h-14 w-full items-center rounded-(--card-inner-radius) text-xl font-semibold transition-[background-color,padding] hover:bg-muted/10 hover:ps-(--card-gutters)"
 							>
 								{item.name}
 							</a>
@@ -201,6 +201,16 @@ let defaultGroups = [
 </header>
 
 <style>
+	header {
+		--badge-size: 44px;
+
+		--card-gutters: calc(var(--spacing-page-gutters) / 2);
+		--card-radius: 1rem;
+		--card-inner-radius: calc(var(--card-radius) / 2);
+
+		--nav-item-space: 0.75rem;
+	}
+
 	details[open] > *:not(summary) {
 		animation: details-show 150ms ease-in-out;
 	}

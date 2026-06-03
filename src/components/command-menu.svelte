@@ -106,7 +106,7 @@
 					previouslyActiveElement.focus();
 				}
 			}}
-			class="fixed bottom-0 left-1/2 z-90 w-full max-w-xl -translate-x-1/2 overflow-hidden rounded-t-(--dialog-radius) bg-surface shadow-xl [--dialog-gutter-half:calc(var(--dialog-gutter)/2)] [--dialog-gutter:--spacing(5)] [--dialog-inner-radius:calc(var(--dialog-radius)/2)] [--dialog-radius:1.5rem] supports-backdrop-filter:bg-surface/95 supports-backdrop-filter:backdrop-blur-sm sm:bottom-page-gutter sm:w-9/10 sm:rounded-(--dialog-radius) md:top-20 md:bottom-auto"
+			class="fixed bottom-0 left-1/2 z-90 w-full max-w-xl -translate-x-1/2 overflow-hidden rounded-t-(--dialog-radius) bg-surface shadow-xl [--dialog-gutter-half:calc(var(--dialog-gutter)/2)] [--dialog-gutter:--spacing(5)] [--dialog-inner-radius:calc(var(--dialog-radius)/2)] [--dialog-radius:1.5rem] supports-backdrop-filter:bg-surface/95 supports-backdrop-filter:backdrop-blur-sm sm:bottom-page-gutters sm:w-9/10 sm:rounded-(--dialog-radius) md:top-20 md:bottom-auto"
 		>
 			<Dialog.Title class="sr-only">
 				{t("command.title")}

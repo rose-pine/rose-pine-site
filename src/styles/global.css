@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "./composition.css";
 @plugin "@tailwindcss/typography";
 
 @custom-variant dark {
@@ -18,12 +19,9 @@
 }
 
 @theme {
-	--breakpoint-wrapper: 80rem;
-
-	--spacing-page-top: 3rem;
-	--spacing-page-gutter: 1rem;
-	--spacing-page-gutter-half: calc(var(--spacing-page-gutter) / 2);
-	--spacing-page-gutter-quarter: calc(var(--spacing-page-gutter) / 4);
+	--spacing-page-gutters: 1rem;
+	--spacing-page-max-inline-size: 1200px;
+	--spacing-page-start: 3rem;
 
 	--color-main-base: #191724;
 	--color-main-surface: #1f1d2e;
@@ -84,12 +82,12 @@
 	color-scheme: light dark;
 
 	@media (width >= theme(--breakpoint-sm)) {
-		--spacing-page-top: 4rem;
-		--spacing-page-gutter: 1.5rem;
+		--spacing-page-gutters: 1.5rem;
+		--spacing-page-start: 4rem;
 	}
 
 	@media (width >= theme(--breakpoint-md)) {
-		--spacing-page-gutter: 3rem;
+		--spacing-page-gutters: 3rem;
 	}
 
 	@media (prefers-color-scheme: dark) {
@@ -218,12 +216,6 @@ ul[role="list"] {
 	&:hover {
 		color: var(--color-text);
 	}
-}
-
-.wrapper {
-	margin-inline: auto;
-	padding-inline: var(--spacing-page-gutter);
-	max-inline-size: min(var(--breakpoint-wrapper), 100dvw);
 }
 
 .animate-enter {

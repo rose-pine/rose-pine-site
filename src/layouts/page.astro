@@ -37,7 +37,7 @@ let dir = languages[locale]?.dir ?? "ltr";
 		</script>
 	</head>
 	<body>
-		<div class="overflow-hidden">
+		<div class="overflow-clip">
 			<a
 				href="#content"
 				class="sr-only focus:not-sr-only focus:fixed focus:start-3 focus:top-3 focus:rounded focus:bg-surface focus:p-1.5 focus:font-medium"
@@ -51,17 +51,19 @@ let dir = languages[locale]?.dir ?? "ltr";
 				</div>
 			</div>
 
-			<div class="grid min-h-dvh grid-rows-[auto_1fr]">
+			<div class="pancake-stack min-h-dvh gap-page-start">
 				<div>
 					<Header />
 				</div>
 
-				<main id="content" class="max-w-screen py-page-top">
+				<main id="content" class="max-w-screen">
 					<slot />
 				</main>
-			</div>
 
-			<Footer />
+				<div>
+					<Footer />
+				</div>
+			</div>
 		</div>
 	</body>
 </html>

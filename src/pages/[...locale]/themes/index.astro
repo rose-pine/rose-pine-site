@@ -27,16 +27,16 @@ let contributorCount = getContributorCount();
 		callout={`${repoCount} ${t("themes.ports")} & ${contributorCount} ${t("themes.contributors")}`}
 	/>
 
-	<section class="wrapper animate-enter" style="--stagger: 2.75">
+	<section class="animate-enter wrapper" style="--stagger: 2.75">
 		<div class="flex flex-col gap-5">
 			<ThemeSearch client:only="svelte" />
 			<ThemeCategories client:only="svelte" />
 		</div>
 	</section>
 
-	<div class="h-page-top"></div>
+	<div class="h-page-start"></div>
 
-	<section class="wrapper animate-enter" style="--stagger: 3">
+	<section class="animate-enter wrapper" style="--stagger: 3">
 		<ThemeList client:only="svelte" themes={sortedRepos} />
 	</section>
 </Page>

@@ -44,81 +44,93 @@ let socialItems = [
 ];
 ---
 
-<footer class="wrapper py-page-top">
+<footer class="wrapper py-page-start">
 	<nav
 		aria-label={t("footer.nav_label")}
-		class="grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-[auto_auto_auto_auto_1fr] md:gap-20"
+		class="cluster-10 pbe-page-start *:last:ms-auto"
 	>
-		<ul class="leading-loose">
-			<li class="font-medium">{t("footer.heading.resources")}</li>
-			{
-				resourceItems.map((item) => (
-					<li>
-						<a href={item.href} class="link">
-							{item.name}
-						</a>
-					</li>
-				))
-			}
-		</ul>
+		<section class="stack">
+			<h2>{t("shared.language")}</h2>
+			<ul class="stack-2">
+				{
+					objectEntries(languages).map(([locale, { name }]) => (
+						<li>
+							<a href={translatePath(getUrlWithoutLocale(Astro.url), locale)}>
+								{name}
+							</a>
+						</li>
+					))
+				}
+			</ul>
+		</section>
 
-		<ul class="leading-loose">
-			<li class="font-medium">{t("footer.heading.collections")}</li>
-			{
-				collectionItems.map((item) => (
-					<li>
-						<a href={item.href} class="link">
-							{item.name}
-						</a>
-					</li>
-				))
-			}
-		</ul>
+		<section class="stack">
+			<h2>{t("footer.heading.resources")}</h2>
+			<ul class="stack-2">
+				{
+					resourceItems.map((item) => (
+						<li>
+							<a href={item.href}>{item.name}</a>
+						</li>
+					))
+				}
+			</ul>
+		</section>
 
-		<ul class="leading-loose">
-			<li class="font-medium">{t("footer.heading.social")}</li>
-			{
-				socialItems.map((item) => (
-					<li>
-						<a href={item.href} class="link">
-							{item.name}
-						</a>
-					</li>
-				))
-			}
-		</ul>
+		<section class="stack">
+			<h2>{t("footer.heading.collections")}</h2>
+			<ul class="stack-2">
+				{
+					collectionItems.map((item) => (
+						<li>
+							<a href={item.href}>{item.name}</a>
+						</li>
+					))
+				}
+			</ul>
+		</section>
 
-		<ul class="leading-loose">
-			<li class="font-medium">
-				{t("shared.language")}
-			</li>
-			{
-				objectEntries(languages).map(([locale, { name }]) => (
-					<li>
-						<a
-							href={translatePath(getUrlWithoutLocale(Astro.url), locale)}
-							class="link"
-						>
-							{name}
-						</a>
-					</li>
-				))
-			}
-		</ul>
+		<section class="stack">
+			<h2>{t("footer.heading.social")}</h2>
+			<ul class="stack-2">
+				{
+					socialItems.map((item) => (
+						<li>
+							<a href={item.href}>{item.name}</a>
+						</li>
+					))
+				}
+			</ul>
+		</section>
 
-		<div class="flex gap-5 self-start md:justify-end">
+		<div class="cluster items-center">
 			<SiteAppearance client:load />
 
-			<a href={translatePath("/")} class="shrink-0">
+			<a href={translatePath("/")}>
 				<BadgeIcon width="36" height="36" />
 				<span class="sr-only">{t("nav.home")}</span>
 			</a>
 		</div>
 	</nav>
+
+	<div class="cluster justify-center">
+		<LoveAll />
+	</div>
 </footer>
 
-<div class="flex justify-center">
-	<LoveAll />
-</div>
+<style>
+	section {
+		& h2 {
+			font-weight: 500;
+		}
+		& a {
+			color: var(--color-subtle);
+			text-decoration: none;
+			text-underline-offset: 2px;
 
-<div class="h-page-top"></div>
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+</style>
