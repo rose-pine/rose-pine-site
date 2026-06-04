@@ -81,7 +81,7 @@ const guideHref = (id: string) => {
 			<h2 class="col-span-full font-semibold">Guides</h2>
 			{
 				pages.map((page) => {
-					const [first, ...rest] = page.id.split("/");
+					const [first] = page.id.split("/");
 					const pageLocale = isLocale(first) ? first : defaultLocale;
 					const href = guideHref(page.id);
 					return (
