@@ -170,24 +170,6 @@
 	}
 }
 
-::selection {
-	color: var(--color-text);
-	background: --alpha(var(--color-muted) / 0.2);
-}
-
-html {
-	color: var(--color-text);
-	background: var(--color-base);
-
-	font-size: 18px;
-	@media (width >= theme(--breakpoint-sm)) {
-		font-size: 16px;
-	}
-
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
 /* 
  * Encourage adding role="list" to remove list styles while retaining semantics
  * in Safari/VoiceOver. Styles are removed for scenarios implicitly supported

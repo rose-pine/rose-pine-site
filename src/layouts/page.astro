@@ -16,7 +16,13 @@ let dir = languages[locale]?.dir ?? "ltr";
 ---
 
 <!doctype html>
-<html transition:name="root" transition:animate="none" lang={locale} dir={dir}>
+<html
+	transition:name="root"
+	transition:animate="none"
+	lang={locale}
+	dir={dir}
+	class="bg-base text-text antialiased selection:bg-muted/20 selection:text-text max-sm:text-lg"
+>
 	<head>
 		<meta charset="UTF-8" />
 		<meta
