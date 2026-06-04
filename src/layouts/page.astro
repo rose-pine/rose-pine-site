@@ -1,5 +1,4 @@
 ---
-import { ClientRouter } from "astro:transitions";
 import Footer from "../components/footer.astro";
 import Header from "../components/header.astro";
 import "../styles/global.css";
@@ -17,8 +16,6 @@ let dir = languages[locale]?.dir ?? "ltr";
 
 <!doctype html>
 <html
-	transition:name="root"
-	transition:animate="none"
 	lang={locale}
 	dir={dir}
 	class="bg-base text-text antialiased selection:bg-muted/20 selection:text-text max-sm:text-lg"
@@ -34,18 +31,12 @@ let dir = languages[locale]?.dir ?? "ltr";
 		<meta name="generator" content={Astro.generator} />
 		<title>{title} – Rosé Pine</title>
 
-		<ClientRouter />
-
-		<script is:inline>
-			function applyTheme() {
-				if (localStorage.theme) {
-					document.documentElement.dataset.theme = localStorage.theme;
-				} else {
-					delete document.documentElement.dataset.theme;
-				}
+		<script>
+			if (localStorage.theme) {
+				document.documentElement.dataset.theme = localStorage.theme;
+			} else {
+				delete document.documentElement.dataset.theme;
 			}
-			applyTheme();
-			document.addEventListener("astro:after-swap", applyTheme);
 		</script>
 	</head>
 	<body>
