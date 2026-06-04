@@ -36,10 +36,16 @@ let dir = languages[locale]?.dir ?? "ltr";
 
 		<ClientRouter />
 
-		<script>
-			if (localStorage.theme) {
-				document.documentElement.dataset.theme = localStorage.theme;
+		<script is:inline>
+			function applyTheme() {
+				if (localStorage.theme) {
+					document.documentElement.dataset.theme = localStorage.theme;
+				} else {
+					delete document.documentElement.dataset.theme;
+				}
 			}
+			applyTheme();
+			document.addEventListener("astro:after-swap", applyTheme);
 		</script>
 	</head>
 	<body>
