@@ -6,7 +6,7 @@
 </script>
 
 <section class="flex flex-col items-center justify-between gap-6 md:flex-row">
-	<div class="shrink-0 text-center md:text-left">
+	<div class="shrink-0 text-center md:text-left md:rtl:text-right">
 		<h1 class="animate-enter text-xl font-bold tracking-tight">
 			{heading}
 		</h1>
@@ -34,7 +34,7 @@
 
 	{#if $$slots.default}
 		<div
-			class="inline-flex w-full max-w-sm justify-center md:justify-end"
+			class="inline-flex w-full max-w-sm justify-center md:justify-end md:rtl:justify-start"
 			class:animate-enter={animate}
 			style="--stagger: 1"
 		>
