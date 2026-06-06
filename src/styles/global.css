@@ -187,19 +187,6 @@ ul[role="list"] {
 	}
 }
 
-
-@utility tonal-* {
-	color: --value(--color-*);
-	background-color: --alpha(--value(--color-*) / 10%);
-	border-color: --alpha(--value(--color-*) / 20%);
-}
-
-@utility tonal-pressed-* {
-	color: --value(--color-*);
-	background-color: --alpha(--value(--color-*) / 20%);
-	border-color: --alpha(--value(--color-*) / 30%);
-}
-
 @keyframes enter {
 	0% {
 		opacity: 0;

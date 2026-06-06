@@ -30,3 +30,15 @@
 	align-items: flex-start;
 	justify-content: flex-start;
 }
+
+@utility tonal-* {
+	color: --value(--color-*);
+	background-color: --alpha(--value(--color-*) / 10%);
+	border-color: --alpha(--value(--color-*) / 20%);
+}
+
+@utility tonal-pressed-* {
+	color: --value(--color-*);
+	background-color: --alpha(--value(--color-*) / 20%);
+	border-color: --alpha(--value(--color-*) / 30%);
+}
