@@ -1,0 +1,94 @@
+.prose {
+	color: var(--color-text);
+}
+
+.prose a {
+	color: var(--color-iris);
+	text-underline-offset: 2px;
+}
+
+.prose ul {
+	padding: 0;
+}
+
+.prose ul li {
+	--_marker-size: 16px;
+
+	position: relative;
+	list-style: none;
+	padding-left: calc(var(--_marker-size) * 1.5);
+
+	&:nth-child(4n + 1)::before {
+		--_rotation: 6;
+	}
+
+	&:nth-child(4n + 2)::before {
+		--_rotation: 4;
+	}
+
+	&:nth-child(4n + 3)::before {
+		--_rotation: 3;
+	}
+
+	&:nth-child(4n)::before {
+		--_rotation: 9;
+	}
+
+	&::before {
+		--_rotation: 0;
+
+		content: "";
+		position: absolute;
+		top: calc(0.5lh - (var(--_marker-size) / 2));
+		left: 0;
+		width: var(--_marker-size);
+		height: var(--_marker-size);
+		background-color: var(--color-text);
+		mask: url("/list-bullet.svg") center / contain no-repeat;
+		transform-origin: center center;
+		transform: rotate(calc(var(--_rotation) * 36deg));
+	}
+}
+
+.prose blockquote {
+	color: var(--color-pine);
+	border-color: var(--color-pine);
+}
+
+.prose blockquote p {
+	font-style: normal;
+}
+
+.prose :not(.astro-code) code {
+	color: var(--color-text);
+	padding: 0.25rem 0.375rem;
+	font-size: var(--text-sm);
+	font-weight: 450;
+	background-color: var(--color-surface);
+	border: 1px solid --alpha(var(--color-muted) / 20%);
+	border-radius: var(--radius-md);
+
+	&::before {
+		display: none;
+	}
+
+	&::after {
+		display: none;
+	}
+}
+
+.prose .astro-code {
+	background-color: var(--color-surface) !important;
+	border: 1px solid --alpha(var(--color-muted) / 20%);
+	border-radius: var(--radius-md);
+}
+
+@variant dark {
+	.prose .astro-code,
+	.prose .astro-code span {
+		color: var(--shiki-dark) !important;
+		font-style: var(--shiki-dark-font-style) !important;
+		font-weight: var(--shiki-dark-font-weight) !important;
+		text-decoration: var(--shiki-dark-text-decoration) !important;
+	}
+}

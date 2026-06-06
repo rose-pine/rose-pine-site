@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "./composition.css";
+@import "./prose.css";
 @plugin "@tailwindcss/typography";
 
 @custom-variant dark {
@@ -155,18 +156,6 @@
 	}
 }
 
-.astro-code,
-.astro-code span {
-	color: var(--shiki-light) !important;
-}
-
-@variant dark {
-	.astro-code,
-	.astro-code span {
-		color: var(--shiki-dark) !important;
-	}
-}
-
 /* 
  * Encourage adding role="list" to remove list styles while retaining semantics
  * in Safari/VoiceOver. Styles are removed for scenarios implicitly supported
@@ -187,16 +176,6 @@ ul[role="list"] {
 	list-style-type: none;
 }
 
-.link,
-.prose a {
-	color: var(--color-iris);
-	text-decoration-line: underline;
-
-	&:hover {
-		color: var(--color-text);
-	}
-}
-
 .animate-enter {
 	opacity: 0;
 	animation: enter 400ms forwards;
@@ -208,30 +187,6 @@ ul[role="list"] {
 	}
 }
 
-/* all code */
-code,
-.astro-code {
-	background-color: var(--color-surface) !important;
-	border-radius: var(--radius-xl);
-	border-width: 1px;
-	border-color: color-mix(in oklab, var(--color-muted) 20%, transparent);
-}
-/* inline code */
-code:not(:has(.line)) {
-	padding: 0.25rem;
-	border-radius: var(--radius-lg);
-}
-/* codeblock */
-pre > code {
-	max-width: 100%;
-	overflow-x: auto;
-	display: block;
-	padding: 1rem;
-}
-/* prevent extra padding around codeblock */
-pre {
-	padding: 0;
-}
 
 @utility tonal-* {
 	color: --value(--color-*);
