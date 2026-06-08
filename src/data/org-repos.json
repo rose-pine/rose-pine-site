@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 107,
-    "updatedAt": "2026-06-06T00:45:58Z",
+    "updatedAt": "2026-06-07T00:49:41Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -32,8 +32,8 @@
     "repositoryTopics": [
       "app"
     ],
-    "stargazerCount": 28,
-    "updatedAt": "2026-06-03T21:28:46Z",
+    "stargazerCount": 29,
+    "updatedAt": "2026-06-07T05:18:19Z",
     "url": "https://github.com/rose-pine/zen-browser",
     "usesCustomOpenGraphImage": true
   },
@@ -53,8 +53,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 3029,
-    "updatedAt": "2026-06-06T18:44:40Z",
+    "stargazerCount": 3028,
+    "updatedAt": "2026-06-07T10:57:24Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -140,8 +140,8 @@
       "userstyles",
       "stylus"
     ],
-    "stargazerCount": 45,
-    "updatedAt": "2026-06-05T02:30:25Z",
+    "stargazerCount": 46,
+    "updatedAt": "2026-06-07T23:39:00Z",
     "url": "https://github.com/rose-pine/userstyles",
     "usesCustomOpenGraphImage": true
   },
@@ -167,8 +167,8 @@
     "homepageUrl": "",
     "name": "rmpc",
     "repositoryTopics": [],
-    "stargazerCount": 0,
-    "updatedAt": "2026-04-16T17:24:44Z",
+    "stargazerCount": 1,
+    "updatedAt": "2026-06-07T16:31:35Z",
     "url": "https://github.com/rose-pine/rmpc",
     "usesCustomOpenGraphImage": false
   },
@@ -326,11 +326,11 @@
   {
     "description": "",
     "homepageUrl": "",
-    "name": "rose-pine-figma",
+    "name": "figma",
     "repositoryTopics": [],
     "stargazerCount": 2,
-    "updatedAt": "2026-04-21T02:02:45Z",
-    "url": "https://github.com/rose-pine/rose-pine-figma",
+    "updatedAt": "2026-06-07T17:23:41Z",
+    "url": "https://github.com/rose-pine/figma",
     "usesCustomOpenGraphImage": false
   },
   {
@@ -1226,8 +1226,8 @@
     "repositoryTopics": [
       "app"
     ],
-    "stargazerCount": 27,
-    "updatedAt": "2026-04-08T10:28:44Z",
+    "stargazerCount": 28,
+    "updatedAt": "2026-06-07T15:44:06Z",
     "url": "https://github.com/rose-pine/obsidian",
     "usesCustomOpenGraphImage": false
   },
@@ -1537,8 +1537,8 @@
       "tiling-window-manager",
       "theme"
     ],
-    "stargazerCount": 33,
-    "updatedAt": "2026-05-13T20:58:15Z",
+    "stargazerCount": 34,
+    "updatedAt": "2026-06-07T04:40:40Z",
     "url": "https://github.com/rose-pine/hyprland",
     "usesCustomOpenGraphImage": true
   },
@@ -1834,8 +1834,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 174,
-    "updatedAt": "2026-06-04T22:17:58Z",
+    "stargazerCount": 175,
+    "updatedAt": "2026-06-07T19:13:19Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
@@ -1904,8 +1904,8 @@
       "music",
       "terminal"
     ],
-    "stargazerCount": 17,
-    "updatedAt": "2026-04-15T08:36:36Z",
+    "stargazerCount": 18,
+    "updatedAt": "2026-06-07T16:26:22Z",
     "url": "https://github.com/rose-pine/cava",
     "usesCustomOpenGraphImage": true
   },
