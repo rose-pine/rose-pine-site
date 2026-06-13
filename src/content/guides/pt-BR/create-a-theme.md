@@ -12,7 +12,7 @@ Nós amamos e acolhemos temas de todos. Para adicionar sua criação à organiza
 
 1. Utilize o [modelo Rosé Pine](https://github.com/rose-pine/rose-pine-template) como base para seu novo repositório.
 2. Construa seu tema com a [ferramenta oficial de build](https://github.com/rose-pine/build), sempre que possível, para incluir as três variantes.
-3. Envie seu tema \[criando uma issue] e nós o convidaremos para a organização.
+3. Envie seu tema \[criando uma issue](https://github.com/rose-pine/rose-pine-theme/issues/new/choose) e nós o convidaremos para a organização.
 
 ## Repositórios da comunidade
 

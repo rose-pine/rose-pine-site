@@ -15,7 +15,7 @@ kreasi Anda ke organisasi Rosé Pine, kami meminta agar tema Anda mengikuti
    dasar untuk repositori baru Anda.
 2. Buat tema Anda dengan [build tool](https://github.com/rose-pine/build) resmi
    jika memungkinkan untuk menyertakan ketiga varian.
-3. Kirim tema Anda dengan [membuat issue] dan kami akan mengundang
+3. Kirim tema Anda dengan [membuat issue](https://github.com/rose-pine/rose-pine-theme/issues/new/choose) dan kami akan mengundang
    Anda ke organisasi.
 
 ## Repositori komunitas
