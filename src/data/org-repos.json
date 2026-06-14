@@ -1,5 +1,15 @@
 [
   {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 107,
+    "updatedAt": "2026-06-13T00:51:52Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Zed",
     "homepageUrl": "",
     "name": "zed",
@@ -7,16 +17,6 @@
     "stargazerCount": 61,
     "updatedAt": "2026-06-12T22:33:15Z",
     "url": "https://github.com/rose-pine/zed",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 107,
-    "updatedAt": "2026-06-12T00:52:45Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -63,8 +63,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 3034,
-    "updatedAt": "2026-06-11T18:11:32Z",
+    "stargazerCount": 3036,
+    "updatedAt": "2026-06-13T13:20:40Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -209,8 +209,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 110,
-    "updatedAt": "2026-05-30T11:33:48Z",
+    "stargazerCount": 111,
+    "updatedAt": "2026-06-13T02:34:45Z",
     "url": "https://github.com/rose-pine/windows-terminal",
     "usesCustomOpenGraphImage": true
   },
@@ -500,8 +500,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 143,
-    "updatedAt": "2026-06-10T08:07:48Z",
+    "stargazerCount": 144,
+    "updatedAt": "2026-06-13T11:00:24Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
   },
@@ -692,7 +692,7 @@
       "color-palette"
     ],
     "stargazerCount": 59,
-    "updatedAt": "2026-06-08T10:14:05Z",
+    "updatedAt": "2026-06-13T03:20:12Z",
     "url": "https://github.com/rose-pine/waybar",
     "usesCustomOpenGraphImage": true
   },
