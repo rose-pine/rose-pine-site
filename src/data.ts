@@ -17,7 +17,7 @@ const communityRepos = (communityReposData as Repo[]).map((repo) => ({
 	}),
 	slug: repo.name.toLowerCase().replaceAll(" ", "-"),
 	description: repo.description ?? `Soho vibes for ${repo.name}`,
-	tags: [...(repo.tags ?? []), "Community"],
+	tags: [...(repo.tags ?? []), "community"],
 }));
 
 export function getAllRepos(): Repo[] {

@@ -842,7 +842,7 @@
 	{
 		"name": "Vimium",
 		"url": "https://github.com/iamgideonidoko/vimium-rose-pine",
-		"tags": ["Google Chrome"],
+		"tags": ["chrome"],
 		"contributors": [
 			{
 				"name": "Gideon Idoko",
