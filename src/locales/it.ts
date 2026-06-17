@@ -19,7 +19,7 @@ export default defineLocale({
 		"footer.resource.translate": "Aggiungi una traduzione",
 		"footer.heading.social": "Sociale",
 
-		"nav.home": "Casa",
+		"nav.home": "Home",
 		"nav.themes": "Temi",
 		"nav.palette": "Tavolozza",
 		"nav.create": "Crea",
@@ -35,9 +35,9 @@ export default defineLocale({
 		"command.pages": "Pagine",
 		"command.community": "Comunità",
 
-		"home.title": "Qualcosa di bello",
+		"home.title": "Un tocco di bellezza",
 		"home.description":
-			"Pino naturale, pelliccia sintetica e un po' di vibrazioni soho per il minimalista di classe.",
+			"Pino naturale, pelliccia sintetica e un pizzico di stile Soho per il minimalista raffinato.",
 		"home.primary_action": "Esplora i temi",
 		"home.feature.colours_and_community.title": "Colori & Comunità",
 		"home.feature.colours_and_community.description":
@@ -50,8 +50,8 @@ export default defineLocale({
 			"Ci impegniamo costantemente a offrire un ambiente sicuro e stimolante per tutti. Sei amato e apprezzato.",
 
 		"themes.title": "Temi",
-		"themes.description": "Collezione artigianale di personalizzazione.",
-		"themes.ports": "Porti",
+		"themes.description": "Una selezione curata di personalizzazioni.",
+		"themes.ports": "Port",
 		"themes.contributors": "Collaboratrici",
 		"themes.search_placeholder": "Cerca temi...",
 		"themes.search_focus_cue": "Premi / per focare",
