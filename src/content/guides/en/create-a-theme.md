@@ -16,7 +16,7 @@ specification](/palette) and your repository resembles our
 2. Build your theme with the official [build
    tool](https://github.com/rose-pine/build) when possible to include all
    three variants.
-3. Submit your theme by [creating an issue] and we'll invite you to
+3. Submit your theme by [creating an issue](https://github.com/rose-pine/rose-pine-theme/issues/new/choose) and we'll invite you to
    organisation.
 
 ## Community repositories
