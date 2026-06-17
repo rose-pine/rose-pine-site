@@ -488,6 +488,15 @@
 		"has_variants": true
 	},
 	{
+		"name": "Super Productivity",
+		"url": "https://github.com/ibeal/rose-pine-super-productivity",
+		"tags": ["app", "productivity", "community"],
+		"authors": [
+			{ "name": "Ian Beal", "url": "https://github.com/ibeal" }
+		],
+		"has_variants": true
+	},
+	{
 		"name": "swaylock",
 		"url": "https://github.com/d2718nis/rose-pine-swaylock",
 		"tags": ["app"],
