@@ -5,7 +5,7 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 108,
-    "updatedAt": "2026-06-15T06:52:58Z",
+    "updatedAt": "2026-06-16T00:58:33Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
   },
@@ -14,8 +14,8 @@
     "homepageUrl": "",
     "name": "zed",
     "repositoryTopics": [],
-    "stargazerCount": 61,
-    "updatedAt": "2026-06-12T22:33:15Z",
+    "stargazerCount": 62,
+    "updatedAt": "2026-06-16T18:21:30Z",
     "url": "https://github.com/rose-pine/zed",
     "usesCustomOpenGraphImage": true
   },
@@ -63,8 +63,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 3035,
-    "updatedAt": "2026-06-15T11:39:08Z",
+    "stargazerCount": 3036,
+    "updatedAt": "2026-06-16T22:36:35Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -348,8 +348,8 @@
     "homepageUrl": "",
     "name": "ghostty",
     "repositoryTopics": [],
-    "stargazerCount": 62,
-    "updatedAt": "2026-05-26T01:13:37Z",
+    "stargazerCount": 63,
+    "updatedAt": "2026-06-16T18:50:59Z",
     "url": "https://github.com/rose-pine/ghostty",
     "usesCustomOpenGraphImage": true
   },
@@ -691,8 +691,8 @@
       "theme",
       "color-palette"
     ],
-    "stargazerCount": 59,
-    "updatedAt": "2026-06-13T03:20:12Z",
+    "stargazerCount": 60,
+    "updatedAt": "2026-06-16T03:20:41Z",
     "url": "https://github.com/rose-pine/waybar",
     "usesCustomOpenGraphImage": true
   },
