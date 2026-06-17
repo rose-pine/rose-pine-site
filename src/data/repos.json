@@ -2,8 +2,8 @@
 	{
 		"slug": "alacritty",
 		"description": "Soho vibes for Alacritty",
-		"stargazersCount": 139,
-		"updatedAt": "2026-03-22T16:17:46Z",
+		"stargazersCount": 144,
+		"updatedAt": "2026-06-13T11:00:24Z",
 		"tags": [
 			"alacritty",
 			"rose-pine",
@@ -106,8 +106,8 @@
 	{
 		"slug": "anytype",
 		"description": "Soho vibes for Anytype",
-		"stargazersCount": 14,
-		"updatedAt": "2026-02-16T05:15:27Z",
+		"stargazersCount": 15,
+		"updatedAt": "2026-05-25T18:02:18Z",
 		"tags": [],
 		"url": "https://github.com/rose-pine/anytype",
 		"name": "Anytype",
@@ -122,6 +122,70 @@
 				"name": "mvllow",
 				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
 				"url": "https://github.com/mvllow"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "figma",
+		"description": null,
+		"stargazersCount": 2,
+		"updatedAt": "2026-06-07T17:23:41Z",
+		"tags": [],
+		"url": "https://github.com/rose-pine/figma",
+		"name": "App",
+		"category": "none",
+		"contributors": [
+			{
+				"name": "elvisdragonmao",
+				"image": "https://avatars.githubusercontent.com/u/61068739?v=4",
+				"url": "https://github.com/elvisdragonmao"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "rmpc",
+		"description": "Soho vibes for rmpc",
+		"stargazersCount": 1,
+		"updatedAt": "2026-06-07T16:31:35Z",
+		"tags": [],
+		"url": "https://github.com/rose-pine/rmpc",
+		"name": "App",
+		"category": "terminal",
+		"contributors": [
+			{
+				"name": "VigneshR387",
+				"image": "https://avatars.githubusercontent.com/u/187846000?v=4",
+				"url": "https://github.com/VigneshR387"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "fvrests",
+				"image": "https://avatars.githubusercontent.com/u/47515065?v=4",
+				"url": "https://github.com/fvrests"
+			}
+		],
+		"children": []
+	},
+	{
+		"slug": "tabby",
+		"description": "Soho vibes for Tabby",
+		"stargazersCount": 0,
+		"updatedAt": "2026-04-30T18:08:18Z",
+		"tags": ["shell", "tabby", "terminal"],
+		"url": "https://github.com/rose-pine/tabby",
+		"name": "App",
+		"category": "terminal",
+		"contributors": [
+			{
+				"name": "amruth-kiran",
+				"image": "https://avatars.githubusercontent.com/u/92013594?v=4",
+				"url": "https://github.com/amruth-kiran"
 			}
 		],
 		"children": []
@@ -254,8 +318,8 @@
 	{
 		"slug": "cava",
 		"description": "Soho vibes for cava",
-		"stargazersCount": 15,
-		"updatedAt": "2026-01-19T21:11:32Z",
+		"stargazersCount": 18,
+		"updatedAt": "2026-06-07T16:26:22Z",
 		"tags": ["cli", "music", "terminal", "theme"],
 		"url": "https://github.com/rose-pine/cava",
 		"name": "cava",
@@ -277,8 +341,8 @@
 	{
 		"slug": "google-chrome",
 		"description": "Soho vibes for Google Chrome",
-		"stargazersCount": 64,
-		"updatedAt": "2026-02-13T22:01:56Z",
+		"stargazersCount": 68,
+		"updatedAt": "2026-04-13T15:37:08Z",
 		"tags": [
 			"chrome",
 			"chrome-theme",
@@ -412,8 +476,8 @@
 	{
 		"slug": "cursor",
 		"description": "Soho vibes for Cursors",
-		"stargazersCount": 158,
-		"updatedAt": "2026-03-23T03:15:21Z",
+		"stargazersCount": 177,
+		"updatedAt": "2026-06-15T04:11:02Z",
 		"tags": [],
 		"url": "https://github.com/rose-pine/cursor",
 		"name": "Cursors",
@@ -445,8 +509,8 @@
 	{
 		"slug": "daisyui",
 		"description": "Soho vibes for daisyUI",
-		"stargazersCount": 20,
-		"updatedAt": "2026-02-11T07:41:25Z",
+		"stargazersCount": 22,
+		"updatedAt": "2026-04-05T18:33:14Z",
 		"tags": ["theme"],
 		"url": "https://github.com/rose-pine/daisyui",
 		"name": "daisyUI",
@@ -468,8 +532,8 @@
 	{
 		"slug": "dark-reader",
 		"description": "Soho vibes for Dark Reader",
-		"stargazersCount": 47,
-		"updatedAt": "2026-03-25T12:59:12Z",
+		"stargazersCount": 49,
+		"updatedAt": "2026-05-26T16:13:07Z",
 		"tags": ["dark-reader", "rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/dark-reader",
 		"name": "Dark Reader",
@@ -519,8 +583,8 @@
 	{
 		"slug": "discord",
 		"description": "Soho vibes for Discord",
-		"stargazersCount": 114,
-		"updatedAt": "2026-02-25T18:51:48Z",
+		"stargazersCount": 121,
+		"updatedAt": "2026-06-10T23:38:11Z",
 		"tags": [
 			"betterdiscord",
 			"discord",
@@ -714,8 +778,8 @@
 	{
 		"slug": "fcitx5",
 		"description": "Soho vibes for fcitx5",
-		"stargazersCount": 6,
-		"updatedAt": "2025-11-15T05:51:29Z",
+		"stargazersCount": 7,
+		"updatedAt": "2026-04-15T08:36:25Z",
 		"tags": ["app", "theme"],
 		"url": "https://github.com/rose-pine/fcitx5",
 		"name": "fcitx5",
@@ -737,8 +801,8 @@
 	{
 		"slug": "firefox",
 		"description": "Soho vibes for Firefox",
-		"stargazersCount": 90,
-		"updatedAt": "2026-03-07T16:20:27Z",
+		"stargazersCount": 100,
+		"updatedAt": "2026-05-16T16:26:04Z",
 		"tags": [
 			"addon",
 			"firefox",
@@ -798,8 +862,8 @@
 	{
 		"slug": "fish",
 		"description": "Soho vibes for fish",
-		"stargazersCount": 42,
-		"updatedAt": "2026-03-21T17:02:09Z",
+		"stargazersCount": 45,
+		"updatedAt": "2026-06-03T23:37:07Z",
 		"tags": ["fish", "rose-pine", "shell", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/fish",
 		"name": "fish",
@@ -826,8 +890,8 @@
 	{
 		"slug": "flow-launcher",
 		"description": "Soho vibes for Flow Launcher",
-		"stargazersCount": 2,
-		"updatedAt": "2025-06-12T16:29:44Z",
+		"stargazersCount": 3,
+		"updatedAt": "2026-03-27T11:22:13Z",
 		"tags": [],
 		"url": "https://github.com/rose-pine/flow-launcher",
 		"name": "Flow Launcher",
@@ -875,7 +939,7 @@
 		"slug": "foot",
 		"description": "Soho vibes for foot",
 		"stargazersCount": 17,
-		"updatedAt": "2026-03-23T23:03:19Z",
+		"updatedAt": "2026-03-28T10:18:31Z",
 		"tags": [
 			"foot",
 			"foot-terminal",
@@ -920,14 +984,9 @@
 				"url": "https://github.com/arthurbacci"
 			},
 			{
-				"name": "void1024",
+				"name": "void8192",
 				"image": "https://avatars.githubusercontent.com/u/45062062?v=4",
-				"url": "https://github.com/void1024"
-			},
-			{
-				"name": "vonkossel",
-				"image": "https://avatars.githubusercontent.com/u/256469383?v=4",
-				"url": "https://github.com/vonkossel"
+				"url": "https://github.com/void8192"
 			}
 		],
 		"children": []
@@ -936,7 +995,7 @@
 		"slug": "fzf",
 		"description": "Soho vibes for fzf",
 		"stargazersCount": 34,
-		"updatedAt": "2026-03-24T10:44:58Z",
+		"updatedAt": "2026-03-28T21:19:14Z",
 		"tags": ["theme"],
 		"url": "https://github.com/rose-pine/fzf",
 		"name": "fzf",
@@ -1034,8 +1093,8 @@
 	{
 		"slug": "ghostty",
 		"description": "Soho vibes for Ghostty",
-		"stargazersCount": 54,
-		"updatedAt": "2026-03-24T12:05:27Z",
+		"stargazersCount": 63,
+		"updatedAt": "2026-06-16T18:50:59Z",
 		"tags": [],
 		"url": "https://github.com/rose-pine/ghostty",
 		"name": "Ghostty",
@@ -1096,8 +1155,8 @@
 	{
 		"slug": "gitkraken",
 		"description": "Soho vibes for GitKraken",
-		"stargazersCount": 6,
-		"updatedAt": "2025-11-05T14:46:30Z",
+		"stargazersCount": 7,
+		"updatedAt": "2026-04-11T01:26:46Z",
 		"tags": ["git", "hacktoberfest", "rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/gitkraken",
 		"name": "GitKraken",
@@ -1185,8 +1244,8 @@
 	{
 		"slug": "gnome-terminal",
 		"description": "Soho vibes for GNOME Terminal",
-		"stargazersCount": 54,
-		"updatedAt": "2026-03-13T08:22:25Z",
+		"stargazersCount": 55,
+		"updatedAt": "2026-04-06T14:03:12Z",
 		"tags": [
 			"gnome-terminal",
 			"hacktoberfest",
@@ -1244,8 +1303,8 @@
 	{
 		"slug": "grub",
 		"description": "Soho vibes for GRUB 2",
-		"stargazersCount": 20,
-		"updatedAt": "2025-11-22T13:20:02Z",
+		"stargazersCount": 21,
+		"updatedAt": "2026-04-27T04:56:17Z",
 		"tags": ["grub", "rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/grub",
 		"name": "GRUB",
@@ -1282,8 +1341,8 @@
 	{
 		"slug": "gtk",
 		"description": "Soho vibes for GTK",
-		"stargazersCount": 325,
-		"updatedAt": "2026-03-25T20:19:05Z",
+		"stargazersCount": 336,
+		"updatedAt": "2026-06-14T12:28:16Z",
 		"tags": ["gtk", "rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/gtk",
 		"name": "GTK",
@@ -1330,9 +1389,9 @@
 				"url": "https://github.com/felipeehm"
 			},
 			{
-				"name": "festiveelephantseal",
+				"name": "raghavken",
 				"image": "https://avatars.githubusercontent.com/u/33642056?v=4",
-				"url": "https://github.com/festiveelephantseal"
+				"url": "https://github.com/raghavken"
 			}
 		],
 		"children": []
@@ -1340,8 +1399,8 @@
 	{
 		"slug": "helix",
 		"description": "Soho vibes for Helix",
-		"stargazersCount": 38,
-		"updatedAt": "2026-03-23T16:19:12Z",
+		"stargazersCount": 39,
+		"updatedAt": "2026-04-16T23:44:06Z",
 		"tags": [
 			"editor",
 			"hacktoberfest",
@@ -1380,6 +1439,11 @@
 				"url": "https://github.com/guillermoap"
 			},
 			{
+				"name": "JTrenerry",
+				"image": "https://avatars.githubusercontent.com/u/105094182?v=4",
+				"url": "https://github.com/JTrenerry"
+			},
+			{
 				"name": "nshern",
 				"image": "https://avatars.githubusercontent.com/u/90867839?v=4",
 				"url": "https://github.com/nshern"
@@ -1395,9 +1459,9 @@
 				"url": "https://github.com/fvrests"
 			},
 			{
-				"name": "skewb1k",
+				"name": "arkriny",
 				"image": "https://avatars.githubusercontent.com/u/101928759?v=4",
-				"url": "https://github.com/skewb1k"
+				"url": "https://github.com/arkriny"
 			}
 		],
 		"children": []
@@ -1478,8 +1542,8 @@
 	{
 		"slug": "hyprland",
 		"description": "Soho vibes for Hyprland ",
-		"stargazersCount": 31,
-		"updatedAt": "2026-03-11T20:48:05Z",
+		"stargazersCount": 34,
+		"updatedAt": "2026-06-17T15:29:08Z",
 		"tags": ["color-palette", "hyprland", "theme", "tiling-window-manager"],
 		"url": "https://github.com/rose-pine/hyprland",
 		"name": "Hyprland",
@@ -1491,14 +1555,14 @@
 				"url": "https://github.com/jishnurajendran"
 			},
 			{
-				"name": "Tasztalos69",
-				"image": "https://avatars.githubusercontent.com/u/42411122?v=4",
-				"url": "https://github.com/Tasztalos69"
-			},
-			{
 				"name": "mvllow",
 				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
 				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "Tasztalos69",
+				"image": "https://avatars.githubusercontent.com/u/42411122?v=4",
+				"url": "https://github.com/Tasztalos69"
 			}
 		],
 		"children": []
@@ -1519,9 +1583,9 @@
 				"url": "https://github.com/mvllow"
 			},
 			{
-				"name": "codepediair",
+				"name": "codepedia-top",
 				"image": "https://avatars.githubusercontent.com/u/25179980?v=4",
-				"url": "https://github.com/codepediair"
+				"url": "https://github.com/codepedia-top"
 			},
 			{
 				"name": "rznn7",
@@ -1564,8 +1628,8 @@
 	{
 		"slug": "iterm",
 		"description": "Soho vibes for iTerm2",
-		"stargazersCount": 138,
-		"updatedAt": "2026-03-19T20:07:05Z",
+		"stargazersCount": 140,
+		"updatedAt": "2026-06-08T02:00:49Z",
 		"tags": [
 			"iterm",
 			"rose-pine",
@@ -1599,8 +1663,8 @@
 	{
 		"slug": "jdownloader",
 		"description": "Soho vibes for JDownloader 2",
-		"stargazersCount": 4,
-		"updatedAt": "2025-11-27T04:25:20Z",
+		"stargazersCount": 5,
+		"updatedAt": "2026-06-10T16:02:38Z",
 		"tags": ["app", "jdownloader", "theme"],
 		"url": "https://github.com/rose-pine/jdownloader",
 		"name": "JDownloader",
@@ -1645,8 +1709,8 @@
 	{
 		"slug": "kitty",
 		"description": "Soho vibes for kitty",
-		"stargazersCount": 117,
-		"updatedAt": "2026-03-21T20:38:56Z",
+		"stargazersCount": 122,
+		"updatedAt": "2026-06-01T11:50:42Z",
 		"tags": [
 			"kitty",
 			"rose-pine",
@@ -1675,8 +1739,8 @@
 	{
 		"slug": "konsole",
 		"description": "Soho vibes for Konsole",
-		"stargazersCount": 16,
-		"updatedAt": "2025-12-27T14:47:49Z",
+		"stargazersCount": 18,
+		"updatedAt": "2026-06-06T07:33:34Z",
 		"tags": [
 			"konsole",
 			"rose-pine",
@@ -1710,8 +1774,8 @@
 	{
 		"slug": "kvantum",
 		"description": "Soho vibes for Kvantum",
-		"stargazersCount": 6,
-		"updatedAt": "2025-11-05T18:42:19Z",
+		"stargazersCount": 7,
+		"updatedAt": "2026-05-04T13:23:20Z",
 		"tags": ["kde", "kvantum", "qt", "rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/kvantum",
 		"name": "Kvantum",
@@ -1733,8 +1797,8 @@
 	{
 		"slug": "lazygit",
 		"description": "Soho vibes for lazygit",
-		"stargazersCount": 5,
-		"updatedAt": "2026-02-28T23:26:31Z",
+		"stargazersCount": 8,
+		"updatedAt": "2026-05-21T05:00:58Z",
 		"tags": [],
 		"url": "https://github.com/rose-pine/lazygit",
 		"name": "lazygit",
@@ -1756,8 +1820,8 @@
 	{
 		"slug": "limine",
 		"description": "Soho vibes for Limine",
-		"stargazersCount": 1,
-		"updatedAt": "2026-02-27T09:11:20Z",
+		"stargazersCount": 4,
+		"updatedAt": "2026-05-26T21:57:51Z",
 		"tags": [
 			"bootloader",
 			"limine",
@@ -1837,11 +1901,6 @@
 				"name": "prateektade",
 				"image": "https://avatars.githubusercontent.com/u/108054324?v=4",
 				"url": "https://github.com/prateektade"
-			},
-			{
-				"name": "quunnb",
-				"image": "https://avatars.githubusercontent.com/u/76442633?v=4",
-				"url": "https://github.com/quunnb"
 			}
 		],
 		"children": []
@@ -1917,8 +1976,8 @@
 	{
 		"slug": "mako",
 		"description": "Soho vibes for mako",
-		"stargazersCount": 3,
-		"updatedAt": "2025-11-05T14:46:57Z",
+		"stargazersCount": 4,
+		"updatedAt": "2026-05-14T18:15:41Z",
 		"tags": ["mako", "theme"],
 		"url": "https://github.com/rose-pine/mako",
 		"name": "mako",
@@ -2027,8 +2086,8 @@
 	{
 		"slug": "misskey",
 		"description": "Soho vibes for Misskey",
-		"stargazersCount": 16,
-		"updatedAt": "2025-12-18T19:37:06Z",
+		"stargazersCount": 17,
+		"updatedAt": "2026-05-18T09:24:36Z",
 		"tags": ["misskey", "misskey-theme", "theme"],
 		"url": "https://github.com/rose-pine/misskey",
 		"name": "Misskey",
@@ -2078,8 +2137,8 @@
 	{
 		"slug": "neovim",
 		"description": "Soho vibes for Neovim",
-		"stargazersCount": 2970,
-		"updatedAt": "2026-03-25T01:12:54Z",
+		"stargazersCount": 3036,
+		"updatedAt": "2026-06-16T22:36:35Z",
 		"tags": [
 			"editor",
 			"lua",
@@ -2162,6 +2221,11 @@
 				"url": "https://github.com/Slotos"
 			},
 			{
+				"name": "bomgar",
+				"image": "https://avatars.githubusercontent.com/u/402052?v=4",
+				"url": "https://github.com/bomgar"
+			},
+			{
 				"name": "kabouzeid",
 				"image": "https://avatars.githubusercontent.com/u/256352301?v=4",
 				"url": "https://github.com/kabouzeid"
@@ -2175,6 +2239,11 @@
 				"name": "briandipalma",
 				"image": "https://avatars.githubusercontent.com/u/1597820?v=4",
 				"url": "https://github.com/briandipalma"
+			},
+			{
+				"name": "HectorOvid",
+				"image": "https://avatars.githubusercontent.com/u/38364108?v=4",
+				"url": "https://github.com/HectorOvid"
 			},
 			{
 				"name": "vlanx",
@@ -2205,11 +2274,6 @@
 				"name": "Pkcarreno",
 				"image": "https://avatars.githubusercontent.com/u/34664891?v=4",
 				"url": "https://github.com/Pkcarreno"
-			},
-			{
-				"name": "bomgar",
-				"image": "https://avatars.githubusercontent.com/u/402052?v=4",
-				"url": "https://github.com/bomgar"
 			},
 			{
 				"name": "VoxelPrismatic",
@@ -2247,14 +2311,9 @@
 				"url": "https://github.com/luissimas"
 			},
 			{
-				"name": "aarnphm",
-				"image": "https://avatars.githubusercontent.com/u/29749331?v=4",
-				"url": "https://github.com/aarnphm"
-			},
-			{
-				"name": "HectorOvid",
-				"image": "https://avatars.githubusercontent.com/u/38364108?v=4",
-				"url": "https://github.com/HectorOvid"
+				"name": "the-spanish-guy",
+				"image": "https://avatars.githubusercontent.com/u/32144508?v=4",
+				"url": "https://github.com/the-spanish-guy"
 			},
 			{
 				"name": "tommarien",
@@ -2297,6 +2356,11 @@
 				"url": "https://github.com/dav-cho"
 			},
 			{
+				"name": "estevesnp",
+				"image": "https://avatars.githubusercontent.com/u/147717227?v=4",
+				"url": "https://github.com/estevesnp"
+			},
+			{
 				"name": "bakageddy",
 				"image": "https://avatars.githubusercontent.com/u/91826760?v=4",
 				"url": "https://github.com/bakageddy"
@@ -2325,6 +2389,11 @@
 				"name": "yuhixyz",
 				"image": "https://avatars.githubusercontent.com/u/50203860?v=4",
 				"url": "https://github.com/yuhixyz"
+			},
+			{
+				"name": "aarnphm",
+				"image": "https://avatars.githubusercontent.com/u/29749331?v=4",
+				"url": "https://github.com/aarnphm"
 			},
 			{
 				"name": "akthe-at",
@@ -2390,6 +2459,11 @@
 				"name": "dhruvinsh",
 				"image": "https://avatars.githubusercontent.com/u/33428164?v=4",
 				"url": "https://github.com/dhruvinsh"
+			},
+			{
+				"name": "Ercument5038",
+				"image": "https://avatars.githubusercontent.com/u/127831257?v=4",
+				"url": "https://github.com/Ercument5038"
 			},
 			{
 				"name": "emilford",
@@ -2465,11 +2539,6 @@
 				"name": "TinusgragLin",
 				"image": "https://avatars.githubusercontent.com/u/57218218?v=4",
 				"url": "https://github.com/TinusgragLin"
-			},
-			{
-				"name": "the-spanish-guy",
-				"image": "https://avatars.githubusercontent.com/u/32144508?v=4",
-				"url": "https://github.com/the-spanish-guy"
 			}
 		],
 		"children": []
@@ -2523,8 +2592,8 @@
 	{
 		"slug": "obs",
 		"description": "Soho vibes for OBS Studio",
-		"stargazersCount": 6,
-		"updatedAt": "2025-11-27T22:54:52Z",
+		"stargazersCount": 7,
+		"updatedAt": "2026-04-02T18:30:07Z",
 		"tags": ["app", "obs", "obsstudio", "theme"],
 		"url": "https://github.com/rose-pine/obs",
 		"name": "OBS Studio",
@@ -2546,8 +2615,8 @@
 	{
 		"slug": "obsidian",
 		"description": "Soho vibes for Obsidian",
-		"stargazersCount": 26,
-		"updatedAt": "2026-02-28T23:30:10Z",
+		"stargazersCount": 28,
+		"updatedAt": "2026-06-07T15:44:06Z",
 		"tags": ["app"],
 		"url": "https://github.com/rose-pine/obsidian",
 		"name": "Obsidian",
@@ -2579,8 +2648,8 @@
 	{
 		"slug": "ollama-webui",
 		"description": "Soho vibes for Ollama WebUI",
-		"stargazersCount": 12,
-		"updatedAt": "2026-03-04T20:57:10Z",
+		"stargazersCount": 14,
+		"updatedAt": "2026-06-01T21:15:48Z",
 		"tags": [],
 		"url": "https://github.com/rose-pine/ollama-webui",
 		"name": "Ollama WebUI",
@@ -2602,8 +2671,8 @@
 	{
 		"slug": "onecommander",
 		"description": "Soho vibes for OneCommander",
-		"stargazersCount": 4,
-		"updatedAt": "2026-03-03T00:42:37Z",
+		"stargazersCount": 5,
+		"updatedAt": "2026-03-28T11:52:39Z",
 		"tags": ["app"],
 		"url": "https://github.com/rose-pine/onecommander",
 		"name": "OneCommander",
@@ -2838,8 +2907,8 @@
 	{
 		"slug": "qbittorrent",
 		"description": "Soho vibes for qBittorrent ",
-		"stargazersCount": 16,
-		"updatedAt": "2026-01-30T03:21:47Z",
+		"stargazersCount": 19,
+		"updatedAt": "2026-05-18T09:24:52Z",
 		"tags": [],
 		"url": "https://github.com/rose-pine/qbittorrent",
 		"name": "qBittorrent",
@@ -2851,9 +2920,9 @@
 				"url": "https://github.com/juliamertz"
 			},
 			{
-				"name": "Xurdejl",
+				"name": "nekoxuee",
 				"image": "https://avatars.githubusercontent.com/u/43864935?v=4",
-				"url": "https://github.com/Xurdejl"
+				"url": "https://github.com/nekoxuee"
 			},
 			{
 				"name": "mvllow",
@@ -3005,8 +3074,8 @@
 	{
 		"slug": "roblox-studio",
 		"description": "Soho vibes for Roblox Studio",
-		"stargazersCount": 2,
-		"updatedAt": "2026-01-01T13:43:58Z",
+		"stargazersCount": 3,
+		"updatedAt": "2026-05-28T03:01:23Z",
 		"tags": ["editor", "roblox-studio", "theme"],
 		"url": "https://github.com/rose-pine/roblox-studio",
 		"name": "Roblox Studio",
@@ -3028,8 +3097,8 @@
 	{
 		"slug": "rofi",
 		"description": "Soho vibes for Rofi",
-		"stargazersCount": 26,
-		"updatedAt": "2026-03-16T23:02:53Z",
+		"stargazersCount": 28,
+		"updatedAt": "2026-06-11T21:57:32Z",
 		"tags": ["theme"],
 		"url": "https://github.com/rose-pine/rofi",
 		"name": "Rofi",
@@ -3057,7 +3126,7 @@
 		"slug": "rstudio",
 		"description": "Soho vibes for Rstudio",
 		"stargazersCount": 2,
-		"updatedAt": "2025-11-05T14:50:47Z",
+		"updatedAt": "2026-04-15T14:04:37Z",
 		"tags": [],
 		"url": "https://github.com/rose-pine/rstudio",
 		"name": "Rstudio",
@@ -3079,8 +3148,8 @@
 	{
 		"slug": "sharex",
 		"description": "Soho vibes for ShareX",
-		"stargazersCount": 4,
-		"updatedAt": "2026-03-19T03:07:49Z",
+		"stargazersCount": 6,
+		"updatedAt": "2026-05-03T12:52:20Z",
 		"tags": ["app", "sharex", "theme"],
 		"url": "https://github.com/rose-pine/sharex",
 		"name": "ShareX",
@@ -3184,7 +3253,7 @@
 		"slug": "st",
 		"description": "Soho vibes for st",
 		"stargazersCount": 10,
-		"updatedAt": "2025-11-30T08:00:59Z",
+		"updatedAt": "2026-04-30T00:24:04Z",
 		"tags": [
 			"rose-pine",
 			"soho-vibes",
@@ -3218,8 +3287,8 @@
 	{
 		"slug": "starship",
 		"description": "Soho vibes for Starship",
-		"stargazersCount": 65,
-		"updatedAt": "2026-03-15T10:27:53Z",
+		"stargazersCount": 74,
+		"updatedAt": "2026-05-29T08:27:29Z",
 		"tags": ["shell", "terminal"],
 		"url": "https://github.com/rose-pine/starship",
 		"name": "Starship",
@@ -3271,8 +3340,8 @@
 	{
 		"slug": "startpage",
 		"description": "Soho vibes for Startpage",
-		"stargazersCount": 30,
-		"updatedAt": "2026-01-30T03:21:53Z",
+		"stargazersCount": 31,
+		"updatedAt": "2026-04-16T12:51:05Z",
 		"tags": ["rose-pine", "soho-vibes", "startpage", "theme"],
 		"url": "https://github.com/rose-pine/startpage",
 		"name": "Startpage",
@@ -3328,7 +3397,7 @@
 		"slug": "sublime-text",
 		"description": "Soho vibes for Sublime Text",
 		"stargazersCount": 32,
-		"updatedAt": "2025-11-05T14:50:56Z",
+		"updatedAt": "2026-05-12T03:51:33Z",
 		"tags": [
 			"hacktoberfest",
 			"rose-pine",
@@ -3417,8 +3486,8 @@
 	{
 		"slug": "surfingkeys",
 		"description": "Soho vibes for Surfingkeys",
-		"stargazersCount": 30,
-		"updatedAt": "2026-02-12T01:58:34Z",
+		"stargazersCount": 32,
+		"updatedAt": "2026-04-30T03:09:41Z",
 		"tags": ["rose-pine", "surfingkeys", "theme"],
 		"url": "https://github.com/rose-pine/surfingkeys",
 		"name": "Surfingkeys",
@@ -3450,8 +3519,8 @@
 	{
 		"slug": "swaync",
 		"description": "Soho vibes for SwayNotificationCenter",
-		"stargazersCount": 23,
-		"updatedAt": "2026-01-09T15:54:38Z",
+		"stargazersCount": 24,
+		"updatedAt": "2026-06-05T22:08:11Z",
 		"tags": ["swaync", "theme"],
 		"url": "https://github.com/rose-pine/swaync",
 		"name": "Sway Notification Center",
@@ -3478,17 +3547,17 @@
 	{
 		"slug": "tailwind-css",
 		"description": "Soho vibes for Tailwind CSS",
-		"stargazersCount": 31,
-		"updatedAt": "2026-02-19T15:49:53Z",
+		"stargazersCount": 30,
+		"updatedAt": "2026-05-16T07:16:57Z",
 		"tags": ["tailwind", "tailwindcss", "theme"],
 		"url": "https://github.com/rose-pine/tailwind-css",
 		"name": "Tailwind CSS",
 		"category": "library",
 		"contributors": [
 			{
-				"name": "GoyoStach",
+				"name": "Goyostash",
 				"image": "https://avatars.githubusercontent.com/u/113206761?v=4",
-				"url": "https://github.com/GoyoStach"
+				"url": "https://github.com/Goyostash"
 			},
 			{
 				"name": "sleepybuildings",
@@ -3524,8 +3593,8 @@
 	{
 		"slug": "terminal.app",
 		"description": "Soho vibes for Terminal.app",
-		"stargazersCount": 43,
-		"updatedAt": "2026-03-07T18:21:31Z",
+		"stargazersCount": 45,
+		"updatedAt": "2026-06-08T23:45:40Z",
 		"tags": [
 			"rose-pine",
 			"soho-vibes",
@@ -3740,8 +3809,8 @@
 	{
 		"slug": "tm-theme",
 		"description": "Soho vibes for TextMate",
-		"stargazersCount": 17,
-		"updatedAt": "2026-03-07T22:46:47Z",
+		"stargazersCount": 18,
+		"updatedAt": "2026-04-19T17:32:55Z",
 		"tags": ["rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/tm-theme",
 		"name": "TextMate",
@@ -3828,8 +3897,8 @@
 	{
 		"slug": "tmux",
 		"description": "Soho vibes for tmux",
-		"stargazersCount": 256,
-		"updatedAt": "2026-03-24T16:21:36Z",
+		"stargazersCount": 266,
+		"updatedAt": "2026-06-15T01:50:05Z",
 		"tags": ["app", "terminal", "theme", "tmux"],
 		"url": "https://github.com/rose-pine/tmux",
 		"name": "tmux",
@@ -3957,8 +4026,8 @@
 	{
 		"slug": "typst",
 		"description": "Soho vibes for Typst",
-		"stargazersCount": 10,
-		"updatedAt": "2026-02-08T10:17:49Z",
+		"stargazersCount": 11,
+		"updatedAt": "2026-05-22T16:15:23Z",
 		"tags": ["theme"],
 		"url": "https://github.com/rose-pine/typst",
 		"name": "Typst",
@@ -3973,6 +4042,11 @@
 				"name": "Iorvethe",
 				"image": "https://avatars.githubusercontent.com/u/58810330?v=4",
 				"url": "https://github.com/Iorvethe"
+			},
+			{
+				"name": "PuddingisPOG",
+				"image": "https://avatars.githubusercontent.com/u/238396589?v=4",
+				"url": "https://github.com/PuddingisPOG"
 			},
 			{
 				"name": "mvllow",
@@ -4008,8 +4082,8 @@
 	{
 		"slug": "userstyles",
 		"description": "Soho vibes for Userstyles",
-		"stargazersCount": 39,
-		"updatedAt": "2026-03-04T21:22:37Z",
+		"stargazersCount": 46,
+		"updatedAt": "2026-06-07T23:39:00Z",
 		"tags": ["css", "stylish", "stylus", "userstyles"],
 		"url": "https://github.com/rose-pine/userstyles",
 		"name": "Userstyles",
@@ -4044,6 +4118,11 @@
 				"name": "revsuine",
 				"image": "https://avatars.githubusercontent.com/u/10424281?v=4",
 				"url": "https://github.com/revsuine"
+			},
+			{
+				"name": "Ari-43",
+				"image": "https://avatars.githubusercontent.com/u/80327369?v=4",
+				"url": "https://github.com/Ari-43"
 			},
 			{
 				"name": "jcyamo",
@@ -4096,8 +4175,8 @@
 	{
 		"slug": "vim",
 		"description": "Soho vibes for Vim",
-		"stargazersCount": 48,
-		"updatedAt": "2026-03-24T15:22:27Z",
+		"stargazersCount": 51,
+		"updatedAt": "2026-06-06T16:28:48Z",
 		"tags": ["editor", "rose-pine", "soho-vibes", "theme", "vim"],
 		"url": "https://github.com/rose-pine/vim",
 		"name": "Vim",
@@ -4122,6 +4201,11 @@
 				"name": "arash28134",
 				"image": "https://avatars.githubusercontent.com/u/74412308?v=4",
 				"url": "https://github.com/arash28134"
+			},
+			{
+				"name": "tjkirch",
+				"image": "https://avatars.githubusercontent.com/u/13994?v=4",
+				"url": "https://github.com/tjkirch"
 			}
 		],
 		"children": []
@@ -4152,8 +4236,8 @@
 	{
 		"slug": "vscode",
 		"description": "Soho vibes for Visual Studio Code",
-		"stargazersCount": 586,
-		"updatedAt": "2026-03-24T04:05:24Z",
+		"stargazersCount": 593,
+		"updatedAt": "2026-06-11T16:46:35Z",
 		"tags": [
 			"editor",
 			"hacktoberfest",
@@ -4194,9 +4278,19 @@
 				"url": "https://github.com/apps/dependabot"
 			},
 			{
+				"name": "amruth-kiran",
+				"image": "https://avatars.githubusercontent.com/u/92013594?v=4",
+				"url": "https://github.com/amruth-kiran"
+			},
+			{
 				"name": "finnjames",
 				"image": "https://avatars.githubusercontent.com/u/21144914?v=4",
 				"url": "https://github.com/finnjames"
+			},
+			{
+				"name": "Hsiii",
+				"image": "https://avatars.githubusercontent.com/u/94444077?v=4",
+				"url": "https://github.com/Hsiii"
 			},
 			{
 				"name": "MenWhoRust",
@@ -4209,9 +4303,9 @@
 				"url": "https://github.com/rphlmr"
 			},
 			{
-				"name": "skewb1k",
+				"name": "arkriny",
 				"image": "https://avatars.githubusercontent.com/u/101928759?v=4",
-				"url": "https://github.com/skewb1k"
+				"url": "https://github.com/arkriny"
 			},
 			{
 				"name": "gwenwindflower",
@@ -4247,8 +4341,8 @@
 	{
 		"slug": "wallpapers",
 		"description": "Soho vibes for Wallpapers",
-		"stargazersCount": 347,
-		"updatedAt": "2026-03-25T15:21:12Z",
+		"stargazersCount": 388,
+		"updatedAt": "2026-06-09T05:12:36Z",
 		"tags": ["rose-pine", "soho-vibes", "theme", "wallpapers"],
 		"url": "https://github.com/rose-pine/wallpapers",
 		"name": "Wallpapers",
@@ -4300,14 +4394,14 @@
 				"url": "https://github.com/TagYurIt"
 			},
 			{
+				"name": "W47K3R9",
+				"image": "https://avatars.githubusercontent.com/u/125679014?v=4",
+				"url": "https://github.com/W47K3R9"
+			},
+			{
 				"name": "neyfua",
 				"image": "https://avatars.githubusercontent.com/u/111333721?v=4",
 				"url": "https://github.com/neyfua"
-			},
-			{
-				"name": "nnHomoli",
-				"image": "https://avatars.githubusercontent.com/u/68507997?v=4",
-				"url": "https://github.com/nnHomoli"
 			},
 			{
 				"name": "vidy007",
@@ -4320,8 +4414,8 @@
 	{
 		"slug": "waybar",
 		"description": "Soho vibes for Waybar",
-		"stargazersCount": 59,
-		"updatedAt": "2026-03-26T00:50:35Z",
+		"stargazersCount": 60,
+		"updatedAt": "2026-06-16T03:20:41Z",
 		"tags": ["color-palette", "theme"],
 		"url": "https://github.com/rose-pine/waybar",
 		"name": "Waybar",
@@ -4366,8 +4460,8 @@
 	{
 		"slug": "windows-terminal",
 		"description": "Soho vibes for Windows Terminal",
-		"stargazersCount": 106,
-		"updatedAt": "2026-03-20T13:26:24Z",
+		"stargazersCount": 112,
+		"updatedAt": "2026-06-14T17:12:16Z",
 		"tags": [
 			"rose-pine",
 			"soho-vibes",
@@ -4391,6 +4485,11 @@
 				"url": "https://github.com/mvllow"
 			},
 			{
+				"name": "Omenabaka",
+				"image": "https://avatars.githubusercontent.com/u/592695?v=4",
+				"url": "https://github.com/Omenabaka"
+			},
+			{
 				"name": "maxstollmayer",
 				"image": "https://avatars.githubusercontent.com/u/63783301?v=4",
 				"url": "https://github.com/maxstollmayer"
@@ -4406,8 +4505,8 @@
 	{
 		"slug": "writefreely",
 		"description": "Soho vibes for WriteFreely",
-		"stargazersCount": 5,
-		"updatedAt": "2025-12-23T16:58:21Z",
+		"stargazersCount": 6,
+		"updatedAt": "2026-06-03T18:08:33Z",
 		"tags": ["theme"],
 		"url": "https://github.com/rose-pine/writefreely",
 		"name": "WriteFreely",
@@ -4429,8 +4528,8 @@
 	{
 		"slug": "xfce-terminal",
 		"description": "Soho vibes for XFCE4 Terminal",
-		"stargazersCount": 17,
-		"updatedAt": "2026-02-02T12:35:36Z",
+		"stargazersCount": 18,
+		"updatedAt": "2026-04-07T18:08:39Z",
 		"tags": [
 			"rose-pine",
 			"soho-vibes",
@@ -4492,8 +4591,8 @@
 	{
 		"slug": "yazi",
 		"description": "Soho vibes for Yazi",
-		"stargazersCount": 10,
-		"updatedAt": "2026-03-22T17:09:02Z",
+		"stargazersCount": 16,
+		"updatedAt": "2026-05-18T07:17:46Z",
 		"tags": [],
 		"url": "https://github.com/rose-pine/yazi",
 		"name": "Yazi",
@@ -4520,8 +4619,8 @@
 	{
 		"slug": "zed",
 		"description": "Soho vibes for Zed",
-		"stargazersCount": 54,
-		"updatedAt": "2026-03-22T16:16:26Z",
+		"stargazersCount": 62,
+		"updatedAt": "2026-06-16T18:21:30Z",
 		"tags": [],
 		"url": "https://github.com/rose-pine/zed",
 		"name": "Zed",
@@ -4538,9 +4637,9 @@
 				"url": "https://github.com/invranet"
 			},
 			{
-				"name": "skewb1k",
+				"name": "arkriny",
 				"image": "https://avatars.githubusercontent.com/u/101928759?v=4",
-				"url": "https://github.com/skewb1k"
+				"url": "https://github.com/arkriny"
 			},
 			{
 				"name": "Angelk90",
@@ -4558,6 +4657,11 @@
 				"url": "https://github.com/ryanolsonx"
 			},
 			{
+				"name": "thoov",
+				"image": "https://avatars.githubusercontent.com/u/166909?v=4",
+				"url": "https://github.com/thoov"
+			},
+			{
 				"name": "mvllow",
 				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
 				"url": "https://github.com/mvllow"
@@ -4568,8 +4672,8 @@
 	{
 		"slug": "zellij",
 		"description": "Soho vibes for Zellij",
-		"stargazersCount": 41,
-		"updatedAt": "2026-03-20T04:36:55Z",
+		"stargazersCount": 45,
+		"updatedAt": "2026-05-07T00:11:01Z",
 		"tags": ["rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/zellij",
 		"name": "Zellij",
@@ -4601,8 +4705,8 @@
 	{
 		"slug": "zen-browser",
 		"description": "Soho vibes for Zen Browser",
-		"stargazersCount": 25,
-		"updatedAt": "2026-03-23T21:17:32Z",
+		"stargazersCount": 29,
+		"updatedAt": "2026-06-07T05:18:19Z",
 		"tags": ["app"],
 		"url": "https://github.com/rose-pine/zen-browser",
 		"name": "Zen Browser",
@@ -4612,6 +4716,16 @@
 				"name": "wzykubek",
 				"image": "https://avatars.githubusercontent.com/u/37913333?v=4",
 				"url": "https://github.com/wzykubek"
+			},
+			{
+				"name": "pseja",
+				"image": "https://avatars.githubusercontent.com/u/68597517?v=4",
+				"url": "https://github.com/pseja"
+			},
+			{
+				"name": "Abdullah-Kamil",
+				"image": "https://avatars.githubusercontent.com/u/164063818?v=4",
+				"url": "https://github.com/Abdullah-Kamil"
 			},
 			{
 				"name": "Lalit64",
