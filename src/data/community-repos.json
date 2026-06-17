@@ -552,6 +552,18 @@
 		"category": "social"
 	},
 	{
+		"name": "Nimbalyst",
+		"url": "https://github.com/omartelo/rose-pine-nimbalyst",
+		"tags": [],
+		"contributors": [
+			{
+				"name": "martelo",
+				"url": "https://github.com/omartelo"
+			}
+		],
+		"category": "editor"
+	},
+	{
 		"name": "Notepad++",
 		"url": "https://github.com/aaravind100/notepad-plus-plus",
 		"tags": [],
