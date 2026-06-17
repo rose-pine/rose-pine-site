@@ -692,5 +692,14 @@
 			{ "name": "ravenothere", "url": "https://github.com/ravenothere" }
 		],
 		"has_variants": true
+	},
+	{
+		"name": "Yatline",
+		"url": "https://github.com/VigneshR387/yatline-rosepine.yazi",
+		"tags": ["yazi"],
+		"authors": [
+			{ "name": "Greezemonkey", "url": "https://github.com/VigneshR387" }
+		],
+		"has_variants": true
 	}
 ]
