@@ -165,6 +165,15 @@
 		"has_variants": true
 	},
 	{
+		"name": "HeliBoard",
+		"url": "https://github.com/Star-Trowa/heliboard",
+		"tags": ["android", "keyboard"],
+		"authors": [
+			{ "name": "Star", "url": "https://github.com/Star-Trowa" }
+		],
+		"has_variants": true
+	},
+	{
 		"name": "Home Assistant",
 		"url": "https://github.com/jorismertz/homeassistant-rosepine-theme",
 		"tags": ["web", "web-ui"],
