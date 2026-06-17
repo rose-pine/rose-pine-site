@@ -213,10 +213,10 @@
 				</Command.List>
 
 				<div
-					class="fixed inset-x-0 top-0 h-3 bg-linear-to-b from-surface/95 md:top-[calc(var(--input-height)+1px)]"
+					class="fixed inset-x-0 top-0 h-3 bg-linear-to-b from-surface/95 to-surface/1 md:top-[calc(var(--input-height)+1px)]"
 				></div>
 				<div
-					class="fixed inset-x-0 bottom-[calc(var(--input-height)+1px)] h-3 bg-linear-to-t from-surface/95 md:bottom-0 md:h-6"
+					class="fixed inset-x-0 bottom-[calc(var(--input-height)+1px)] h-3 bg-linear-to-t from-surface/95 to-surface/1 md:bottom-0 md:h-6"
 				></div>
 			</Command.Root>
 		</Dialog.Content>
