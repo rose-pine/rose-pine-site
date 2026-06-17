@@ -276,6 +276,18 @@
 		"category": "terminal"
 	},
 	{
+		"name": "Glow",
+		"url": "https://github.com/drluckyspin/rose-pine-glow",
+		"tags": ["markdown"],
+		"contributors": [
+			{
+				"name": "drluckyspin",
+				"url": "https://github.com/drluckyspin"
+			}
+		],
+		"category": "terminal"
+	},
+	{
 		"name": "Gradience Presets",
 		"url": "https://github.com/gradience-presets?q=rose&type=all&sort=",
 		"tags": ["adwaita"],
