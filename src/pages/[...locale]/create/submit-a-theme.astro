@@ -1,4 +1,5 @@
 ---
+import { SendIcon } from "@lucide/astro";
 import IntroSection from "../../../components/intro-section.astro";
 import categories from "../../../data/categories.json";
 import Page from "../../../layouts/page.astro";
@@ -52,7 +53,7 @@ let t = useTranslations(locale);
 						required
 						id="repository-category"
 						name="repository-category"
-						class="h-10 appearance-none rounded-sm border border-muted/20 px-3 font-mono capitalize placeholder-muted placeholder:text-sm"
+						class="h-10 appearance-none rounded-sm border border-muted/20 px-3 font-mono text-sm capitalize placeholder-muted placeholder:text-sm"
 					>
 						{
 							categories.map((category) => (
@@ -64,9 +65,14 @@ let t = useTranslations(locale);
 				<div>
 					<button
 						type="submit"
-						class="flex shrink-0 items-center gap-2.5 rounded-lg border border-pine/20 bg-pine/90 px-4 py-2.5 font-medium text-surface shadow-sm shadow-pine/30 transition select-none hover:bg-pine dark:text-text"
-						>{t("submit.form.primary_action")}</button
+						class="group/cta flex h-8 shrink-0 items-center gap-2 rounded-lg border-2 border-text ps-3 pe-4 font-serif font-medium italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
 					>
+						<SendIcon
+							size="16"
+							class="transition-transform group-hover/cta:-rotate-3"
+						/>
+						<span class="pb-px">{t("submit.form.primary_action")}</span>
+					</button>
 				</div>
 			</form>
 		</div>
