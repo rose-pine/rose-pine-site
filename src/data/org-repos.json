@@ -1,12 +1,37 @@
 [
   {
+    "description": "Rosé Pine community health files",
+    "homepageUrl": "",
+    "name": ".github",
+    "repositoryTopics": [],
+    "stargazerCount": 2,
+    "updatedAt": "2026-06-17T20:22:31Z",
+    "url": "https://github.com/rose-pine/.github",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "The Rosé Pine garden",
     "homepageUrl": "https://rosepinetheme.com",
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 108,
-    "updatedAt": "2026-06-16T00:58:33Z",
+    "updatedAt": "2026-06-17T16:37:09Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Soho vibes for Hyprland ",
+    "homepageUrl": "",
+    "name": "hyprland",
+    "repositoryTopics": [
+      "color-palette",
+      "hyprland",
+      "tiling-window-manager",
+      "theme"
+    ],
+    "stargazerCount": 34,
+    "updatedAt": "2026-06-17T15:29:08Z",
+    "url": "https://github.com/rose-pine/hyprland",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -63,8 +88,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 3036,
-    "updatedAt": "2026-06-16T22:36:35Z",
+    "stargazerCount": 3037,
+    "updatedAt": "2026-06-17T22:13:45Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -224,8 +249,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 266,
-    "updatedAt": "2026-06-15T01:50:05Z",
+    "stargazerCount": 267,
+    "updatedAt": "2026-06-18T00:32:11Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -450,16 +475,6 @@
     "usesCustomOpenGraphImage": true
   },
   {
-    "description": "Rosé Pine community health files",
-    "homepageUrl": "",
-    "name": ".github",
-    "repositoryTopics": [],
-    "stargazerCount": 2,
-    "updatedAt": "2025-12-10T14:31:32Z",
-    "url": "https://github.com/rose-pine/.github",
-    "usesCustomOpenGraphImage": true
-  },
-  {
     "description": "Soho vibes for Terminator",
     "homepageUrl": "",
     "name": "terminator",
@@ -538,8 +553,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1577,
-    "updatedAt": "2026-06-15T08:27:27Z",
+    "stargazerCount": 1578,
+    "updatedAt": "2026-06-17T22:57:03Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1525,21 +1540,6 @@
     "stargazerCount": 15,
     "updatedAt": "2026-03-23T21:10:48Z",
     "url": "https://github.com/rose-pine/i3",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Hyprland ",
-    "homepageUrl": "",
-    "name": "hyprland",
-    "repositoryTopics": [
-      "color-palette",
-      "hyprland",
-      "tiling-window-manager",
-      "theme"
-    ],
-    "stargazerCount": 34,
-    "updatedAt": "2026-06-07T04:40:40Z",
-    "url": "https://github.com/rose-pine/hyprland",
     "usesCustomOpenGraphImage": true
   },
   {
