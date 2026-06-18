@@ -39,7 +39,7 @@ export default defineLocale({
 		"home.description":
 			"All natural pine, faux fur and a bit of soho vibes for the classy minimalist.",
 		"home.primary_action": "Explore themes",
-		"home.feature.colours_and_community.title": "Colours & Community",
+		"home.feature.colours_and_community.title": "Colours & community",
 		"home.feature.colours_and_community.description":
 			"Rosé Pine is an elegant palette featured in over {{REPOS_COUNT}} of your favourite apps, thanks to our lovely and generous contributors.",
 		"home.feature.passionately_subtle.title": "Passionately subtle",

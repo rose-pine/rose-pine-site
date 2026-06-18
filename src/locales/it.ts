@@ -39,7 +39,7 @@ export default defineLocale({
 		"home.description":
 			"Pino naturale, pelliccia sintetica e un pizzico di stile Soho per il minimalista raffinato.",
 		"home.primary_action": "Esplora i temi",
-		"home.feature.colours_and_community.title": "Colori & Comunità",
+		"home.feature.colours_and_community.title": "Colori & community",
 		"home.feature.colours_and_community.description":
 			"Rosé Pine è un'elegante palette presente in oltre {{REPOS_COUNT}} delle tue app preferite, grazie ai nostri piacevoli e generosi collaboratori.",
 		"home.feature.passionately_subtle.title": "Appassionatamente discreto",
