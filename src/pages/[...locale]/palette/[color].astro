@@ -1,5 +1,6 @@
 ---
 import { getCollection, getEntry, render } from "astro:content";
+import ColorSwatch from "../../../components/color-swatch.svelte";
 import palette from "../../../data/palette.json";
 import Page from "../../../layouts/page.astro";
 import {
@@ -59,11 +60,7 @@ const allColors = (
 			<article>
 				<div>
 					<div class="animate-enter mb-8" style="--stagger: 1">
-						<div
-							class="size-12 rounded-lg border border-muted/10"
-							style={`background: var(--color-${color})`}
-						>
-						</div>
+						<ColorSwatch color={color} size="lg" />
 					</div>
 					<h1
 						class="animate-enter mb-4 max-w-2xl text-4xl font-bold tracking-tight text-balance capitalize sm:text-6xl"
@@ -103,10 +100,7 @@ const allColors = (
 													: "font-sans text-subtle transition hover:text-text",
 											]}
 										>
-											<div
-												class="size-5 rounded-md border border-muted/10"
-												style={`background: var(--color-${name})`}
-											/>
+											<ColorSwatch color={slug} size="sm" />
 											{name}
 										</a>
 									</li>

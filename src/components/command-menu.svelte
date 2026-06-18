@@ -17,6 +17,7 @@
 		useTranslations,
 	} from "../utilities/i18n";
 	import { isValidIconCategory } from "../utilities/icons";
+	import ColorSwatch from "./color-swatch.svelte";
 	import DiscordIcon from "./discord-icon.svelte";
 	import GithubIcon from "./github-icon.svelte";
 	import ThemeIcon from "./theme-icon.svelte";
@@ -188,10 +189,7 @@
 												</div>
 											{:else}
 												<div class="flex size-6 items-center justify-center">
-													<div
-														class="size-4 rounded-lg border border-muted/20"
-														style:background="var(--color-{icon})"
-													></div>
+													<ColorSwatch color={icon} size="sm" />
 												</div>
 											{/if}
 											<div
