@@ -1,6 +1,9 @@
 ---
-description: Low contrast foreground — ignored content including disabled elements and unfocused text.
+description: Low contrast foreground
 ---
 
-- Ignored content, e.g. ignored Git files
+- Comments, documentation prose
+- Line numbers, scrollbar miscellanea
+- Non-text characters, e.g. whitespace markers, delimiters
+- Disabled / dimmed UI labels
 - Terminal bright black

@@ -2,6 +2,6 @@
 description: A beautiful yet cautious blossom
 ---
 
-- Matching search background paired with base foreground
-- Modified Git files
+- Function calls, method names, built-ins
+- Modified content (e.g. Git diff)
 - Terminal cyan, bright cyan

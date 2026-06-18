@@ -1,8 +1,9 @@
 ---
-description: Tertiary background atop surface — more temporary panels including popovers, notifications, and dialogs.
+description: Tertiary background atop surface
 ---
 
-- Active backgrounds, e.g. tabs, list items
-- High contrast inputs, e.g. text search, checkboxes
-- Hover selections
+- Active / hovered list items, tabs, sidebar entries
+- Visual selection highlight
+- Search match backgrounds
+- Elevated surfaces, e.g. tooltips, dialogs
 - Terminal black

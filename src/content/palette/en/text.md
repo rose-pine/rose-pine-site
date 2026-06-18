@@ -1,8 +1,9 @@
 ---
-description: High contrast foreground — primary content including normal text, variables, and active content.
+description: High contrast foreground
 ---
 
-- Active foregrounds, e.g. tabs, list items
-- Cursor foreground paired with highlight high background
-- Selection foreground paired with highlight med background
+- Body text, variable names, identifiers
+- Active tab / item foreground
+- Cursor colour paired with [Highlight High](/palette/highlight-high) background
+- Selection foreground paired with [Highlight Med](/palette/highlight-med) background
 - Terminal white, bright white

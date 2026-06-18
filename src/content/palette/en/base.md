@@ -1,6 +1,7 @@
 ---
-description: Primary background — main and accessory panels including application frames, sidebars, tabs, and extensions to the focal context.
+description: Primary background
 ---
 
-- General background, e.g. windows, tabs
-- Extended panels, e.g. sidebars
+- Editor / document background
+- Main application panels, e.g. sidebars, file trees
+- Colour against which semi-transparent elements are composited

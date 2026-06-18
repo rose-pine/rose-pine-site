@@ -2,6 +2,7 @@
 description: Saltwater tidepools
 ---
 
-- Diagnostic information
-- Git additions
+- Informational signals
+- Type annotations, language types
+- Tag names (e.g. HTML, XML)
 - Terminal blue, bright blue

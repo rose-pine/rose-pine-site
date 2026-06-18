@@ -2,6 +2,6 @@
 description: Per favore ama tutti
 ---
 
-- Diagnostic errors
-- Deleted Git files
+- Errors, destructive actions
+- Deletions, removed content (e.g. Git diff)
 - Terminal red, bright red

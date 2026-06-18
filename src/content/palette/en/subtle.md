@@ -1,5 +1,8 @@
 ---
-description: Medium contrast foreground — secondary content including comments, punctuation, and tab names.
+description: Medium contrast foreground
 ---
 
-- Inactive foregrounds, e.g. tabs, list items
+- Secondary text, e.g. labels, tab titles, breadcrumbs
+- Placeholder text in inputs
+- Inactive / unfocussed pane foreground
+- Punctuation, operators
