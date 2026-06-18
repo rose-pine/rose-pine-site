@@ -35,8 +35,8 @@ const allColors = (
 	await getCollection("palette", ({ id }) => id.startsWith("en/"))
 ).sort(
 	(a, b) =>
-		paletteOrder.indexOf(a.id.replace("en/", "")) -
-		paletteOrder.indexOf(b.id.replace("en/", "")),
+		paletteOrder.indexOf(a.id.replace("en/", "").replace(/-/g, " ")) -
+		paletteOrder.indexOf(b.id.replace("en/", "").replace(/-/g, " ")),
 );
 ---
 
@@ -66,7 +66,7 @@ const allColors = (
 						class="animate-enter mb-4 max-w-2xl text-4xl font-bold tracking-tight text-balance capitalize sm:text-6xl"
 						style="--stagger: 1"
 					>
-						{color}
+						{color.replace("-", " ")}
 					</h1>
 					<p
 						class="animate-enter mb-12 max-w-md font-serif text-xl text-subtle italic"
@@ -88,11 +88,12 @@ const allColors = (
 					<ul role="list" class="flex flex-col gap-2">
 						{
 							allColors.map(({ id }) => {
-								const name = id.replace("en/", "");
+								const slug = id.replace("en/", "");
+								const name = slug.replace("-", " ");
 								return (
 									<li>
 										<a
-											href={translatePath(`/palette/${name}`)}
+											href={translatePath(`/palette/${slug}`)}
 											class:list={[
 												"inline-flex items-center gap-2 font-medium capitalize",
 												name === color

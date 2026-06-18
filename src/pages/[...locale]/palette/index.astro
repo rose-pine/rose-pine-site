@@ -99,7 +99,9 @@ let variants = objectKeys(palette);
 													<td class="ps-(--card-gutter)">
 														<div class="flex">
 															<a
-																href={translatePath(`/palette/${color.role}`)}
+																href={translatePath(
+																	`/palette/${color.role.replace(" ", "-")}`,
+																)}
 																class="flex items-center gap-2 rounded-(--card-inner-radius) px-(--cell-offset) py-[calc(var(--cell-offset)/2)] hover:bg-muted/10"
 															>
 																<div
