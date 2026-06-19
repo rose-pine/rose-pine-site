@@ -1,13 +1,13 @@
 [
   {
-    "description": "Rosé Pine community health files",
+    "description": "Homebrew tap repo for Rosé Pine",
     "homepageUrl": "",
-    "name": ".github",
+    "name": "homebrew-tap",
     "repositoryTopics": [],
-    "stargazerCount": 2,
-    "updatedAt": "2026-06-17T20:22:31Z",
-    "url": "https://github.com/rose-pine/.github",
-    "usesCustomOpenGraphImage": true
+    "stargazerCount": 0,
+    "updatedAt": "2026-06-18T19:28:53Z",
+    "url": "https://github.com/rose-pine/homebrew-tap",
+    "usesCustomOpenGraphImage": false
   },
   {
     "description": "The Rosé Pine garden",
@@ -15,8 +15,18 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 108,
-    "updatedAt": "2026-06-17T16:37:09Z",
+    "updatedAt": "2026-06-18T00:52:51Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Rosé Pine community health files",
+    "homepageUrl": "",
+    "name": ".github",
+    "repositoryTopics": [],
+    "stargazerCount": 2,
+    "updatedAt": "2026-06-17T20:22:31Z",
+    "url": "https://github.com/rose-pine/.github",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -89,7 +99,7 @@
       "editor"
     ],
     "stargazerCount": 3037,
-    "updatedAt": "2026-06-17T22:13:45Z",
+    "updatedAt": "2026-06-18T14:13:25Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -175,8 +185,8 @@
       "userstyles",
       "stylus"
     ],
-    "stargazerCount": 46,
-    "updatedAt": "2026-06-07T23:39:00Z",
+    "stargazerCount": 47,
+    "updatedAt": "2026-06-18T04:14:37Z",
     "url": "https://github.com/rose-pine/userstyles",
     "usesCustomOpenGraphImage": true
   },
@@ -249,8 +259,8 @@
       "tmux",
       "theme"
     ],
-    "stargazerCount": 267,
-    "updatedAt": "2026-06-18T00:32:11Z",
+    "stargazerCount": 268,
+    "updatedAt": "2026-06-18T21:19:19Z",
     "url": "https://github.com/rose-pine/tmux",
     "usesCustomOpenGraphImage": true
   },
@@ -519,16 +529,6 @@
     "updatedAt": "2026-06-13T11:00:24Z",
     "url": "https://github.com/rose-pine/alacritty",
     "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Homebrew tap repo for Rosé Pine",
-    "homepageUrl": "",
-    "name": "homebrew-tap",
-    "repositoryTopics": [],
-    "stargazerCount": 0,
-    "updatedAt": "2025-11-19T19:53:54Z",
-    "url": "https://github.com/rose-pine/homebrew-tap",
-    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Soho vibes for Rofi",
@@ -1566,8 +1566,8 @@
     "repositoryTopics": [
       "theme"
     ],
-    "stargazerCount": 5,
-    "updatedAt": "2025-11-05T14:46:38Z",
+    "stargazerCount": 6,
+    "updatedAt": "2026-06-18T20:05:53Z",
     "url": "https://github.com/rose-pine/hljs",
     "usesCustomOpenGraphImage": true
   },
