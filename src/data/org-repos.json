@@ -1,12 +1,12 @@
 [
   {
-    "description": "Homebrew tap repo for Rosé Pine",
+    "description": "Generate Rosé Pine themes",
     "homepageUrl": "",
-    "name": "homebrew-tap",
+    "name": "rose-pine-bloom",
     "repositoryTopics": [],
-    "stargazerCount": 0,
-    "updatedAt": "2026-06-18T19:28:53Z",
-    "url": "https://github.com/rose-pine/homebrew-tap",
+    "stargazerCount": 20,
+    "updatedAt": "2026-06-19T21:04:59Z",
+    "url": "https://github.com/rose-pine/rose-pine-bloom",
     "usesCustomOpenGraphImage": false
   },
   {
@@ -15,9 +15,19 @@
     "name": "rose-pine-site",
     "repositoryTopics": [],
     "stargazerCount": 108,
-    "updatedAt": "2026-06-18T00:52:51Z",
+    "updatedAt": "2026-06-19T00:57:24Z",
     "url": "https://github.com/rose-pine/rose-pine-site",
     "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "Homebrew tap repo for Rosé Pine",
+    "homepageUrl": "",
+    "name": "homebrew-tap",
+    "repositoryTopics": [],
+    "stargazerCount": 0,
+    "updatedAt": "2026-06-18T19:28:53Z",
+    "url": "https://github.com/rose-pine/homebrew-tap",
+    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Rosé Pine community health files",
@@ -98,8 +108,8 @@
       "vim-theme",
       "editor"
     ],
-    "stargazerCount": 3037,
-    "updatedAt": "2026-06-18T14:13:25Z",
+    "stargazerCount": 3038,
+    "updatedAt": "2026-06-19T18:42:07Z",
     "url": "https://github.com/rose-pine/neovim",
     "usesCustomOpenGraphImage": true
   },
@@ -121,16 +131,6 @@
     "updatedAt": "2026-06-11T16:46:35Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Generate Rosé Pine themes",
-    "homepageUrl": "",
-    "name": "rose-pine-bloom",
-    "repositoryTopics": [],
-    "stargazerCount": 20,
-    "updatedAt": "2026-05-11T23:16:20Z",
-    "url": "https://github.com/rose-pine/rose-pine-bloom",
-    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Soho vibes for Typst",
@@ -363,8 +363,8 @@
       "addon",
       "firefox-extension"
     ],
-    "stargazerCount": 100,
-    "updatedAt": "2026-05-16T16:26:04Z",
+    "stargazerCount": 99,
+    "updatedAt": "2026-06-19T11:33:12Z",
     "url": "https://github.com/rose-pine/firefox",
     "usesCustomOpenGraphImage": true
   },
@@ -1834,8 +1834,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 177,
-    "updatedAt": "2026-06-15T04:11:02Z",
+    "stargazerCount": 178,
+    "updatedAt": "2026-06-19T06:19:20Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
