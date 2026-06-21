@@ -1,5 +1,30 @@
 [
   {
+    "description": "Soho vibes for Hyprland ",
+    "homepageUrl": "",
+    "name": "hyprland",
+    "repositoryTopics": [
+      "color-palette",
+      "hyprland",
+      "tiling-window-manager",
+      "theme"
+    ],
+    "stargazerCount": 34,
+    "updatedAt": "2026-06-20T11:52:51Z",
+    "url": "https://github.com/rose-pine/hyprland",
+    "usesCustomOpenGraphImage": true
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 108,
+    "updatedAt": "2026-06-20T00:48:03Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Generate Rosé Pine themes",
     "homepageUrl": "",
     "name": "rose-pine-bloom",
@@ -8,16 +33,6 @@
     "updatedAt": "2026-06-19T21:04:59Z",
     "url": "https://github.com/rose-pine/rose-pine-bloom",
     "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 108,
-    "updatedAt": "2026-06-19T00:57:24Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
   },
   {
     "description": "Homebrew tap repo for Rosé Pine",
@@ -37,21 +52,6 @@
     "stargazerCount": 2,
     "updatedAt": "2026-06-17T20:22:31Z",
     "url": "https://github.com/rose-pine/.github",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Soho vibes for Hyprland ",
-    "homepageUrl": "",
-    "name": "hyprland",
-    "repositoryTopics": [
-      "color-palette",
-      "hyprland",
-      "tiling-window-manager",
-      "theme"
-    ],
-    "stargazerCount": 34,
-    "updatedAt": "2026-06-17T15:29:08Z",
-    "url": "https://github.com/rose-pine/hyprland",
     "usesCustomOpenGraphImage": true
   },
   {
@@ -185,8 +185,8 @@
       "userstyles",
       "stylus"
     ],
-    "stargazerCount": 47,
-    "updatedAt": "2026-06-18T04:14:37Z",
+    "stargazerCount": 48,
+    "updatedAt": "2026-06-20T05:51:23Z",
     "url": "https://github.com/rose-pine/userstyles",
     "usesCustomOpenGraphImage": true
   },
@@ -553,8 +553,8 @@
       "palette",
       "aesthetic"
     ],
-    "stargazerCount": 1578,
-    "updatedAt": "2026-06-17T22:57:03Z",
+    "stargazerCount": 1579,
+    "updatedAt": "2026-06-20T05:49:26Z",
     "url": "https://github.com/rose-pine/rose-pine-theme",
     "usesCustomOpenGraphImage": true
   },
@@ -1554,8 +1554,8 @@
       "terminal",
       "terminal-emulator"
     ],
-    "stargazerCount": 37,
-    "updatedAt": "2025-12-04T05:06:58Z",
+    "stargazerCount": 38,
+    "updatedAt": "2026-06-20T04:08:26Z",
     "url": "https://github.com/rose-pine/hyper",
     "usesCustomOpenGraphImage": true
   },
@@ -1834,8 +1834,8 @@
     "homepageUrl": "",
     "name": "cursor",
     "repositoryTopics": [],
-    "stargazerCount": 178,
-    "updatedAt": "2026-06-19T06:19:20Z",
+    "stargazerCount": 179,
+    "updatedAt": "2026-06-20T05:30:32Z",
     "url": "https://github.com/rose-pine/cursor",
     "usesCustomOpenGraphImage": true
   },
