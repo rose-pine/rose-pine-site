@@ -2,6 +2,10 @@
 	color: var(--color-text);
 }
 
+.prose :where(h1, h2, h3, h4) {
+	color: var(--color-text);
+}
+
 .prose a {
 	color: var(--color-iris);
 	text-underline-offset: 2px;
