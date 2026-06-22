@@ -54,19 +54,17 @@ let dir = languages[locale]?.dir ?? "ltr";
 				</div>
 			</div>
 
-			<div class="pancake-stack min-h-dvh gap-page-start">
+			<div class="flex min-h-dvh flex-col gap-page-start">
 				<div>
 					<Header />
 				</div>
 
-				<main id="content" class="max-w-screen">
+				<main id="content" class="max-w-screen flex-1">
 					<slot />
 				</main>
-
-				<div>
-					<Footer />
-				</div>
 			</div>
+
+			<Footer />
 		</div>
 	</body>
 </html>
