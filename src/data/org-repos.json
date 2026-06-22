@@ -1,5 +1,35 @@
 [
   {
+    "description": "Homebrew tap repo for Rosé Pine",
+    "homepageUrl": "",
+    "name": "homebrew-tap",
+    "repositoryTopics": [],
+    "stargazerCount": 0,
+    "updatedAt": "2026-06-21T23:47:04Z",
+    "url": "https://github.com/rose-pine/homebrew-tap",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "Generate Rosé Pine themes",
+    "homepageUrl": "",
+    "name": "rose-pine-bloom",
+    "repositoryTopics": [],
+    "stargazerCount": 20,
+    "updatedAt": "2026-06-21T23:15:24Z",
+    "url": "https://github.com/rose-pine/rose-pine-bloom",
+    "usesCustomOpenGraphImage": false
+  },
+  {
+    "description": "The Rosé Pine garden",
+    "homepageUrl": "https://rosepinetheme.com",
+    "name": "rose-pine-site",
+    "repositoryTopics": [],
+    "stargazerCount": 108,
+    "updatedAt": "2026-06-21T00:52:48Z",
+    "url": "https://github.com/rose-pine/rose-pine-site",
+    "usesCustomOpenGraphImage": true
+  },
+  {
     "description": "Soho vibes for Hyprland ",
     "homepageUrl": "",
     "name": "hyprland",
@@ -13,36 +43,6 @@
     "updatedAt": "2026-06-20T11:52:51Z",
     "url": "https://github.com/rose-pine/hyprland",
     "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "The Rosé Pine garden",
-    "homepageUrl": "https://rosepinetheme.com",
-    "name": "rose-pine-site",
-    "repositoryTopics": [],
-    "stargazerCount": 108,
-    "updatedAt": "2026-06-20T00:48:03Z",
-    "url": "https://github.com/rose-pine/rose-pine-site",
-    "usesCustomOpenGraphImage": true
-  },
-  {
-    "description": "Generate Rosé Pine themes",
-    "homepageUrl": "",
-    "name": "rose-pine-bloom",
-    "repositoryTopics": [],
-    "stargazerCount": 20,
-    "updatedAt": "2026-06-19T21:04:59Z",
-    "url": "https://github.com/rose-pine/rose-pine-bloom",
-    "usesCustomOpenGraphImage": false
-  },
-  {
-    "description": "Homebrew tap repo for Rosé Pine",
-    "homepageUrl": "",
-    "name": "homebrew-tap",
-    "repositoryTopics": [],
-    "stargazerCount": 0,
-    "updatedAt": "2026-06-18T19:28:53Z",
-    "url": "https://github.com/rose-pine/homebrew-tap",
-    "usesCustomOpenGraphImage": false
   },
   {
     "description": "Rosé Pine community health files",
@@ -128,7 +128,7 @@
       "editor"
     ],
     "stargazerCount": 593,
-    "updatedAt": "2026-06-11T16:46:35Z",
+    "updatedAt": "2026-06-21T12:42:50Z",
     "url": "https://github.com/rose-pine/vscode",
     "usesCustomOpenGraphImage": true
   },
