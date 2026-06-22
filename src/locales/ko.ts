@@ -24,5 +24,9 @@ export default defineLocale({
 		"command.pages": "페이지",
 		"command.featured_themes": "추천 테마",
 		"command.community": "커뮤니티",
+
+		"article.authored_by": "작성자",
+		"article.authored_on": "{{date}}",
+		"article.updated_on": "(업데이트 {{date}})",
 	},
 });

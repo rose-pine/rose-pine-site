@@ -24,5 +24,9 @@ export default defineLocale({
 		"command.pages": "Сторінки",
 		"command.featured_themes": "Рекомендовані теми",
 		"command.community": "Спільнота",
+
+		"article.authored_by": "Автор",
+		"article.authored_on": "{{date}}",
+		"article.updated_on": "(оновлено {{date}})",
 	},
 });

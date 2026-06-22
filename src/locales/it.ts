@@ -70,6 +70,10 @@ export default defineLocale({
 			"Guide, strumenti e ispirazione per creare temi bellissimi.",
 		"create.also_available_in": "Disponibile anche in:",
 
+		"article.authored_by": "Scritto da",
+		"article.authored_on": "il {{date}}",
+		"article.updated_on": "(aggiornato {{date}})",
+
 		"submit.title": "Invia un tema",
 		"submit.description": "Invia il tuo tema per aggiungerlo a Rosé Pine.",
 		"submit.form.link_label": "Link al repository",

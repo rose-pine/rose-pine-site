@@ -24,5 +24,9 @@ export default defineLocale({
 		"command.pages": "Pages",
 		"command.featured_themes": "Thèmes en vedette",
 		"command.community": "Communauté",
+
+		"article.authored_by": "Écrit par",
+		"article.authored_on": "le {{date}}",
+		"article.updated_on": "(mis à jour {{date}})",
 	},
 });

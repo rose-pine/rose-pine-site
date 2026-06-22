@@ -24,5 +24,9 @@ export default defineLocale({
 		"command.pages": "Sidor",
 		"command.featured_themes": "Utvalda teman",
 		"command.community": "Gemenskap",
+
+		"article.authored_by": "Skriven av",
+		"article.authored_on": "den {{date}}",
+		"article.updated_on": "(uppdaterad {{date}})",
 	},
 });

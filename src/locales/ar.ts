@@ -69,6 +69,10 @@ export default defineLocale({
 		"create.description": "دلائل إرشادية، أدوات، وإلهام لصنع سماتك الجميلة.",
 		"create.also_available_in": "متوفر أيضًا بـ:",
 
+		"article.authored_by": "بتأليف",
+		"article.authored_on": "في {{date}}",
+		"article.updated_on": "({{date}} آخر تحديث)",
+
 		"submit.title": "تقديم سمة",
 		"submit.description": "أرسل سمتك لإضافتها إلى روز باين.",
 		"submit.form.link_label": "رابط المستودع",

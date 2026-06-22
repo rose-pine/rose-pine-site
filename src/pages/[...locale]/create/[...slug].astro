@@ -102,7 +102,7 @@ const updatedAt = new Date(page.data.updatedAt).toLocaleDateString(
 			{
 				author ? (
 					<div class="flex flex-wrap items-center gap-1 text-sm font-medium text-nowrap text-subtle italic">
-						<span>Authored by </span>
+						<span>{t("article.authored_by")}</span>
 						<a
 							href={author.data.url ?? "#!"}
 							class="flex items-center gap-1 rounded-lg bg-muted/10 px-2 leading-8 font-medium text-text transition hover:bg-muted/20"
@@ -122,14 +122,15 @@ const updatedAt = new Date(page.data.updatedAt).toLocaleDateString(
 							)}
 							{author.data.name}
 						</a>
-						<span> on</span>
-						<time datetime={publishedAt}>{publishedAt}</time>
+						<time datetime={publishedAt}>
+							{t("article.authored_on", { date: publishedAt })}
+						</time>
 						{page.data.updatedAt !== page.data.publishedAt && (
 							<time
 								datetime={updatedAt}
 								class="text-sm font-medium text-subtle italic"
 							>
-								(updated {updatedAt})
+								{t("article.updated_on", { date: updatedAt })}
 							</time>
 						)}
 					</div>

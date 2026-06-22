@@ -24,5 +24,9 @@ export default defineLocale({
 		"command.pages": "页面",
 		"command.featured_themes": "精选主题",
 		"command.community": "社区",
+
+		"article.authored_by": "作者",
+		"article.authored_on": "发布于 {{date}}",
+		"article.updated_on": "(更新于 {{date}})",
 	},
 });
