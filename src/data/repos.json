@@ -127,70 +127,6 @@
 		"children": []
 	},
 	{
-		"slug": "figma",
-		"description": null,
-		"stargazersCount": 2,
-		"updatedAt": "2026-06-07T17:23:41Z",
-		"tags": [],
-		"url": "https://github.com/rose-pine/figma",
-		"name": "App",
-		"category": "none",
-		"contributors": [
-			{
-				"name": "elvisdragonmao",
-				"image": "https://avatars.githubusercontent.com/u/61068739?v=4",
-				"url": "https://github.com/elvisdragonmao"
-			}
-		],
-		"children": []
-	},
-	{
-		"slug": "rmpc",
-		"description": "Soho vibes for rmpc",
-		"stargazersCount": 1,
-		"updatedAt": "2026-06-07T16:31:35Z",
-		"tags": [],
-		"url": "https://github.com/rose-pine/rmpc",
-		"name": "App",
-		"category": "terminal",
-		"contributors": [
-			{
-				"name": "VigneshR387",
-				"image": "https://avatars.githubusercontent.com/u/187846000?v=4",
-				"url": "https://github.com/VigneshR387"
-			},
-			{
-				"name": "mvllow",
-				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
-				"url": "https://github.com/mvllow"
-			},
-			{
-				"name": "fvrests",
-				"image": "https://avatars.githubusercontent.com/u/47515065?v=4",
-				"url": "https://github.com/fvrests"
-			}
-		],
-		"children": []
-	},
-	{
-		"slug": "tabby",
-		"description": "Soho vibes for Tabby",
-		"stargazersCount": 0,
-		"updatedAt": "2026-04-30T18:08:18Z",
-		"tags": ["shell", "tabby", "terminal"],
-		"url": "https://github.com/rose-pine/tabby",
-		"name": "App",
-		"category": "terminal",
-		"contributors": [
-			{
-				"name": "amruth-kiran",
-				"image": "https://avatars.githubusercontent.com/u/92013594?v=4",
-				"url": "https://github.com/amruth-kiran"
-			}
-		],
-		"children": []
-	},
-	{
 		"slug": "atom",
 		"description": "Soho vibes for Atom",
 		"stargazersCount": 6,
@@ -476,8 +412,8 @@
 	{
 		"slug": "cursor",
 		"description": "Soho vibes for Cursors",
-		"stargazersCount": 177,
-		"updatedAt": "2026-06-15T04:11:02Z",
+		"stargazersCount": 179,
+		"updatedAt": "2026-06-20T05:30:32Z",
 		"tags": [],
 		"url": "https://github.com/rose-pine/cursor",
 		"name": "Cursors",
@@ -799,10 +735,28 @@
 		"children": []
 	},
 	{
+		"slug": "figma",
+		"description": null,
+		"stargazersCount": 2,
+		"updatedAt": "2026-06-07T17:23:41Z",
+		"tags": [],
+		"url": "https://github.com/rose-pine/figma",
+		"name": "Figma",
+		"category": "editor",
+		"contributors": [
+			{
+				"name": "elvisdragonmao",
+				"image": "https://avatars.githubusercontent.com/u/61068739?v=4",
+				"url": "https://github.com/elvisdragonmao"
+			}
+		],
+		"children": []
+	},
+	{
 		"slug": "firefox",
 		"description": "Soho vibes for Firefox",
-		"stargazersCount": 100,
-		"updatedAt": "2026-05-16T16:26:04Z",
+		"stargazersCount": 99,
+		"updatedAt": "2026-06-19T11:33:12Z",
 		"tags": [
 			"addon",
 			"firefox",
@@ -1469,8 +1423,8 @@
 	{
 		"slug": "hljs",
 		"description": "Soho vibes for highlight.js",
-		"stargazersCount": 5,
-		"updatedAt": "2025-11-05T14:46:38Z",
+		"stargazersCount": 6,
+		"updatedAt": "2026-06-18T20:05:53Z",
 		"tags": ["theme"],
 		"url": "https://github.com/rose-pine/hljs",
 		"name": "highlight.js",
@@ -1497,8 +1451,8 @@
 	{
 		"slug": "hyper",
 		"description": "Soho vibes for Hyper",
-		"stargazersCount": 37,
-		"updatedAt": "2025-12-04T05:06:58Z",
+		"stargazersCount": 38,
+		"updatedAt": "2026-06-20T04:08:26Z",
 		"tags": [
 			"hyper",
 			"rose-pine",
@@ -1543,7 +1497,7 @@
 		"slug": "hyprland",
 		"description": "Soho vibes for Hyprland ",
 		"stargazersCount": 34,
-		"updatedAt": "2026-06-17T15:29:08Z",
+		"updatedAt": "2026-06-20T11:52:51Z",
 		"tags": ["color-palette", "hyprland", "theme", "tiling-window-manager"],
 		"url": "https://github.com/rose-pine/hyprland",
 		"name": "Hyprland",
@@ -1558,6 +1512,11 @@
 				"name": "mvllow",
 				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
 				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "JustGoodGame",
+				"image": "https://avatars.githubusercontent.com/u/50297980?v=4",
+				"url": "https://github.com/JustGoodGame"
 			},
 			{
 				"name": "Tasztalos69",
@@ -2137,8 +2096,8 @@
 	{
 		"slug": "neovim",
 		"description": "Soho vibes for Neovim",
-		"stargazersCount": 3036,
-		"updatedAt": "2026-06-16T22:36:35Z",
+		"stargazersCount": 3038,
+		"updatedAt": "2026-06-19T18:42:07Z",
 		"tags": [
 			"editor",
 			"lua",
@@ -3072,6 +3031,34 @@
 		"children": []
 	},
 	{
+		"slug": "rmpc",
+		"description": "Soho vibes for rmpc",
+		"stargazersCount": 1,
+		"updatedAt": "2026-06-07T16:31:35Z",
+		"tags": [],
+		"url": "https://github.com/rose-pine/rmpc",
+		"name": "rmpc",
+		"category": "terminal",
+		"contributors": [
+			{
+				"name": "VigneshR387",
+				"image": "https://avatars.githubusercontent.com/u/187846000?v=4",
+				"url": "https://github.com/VigneshR387"
+			},
+			{
+				"name": "mvllow",
+				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
+				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "fvrests",
+				"image": "https://avatars.githubusercontent.com/u/47515065?v=4",
+				"url": "https://github.com/fvrests"
+			}
+		],
+		"children": []
+	},
+	{
 		"slug": "roblox-studio",
 		"description": "Soho vibes for Roblox Studio",
 		"stargazersCount": 3,
@@ -3545,6 +3532,24 @@
 		"children": []
 	},
 	{
+		"slug": "tabby",
+		"description": "Soho vibes for Tabby",
+		"stargazersCount": 0,
+		"updatedAt": "2026-04-30T18:08:18Z",
+		"tags": ["shell", "tabby", "terminal"],
+		"url": "https://github.com/rose-pine/tabby",
+		"name": "Tabby",
+		"category": "terminal",
+		"contributors": [
+			{
+				"name": "amruth-kiran",
+				"image": "https://avatars.githubusercontent.com/u/92013594?v=4",
+				"url": "https://github.com/amruth-kiran"
+			}
+		],
+		"children": []
+	},
+	{
 		"slug": "tailwind-css",
 		"description": "Soho vibes for Tailwind CSS",
 		"stargazersCount": 30,
@@ -3897,8 +3902,8 @@
 	{
 		"slug": "tmux",
 		"description": "Soho vibes for tmux",
-		"stargazersCount": 266,
-		"updatedAt": "2026-06-15T01:50:05Z",
+		"stargazersCount": 268,
+		"updatedAt": "2026-06-18T21:19:19Z",
 		"tags": ["app", "terminal", "theme", "tmux"],
 		"url": "https://github.com/rose-pine/tmux",
 		"name": "tmux",
@@ -4082,8 +4087,8 @@
 	{
 		"slug": "userstyles",
 		"description": "Soho vibes for Userstyles",
-		"stargazersCount": 46,
-		"updatedAt": "2026-06-07T23:39:00Z",
+		"stargazersCount": 48,
+		"updatedAt": "2026-06-20T05:51:23Z",
 		"tags": ["css", "stylish", "stylus", "userstyles"],
 		"url": "https://github.com/rose-pine/userstyles",
 		"name": "Userstyles",
@@ -4237,7 +4242,7 @@
 		"slug": "vscode",
 		"description": "Soho vibes for Visual Studio Code",
 		"stargazersCount": 593,
-		"updatedAt": "2026-06-11T16:46:35Z",
+		"updatedAt": "2026-06-21T12:42:50Z",
 		"tags": [
 			"editor",
 			"hacktoberfest",
