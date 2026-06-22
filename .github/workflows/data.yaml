@@ -1,0 +1,33 @@
+name: data
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install
+      - name: fetch data
+        run: node scripts/update-data.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: commit changes
+        env:
+          CI_COMMIT_MESSAGE: "ci: update data"
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data
+          git commit -m "${{ env.CI_COMMIT_MESSAGE }}" || echo "no changes to commit"
+          git push
+      - name: trigger build hook
+        env:
+          NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
+        run: curl -X POST -d '{}' "https://api.netlify.com/build_hooks/${NETLIFY_TOKEN}"
