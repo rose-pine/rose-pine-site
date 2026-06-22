@@ -313,12 +313,12 @@
 	},
 	{
 		"name": "Home Assistant",
-		"url": "https://github.com/jorismertz/homeassistant-rosepine-theme",
+		"url": "https://github.com/juliamertz/homeassistant-rosepine-theme",
 		"tags": [],
 		"contributors": [
 			{
-				"name": "jorismertz",
-				"url": "https://github.com/jorismertz"
+				"name": "Julia",
+				"url": "https://github.com/juliamertz"
 			}
 		],
 		"category": "browser"
