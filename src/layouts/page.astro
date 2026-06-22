@@ -41,11 +41,16 @@ let dir = languages[locale]?.dir ?? "ltr";
 	</head>
 	<body>
 		<div class="overflow-clip">
-			<a
-				href="#content"
-				class="sr-only focus:not-sr-only focus:fixed focus:start-3 focus:top-3 focus:rounded focus:bg-surface focus:p-1.5 focus:font-medium"
-				>Skip to main content</a
+			<div
+				class="sr-only gap-3 focus-within:not-sr-only focus-within:fixed focus-within:inset-s-3 focus-within:top-3 focus-within:flex focus-within:items-center"
 			>
+				<a href="#content" class="rounded bg-surface p-1.5 font-medium"
+					>Skip to main content</a
+				>
+				<a href="#footer-nav" class="rounded bg-surface p-1.5 font-medium"
+					>Skip to footer navigation</a
+				>
+			</div>
 
 			<div aria-hidden="true" class="relative mx-auto">
 				<div
