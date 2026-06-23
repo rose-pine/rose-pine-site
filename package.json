@@ -11,15 +11,14 @@
 		"update:data": "node scripts/update-data.mjs"
 	},
 	"dependencies": {
-		"@astrojs/netlify": "^7.0.13",
-		"@astrojs/svelte": "8.1.2",
+		"@astrojs/netlify": "^8.0.0",
+		"@astrojs/svelte": "9.0.0",
 		"@lucide/astro": "^1.21.0",
 		"@lucide/svelte": "^1.21.0",
 		"@tailwindcss/vite": "^4.3.1",
-		"astro": "6.4.8",
+		"astro": "7.0.2",
 		"bits-ui": "^2.18.1",
 		"has-match": "^2.0.0",
-		"sharp": "^0.35.2",
 		"svelte": "^5.56.3",
 		"tailwindcss": "^4.3.1"
 	},
