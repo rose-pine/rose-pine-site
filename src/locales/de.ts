@@ -14,9 +14,9 @@ export default defineLocale({
 		"footer.heading.collections": "Sammlungen",
 		"footer.collection.photography": "Fotografie",
 		"footer.heading.resources": "Ressourcen",
-		"footer.resource.create": "Erstelle ein Thema",
-		"footer.resource.submit": "Reiche dein Thema ein",
-		"footer.resource.translate": "Füge eine Übersetzung hinzu",
+		"footer.resource.create": "Thema erstellen",
+		"footer.resource.submit": "Thema einreichen",
+		"footer.resource.translate": "Übersetzung hinzufügen",
 		"footer.heading.social": "Soziales",
 
 		"nav.home": "Startseite",
@@ -30,12 +30,12 @@ export default defineLocale({
 		"command.search_placeholder": "Durchsuche Seiten, Themen und Farben...",
 		"command.close": "Schließe das Befehlsmenü",
 		"command.empty_results": "Keine Ergebnisse gefunden",
-		"command.feeling_lucky": "Zufällig",
+		"command.feeling_lucky": "Zeig mir etwas Zufälliges",
 		"command.featured_themes": "Ausgewählte Themen",
 		"command.pages": "Seiten",
 		"command.community": "Gemeinschaft",
 
-		"home.title": "Etwas wunderschönes",
+		"home.title": "Etwas Wunderschönes",
 		"home.description":
 			"Naturbelassenes Kiefernholz, Kunstfell und ein Hauch von Soho-Flair für den stilvollen Minimalisten.",
 		"home.primary_action": "Themen erkunden",
@@ -44,7 +44,7 @@ export default defineLocale({
 			"Rosé Pine ist eine elegante Farbpalette, die in über {{REPOS_COUNT}} deiner Lieblingsanwendungen verwendet wird, dank unseren liebevollen und großzügigen Mitwirkenden.",
 		"home.feature.passionately_subtle.title": "Leidenschaftlich subtil",
 		"home.feature.passionately_subtle.description":
-            "Mit einem Fokus auf Qualität und Nutzen sind unsere Farben erschaffen, um zu inspirieren, nicht um zu überfordern. Wir freuen uns, wenn du deine Kreationen mit der Welt teilst.",
+            "Unsere Farben wurden mit einem Fokus auf Qualität und Nutzen erschaffen, um zu inspirieren, nicht um zu überfordern. Wir freuen uns, wenn du deine Kreationen mit der Welt teilst.",
 		"home.feature.inclusive_equal_diverse.title": "Inklusiv, gleich, divers",
 		"home.feature.inclusive_equal_diverse.description":
             "Wir streben dauerhaft danach, eine sichere und unterstützende Umgebung für alle zu schaffen. Du wirst geliebt und geschätzt.",
@@ -61,7 +61,7 @@ export default defineLocale({
 			"Wenn du nicht für eine Weile innehältst, verpasst du den perfekten Anblick.",
 
 		"palette.title": "Farben",
-		"palette.description": "Ausgewählte Farben, geschaffen, um zu inspirieren.",
+		"palette.description": "Ausgewählte Farben - geschaffen, um zu inspirieren.",
 		"palette.variants": "Varianten",
 		"palette.colours": "Farben",
 
@@ -74,10 +74,10 @@ export default defineLocale({
 		"article.authored_on": "am {{date}}",
 		"article.updated_on": "(geändert {{date}})",
 
-		"submit.title": "Reiche ein Thema ein",
+		"submit.title": "Thema einreichen",
 		"submit.description": "Reiche dein Thema ein, um es zu Rosé Pine hinzuzufügen.",
 		"submit.form.link_label": "Link zum Repository",
 		"submit.form.category_label": "Kategorie",
-		"submit.form.primary_action": "Einreichen",
+		"submit.form.primary_action": "Absenden",
 	},
 });

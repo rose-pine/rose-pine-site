@@ -7,15 +7,15 @@ updatedAt: 2026-06-23T12:36:27+02:00
 ---
 
 Sprache ist wunderschön und wir schätzen es wert, wenn du deine Sprache mit anderen teilen willst.
-Im Folgenden beschreiben wir, wie unterschiedliche Teile der Webseite und Artikel übersetzt werden.
+Im Folgenden ist beschrieben, wie unterschiedliche Teile der Webseite und Artikel übersetzt werden.
 
-Obwohl es nicht zwingend notwendig ist, kannst du deine Änderungen in Echtzeit mit einer lokalen Entwicklungsumgebung anschauen.
+Obwohl es nicht zwingend notwendig ist, kannst du mit einer lokalen Entwicklungsumgebung deine Änderungen in Echtzeit anschauen.
 Alternativ kannst du [deine Änderungen direkt auf GitHub machen](https://github.com/rose-pine/rose-pine-site).
 
-## Deine lokale Entwicklungsumgebung einrichten
+## Eine lokale Entwicklungsumgebung einrichten
 
 1. Forke und klone die [Rosé Pine Webseite](https://github.com/rose-pine/rose-pine-site).
-2. Installiere [Node.js](https://nodejs.org/en/download) und [pnpm](https://pnpm.io/installation) gemäß den offiziellen Anleitungen.
+2. Installiere [Node.js](https://nodejs.org/en/download) und [pnpm](https://pnpm.io/installation) gemäß der offiziellen Anleitungen.
 3. Starte den Entwicklungsserver mit `pnpm dev` um eine Echtzeit-Vorschau des Inhaltes zu erhalten.
 
 ## Übersetze the Webseite
@@ -52,14 +52,14 @@ Fehlende Übersetzungen fallen automatisch auf Englisch zurück.
 
 ## Anleitungen übersetzen
 
-Mit der englischen Version als Vorlage, erstelle deine Anleitung:
+Erstelle deine Anleitung mit der englischen Version als Vorlage:
 
 ```diff
   src/content/guides/en/create-a-theme.md
 + src/content/guides/sd/create-a-theme.md
 ```
 
-Bemerke, dass der `sd` Ordner für unser Sindrain Beispiel hinzugefügt wurde und der Name der Anleitung gleichgeblieben ist.
+Beachte, dass der `sd` Ordner für unser Sindrain Beispiel hinzugefügt wurde und der Name der Anleitung gleichgeblieben ist.
 
 Ändere die frontmatter-Metadaten am Anfang der Datei zwischen den `---` Markern mit einem Titel, einer Beschreibung, einem Autor und Datumsangaben.
 
@@ -73,7 +73,7 @@ Bemerke, dass der `sd` Ordner für unser Sindrain Beispiel hinzugefügt wurde un
   ---
 ```
 
-Der Nutzername des Autors wird mit einer Datei in `src/content/authors/` abgeglichen, also stelle sicher, dass du dich dort verewigst:
+Der Nutzername des Autors wird mit einer passenden Datei in `src/content/authors/` abgeglichen, also stelle sicher, dass du dich dort verewigst:
 
 ```diff
 // src/content/authors/<username>.yml
@@ -84,4 +84,5 @@ Der Nutzername des Autors wird mit einer Datei in `src/content/authors/` abgegli
 
 ## Reiche deine Änderungen ein
 
-Erstelle eine Pull Request auf [rose-pine/rose-pine-site](https://github.com/rose-pine/rose-pine-site). Wir überprüfen und teilen unsere Wertschätzung dafür, dass du Rosé Pine ein bisschen barrierefreier gemacht hast!
+Erstelle eine Pull Request auf [rose-pine/rose-pine-site](https://github.com/rose-pine/rose-pine-site).
+Wir überprüfen sie und teilen unsere Wertschätzung dafür, dass du Rosé Pine ein bisschen barrierefreier gemacht hast!
