@@ -1,5 +1,23 @@
 [
 	{
+		"slug": "ableton-live",
+		"description": "Soho vibes for Ableton Live",
+		"stargazersCount": 0,
+		"updatedAt": "2026-06-22T20:47:09Z",
+		"tags": [],
+		"url": "https://github.com/rose-pine/ableton-live",
+		"name": "Ableton Live",
+		"category": "editor",
+		"contributors": [
+			{
+				"name": "juliamertz",
+				"image": "https://avatars.githubusercontent.com/u/35079666?v=4",
+				"url": "https://github.com/juliamertz"
+			}
+		],
+		"children": []
+	},
+	{
 		"slug": "alacritty",
 		"description": "Soho vibes for Alacritty",
 		"stargazersCount": 144,
@@ -278,7 +296,7 @@
 		"slug": "google-chrome",
 		"description": "Soho vibes for Google Chrome",
 		"stargazersCount": 68,
-		"updatedAt": "2026-04-13T15:37:08Z",
+		"updatedAt": "2026-06-22T18:34:43Z",
 		"tags": [
 			"chrome",
 			"chrome-theme",
@@ -413,7 +431,7 @@
 		"slug": "cursor",
 		"description": "Soho vibes for Cursors",
 		"stargazersCount": 179,
-		"updatedAt": "2026-06-20T05:30:32Z",
+		"updatedAt": "2026-06-23T01:04:26Z",
 		"tags": [],
 		"url": "https://github.com/rose-pine/cursor",
 		"name": "Cursors",
@@ -755,8 +773,8 @@
 	{
 		"slug": "firefox",
 		"description": "Soho vibes for Firefox",
-		"stargazersCount": 99,
-		"updatedAt": "2026-06-19T11:33:12Z",
+		"stargazersCount": 100,
+		"updatedAt": "2026-06-22T09:55:51Z",
 		"tags": [
 			"addon",
 			"firefox",
@@ -2097,7 +2115,7 @@
 		"slug": "neovim",
 		"description": "Soho vibes for Neovim",
 		"stargazersCount": 3038,
-		"updatedAt": "2026-06-19T18:42:07Z",
+		"updatedAt": "2026-06-22T18:34:45Z",
 		"tags": [
 			"editor",
 			"lua",
@@ -3181,8 +3199,8 @@
 	{
 		"slug": "slack",
 		"description": "Soho vibes for Slack",
-		"stargazersCount": 26,
-		"updatedAt": "2025-11-05T14:50:50Z",
+		"stargazersCount": 25,
+		"updatedAt": "2026-06-22T18:34:41Z",
 		"tags": [
 			"css",
 			"hacktoberfest",
@@ -3815,7 +3833,7 @@
 		"slug": "tm-theme",
 		"description": "Soho vibes for TextMate",
 		"stargazersCount": 18,
-		"updatedAt": "2026-04-19T17:32:55Z",
+		"updatedAt": "2026-06-22T15:22:09Z",
 		"tags": ["rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/tm-theme",
 		"name": "TextMate",
@@ -3903,7 +3921,7 @@
 		"slug": "tmux",
 		"description": "Soho vibes for tmux",
 		"stargazersCount": 268,
-		"updatedAt": "2026-06-18T21:19:19Z",
+		"updatedAt": "2026-06-22T18:34:46Z",
 		"tags": ["app", "terminal", "theme", "tmux"],
 		"url": "https://github.com/rose-pine/tmux",
 		"name": "tmux",
@@ -4466,7 +4484,7 @@
 		"slug": "windows-terminal",
 		"description": "Soho vibes for Windows Terminal",
 		"stargazersCount": 112,
-		"updatedAt": "2026-06-14T17:12:16Z",
+		"updatedAt": "2026-06-22T15:27:17Z",
 		"tags": [
 			"rose-pine",
 			"soho-vibes",
@@ -4498,6 +4516,11 @@
 				"name": "maxstollmayer",
 				"image": "https://avatars.githubusercontent.com/u/63783301?v=4",
 				"url": "https://github.com/maxstollmayer"
+			},
+			{
+				"name": "spenserblack",
+				"image": "https://avatars.githubusercontent.com/u/8546709?v=4",
+				"url": "https://github.com/spenserblack"
 			},
 			{
 				"name": "fvrests",
