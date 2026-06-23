@@ -35,7 +35,7 @@ export default defineLocale({
 		"command.pages": "Seiten",
 		"command.community": "Gemeinschaft",
 
-		"home.title": "Etwas Wunderschönes",
+		"home.title": "Etwas Wunder\u00ADschönes",
 		"home.description":
 			"Naturbelassenes Kiefernholz, Kunstfell und ein Hauch von Soho-Flair für den stilvollen Minimalisten.",
 		"home.primary_action": "Themen erkunden",
