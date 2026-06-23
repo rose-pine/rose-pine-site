@@ -4,7 +4,6 @@ description: Una guida completa per portare Rosé Pine sulle tue piattaforme pre
 author: mvllow
 publishedAt: 2025-11-09T12:00:00-06:00
 updatedAt: 2025-11-09T12:00:00-06:00
-draft: true
 ---
 
 I membri di Rosé Pine incoraggiano la creatività e le interpretazioni diverse della nostra tavolozza limitata per i temi della community. Se preferisci un approccio più strutturato con una guida lungo il percorso, accogliamo i temi ufficiali nell'organizzazione GitHub di Rosé Pine, dove il team aiuterà quando possibile.
