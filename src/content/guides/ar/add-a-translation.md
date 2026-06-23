@@ -21,8 +21,8 @@ updatedAt: 2026-06-18T12:00:00-06:00
 انسخ ملف اللغة الإنجليزية وأعد تسميته برمز لغتك:
 
 ```diff
-  src/i18n/locales/en.ts
-+ src/i18n/locales/sd.ts
+  src/locales/en.ts
++ src/locales/sd.ts
 ```
 
 حدّث قيمة `name` داخل `config` باسم لغتك، ثم أضف ترجماتك:

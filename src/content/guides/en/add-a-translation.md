@@ -21,8 +21,8 @@ While not strictly necessary, having a local development environment will enable
 Copy the English locale file and rename it to your language code:
 
 ```diff
-  src/i18n/locales/en.ts
-+ src/i18n/locales/sd.ts
+  src/locales/en.ts
++ src/locales/sd.ts
 ```
 
 Update `name` inside `config` to your language's name, then add your translations:
