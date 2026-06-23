@@ -23,8 +23,8 @@ Alternativ kannst du [deine Änderungen direkt auf GitHub machen](https://github
 Kopiere die englische Sprachdatei und benenne sie mit deinem Sprachkürzel:
 
 ```diff
-  src/i18n/locales/en.ts
-+ src/i18n/locales/sd.ts
+  src/locales/en.ts
++ src/locales/sd.ts
 ```
 
 Ändere `name` in `config` zu dem Namen deiner Sprache und dann füge deine Übersetzungen hinzu:
