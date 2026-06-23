@@ -21,8 +21,8 @@ Sebbene non sia strettamente necessario, avere un ambiente di sviluppo locale ti
 Copia il file della lingua inglese e rinominalo con il codice della tua lingua:
 
 ```diff
-  src/i18n/locales/en.ts
-+ src/i18n/locales/sd.ts
+  src/locales/en.ts
++ src/locales/sd.ts
 ```
 
 Aggiorna `name` all'interno di `config` con il nome della tua lingua, poi aggiungi le tue traduzioni:
