@@ -4,7 +4,6 @@ description: A comprehensive guide for bringing Rosé Pine to your favourite pla
 author: mvllow
 publishedAt: 2025-11-09T12:00:00-06:00
 updatedAt: 2025-11-09T12:00:00-06:00
-draft: true
 ---
 
 Rosé Pine members encourage creativity and diverse interpretations of our limited palette for community themes. If you prefer a more structured approach with guidance along the way, we welcome official themes into the Rosé Pine GitHub organisation where the team will assist when possible.
