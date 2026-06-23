@@ -180,15 +180,5 @@ console.log("writing contributors to src/data/contributors.json...");
 await writeFile("src/data/contributors.json", await formatData(contributors));
 console.log(`wrote ${contributors.length} contributors.`);
 
-const categories = await fetch(
-	"https://api.github.com/orgs/rose-pine/properties/schema/category",
-	{ headers },
-)
-	.then((res) => res.json())
-	.then((prop) => (prop.allowed_values ?? []).sort());
-
-console.log("writing categories to src/data/categories.json...");
-await writeFile("src/data/categories.json", await formatData(categories));
-console.log(`wrote ${categories.length} categories.`);
 
 console.log(`done.`);
