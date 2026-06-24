@@ -2114,8 +2114,8 @@
 	{
 		"slug": "neovim",
 		"description": "Soho vibes for Neovim",
-		"stargazersCount": 3038,
-		"updatedAt": "2026-06-22T18:34:45Z",
+		"stargazersCount": 3039,
+		"updatedAt": "2026-06-23T04:19:03Z",
 		"tags": [
 			"editor",
 			"lua",
@@ -4700,8 +4700,8 @@
 	{
 		"slug": "zellij",
 		"description": "Soho vibes for Zellij",
-		"stargazersCount": 45,
-		"updatedAt": "2026-05-07T00:11:01Z",
+		"stargazersCount": 46,
+		"updatedAt": "2026-06-23T11:35:52Z",
 		"tags": ["rose-pine", "soho-vibes", "theme"],
 		"url": "https://github.com/rose-pine/zellij",
 		"name": "Zellij",
