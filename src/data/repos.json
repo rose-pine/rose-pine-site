@@ -145,6 +145,24 @@
 		"children": []
 	},
 	{
+		"slug": "home-assistant",
+		"description": "Soho vibes for Home Assistant",
+		"stargazersCount": 15,
+		"updatedAt": "2026-06-24T17:04:26Z",
+		"tags": ["home-assistant", "rose-pine", "theme"],
+		"url": "https://github.com/rose-pine/home-assistant",
+		"name": "App",
+		"category": "none",
+		"contributors": [
+			{
+				"name": "juliamertz",
+				"image": "https://avatars.githubusercontent.com/u/35079666?v=4",
+				"url": "https://github.com/juliamertz"
+			}
+		],
+		"children": []
+	},
+	{
 		"slug": "atom",
 		"description": "Soho vibes for Atom",
 		"stargazersCount": 6,
@@ -271,12 +289,12 @@
 	},
 	{
 		"slug": "cava",
-		"description": "Soho vibes for cava",
+		"description": "Soho vibes for Cava",
 		"stargazersCount": 18,
-		"updatedAt": "2026-06-07T16:26:22Z",
+		"updatedAt": "2026-06-24T19:59:14Z",
 		"tags": ["cli", "music", "terminal", "theme"],
 		"url": "https://github.com/rose-pine/cava",
-		"name": "cava",
+		"name": "Cava",
 		"category": "editor",
 		"contributors": [
 			{
@@ -428,12 +446,12 @@
 		"children": []
 	},
 	{
-		"slug": "cursor",
+		"slug": "cursors",
 		"description": "Soho vibes for Cursors",
 		"stargazersCount": 179,
-		"updatedAt": "2026-06-23T01:04:26Z",
+		"updatedAt": "2026-06-24T16:44:54Z",
 		"tags": [],
-		"url": "https://github.com/rose-pine/cursor",
+		"url": "https://github.com/rose-pine/cursors",
 		"name": "Cursors",
 		"category": "system",
 		"contributors": [
@@ -443,14 +461,14 @@
 				"url": "https://github.com/ThatOneCalculator"
 			},
 			{
-				"name": "rahaaatul",
-				"image": "https://avatars.githubusercontent.com/u/86149861?v=4",
-				"url": "https://github.com/rahaaatul"
-			},
-			{
 				"name": "mvllow",
 				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
 				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "rahaaatul",
+				"image": "https://avatars.githubusercontent.com/u/86149861?v=4",
+				"url": "https://github.com/rahaaatul"
 			},
 			{
 				"name": "waruhachi",
@@ -1546,9 +1564,9 @@
 	},
 	{
 		"slug": "i3",
-		"description": "Soho vibes for i3 wm",
+		"description": "Soho vibes for i3",
 		"stargazersCount": 15,
-		"updatedAt": "2026-03-23T21:10:48Z",
+		"updatedAt": "2026-06-24T20:00:47Z",
 		"tags": ["i3", "rose-pine", "soho-vibes", "theme", "window-manager"],
 		"url": "https://github.com/rose-pine/i3",
 		"name": "i3",
@@ -2114,8 +2132,8 @@
 	{
 		"slug": "neovim",
 		"description": "Soho vibes for Neovim",
-		"stargazersCount": 3039,
-		"updatedAt": "2026-06-23T04:19:03Z",
+		"stargazersCount": 3040,
+		"updatedAt": "2026-06-24T13:01:51Z",
 		"tags": [
 			"editor",
 			"lua",
@@ -4364,8 +4382,8 @@
 	{
 		"slug": "wallpapers",
 		"description": "Soho vibes for Wallpapers",
-		"stargazersCount": 388,
-		"updatedAt": "2026-06-09T05:12:36Z",
+		"stargazersCount": 389,
+		"updatedAt": "2026-06-25T00:36:40Z",
 		"tags": ["rose-pine", "soho-vibes", "theme", "wallpapers"],
 		"url": "https://github.com/rose-pine/wallpapers",
 		"name": "Wallpapers",
@@ -4619,8 +4637,8 @@
 	{
 		"slug": "yazi",
 		"description": "Soho vibes for Yazi",
-		"stargazersCount": 16,
-		"updatedAt": "2026-05-18T07:17:46Z",
+		"stargazersCount": 17,
+		"updatedAt": "2026-06-24T03:21:05Z",
 		"tags": [],
 		"url": "https://github.com/rose-pine/yazi",
 		"name": "Yazi",
