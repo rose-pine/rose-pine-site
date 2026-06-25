@@ -275,6 +275,18 @@
 		],
 		"category": "terminal"
 	},
+    {
+		"name": "Glamour",
+		"url": "https://github.com/drluckyspin/rose-pine-glamour",
+		"tags": ["code", "golang", "theme"],
+		"contributors": [
+			{
+				"name": "drluckyspin",
+				"url": "https://github.com/drluckyspin"
+			}
+		],
+		"category": "terminal"
+	},
 	{
 		"name": "Glow",
 		"url": "https://github.com/drluckyspin/rose-pine-glow",
