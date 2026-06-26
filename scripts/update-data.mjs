@@ -98,7 +98,9 @@ console.log("fetching latest repos...");
 
 const rawRepos = await fetchAllPages(
 	"https://api.github.com/orgs/rose-pine/repos?type=public&per_page=100",
-).then((repos) => repos.filter((r) => r.custom_properties?.hidden !== "true"));
+).then((repos) =>
+	repos.filter((r) => !r.archived && r.custom_properties?.hidden !== "true"),
+);
 
 const repos = sortItemsByKey(
 	await withConcurrency(rawRepos, 10, async (r) => {
@@ -179,6 +181,5 @@ const contributors = sortItemsByKey(
 console.log("writing contributors to src/data/contributors.json...");
 await writeFile("src/data/contributors.json", await formatData(contributors));
 console.log(`wrote ${contributors.length} contributors.`);
-
 
 console.log(`done.`);
