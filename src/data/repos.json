@@ -145,24 +145,6 @@
 		"children": []
 	},
 	{
-		"slug": "home-assistant",
-		"description": "Soho vibes for Home Assistant",
-		"stargazersCount": 15,
-		"updatedAt": "2026-06-24T17:04:26Z",
-		"tags": ["home-assistant", "rose-pine", "theme"],
-		"url": "https://github.com/rose-pine/home-assistant",
-		"name": "App",
-		"category": "none",
-		"contributors": [
-			{
-				"name": "juliamertz",
-				"image": "https://avatars.githubusercontent.com/u/35079666?v=4",
-				"url": "https://github.com/juliamertz"
-			}
-		],
-		"children": []
-	},
-	{
 		"slug": "atom",
 		"description": "Soho vibes for Atom",
 		"stargazersCount": 6,
@@ -314,8 +296,8 @@
 		"slug": "google-chrome",
 		"description": "Soho vibes for Google Chrome",
 		"stargazersCount": 68,
-		"updatedAt": "2026-06-25T15:27:30Z",
-		"tags": ["rose-pine", "soho-vibes", "theme"],
+		"updatedAt": "2026-06-26T15:09:53Z",
+		"tags": [],
 		"url": "https://github.com/rose-pine/google-chrome",
 		"name": "Chrome",
 		"category": "browser",
@@ -394,8 +376,8 @@
 	{
 		"slug": "cosmic-desktop",
 		"description": "Soho vibes for COSMIC Desktop ",
-		"stargazersCount": 14,
-		"updatedAt": "2026-02-13T20:08:42Z",
+		"stargazersCount": 15,
+		"updatedAt": "2026-06-26T04:49:58Z",
 		"tags": [],
 		"url": "https://github.com/rose-pine/cosmic-desktop",
 		"name": "COSMIC Desktop",
@@ -548,7 +530,7 @@
 		"slug": "discord",
 		"description": "Soho vibes for Discord",
 		"stargazersCount": 121,
-		"updatedAt": "2026-06-10T23:38:11Z",
+		"updatedAt": "2026-06-26T22:25:03Z",
 		"tags": [
 			"betterdiscord",
 			"discord",
@@ -1477,6 +1459,24 @@
 		"children": []
 	},
 	{
+		"slug": "home-assistant",
+		"description": "Soho vibes for Home Assistant",
+		"stargazersCount": 15,
+		"updatedAt": "2026-06-24T17:04:26Z",
+		"tags": ["home-assistant", "rose-pine", "theme"],
+		"url": "https://github.com/rose-pine/home-assistant",
+		"name": "Home Assistant",
+		"category": "none",
+		"contributors": [
+			{
+				"name": "juliamertz",
+				"image": "https://avatars.githubusercontent.com/u/35079666?v=4",
+				"url": "https://github.com/juliamertz"
+			}
+		],
+		"children": []
+	},
+	{
 		"slug": "hyper",
 		"description": "Soho vibes for Hyper",
 		"stargazersCount": 38,
@@ -1650,8 +1650,8 @@
 	{
 		"slug": "jdownloader",
 		"description": "Soho vibes for JDownloader 2",
-		"stargazersCount": 5,
-		"updatedAt": "2026-06-10T16:02:38Z",
+		"stargazersCount": 6,
+		"updatedAt": "2026-06-26T04:27:09Z",
 		"tags": ["app", "jdownloader", "theme"],
 		"url": "https://github.com/rose-pine/jdownloader",
 		"name": "JDownloader",
@@ -2124,8 +2124,8 @@
 	{
 		"slug": "neovim",
 		"description": "Soho vibes for Neovim",
-		"stargazersCount": 3042,
-		"updatedAt": "2026-06-25T22:00:17Z",
+		"stargazersCount": 3044,
+		"updatedAt": "2026-06-26T15:41:26Z",
 		"tags": [
 			"editor",
 			"lua",
@@ -2679,29 +2679,6 @@
 		"children": []
 	},
 	{
-		"slug": "phemex",
-		"description": "Soho vibes for Phemex",
-		"stargazersCount": 2,
-		"updatedAt": "2025-11-05T14:50:27Z",
-		"tags": ["web"],
-		"url": "https://github.com/rose-pine/phemex",
-		"name": "Phemex",
-		"category": "browser",
-		"contributors": [
-			{
-				"name": "ThatOneCalculator",
-				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
-				"url": "https://github.com/ThatOneCalculator"
-			},
-			{
-				"name": "mvllow",
-				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
-				"url": "https://github.com/mvllow"
-			}
-		],
-		"children": []
-	},
-	{
 		"slug": "pleroma",
 		"description": "Soho vibes for Pleroma",
 		"stargazersCount": 7,
@@ -2766,38 +2743,6 @@
 				"name": "fvrests",
 				"image": "https://avatars.githubusercontent.com/u/47515065?v=4",
 				"url": "https://github.com/fvrests"
-			},
-			{
-				"name": "mvllow",
-				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
-				"url": "https://github.com/mvllow"
-			}
-		],
-		"children": []
-	},
-	{
-		"slug": "pure",
-		"description": "Soho vibes for Pure",
-		"stargazersCount": 1,
-		"updatedAt": "2026-03-09T19:18:20Z",
-		"tags": [
-			"fish",
-			"fish-plugin",
-			"fish-shell",
-			"prompt",
-			"pure",
-			"rose-pine",
-			"soho-vibes",
-			"theme"
-		],
-		"url": "https://github.com/rose-pine/pure",
-		"name": "Pure",
-		"category": "terminal",
-		"contributors": [
-			{
-				"name": "simono",
-				"image": "https://avatars.githubusercontent.com/u/874148?v=4",
-				"url": "https://github.com/simono"
 			},
 			{
 				"name": "mvllow",
@@ -3163,8 +3108,8 @@
 	{
 		"slug": "sharex",
 		"description": "Soho vibes for ShareX",
-		"stargazersCount": 6,
-		"updatedAt": "2026-05-03T12:52:20Z",
+		"stargazersCount": 7,
+		"updatedAt": "2026-06-26T04:32:16Z",
 		"tags": ["app", "sharex", "theme"],
 		"url": "https://github.com/rose-pine/sharex",
 		"name": "ShareX",
@@ -3174,29 +3119,6 @@
 				"name": "darkthemer",
 				"image": "https://avatars.githubusercontent.com/u/111078063?v=4",
 				"url": "https://github.com/darkthemer"
-			},
-			{
-				"name": "mvllow",
-				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
-				"url": "https://github.com/mvllow"
-			}
-		],
-		"children": []
-	},
-	{
-		"slug": "skiff",
-		"description": "Soho vibes for Skiff Mail",
-		"stargazersCount": 3,
-		"updatedAt": "2025-11-05T14:50:48Z",
-		"tags": [],
-		"url": "https://github.com/rose-pine/skiff",
-		"name": "Skiff Mail",
-		"category": "browser",
-		"contributors": [
-			{
-				"name": "ThatOneCalculator",
-				"image": "https://avatars.githubusercontent.com/u/44733677?v=4",
-				"url": "https://github.com/ThatOneCalculator"
 			},
 			{
 				"name": "mvllow",
@@ -3896,38 +3818,6 @@
 		"children": []
 	},
 	{
-		"slug": "tide",
-		"description": "Soho vibes for Tide",
-		"stargazersCount": 0,
-		"updatedAt": "2026-03-09T19:18:14Z",
-		"tags": [
-			"fish",
-			"fish-plugin",
-			"fish-shell",
-			"prompt",
-			"rose-pine",
-			"soho-vibes",
-			"theme",
-			"tide"
-		],
-		"url": "https://github.com/rose-pine/tide",
-		"name": "Tide for fish",
-		"category": "terminal",
-		"contributors": [
-			{
-				"name": "simono",
-				"image": "https://avatars.githubusercontent.com/u/874148?v=4",
-				"url": "https://github.com/simono"
-			},
-			{
-				"name": "mvllow",
-				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
-				"url": "https://github.com/mvllow"
-			}
-		],
-		"children": []
-	},
-	{
 		"slug": "tmux",
 		"description": "Soho vibes for tmux",
 		"stargazersCount": 268,
@@ -4116,7 +4006,7 @@
 		"slug": "userstyles",
 		"description": "Soho vibes for Userstyles",
 		"stargazersCount": 48,
-		"updatedAt": "2026-06-20T05:51:23Z",
+		"updatedAt": "2026-06-26T21:58:34Z",
 		"tags": ["css", "stylish", "stylus", "userstyles"],
 		"url": "https://github.com/rose-pine/userstyles",
 		"name": "Userstyles",
@@ -4128,14 +4018,14 @@
 				"url": "https://github.com/juliamertz"
 			},
 			{
-				"name": "adriankarlen",
-				"image": "https://avatars.githubusercontent.com/u/113891532?v=4",
-				"url": "https://github.com/adriankarlen"
-			},
-			{
 				"name": "mvllow",
 				"image": "https://avatars.githubusercontent.com/u/1474821?v=4",
 				"url": "https://github.com/mvllow"
+			},
+			{
+				"name": "adriankarlen",
+				"image": "https://avatars.githubusercontent.com/u/113891532?v=4",
+				"url": "https://github.com/adriankarlen"
 			},
 			{
 				"name": "JTrenerry",
@@ -4190,12 +4080,14 @@
 			"brave-search",
 			"chatgpt",
 			"claude",
+			"discord",
 			"docs.rs",
 			"github",
 			"hetzner-cloud",
 			"jira",
 			"nixos-search",
 			"octopus",
+			"phemex",
 			"proton",
 			"scribe",
 			"status.cafe",
@@ -4208,8 +4100,8 @@
 	{
 		"slug": "vim",
 		"description": "Soho vibes for Vim",
-		"stargazersCount": 51,
-		"updatedAt": "2026-06-06T16:28:48Z",
+		"stargazersCount": 52,
+		"updatedAt": "2026-06-26T19:10:20Z",
 		"tags": ["editor", "rose-pine", "soho-vibes", "theme", "vim"],
 		"url": "https://github.com/rose-pine/vim",
 		"name": "Vim",
@@ -4269,8 +4161,8 @@
 	{
 		"slug": "vscode",
 		"description": "Soho vibes for Visual Studio Code",
-		"stargazersCount": 593,
-		"updatedAt": "2026-06-21T12:42:50Z",
+		"stargazersCount": 594,
+		"updatedAt": "2026-06-26T20:16:34Z",
 		"tags": [
 			"editor",
 			"hacktoberfest",
@@ -4374,8 +4266,8 @@
 	{
 		"slug": "wallpapers",
 		"description": "Soho vibes for Wallpapers",
-		"stargazersCount": 402,
-		"updatedAt": "2026-06-25T23:47:45Z",
+		"stargazersCount": 410,
+		"updatedAt": "2026-06-26T17:48:39Z",
 		"tags": ["rose-pine", "soho-vibes", "theme", "wallpapers"],
 		"url": "https://github.com/rose-pine/wallpapers",
 		"name": "Wallpapers",
@@ -4743,8 +4635,8 @@
 	{
 		"slug": "zen-browser",
 		"description": "Soho vibes for Zen Browser",
-		"stargazersCount": 29,
-		"updatedAt": "2026-06-07T05:18:19Z",
+		"stargazersCount": 30,
+		"updatedAt": "2026-06-26T04:35:54Z",
 		"tags": ["app"],
 		"url": "https://github.com/rose-pine/zen-browser",
 		"name": "Zen Browser",
