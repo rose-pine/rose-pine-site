@@ -1,8 +1,11 @@
 ---
+import ArrowUpRightIcon from "@lucide/astro/icons/arrow-up-right";
 import FlowerIcon from "@lucide/astro/icons/flower";
+import ThemeCard from "../../../components/theme-card.svelte";
 import ThemeIcon from "../../../components/theme-icon.astro";
-import { getAllRepoSlugs, getRepoBySlug } from "../../../data";
+import { getAllRepos } from "../../../data";
 import Page from "../../../layouts/page.astro";
+import type { Repo } from "../../../types/theme";
 import {
 	getLocaleFromUrl,
 	useTranslatedPath,
@@ -12,18 +15,16 @@ import {
 import { isValidIconCategory } from "../../../utilities/icons";
 
 export async function getStaticPaths() {
-	const slugs = getAllRepoSlugs();
-	const entries = slugs.map((slug) => {
-		const repo = getRepoBySlug(slug);
-		if (!repo) {
-			throw new Error(`Missing repo for slug: ${slug}`);
-		}
+	const repos = await getAllRepos();
+	const entries = repos.map((repo) => {
+		const relatedRepos = repos.filter(
+			(r) => repo.related.includes(r.slug) || r.related.includes(repo.slug),
+		);
 		return {
-			params: { theme: slug },
-			props: { repo },
+			params: { theme: repo.slug },
+			props: { repo, relatedRepos },
 		};
 	});
-
 	return await withLocalePaths(entries);
 }
 
@@ -31,10 +32,10 @@ let locale = getLocaleFromUrl(Astro.url);
 let t = useTranslations(locale);
 let translatePath = useTranslatedPath(locale);
 
-let { repo } = Astro.props;
+let { repo, relatedRepos = [] as Repo[] } = Astro.props;
 ---
 
-<Page title={repo.name} description={repo.description}>
+<Page title={repo.name} description={`Soho vibes for ${repo.name}`}>
 	<div class="wrapper">
 		<div
 			class="animate-enter mb-12 flex items-center justify-between gap-3"
@@ -48,7 +49,7 @@ let { repo } = Astro.props;
 		</div>
 
 		<div class="flex flex-wrap justify-between gap-12 md:flex-nowrap">
-			<article>
+			<article class="flex-1">
 				<div>
 					<div class="animate-enter mb-8" style="--stagger: 1">
 						{
@@ -58,37 +59,39 @@ let { repo } = Astro.props;
 						}
 					</div>
 					<h1
-						class="animate-enter mb-4 max-w-2xl text-4xl font-bold tracking-tight text-balance sm:text-6xl"
+						class="animate-enter mb-16 max-w-2xl text-4xl font-bold tracking-tight text-balance sm:text-6xl"
 						style="--stagger: 1"
 					>
 						{repo.name}
 					</h1>
-					<p
-						class="animate-enter mb-12 max-w-md font-serif text-xl text-subtle italic"
-						style="--stagger: 2"
-					>
-						{repo.description}
-					</p>
 				</div>
-				<div class="flex items-center gap-5">
+				<div class="animate-enter flex" style="--stagger: 2.5">
 					<a
 						href={repo.url}
-						class="animate-enter flex shrink-0 items-center gap-2.5 rounded-lg border border-muted/20 bg-muted/10 px-4 py-2.5 font-medium shadow-sm transition select-none hover:bg-muted/15"
-						style="--stagger: 2.5"
+						class="group/cta flex h-8 shrink-0 items-center gap-2 rounded-lg border-2 border-text ps-3 pe-4 font-serif font-medium italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
 					>
-						Visit repository
+						<ArrowUpRightIcon
+							size="16"
+							class="transition-transform group-hover/cta:-rotate-3"
+						/>
+						<span class="pb-px">Visit repository</span>
 					</a>
 				</div>
 
 				<div class="h-12"></div>
 
 				{
-					repo.children ? (
+					repo.subthemes.length > 0 ? (
 						<div class="animate-enter" style="--stagger: 2.75">
-							<ul class="grid grid-cols-3 gap-1.5">
-								{repo.children.map((child) => (
-									<li class="list-none rounded-md border border-muted/20 px-3 py-1.5 font-mono text-sm font-medium text-subtle">
-										{child}
+							<ul role="list" class="auto-grid-40 gap-2">
+								{repo.subthemes.map((theme) => (
+									<li>
+										<a
+											href={theme.url}
+											class="flex rounded-md border tonal-text px-3 py-1.5 font-mono text-sm font-medium hover:tonal-pressed-text"
+										>
+											{theme.name}
+										</a>
 									</li>
 								))}
 							</ul>
@@ -141,6 +144,23 @@ let { repo } = Astro.props;
 								{repo.tags.map((tag) => (
 									<li class="inline-flex items-center rounded-full border border-foam/20 bg-foam/5 px-2 text-xs/5 font-medium text-foam">
 										{tag}
+									</li>
+								))}
+							</ul>
+						</div>
+					) : (
+						""
+					)
+				}
+
+				{
+					relatedRepos.length > 0 ? (
+						<div>
+							<h2 class="mb-4 font-bold">Related</h2>
+							<ul role="list" class="flex flex-col gap-2">
+								{relatedRepos.map((related) => (
+									<li>
+										<ThemeCard theme={related} client:only="svelte" />
 									</li>
 								))}
 							</ul>

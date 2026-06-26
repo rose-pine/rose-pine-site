@@ -1,0 +1,10 @@
+name: Glow
+url: https://github.com/drluckyspin/rose-pine-glow
+tags:
+  - markdown
+contributors:
+  - name: drluckyspin
+    url: https://github.com/drluckyspin
+category: terminal
+related:
+  - glamour

@@ -3,6 +3,52 @@ import { z } from "astro/zod";
 import { defineCollection, reference } from "astro:content";
 
 export const collections = {
+	officialRepos: defineCollection({
+		loader: glob({
+			pattern: "**/*.yaml",
+			base: "./src/content/official-repos",
+		}),
+		schema: z.object({
+			featured: z.boolean().optional(),
+			stargazersCount: z.number(),
+			updatedAt: z.date().optional(),
+			tags: z.array(z.string()).optional(),
+			name: z.string().optional(),
+			category: z.string(),
+			contributors: z.array(
+				z.object({ name: z.string(), image: z.url().optional(), url: z.url() }),
+			),
+			subthemes: z
+				.array(
+					z.object({ name: z.string(), author: z.string(), url: z.string() }),
+				)
+				.optional(),
+			related: z.array(z.string()).optional(),
+		}),
+	}),
+
+	communityRepos: defineCollection({
+		loader: glob({
+			pattern: "**/*.yaml",
+			base: "./src/content/community-repos",
+		}),
+		schema: z.object({
+			name: z.string(),
+			url: z.url(),
+			tags: z.array(z.string()).optional(),
+			contributors: z.array(
+				z.object({ name: z.string(), image: z.url().optional(), url: z.url() }),
+			),
+			category: z.string(),
+			subthemes: z
+				.array(
+					z.object({ name: z.string(), author: z.string(), url: z.string() }),
+				)
+				.optional(),
+			related: z.array(z.string()).optional(),
+		}),
+	}),
+
 	guides: defineCollection({
 		loader: glob({
 			base: "./src/content/guides",
@@ -31,7 +77,7 @@ export const collections = {
 	showcase: defineCollection({
 		loader: glob({
 			base: "./src/content/showcase",
-			pattern: "**/*.yml",
+			pattern: "**/*.yaml",
 		}),
 		schema: ({ image }) =>
 			z.object({
@@ -44,7 +90,7 @@ export const collections = {
 	authors: defineCollection({
 		loader: glob({
 			base: "./src/content/authors",
-			pattern: "*.yml",
+			pattern: "*.yaml",
 		}),
 		schema: z.object({
 			name: z.string(),

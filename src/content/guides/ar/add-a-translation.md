@@ -74,7 +74,7 @@ updatedAt: 2026-06-18T12:00:00-06:00
 سيُطابَق اسم المستخدم الخاص بالمؤلف مع ملف داخل مجلد `src/content/authors/`، فتأكد من إضافة نفسك هناك، على سبيل المثال:
 
 ```diff
-// src/content/authors/<username>.yml
+// src/content/authors/<username>.yaml
 + name: "<name>"
 + image: "https://avatars.githubusercontent.com/<username>"
 + url: "https://example.com"

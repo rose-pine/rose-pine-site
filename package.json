@@ -8,7 +8,7 @@
 		"preview": "netlify serve",
 		"astro": "astro",
 		"format": "pnpm exec prettier --write .",
-		"update:data": "node scripts/update-data.mjs"
+		"update:data": "node scripts/update-data.ts"
 	},
 	"dependencies": {
 		"@astrojs/netlify": "^8.0.0",
@@ -23,11 +23,14 @@
 		"tailwindcss": "^4.3.1"
 	},
 	"devDependencies": {
+		"@octokit/rest": "^22.0.1",
 		"@tailwindcss/typography": "^0.5.20",
 		"prettier": "^3.8.4",
 		"prettier-plugin-astro": "^0.14.1",
 		"prettier-plugin-svelte": "^4.1.1",
 		"prettier-plugin-tailwindcss": "^0.8.0",
-		"typescript": "^6.0.3"
+		"sharp": "^0.35.2",
+		"typescript": "^6.0.3",
+		"yaml": "^2.9.0"
 	}
 }

@@ -1,0 +1,165 @@
+name: Neovim
+category: editor
+stargazersCount: 3045
+updatedAt: 2026-06-28T09:17:00Z
+tags:
+  - lua
+  - neovim-theme
+  - nvim
+  - vim
+  - vim-theme
+contributors:
+  - name: mvllow
+    url: https://github.com/mvllow
+  - name: sjclayton
+    url: https://github.com/sjclayton
+  - name: danymat
+    url: https://github.com/danymat
+  - name: ikws4
+    url: https://github.com/ikws4
+  - name: will
+    url: https://github.com/will
+  - name: fvrests
+    url: https://github.com/fvrests
+  - name: mrtnvgr
+    url: https://github.com/mrtnvgr
+  - name: fitrh
+    url: https://github.com/fitrh
+  - name: pcattori
+    url: https://github.com/pcattori
+  - name: andreihh
+    url: https://github.com/andreihh
+  - name: fdcote
+    url: https://github.com/fdcote
+  - name: aileot
+    url: https://github.com/aileot
+  - name: Slotos
+    url: https://github.com/Slotos
+  - name: bomgar
+    url: https://github.com/bomgar
+  - name: kabouzeid
+    url: https://github.com/kabouzeid
+  - name: repl6669
+    url: https://github.com/repl6669
+  - name: briandipalma
+    url: https://github.com/briandipalma
+  - name: HectorOvid
+    url: https://github.com/HectorOvid
+  - name: vlanx
+    url: https://github.com/vlanx
+  - name: SWiegandt
+    url: https://github.com/SWiegandt
+  - name: eaxly
+    url: https://github.com/eaxly
+  - name: cmdrrobin
+    url: https://github.com/cmdrrobin
+  - name: piersolenski
+    url: https://github.com/piersolenski
+  - name: Pkcarreno
+    url: https://github.com/Pkcarreno
+  - name: VoxelPrismatic
+    url: https://github.com/VoxelPrismatic
+  - name: UsuallySleebee
+    url: https://github.com/UsuallySleebee
+  - name: 0oAstro
+    url: https://github.com/0oAstro
+  - name: NTBBloodbath
+    url: https://github.com/NTBBloodbath
+  - name: myuwi
+    url: https://github.com/myuwi
+  - name: matze
+    url: https://github.com/matze
+  - name: luissimas
+    url: https://github.com/luissimas
+  - name: the-spanish-guy
+    url: https://github.com/the-spanish-guy
+  - name: tommarien
+    url: https://github.com/tommarien
+  - name: MeanderingProgrammer
+    url: https://github.com/MeanderingProgrammer
+  - name: YarLama
+    url: https://github.com/YarLama
+  - name: kaplanz
+    url: https://github.com/kaplanz
+  - name: abvee
+    url: https://github.com/abvee
+  - name: kunchenguid
+    url: https://github.com/kunchenguid
+  - name: nanozuki
+    url: https://github.com/nanozuki
+  - name: dav-cho
+    url: https://github.com/dav-cho
+  - name: estevesnp
+    url: https://github.com/estevesnp
+  - name: bakageddy
+    url: https://github.com/bakageddy
+  - name: jostaub
+    url: https://github.com/jostaub
+  - name: mortezadadgar
+    url: https://github.com/mortezadadgar
+  - name: numToStr
+    url: https://github.com/numToStr
+  - name: jfkisafk
+    url: https://github.com/jfkisafk
+  - name: yuhixyz
+    url: https://github.com/yuhixyz
+  - name: aarnphm
+    url: https://github.com/aarnphm
+  - name: akthe-at
+    url: https://github.com/akthe-at
+  - name: adrior11
+    url: https://github.com/adrior11
+  - name: Masstronaut
+    url: https://github.com/Masstronaut
+  - name: Yagua
+    url: https://github.com/Yagua
+  - name: winter-again
+    url: https://github.com/winter-again
+  - name: Diaoul
+    url: https://github.com/Diaoul
+  - name: anupam-basu
+    url: https://github.com/anupam-basu
+  - name: arkrost
+    url: https://github.com/arkrost
+  - name: Asthestarsfalll
+    url: https://github.com/Asthestarsfalll
+  - name: Iorvethe
+    url: https://github.com/Iorvethe
+  - name: davepgreene
+    url: https://github.com/davepgreene
+  - name: davkk
+    url: https://github.com/davkk
+  - name: dhruvinsh
+    url: https://github.com/dhruvinsh
+  - name: Ercument5038
+    url: https://github.com/Ercument5038
+  - name: emilford
+    url: https://github.com/emilford
+  - name: echasnovski
+    url: https://github.com/echasnovski
+  - name: fedeya
+    url: https://github.com/fedeya
+  - name: ubmit
+    url: https://github.com/ubmit
+  - name: GuillaumeAllain
+    url: https://github.com/GuillaumeAllain
+  - name: haydenrou
+    url: https://github.com/haydenrou
+  - name: HieuDao-code
+    url: https://github.com/HieuDao-code
+  - name: hansumane
+    url: https://github.com/hansumane
+  - name: tomtomjhj
+    url: https://github.com/tomtomjhj
+  - name: EdenEast
+    url: https://github.com/EdenEast
+  - name: James-Kni
+    url: https://github.com/James-Kni
+  - name: chillax
+    url: https://github.com/chillax
+  - name: Toorero
+    url: https://github.com/Toorero
+  - name: sorachii
+    url: https://github.com/sorachii
+  - name: TinusgragLin
+    url: https://github.com/TinusgragLin

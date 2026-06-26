@@ -1,0 +1,97 @@
+name: Userstyles
+category: browser
+stargazersCount: 48
+updatedAt: 2026-06-27T09:58:01Z
+tags:
+  - css
+  - stylish
+  - stylus
+subthemes:
+  - name: 4Get
+    author: ThatOneCalculator
+    url: https://github.com/rose-pine/userstyles/tree/main/styles/4get
+  - name: Advent of Code
+    author: Adrian Karlén
+    url: https://github.com/rose-pine/userstyles/tree/main/styles/advent-of-code
+  - name: Bluesky
+    author: Julia Mertz
+    url: https://github.com/rose-pine/userstyles/tree/main/styles/bluesky
+  - name: Brave Search
+    author: Adrian Karlén
+    url: https://github.com/rose-pine/userstyles/tree/main/styles/brave-search
+  - name: ChatGPT
+    author: Adrian Karlén
+    url: https://github.com/rose-pine/userstyles/tree/main/styles/chatgpt
+  - name: Claude
+    author: Julia Mertz
+    url: https://github.com/rose-pine/userstyles/tree/main/styles/claude
+  - name: Discord
+    author: Prateesh Prusty
+    url: https://github.com/rose-pine/userstyles/tree/main/styles/discord
+  - name: Docs.rs
+    author: Julia Mertz
+    url: https://github.com/rose-pine/userstyles/tree/main/styles/docs.rs
+  - name: GitHub
+    author: Julia Mertz
+    url: https://github.com/rose-pine/userstyles/tree/main/styles/github
+  - name: Hetzner Cloud
+    author: Julia Mertz
+    url: https://github.com/rose-pine/userstyles/tree/main/styles/hetzner-cloud
+  - name: Jira
+    author: Adrian Karlén
+    url: https://github.com/rose-pine/userstyles/tree/main/styles/jira
+  - name: NixOS Search
+    author: JTrenerry
+    url: https://github.com/rose-pine/userstyles/tree/main/styles/nixos-search
+  - name: Octopus
+    author: Adrian Karlén
+    url: https://github.com/rose-pine/userstyles/tree/main/styles/octopus
+  - name: Phemex
+    author: Kainoa Kanter
+    url: https://github.com/rose-pine/userstyles/tree/main/styles/phemex
+  - name: Proton
+    author: Julia Mertz
+    url: https://github.com/rose-pine/userstyles/tree/main/styles/proton
+  - name: Scribe
+    author: ThatOneCalculator
+    url: https://github.com/rose-pine/userstyles/tree/main/styles/scribe
+  - name: status.cafe
+    author: bunfluff
+    url: https://github.com/rose-pine/userstyles/tree/main/styles/status.cafe
+  - name: Twitch
+    author: Adrian Karlén
+    url: https://github.com/rose-pine/userstyles/tree/main/styles/twitch
+  - name: Wikiwand
+    author: Adrian Karlén
+    url: https://github.com/rose-pine/userstyles/tree/main/styles/wikiwand
+  - name: YouTube
+    author: Julia Mertz
+    url: https://github.com/rose-pine/userstyles/tree/main/styles/youtube
+  - name: Zimbra
+    author: ThatOneCalculator
+    url: https://github.com/rose-pine/userstyles/tree/main/styles/zimbra
+contributors:
+  - name: juliamertz
+    url: https://github.com/juliamertz
+  - name: mvllow
+    url: https://github.com/mvllow
+  - name: adriankarlen
+    url: https://github.com/adriankarlen
+  - name: JTrenerry
+    url: https://github.com/JTrenerry
+  - name: Papa-Quill
+    url: https://github.com/Papa-Quill
+  - name: revsuine
+    url: https://github.com/revsuine
+  - name: Ari-43
+    url: https://github.com/Ari-43
+  - name: jcyamo
+    url: https://github.com/jcyamo
+  - name: ThatOneCalculator
+    url: https://github.com/ThatOneCalculator
+  - name: TrustworthyAdult
+    url: https://github.com/TrustworthyAdult
+  - name: bunfluff
+    url: https://github.com/bunfluff
+  - name: thairanaru
+    url: https://github.com/thairanaru

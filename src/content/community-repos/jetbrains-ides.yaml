@@ -1,0 +1,17 @@
+name: JetBrains IDEs
+url: https://github.com/bomgar/rose-pine-jetbrains
+tags:
+  - Android Studio
+  - CLion
+  - GoLand
+  - IntelliJ
+  - PhpStorm
+  - PyCharm
+  - Rider
+  - RubyMine
+  - RustRover
+  - WebStorm
+contributors:
+  - name: bomgar
+    url: https://github.com/bomgar
+category: editor

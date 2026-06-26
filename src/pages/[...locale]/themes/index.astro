@@ -14,10 +14,9 @@ export async function getStaticPaths() {
 let { locale = "en" } = Astro.params;
 let t = useTranslations(locale);
 
-let sortedRepos = getSortedRepos();
-
-let repoCount = sortedRepos.length;
-let contributorCount = getContributorCount();
+const sortedRepos = await getSortedRepos();
+const repoCount = sortedRepos.length;
+const contributorCount = await getContributorCount();
 ---
 
 <Page title={t("themes.title")} description={t("themes.description")}>

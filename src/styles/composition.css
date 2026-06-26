@@ -25,6 +25,14 @@
 	justify-content: flex-start;
 }
 
+@utility auto-grid-* {
+	display: grid;
+	grid-template-columns: repeat(
+		auto-fill,
+		minmax(calc(var(--spacing) * --value(integer, --default(40))), 1fr)
+	);
+}
+
 @utility tonal-* {
 	color: --value(--color-*);
 	background-color: --alpha(--value(--color-*) / 10%);

@@ -1,0 +1,17 @@
+name: Pygments
+category: library
+stargazersCount: 3
+updatedAt: 2026-03-02T08:58:05Z
+tags:
+  - ipython
+  - pygments-style
+  - radian
+contributors:
+  - name: drearondov
+    url: https://github.com/drearondov
+  - name: reillysiemens
+    url: https://github.com/reillysiemens
+  - name: dependabot[bot]
+    url: https://github.com/apps/dependabot
+  - name: mvllow
+    url: https://github.com/mvllow

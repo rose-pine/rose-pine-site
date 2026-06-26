@@ -18,7 +18,7 @@ let { locale = "en" } = Astro.params;
 let t = useTranslations(locale);
 let translatePath = useTranslatedPath(locale);
 
-let allRepos = getAllRepos();
+let allRepos = await getAllRepos();
 
 let REPOS_COUNT = String(Math.floor(allRepos.length / 10) * 10);
 ---

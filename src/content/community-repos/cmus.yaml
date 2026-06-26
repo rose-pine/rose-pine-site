@@ -1,0 +1,9 @@
+name: Cmus
+url: https://github.com/Iorvethe/cmus
+tags:
+  - audio
+  - music
+contributors:
+  - name: Iorvethe
+    url: https://github.com/Iorvethe
+category: terminal

@@ -1,15 +1,15 @@
 export type Contributor = { name: string; image?: string; url: string };
 
 export type Repo = {
-	url: string;
 	slug: string;
 	name: string;
-	description: string;
+	url: string;
 	tags: string[];
 	contributors: Contributor[];
-	featured: boolean;
-	updatedAt?: string;
-	stargazersCount?: number;
 	category: string;
-	children?: string[];
+	subthemes: { name: string; author: string; url: string }[];
+	related: string[];
+	featured: boolean;
+	stargazersCount?: number;
+	updatedAt?: string;
 };

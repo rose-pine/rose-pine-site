@@ -74,7 +74,7 @@ Update the frontmatter—metadata at the top of the file sandwiched between `---
 The author's username will be matched to a file inside the `src/content/authors/` folder so be sure to add yourself there, e.g.:
 
 ```diff
-// src/content/authors/<username>.yml
+// src/content/authors/<username>.yaml
 + name: "<name>"
 + image: "https://avatars.githubusercontent.com/<username>"
 + url: "https://example.com"
