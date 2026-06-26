@@ -275,7 +275,7 @@
 		],
 		"category": "terminal"
 	},
-    {
+	{
 		"name": "Glamour",
 		"url": "https://github.com/drluckyspin/rose-pine-glamour",
 		"tags": ["code", "golang", "theme"],
@@ -322,18 +322,6 @@
 			}
 		],
 		"category": "system"
-	},
-	{
-		"name": "Home Assistant",
-		"url": "https://github.com/juliamertz/homeassistant-rosepine-theme",
-		"tags": [],
-		"contributors": [
-			{
-				"name": "Julia",
-				"url": "https://github.com/juliamertz"
-			}
-		],
-		"category": "browser"
 	},
 	{
 		"name": "Hundred Rabbits",
