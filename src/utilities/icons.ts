@@ -23,6 +23,7 @@ export type IconCategory =
 	| "browser"
 	| "editor"
 	| "library"
+	| "none"
 	| "social"
 	| "system"
 	| "terminal";
@@ -31,6 +32,7 @@ export const categoryColorMap = {
 	browser: "tonal-love",
 	editor: "tonal-gold",
 	library: "tonal-rose",
+	none: "tonal-subtle",
 	social: "tonal-pine",
 	system: "tonal-foam",
 	terminal: "tonal-iris",
@@ -58,6 +60,7 @@ export const astroIconMap = {
 	browser: GlobeAstroIcon,
 	editor: NotebookPenAstroIcon,
 	library: LibraryBigAstroIcon,
+	none: BoxAstroIcon,
 	social: ShapesAstroIcon,
 	system: CpuAstroIcon,
 	terminal: SquareTerminalAstroIcon,
@@ -67,6 +70,7 @@ export const svelteIconMap = {
 	browser: GlobeSvelteIcon,
 	editor: NotebookPenSvelteIcon,
 	library: LibraryBigSvelteIcon,
+	none: BoxSvelteIcon,
 	social: ShapesSvelteIcon,
 	system: CpuSvelteIcon,
 	terminal: SquareTerminalSvelteIcon,
