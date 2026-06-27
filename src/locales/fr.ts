@@ -15,7 +15,7 @@ export default defineLocale({
 		"footer.collection.photography": "Photographie",
 		"footer.heading.resources": "Ressources",
 		"footer.resource.create": "Créer un thème",
-		"footer.resource.submit": "Proposer votre thème",
+		"footer.resource.submit": "Proposer un thème",
 		"footer.resource.translate": "Ajouter une traduction",
 		"footer.heading.social": "Réseaux sociaux",
 		
