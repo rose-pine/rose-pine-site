@@ -55,11 +55,11 @@ export default defineLocale({
 			"Guides, outils et inspiration pour créer de magnifiques thèmes.",
 		"create.also_available_in": "Aussi disponible en :",
 
-		"command.trigger": "Ouvrir le menu de commandes"
-		"command.title": "Menu de commandes"
-		"command.description": "Recherche global sur le site"
+		"command.trigger": "Ouvrir le menu de commandes",
+		"command.title": "Menu de commandes",
+		"command.description": "Recherche global sur le site",
 		"command.search_placeholder": "Recherche des pages, des thèmes et des palettes...",
-		"command.close": "Ferme le menu de commandes"
+		"command.close": "Ferme le menu de commandes",
 		"command.empty_results": "Aucun résultat trouvé",
 		"command.pages": "Pages",
 		"command.featured_themes": "Thèmes en vedette",
