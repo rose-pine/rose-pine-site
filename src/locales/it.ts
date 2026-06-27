@@ -30,7 +30,7 @@ export default defineLocale({
 		"command.search_placeholder": "Cerca pagine, temi, e tavolozze...",
 		"command.close": "Chiudi il menu dei comandi",
 		"command.empty_results": "Nessun risultato trovato",
-		"command.feeling_lucky": "Mi sento fortunato",
+		"command.feeling_lucky": "Mi sento fortunatə",
 		"command.featured_themes": "Temi in evidenza",
 		"command.pages": "Pagine",
 		"command.community": "Comunità",
@@ -41,20 +41,20 @@ export default defineLocale({
 		"home.primary_action": "Esplora i temi",
 		"home.feature.colours_and_community.title": "Colori & community",
 		"home.feature.colours_and_community.description":
-			"Rosé Pine è un'elegante palette presente in oltre {{REPOS_COUNT}} delle tue app preferite, grazie ai nostri piacevoli e generosi collaboratori.",
+			"Rosé Pine è un'elegante palette presente in oltre {{REPOS_COUNT}} delle tue app preferite, grazie allɜ nostrɜ piacevoli e generosɜ collaboratorɜ.",
 		"home.feature.passionately_subtle.title": "Appassionatamente discreto",
 		"home.feature.passionately_subtle.description":
 			"Con un'attenzione particolare alla qualità e allo scopo, i nostri colori accuratamente selezionati sono pensati per ispirare, non per sopraffare. Non vediamo l'ora che condividiate le vostre creazioni con il mondo.",
 		"home.feature.inclusive_equal_diverse.title": "Inclusivi, equi, diversi",
 		"home.feature.inclusive_equal_diverse.description":
-			"Ci impegniamo costantemente a offrire un ambiente sicuro e stimolante per tutti. Sei amato e apprezzato.",
+			"Ci impegniamo costantemente a offrire un ambiente sicuro e stimolante per tutti. Sei amatə e apprezzatə.",
 
 		"themes.title": "Temi",
 		"themes.description": "Una selezione curata di personalizzazioni.",
 		"themes.ports": "Port",
-		"themes.contributors": "Collaboratrici",
+		"themes.contributors": "Collaboratorɜ",
 		"themes.search_placeholder": "Cerca temi...",
-		"themes.search_focus_cue": "Premi / per focare",
+		"themes.search_focus_cue": "Premi / per focalizzare",
 
 		"photography.title": "Fotografie",
 		"photography.description":
@@ -76,7 +76,7 @@ export default defineLocale({
 
 		"submit.title": "Invia un tema",
 		"submit.description": "Invia il tuo tema per aggiungerlo a Rosé Pine.",
-		"submit.form.link_label": "Link al repository",
+		"submit.form.link_label": "Link alla repositoria",
 		"submit.form.category_label": "Categoria",
 		"submit.form.primary_action": "Invia",
 	},
