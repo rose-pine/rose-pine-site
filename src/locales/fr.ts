@@ -45,6 +45,10 @@ export default defineLocale({
 		"themes.contributors": "Contributeurs",
 		"themes.search_focus_cue": "Appuyez sur / pour rechercher",
 
+		"photography.title": "Photographie",
+		"photography.description":
+			"Si vous ne vous arrêtez pas un instant, vous risquez de manquer une vue parfaite.",
+		
 		"palette.title": "Palette",
 		"palette.description": "Des couleurs soignées, conçues pour inspirer.",
 		"palette.variants": "Variantes",
