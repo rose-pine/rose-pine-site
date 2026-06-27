@@ -8,7 +8,7 @@ updatedAt: 2025-11-09T12:00:00-06:00
 
 I membri di Rosé Pine incoraggiano la creatività e le interpretazioni diverse della nostra tavolozza limitata per i temi della community. Se preferisci un approccio più strutturato con una guida lungo il percorso, accogliamo i temi ufficiali nell'organizzazione GitHub di Rosé Pine, dove il team aiuterà quando possibile.
 
-Inizia con il nostro [template del repository](https://github.com/rose-pine/rose-pine-template) come base per il tuo nuovo tema.
+Inizia con il nostro [template della repositoria](https://github.com/rose-pine/rose-pine-template) come base per il tuo nuovo tema.
 
 ```sh
 gh repo create my-app --public --clone --template rose-pine/rose-pine-template
