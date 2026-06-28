@@ -41,13 +41,13 @@ export default defineLocale({
 		"home.primary_action": "Esplora i temi",
 		"home.feature.colours_and_community.title": "Colori & community",
 		"home.feature.colours_and_community.description":
-			"Rosé Pine è un'elegante palette presente in oltre {{REPOS_COUNT}} delle tue app preferite, grazie allɜ nostrɜ piacevoli e generosɜ collaboratorɜ.",
+			"Rosé Pine è un'elegante palette presente in oltre {{REPOS_COUNT}} delle tue app preferite, grazie ai nostri piacevoli e generosi collaboratori.",
 		"home.feature.passionately_subtle.title": "Appassionatamente discreto",
 		"home.feature.passionately_subtle.description":
 			"Con un'attenzione particolare alla qualità e allo scopo, i nostri colori accuratamente selezionati sono pensati per ispirare, non per sopraffare. Non vediamo l'ora che condividiate le vostre creazioni con il mondo.",
 		"home.feature.inclusive_equal_diverse.title": "Inclusivi, equi, diversi",
 		"home.feature.inclusive_equal_diverse.description":
-			"Ci impegniamo costantemente a offrire un ambiente sicuro e stimolante per tutti. Sei amatə e apprezzatə.",
+			"Ci impegniamo costantemente a offrire un ambiente sicuro e stimolante per tutti. Sei amato e apprezzato.",
 
 		"themes.title": "Temi",
 		"themes.description": "Una selezione curata di personalizzazioni.",
