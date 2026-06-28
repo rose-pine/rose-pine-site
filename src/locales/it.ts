@@ -30,7 +30,7 @@ export default defineLocale({
 		"command.search_placeholder": "Cerca pagine, temi, e tavolozze...",
 		"command.close": "Chiudi il menu dei comandi",
 		"command.empty_results": "Nessun risultato trovato",
-		"command.feeling_lucky": "Mi sento fortunatə",
+		"command.feeling_lucky": "Mi sento fortunato",
 		"command.featured_themes": "Temi in evidenza",
 		"command.pages": "Pagine",
 		"command.community": "Comunità",
