@@ -52,7 +52,7 @@ export default defineLocale({
 		"themes.title": "Temi",
 		"themes.description": "Una selezione curata di personalizzazioni.",
 		"themes.ports": "Port",
-		"themes.contributors": "Collaboratorɜ",
+		"themes.contributors": "Collaboratori",
 		"themes.search_placeholder": "Cerca temi...",
 		"themes.search_focus_cue": "Premi / per focalizzare",
 
