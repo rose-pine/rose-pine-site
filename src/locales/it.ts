@@ -30,7 +30,7 @@ export default defineLocale({
 		"command.search_placeholder": "Cerca pagine, temi, e tavolozze...",
 		"command.close": "Chiudi il menu dei comandi",
 		"command.empty_results": "Nessun risultato trovato",
-		"command.feeling_lucky": "Mi sento fortunato",
+		"command.feeling_lucky": "Sorprendimi",
 		"command.featured_themes": "Temi in evidenza",
 		"command.pages": "Pagine",
 		"command.community": "Comunità",
@@ -47,12 +47,12 @@ export default defineLocale({
 			"Con un'attenzione particolare alla qualità e allo scopo, i nostri colori accuratamente selezionati sono pensati per ispirare, non per sopraffare. Non vediamo l'ora che condividiate le vostre creazioni con il mondo.",
 		"home.feature.inclusive_equal_diverse.title": "Inclusivi, equi, diversi",
 		"home.feature.inclusive_equal_diverse.description":
-			"Ci impegniamo costantemente a offrire un ambiente sicuro e stimolante per tutti. Sei amato e apprezzato.",
+			"Ci impegniamo costantemente a offrire un ambiente sicuro e stimolante per tutti. Qui trovi affetto, stima e considerazione.",
 
 		"themes.title": "Temi",
 		"themes.description": "Una selezione curata di personalizzazioni.",
 		"themes.ports": "Port",
-		"themes.contributors": "Collaboratrici",
+		"themes.contributors": "Collaboratori",
 		"themes.search_placeholder": "Cerca temi...",
 		"themes.search_focus_cue": "Premi / per focare",
 
