@@ -635,8 +635,8 @@
 	{
 		"slug": "discord-mobile",
 		"description": "Soho vibes for Discord mobile",
-		"stargazersCount": 20,
-		"updatedAt": "2026-03-09T13:17:57Z",
+		"stargazersCount": 21,
+		"updatedAt": "2026-06-27T09:07:17Z",
 		"tags": ["mobile-app", "theme"],
 		"url": "https://github.com/rose-pine/discord-mobile",
 		"name": "Discord Mobile",
@@ -1524,8 +1524,8 @@
 	{
 		"slug": "hyprland",
 		"description": "Soho vibes for Hyprland ",
-		"stargazersCount": 34,
-		"updatedAt": "2026-06-20T11:52:51Z",
+		"stargazersCount": 35,
+		"updatedAt": "2026-06-27T01:15:53Z",
 		"tags": ["color-palette", "hyprland", "theme", "tiling-window-manager"],
 		"url": "https://github.com/rose-pine/hyprland",
 		"name": "Hyprland",
@@ -1650,8 +1650,8 @@
 	{
 		"slug": "jdownloader",
 		"description": "Soho vibes for JDownloader 2",
-		"stargazersCount": 6,
-		"updatedAt": "2026-06-26T04:27:09Z",
+		"stargazersCount": 7,
+		"updatedAt": "2026-06-27T10:23:05Z",
 		"tags": ["app", "jdownloader", "theme"],
 		"url": "https://github.com/rose-pine/jdownloader",
 		"name": "JDownloader",
@@ -2124,8 +2124,8 @@
 	{
 		"slug": "neovim",
 		"description": "Soho vibes for Neovim",
-		"stargazersCount": 3044,
-		"updatedAt": "2026-06-26T15:41:26Z",
+		"stargazersCount": 3045,
+		"updatedAt": "2026-06-27T04:51:04Z",
 		"tags": [
 			"editor",
 			"lua",
@@ -4006,7 +4006,7 @@
 		"slug": "userstyles",
 		"description": "Soho vibes for Userstyles",
 		"stargazersCount": 48,
-		"updatedAt": "2026-06-26T21:58:34Z",
+		"updatedAt": "2026-06-27T09:58:01Z",
 		"tags": ["css", "stylish", "stylus", "userstyles"],
 		"url": "https://github.com/rose-pine/userstyles",
 		"name": "Userstyles",
@@ -4161,8 +4161,8 @@
 	{
 		"slug": "vscode",
 		"description": "Soho vibes for Visual Studio Code",
-		"stargazersCount": 594,
-		"updatedAt": "2026-06-26T20:16:34Z",
+		"stargazersCount": 595,
+		"updatedAt": "2026-06-27T13:37:09Z",
 		"tags": [
 			"editor",
 			"hacktoberfest",
@@ -4266,8 +4266,8 @@
 	{
 		"slug": "wallpapers",
 		"description": "Soho vibes for Wallpapers",
-		"stargazersCount": 410,
-		"updatedAt": "2026-06-26T17:48:39Z",
+		"stargazersCount": 415,
+		"updatedAt": "2026-06-27T22:25:32Z",
 		"tags": ["rose-pine", "soho-vibes", "theme", "wallpapers"],
 		"url": "https://github.com/rose-pine/wallpapers",
 		"name": "Wallpapers",
@@ -4385,8 +4385,8 @@
 	{
 		"slug": "windows-terminal",
 		"description": "Soho vibes for Windows Terminal",
-		"stargazersCount": 112,
-		"updatedAt": "2026-06-22T15:27:17Z",
+		"stargazersCount": 113,
+		"updatedAt": "2026-06-27T10:53:34Z",
 		"tags": [
 			"rose-pine",
 			"soho-vibes",
