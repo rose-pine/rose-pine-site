@@ -28,7 +28,7 @@ Copy the English locale file and rename it to your language code:
 Update `name` inside `config` to your language's name, then add your translations:
 
 ```diff
-  import { defineLocale } from "../define-locale";
+  import { defineLocale } from "../utilities/i18n";
 
   export default defineLocale({
     config: {
@@ -36,14 +36,13 @@ Update `name` inside `config` to your language's name, then add your translation
 +     name: "Sindarin",
     },
     translations: {
-
-  export default {
--   "shared.all": "All",
--   "shared.language": "Language",
-+   "shared.all": "Pân",
-+   "shared.language": "Lamb",
-    ...
-  }
+-     "shared.all": "All",
+-     "shared.language": "Language",
++     "shared.all": "Pân",
++     "shared.language": "Lamb",
+      ...
+    },
+  });
 ```
 
 Any missing translations will automatically fall back to English.

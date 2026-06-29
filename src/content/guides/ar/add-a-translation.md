@@ -28,7 +28,7 @@ updatedAt: 2026-06-18T12:00:00-06:00
 حدّث قيمة `name` داخل `config` باسم لغتك، ثم أضف ترجماتك:
 
 ```diff
-  import { defineLocale } from "../define-locale";
+  import { defineLocale } from "../utilities/i18n";
 
   export default defineLocale({
     config: {
@@ -36,14 +36,13 @@ updatedAt: 2026-06-18T12:00:00-06:00
 +     name: "Sindarin",
     },
     translations: {
-
-  export default {
--   "shared.all": "All",
--   "shared.language": "Language",
-+   "shared.all": "Pân",
-+   "shared.language": "Lamb",
-    ...
-  }
+-     "shared.all": "All",
+-     "shared.language": "Language",
++     "shared.all": "Pân",
++     "shared.language": "Lamb",
+      ...
+    },
+  });
 ```
 
 أي ترجمة مفقودة ستعود تلقائيًا إلى الإنجليزية.

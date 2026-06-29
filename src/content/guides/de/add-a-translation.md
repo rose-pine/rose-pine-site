@@ -30,7 +30,7 @@ Kopiere die englische Sprachdatei und benenne sie mit deinem Sprachkürzel:
 Ändere `name` in `config` zu dem Namen deiner Sprache und dann füge deine Übersetzungen hinzu:
 
 ```diff
-  import { defineLocale } from "../define-locale";
+  import { defineLocale } from "../utilities/i18n";
 
   export default defineLocale({
     config: {
@@ -38,14 +38,13 @@ Kopiere die englische Sprachdatei und benenne sie mit deinem Sprachkürzel:
 +     name: "Sindarin",
     },
     translations: {
-
-  export default {
--   "shared.all": "All",
--   "shared.language": "Language",
-+   "shared.all": "Pân",
-+   "shared.language": "Lamb",
-    ...
-  }
+-     "shared.all": "All",
+-     "shared.language": "Language",
++     "shared.all": "Pân",
++     "shared.language": "Lamb",
+      ...
+    },
+  });
 ```
 
 Fehlende Übersetzungen fallen automatisch auf Englisch zurück.

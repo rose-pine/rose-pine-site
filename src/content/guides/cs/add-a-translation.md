@@ -36,14 +36,13 @@ Upravte `name` v sekci `config` na název vašeho jazyka a poté přidejte přek
 +     name: "Sindarin",
     },
     translations: {
-
-  export default {
--   "shared.all": "All",
--   "shared.language": "Language",
-+   "shared.all": "Pân",
-+   "shared.language": "Lamb",
-    ...
-  }
+-     "shared.all": "All",
+-     "shared.language": "Language",
++     "shared.all": "Pân",
++     "shared.language": "Lamb",
+      ...
+    },
+  });
 ```
 
 V případě chybějících překladů se automaticky použije angličtina.
