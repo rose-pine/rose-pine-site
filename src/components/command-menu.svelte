@@ -10,7 +10,6 @@
 	import SparklesIcon from "@lucide/svelte/icons/sparkles";
 	import XIcon from "@lucide/svelte/icons/x";
 	import { Command, Dialog } from "bits-ui";
-	import { getRandomRepo } from "../data";
 	import {
 		getLocaleFromUrl,
 		useTranslatedPath,
@@ -35,14 +34,18 @@
 	type Props = {
 		defaultGroups: Group[];
 		searchGroups: Group[];
+		repoSlugs: string[];
 	};
-	let { defaultGroups, searchGroups }: Props = $props();
+	let { defaultGroups, searchGroups, repoSlugs }: Props = $props();
 
 	let open = $state(false);
 	let search = $state("");
 	let previouslyActiveElement = $state<Element | null>(null);
 	let isSearching = $derived(search.length > 0);
 	let groups = $derived(isSearching ? searchGroups : defaultGroups);
+	let randomSlug = $derived(
+		open ? repoSlugs[Math.floor(Math.random() * repoSlugs.length)] : "",
+	);
 
 	let locale = getLocaleFromUrl();
 	let t = useTranslations(locale);
@@ -146,8 +149,8 @@
 					<Command.Viewport class="flex flex-col gap-3">
 						<Command.Empty class="flex justify-center p-(--dialog-gutter-half)">
 							<a
-								href={translatePath(`/themes/${getRandomRepo().slug}`)}
-								class="group/cta flex h-8 shrink-0 items-center gap-2 rounded-lg border border-text ps-3 pe-4 font-serif italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
+								href={translatePath(`/themes/${randomSlug}`)}
+								class="group/cta flex h-8 shrink-0 items-center gap-2 rounded-lg border-2 border-text ps-3 pe-4 font-serif font-medium italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
 							>
 								<Dice3Icon
 									size="16"
@@ -171,7 +174,7 @@
 								<Command.GroupItems
 									class="flex flex-col px-(--dialog-gutter-half) has-data-command-item:pt-3"
 								>
-									{#each group.items as { label, href, icon, additionalSearchString = '' }, itemIndex (`${label}:${href}:${group.heading}`)}
+									{#each group.items as { label, href, icon, additionalSearchString = '' }, itemIndex (`${label}:${href}:${group.heading}:${additionalSearchString}`)}
 										<Command.LinkItem
 											{href}
 											value="{label} {additionalSearchString} {itemIndex}"

@@ -14,6 +14,12 @@ let locale = getLocaleFromUrl(Astro.url);
 let t = useTranslations(locale);
 let translatePath = useTranslatedPath(locale);
 
+const [sortedRepos, featuredRepos] = await Promise.all([
+	getSortedRepos(),
+	getFeaturedRepos(),
+]);
+const repoSlugs = sortedRepos.map((r) => r.slug);
+
 let menuItems = [
 	{ name: t("nav.themes"), href: translatePath("/themes") },
 	{ name: t("nav.palette"), href: translatePath("/palette") },
@@ -43,7 +49,7 @@ let searchGroups = [
 	},
 	{
 		heading: t("nav.themes"),
-		items: getSortedRepos().map((repo) => ({
+		items: sortedRepos.map((repo) => ({
 			label: repo.name,
 			href: translatePath(`/themes/${repo.slug}`),
 			icon: repo.category,
@@ -76,7 +82,7 @@ let defaultGroups = [
 	searchGroups[0],
 	{
 		heading: t("command.featured_themes"),
-		items: getFeaturedRepos().map((repo) => ({
+		items: featuredRepos.map((repo) => ({
 			label: repo.name,
 			href: translatePath(`/themes/${repo.slug}`),
 			icon: repo.category,
@@ -102,7 +108,12 @@ let defaultGroups = [
 	</a>
 
 	<div class="flex flex-1 items-center justify-end">
-		<CommandMenu client:only="svelte" {defaultGroups} {searchGroups} />
+		<CommandMenu
+			client:only="svelte"
+			{defaultGroups}
+			{searchGroups}
+			{repoSlugs}
+		/>
 	</div>
 
 	<div class="z-50 h-7 w-px bg-text/20 md:-me-(--nav-item-space)"></div>

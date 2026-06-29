@@ -1,0 +1,8 @@
+name: JupyterLab
+url: https://github.com/aaravind100/jupyterlab
+tags:
+  - notebook
+contributors:
+  - name: aaravind100
+    url: https://github.com/aaravind100
+category: editor

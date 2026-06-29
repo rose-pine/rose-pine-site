@@ -1,0 +1,16 @@
+name: GNOME Terminal
+category: terminal
+stargazersCount: 55
+updatedAt: 2026-04-06T14:03:12Z
+tags:
+  - hacktoberfest
+  - terminal-emulator
+contributors:
+  - name: mvllow
+    url: https://github.com/mvllow
+  - name: ThatOneCalculator
+    url: https://github.com/ThatOneCalculator
+  - name: ashbork
+    url: https://github.com/ashbork
+  - name: diorcula
+    url: https://github.com/diorcula

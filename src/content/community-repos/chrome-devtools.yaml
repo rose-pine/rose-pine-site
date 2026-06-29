@@ -1,0 +1,8 @@
+name: Chrome Devtools
+url: https://github.com/velzie/rose-pine-chrome-devtools
+contributors:
+  - name: velzie
+    url: https://github.com/velzie
+category: browser
+related:
+  - google-chrome
