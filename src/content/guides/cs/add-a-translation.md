@@ -57,9 +57,9 @@ Použijte anglickou verzi jako vzor a vytvořte návod:
 + src/content/guides/sd/create-a-theme.md
 ```
 
-Všimněte si přidání složky `sd` pro náš příklad sindarštiny. Název návodu zůstavá stejný.
+Všimněte si přidání složky `sd` pro náš příklad sindarštiny. Název návodu zůstává stejný.
 
-Upravte nadpis, popis, autora a data v metadatech, která se nachází v úvodní části souboru ohraničené značkami `---`.
+Upravte nadpis, popis, autora a data v metadatech, která se nacházejí v úvodní části souboru ohraničené značkami `---`.
 
 ```diff
   ---
