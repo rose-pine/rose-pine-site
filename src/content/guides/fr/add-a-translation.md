@@ -61,7 +61,7 @@ En utilisant la version anglaise comme référence, créez votre guide:
 Le nom d'utilisateur de l'auteur sera associé à un fichier présent dans le dossier `src/content/authors/`. Veillez donc à vous y ajouter, par exemple:
 
 ```diff
-// src/content/authors/<username>.yml
+// src/content/authors/<username>.yaml
 + name: "<name>"
 + image: "https://avatars.githubusercontent.com/<username>"
 + url: "https://example.com"
