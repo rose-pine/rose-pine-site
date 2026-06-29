@@ -17,7 +17,7 @@ export default defineLocale({
 		"footer.resource.create": "Crea un tema",
 		"footer.resource.submit": "Invia il tuo tema",
 		"footer.resource.translate": "Aggiungi una traduzione",
-		"footer.heading.social": "Sociale",
+		"footer.heading.social": "Social",
 
 		"nav.home": "Home",
 		"nav.themes": "Temi",
@@ -26,7 +26,7 @@ export default defineLocale({
 
 		"command.trigger": "Apre il menu dei comandi",
 		"command.title": "Menu dei comandi",
-		"command.description": "Cerca globale del sito",
+		"command.description": "Ricerca globale del sito",
 		"command.search_placeholder": "Cerca pagine, temi, e tavolozze...",
 		"command.close": "Chiudi il menu dei comandi",
 		"command.empty_results": "Nessun risultato trovato",
@@ -54,7 +54,7 @@ export default defineLocale({
 		"themes.ports": "Port",
 		"themes.contributors": "Collaboratrici",
 		"themes.search_placeholder": "Cerca temi...",
-		"themes.search_focus_cue": "Premi / per focare",
+		"themes.search_focus_cue": "Premi / per focalizzare",
 
 		"photography.title": "Fotografie",
 		"photography.description":
@@ -76,7 +76,7 @@ export default defineLocale({
 
 		"submit.title": "Invia un tema",
 		"submit.description": "Invia il tuo tema per aggiungerlo a Rosé Pine.",
-		"submit.form.link_label": "Link al repository",
+		"submit.form.link_label": "Link alla repositoria",
 		"submit.form.category_label": "Categoria",
 		"submit.form.primary_action": "Invia",
 	},
