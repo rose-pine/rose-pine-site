@@ -1,4 +1,5 @@
 ---
+name: Base
 description: Sfondo principale — cornici dell'applicazione, barre laterali, schede ed estensioni del contesto principale.
 ---
 

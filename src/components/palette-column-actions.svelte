@@ -1,62 +1,28 @@
 <script lang="ts">
 	import { DropdownMenu } from "bits-ui";
 	import type { Snippet } from "svelte";
-	import { formatColor } from "../color";
-	import palette from "../data/palette.json";
 	import { preferences } from "../state.svelte";
-	import type { ColorFormat, Variant } from "../types/palette";
+
+	type SyntaxEntry = {
+		label: string;
+		value: string;
+		valuePlain: string;
+	};
 
 	type Props = {
-		format: ColorFormat;
-		variant: Variant;
+		syntaxes: SyntaxEntry[];
 		children: Snippet;
 	};
-	let { format, variant, children }: Props = $props();
+	let { syntaxes, children }: Props = $props();
 
 	let open = $state(false);
 	let copied = $state(false);
-	let syntaxes = $derived([
-		{
-			label: "CSS",
-			value: palette[variant]
-				.map(
-					(color) =>
-						`--color-${color.role}: ${formatColor(color, format, preferences.colorsAreStyled)};`,
-				)
-				.join("\n"),
-		},
-		{
-			label: "JSON",
-			value: JSON.stringify(
-				Object.fromEntries(
-					palette[variant].map((color) => [
-						color.role,
-						formatColor(color, format, preferences.colorsAreStyled),
-					]),
-				),
-				undefined,
-				"\t",
-			),
-		},
-		{
-			label: "TOML",
-			value: `${palette[variant]
-				.map(
-					(color) =>
-						`${color.role} = "${formatColor(color, format, preferences.colorsAreStyled)}"`,
-				)
-				.join("\n")}`,
-		},
-		{
-			label: "YAML",
-			value: `${palette[variant]
-				.map(
-					(color) =>
-						`${color.role}: '${formatColor(color, format, preferences.colorsAreStyled)}'`,
-				)
-				.join("\n")}`,
-		},
-	]);
+	let resolvedSyntaxes = $derived(
+		syntaxes.map((s) => ({
+			label: s.label,
+			value: preferences.colorsAreStyled ? s.value : s.valuePlain,
+		})),
+	);
 
 	function copyToClipboard(text: string) {
 		try {
@@ -72,7 +38,7 @@
 	}
 </script>
 
-{#snippet copySyntax(syntax: (typeof syntaxes)[0])}
+{#snippet copySyntax(syntax: (typeof resolvedSyntaxes)[0])}
 	<DropdownMenu.Item>
 		{#snippet child()}
 			<button
@@ -80,7 +46,7 @@
 					open = false;
 					copyToClipboard(syntax.value);
 				}}
-				aria-label={`Copy ${variant} palette as ${syntax.label}`}
+				aria-label={`Copy as ${syntax.label}`}
 				class="flex cursor-pointer items-center gap-2 rounded-(--card-inner-radius) border tonal-subtle py-1.5 ps-2.5 pe-3 font-mono text-sm font-medium transition hover:tonal-gold"
 			>
 				<svg
@@ -168,7 +134,7 @@
 				>
 
 				<div class="grid grid-cols-2 gap-1.5">
-					{#each syntaxes as syntax}
+					{#each resolvedSyntaxes as syntax}
 						{@render copySyntax(syntax)}
 					{/each}
 				</div>

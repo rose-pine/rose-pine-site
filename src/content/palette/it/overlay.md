@@ -1,4 +1,5 @@
 ---
+name: Overlay
 description: Sfondo terziario sopra surface — pannelli temporanei come popover, notifiche e dialoghi.
 ---
 

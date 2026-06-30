@@ -1,4 +1,5 @@
 ---
+name: Highlight High
 description: High contrast highlight
 ---
 

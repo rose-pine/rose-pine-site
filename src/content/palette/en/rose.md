@@ -1,4 +1,5 @@
 ---
+name: Rose
 description: A beautiful yet cautious blossom
 ---
 

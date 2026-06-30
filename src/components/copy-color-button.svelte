@@ -1,11 +1,12 @@
 <script lang="ts">
-	import { formatColor } from "../color";
 	import { preferences } from "../state.svelte";
-	import type { Color, ColorFormat } from "../types/palette";
 
-	let { color, format }: { color: Color; format: ColorFormat } = $props();
+	let {
+		formattedStyled,
+		formattedPlain,
+	}: { formattedStyled: string; formattedPlain: string } = $props();
 	let formattedColor = $derived(
-		formatColor(color, format, preferences.colorsAreStyled),
+		preferences.colorsAreStyled ? formattedStyled : formattedPlain,
 	);
 	let copied = $state(false);
 

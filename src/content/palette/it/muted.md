@@ -1,4 +1,5 @@
 ---
+name: Muted
 description: Testo a basso contrasto — elementi disabilitati e testo non attivo.
 ---
 

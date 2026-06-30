@@ -1,4 +1,5 @@
 ---
+name: Rose
 description: Un fiore bello ma cauto
 ---
 

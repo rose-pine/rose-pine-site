@@ -4,6 +4,7 @@ import CopyColorButton from "../../../components/copy-color-button.svelte";
 import IntroSection from "../../../components/intro-section.astro";
 import PaletteColumnActions from "../../../components/palette-column-actions.svelte";
 import PaletteStyleToggle from "../../../components/palette-style-toggle.svelte";
+import { formatColor } from "../../../color";
 import palette from "../../../data/palette.json";
 import Page from "../../../layouts/page.astro";
 import {
@@ -22,6 +23,46 @@ let t = useTranslations(locale);
 let translatePath = useTranslatedPath(locale);
 
 let variants = objectKeys(palette);
+
+function buildSyntaxes(variant: string, format: "hex" | "hsl" | "rgb") {
+	const colors = palette[variant];
+	const styled = colors.map((c) => formatColor(c, format, true));
+	const plain = colors.map((c) => formatColor(c, format, false));
+	return [
+		{
+			label: "CSS",
+			value: colors
+				.map((c, i) => `--color-${c.slug}: ${styled[i]};`)
+				.join("\n"),
+			valuePlain: colors
+				.map((c, i) => `--color-${c.slug}: ${plain[i]};`)
+				.join("\n"),
+		},
+		{
+			label: "JSON",
+			value: JSON.stringify(
+				Object.fromEntries(colors.map((c, i) => [c.slug, styled[i]])),
+				null,
+				"\t",
+			),
+			valuePlain: JSON.stringify(
+				Object.fromEntries(colors.map((c, i) => [c.slug, plain[i]])),
+				null,
+				"\t",
+			),
+		},
+		{
+			label: "TOML",
+			value: colors.map((c, i) => `${c.slug} = "${styled[i]}"`).join("\n"),
+			valuePlain: colors.map((c, i) => `${c.slug} = "${plain[i]}"`).join("\n"),
+		},
+		{
+			label: "YAML",
+			value: colors.map((c, i) => `${c.slug}: '${styled[i]}'`).join("\n"),
+			valuePlain: colors.map((c, i) => `${c.slug}: '${plain[i]}'`).join("\n"),
+		},
+	];
+}
 ---
 
 <Page title={t("palette.title")} description={t("palette.description")}>
@@ -59,8 +100,7 @@ let variants = objectKeys(palette);
 											<div class="flex w-full items-center justify-end">
 												<PaletteColumnActions
 													client:only="svelte"
-													format="hex"
-													variant={variant}
+													syntaxes={buildSyntaxes(variant, "hex")}
 												>
 													Hex
 												</PaletteColumnActions>
@@ -70,8 +110,7 @@ let variants = objectKeys(palette);
 											<div class="flex w-full items-center justify-end">
 												<PaletteColumnActions
 													client:only="svelte"
-													format="hsl"
-													variant={variant}
+													syntaxes={buildSyntaxes(variant, "hsl")}
 												>
 													HSL
 												</PaletteColumnActions>
@@ -81,8 +120,7 @@ let variants = objectKeys(palette);
 											<div class="flex w-full items-center justify-end">
 												<PaletteColumnActions
 													client:only="svelte"
-													format="rgb"
-													variant={variant}
+													syntaxes={buildSyntaxes(variant, "rgb")}
 												>
 													RGB
 												</PaletteColumnActions>
@@ -98,17 +136,15 @@ let variants = objectKeys(palette);
 													<td class="ps-(--card-gutter)">
 														<div class="flex">
 															<a
-																href={translatePath(
-																	`/palette/${color.role.replace(" ", "-")}`,
-																)}
+																href={translatePath(`/palette/${color.slug}`)}
 																class="flex items-center gap-2 rounded-(--card-inner-radius) px-(--cell-offset) py-[calc(var(--cell-offset)/2)] hover:bg-muted/10"
 															>
 																<div
 																	class="size-4 rounded-full border border-muted/20"
 																	style={{ background: `#${color.hex}` }}
 																/>
-																<div class="pb-px text-[15px] font-medium capitalize">
-																	{color.role}
+																<div class="pb-px text-[15px] font-medium">
+																	{color.name}
 																</div>
 															</a>
 														</div>
@@ -117,24 +153,24 @@ let variants = objectKeys(palette);
 													<td class="ps-(--col-gap)">
 														<CopyColorButton
 															client:only="svelte"
-															{color}
-															format="hex"
+															formattedStyled={formatColor(color, "hex", true)}
+															formattedPlain={formatColor(color, "hex", false)}
 														/>
 													</td>
 
 													<td class="ps-(--col-gap)">
 														<CopyColorButton
 															client:only="svelte"
-															{color}
-															format="hsl"
+															formattedStyled={formatColor(color, "hsl", true)}
+															formattedPlain={formatColor(color, "hsl", false)}
 														/>
 													</td>
 
 													<td class="ps-(--col-gap)">
 														<CopyColorButton
 															client:only="svelte"
-															{color}
-															format="rgb"
+															formattedStyled={formatColor(color, "rgb", true)}
+															formattedPlain={formatColor(color, "rgb", false)}
 														/>
 													</td>
 

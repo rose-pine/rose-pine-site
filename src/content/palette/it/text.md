@@ -1,4 +1,5 @@
 ---
+name: Text
 description: Testo ad alto contrasto — testo normale, variabili e contenuto attivo.
 ---
 

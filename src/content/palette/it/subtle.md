@@ -1,4 +1,5 @@
 ---
+name: Subtle
 description: Testo a medio contrasto — commenti, punteggiatura e nomi delle schede.
 ---
 

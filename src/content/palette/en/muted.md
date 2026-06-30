@@ -1,4 +1,5 @@
 ---
+name: Muted
 description: Low contrast foreground
 ---
 

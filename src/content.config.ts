@@ -2,6 +2,18 @@ import { glob } from "astro/loaders";
 import { z } from "astro/zod";
 import { defineCollection, reference } from "astro:content";
 
+const contributorSchema = z.object({
+	name: z.string(),
+	image: z.url().optional(),
+	url: z.url(),
+});
+
+const subthemeSchema = z.object({
+	name: z.string(),
+	author: z.string(),
+	url: z.string(),
+});
+
 export const collections = {
 	officialRepos: defineCollection({
 		loader: glob({
@@ -15,14 +27,8 @@ export const collections = {
 			tags: z.array(z.string()).optional(),
 			name: z.string().optional(),
 			category: z.string(),
-			contributors: z.array(
-				z.object({ name: z.string(), image: z.url().optional(), url: z.url() }),
-			),
-			subthemes: z
-				.array(
-					z.object({ name: z.string(), author: z.string(), url: z.string() }),
-				)
-				.optional(),
+			contributors: z.array(contributorSchema),
+			subthemes: z.array(subthemeSchema).optional(),
 			related: z.array(z.string()).optional(),
 		}),
 	}),
@@ -36,15 +42,9 @@ export const collections = {
 			name: z.string(),
 			url: z.url(),
 			tags: z.array(z.string()).optional(),
-			contributors: z.array(
-				z.object({ name: z.string(), image: z.url().optional(), url: z.url() }),
-			),
+			contributors: z.array(contributorSchema),
 			category: z.string(),
-			subthemes: z
-				.array(
-					z.object({ name: z.string(), author: z.string(), url: z.string() }),
-				)
-				.optional(),
+			subthemes: z.array(subthemeSchema).optional(),
 			related: z.array(z.string()).optional(),
 		}),
 	}),
@@ -71,6 +71,7 @@ export const collections = {
 		}),
 		schema: z.object({
 			description: z.string(),
+			name: z.string(),
 		}),
 	}),
 

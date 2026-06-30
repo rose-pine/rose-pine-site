@@ -30,20 +30,17 @@ let entry =
 if (!entry) return Astro.redirect("/404");
 let { Content } = await render(entry);
 
-const paletteOrder = palette.main.map((c) => c.role);
+const paletteOrder = palette.main.map((c) => c.slug);
 const allColors = (
 	await getCollection("palette", ({ id }) => id.startsWith("en/"))
 ).sort(
 	(a, b) =>
-		paletteOrder.indexOf(a.id.replace("en/", "").replace(/-/g, " ")) -
-		paletteOrder.indexOf(b.id.replace("en/", "").replace(/-/g, " ")),
+		paletteOrder.indexOf(a.id.replace("en/", "")) -
+		paletteOrder.indexOf(b.id.replace("en/", "")),
 );
 ---
 
-<Page
-	title={color.charAt(0).toUpperCase() + color.slice(1)}
-	description={entry.data.description}
->
+<Page title={entry.data.name} description={entry.data.description}>
 	<div class="wrapper">
 		<div
 			class="animate-enter mb-12 flex items-center justify-between gap-3"
@@ -66,7 +63,7 @@ const allColors = (
 						class="animate-enter mb-4 max-w-2xl text-4xl font-bold tracking-tight text-balance capitalize sm:text-6xl"
 						style="--stagger: 1"
 					>
-						{color.replace("-", " ")}
+						{entry.data.name}
 					</h1>
 					<p
 						class="animate-enter mb-12 max-w-md font-serif text-xl text-subtle italic"
@@ -87,16 +84,16 @@ const allColors = (
 					<h2 class="mb-4 font-bold">{t("palette.colours")}</h2>
 					<ul role="list" class="flex flex-col gap-2">
 						{
-							allColors.map(({ id }) => {
+							allColors.map(({ id, data }) => {
 								const slug = id.replace("en/", "");
-								const name = slug.replace("-", " ");
+								const name = data.name;
 								return (
 									<li>
 										<a
 											href={translatePath(`/palette/${slug}`)}
 											class:list={[
 												"inline-flex items-center gap-2 font-medium capitalize",
-												name === color
+												slug === color
 													? "font-serif italic"
 													: "font-sans text-subtle transition hover:text-text",
 											]}

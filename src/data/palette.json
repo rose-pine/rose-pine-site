@@ -1,91 +1,106 @@
 {
 	"main": [
 		{
-			"role": "base",
+			"name": "Base",
+			"slug": "base",
 			"hex": "191724",
 			"rgb": [25, 23, 36],
 			"hsl": [249, 22, 12]
 		},
 		{
-			"role": "surface",
+			"name": "Surface",
+			"slug": "surface",
 			"hex": "1f1d2e",
 			"rgb": [31, 29, 46],
 			"hsl": [247, 23, 15]
 		},
 		{
-			"role": "overlay",
+			"name": "Overlay",
+			"slug": "overlay",
 			"hex": "26233a",
 			"rgb": [38, 35, 58],
 			"hsl": [245, 25, 18]
 		},
 		{
-			"role": "muted",
+			"name": "Muted",
+			"slug": "muted",
 			"hex": "6e6a86",
 			"rgb": [110, 106, 134],
 			"hsl": [249, 12, 47]
 		},
 		{
-			"role": "subtle",
+			"name": "Subtle",
+			"slug": "subtle",
 			"hex": "908caa",
 			"rgb": [144, 140, 170],
 			"hsl": [248, 15, 61]
 		},
 		{
-			"role": "text",
+			"name": "Text",
+			"slug": "text",
 			"hex": "e0def4",
 			"rgb": [224, 222, 244],
 			"hsl": [245, 50, 91]
 		},
 		{
-			"role": "love",
+			"name": "Love",
+			"slug": "love",
 			"hex": "eb6f92",
 			"rgb": [235, 111, 146],
 			"hsl": [343, 76, 68]
 		},
 		{
-			"role": "gold",
+			"name": "Gold",
+			"slug": "gold",
 			"hex": "f6c177",
 			"rgb": [246, 193, 119],
 			"hsl": [35, 88, 72]
 		},
 		{
-			"role": "rose",
+			"name": "Rose",
+			"slug": "rose",
 			"hex": "ebbcba",
 			"rgb": [235, 188, 186],
 			"hsl": [2, 55, 83]
 		},
 		{
-			"role": "pine",
+			"name": "Pine",
+			"slug": "pine",
 			"hex": "31748f",
 			"rgb": [49, 116, 143],
 			"hsl": [197, 49, 38]
 		},
 		{
-			"role": "foam",
+			"name": "Foam",
+			"slug": "foam",
 			"hex": "9ccfd8",
 			"rgb": [156, 207, 216],
 			"hsl": [189, 43, 73]
 		},
 		{
-			"role": "iris",
+			"name": "Iris",
+			"slug": "iris",
 			"hex": "c4a7e7",
 			"rgb": [196, 167, 231],
 			"hsl": [267, 57, 78]
 		},
 		{
-			"role": "highlight low",
+			"name": "Highlight Low",
+			"slug": "highlight-low",
 			"hex": "21202e",
 			"rgb": [33, 32, 46],
 			"hsl": [244, 18, 15]
 		},
 		{
-			"role": "highlight med",
+			"name": "Highlight Med",
+			"slug": "highlight-med",
 			"hex": "403d52",
 			"rgb": [64, 61, 82],
 			"hsl": [249, 15, 28]
 		},
 		{
-			"role": "highlight high",
+			"name": "Highlight High",
+			"slug": "highlight-high",
 			"hex": "524f67",
 			"rgb": [82, 79, 103],
 			"hsl": [248, 13, 36]
@@ -93,91 +108,106 @@
 	],
 	"moon": [
 		{
-			"role": "base",
+			"name": "Base",
+			"slug": "base",
 			"hex": "232136",
 			"rgb": [35, 33, 54],
 			"hsl": [246, 24, 17]
 		},
 		{
-			"role": "surface",
+			"name": "Surface",
+			"slug": "surface",
 			"hex": "2a273f",
 			"rgb": [42, 39, 63],
 			"hsl": [248, 24, 20]
 		},
 		{
-			"role": "overlay",
+			"name": "Overlay",
+			"slug": "overlay",
 			"hex": "393552",
 			"rgb": [57, 53, 82],
 			"hsl": [248, 21, 26]
 		},
 		{
-			"role": "muted",
+			"name": "Muted",
+			"slug": "muted",
 			"hex": "6e6a86",
 			"rgb": [110, 106, 134],
 			"hsl": [249, 12, 47]
 		},
 		{
-			"role": "subtle",
+			"name": "Subtle",
+			"slug": "subtle",
 			"hex": "908caa",
 			"rgb": [144, 140, 170],
 			"hsl": [248, 15, 61]
 		},
 		{
-			"role": "text",
+			"name": "Text",
+			"slug": "text",
 			"hex": "e0def4",
 			"rgb": [224, 222, 244],
 			"hsl": [245, 50, 91]
 		},
 		{
-			"role": "love",
+			"name": "Love",
+			"slug": "love",
 			"hex": "eb6f92",
 			"rgb": [235, 111, 146],
 			"hsl": [343, 76, 68]
 		},
 		{
-			"role": "gold",
+			"name": "Gold",
+			"slug": "gold",
 			"hex": "f6c177",
 			"rgb": [246, 193, 119],
 			"hsl": [35, 88, 72]
 		},
 		{
-			"role": "rose",
+			"name": "Rose",
+			"slug": "rose",
 			"hex": "ea9a97",
 			"rgb": [234, 154, 151],
 			"hsl": [2, 66, 75]
 		},
 		{
-			"role": "pine",
+			"name": "Pine",
+			"slug": "pine",
 			"hex": "3e8fb0",
 			"rgb": [62, 143, 176],
 			"hsl": [197, 48, 47]
 		},
 		{
-			"role": "foam",
+			"name": "Foam",
+			"slug": "foam",
 			"hex": "9ccfd8",
 			"rgb": [156, 207, 216],
 			"hsl": [189, 43, 73]
 		},
 		{
-			"role": "iris",
+			"name": "Iris",
+			"slug": "iris",
 			"hex": "c4a7e7",
 			"rgb": [196, 167, 231],
 			"hsl": [267, 57, 78]
 		},
 		{
-			"role": "highlight low",
+			"name": "Highlight Low",
+			"slug": "highlight-low",
 			"hex": "2a283e",
 			"rgb": [42, 40, 62],
 			"hsl": [245, 22, 20]
 		},
 		{
-			"role": "highlight med",
+			"name": "Highlight Med",
+			"slug": "highlight-med",
 			"hex": "44415a",
 			"rgb": [68, 65, 90],
 			"hsl": [247, 16, 30]
 		},
 		{
-			"role": "highlight high",
+			"name": "Highlight High",
+			"slug": "highlight-high",
 			"hex": "56526e",
 			"rgb": [86, 82, 110],
 			"hsl": [249, 15, 38]
@@ -185,91 +215,106 @@
 	],
 	"dawn": [
 		{
-			"role": "base",
+			"name": "Base",
+			"slug": "base",
 			"hex": "faf4ed",
 			"rgb": [250, 244, 237],
 			"hsl": [32, 57, 95]
 		},
 		{
-			"role": "surface",
+			"name": "Surface",
+			"slug": "surface",
 			"hex": "fffaf3",
 			"rgb": [255, 250, 243],
 			"hsl": [35, 100, 98]
 		},
 		{
-			"role": "overlay",
+			"name": "Overlay",
+			"slug": "overlay",
 			"hex": "f2e9e1",
 			"rgb": [242, 233, 225],
 			"hsl": [25, 36, 92]
 		},
 		{
-			"role": "muted",
+			"name": "Muted",
+			"slug": "muted",
 			"hex": "9893a5",
 			"rgb": [152, 147, 165],
 			"hsl": [254, 9, 61]
 		},
 		{
-			"role": "subtle",
+			"name": "Subtle",
+			"slug": "subtle",
 			"hex": "797593",
 			"rgb": [121, 117, 147],
 			"hsl": [249, 13, 52]
 		},
 		{
-			"role": "text",
+			"name": "Text",
+			"slug": "text",
 			"hex": "464261",
 			"rgb": [70, 66, 97],
 			"hsl": [248, 19, 32]
 		},
 		{
-			"role": "love",
+			"name": "Love",
+			"slug": "love",
 			"hex": "b4637a",
 			"rgb": [180, 99, 122],
 			"hsl": [343, 35, 55]
 		},
 		{
-			"role": "gold",
+			"name": "Gold",
+			"slug": "gold",
 			"hex": "ea9d34",
 			"rgb": [234, 157, 52],
 			"hsl": [35, 81, 56]
 		},
 		{
-			"role": "rose",
+			"name": "Rose",
+			"slug": "rose",
 			"hex": "d7827e",
 			"rgb": [215, 130, 126],
 			"hsl": [2, 55, 67]
 		},
 		{
-			"role": "pine",
+			"name": "Pine",
+			"slug": "pine",
 			"hex": "286983",
 			"rgb": [40, 105, 131],
 			"hsl": [197, 53, 34]
 		},
 		{
-			"role": "foam",
+			"name": "Foam",
+			"slug": "foam",
 			"hex": "56949f",
 			"rgb": [86, 148, 159],
 			"hsl": [189, 30, 48]
 		},
 		{
-			"role": "iris",
+			"name": "Iris",
+			"slug": "iris",
 			"hex": "907aa9",
 			"rgb": [144, 122, 169],
 			"hsl": [267, 22, 57]
 		},
 		{
-			"role": "highlight low",
+			"name": "Highlight Low",
+			"slug": "highlight-low",
 			"hex": "f4ede8",
 			"rgb": [244, 237, 232],
 			"hsl": [25, 35, 93]
 		},
 		{
-			"role": "highlight med",
+			"name": "Highlight Med",
+			"slug": "highlight-med",
 			"hex": "dfdad9",
 			"rgb": [223, 218, 217],
 			"hsl": [10, 9, 86]
 		},
 		{
-			"role": "highlight high",
+			"name": "Highlight High",
+			"slug": "highlight-high",
 			"hex": "cecacd",
 			"rgb": [206, 202, 205],
 			"hsl": [315, 4, 80]

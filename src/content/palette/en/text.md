@@ -1,4 +1,5 @@
 ---
+name: Text
 description: High contrast foreground
 ---
 

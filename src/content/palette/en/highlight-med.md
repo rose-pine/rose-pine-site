@@ -1,4 +1,5 @@
 ---
+name: Highlight Med
 description: Medium contrast highlight
 ---
 
