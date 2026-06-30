@@ -107,13 +107,13 @@ let { repo, relatedRepos = [] as Repo[] } = Astro.props;
 			>
 				<div>
 					<h2 class="mb-4 font-bold">Contributors</h2>
-					<ul role="list" class="flex flex-col gap-2">
+					<ul role="list" class="auto-grid-40 gap-2">
 						{
 							repo.contributors.map((contributor) => (
 								<li>
 									<a
 										href={contributor.url ?? "#!"}
-										class="inline-flex items-center gap-2 font-medium"
+										class="flex items-center gap-2 font-medium"
 									>
 										{contributor.image ? (
 											<img
@@ -128,7 +128,7 @@ let { repo, relatedRepos = [] as Repo[] } = Astro.props;
 												<FlowerIcon size="16" class="text-gold" />
 											</div>
 										)}
-										{contributor.name}
+										<span class="truncate">{contributor.name}</span>
 									</a>
 								</li>
 							))
