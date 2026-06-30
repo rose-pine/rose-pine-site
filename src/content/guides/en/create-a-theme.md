@@ -16,6 +16,6 @@ gh repo create my-app --public --clone --template rose-pine/rose-pine-template
 
 Use our build tool, [bloom](https://github.com/rose-pine/rose-pine-bloom), to easily access our palette and include all three variants. Create a template from an existing theme file via `bloom init <filename>`.
 
-Once built, you may [submit your theme](/submit-a-theme) as an official or community theme. For official, we will invite you to the GitHub organisation for you to transfer in. This will automatically be added to the website. For community, your form submission is how we add your theme to the site. No further action is needed.
+Once built, you may [submit your theme](/create/submit-a-theme) as an official or community theme. For official, we will invite you to the GitHub organisation for you to transfer in. This will automatically be added to the website. For community, your form submission is how we add your theme to the site. No further action is needed.
 
 Thank you for sharing with the community, we can't wait to see what you create!
