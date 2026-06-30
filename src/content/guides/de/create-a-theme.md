@@ -16,6 +16,6 @@ gh repo create my-app --public --clone --template rose-pine/rose-pine-template
 
 Benutze unser Werkzeug, [bloom](https://github.com/rose-pine/rose-pine-bloom), um einfach Zugriff auf unsere Farbpalette zu erhalten und alle drei Varianten zu integrieren. Erstelle eine Vorlage aus einer existierenden Themendatei mit `bloom init <filename>`.
 
-Nachdem du dein Thema gebaut hast, kannst du es als offizielles Thema oder Gemeinschaftsthema [einreichen](/submit-a-theme). Für offizielle Themen laden wir dich zu unserer GitHub Organisation ein, damit du es dorthin übertragen kannst. Es wird automatisch zur Webseite hinzugefügt. Für Gemeinschaftsthemen wird dein abgeschicktes Formular genutzt, um das Thema zur Webseite hinzuzufügen. Danach sind keine weiteren Schritte deinerseits notwendig.
+Nachdem du dein Thema gebaut hast, kannst du es als offizielles Thema oder Gemeinschaftsthema [einreichen](/create/submit-a-theme). Für offizielle Themen laden wir dich zu unserer GitHub Organisation ein, damit du es dorthin übertragen kannst. Es wird automatisch zur Webseite hinzugefügt. Für Gemeinschaftsthemen wird dein abgeschicktes Formular genutzt, um das Thema zur Webseite hinzuzufügen. Danach sind keine weiteren Schritte deinerseits notwendig.
 
 Danke, dass du mit der Gemeinschaft teilst. Wir können es kaum erwarten, zu sehen, was du erstellst
