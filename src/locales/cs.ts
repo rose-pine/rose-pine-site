@@ -45,7 +45,8 @@ export default defineLocale({
 		"home.feature.passionately_subtle.title": "S citem pro jemnost",
 		"home.feature.passionately_subtle.description":
 			"S důrazem na kvalitu a účel, naše vybrané barvy mají za cíl inspirovat, nikoli přemoci. Těšíme se, až se o své výtvory podělíte se světem.",
-		"home.feature.inclusive_equal_diverse.title": "Inkluzivita, rovnost a rozmanitost",
+		"home.feature.inclusive_equal_diverse.title":
+			"Inkluzivita, rovnost a rozmanitost",
 		"home.feature.inclusive_equal_diverse.description":
 			"Neustále se snažíme zajistit bezpečné a povzbuzující prostředí pro všechny. Jsme rádi, že jste tu.",
 
@@ -75,7 +76,8 @@ export default defineLocale({
 		"article.updated_on": "(aktualizováno {{date}})",
 
 		"submit.title": "Přispět motivem",
-		"submit.description": "Přispějte svým motivem, aby mohl být přidán do Rosé Pine.",
+		"submit.description":
+			"Přispějte svým motivem, aby mohl být přidán do Rosé Pine.",
 		"submit.form.link_label": "Odkaz na repozitář",
 		"submit.form.category_label": "Kategorie",
 		"submit.form.primary_action": "Odeslat",

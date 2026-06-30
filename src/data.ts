@@ -76,16 +76,6 @@ export async function getSortedRepos(): Promise<Repo[]> {
 	return repos.sort((a, b) => a.name.localeCompare(b.name));
 }
 
-export async function getRepoBySlug(slug: string): Promise<Repo | undefined> {
-	const repos = await getAllRepos();
-	return repos.find((r) => r.slug === slug);
-}
-
-export async function getAllRepoSlugs(): Promise<string[]> {
-	const repos = await getAllRepos();
-	return repos.map((r) => r.slug);
-}
-
 export async function getContributorCount(): Promise<number> {
 	const [official, community] = await Promise.all([
 		getCollection("officialRepos"),

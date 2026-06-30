@@ -84,13 +84,13 @@ let { repo, relatedRepos = [] as Repo[] } = Astro.props;
 					repo.subthemes.length > 0 ? (
 						<div class="animate-enter" style="--stagger: 2.75">
 							<ul role="list" class="auto-grid-40 gap-2">
-								{repo.subthemes.map((theme) => (
+								{repo.subthemes.map((subtheme) => (
 									<li>
 										<a
-											href={theme.url}
+											href={subtheme.url}
 											class="flex rounded-md border tonal-text px-3 py-1.5 font-mono text-sm font-medium hover:tonal-pressed-text"
 										>
-											{theme.name}
+											{subtheme.name}
 										</a>
 									</li>
 								))}
