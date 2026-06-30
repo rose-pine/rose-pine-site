@@ -76,10 +76,12 @@ export const svelteIconMap = {
 	terminal: SquareTerminalSvelteIcon,
 } satisfies Record<IconCategory, Component<IconProps, {}, "">>;
 
+const categorySet = new Set(categories);
+
 export function isValidIconCategory(
 	category: string,
 ): category is IconCategory {
-	return categories.includes(category);
+	return categorySet.has(category);
 }
 
 export function getAstroIconComponent(category: string) {
