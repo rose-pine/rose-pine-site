@@ -10,6 +10,7 @@ export type Repo = {
 	subthemes: { name: string; author: string; url: string }[];
 	related: string[];
 	featured: boolean;
+	searchText: string;
 	stargazersCount?: number;
 	updatedAt?: string;
 };

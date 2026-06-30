@@ -6,10 +6,19 @@
 	import { isValidIconCategory } from "../utilities/icons";
 	import ThemeIcon from "./theme-icon.svelte";
 
-	let { theme }: { theme: Repo } = $props();
+	let { theme, query = "" }: { theme: Repo; query?: string } = $props();
 
 	let locale = getLocaleFromUrl();
 	let translatePath = useTranslatedPath(locale);
+
+	let matchedSubtheme = $derived.by(() => {
+		if (!query) return null;
+		const q = query.toLowerCase();
+		if (theme.name.toLowerCase().includes(q)) return null;
+		return (
+			theme.subthemes.find((s) => s.name.toLowerCase().includes(q)) ?? null
+		);
+	});
 </script>
 
 <article>
@@ -27,6 +36,11 @@
 					<h2 id={theme.slug} class="shrink truncate font-semibold text-nowrap">
 						{theme.name}
 					</h2>
+					{#if matchedSubtheme}
+						<span class="shrink-0 truncate text-xs font-medium text-subtle">
+							— "{matchedSubtheme.name}"
+						</span>
+					{/if}
 					{#if theme.featured}
 						<div>
 							<span class="sr-only">Featured theme</span>

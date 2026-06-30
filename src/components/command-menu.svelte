@@ -21,14 +21,18 @@
 	import GithubIcon from "./github-icon.svelte";
 	import ThemeIcon from "./theme-icon.svelte";
 
+	type Item = {
+		label: string;
+		searchText: string;
+		href: string;
+		icon: string;
+		subthemes?: { name: string }[];
+	};
+
 	type Group = {
 		heading: string;
-		items: {
-			label: string;
-			href: string;
-			icon: string;
-			additionalSearchString?: string;
-		}[];
+		kind: "page" | "theme" | "color" | "link";
+		items: Item[];
 	};
 
 	type Props = {
@@ -42,7 +46,28 @@
 	let search = $state("");
 	let previouslyActiveElement = $state<Element | null>(null);
 	let isSearching = $derived(search.length > 0);
-	let groups = $derived(isSearching ? searchGroups : defaultGroups);
+	let query = $derived(search.toLowerCase());
+
+	function matchHint(item: Item): string | null {
+		if (!query || item.label.toLowerCase().includes(query)) return null;
+		const subtheme = item.subthemes?.find((s) =>
+			s.name.toLowerCase().includes(query),
+		);
+		return subtheme?.name ?? null;
+	}
+
+	let filteredGroups = $derived(
+		isSearching
+			? searchGroups
+					.map((group) => ({
+						...group,
+						items: group.items.filter((item) =>
+							item.searchText.includes(query),
+						),
+					}))
+					.filter((group) => group.items.length > 0)
+			: defaultGroups,
+	);
 	let randomSlug = $derived(
 		open ? repoSlugs[Math.floor(Math.random() * repoSlugs.length)] : "",
 	);
@@ -61,6 +86,10 @@
 		palette: PaletteIcon,
 		sparkles: SparklesIcon,
 	};
+
+	function isIconName(name: string): name is keyof typeof iconMap {
+		return Object.hasOwn(iconMap, name);
+	}
 
 	function openCommandMenu(e: KeyboardEvent) {
 		if (e.key === "k" && (e.metaKey || e.ctrlKey)) {
@@ -120,6 +149,7 @@
 			</Dialog.Description>
 
 			<Command.Root
+				shouldFilter={false}
 				class="flex h-full w-full flex-col-reverse overflow-hidden [--close-size:calc(var(--input-height)-var(--dialog-gutter))] [--input-height:--spacing(15)] md:flex-col"
 			>
 				<div
@@ -160,12 +190,12 @@
 							</a>
 						</Command.Empty>
 
-						{#each groups as group, groupIndex (group.heading)}
+						{#each filteredGroups as group, groupIndex (group.heading)}
 							{#if groupIndex !== 0}
 								<Command.Separator />
 							{/if}
 
-							<Command.Group value="{group.heading} {groupIndex} group">
+							<Command.Group>
 								<Command.GroupHeading
 									class="px-(--dialog-gutter) font-serif text-sm text-subtle italic"
 								>
@@ -174,32 +204,35 @@
 								<Command.GroupItems
 									class="flex flex-col px-(--dialog-gutter-half) has-data-command-item:pt-3"
 								>
-									{#each group.items as { label, href, icon, additionalSearchString = '' }, itemIndex (`${label}:${href}:${group.heading}:${additionalSearchString}`)}
+									{#each group.items as item (item.searchText)}
+										{@const hint = isSearching ? matchHint(item) : null}
 										<Command.LinkItem
-											{href}
-											value="{label} {additionalSearchString} {itemIndex}"
+											href={item.href}
 											class="group flex h-11 scroll-mt-11 scroll-mb-(--dialog-gutter-half) items-center gap-3 rounded-lg px-(--dialog-gutter-half) text-subtle data-selected:bg-muted/10 data-selected:text-text"
 										>
-											{#if icon in iconMap}
-												{@const IconComponent =
-													iconMap[icon as keyof typeof iconMap]}
+											{#if (group.kind === "page" || group.kind === "link") && isIconName(item.icon)}
+												{@const IconComponent = iconMap[item.icon]}
 												<div class="flex size-6 items-center justify-center">
 													<IconComponent size="16" />
 												</div>
-											{:else if isValidIconCategory(icon)}
+											{:else if group.kind === "theme" && isValidIconCategory(item.icon)}
 												<div class="text-subtle hover:text-text">
-													<ThemeIcon size="sm" category={icon} />
+													<ThemeIcon size="sm" category={item.icon} />
 												</div>
 											{:else}
 												<div class="flex size-6 items-center justify-center">
-													<ColorSwatch color={icon} size="sm" />
+													<ColorSwatch color={item.icon} size="sm" />
 												</div>
 											{/if}
 											<div
-												class="flex-1 text-sm font-medium text-text"
-												class:capitalize={href.startsWith("/palette/")}
+												class="flex-1 truncate text-sm font-medium text-text"
 											>
-												{label}
+												{item.label}
+												{#if hint}
+													<span class="ml-1 text-xs font-normal text-subtle">
+														— "{hint}"
+													</span>
+												{/if}
 											</div>
 											<ChevronRightIcon
 												size="18"
