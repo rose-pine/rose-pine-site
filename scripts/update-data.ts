@@ -36,7 +36,7 @@ const workers = Array.from({ length: 10 }, async () => {
 	while (index < visible.length) {
 		const i = index++;
 		const repo = visible[i];
-		const { name, stargazers_count, updated_at, topics } = repo;
+		const { name, html_url, stargazers_count, updated_at, topics } = repo;
 		const customProperties = (repo as any).custom_properties as
 			Record<string, string> | undefined;
 
@@ -110,6 +110,7 @@ const workers = Array.from({ length: 10 }, async () => {
 
 		const data: Record<string, unknown> = {
 			...(displayName && { name: displayName }),
+			url: html_url,
 			category: customProperties?.category ?? "",
 			stargazersCount: stargazers_count,
 			updatedAt: updated_at,
