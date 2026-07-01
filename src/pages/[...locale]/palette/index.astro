@@ -7,6 +7,7 @@ import PaletteStyleToggle from "../../../components/palette-style-toggle.svelte"
 import { formatColor } from "../../../color";
 import palette from "../../../data/palette.json";
 import Page from "../../../layouts/page.astro";
+import type { Variant } from "../../../types/palette";
 import {
 	useTranslatedPath,
 	useTranslations,
@@ -24,7 +25,7 @@ let translatePath = useTranslatedPath(locale);
 
 let variants = objectKeys(palette);
 
-function buildSyntaxes(variant: string, format: "hex" | "hsl" | "rgb") {
+function buildSyntaxes(variant: Variant, format: "hex" | "hsl" | "rgb") {
 	const colors = palette[variant];
 	const styled = colors.map((c) => formatColor(c, format, true));
 	const plain = colors.map((c) => formatColor(c, format, false));
