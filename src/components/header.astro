@@ -28,81 +28,76 @@ let menuItems = [
 let searchGroups = [
 	{
 		heading: t("command.pages"),
+		kind: "page",
 		items: [
 			{
 				label: t("nav.home"),
 				searchText: t("nav.home").toLowerCase(),
 				href: translatePath("/"),
 				icon: "house",
-				iconType: "iconMap",
 			},
 			{
 				label: t("nav.themes"),
 				searchText: t("nav.themes").toLowerCase(),
 				href: translatePath("/themes"),
 				icon: "book-text",
-				iconType: "iconMap",
 			},
 			{
 				label: t("nav.palette"),
 				searchText: t("nav.palette").toLowerCase(),
 				href: translatePath("/palette"),
 				icon: "palette",
-				iconType: "iconMap",
 			},
 			{
 				label: t("nav.create"),
 				searchText: t("nav.create").toLowerCase(),
 				href: translatePath("/create"),
 				icon: "sparkles",
-				iconType: "iconMap",
 			},
 		],
 	},
 	{
 		heading: t("nav.themes"),
+		kind: "theme",
 		items: sortedRepos.map((repo) => ({
 			label: repo.name,
 			searchText: repo.searchText,
 			href: translatePath(`/themes/${repo.slug}`),
 			icon: repo.category,
-			iconType: "category",
 			subthemes: repo.subthemes,
 		})),
 	},
 	{
 		heading: t("nav.palette"),
+		kind: "color",
 		items: palette.main.map((color) => ({
 			label: color.name,
 			searchText: color.name.toLowerCase(),
 			href: translatePath(`/palette/${color.slug}`),
 			icon: color.slug,
-			iconType: "color",
 		})),
 	},
 	{
 		heading: t("command.community"),
+		kind: "link",
 		items: [
 			{
 				label: "Email",
 				searchText: "email",
 				href: "mailto:hi@rosepinetheme.com",
 				icon: "mail",
-				iconType: "iconMap",
 			},
 			{
 				label: "Discord",
 				searchText: "discord",
 				href: "https://discord.gg/r6wf35KVJW",
 				icon: "discord",
-				iconType: "iconMap",
 			},
 			{
 				label: "GitHub",
 				searchText: "github",
 				href: "https://github.com/rose-pine",
 				icon: "github",
-				iconType: "iconMap",
 			},
 		],
 	},
@@ -112,12 +107,12 @@ let defaultGroups = [
 	searchGroups[0],
 	{
 		heading: t("command.featured_themes"),
+		kind: "theme",
 		items: featuredRepos.map((repo) => ({
 			label: repo.name,
 			searchText: repo.searchText,
 			href: translatePath(`/themes/${repo.slug}`),
 			icon: repo.category,
-			iconType: "category",
 		})),
 	},
 	...searchGroups.slice(2),

@@ -13,22 +13,39 @@ function contributorImage(contributor: {
 	}
 }
 
+function buildSearchText(
+	name: string,
+	tags: string[],
+	subthemes: { name: string }[],
+): string {
+	return (
+		name +
+		" " +
+		tags.join(" ") +
+		" " +
+		subthemes.map((t) => t.name).join(" ")
+	).toLowerCase();
+}
+
 function normalizeOfficial(entry: CollectionEntry<"officialRepos">): Repo {
 	const d = entry.data;
 	const name = d.name ?? entry.id;
+	const tags = d.tags ?? [];
+	const subthemes = d.subthemes ?? [];
 	return {
 		slug: entry.id,
 		name,
 		url: `https://github.com/rose-pine/${entry.id}`,
-		tags: d.tags ?? [],
-		contributors: d.contributors.map((c: Contributor) => ({
+		tags,
+		contributors: d.contributors.map((c) => ({
 			...c,
 			image: contributorImage(c),
 		})),
 		category: d.category,
-		subthemes: d.subthemes ?? [],
+		subthemes,
 		related: d.related ?? [],
 		featured: (d.stargazersCount ?? 0) > 100,
+		searchText: buildSearchText(name, tags, subthemes),
 		stargazersCount: d.stargazersCount,
 		updatedAt: d.updatedAt?.toISOString(),
 	};
@@ -36,19 +53,22 @@ function normalizeOfficial(entry: CollectionEntry<"officialRepos">): Repo {
 
 function normalizeCommunity(entry: CollectionEntry<"communityRepos">): Repo {
 	const d = entry.data;
+	const tags = d.tags ?? [];
+	const subthemes = d.subthemes ?? [];
 	return {
 		slug: d.name.toLowerCase().replaceAll(" ", "-"),
 		name: d.name,
 		url: d.url,
-		tags: [...(d.tags ?? []), "community"],
-		contributors: d.contributors.map((c: Contributor) => ({
+		tags,
+		contributors: d.contributors.map((c) => ({
 			...c,
 			image: contributorImage(c),
 		})),
 		category: d.category,
-		subthemes: d.subthemes ?? [],
+		subthemes,
 		related: d.related ?? [],
 		featured: false,
+		searchText: buildSearchText(d.name, tags, subthemes),
 	};
 }
 

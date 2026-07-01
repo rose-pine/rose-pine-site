@@ -29,9 +29,6 @@ importers:
       bits-ui:
         specifier: ^2.18.1
         version: 2.18.1(@internationalized/date@3.8.2)(svelte@5.56.3(@typescript-eslint/types@8.62.0))
-      has-match:
-        specifier: ^2.0.0
-        version: 2.0.0
       svelte:
         specifier: ^5.56.3
         version: 5.56.3(@typescript-eslint/types@8.62.0)
@@ -2760,10 +2757,6 @@ packages:
   has-flag@4.0.0:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
-
-  has-match@2.0.0:
-    resolution: {integrity: sha512-sNsbZfieKzNR9BKnumyLd16IMEorwil+938vAPdVWFB99I5Il6ldHjEV3Cyc/CRRNV4zbxvM//492KGG1da27A==}
-    engines: {node: '>=20'}
 
   has-property-descriptors@1.0.2:
     resolution: {integrity: sha512-55JNKuIW+vq4Ke1BjOTjM2YctQIvCT7GFzHwmfZPGo5wnrgkid0YQtnAleFSqumZm4az3n2BS+erby5ipJdgrg==}
@@ -7509,8 +7502,6 @@ snapshots:
   has-bigints@1.1.0: {}
 
   has-flag@4.0.0: {}
-
-  has-match@2.0.0: {}
 
   has-property-descriptors@1.0.2:
     dependencies:
