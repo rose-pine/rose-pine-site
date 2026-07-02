@@ -35,7 +35,7 @@ function normalizeOfficial(entry: CollectionEntry<"officialRepos">): Repo {
 	return {
 		slug: entry.id,
 		name,
-		url: `https://github.com/rose-pine/${entry.id}`,
+		url: d.url,
 		tags,
 		contributors: d.contributors.map((c) => ({
 			...c,

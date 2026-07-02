@@ -22,6 +22,7 @@ export const collections = {
 		}),
 		schema: z.object({
 			featured: z.boolean().optional(),
+			url: z.string(),
 			stargazersCount: z.number(),
 			updatedAt: z.date().optional(),
 			tags: z.array(z.string()).optional(),
