@@ -38,8 +38,7 @@ const workers = Array.from({ length: 10 }, async () => {
 		const repo = visible[i];
 		const { name, stargazers_count, updated_at, topics } = repo;
 		const customProperties = (repo as any).custom_properties as
-			| Record<string, string>
-			| undefined;
+			Record<string, string> | undefined;
 
 		let contributors: { name: string; url: string }[] = [];
 		try {

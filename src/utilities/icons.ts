@@ -20,13 +20,7 @@ import categories from "../data/categories.json";
 export type IconSize = "sm" | "md" | "lg";
 
 export type IconCategory =
-	| "browser"
-	| "editor"
-	| "library"
-	| "none"
-	| "social"
-	| "system"
-	| "terminal";
+	"browser" | "editor" | "library" | "none" | "social" | "system" | "terminal";
 
 export const categoryColorMap = {
 	browser: "tonal-love",

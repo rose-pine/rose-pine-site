@@ -160,7 +160,7 @@ let { repo, relatedRepos = [] as Repo[] } = Astro.props;
 							<ul role="list" class="flex flex-col gap-2">
 								{relatedRepos.map((related) => (
 									<li>
-										<ThemeCard theme={related} client:only="svelte" />
+										<ThemeCard client:only="svelte" theme={related} />
 									</li>
 								))}
 							</ul>
