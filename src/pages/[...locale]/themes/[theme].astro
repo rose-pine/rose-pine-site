@@ -112,7 +112,7 @@ let { repo, relatedRepos = [] as Repo[] } = Astro.props;
 							repo.contributors.map((contributor) => (
 								<li>
 									<a
-										href={contributor.url ?? "#!"}
+										href={contributor.url}
 										class="flex items-center gap-2 font-medium"
 									>
 										{contributor.image ? (

@@ -40,7 +40,7 @@ const workers = Array.from({ length: 10 }, async () => {
 		const customProperties = (repo as any).custom_properties as
 			Record<string, string> | undefined;
 
-		let contributors: { name: string; url: string }[] = [];
+		let contributors: { name: string; url: string; image?: string }[] = [];
 		try {
 			const list = await octokit.paginate(octokit.rest.repos.listContributors, {
 				owner: "rose-pine",
@@ -50,6 +50,7 @@ const workers = Array.from({ length: 10 }, async () => {
 			contributors = list.map((contributor) => ({
 				name: contributor.login!,
 				url: contributor.html_url!,
+				...(contributor.avatar_url && { image: contributor.avatar_url }),
 			}));
 		} catch {}
 

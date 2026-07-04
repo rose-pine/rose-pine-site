@@ -1,12 +1,14 @@
 name: kitty
 url: https://github.com/rose-pine/kitty
 category: terminal
-stargazersCount: 123
-updatedAt: 2026-06-25T09:00:07Z
+stargazersCount: 124
+updatedAt: 2026-07-04T00:35:36Z
 tags:
   - terminal-emulator
 contributors:
   - name: mvllow
     url: https://github.com/mvllow
+    image: https://avatars.githubusercontent.com/u/1474821?v=4
   - name: ThatOneCalculator
     url: https://github.com/ThatOneCalculator
+    image: https://avatars.githubusercontent.com/u/44733677?v=4
