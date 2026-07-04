@@ -29,7 +29,3 @@ jobs:
           git add src/content
           git commit -m "${{ env.CI_COMMIT_MESSAGE }}" || echo "no changes to commit"
           git push
-      - name: trigger build hook
-        env:
-          NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
-        run: curl -X POST -d '{}' "https://api.netlify.com/build_hooks/${NETLIFY_TOKEN}"
