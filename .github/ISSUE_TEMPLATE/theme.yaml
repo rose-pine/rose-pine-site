@@ -1,0 +1,44 @@
+# This issue template is linked to from https://github.com/rose-pine/rose-pine-theme/blob/main/.github/ISSUE_TEMPLATE/config.yml
+name: Theme submission
+description: Add your theme to the Rosé Pine collection
+title: "Add theme for <app>"
+body:
+  - type: input
+    attributes:
+      label: Theme URL
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Author URL
+      description: Used for attribution
+      placeholder: e.g., https://github.com/mvllow
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Transfer to Rosé Pine
+      description: Please ensure your theme follows our template at https://github.com/rose-pine/rose-pine-template and supports all three variants where possible
+      options:
+        - label: Invite me to the org and I'll transfer the repo over
+          required: false
+  - type: dropdown
+    id: category
+    attributes:
+      label: Theme category
+      description: Select the category that best matches your theme
+      multiple: false
+      options:
+        - Browser
+        - Editor
+        - Library
+        - Social
+        - System
+        - Terminal
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Additional information
+    validations:
+      required: false
