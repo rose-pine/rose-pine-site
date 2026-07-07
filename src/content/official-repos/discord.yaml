@@ -1,6 +1,9 @@
 name: Discord
 url: https://github.com/rose-pine/discord
 category: social
+related:
+  - discord-mobile
+  - userstyles
 stargazersCount: 122
 updatedAt: 2026-06-29T09:59:11Z
 tags:

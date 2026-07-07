@@ -1,5 +1,5 @@
 import { Octokit } from "@octokit/rest";
-import { writeFile, readdir } from "node:fs/promises";
+import { readFile, writeFile, readdir } from "node:fs/promises";
 import YAML from "yaml";
 
 const token = process.env.GITHUB_TOKEN;
@@ -132,7 +132,13 @@ const REPOS_DIR = "src/content/official-repos";
 
 console.log(`writing ${repos.length} repos to ${REPOS_DIR}/*.yaml...`);
 for (const { repoName, data } of repos) {
-	await writeFile(`${REPOS_DIR}/${repoName}.yaml`, YAML.stringify(data));
+	const filePath = `${REPOS_DIR}/${repoName}.yaml`;
+	let existing: Record<string, unknown> = {};
+	try {
+		const raw = await readFile(filePath, "utf-8");
+		existing = YAML.parse(raw) ?? {};
+	} catch {}
+	await writeFile(filePath, YAML.stringify({ ...existing, ...data }));
 }
 console.log(`wrote ${repos.length} repos.`);
 

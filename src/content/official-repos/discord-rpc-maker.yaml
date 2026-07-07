@@ -1,6 +1,10 @@
 name: Discord RPC Maker
 url: https://github.com/rose-pine/discord-rpc-maker
 category: editor
+related:
+  - discord
+  - discord-mobile
+  - userstyles
 stargazersCount: 1
 updatedAt: 2025-11-05T14:46:17Z
 tags:
