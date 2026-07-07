@@ -61,5 +61,7 @@ export default defineConfig({
 		"/:lang/resources/:slug*": "/:lang/create/:slug*",
 
 		"/discord": "https://discord.gg/M7UBHVuerY",
+		"/new":
+			"https://github.com/rose-pine/rose-pine-site/issues/new?template=theme.yaml",
 	},
 });
