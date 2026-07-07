@@ -59,5 +59,7 @@ export default defineConfig({
 		"/:lang/resources": "/:lang/create",
 		"/resources/:slug*": "/create/:slug*",
 		"/:lang/resources/:slug*": "/:lang/create/:slug*",
+
+		"/discord": "https://discord.gg/M7UBHVuerY",
 	},
 });
