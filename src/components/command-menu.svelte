@@ -29,7 +29,7 @@
 		subthemes?: { name: string }[];
 	};
 
-	type Group = {
+	export type Group = {
 		heading: string;
 		kind: "page" | "theme" | "color" | "link";
 		items: Item[];

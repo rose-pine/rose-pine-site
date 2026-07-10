@@ -8,7 +8,7 @@ import {
 	useTranslatedPath,
 	useTranslations,
 } from "../utilities/i18n";
-import CommandMenu from "./command-menu.svelte";
+import CommandMenu, { type Group } from "./command-menu.svelte";
 
 let locale = getLocaleFromUrl(Astro.url);
 let t = useTranslations(locale);
@@ -25,7 +25,7 @@ let menuItems = [
 	{ name: t("nav.palette"), href: translatePath("/palette") },
 ];
 
-let searchGroups = [
+let searchGroups: Group[] = [
 	{
 		heading: t("command.pages"),
 		kind: "page",
@@ -103,7 +103,7 @@ let searchGroups = [
 	},
 ];
 
-let defaultGroups = [
+let defaultGroups: Group[] = [
 	searchGroups[0],
 	{
 		heading: t("command.featured_themes"),
