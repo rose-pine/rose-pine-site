@@ -32,6 +32,9 @@ subthemes:
   - name: Docs.rs
     author: Julia Mertz
     url: https://github.com/rose-pine/userstyles/tree/main/styles/docs.rs
+  - name: Emby
+    author: ZT2wo
+    url: https://github.com/rose-pine/userstyles/tree/main/styles/emby
   - name: GitHub
     author: Julia Mertz
     url: https://github.com/rose-pine/userstyles/tree/main/styles/github
