@@ -20,7 +20,7 @@
 
 	position: relative;
 	list-style: none;
-	padding-left: calc(var(--_marker-size) * 1.5);
+	padding-inline-start: calc(var(--_marker-size) * 1.5);
 
 	&:nth-child(4n + 1)::before {
 		--_rotation: 6;
@@ -43,8 +43,8 @@
 
 		content: "";
 		position: absolute;
-		top: calc(0.5lh - (var(--_marker-size) / 2));
-		left: 0;
+		inset-block-start: calc(0.5lh - (var(--_marker-size) / 2));
+		inset-inline-start: 0;
 		width: var(--_marker-size);
 		height: var(--_marker-size);
 		background-color: var(--color-text);
