@@ -29,7 +29,7 @@
 		aria-live="polite"
 		onclick={copyToClipboard}
 		disabled={copied}
-		class="group -mx-(--cell-offset) flex items-center gap-1.5 rounded-(--card-inner-radius) px-(--cell-offset) py-[calc(var(--cell-offset)/2)] font-mono text-sm hover:bg-muted/10 hover:font-semibold disabled:tonal-gold disabled:font-semibold disabled:select-none"
+		class="group -mx-(--cell-offset) flex items-center gap-1.5 rounded-card-inner px-(--cell-offset) py-[calc(var(--cell-offset)/2)] font-mono text-sm hover:bg-muted/10 hover:font-semibold disabled:tonal-gold disabled:font-semibold disabled:select-none"
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"

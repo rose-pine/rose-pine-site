@@ -12,26 +12,25 @@
 		"update:data": "node scripts/update-data.ts"
 	},
 	"dependencies": {
-		"@astrojs/netlify": "^8.0.0",
-		"@astrojs/svelte": "9.0.0",
-		"@lucide/astro": "^1.22.0",
-		"@lucide/svelte": "^1.22.0",
+		"@astrojs/netlify": "^8.1.2",
+		"@astrojs/svelte": "9.0.1",
+		"@lucide/astro": "^1.25.0",
+		"@lucide/svelte": "^1.25.0",
 		"@tailwindcss/typography": "^0.5.20",
-		"@tailwindcss/vite": "^4.3.2",
-		"astro": "7.0.3",
-		"bits-ui": "^2.18.1",
-		"svelte": "^5.56.4",
-		"tailwindcss": "^4.3.2"
+		"@tailwindcss/vite": "^4.3.3",
+		"astro": "7.1.1",
+		"svelte": "^5.56.6",
+		"tailwindcss": "^4.3.3"
 	},
 	"devDependencies": {
 		"@astrojs/check": "^0.9.9",
 		"@octokit/rest": "^22.0.1",
-		"prettier": "^3.9.4",
+		"prettier": "^3.9.5",
 		"prettier-plugin-astro": "^0.14.1",
 		"prettier-plugin-svelte": "^4.1.1",
-		"prettier-plugin-tailwindcss": "^0.8.0",
-		"sharp": "^0.35.2",
-		"svelte-check": "^4.7.1",
+		"prettier-plugin-tailwindcss": "^0.8.1",
+		"sharp": "^0.35.3",
+		"svelte-check": "^4.7.3",
 		"typescript": "^6.0.3",
 		"yaml": "^2.9.0"
 	}

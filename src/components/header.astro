@@ -18,6 +18,7 @@ const [sortedRepos, featuredRepos] = await Promise.all([
 	getSortedRepos(),
 	getFeaturedRepos(),
 ]);
+
 const repoSlugs = sortedRepos.map((r) => r.slug);
 
 let menuItems = [
@@ -28,7 +29,7 @@ let menuItems = [
 let searchGroups: Group[] = [
 	{
 		heading: t("command.pages"),
-		kind: "page",
+		kind: "icon",
 		items: [
 			{
 				label: t("nav.home"),
@@ -79,7 +80,7 @@ let searchGroups: Group[] = [
 	},
 	{
 		heading: t("command.community"),
-		kind: "link",
+		kind: "icon",
 		items: [
 			{
 				label: "Email",
@@ -120,7 +121,7 @@ let defaultGroups: Group[] = [
 ---
 
 <header
-	class="relative wrapper mt-page-start flex items-center gap-6 py-(--card-gutters)"
+	class="relative wrapper mt-page-start flex items-center gap-6 py-card-gutters-half"
 >
 	<a
 		title={t("nav.home")}
@@ -175,7 +176,7 @@ let defaultGroups: Group[] = [
 
 	<details class="group/menu block select-none md:hidden">
 		<summary
-			class="relative z-50 flex size-(--badge-size) cursor-pointer items-center justify-center rounded-(--card-inner-radius) transition hover:bg-muted/10 [&::-webkit-details-marker]:hidden"
+			class="relative z-50 flex size-(--badge-size) cursor-pointer items-center justify-center rounded-card-inner transition hover:bg-muted/10 [&::-webkit-details-marker]:hidden"
 		>
 			<svg
 				width="20"
@@ -205,17 +206,17 @@ let defaultGroups: Group[] = [
 
 		<nav
 			aria-label={t("header.nav_label")}
-			class="absolute inset-x-(--card-gutters) top-0 z-40 rounded-(--card-radius) bg-surface/80 pt-(--badge-size) shadow-lg shadow-black/10 backdrop-blur-xl backdrop-saturate-150 transition"
+			class="absolute inset-x-page-gutters-half top-0 z-40 rounded-card bg-surface/80 pbs-(--badge-size) shadow-lg shadow-black/10 backdrop-blur-xl backdrop-saturate-150 transition"
 		>
-			<div class="h-(--card-gutters)"></div>
-			<ul class="flex flex-col p-(--card-gutters)">
+			<div class="h-card-gutters-half"></div>
+			<ul class="flex flex-col p-card-gutters-half">
 				{
 					menuItems.map((item) => (
 						<li>
 							<a
 								aria-label={item.name}
 								href={item.href}
-								class="flex h-14 w-full items-center rounded-(--card-inner-radius) text-xl font-semibold transition-[background-color,padding] hover:bg-muted/10 hover:ps-(--card-gutters)"
+								class="flex h-14 w-full items-center rounded-card-inner text-xl font-semibold transition-[background-color,padding] hover:bg-muted/10 hover:ps-card-gutters"
 							>
 								{item.name}
 							</a>
@@ -225,7 +226,7 @@ let defaultGroups: Group[] = [
 				<li class="w-full pt-3">
 					<a
 						href={translatePath("/create")}
-						class="group/cta flex h-14 shrink-0 items-center justify-center gap-4 rounded-(--card-inner-radius) border-2 border-text ps-4 pe-5 font-serif text-xl font-medium italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
+						class="group/cta flex h-14 shrink-0 items-center justify-center gap-4 rounded-card-inner border-2 border-text ps-4 pe-5 font-serif text-xl font-medium italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
 					>
 						<SparklesIcon
 							size="24"
@@ -242,22 +243,6 @@ let defaultGroups: Group[] = [
 <style>
 	header {
 		--badge-size: 44px;
-
-		--card-gutters: calc(var(--spacing-page-gutters) / 2);
-		--card-radius: 1rem;
-		--card-inner-radius: calc(var(--card-radius) / 2);
-
 		--nav-item-space: 0.75rem;
-	}
-
-	details[open] > *:not(summary) {
-		animation: details-show 150ms ease-in-out;
-	}
-
-	@keyframes details-show {
-		from {
-			opacity: 0;
-			transform: translateY(0.5rem) scale(0.98);
-		}
 	}
 </style>
