@@ -1,8 +1,8 @@
 ---
-import ArrowUpRightIcon from "@lucide/astro/icons/arrow-up-right";
-import FlowerIcon from "@lucide/astro/icons/flower";
+import ArrowUpRightIcon from "../../../assets/arrow-up-right.svg";
+import Flower5Icon from "../../../assets/flower5.svg";
 import ThemeCard from "../../../components/theme-card.svelte";
-import ThemeIcon from "../../../components/theme-icon.astro";
+import ThemeIcon from "../../../components/theme-icon.svelte";
 import { getAllRepos } from "../../../data";
 import Page from "../../../layouts/page.astro";
 import type { Repo } from "../../../types/theme";
@@ -71,8 +71,7 @@ let { repo, relatedRepos = [] as Repo[] } = Astro.props;
 						class="group/cta flex h-8 shrink-0 items-center gap-2 rounded-lg border-2 border-text ps-3 pe-4 font-serif font-medium italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
 					>
 						<ArrowUpRightIcon
-							size="16"
-							class="transition-transform group-hover/cta:-rotate-3"
+							class="size-4 transition-transform group-hover/cta:-rotate-3"
 						/>
 						<span class="pb-px">Visit repository</span>
 					</a>
@@ -124,8 +123,8 @@ let { repo, relatedRepos = [] as Repo[] } = Astro.props;
 												class="rounded-md border border-muted/10 bg-overlay"
 											/>
 										) : (
-											<div class="flex size-5 items-center justify-center rounded-md border border-gold/10 bg-gold/10">
-												<FlowerIcon size="16" class="text-gold" />
+											<div class="flex size-5 items-center justify-center rounded-md border tonal-rose">
+												<Flower5Icon class="size-4 fill-rose/20 stroke-rose" />
 											</div>
 										)}
 										<span class="truncate">{contributor.name}</span>

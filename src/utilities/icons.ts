@@ -1,11 +1,3 @@
-import type { AstroComponent } from "@lucide/astro";
-import BoxAstroIcon from "@lucide/astro/icons/box";
-import CpuAstroIcon from "@lucide/astro/icons/cpu";
-import GlobeAstroIcon from "@lucide/astro/icons/globe";
-import LibraryBigAstroIcon from "@lucide/astro/icons/library-big";
-import NotebookPenAstroIcon from "@lucide/astro/icons/notebook-pen";
-import ShapesAstroIcon from "@lucide/astro/icons/shapes";
-import SquareTerminalAstroIcon from "@lucide/astro/icons/square-terminal";
 import type { IconProps } from "@lucide/svelte";
 import BoxSvelteIcon from "@lucide/svelte/icons/box";
 import CpuSvelteIcon from "@lucide/svelte/icons/cpu";
@@ -50,16 +42,6 @@ export const radiusMap = {
 	lg: "rounded-lg",
 } satisfies Record<IconSize, string>;
 
-export const astroIconMap = {
-	browser: GlobeAstroIcon,
-	editor: NotebookPenAstroIcon,
-	library: LibraryBigAstroIcon,
-	none: BoxAstroIcon,
-	social: ShapesAstroIcon,
-	system: CpuAstroIcon,
-	terminal: SquareTerminalAstroIcon,
-} satisfies Record<IconCategory, AstroComponent>;
-
 export const svelteIconMap = {
 	browser: GlobeSvelteIcon,
 	editor: NotebookPenSvelteIcon,
@@ -76,11 +58,6 @@ export function isValidIconCategory(
 	category: string,
 ): category is IconCategory {
 	return categorySet.has(category);
-}
-
-export function getAstroIconComponent(category: string) {
-	if (!isValidIconCategory(category)) return BoxAstroIcon;
-	return astroIconMap[category] || BoxAstroIcon;
 }
 
 export function getSvelteIconComponent(category: string) {

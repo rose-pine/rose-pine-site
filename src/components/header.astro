@@ -1,6 +1,6 @@
 ---
-import SparklesIcon from "@lucide/astro/icons/sparkles";
 import BadgeIcon from "../assets/badge.svg";
+import SparklesIcon from "../assets/sparkles.svg";
 import { getFeaturedRepos, getSortedRepos } from "../data";
 import palette from "../data/palette.json";
 import {
@@ -165,8 +165,7 @@ let defaultGroups: Group[] = [
 					class="group/cta flex h-8 shrink-0 items-center gap-2 rounded-lg border-2 border-text ps-3 pe-4 font-serif font-medium italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
 				>
 					<SparklesIcon
-						size="16"
-						class="transition-transform group-hover/cta:-rotate-3"
+						class="size-4 transition-transform group-hover/cta:-rotate-3"
 					/>
 					<span class="pb-px">{t("nav.create")}</span>
 				</a>
@@ -229,8 +228,7 @@ let defaultGroups: Group[] = [
 						class="group/cta flex h-14 shrink-0 items-center justify-center gap-4 rounded-card-inner border-2 border-text ps-4 pe-5 font-serif text-xl font-medium italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
 					>
 						<SparklesIcon
-							size="24"
-							class="transition-transform group-hover/cta:-rotate-3"
+							class="h-6 w-6 transition-transform group-hover/cta:-rotate-3"
 						/>
 						<span class="pb-px">{t("nav.create")}</span>
 					</a>
