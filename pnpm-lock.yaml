@@ -14,9 +14,6 @@ importers:
       '@astrojs/svelte':
         specifier: 9.0.1
         version: 9.0.1(@types/node@26.1.1)(astro@7.1.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@netlify/blobs@10.7.9)(@types/node@26.1.1)(jiti@2.7.0)(rollup@4.62.2)(yaml@2.9.0))(esbuild@0.28.1)(jiti@2.7.0)(svelte@5.56.6(@typescript-eslint/types@8.64.0))(typescript@6.0.3)(yaml@2.9.0)
-      '@lucide/astro':
-        specifier: ^1.25.0
-        version: 1.25.0(astro@7.1.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@netlify/blobs@10.7.9)(@types/node@26.1.1)(jiti@2.7.0)(rollup@4.62.2)(yaml@2.9.0))
       '@lucide/svelte':
         specifier: ^1.25.0
         version: 1.25.0(svelte@5.56.6(@typescript-eslint/types@8.64.0))
@@ -983,11 +980,6 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
-
-  '@lucide/astro@1.25.0':
-    resolution: {integrity: sha512-Ff9/vyOgeWoED4Uof2uRtO68KYcOA3eOZbEJ+SN5dW4PuMPz68Kze7Il6gfB6axq+xDocY/zz4j2Qs7ix/SkPQ==}
-    peerDependencies:
-      astro: ^4 || ^5 || ^6 || ^7
 
   '@lucide/svelte@1.25.0':
     resolution: {integrity: sha512-v9m+dD68jxVnqkU3K59mG/RSRFlPGzmKCGSyMfnXcaGv9jODDQMyQkcp1CGvk3Y/cUj9v7f8rw1n//K0B53xGQ==}
@@ -5383,10 +5375,6 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
-
-  '@lucide/astro@1.25.0(astro@7.1.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@netlify/blobs@10.7.9)(@types/node@26.1.1)(jiti@2.7.0)(rollup@4.62.2)(yaml@2.9.0))':
-    dependencies:
-      astro: 7.1.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@netlify/blobs@10.7.9)(@types/node@26.1.1)(jiti@2.7.0)(rollup@4.62.2)(yaml@2.9.0)
 
   '@lucide/svelte@1.25.0(svelte@5.56.6(@typescript-eslint/types@8.64.0))':
     dependencies:

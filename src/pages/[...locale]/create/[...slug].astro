@@ -1,6 +1,6 @@
 ---
-import FlowerIcon from "@lucide/astro/icons/flower";
 import { getCollection, getEntry, render } from "astro:content";
+import Flower5Icon from "../../../assets/flower5.svg";
 import Page from "../../../layouts/page.astro";
 import {
 	defaultLocale,
@@ -116,8 +116,8 @@ const updatedAt = new Date(page.data.updatedAt).toLocaleDateString(
 									class="rounded-md border border-muted/10"
 								/>
 							) : (
-								<div class="flex size-5 items-center justify-center rounded-md border border-gold/10 bg-gold/10">
-									<FlowerIcon size="16" class="text-gold" />
+								<div class="flex size-5 items-center justify-center rounded-md border tonal-rose">
+									<Flower5Icon class="size-4 fill-rose/20 stroke-rose" />
 								</div>
 							)}
 							{author.data.name}

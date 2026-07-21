@@ -14,7 +14,6 @@
 	"dependencies": {
 		"@astrojs/netlify": "^8.1.2",
 		"@astrojs/svelte": "9.0.1",
-		"@lucide/astro": "^1.25.0",
 		"@lucide/svelte": "^1.25.0",
 		"@tailwindcss/typography": "^0.5.20",
 		"@tailwindcss/vite": "^4.3.3",
