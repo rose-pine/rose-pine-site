@@ -37,6 +37,12 @@ let dir = languages[locale]?.dir ?? "ltr";
 			} else {
 				delete document.documentElement.dataset.theme;
 			}
+
+			document.addEventListener("click", (e) => {
+				document.querySelectorAll("details[open]").forEach((d) => {
+					if (!d.contains(e.target as Node)) d.removeAttribute("open");
+				});
+			});
 		</script>
 	</head>
 	<body>

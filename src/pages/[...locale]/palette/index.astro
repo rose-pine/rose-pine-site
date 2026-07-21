@@ -31,7 +31,7 @@ function buildSyntaxes(variant: Variant, format: "hex" | "hsl" | "rgb") {
 	const plain = colors.map((c) => formatColor(c, format, false));
 	return [
 		{
-			label: "CSS",
+			label: "CSS" as const,
 			value: colors
 				.map((c, i) => `--color-${c.slug}: ${styled[i]};`)
 				.join("\n"),
@@ -40,7 +40,7 @@ function buildSyntaxes(variant: Variant, format: "hex" | "hsl" | "rgb") {
 				.join("\n"),
 		},
 		{
-			label: "JSON",
+			label: "JSON" as const,
 			value: JSON.stringify(
 				Object.fromEntries(colors.map((c, i) => [c.slug, styled[i]])),
 				null,
@@ -53,12 +53,12 @@ function buildSyntaxes(variant: Variant, format: "hex" | "hsl" | "rgb") {
 			),
 		},
 		{
-			label: "TOML",
+			label: "TOML" as const,
 			value: colors.map((c, i) => `${c.slug} = "${styled[i]}"`).join("\n"),
 			valuePlain: colors.map((c, i) => `${c.slug} = "${plain[i]}"`).join("\n"),
 		},
 		{
-			label: "YAML",
+			label: "YAML" as const,
 			value: colors.map((c, i) => `${c.slug}: '${styled[i]}'`).join("\n"),
 			valuePlain: colors.map((c, i) => `${c.slug}: '${plain[i]}'`).join("\n"),
 		},
@@ -78,8 +78,8 @@ function buildSyntaxes(variant: Variant, format: "hex" | "hsl" | "rgb") {
 			<div class="flex flex-col gap-page-start">
 				{
 					variants.map((variant) => (
-						<article class="overflow-hidden rounded-(--card-radius) border border-muted/20 bg-surface [--card-gutter:--spacing(5)] [--card-inner-radius:calc(var(--card-radius)/2)] [--card-radius:--spacing(4)]">
-							<div class="flex flex-wrap items-center justify-between gap-2 p-(--card-gutter) [--badge-size:36px]">
+						<article class="overflow-hidden rounded-card border border-muted/20 bg-surface">
+							<div class="flex flex-wrap items-center justify-between gap-2 p-card-gutters [--badge-size:36px]">
 								<div class="flex items-center gap-2">
 									<BadgeIcon class="size-(--badge-size) shrink-0" />
 									<div class="font-serif text-lg font-medium tracking-tight capitalize italic">
@@ -94,7 +94,7 @@ function buildSyntaxes(variant: Variant, format: "hex" | "hsl" | "rgb") {
 							<div class="overflow-x-auto">
 								<table class="w-full min-w-max overflow-x-auto [--col-gap:--spacing(12)]">
 									<thead class="*:h-10 *:border-b *:border-b-muted/10">
-										<th class="ps-(--card-gutter) text-start text-sm font-semibold">
+										<th class="ps-card-gutters text-start text-sm font-semibold">
 											Role
 										</th>
 										<th class="ps-(--col-gap) text-end text-sm font-semibold">
@@ -130,15 +130,15 @@ function buildSyntaxes(variant: Variant, format: "hex" | "hsl" | "rgb") {
 										<th class="sr-only" />
 									</thead>
 
-									<tbody class="[--cell-gutter:calc(var(--card-gutter)-var(--cell-offset))] [--cell-offset:--spacing(2)]">
+									<tbody class="[--cell-gutter:calc(var(--spacing-card-gutters)-var(--cell-offset))] [--cell-offset:--spacing(2)]">
 										{palette[variant].map((color) => {
 											return (
 												<tr class="bg-surface *:py-(--cell-gutter) even:bg-muted/5">
-													<td class="ps-(--card-gutter)">
+													<td class="ps-card-gutters">
 														<div class="flex">
 															<a
 																href={translatePath(`/palette/${color.slug}`)}
-																class="flex items-center gap-2 rounded-(--card-inner-radius) px-(--cell-offset) py-[calc(var(--cell-offset)/2)] hover:bg-muted/10"
+																class="flex items-center gap-2 rounded-card-inner px-(--cell-offset) py-[calc(var(--cell-offset)/2)] hover:bg-muted/10"
 															>
 																<div
 																	class="size-4 rounded-full border border-muted/20"
@@ -175,7 +175,7 @@ function buildSyntaxes(variant: Variant, format: "hex" | "hsl" | "rgb") {
 														/>
 													</td>
 
-													<td class="w-(--card-gutter)" />
+													<td class="w-card-gutters" />
 												</tr>
 											);
 										})}

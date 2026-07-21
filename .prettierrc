@@ -5,25 +5,5 @@
 		"prettier-plugin-svelte",
 		"prettier-plugin-tailwindcss"
 	],
-	"tailwindStylesheet": "./src/styles/global.css",
-	"overrides": [
-		{
-			"files": "*.astro",
-			"options": {
-				"parser": "astro"
-			}
-		},
-		{
-			"files": "*.svelte",
-			"options": {
-				"parser": "svelte"
-			}
-		},
-		{
-			"files": "*.svg",
-			"options": {
-				"parser": "html"
-			}
-		}
-	]
+	"tailwindStylesheet": "./src/styles/global.css"
 }

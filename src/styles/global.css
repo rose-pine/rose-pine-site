@@ -20,9 +20,29 @@
 }
 
 @theme {
+	/* Page */
 	--spacing-page-gutters: 1rem;
+	--spacing-page-gutters-half: calc(var(--spacing-page-gutters)/2);
 	--spacing-page-max-inline-size: 1200px;
 	--spacing-page-start: 3rem;
+
+	/* Card */
+	--spacing-card-gutters: 1.5rem;
+	--spacing-card-gutters-half: calc(var(--spacing-card-gutters)/2);
+	--radius-card: 1.5rem;
+	--radius-card-inner: calc(var(--radius-card)/2);
+
+	/* Dialog */
+	--spacing-dialog-gutters: 1.25rem;
+	--spacing-dialog-gutters-half: calc(var(--spacing-dialog-gutters)/2);
+	--radius-dialog: 1.5rem;
+	--radius-dialog-inner: calc(var(--radius-dialog)/2);
+
+	/* Dropdown */
+	--spacing-dropdown-gutters: 1rem;
+	--spacing-dropdown-gutters-half: calc(var(--spacing-dropdown-gutters)/2);
+	--radius-dropdown: 1rem;
+	--radius-dropdown-inner: calc(var(--radius-dropdown)/2);
 
 	--color-main-base: #191724;
 	--color-main-surface: #1f1d2e;
@@ -196,6 +216,10 @@
 	}
 }
 
+body:has(dialog[open]) {
+	overflow: hidden;
+}
+
 /* 
  * Encourage adding role="list" to remove list styles while retaining semantics
  * in Safari/VoiceOver. Styles are removed for scenarios implicitly supported
@@ -214,6 +238,17 @@ nav li,
 ol[role="list"],
 ul[role="list"] {
 	list-style-type: none;
+}
+
+details[open] > *:not(summary) {
+	animation: details-show 150ms ease-in-out;
+}
+
+@keyframes details-show {
+	from {
+		opacity: 0;
+		transform: translateY(-0.5rem) scale(0.98);
+	}
 }
 
 .animate-enter {
