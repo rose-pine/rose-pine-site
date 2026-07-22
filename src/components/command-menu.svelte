@@ -328,7 +328,9 @@
 									<ColorSwatch color={item.icon} size="sm" />
 								</div>
 							{/if}
-							<div class="h-6 flex-1 truncate text-sm font-medium text-text">
+							<div
+								class="flex-1 truncate pbe-0.5 text-sm font-medium text-text"
+							>
 								{item.label}
 								{#if hint}
 									<span class="ms-1 text-xs font-normal text-subtle">
