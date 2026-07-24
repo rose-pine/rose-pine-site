@@ -206,6 +206,8 @@
 	<span class="sr-only">{t("command.trigger")}</span>
 </button>
 
+<div class="z-50 ms-6 h-7 w-px bg-text/20 md:-me-(--nav-item-space)"></div>
+
 <dialog
 	bind:this={dialogElement}
 	aria-labelledby="command-title"
