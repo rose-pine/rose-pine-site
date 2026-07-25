@@ -1,14 +1,16 @@
 <script lang="ts">
-	import type { LucideProps } from "@lucide/svelte";
-	import BracesIcon from "@lucide/svelte/icons/braces";
-	import BracketsIcon from "@lucide/svelte/icons/brackets";
-	import ChevronDownIcon from "@lucide/svelte/icons/chevron-down";
-	import ClipboardIcon from "@lucide/svelte/icons/clipboard";
-	import ClipboardCheckIcon from "@lucide/svelte/icons/clipboard-check";
-	import LayersIcon from "@lucide/svelte/icons/layers";
-	import TextQuoteIcon from "@lucide/svelte/icons/text-quote";
 	import type { Component, Snippet } from "svelte";
 	import { preferences } from "../state.svelte";
+	import type { IconProps } from "../types/icon";
+	import {
+		BracesIcon,
+		BracketsIcon,
+		ChevronDownIcon,
+		CopyCheckIcon,
+		CopyIcon,
+		IndentIcon,
+		LayersIcon,
+	} from "./icons";
 
 	type SyntaxLabel = "CSS" | "JSON" | "TOML" | "YAML";
 
@@ -24,11 +26,11 @@
 	};
 	let { syntaxes, children }: Props = $props();
 
-	let iconMap: Record<SyntaxLabel, Component<LucideProps, {}, "">> = {
+	let iconMap: Record<SyntaxLabel, Component<IconProps>> = {
 		CSS: LayersIcon,
 		JSON: BracesIcon,
 		TOML: BracketsIcon,
-		YAML: TextQuoteIcon,
+		YAML: IndentIcon,
 	};
 
 	let copied = $state(false);
@@ -70,11 +72,11 @@
 			]}
 		>
 			{#if copied}
-				<ClipboardCheckIcon size="15" />
+				<CopyCheckIcon size={15} />
 			{:else}
-				<ClipboardIcon size="15" />
+				<CopyIcon size={15} />
 			{/if}
-			<ChevronDownIcon size="15" />
+			<ChevronDownIcon size={15} />
 		</div>
 	</summary>
 
@@ -98,7 +100,7 @@
 						<div
 							class="flex size-6 items-center justify-center rounded-sm border tonal-subtle"
 						>
-							<Icon size="14" />
+							<Icon size={14} />
 						</div>
 						<span>{label}</span>
 					</button>

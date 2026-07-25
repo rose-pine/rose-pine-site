@@ -1,6 +1,5 @@
 ---
 import BadgeIcon from "../assets/badge.svg";
-import SparklesIcon from "../assets/sparkles.svg";
 import { getFeaturedRepos, getSortedRepos } from "../data";
 import palette from "../data/palette.json";
 import {
@@ -9,6 +8,7 @@ import {
 	useTranslations,
 } from "../utilities/i18n";
 import CommandMenu, { type Group } from "./command-menu.svelte";
+import { SparklesIcon } from "./icons";
 
 let locale = getLocaleFromUrl(Astro.url);
 let t = useTranslations(locale);
@@ -35,19 +35,19 @@ let searchGroups: Group[] = [
 				label: t("nav.home"),
 				searchText: t("nav.home").toLowerCase(),
 				href: translatePath("/"),
-				icon: "house",
+				icon: "home",
 			},
 			{
 				label: t("nav.themes"),
 				searchText: t("nav.themes").toLowerCase(),
 				href: translatePath("/themes"),
-				icon: "book-text",
+				icon: "folder",
 			},
 			{
 				label: t("nav.palette"),
 				searchText: t("nav.palette").toLowerCase(),
 				href: translatePath("/palette"),
-				icon: "palette",
+				icon: "rainbow",
 			},
 			{
 				label: t("nav.create"),
@@ -86,7 +86,7 @@ let searchGroups: Group[] = [
 				label: "Email",
 				searchText: "email",
 				href: "mailto:hi@rosepinetheme.com",
-				icon: "mail",
+				icon: "inbox",
 			},
 			{
 				label: "Discord",
@@ -163,7 +163,8 @@ let defaultGroups: Group[] = [
 					class="group/cta flex h-8 shrink-0 items-center gap-2 rounded-lg border-2 border-text ps-3 pe-4 font-serif font-medium italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
 				>
 					<SparklesIcon
-						class="size-4 transition-transform group-hover/cta:-rotate-3"
+						size={16}
+						class="transition-transform group-hover/cta:-rotate-3"
 					/>
 					<span class="pb-px">{t("nav.create")}</span>
 				</a>
@@ -226,7 +227,8 @@ let defaultGroups: Group[] = [
 						class="group/cta flex h-14 shrink-0 items-center justify-center gap-4 rounded-card-inner border-2 border-text ps-4 pe-5 font-serif text-xl font-medium italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
 					>
 						<SparklesIcon
-							class="h-6 w-6 transition-transform group-hover/cta:-rotate-3"
+							size={24}
+							class="transition-transform group-hover/cta:-rotate-3"
 						/>
 						<span class="pb-px">{t("nav.create")}</span>
 					</a>

@@ -1,17 +1,5 @@
 <script lang="ts">
-	import ArrowDownIcon from "@lucide/svelte/icons/arrow-down";
-	import ArrowUpIcon from "@lucide/svelte/icons/arrow-up";
-	import BookTextIcon from "@lucide/svelte/icons/book-text";
-	import ChevronRightIcon from "@lucide/svelte/icons/chevron-right";
-	import CornerDownLeftIcon from "@lucide/svelte/icons/corner-down-left";
-	import Dice3Icon from "@lucide/svelte/icons/dice-3";
-	import HouseIcon from "@lucide/svelte/icons/house";
-	import ImageIcon from "@lucide/svelte/icons/image";
-	import MailIcon from "@lucide/svelte/icons/mail";
-	import PaletteIcon from "@lucide/svelte/icons/palette";
-	import SearchIcon from "@lucide/svelte/icons/search";
-	import SparklesIcon from "@lucide/svelte/icons/sparkles";
-	import XIcon from "@lucide/svelte/icons/x";
+	import type { Component } from "svelte";
 	import {
 		getLocaleFromUrl,
 		useTranslatedPath,
@@ -19,9 +7,33 @@
 	} from "../utilities/i18n";
 	import type { IconCategory } from "../utilities/icons";
 	import ColorSwatch from "./color-swatch.svelte";
-	import DiscordIcon from "./discord-icon.svelte";
-	import GithubIcon from "./github-icon.svelte";
+	import {
+		ArrowDownIcon,
+		ArrowSWIcon,
+		ArrowUpIcon,
+		ChevronRightIcon,
+		Dice3Icon,
+		DiscordIcon,
+		FolderIcon,
+		GithubIcon,
+		HomeIcon,
+		InboxIcon,
+		RainbowIcon,
+		SearchIcon,
+		SparklesIcon,
+		XIcon,
+	} from "./icons";
 	import ThemeIcon from "./theme-icon.svelte";
+
+	const iconComponents: Record<string, Component<{ size?: number }>> = {
+		discord: DiscordIcon,
+		folder: FolderIcon,
+		github: GithubIcon,
+		home: HomeIcon,
+		inbox: InboxIcon,
+		rainbow: RainbowIcon,
+		sparkles: SparklesIcon,
+	};
 
 	type Item = {
 		label: string;
@@ -48,17 +60,6 @@
 	let locale = getLocaleFromUrl();
 	let t = useTranslations(locale);
 	let translatePath = useTranslatedPath(locale);
-
-	let iconMap = {
-		"book-text": BookTextIcon,
-		discord: DiscordIcon,
-		github: GithubIcon,
-		house: HouseIcon,
-		image: ImageIcon,
-		mail: MailIcon,
-		palette: PaletteIcon,
-		sparkles: SparklesIcon,
-	};
 
 	let search = $state("");
 	let activeHref: string | null = $state(null);
@@ -185,14 +186,15 @@
 <button
 	type="button"
 	onclick={openMenu}
+	aria-label={t("command.trigger")}
 	aria-haspopup="dialog"
 	aria-keyshortcuts="Control+k Meta+k"
 	class="hidden h-7 cursor-pointer items-center justify-center gap-1.5 rounded-full border border-muted/20 bg-muted/5 px-2 transition hover:bg-muted/10 md:flex"
 >
-	<SearchIcon size="16" />
-	<span class="sr-only">{t("command.trigger")}</span>
-	<kbd class="rounded-full font-mono text-sm tracking-widest text-subtle"
-		>⌘K</kbd
+	<SearchIcon size={16} />
+	<kbd
+		aria-hidden="true"
+		class="rounded-full font-mono text-sm tracking-widest text-subtle">⌘K</kbd
 	>
 </button>
 
@@ -200,10 +202,10 @@
 	type="button"
 	onclick={openMenu}
 	aria-haspopup="dialog"
+	aria-label={t("command.trigger")}
 	class="relative z-50 flex size-(--badge-size) cursor-pointer items-center justify-center rounded-card-inner transition hover:bg-muted/10 md:hidden"
 >
-	<SearchIcon size="20" />
-	<span class="sr-only">{t("command.trigger")}</span>
+	<SearchIcon size={20} />
 </button>
 
 <div class="z-50 ms-6 h-7 w-px bg-text/20 md:-me-(--nav-item-space)"></div>
@@ -227,7 +229,7 @@
 			class="flex h-(--input-height) items-center gap-3 border-bs border-muted/10 bg-surface supports-backdrop-filter:bg-surface/95 supports-backdrop-filter:backdrop-blur-sm sm:border-bs-0 sm:border-be"
 		>
 			<label for="global-search" class="ps-dialog-gutters text-subtle">
-				<SearchIcon size="20" />
+				<SearchIcon size={20} />
 			</label>
 			<input
 				id="global-search"
@@ -248,7 +250,7 @@
 				onclick={closeMenu}
 				class="me-dialog-gutters-half flex size-(--close-size) shrink-0 cursor-pointer items-center justify-center rounded-dialog-inner text-subtle transition hover:bg-muted/10 hover:text-text"
 			>
-				<XIcon size="24" strokeWidth="1.5" />
+				<XIcon size={24} />
 			</button>
 		</div>
 
@@ -282,13 +284,13 @@
 						class="group flex h-11 items-center gap-3 rounded-lg px-dialog-gutters-half text-subtle data-selected:bg-muted/10 data-selected:text-text"
 					>
 						<div class="flex size-6 items-center justify-center">
-							<Dice3Icon size="16" />
+							<Dice3Icon size={16} />
 						</div>
 						<div class="h-6 flex-1 truncate text-sm font-medium text-text">
 							{t("command.feeling_lucky")}
 						</div>
 						<ChevronRightIcon
-							size="18"
+							size={18}
 							class="text-muted group-data-selected:text-text rtl:rotate-180"
 						/>
 					</a>
@@ -317,9 +319,11 @@
 						>
 							{#if group.kind === "icon"}
 								{@const IconComponent =
-									iconMap[item.icon as keyof typeof iconMap]}
+									typeof item.icon === "string"
+										? iconComponents[item.icon]
+										: item.icon}
 								<div class="flex size-6 items-center justify-center">
-									<IconComponent size="16" />
+									<IconComponent size={14} />
 								</div>
 							{:else if group.kind === "theme"}
 								<div class="text-subtle hover:text-text">
@@ -341,7 +345,7 @@
 								{/if}
 							</div>
 							<ChevronRightIcon
-								size="18"
+								size={18}
 								class="text-muted group-data-selected:text-text rtl:rotate-180"
 							/>
 						</a>
@@ -356,15 +360,15 @@
 		>
 			<ul role="list" class="flex h-full items-center gap-6">
 				<li class="flex shrink-0 items-center font-mono text-xs font-medium">
-					<ArrowUpIcon size="12" class="text-subtle" />
+					<ArrowUpIcon size={12} class="text-subtle" />
 					<span class="text-muted">&nbsp;move up</span>
 				</li>
 				<li class="flex shrink-0 items-center font-mono text-xs font-medium">
-					<ArrowDownIcon size="12" class="text-subtle" />
+					<ArrowDownIcon size={12} class="text-subtle" />
 					<span class="text-muted">&nbsp;move down</span>
 				</li>
 				<li class="flex shrink-0 items-center font-mono text-xs font-medium">
-					<CornerDownLeftIcon size="12" class="text-subtle" />
+					<ArrowSWIcon size={12} class="text-subtle" />
 					<span class="text-muted">&nbsp;select</span>
 				</li>
 				<li class="flex shrink-0 items-center font-mono text-xs font-medium">

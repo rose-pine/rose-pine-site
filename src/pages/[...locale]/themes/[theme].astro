@@ -1,6 +1,6 @@
 ---
-import ArrowUpRightIcon from "../../../assets/arrow-up-right.svg";
 import Flower5Icon from "../../../assets/flower5.svg";
+import { ArrowNEIcon } from "../../../components/icons";
 import ThemeCard from "../../../components/theme-card.svelte";
 import ThemeIcon from "../../../components/theme-icon.svelte";
 import { getAllRepos } from "../../../data";
@@ -70,7 +70,7 @@ let { repo, relatedRepos = [] as Repo[] } = Astro.props;
 						href={repo.url}
 						class="group/cta flex h-8 shrink-0 items-center gap-2 rounded-lg border-2 border-text ps-3 pe-4 font-serif font-medium italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
 					>
-						<ArrowUpRightIcon
+						<ArrowNEIcon
 							class="size-4 transition-transform group-hover/cta:-rotate-3"
 						/>
 						<span class="pb-px">Visit repository</span>

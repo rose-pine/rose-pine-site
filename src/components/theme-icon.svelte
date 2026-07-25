@@ -20,7 +20,7 @@
 {#snippet themeIcon()}
 	{@const IconComponent = getSvelteIconComponent(category)}
 	<div
-		title={category}
+		aria-label={category}
 		class={[
 			"flex items-center justify-center",
 			containerSizeMap[size],
@@ -28,7 +28,6 @@
 			categoryColorMap[category],
 		]}
 	>
-		<div class="sr-only">{category}</div>
 		<IconComponent size={iconSizeMap[size]} />
 	</div>
 {/snippet}

@@ -28,7 +28,7 @@
 					bind:group={themeSearch.category}
 					class="sr-only"
 				/>
-				<AllIcon size="12" />
+				<AllIcon size={12} />
 				{allLabel}
 			</label>
 
@@ -48,7 +48,7 @@
 							bind:group={themeSearch.category}
 							class="sr-only"
 						/>
-						<CategoryIcon size="12" />
+						<CategoryIcon size={12} />
 						{category}
 					</label>
 				{/if}
