@@ -1,8 +1,8 @@
 name: tmux
 url: https://github.com/rose-pine/tmux
 category: terminal
-stargazersCount: 270
-updatedAt: 2026-07-05T12:56:29Z
+stargazersCount: 271
+updatedAt: 2026-07-23T00:08:57Z
 contributors:
   - name: mrs4ndman
     url: https://github.com/mrs4ndman
@@ -34,6 +34,9 @@ contributors:
   - name: gkanwar
     url: https://github.com/gkanwar
     image: https://avatars.githubusercontent.com/u/1031540?v=4
+  - name: mhanberg
+    url: https://github.com/mhanberg
+    image: https://avatars.githubusercontent.com/u/5523984?v=4
   - name: piotrdurniat
     url: https://github.com/piotrdurniat
     image: https://avatars.githubusercontent.com/u/45066751?v=4

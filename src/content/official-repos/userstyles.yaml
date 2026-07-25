@@ -1,8 +1,8 @@
 name: Userstyles
 url: https://github.com/rose-pine/userstyles
 category: browser
-stargazersCount: 50
-updatedAt: 2026-07-12T00:00:27Z
+stargazersCount: 49
+updatedAt: 2026-07-24T12:33:47Z
 tags:
   - css
   - stylish
@@ -14,6 +14,9 @@ subthemes:
   - name: Advent of Code
     author: Adrian Karlén
     url: https://github.com/rose-pine/userstyles/tree/main/styles/advent-of-code
+  - name: Atlassian Cloud
+    author: Vidushan Chooriyakumaran
+    url: https://github.com/rose-pine/userstyles/tree/main/styles/atlassian-cloud
   - name: Bluesky
     author: Julia Mertz
     url: https://github.com/rose-pine/userstyles/tree/main/styles/bluesky
@@ -108,6 +111,9 @@ contributors:
   - name: TrustworthyAdult
     url: https://github.com/TrustworthyAdult
     image: https://avatars.githubusercontent.com/u/104172948?v=4
+  - name: vidjul
+    url: https://github.com/vidjul
+    image: https://avatars.githubusercontent.com/u/25385500?v=4
   - name: bunfluff
     url: https://github.com/bunfluff
     image: https://avatars.githubusercontent.com/u/177128418?v=4
