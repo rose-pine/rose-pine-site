@@ -76,9 +76,9 @@ export const collections = {
 		}),
 	}),
 
-	showcase: defineCollection({
+	madeWith: defineCollection({
 		loader: glob({
-			base: "./src/content/showcase",
+			base: "./src/content/made-with",
 			pattern: "**/*.yaml",
 		}),
 		schema: ({ image }) =>

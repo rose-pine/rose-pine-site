@@ -13,6 +13,7 @@ export default defineLocale({
 		"footer.nav_label": "Secondary",
 		"footer.heading.collections": "Collections",
 		"footer.collection.photography": "Photography",
+		"footer.collection.made-with": "Made with Rosé Pine",
 		"footer.heading.resources": "Resources",
 		"footer.resource.create": "Create a theme",
 		"footer.resource.submit": "Submit your theme",
@@ -62,6 +63,9 @@ export default defineLocale({
 		"photography.title": "Photography",
 		"photography.description":
 			"If you don't stop for a while, you might miss a perfect view.",
+
+		"made-with.title": "Made with Rosé Pine",
+		"made-with.description": "Highlights from the community.",
 
 		"palette.title": "Palette",
 		"palette.description": "Curated colours, designed to inspire.",

@@ -1,5 +1,4 @@
 ---
-import { Image } from "astro:assets";
 import { getCollection, type CollectionEntry } from "astro:content";
 import IntroSection from "../../../components/intro-section.astro";
 import Page from "../../../layouts/page.astro";
@@ -17,7 +16,6 @@ import { objectKeys } from "../../../utilities/object";
 
 export async function getStaticPaths() {
 	const guides = await getCollection("guides");
-	const showcase = await getCollection("showcase");
 
 	const buildPages = (locale: Locale): CollectionEntry<"guides">[] => {
 		const guidesInLocale = guides.filter(
@@ -50,12 +48,12 @@ export async function getStaticPaths() {
 
 	return locales.map((locale) => ({
 		params: { locale },
-		props: { pages: buildPages(locale ?? defaultLocale), showcase },
+		props: { pages: buildPages(locale ?? defaultLocale) },
 	}));
 }
 
 const { locale = defaultLocale } = Astro.params as { locale: LocaleParam };
-const { pages, showcase } = Astro.props;
+const { pages } = Astro.props;
 const resolvedLocale = locale ?? defaultLocale;
 const t = useTranslations(resolvedLocale);
 const translatePath = useTranslatedPath(resolvedLocale);
@@ -118,42 +116,6 @@ const guideHref = (id: string) => {
 						</article>
 					);
 				})
-			}
-
-			<h2 class="col-span-full mbs-page-gutters font-semibold">Showcase</h2>
-			{
-				showcase.map((site) => (
-					<article>
-						<a
-							href={site.data.url}
-							aria-labelledby={`${site.id}-title`}
-							aria-describedby={`${site.id}-description`}
-							class="group/showcase relative flex h-full w-full flex-col overflow-hidden rounded-card border border-overlay bg-surface transition"
-						>
-							<Image
-								src={site.data.image as any}
-								alt={site.data.name}
-								width={1000}
-								height={600}
-								class="h-52 w-full rounded-card object-cover object-top"
-							/>
-							<div class="absolute top-0 bottom-0 flex w-full items-end gap-3 bg-linear-to-t from-main-base p-card-gutters text-main-text transition group-hover/showcase:text-main-iris">
-								<h2
-									id={`${site.id}-title`}
-									class="flex-1 truncate text-sm font-semibold tracking-tight"
-								>
-									{site.data.name}
-								</h2>
-								<div id={`${site.id}-description`} class="sr-only">
-									{site.data.name}
-								</div>
-								<div class="shrink-0 text-sm font-semibold tracking-tight">
-									&nearr;
-								</div>
-							</div>
-						</a>
-					</article>
-				))
 			}
 		</div>
 	</section>

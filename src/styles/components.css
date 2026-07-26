@@ -1,8 +1,25 @@
 @layer components {
 	.card {
-		padding: var(--spacing-card-gutters);
 		background-color: var(--color-surface);
 		border: 1px solid --alpha(var(--color-muted) / 20%);
 		border-radius: var(--radius-card);
+		overflow: hidden;
+	}
+
+	.card img.card-media {
+		object-fit: cover;
+		object-position: top;
+		border-block-end: 1px solid --alpha(var(--color-muted) / 20%);
+	}
+
+	.card .card-body {
+		padding: var(--spacing-card-gutters);
+		display: flex;
+		flex-direction: column;
+		gap: --spacing(3);
+	}
+
+	.card .card-title {
+		font-weight: 550;
 	}
 }
