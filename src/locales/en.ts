@@ -56,6 +56,9 @@ export default defineLocale({
 		"themes.search_placeholder": "Search themes...",
 		"themes.search_focus_cue": "Press / to focus",
 
+		"colophon.title": "Colophon",
+		"colophon.description": "The roots of our garden.",
+
 		"photography.title": "Photography",
 		"photography.description":
 			"If you don't stop for a while, you might miss a perfect view.",
