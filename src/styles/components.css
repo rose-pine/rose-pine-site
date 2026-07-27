@@ -1,0 +1,8 @@
+@layer components {
+	.card {
+		padding: var(--spacing-card-gutters);
+		background-color: var(--color-surface);
+		border: 1px solid --alpha(var(--color-muted) / 20%);
+		border-radius: var(--radius-card);
+	}
+}

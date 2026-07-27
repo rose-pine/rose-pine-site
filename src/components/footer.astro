@@ -104,14 +104,21 @@ let socialItems = [
 			</ul>
 		</section>
 
-		<div class="cluster items-center">
-			<SiteAppearance client:only="svelte" />
+		<section class="stack">
+			<div class="cluster items-center">
+				<SiteAppearance client:only="svelte" />
 
-			<a href={translatePath("/")}>
-				<BadgeIcon width="36" height="36" />
-				<span class="sr-only">{t("nav.home")}</span>
-			</a>
-		</div>
+				<a href={translatePath("/")}>
+					<BadgeIcon width="36" height="36" />
+					<span class="sr-only">{t("nav.home")}</span>
+				</a>
+			</div>
+			<ul class="stack-2 text-right">
+				<li>
+					<a href="/colophon">Colophon</a>
+				</li>
+			</ul>
+		</section>
 	</nav>
 
 	<div class="cluster justify-center">
