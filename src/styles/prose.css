@@ -6,6 +6,7 @@
 	color: var(--color-text);
 }
 
+.link,
 .prose a {
 	color: var(--color-iris);
 	text-underline-offset: 2px;
@@ -15,6 +16,7 @@
 	padding: 0;
 }
 
+.list li,
 .prose ul li {
 	--_marker-size: 16px;
 
