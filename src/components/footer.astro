@@ -58,9 +58,12 @@ let socialItems = [
 			<h2>{t("shared.language")}</h2>
 			<ul class="stack-2">
 				{
-					objectEntries(languages).map(([locale, { name }]) => (
+					objectEntries(languages).map(([lang, { name }]) => (
 						<li>
-							<a href={translatePath(getUrlWithoutLocale(Astro.url), locale)}>
+							<a
+								href={`${translatePath(getUrlWithoutLocale(Astro.url), lang)}?lang=${lang}`}
+								class:list={[lang === locale && "active"]}
+							>
 								{name}
 							</a>
 						</li>
@@ -144,6 +147,12 @@ let socialItems = [
 
 			&:hover {
 				text-decoration: underline;
+			}
+
+			&.active {
+				font-family: var(--font-serif);
+				font-style: italic;
+				color: var(--color-text);
 			}
 		}
 	}
