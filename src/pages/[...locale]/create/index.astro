@@ -83,14 +83,14 @@ const guideHref = (id: string) => {
 					const pageLocale = isLocale(first) ? first : defaultLocale;
 					const href = guideHref(page.id);
 					return (
-						<article>
-							<a
-								href={href}
-								aria-labelledby={`${page.id}-title`}
-								aria-describedby={`${page.id}-description`}
-								class="flex h-full w-full flex-col rounded-card border border-overlay bg-surface transition hover:border-iris/20 hover:bg-iris/5"
-							>
-								<div class="w-full p-card-gutters">
+						<a
+							href={href}
+							aria-labelledby={`${page.id}-title`}
+							aria-describedby={`${page.id}-description`}
+							class="group block h-full w-full"
+						>
+							<article class="card flex h-full w-full flex-col">
+								<div class="card-body">
 									<h2
 										id={`${page.id}-title`}
 										class="line-clamp-2 text-lg font-semibold tracking-tight"
@@ -99,11 +99,11 @@ const guideHref = (id: string) => {
 									</h2>
 									<div
 										id={`${page.id}-description`}
-										class="mt-1 line-clamp-2 text-subtle"
+										class="line-clamp-2 text-subtle"
 									>
 										{page.data.description}
 									</div>
-									<div class="mt-2 flex items-center gap-3">
+									<div class="flex items-center gap-3">
 										<div
 											title={languages[pageLocale].name}
 											class="rounded-sm bg-text px-1 py-px font-mono text-[10px] font-semibold text-surface uppercase"
@@ -112,8 +112,8 @@ const guideHref = (id: string) => {
 										</div>
 									</div>
 								</div>
-							</a>
-						</article>
+							</article>
+						</a>
 					);
 				})
 			}
