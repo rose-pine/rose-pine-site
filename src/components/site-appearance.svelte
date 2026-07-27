@@ -23,7 +23,7 @@
 
 <select
 	bind:value={() => appearance, updateTheme}
-	class="group flex cursor-pointer items-center gap-1.5 rounded-md border tonal-subtle px-3 py-1 text-sm font-medium capitalize transition hover:tonal-pressed-subtle"
+	class="flex items-center gap-1.5 rounded-md border tonal-subtle px-1.5 py-1 text-sm font-medium capitalize transition hover:tonal-pressed-subtle"
 >
 	{#each themes as theme}
 		<option value={theme} disabled={appearance === theme}>{theme}</option>

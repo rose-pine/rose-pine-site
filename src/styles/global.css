@@ -241,6 +241,14 @@ ul[role="list"] {
 	list-style-type: none;
 }
 
+button {
+	cursor: pointer;
+}
+
+select {
+	cursor: pointer;
+}
+
 details > summary {
 	cursor: pointer;
 }

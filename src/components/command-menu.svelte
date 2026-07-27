@@ -189,7 +189,7 @@
 	aria-label={t("command.trigger")}
 	aria-haspopup="dialog"
 	aria-keyshortcuts="Control+k Meta+k"
-	class="hidden h-7 cursor-pointer items-center justify-center gap-1.5 rounded-full border border-muted/20 bg-muted/5 px-2 transition hover:bg-muted/10 md:flex"
+	class="hidden h-7 items-center justify-center gap-1.5 rounded-full border border-muted/20 bg-muted/5 px-2 transition hover:bg-muted/10 md:flex"
 >
 	<SearchIcon size={16} />
 	<kbd
@@ -203,7 +203,7 @@
 	onclick={openMenu}
 	aria-haspopup="dialog"
 	aria-label={t("command.trigger")}
-	class="relative z-50 flex size-(--badge-size) cursor-pointer items-center justify-center rounded-card-inner transition hover:bg-muted/10 md:hidden"
+	class="relative z-50 flex size-(--badge-size) items-center justify-center rounded-card-inner transition hover:bg-muted/10 md:hidden"
 >
 	<SearchIcon size={20} />
 </button>
@@ -248,7 +248,7 @@
 			<button
 				aria-label={t("command.close")}
 				onclick={closeMenu}
-				class="me-dialog-gutters-half flex size-(--close-size) shrink-0 cursor-pointer items-center justify-center rounded-dialog-inner text-subtle transition hover:bg-muted/10 hover:text-text"
+				class="me-dialog-gutters-half flex size-(--close-size) shrink-0 items-center justify-center rounded-dialog-inner text-subtle transition hover:bg-muted/10 hover:text-text"
 			>
 				<XIcon size={24} />
 			</button>
