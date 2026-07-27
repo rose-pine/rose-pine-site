@@ -23,6 +23,7 @@ export default defineLocale({
 		"nav.home": "Home",
 		"nav.themes": "Themes",
 		"nav.palette": "Palette",
+		"nav.collections": "Collections",
 		"nav.create": "Create",
 
 		"command.trigger": "Open command menu",

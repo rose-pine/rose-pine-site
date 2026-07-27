@@ -1,15 +1,31 @@
 @layer components {
 	.card {
 		background-color: var(--color-surface);
-		border: 1px solid --alpha(var(--color-muted) / 20%);
+		border: 1px solid var(--color-overlay);
 		border-radius: var(--radius-card);
 		overflow: hidden;
+		transition-property: background-color, border-color;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+		transition-duration: 150ms;
+	}
+
+	a[href]:hover > .card {
+		background-color: --alpha(var(--color-iris) / 5%);
+		border-color: --alpha(var(--color-iris) / 20%);
 	}
 
 	.card img.card-media {
+		background-color: var(--color-surface);
 		object-fit: cover;
 		object-position: top;
-		border-block-end: 1px solid --alpha(var(--color-muted) / 20%);
+		border-block-end: 1px solid var(--color-overlay);
+		transition-property: background-color, border-color;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+		transition-duration: 150ms;
+	}
+
+	a[href]:hover > .card img.card-media {
+		border-color: --alpha(var(--color-iris) / 20%);
 	}
 
 	.card .card-body {
@@ -19,7 +35,38 @@
 		gap: --spacing(3);
 	}
 
-	.card .card-title {
-		font-weight: 550;
+	.dropdown {
+		position: relative;
+	}
+
+	.dropdown .dropdown-menu {
+		position: absolute;
+		top: calc(100% + 2px);
+		left: 50%;
+		transform: translateX(-50%);
+		z-index: 50;
+		display: flex;
+		min-width: 12rem;
+		flex-direction: column;
+		border-radius: var(--radius-dropdown);
+		border: 1px solid var(--color-overlay);
+		background-color: var(--color-surface);
+		padding: var(--spacing-dropdown-gutters-half);
+		box-shadow: var(--shadow-lg);
+	}
+
+	.dropdown .dropdown-item {
+		display: flex;
+		align-items: center;
+		padding: var(--spacing-dropdown-gutters-half);
+		font-size: var(--text-sm);
+		line-height: var(--text-sm--line-height);
+		font-weight: 500;
+		transition: background-color 150ms;
+		border-radius: var(--radius-dropdown-inner);
+
+		&:hover {
+			background-color: --alpha(var(--color-muted) / 10%);
+		}
 	}
 }
