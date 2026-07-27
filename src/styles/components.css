@@ -1,5 +1,10 @@
 @layer components {
 	.card {
+		--_title-font-size: var(--text-lg);
+		--_title-line-height: var(--text-lg--line-height);
+		--_description-font-size: var(--text-base);
+		--_description-line-height: var(--text-base--line-height);
+
 		background-color: var(--color-surface);
 		border: 1px solid var(--color-overlay);
 		border-radius: var(--radius-card);
@@ -7,6 +12,13 @@
 		transition-property: background-color, border-color;
 		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 		transition-duration: 150ms;
+
+		&.card-lg {
+			--_title-font-size: var(--text-4xl);
+			--_title-line-height: var(--text-4xl--line-height);
+			--_description-font-size: var(--text-xl);
+			--_description-line-height: var(--leading-relaxed);
+		}
 	}
 
 	a[href]:hover > .card {
@@ -33,6 +45,19 @@
 		display: flex;
 		flex-direction: column;
 		gap: --spacing(3);
+	}
+
+	.card .card-title {
+		font-size: var(--_title-font-size);
+		line-height: var(--_title-line-height);
+		font-weight: 600;
+		letter-spacing: var(--tracking-tight) /* -0.025em */;
+	}
+
+	.card .card-description {
+		color: var(--color-subtle);
+		font-size: var(--_description-font-size);
+		line-height: var(--_description-line-height);
 	}
 
 	.dropdown {

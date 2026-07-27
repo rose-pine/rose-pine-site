@@ -77,6 +77,7 @@ const guideHref = (id: string) => {
 	<section class="animate-enter wrapper" style="--stagger: 3">
 		<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
 			<h2 class="col-span-full font-semibold">Guides</h2>
+
 			{
 				pages.map((page) => {
 					const [first] = page.id.split("/");
@@ -87,29 +88,25 @@ const guideHref = (id: string) => {
 							href={href}
 							aria-labelledby={`${page.id}-title`}
 							aria-describedby={`${page.id}-description`}
-							class="group block h-full w-full"
 						>
-							<article class="card flex h-full w-full flex-col">
+							<article class="card h-full">
 								<div class="card-body">
-									<h2
-										id={`${page.id}-title`}
-										class="line-clamp-2 text-lg font-semibold tracking-tight"
-									>
-										{page.data.title}
-									</h2>
-									<div
-										id={`${page.id}-description`}
-										class="line-clamp-2 text-subtle"
-									>
-										{page.data.description}
-									</div>
-									<div class="flex items-center gap-3">
+									<div class="flex items-center justify-between gap-1.5">
+										<h2 id={`${page.id}-title`} class="card-title line-clamp-2">
+											{page.data.title}
+										</h2>
 										<div
 											title={languages[pageLocale].name}
-											class="rounded-sm bg-text px-1 py-px font-mono text-[10px] font-semibold text-surface uppercase"
+											class="shrink-0 rounded-sm bg-text px-1 py-px font-mono text-[10px] font-semibold text-surface uppercase"
 										>
 											{pageLocale}
 										</div>
+									</div>
+									<div
+										id={`${page.id}-description`}
+										class="card-description line-clamp-3"
+									>
+										{page.data.description}
 									</div>
 								</div>
 							</article>
