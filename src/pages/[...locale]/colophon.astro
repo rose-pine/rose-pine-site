@@ -50,67 +50,73 @@ let t = useTranslations(locale);
 
 	<section class="animate-enter wrapper" style="--stagger: 3">
 		<div class="grid grid-cols-1 gap-page-gutters-half sm:grid-cols-2">
-			<div class="card prose h-full">
-				<h2>Stack</h2>
-				<p>Technologies used—appreciated but not necessarily endorsed.</p>
+			<div class="card h-full">
+				<div class="card-body">
+					<h2 class="card-title">Stack</h2>
+					<p>Technologies used—appreciated but not necessarily endorsed.</p>
 
-				<ul>
-					<li>
-						Statically built using <a href="https://astro.build">Astro</a> and <a
-							href="https://svelte.dev">Svelte</a
-						>
-					</li>
-					<li>
-						Styled with <a href="https://tailwindcss.com">Tailwind CSS</a>
-					</li>
-					<li>
-						Hosted on <a href="https://netlify.com">Netlify</a>
-					</li>
-					<li>Humans, not AI</li>
-				</ul>
+					<ul role="list" class="list">
+						<li>
+							Statically built using <a href="https://astro.build">Astro</a> and <a
+								href="https://svelte.dev">Svelte</a
+							>
+						</li>
+						<li>
+							Styled with <a href="https://tailwindcss.com">Tailwind CSS</a>
+						</li>
+						<li>
+							Hosted on <a href="https://netlify.com">Netlify</a>
+						</li>
+						<li>Humans, not AI</li>
+					</ul>
 
-				<p>
-					A special thanks to <a href="https://bits-ui.com">Bits UI</a> and <a
-						href="https://lucide.dev">Lucide</a
-					>. These packages are no longer used but improved the initial site
-					development.
-				</p>
+					<p>
+						A special thanks to <a href="https://bits-ui.com" class="link"
+							>Bits UI</a
+						> and <a href="https://lucide.dev" class="link">Lucide</a>. These
+						packages are no longer used but improved the initial site
+						development.
+					</p>
+				</div>
 			</div>
 
-			<div class="card prose h-full">
-				<h2>Icons</h2>
-				<p>Digitally hand-drawn icons. Please don't pixel peep too hard.</p>
+			<div class="card h-full">
+				<div class="card-body">
+					<h2 class="card-title">Icons</h2>
 
-				<div class="flex flex-wrap gap-6">
-					<ArrowDownIcon size={24} />
-					<ArrowNEIcon size={24} />
-					<ArrowSWIcon size={24} />
-					<ArrowUpIcon size={24} />
-					<BracesIcon size={24} />
-					<BracketsIcon size={24} />
-					<BrowserIcon size={24} />
-					<CheckIcon size={24} />
-					<ChevronDownIcon size={24} />
-					<ChevronRightIcon size={24} />
-					<CopyCheckIcon size={24} />
-					<CopyIcon size={24} />
-					<DesktopIcon size={24} />
-					<Dice3Icon size={24} />
-					<FolderIcon size={24} />
-					<GridIcon size={24} />
-					<HomeIcon size={24} />
-					<InboxIcon size={24} />
-					<IndentIcon size={24} />
-					<LayersIcon size={24} />
-					<LibraryIcon size={24} />
-					<NotebookIcon size={24} />
-					<RainbowIcon size={24} />
-					<SearchIcon size={24} />
-					<SocialIcon size={24} />
-					<SparklesIcon size={24} />
-					<TerminalIcon size={24} />
-					<UsersIcon size={24} />
-					<XIcon size={24} />
+					<p>Digitally hand-drawn icons. Please don't pixel peep too hard.</p>
+
+					<div class="flex flex-wrap gap-6 pbs-3">
+						<ArrowDownIcon size={24} />
+						<ArrowNEIcon size={24} />
+						<ArrowSWIcon size={24} />
+						<ArrowUpIcon size={24} />
+						<BracesIcon size={24} />
+						<BracketsIcon size={24} />
+						<BrowserIcon size={24} />
+						<CheckIcon size={24} />
+						<ChevronDownIcon size={24} />
+						<ChevronRightIcon size={24} />
+						<CopyCheckIcon size={24} />
+						<CopyIcon size={24} />
+						<DesktopIcon size={24} />
+						<Dice3Icon size={24} />
+						<FolderIcon size={24} />
+						<GridIcon size={24} />
+						<HomeIcon size={24} />
+						<InboxIcon size={24} />
+						<IndentIcon size={24} />
+						<LayersIcon size={24} />
+						<LibraryIcon size={24} />
+						<NotebookIcon size={24} />
+						<RainbowIcon size={24} />
+						<SearchIcon size={24} />
+						<SocialIcon size={24} />
+						<SparklesIcon size={24} />
+						<TerminalIcon size={24} />
+						<UsersIcon size={24} />
+						<XIcon size={24} />
+					</div>
 				</div>
 			</div>
 		</div>
