@@ -36,10 +36,8 @@ Aggiorna `name` all'interno di `config` con il nome della tua lingua, poi aggiun
 +     name: "Sindarin",
     },
     translations: {
--     "shared.all": "All",
--     "shared.language": "Language",
-+     "shared.all": "Pân",
-+     "shared.language": "Lamb",
+-     "nav.language": "Language",
++     "nav.language": "Lamb",
       ...
     },
   });

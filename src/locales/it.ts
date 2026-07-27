@@ -5,14 +5,12 @@ export default defineLocale({
 		name: "Italiano",
 	},
 	translations: {
-		"shared.all": "Tutti",
-		"shared.language": "Lingua",
-
 		"nav.home": "Home",
 		"nav.themes": "Temi",
 		"nav.palette": "Tavolozza",
 		"nav.create": "Crea",
 		"nav.collection.photography": "Fotografie",
+		"nav.language": "Lingua",
 		"nav.resources": "Risorse",
 		"nav.resource.create": "Crea un tema",
 		"nav.resource.submit": "Invia il tuo tema",
@@ -48,6 +46,7 @@ export default defineLocale({
 
 		"themes.title": "Temi",
 		"themes.description": "Una selezione curata di personalizzazioni.",
+		"themes.all": "Tutti",
 		"themes.ports": "Port",
 		"themes.contributors": "Collaboratori",
 		"themes.search_placeholder": "Cerca temi...",

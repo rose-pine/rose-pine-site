@@ -5,14 +5,12 @@ export default defineLocale({
 		name: "Čeština",
 	},
 	translations: {
-		"shared.all": "Vše",
-		"shared.language": "Jazyk",
-
 		"nav.home": "Domů",
 		"nav.themes": "Motivy",
 		"nav.palette": "Barvy",
 		"nav.create": "Vytvořit",
 		"nav.collection.photography": "Fotografie",
+		"nav.language": "Jazyk",
 		"nav.resources": "Zdroje",
 		"nav.resource.create": "Vytvořte motiv",
 		"nav.resource.submit": "Přispět motivem",
@@ -49,6 +47,7 @@ export default defineLocale({
 
 		"themes.title": "Motivy",
 		"themes.description": "Pečlivě sestavený výběr možností přizpůsobení.",
+		"themes.all": "Vše",
 		"themes.ports": "Portů",
 		"themes.contributors": "Přispěvatelů",
 		"themes.search_placeholder": "Hledat motivy...",

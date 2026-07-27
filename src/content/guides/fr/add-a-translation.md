@@ -36,10 +36,8 @@ Mettez à jour le champ `name` à l'intérieur de `config` avec le nom de votre 
 +     name: "Sindarin",
     },
     translations: {
--     "shared.all": "All",
--     "shared.language": "Language",
-+     "shared.all": "Pân",
-+     "shared.language": "Lamb",
+-     "nav.language": "Language",
++     "nav.language": "Lamb",
       ...
     },
   });

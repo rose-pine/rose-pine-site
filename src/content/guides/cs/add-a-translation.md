@@ -36,10 +36,8 @@ Upravte `name` v sekci `config` na název vašeho jazyka a poté přidejte přek
 +     name: "Sindarin",
     },
     translations: {
--     "shared.all": "All",
--     "shared.language": "Language",
-+     "shared.all": "Pân",
-+     "shared.language": "Lamb",
+-     "nav.language": "Language",
++     "nav.language": "Lamb",
       ...
     },
   });

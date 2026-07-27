@@ -36,10 +36,8 @@ updatedAt: 2026-06-18T12:00:00-06:00
 +     name: "Sindarin",
     },
     translations: {
--     "shared.all": "All",
--     "shared.language": "Language",
-+     "shared.all": "Pân",
-+     "shared.language": "Lamb",
+-     "nav.language": "Language",
++     "nav.language": "Lamb",
       ...
     },
   });

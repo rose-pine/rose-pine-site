@@ -6,14 +6,12 @@ export default defineLocale({
 		dir: "rtl",
 	},
 	translations: {
-		"shared.all": "الكل",
-		"shared.language": "اللغة",
-
 		"nav.home": "الرئيسية",
 		"nav.themes": "السمات",
 		"nav.palette": "لوحة الألوان",
 		"nav.create": "إنشاء",
 		"nav.collection.photography": "التصوير الفوتوغرافي",
+		"nav.language": "اللغة",
 		"nav.resources": "الموارد",
 		"nav.resource.create": "إنشاء سمة",
 		"nav.resource.submit": "تقديم سمتك",
@@ -49,6 +47,7 @@ export default defineLocale({
 
 		"themes.title": "السمات",
 		"themes.description": "مجموعة مصممة بعناية من التخصيصات.",
+		"themes.all": "الكل",
 		"themes.ports": "منافذ",
 		"themes.contributors": "مساهمون",
 		"themes.search_placeholder": "ابحث عن سمات...",

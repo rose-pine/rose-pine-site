@@ -38,10 +38,8 @@ Kopiere die englische Sprachdatei und benenne sie mit deinem Sprachkürzel:
 +     name: "Sindarin",
     },
     translations: {
--     "shared.all": "All",
--     "shared.language": "Language",
-+     "shared.all": "Pân",
-+     "shared.language": "Lamb",
+-     "nav.language": "Language",
++     "nav.language": "Lamb",
       ...
     },
   });

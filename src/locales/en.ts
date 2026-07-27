@@ -5,9 +5,6 @@ export default defineLocale({
 		name: "English",
 	},
 	translations: {
-		"shared.all": "All",
-		"shared.language": "Language",
-
 		"nav.home": "Home",
 		"nav.themes": "Themes",
 		"nav.palette": "Palette",
@@ -15,6 +12,7 @@ export default defineLocale({
 		"nav.collections": "Collections",
 		"nav.collection.photography": "Photography",
 		"nav.collection.made-with": "Made with Rosé Pine",
+		"nav.language": "Language",
 		"nav.resources": "Resources",
 		"nav.resource.create": "Create a theme",
 		"nav.resource.submit": "Submit your theme",
@@ -50,6 +48,7 @@ export default defineLocale({
 
 		"themes.title": "Themes",
 		"themes.description": "Hand-crafted collection of personalisation.",
+		"themes.all": "All",
 		"themes.ports": "Ports",
 		"themes.contributors": "Contributors",
 		"themes.search_placeholder": "Search themes...",
