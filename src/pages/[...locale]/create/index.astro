@@ -13,6 +13,7 @@ import {
 	type LocaleParam,
 } from "../../../utilities/i18n";
 import { objectKeys } from "../../../utilities/object";
+import { ArrowNEIcon } from "../../../components/icons";
 
 export async function getStaticPaths() {
 	const guides = await getCollection("guides");
@@ -114,6 +115,50 @@ const guideHref = (id: string) => {
 					);
 				})
 			}
+
+			<h2 class="col-span-full font-semibold">Tools</h2>
+
+			<a
+				href="https://github.com/rose-pine/rose-pine-bloom"
+				aria-labelledby="bloom-title"
+				aria-describedby="bloom-description"
+			>
+				<article class="card h-full">
+					<div class="card-body">
+						<div class="flex items-center justify-between gap-1.5">
+							<h2 id="bloom-title" class="card-title line-clamp-2">Bloom</h2>
+							<ArrowNEIcon size={16} class="shrink-0" />
+						</div>
+						<div id="bloom-description" class="card-description line-clamp-2">
+							An opinionated theme generator, matching the Rosé Pine style
+							guide.
+						</div>
+					</div>
+				</article>
+			</a>
+
+			<a
+				href="https://github.com/rose-pine/rose-pine-template"
+				aria-labelledby="template-title"
+				aria-describedby="template-description"
+			>
+				<article class="card">
+					<div class="card-body">
+						<div class="flex items-center justify-between gap-1.5">
+							<h2 id="template-title" class="card-title line-clamp-2">
+								Project template
+							</h2>
+							<ArrowNEIcon size={16} class="shrink-0" />
+						</div>
+						<div
+							id="template-description"
+							class="card-description line-clamp-3"
+						>
+							A simple starting point for building your next theme.
+						</div>
+					</div>
+				</article>
+			</a>
 		</div>
 	</section>
 </Page>
