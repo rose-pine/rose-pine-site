@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { themeSearch } from "../state.svelte";
 	import { getLocaleFromUrl, useTranslations } from "../utilities/i18n";
+	import { SearchIcon } from "./icons";
 
 	let locale = getLocaleFromUrl();
 	let t = useTranslations(locale);
@@ -21,20 +22,8 @@
 	for="theme-search"
 	class="flex h-14 cursor-text items-center gap-3 rounded-(--input-radius) border border-muted/20 bg-surface px-3 transition [--input-radius-inner:calc(var(--input-radius)/2)] [--input-radius:1rem] focus-within:border-muted/40"
 >
-	<svg
-		aria-hidden="true"
-		xmlns="http://www.w3.org/2000/svg"
-		width="20"
-		height="20"
-		viewBox="0 0 24 24"
-		fill="none"
-		stroke="currentColor"
-		stroke-width="2"
-		stroke-linecap="round"
-		stroke-linejoin="round"
-		class="text-subtle"
-		><path d="m21 21-4.34-4.34" /><circle cx="11" cy="11" r="8" /></svg
-	>
+	<SearchIcon size={20} class="text-subtle" />
+
 	<input
 		id="theme-search"
 		bind:this={searchInput}
