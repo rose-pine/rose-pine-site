@@ -17,26 +17,26 @@ let translatePath = useTranslatedPath(locale);
 
 let resourceItems = [
 	{
-		name: t("footer.resource.create"),
+		name: t("nav.resource.create"),
 		href: translatePath("/create/create-a-theme"),
 	},
 	{
-		name: t("footer.resource.submit"),
+		name: t("nav.resource.submit"),
 		href: "/new",
 	},
 	{
-		name: t("footer.resource.translate"),
+		name: t("nav.resource.translate"),
 		href: translatePath("/create/add-a-translation"),
 	},
 ];
 
 let collectionItems = [
 	{
-		name: t("footer.collection.photography"),
+		name: t("nav.collection.photography"),
 		href: translatePath("/collections/photography"),
 	},
 	{
-		name: t("footer.collection.made-with"),
+		name: t("nav.collection.made-with"),
 		href: translatePath("/collections/made-with"),
 	},
 ];
@@ -51,7 +51,7 @@ let socialItems = [
 <footer class="wrapper py-page-start">
 	<nav
 		id="footer-nav"
-		aria-label={t("footer.nav_label")}
+		aria-label={t("nav.footer_label")}
 		class="cluster-10 pbe-page-start *:last:ms-auto"
 	>
 		<section class="stack">
@@ -70,7 +70,7 @@ let socialItems = [
 		</section>
 
 		<section class="stack">
-			<h2>{t("footer.heading.resources")}</h2>
+			<h2>{t("nav.resources")}</h2>
 			<ul class="stack-2">
 				{
 					resourceItems.map((item) => (
@@ -83,7 +83,7 @@ let socialItems = [
 		</section>
 
 		<section class="stack">
-			<h2>{t("footer.heading.collections")}</h2>
+			<h2>{t("nav.collections")}</h2>
 			<ul class="stack-2">
 				{
 					collectionItems.map((item) => (
@@ -96,7 +96,7 @@ let socialItems = [
 		</section>
 
 		<section class="stack">
-			<h2>{t("footer.heading.social")}</h2>
+			<h2>{t("nav.social")}</h2>
 			<ul class="stack-2">
 				{
 					socialItems.map((item) => (

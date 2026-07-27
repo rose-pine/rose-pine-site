@@ -28,11 +28,11 @@ let menuItems = [
 
 let collectionItems = [
 	{
-		name: t("footer.collection.photography"),
+		name: t("nav.collection.photography"),
 		href: translatePath("/collections/photography"),
 	},
 	{
-		name: t("footer.collection.made-with"),
+		name: t("nav.collection.made-with"),
 		href: translatePath("/collections/made-with"),
 	},
 ];
@@ -154,7 +154,7 @@ let defaultGroups: Group[] = [
 		/>
 	</div>
 
-	<nav aria-label={t("header.nav_label")} class="hidden md:block">
+	<nav aria-label={t("nav.header_label")} class="hidden md:block">
 		<ul class="flex items-center gap-1.5">
 			{
 				menuItems.map((item) => (
@@ -236,7 +236,7 @@ let defaultGroups: Group[] = [
 		</summary>
 
 		<nav
-			aria-label={t("header.nav_label")}
+			aria-label={t("nav.header_label")}
 			class="card absolute inset-x-page-gutters-half top-0 z-40 bg-surface/80 pbs-(--badge-size) shadow-lg shadow-black/10 backdrop-blur-xl backdrop-saturate-150 transition"
 		>
 			<div class="h-card-gutters-half"></div>
