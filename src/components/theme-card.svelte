@@ -1,9 +1,8 @@
 <script lang="ts">
-	import User from "@lucide/svelte/icons/user";
-	import Users from "@lucide/svelte/icons/users";
 	import type { Repo } from "../types/theme";
 	import { getLocaleFromUrl, useTranslatedPath } from "../utilities/i18n";
 	import { isValidIconCategory } from "../utilities/icons";
+	import { UsersIcon } from "./icons";
 	import ThemeIcon from "./theme-icon.svelte";
 
 	let { theme, query = "" }: { theme: Repo; query?: string } = $props();
@@ -42,8 +41,7 @@
 						</span>
 					{/if}
 					{#if theme.featured}
-						<div>
-							<span class="sr-only">Featured theme</span>
+						<div aria-label="Featured theme">
 							<svg
 								aria-hidden="true"
 								xmlns="http://www.w3.org/2000/svg"
@@ -76,12 +74,10 @@
 				<div
 					class="mt-0.5 flex items-center gap-1 text-xs font-medium text-subtle"
 				>
-					{#if number == 1}
-						<User size="12" strokeWidth="2.5" />
-					{:else}
-						<Users size="12" strokeWidth="2.5" />
-					{/if}
-					{number} contributor{number == 1 ? "" : "s"}
+					<UsersIcon size={12} />
+					<span class="pbe-px"
+						>{number} contributor{number == 1 ? "" : "s"}</span
+					>
 				</div>
 			{/snippet}
 			{@render contributors(theme.contributors.length)}

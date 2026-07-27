@@ -1,13 +1,15 @@
-import type { IconProps } from "@lucide/svelte";
-import BoxSvelteIcon from "@lucide/svelte/icons/box";
-import CpuSvelteIcon from "@lucide/svelte/icons/cpu";
-import GlobeSvelteIcon from "@lucide/svelte/icons/globe";
-import LibraryBigSvelteIcon from "@lucide/svelte/icons/library-big";
-import NotebookPenSvelteIcon from "@lucide/svelte/icons/notebook-pen";
-import ShapesSvelteIcon from "@lucide/svelte/icons/shapes";
-import SquareTerminalSvelteIcon from "@lucide/svelte/icons/square-terminal";
 import type { Component } from "svelte";
+import {
+	BrowserIcon,
+	DesktopIcon,
+	GridIcon,
+	LibraryIcon,
+	NotebookIcon,
+	SocialIcon,
+	TerminalIcon,
+} from "../components/icons";
 import categories from "../data/categories.json";
+import type { IconProps } from "../types/icon";
 
 export type IconSize = "sm" | "md" | "lg";
 
@@ -43,14 +45,14 @@ export const radiusMap = {
 } satisfies Record<IconSize, string>;
 
 export const svelteIconMap = {
-	browser: GlobeSvelteIcon,
-	editor: NotebookPenSvelteIcon,
-	library: LibraryBigSvelteIcon,
-	none: BoxSvelteIcon,
-	social: ShapesSvelteIcon,
-	system: CpuSvelteIcon,
-	terminal: SquareTerminalSvelteIcon,
-} satisfies Record<IconCategory, Component<IconProps, {}, "">>;
+	browser: BrowserIcon,
+	editor: NotebookIcon,
+	library: LibraryIcon,
+	none: GridIcon,
+	social: SocialIcon,
+	system: DesktopIcon,
+	terminal: TerminalIcon,
+} satisfies Record<IconCategory, Component<IconProps>>;
 
 const categorySet = new Set(categories);
 
@@ -61,6 +63,6 @@ export function isValidIconCategory(
 }
 
 export function getSvelteIconComponent(category: string) {
-	if (!isValidIconCategory(category)) return BoxSvelteIcon;
-	return svelteIconMap[category] || BoxSvelteIcon;
+	if (!isValidIconCategory(category)) return GridIcon;
+	return svelteIconMap[category] || GridIcon;
 }

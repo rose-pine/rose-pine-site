@@ -22,6 +22,7 @@
 	class="flex h-14 cursor-text items-center gap-3 rounded-(--input-radius) border border-muted/20 bg-surface px-3 transition [--input-radius-inner:calc(var(--input-radius)/2)] [--input-radius:1rem] focus-within:border-muted/40"
 >
 	<svg
+		aria-hidden="true"
 		xmlns="http://www.w3.org/2000/svg"
 		width="20"
 		height="20"
