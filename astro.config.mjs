@@ -13,13 +13,19 @@ import { readdirSync, writeFileSync } from "fs";
 function localeTypes() {
 	function generate() {
 		const dir = new URL("src/locales/", import.meta.url);
-		const type = readdirSync(dir)
-			.filter((f) => f.endsWith(".ts")) // find .ts files
-			.map((f) => `"${f.slice(0, -3)}"`) // strip file extension
-			.join(" | "); // join with union delimiter
+		const files = readdirSync(dir)
+			.filter((f) => f.endsWith(".ts"))
+			.map((f) => f.slice(0, -3));
+
+		const type = files.map((f) => `"${f}"`).join(" | ");
 		writeFileSync(
 			new URL("src/types/locale.gen.ts", import.meta.url),
 			`// Auto-generated — do not edit\nexport type Locale = ${type};\n`,
+		);
+
+		writeFileSync(
+			new URL("netlify/edge-functions/locales.json", import.meta.url),
+			JSON.stringify(files, null, "\t") + "\n",
 		);
 	}
 	return {
