@@ -58,14 +58,14 @@ Všimněte si přidání složky `sd` pro náš příklad sindarštiny. Název n
 
 Upravte nadpis, popis, autora a data v metadatech, která se nacházejí v úvodní části souboru ohraničené značkami `---`.
 
-```diff
-  ---
-  title: <nadpis>
-  description: <popis>
-  author: <uživatelské-jméno>
-  publishedAt: 2026-06-29T23:00:00+02:00
-  updatedAt: 2026-06-29T23:00:00+02:00
-  ---
+```
+---
+title: <nadpis>
+description: <popis>
+author: <uživatelské-jméno>
+publishedAt: 2026-06-29T23:00:00+02:00
+updatedAt: 2026-06-29T23:00:00+02:00
+---
 ```
 
 Uživatelské jméno autora se spáruje s odpovídajícím souborem ve složce `src/content/authors/`, takže se tam nezapomeňte přidat, například:

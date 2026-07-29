@@ -58,14 +58,14 @@ Nota l'aggiunta della cartella `sd` per il nostro esempio in Sindarin; il nome d
 
 Aggiorna il frontmatter—i metadati in cima al file racchiusi tra i marcatori `---`—con titolo, descrizione, autore e date.
 
-```diff
-  ---
-  title: <title>
-  description: <description>
-  author: <username>
-  publishedAt: 2025-11-09T12:00:00-06:00
-  updatedAt: 2025-11-09T12:00:00-06:00
-  ---
+```
+---
+title: <title>
+description: <description>
+author: <username>
+publishedAt: 2025-11-09T12:00:00-06:00
+updatedAt: 2025-11-09T12:00:00-06:00
+---
 ```
 
 Il nome utente dell'autore verrà abbinato a un file nella cartella `src/content/authors/`, quindi assicurati di aggiungerti lì, ad esempio:

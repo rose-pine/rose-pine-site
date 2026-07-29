@@ -58,14 +58,14 @@ updatedAt: 2026-06-18T12:00:00-06:00
 
 حدّث الـ frontmatter — البيانات الوصفية الموجودة في أعلى الملف بين علامتي `---` — بإضافة العنوان والوصف والمؤلف والتواريخ.
 
-```diff
-  ---
-  title: <title>
-  description: <description>
-  author: <username>
-  publishedAt: 2025-11-09T12:00:00-06:00
-  updatedAt: 2025-11-09T12:00:00-06:00
-  ---
+```
+---
+title: <title>
+description: <description>
+author: <username>
+publishedAt: 2025-11-09T12:00:00-06:00
+updatedAt: 2025-11-09T12:00:00-06:00
+---
 ```
 
 سيُطابَق اسم المستخدم الخاص بالمؤلف مع ملف داخل مجلد `src/content/authors/`، فتأكد من إضافة نفسك هناك، على سبيل المثال:

@@ -58,14 +58,14 @@ Note the addition of the `sd` folder for our Sindarin example and the guide name
 
 Update the frontmatter—metadata at the top of the file sandwiched between `---` markers—with a title, description, author and dates.
 
-```diff
-  ---
-  title: <title>
-  description: <description>
-  author: <username>
-  publishedAt: 2025-11-09T12:00:00-06:00
-  updatedAt: 2025-11-09T12:00:00-06:00
-  ---
+```
+---
+title: <title>
+description: <description>
+author: <username>
+publishedAt: 2025-11-09T12:00:00-06:00
+updatedAt: 2025-11-09T12:00:00-06:00
+---
 ```
 
 The author's username will be matched to a file inside the `src/content/authors/` folder so be sure to add yourself there, e.g.:

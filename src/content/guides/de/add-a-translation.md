@@ -60,14 +60,14 @@ Beachte, dass der `sd` Ordner für unser Sindrain Beispiel hinzugefügt wurde un
 
 Ändere die frontmatter-Metadaten am Anfang der Datei zwischen den `---` Markern mit einem Titel, einer Beschreibung, einem Autor und Datumsangaben.
 
-```diff
-  ---
-  title: <title>
-  description: <description>
-  author: <username>
-  publishedAt: 2025-11-09T12:00:00-06:00
-  updatedAt: 2025-11-09T12:00:00-06:00
-  ---
+```
+---
+title: <title>
+description: <description>
+author: <username>
+publishedAt: 2025-11-09T12:00:00-06:00
+updatedAt: 2025-11-09T12:00:00-06:00
+---
 ```
 
 Der Nutzername des Autors wird mit einer passenden Datei in `src/content/authors/` abgeglichen, also stelle sicher, dass du dich dort verewigst:
