@@ -110,7 +110,9 @@ let socialItems = [
 
 		<section class="stack">
 			<div class="cluster items-center">
-				<SiteAppearance client:only="svelte" />
+				<div class="flex-1">
+					<SiteAppearance client:only="svelte" />
+				</div>
 
 				<a href={translatePath("/")}>
 					<BadgeIcon width="36" height="36" />
