@@ -67,10 +67,6 @@ export default defineLocale({
 		"command.featured_themes": "Thèmes en vedette",
 		"command.community": "Communauté",
 
-		"article.authored_by": "Écrit par",
-		"article.authored_on": "le {{date}}",
-		"article.updated_on": "(mis à jour {{date}})",
-
 		"submit.title": "Proposer un thème",
 		"submit.description":
 			"Envoyez votre thème pour qu'il soit ajouté à Rosé Pine.",

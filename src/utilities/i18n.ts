@@ -117,6 +117,18 @@ export function useTranslations(locale: Locale) {
 	};
 }
 
+export function formatDate(
+	date: string | Date | null | undefined,
+	locale: Locale,
+) {
+	if (!date) return null;
+	return new Date(date).toLocaleDateString([locale, "en"], {
+		year: "numeric",
+		month: "long",
+		day: "numeric",
+	});
+}
+
 export function useTranslatedPath(locale: Locale) {
 	return function translatePath(path: string, currentLocale = locale) {
 		return !showDefaultLocale && currentLocale === defaultLocale

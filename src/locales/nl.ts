@@ -24,9 +24,5 @@ export default defineLocale({
 		"command.pages": "Pagina's",
 		"command.featured_themes": "Aanbevolen thema's",
 		"command.community": "Gemeenschap",
-
-		"article.authored_by": "Geschreven door",
-		"article.authored_on": "op {{date}}",
-		"article.updated_on": "(bijgewerkt {{date}})",
 	},
 });

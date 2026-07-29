@@ -24,9 +24,5 @@ export default defineLocale({
 		"command.pages": "Sayfalar",
 		"command.featured_themes": "Öne çıkan temalar",
 		"command.community": "Topluluk",
-
-		"article.authored_by": "Yazan",
-		"article.authored_on": "{{date}} tarihinde",
-		"article.updated_on": "(güncellendi {{date}})",
 	},
 });

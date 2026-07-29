@@ -5,6 +5,7 @@ export { default as ArrowUpIcon } from "./arrow-up.svelte";
 export { default as BracesIcon } from "./braces.svelte";
 export { default as BracketsIcon } from "./brackets.svelte";
 export { default as BrowserIcon } from "./browser.svelte";
+export { default as CalendarIcon } from "./calendar.svelte";
 export { default as CheckIcon } from "./check.svelte";
 export { default as ChevronDownIcon } from "./chevron-down.svelte";
 export { default as ChevronRightIcon } from "./chevron-right.svelte";

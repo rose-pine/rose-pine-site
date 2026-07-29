@@ -15,6 +15,10 @@ let locale = getLocaleFromUrl(Astro.url);
 let t = useTranslations(locale);
 let translatePath = useTranslatedPath(locale);
 
+let displayNames = new Intl.DisplayNames([locale, "en"], {
+	type: "language",
+});
+
 let resourceItems = [
 	{
 		name: t("nav.resource.create"),
@@ -58,16 +62,25 @@ let socialItems = [
 			<h2>{t("nav.language")}</h2>
 			<ul class="stack-2">
 				{
-					objectEntries(languages).map(([lang, { name }]) => (
-						<li>
-							<a
-								href={`${translatePath(getUrlWithoutLocale(Astro.url), lang)}?lang=${lang}`}
-								class:list={[lang === locale && "active"]}
-							>
-								{name}
-							</a>
-						</li>
-					))
+					objectEntries(languages).map(([lang, { name }]) => {
+						let localisedName = displayNames.of(lang) ?? name;
+						return (
+							<li>
+								<a
+									href={`${translatePath(getUrlWithoutLocale(Astro.url), lang)}?lang=${lang}`}
+									class:list={[lang === locale && "active"]}
+								>
+									{name}
+									{name !== localisedName && (
+										<>
+											{" "}
+											<span class="text-subtle">({localisedName})</span>
+										</>
+									)}
+								</a>
+							</li>
+						);
+					})
 				}
 			</ul>
 		</section>

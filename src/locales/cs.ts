@@ -67,10 +67,6 @@ export default defineLocale({
 			"Návody, nástroje a inspirace pro tvorbu nádherných motivů.",
 		"create.also_available_in": "Také dostupné v:",
 
-		"article.authored_by": "Od",
-		"article.authored_on": ", {{date}}",
-		"article.updated_on": "(aktualizováno {{date}})",
-
 		"submit.title": "Přispět motivem",
 		"submit.description":
 			"Přispějte svým motivem, aby mohl být přidán do Rosé Pine.",
