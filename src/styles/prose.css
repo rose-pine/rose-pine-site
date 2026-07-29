@@ -14,15 +14,48 @@
 	text-underline-offset: 2px;
 }
 
+ul.list,
 .prose ul {
 	padding: 0;
 }
 
+ol.list,
 .prose ol {
-	padding-inline-start: 1.5em;
+	counter-reset: prose-counter;
+	padding: 0;
 }
 
-.list li,
+ol.list li,
+.prose ol li {
+	--_marker-size: 20px;
+
+	counter-increment: prose-counter;
+	position: relative;
+	list-style: none;
+	padding-inline-start: calc(var(--_marker-size) * 1.5);
+}
+
+ol.list li::before,
+.prose ol li::before {
+	content: counter(prose-counter);
+	position: absolute;
+	top: 50%;
+	inset-inline-start: 0;
+	translate: 0 -50%;
+	width: var(--_marker-size);
+	height: var(--_marker-size);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--color-text);
+	color: var(--color-surface);
+	border-radius: 50%;
+	font-size: 0.65em;
+	font-weight: 600;
+	line-height: 1;
+}
+
+ul.list li,
 .prose ul li {
 	--_marker-size: 16px;
 
