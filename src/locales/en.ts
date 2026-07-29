@@ -8,21 +8,20 @@ export default defineLocale({
 		"shared.all": "All",
 		"shared.language": "Language",
 
-		"header.nav_label": "Primary",
-
-		"footer.nav_label": "Secondary",
-		"footer.heading.collections": "Collections",
-		"footer.collection.photography": "Photography",
-		"footer.heading.resources": "Resources",
-		"footer.resource.create": "Create a theme",
-		"footer.resource.submit": "Submit your theme",
-		"footer.resource.translate": "Add a translation",
-		"footer.heading.social": "Social",
-
 		"nav.home": "Home",
 		"nav.themes": "Themes",
 		"nav.palette": "Palette",
 		"nav.create": "Create",
+		"nav.collections": "Collections",
+		"nav.collection.photography": "Photography",
+		"nav.collection.made-with": "Made with Rosé Pine",
+		"nav.resources": "Resources",
+		"nav.resource.create": "Create a theme",
+		"nav.resource.submit": "Submit your theme",
+		"nav.resource.translate": "Add a translation",
+		"nav.social": "Social",
+		"nav.header_label": "Primary",
+		"nav.footer_label": "Secondary",
 
 		"command.trigger": "Open command menu",
 		"command.title": "Command menu",
@@ -62,6 +61,9 @@ export default defineLocale({
 		"photography.title": "Photography",
 		"photography.description":
 			"If you don't stop for a while, you might miss a perfect view.",
+
+		"made-with.title": "Made with Rosé Pine",
+		"made-with.description": "Highlights from the community.",
 
 		"palette.title": "Palette",
 		"palette.description": "Curated colours, designed to inspire.",

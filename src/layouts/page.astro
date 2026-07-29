@@ -39,8 +39,18 @@ let dir = languages[locale]?.dir ?? "ltr";
 			}
 
 			document.addEventListener("click", (e) => {
-				document.querySelectorAll("details[open]").forEach((d) => {
-					if (!d.contains(e.target as Node)) d.removeAttribute("open");
+				const target = e.target;
+				if ((target as HTMLElement).closest("a")) return;
+
+				const open = document.querySelectorAll("details[open]");
+				if (!open.length) return;
+
+				open.forEach((d) => {
+					if (!d.contains(target as Node)) {
+						d.removeAttribute("open");
+						// Re-calculate heights after closing
+						(d as HTMLElement).offsetHeight;
+					}
 				});
 			});
 		</script>

@@ -241,11 +241,32 @@ ul[role="list"] {
 	list-style-type: none;
 }
 
-details[open] > *:not(summary) {
-	animation: details-show 150ms ease-in-out;
+button {
+	cursor: pointer;
 }
 
-@keyframes details-show {
+select {
+	cursor: pointer;
+}
+
+details > summary {
+	cursor: pointer;
+}
+
+details > summary::-webkit-details-marker {
+	display: none;
+}
+
+details[open].animate-details > *:not(summary) {
+	animation: scale 150ms forwards;
+
+	@media (prefers-reduced-motion: reduce) {
+		animation-delay: -1ms !important;
+		animation-duration: 1ms !important;
+	}
+}
+
+@keyframes scale {
 	from {
 		opacity: 0;
 		transform: translateY(-0.5rem) scale(0.98);

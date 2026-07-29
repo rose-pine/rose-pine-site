@@ -59,9 +59,7 @@
 </script>
 
 <details bind:this={detailsElement} class="group/details relative">
-	<summary
-		class="flex h-full cursor-pointer items-center justify-between gap-1.5"
-	>
+	<summary class="flex h-full items-center justify-between gap-1.5">
 		<span>{@render children()}</span>
 		<div
 			class={[
@@ -95,7 +93,7 @@
 					<button
 						onclick={() => copyToClipboard(value)}
 						aria-label="Copy as {label}"
-						class="flex w-full cursor-pointer items-center gap-dropdown-gutters-half rounded-dropdown-inner p-dropdown-gutters-half text-left font-mono text-sm font-medium transition hover:bg-muted/10"
+						class="flex w-full items-center gap-dropdown-gutters-half rounded-dropdown-inner p-dropdown-gutters-half text-left font-mono text-sm font-medium transition hover:bg-muted/10"
 					>
 						<div
 							class="flex size-6 items-center justify-center rounded-sm border tonal-subtle"

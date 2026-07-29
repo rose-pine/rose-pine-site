@@ -108,44 +108,44 @@ let REPOS_COUNT = String(Math.floor(allRepos.length / 10) * 10);
 	<div class="h-40"></div>
 
 	<section class="wrapper grid grid-cols-1 gap-6 md:grid-cols-2">
-		<div
-			class="flex flex-col gap-6 rounded-card border border-muted/10 bg-surface p-card-gutters"
-		>
-			<Flower7Icon class="size-11 fill-rose/20 stroke-rose" />
+		<div class="card card-lg">
+			<div class="card-body">
+				<Flower7Icon class="size-11 fill-rose/20 stroke-rose" />
 
-			<h2 class="text-4xl font-semibold tracking-tight">
-				{t("home.feature.colours_and_community.title")}
-			</h2>
+				<h2 class="card-title">
+					{t("home.feature.colours_and_community.title")}
+				</h2>
 
-			<p class="text-xl leading-relaxed text-subtle">
-				{t("home.feature.colours_and_community.description", { REPOS_COUNT })}
-			</p>
+				<p class="card-description">
+					{t("home.feature.colours_and_community.description", { REPOS_COUNT })}
+				</p>
+			</div>
 		</div>
-		<div
-			class="flex flex-col gap-6 rounded-card border border-muted/10 bg-surface p-card-gutters"
-		>
-			<Flower5Icon class="size-11 fill-foam/20 stroke-foam" />
+		<div class="card card-lg">
+			<div class="card-body">
+				<Flower5Icon class="size-11 fill-foam/20 stroke-foam" />
 
-			<h2 class="text-4xl font-semibold tracking-tight">
-				{t("home.feature.passionately_subtle.title")}
-			</h2>
+				<h2 class="card-title">
+					{t("home.feature.passionately_subtle.title")}
+				</h2>
 
-			<p class="text-xl leading-relaxed text-subtle">
-				{t("home.feature.passionately_subtle.description")}
-			</p>
+				<p class="card-description">
+					{t("home.feature.passionately_subtle.description")}
+				</p>
+			</div>
 		</div>
-		<div
-			class="flex flex-col gap-6 rounded-card border border-muted/10 bg-surface p-card-gutters"
-		>
-			<Flower10Icon class="size-11 fill-gold/20 stroke-gold" />
+		<div class="card card-lg">
+			<div class="card-body">
+				<Flower10Icon class="size-11 fill-gold/20 stroke-gold" />
 
-			<h2 class="text-4xl font-semibold tracking-tight">
-				{t("home.feature.inclusive_equal_diverse.title")}
-			</h2>
+				<h2 class="card-title">
+					{t("home.feature.inclusive_equal_diverse.title")}
+				</h2>
 
-			<p class="text-xl leading-relaxed text-subtle">
-				{t("home.feature.inclusive_equal_diverse.description")}
-			</p>
+				<p class="card-description">
+					{t("home.feature.inclusive_equal_diverse.description")}
+				</p>
+			</div>
 		</div>
 	</section>
 </Page>

@@ -8,21 +8,18 @@ export default defineLocale({
 		"shared.all": "Tout",
 		"shared.language": "Langue",
 
-		"header.nav_label": "Principal",
-
-		"footer.nav_label": "Secondaire",
-		"footer.heading.collections": "Collections",
-		"footer.collection.photography": "Photographie",
-		"footer.heading.resources": "Ressources",
-		"footer.resource.create": "Créer un thème",
-		"footer.resource.submit": "Proposer un thème",
-		"footer.resource.translate": "Ajouter une traduction",
-		"footer.heading.social": "Réseaux sociaux",
-
 		"nav.home": "Accueil",
 		"nav.themes": "Thèmes",
 		"nav.palette": "Palette",
 		"nav.create": "Creér",
+		"nav.collection.photography": "Photographie",
+		"nav.resources": "Ressources",
+		"nav.resource.create": "Créer un thème",
+		"nav.resource.submit": "Proposer un thème",
+		"nav.resource.translate": "Ajouter une traduction",
+		"nav.social": "Réseaux sociaux",
+		"nav.header_label": "Principal",
+		"nav.footer_label": "Secondaire",
 
 		"home.title": "Quelque chose de beau",
 		"home.description":
