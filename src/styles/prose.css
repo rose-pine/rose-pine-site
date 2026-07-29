@@ -14,6 +14,10 @@
 	text-underline-offset: 2px;
 }
 
+.prose strong {
+	color: var(--color-text);
+}
+
 ul.list,
 .prose ul {
 	padding: 0;
