@@ -1,5 +1,5 @@
 ---
-import Flower5Icon from "../../../assets/flower5.svg";
+import Avatar from "../../../components/avatar.svelte";
 import { ArrowNEIcon } from "../../../components/icons";
 import ThemeCard from "../../../components/theme-card.svelte";
 import ThemeIcon from "../../../components/theme-icon.svelte";
@@ -7,12 +7,16 @@ import { getAllRepos } from "../../../data";
 import Page from "../../../layouts/page.astro";
 import type { Repo } from "../../../types/theme";
 import {
+	formatDate,
 	getLocaleFromUrl,
 	useTranslatedPath,
 	useTranslations,
 	withLocalePaths,
 } from "../../../utilities/i18n";
-import { isValidIconCategory } from "../../../utilities/icons";
+import {
+	categoryColorMap,
+	isValidIconCategory,
+} from "../../../utilities/icons";
 
 export async function getStaticPaths() {
 	const repos = await getAllRepos();
@@ -36,58 +40,64 @@ let { repo, relatedRepos = [] as Repo[] } = Astro.props;
 ---
 
 <Page title={repo.name} description={`Soho vibes for ${repo.name}`}>
-	<div class="wrapper">
-		<div
-			class="animate-enter mb-12 flex items-center justify-between gap-3"
-			style="--stagger: 1"
-		>
-			<a
-				href={translatePath("/themes")}
-				class="rounded-full py-1.5 ps-3 pe-4 text-sm font-medium text-subtle transition before:pe-1.5 before:content-['←'] hover:bg-muted/10 hover:text-text rtl:before:content-['→']"
-				>{t("themes.title")}</a
-			>
-		</div>
+	<section class="animate-enter wrapper" style="--stagger: 1">
+		<div class="card">
+			<div class="card-body [--_gap:--spacing(12)]">
+				<div class="flex items-center justify-between gap-3">
+					<a href={translatePath("/themes")} class="button button-ghost">
+						<div class="button-icon">
+							<span class="ltr:block rtl:hidden">&larr;</span>
+							<span class="ltr:hidden rtl:block">&rarr;</span>
+						</div>
+						{t("themes.title")}
+					</a>
 
-		<div class="flex flex-wrap justify-between gap-12 md:flex-nowrap">
-			<article class="flex-1">
-				<div>
-					<div class="animate-enter mb-8" style="--stagger: 1">
-						{
-							isValidIconCategory(repo.category) && (
-								<ThemeIcon category={repo.category} size="lg" />
-							)
-						}
-					</div>
-					<h1
-						class="animate-enter mb-16 max-w-2xl text-4xl font-bold tracking-tight text-balance sm:text-6xl"
-						style="--stagger: 1"
-					>
-						{repo.name}
-					</h1>
-				</div>
-				<div class="animate-enter flex" style="--stagger: 2.5">
-					<a
-						href={repo.url}
-						class="group/cta flex h-8 shrink-0 items-center gap-2 rounded-lg border-2 border-text ps-3 pe-4 font-serif font-medium italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
-					>
-						<ArrowNEIcon
-							class="size-4 transition-transform group-hover/cta:-rotate-3"
-						/>
-						<span class="pb-px">Visit repository</span>
+					<a href={repo.url} class="button button-primary">
+						<ArrowNEIcon class="button-icon" />
+						Visit repository
 					</a>
 				</div>
 
-				<div class="h-12"></div>
+				<div class="flex items-center gap-4">
+					{
+						isValidIconCategory(repo.category) && (
+							<ThemeIcon category={repo.category} size="lg" />
+						)
+					}
+					<div class="min-w-0">
+						<h1 class="text-2xl font-bold tracking-tight">{repo.name}</h1>
+						<div class="mt-2 flex flex-wrap items-center gap-3 text-sm">
+							<span
+								class:list={[
+									"rounded-full px-2.5 py-0.5 text-xs font-semibold capitalize",
+									isValidIconCategory(repo.category)
+										? categoryColorMap[repo.category]
+										: "tonal-subtle",
+								]}
+							>
+								{repo.category}
+							</span>
+							{
+								repo.updatedAt && (
+									<span class="text-subtle italic">
+										Updated {formatDate(repo.updatedAt, locale)}
+									</span>
+								)
+							}
+						</div>
+					</div>
+				</div>
 
 				{
-					repo.subthemes.length > 0 ? (
-						<div class="animate-enter" style="--stagger: 2.75">
-							<ul role="list" class="auto-grid-40 gap-2">
+					repo.subthemes.length > 0 && (
+						<div>
+							<h2 class="mb-4 text-lg font-semibold">{t("themes.title")}</h2>
+							<ul role="list" class="auto-grid-36 gap-3">
 								{repo.subthemes.map((subtheme) => (
 									<li>
 										<a
 											href={subtheme.url}
-											class="flex rounded-md border tonal-text px-3 py-1.5 font-mono text-sm font-medium hover:tonal-pressed-text"
+											class="button button-secondary w-full"
 										>
 											{subtheme.name}
 										</a>
@@ -95,100 +105,49 @@ let { repo, relatedRepos = [] as Repo[] } = Astro.props;
 								))}
 							</ul>
 						</div>
-					) : (
-						""
 					)
 				}
-			</article>
 
-			<aside
-				class="flex w-full flex-col gap-8 self-start rounded-xl border border-muted/20 bg-surface px-6 py-5 md:max-w-2xs"
-			>
-				<div>
-					<h2 class="mb-4 font-bold">Contributors</h2>
-					<ul role="list" class="auto-grid-40 gap-2">
-						{
-							repo.contributors.map((contributor) => (
-								<li>
-									<a
-										href={contributor.url}
-										class="flex items-center gap-2 font-medium"
-									>
-										{contributor.image ? (
-											<img
-												width="20"
-												height="20"
+				{
+					repo.contributors.length > 0 && (
+						<div>
+							<h2 class="mb-4 text-lg font-semibold">
+								{t("themes.contributors")}
+							</h2>
+							<ul role="list" class="flex flex-wrap gap-3">
+								{repo.contributors.map((contributor) => (
+									<li>
+										<a
+											aria-label={`Learn more about ${contributor.name}`}
+											href={contributor.url}
+											class="transition hover:opacity-80"
+										>
+											<Avatar
 												src={contributor.image}
 												alt={contributor.name}
-												class="rounded-md border border-muted/10 bg-overlay"
+												size={44}
 											/>
-										) : (
-											<div class="flex size-5 items-center justify-center rounded-md border tonal-rose">
-												<Flower5Icon class="size-4 fill-rose/20 stroke-rose" />
-											</div>
-										)}
-										<span class="truncate">{contributor.name}</span>
-									</a>
-								</li>
-							))
-						}
-					</ul>
-				</div>
-
-				{
-					repo.tags.length > 0 ? (
-						<div>
-							<h2 class="mb-4 font-bold">Tags</h2>
-							<ul role="list" class="flex flex-wrap gap-2">
-								{repo.tags.map((tag) => (
-									<li class="inline-flex items-center rounded-full border border-foam/20 bg-foam/5 px-2 text-xs/5 font-medium text-foam">
-										{tag}
+										</a>
 									</li>
 								))}
 							</ul>
 						</div>
-					) : (
-						""
 					)
 				}
 
 				{
-					relatedRepos.length > 0 ? (
+					relatedRepos.length > 0 && (
 						<div>
-							<h2 class="mb-4 font-bold">Related</h2>
-							<ul role="list" class="flex flex-col gap-2">
+							<h2 class="mb-4 text-lg font-semibold">Related themes</h2>
+							<div class="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
 								{relatedRepos.map((related) => (
-									<li>
-										<ThemeCard client:only="svelte" theme={related} />
-									</li>
+									<ThemeCard client:only="svelte" theme={related} />
 								))}
-							</ul>
+							</div>
 						</div>
-					) : (
-						""
 					)
 				}
-
-				{
-					repo.updatedAt ? (
-						<div>
-							<time
-								datetime={repo.updatedAt}
-								class="text-sm font-medium text-subtle italic"
-							>
-								Updated on{" "}
-								{new Date(repo.updatedAt).toLocaleDateString([locale, "en"], {
-									year: "numeric",
-									month: "long",
-									day: "numeric",
-								})}
-							</time>
-						</div>
-					) : (
-						""
-					)
-				}
-			</aside>
+			</div>
 		</div>
-	</div>
+	</section>
 </Page>
