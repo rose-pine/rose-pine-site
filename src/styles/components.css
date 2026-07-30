@@ -1,6 +1,7 @@
 @layer components {
 	.button {
 		padding-inline: --spacing(3);
+		width: fit-content;
 		height: --spacing(8);
 		font-weight: 500;
 		border-radius: var(--radius-lg);
@@ -113,6 +114,14 @@
 		padding: var(--spacing-card-gutters);
 		display: flex;
 		flex-direction: column;
+		gap: --spacing(3);
+	}
+
+	.card .card-actions {
+		padding: var(--spacing-card-gutters);
+		display: flex;
+		align-items: center;
+		justify-content: end;
 		gap: --spacing(3);
 	}
 
