@@ -159,10 +159,7 @@ let defaultGroups: Group[] = [
 			{
 				menuItems.map((item) => (
 					<li>
-						<a
-							href={item.href}
-							class="flex h-8 items-center rounded-lg px-(--nav-item-space) font-medium transition hover:bg-muted/10"
-						>
+						<a href={item.href} class="button button-ghost">
 							{item.name}
 						</a>
 					</li>
@@ -170,9 +167,7 @@ let defaultGroups: Group[] = [
 			}
 			<li>
 				<details class="group/dropdown dropdown">
-					<summary
-						class="flex h-8 items-center gap-1 rounded-lg px-(--nav-item-space) font-medium transition hover:bg-muted/10"
-					>
+					<summary class="button button-ghost">
 						<span>{t("nav.collections")}</span>
 						<ChevronDownIcon
 							size={14}
@@ -191,15 +186,9 @@ let defaultGroups: Group[] = [
 				</details>
 			</li>
 			<li class="ps-3">
-				<a
-					href={translatePath("/create")}
-					class="group/cta flex h-8 shrink-0 items-center gap-2 rounded-lg border-2 border-text ps-3 pe-4 font-serif font-medium italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
-				>
-					<SparklesIcon
-						size={16}
-						class="transition-transform group-hover/cta:-rotate-3"
-					/>
-					<span class="pb-px">{t("nav.create")}</span>
+				<a href={translatePath("/create")} class="button button-outline">
+					<SparklesIcon size={16} class="button-outline" />
+					<span class="pbe-px">{t("nav.create")}</span>
 				</a>
 			</li>
 		</ul>
@@ -290,7 +279,7 @@ let defaultGroups: Group[] = [
 							size={24}
 							class="transition-transform group-hover/cta:-rotate-3"
 						/>
-						<span class="pb-px">{t("nav.create")}</span>
+						<span class="pbe-px">{t("nav.create")}</span>
 					</a>
 				</li>
 			</ul>
@@ -301,6 +290,5 @@ let defaultGroups: Group[] = [
 <style>
 	header {
 		--badge-size: 44px;
-		--nav-item-space: 0.75rem;
 	}
 </style>
