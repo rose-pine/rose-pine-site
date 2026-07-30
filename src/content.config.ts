@@ -83,9 +83,10 @@ export const collections = {
 		}),
 		schema: ({ image }) =>
 			z.object({
-				name: z.string(),
-				image: image(),
 				url: z.url(),
+				image: image(),
+				title: z.string(),
+				description: z.string(),
 			}),
 	}),
 
