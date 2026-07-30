@@ -8,6 +8,7 @@ import {
 	useTranslations,
 } from "../utilities/i18n";
 import { objectEntries } from "../utilities/object";
+import { ChevronDownIcon, DocumentIcon } from "./icons";
 import LoveAll from "./love-all.astro";
 import SiteAppearance from "./site-appearance.svelte";
 
@@ -53,97 +54,96 @@ let socialItems = [
 ---
 
 <footer class="wrapper py-page-start">
-	<nav
-		id="footer-nav"
-		aria-label={t("nav.footer_label")}
-		class="cluster-10 pbe-page-start *:last:ms-auto"
-	>
-		<section class="stack">
-			<h2>{t("nav.language")}</h2>
-			<ul class="stack-2">
-				{
-					objectEntries(languages).map(([lang, { name }]) => {
-						let localisedName = displayNames.of(lang) ?? name;
-						return (
+	<nav id="footer-nav" aria-label={t("nav.footer_label")}>
+		<div class="cluster-20 pbe-page-start *:last:ms-auto">
+			<section class="stack">
+				<h2>{t("nav.resources")}</h2>
+				<ul class="stack-2">
+					{
+						resourceItems.map((item) => (
 							<li>
-								<a
-									href={`${translatePath(getUrlWithoutLocale(Astro.url), lang)}?lang=${lang}`}
-									class:list={[lang === locale && "active"]}
-								>
-									{name}
-									{name !== localisedName && (
-										<>
-											{" "}
-											<span class="text-subtle">({localisedName})</span>
-										</>
-									)}
-								</a>
+								<a href={item.href}>{item.name}</a>
 							</li>
-						);
-					})
-				}
-			</ul>
-		</section>
+						))
+					}
+				</ul>
+			</section>
 
-		<section class="stack">
-			<h2>{t("nav.resources")}</h2>
-			<ul class="stack-2">
-				{
-					resourceItems.map((item) => (
-						<li>
-							<a href={item.href}>{item.name}</a>
-						</li>
-					))
-				}
-			</ul>
-		</section>
+			<section class="stack">
+				<h2>{t("nav.collections")}</h2>
+				<ul class="stack-2">
+					{
+						collectionItems.map((item) => (
+							<li>
+								<a href={item.href}>{item.name}</a>
+							</li>
+						))
+					}
+				</ul>
+			</section>
 
-		<section class="stack">
-			<h2>{t("nav.collections")}</h2>
-			<ul class="stack-2">
-				{
-					collectionItems.map((item) => (
-						<li>
-							<a href={item.href}>{item.name}</a>
-						</li>
-					))
-				}
-			</ul>
-		</section>
+			<section class="stack">
+				<h2>{t("nav.social")}</h2>
+				<ul class="stack-2">
+					{
+						socialItems.map((item) => (
+							<li>
+								<a href={item.href}>{item.name}</a>
+							</li>
+						))
+					}
+				</ul>
+			</section>
 
-		<section class="stack">
-			<h2>{t("nav.social")}</h2>
-			<ul class="stack-2">
-				{
-					socialItems.map((item) => (
-						<li>
-							<a href={item.href}>{item.name}</a>
-						</li>
-					))
-				}
-			</ul>
-		</section>
+			<div class="cluster items-start justify-end">
+				<details class="group/dropdown dropdown dropdown-up">
+					<summary class="button button-ghost">
+						<span
+							>{
+								languages[locale as keyof typeof languages]?.name ?? "English"
+							}</span
+						>
+						<ChevronDownIcon
+							size={14}
+							class="transition-transform duration-150 group-open/dropdown:rotate-180"
+						/>
+					</summary>
+					<div class="dropdown-menu">
+						{
+							objectEntries(languages).map(([lang, { name }]) => {
+								let localisedName = displayNames.of(lang) ?? name;
+								return (
+									<a
+										href={`${translatePath(getUrlWithoutLocale(Astro.url), lang)}?lang=${lang}`}
+										class="dropdown-item"
+									>
+										<div class="flex flex-col leading-tight">
+											<span>{name}</span>
+											{name !== localisedName && (
+												<span class="text-xs text-subtle">{localisedName}</span>
+											)}
+										</div>
+									</a>
+								);
+							})
+						}
+					</div>
+				</details>
 
-		<section class="stack">
-			<div class="cluster items-center">
-				<div class="flex-1">
-					<SiteAppearance client:only="svelte" />
-				</div>
-
+				<SiteAppearance client:only="svelte" />
+				<a href={translatePath("/colophon")} class="button button-ghost">
+					<DocumentIcon size={16} />
+					Colophon
+				</a>
 				<a href={translatePath("/")}>
 					<BadgeIcon width="36" height="36" />
 					<span class="sr-only">{t("nav.home")}</span>
 				</a>
 			</div>
-			<ul class="stack-2 text-right">
-				<li>
-					<a href="/colophon">Colophon</a>
-				</li>
-			</ul>
-		</section>
+		</div>
 	</nav>
 
-	<div class="cluster justify-center">
+	<div class="cluster justify-center pbs-page-start">
 		<LoveAll />
 	</div>
 </footer>
@@ -160,12 +160,6 @@ let socialItems = [
 
 			&:hover {
 				text-decoration: underline;
-			}
-
-			&.active {
-				font-family: var(--font-serif);
-				font-style: italic;
-				color: var(--color-text);
 			}
 		}
 	}

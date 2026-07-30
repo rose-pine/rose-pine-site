@@ -1,4 +1,73 @@
 @layer components {
+	.button {
+		padding-inline: --spacing(3);
+		height: --spacing(8);
+		font-weight: 500;
+		border-radius: var(--radius-lg);
+		display: flex;
+		flex-shrink: 0;
+		align-items: center;
+		gap: --spacing(1.5);
+		transition-property: color, background-color, border-color, rotate;
+		transition-duration: 150ms;
+		transition-timing-function: ease-in-out;
+		-webkit-user-select: none;
+		user-select: none;
+
+		.button-icon {
+			width: 16px;
+			height: 16px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			transition-property: color, rotate;
+			transition-duration: 150ms;
+			transition-timing-function: ease-in-out;
+		}
+
+		&:hover .button-icon {
+			rotate: -3deg;
+		}
+	}
+
+	.button.button-primary {
+		color: var(--color-surface);
+		background-color: var(--color-pine);
+
+		&:hover {
+			background-color: --alpha(var(--color-pine) / 90%);
+		}
+	}
+
+	.button.button-secondary {
+		color: var(--color-text);
+		background-color: --alpha(var(--color-muted) / 10%);
+
+		&:hover {
+			background-color: --alpha(var(--color-muted) / 20%);
+		}
+	}
+
+	.button.button-ghost {
+		color: var(--color-text);
+		&:hover {
+			color: var(--color-text);
+			background-color: --alpha(var(--color-muted) / 10%);
+		}
+	}
+
+	.button.button-outline {
+		font-family: var(--font-serif);
+		font-style: italic;
+		border: 2px solid var(--color-text);
+
+		&:hover {
+			color: var(--color-gold);
+			background-color: --alpha(var(--color-gold) / 10%);
+			border-color: var(--color-gold);
+		}
+	}
+
 	.card {
 		--_title-font-size: var(--text-lg);
 		--_title-line-height: var(--text-lg--line-height);
@@ -73,7 +142,7 @@
 		z-index: 50;
 		display: flex;
 		min-width: 12rem;
-		max-height: 24rem;
+		max-height: 16rem;
 		flex-direction: column;
 		border-radius: var(--radius-dropdown);
 		border: 1px solid var(--color-overlay);
@@ -95,5 +164,22 @@
 		&:hover {
 			background-color: --alpha(var(--color-muted) / 10%);
 		}
+	}
+
+	.dropdown-start .dropdown-menu {
+		inset-inline-start: 0;
+		inset-inline-end: auto;
+		transform: none;
+	}
+
+	.dropdown-end .dropdown-menu {
+		inset-inline-start: auto;
+		inset-inline-end: 0;
+		transform: none;
+	}
+
+	.dropdown-up .dropdown-menu {
+		top: auto;
+		bottom: calc(100% + 2px);
 	}
 }

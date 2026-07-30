@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from "svelte";
+	import { ChevronDownIcon, RainbowIcon } from "./icons";
 
 	type ThemeValue = "system" | "main" | "moon" | "dawn";
 	let themes: ThemeValue[] = ["system", "main", "moon", "dawn"];
@@ -11,7 +12,7 @@
 	});
 
 	let themeNameMap = {
-		system: "Match system",
+		system: "System",
 		main: "Rosé Pine",
 		moon: "Rosé Pine Moon",
 		dawn: "Rosé Pine Dawn",
@@ -27,15 +28,31 @@
 			localStorage.theme = appearance;
 		}
 	}
+
+	let detailsElement: HTMLDetailsElement;
+
+	function selectTheme(theme: ThemeValue) {
+		updateTheme(theme);
+		detailsElement.open = false;
+	}
 </script>
 
-<select
-	bind:value={() => appearance, updateTheme}
-	class="flex items-center gap-1.5 rounded-md border tonal-subtle px-1.5 py-1 text-sm font-medium capitalize transition hover:tonal-pressed-subtle"
->
-	{#each themes as theme}
-		<option value={theme} disabled={appearance === theme}
-			>{themeNameMap[theme]}</option
+<details bind:this={detailsElement} class="group/dropdown dropdown dropdown-up">
+	<summary class="button button-ghost">
+		<RainbowIcon size={16} />
+		<span class="pbe-px"
+			>{themeNameMap[appearance as ThemeValue] || themeNameMap.system}</span
 		>
-	{/each}
-</select>
+		<ChevronDownIcon
+			size={14}
+			class="transition-transform duration-150 group-open/dropdown:rotate-180"
+		/>
+	</summary>
+	<div class="dropdown-menu">
+		{#each themes as theme}
+			<button class="dropdown-item" onclick={() => selectTheme(theme)}>
+				{themeNameMap[theme]}
+			</button>
+		{/each}
+	</div>
+</details>
