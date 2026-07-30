@@ -60,7 +60,12 @@
 	.button.button-outline {
 		font-family: var(--font-serif);
 		font-style: italic;
-		border: 2px solid var(--color-text);
+		border-color: var(--color-text);
+		border-style: solid;
+		border-top-width: 1px;
+		border-right-width: 2px;
+		border-bottom-width: 2px;
+		border-left-width: 1px;
 
 		&:hover {
 			color: var(--color-gold);
