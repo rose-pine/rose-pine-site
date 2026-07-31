@@ -24,9 +24,5 @@ export default defineLocale({
 		"command.pages": "halaman",
 		"command.featured_themes": "Tema unggulan",
 		"command.community": "Komunitas",
-
-		"article.authored_by": "Ditulis oleh",
-		"article.authored_on": "pada {{date}}",
-		"article.updated_on": "(diperbarui {{date}})",
 	},
 });

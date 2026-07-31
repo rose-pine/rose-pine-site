@@ -26,24 +26,21 @@ const madeWith = await getCollection("madeWith");
 		<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
 			{
 				madeWith.map((site) => (
-					<a
-						aria-label="Visit project"
-						href={site.data.url}
-						class="card-link-wrapper"
-					>
+					<a href={site.data.url}>
 						<article class="card">
 							<Image
 								src={site.data.image}
-								alt={site.data.name}
+								alt={site.data.title}
 								width={1000}
 								height={600}
 								class="card-media"
 							/>
 							<div class="card-body">
-								<div class="flex items-center justify-between gap-1.5">
-									<span class="font-medium italic">{site.data.name}</span>
+								<h2 class="card-title flex items-center justify-between">
+									<span class="truncate">{site.data.title}</span>
 									<ArrowNEIcon size={16} class="shrink-0" />
-								</div>
+								</h2>
+								<p class="card-description">{site.data.description}</p>
 							</div>
 						</article>
 					</a>

@@ -67,10 +67,6 @@ export default defineLocale({
 			"Anleitungen, Werkzeuge und Inspirationen, um wunderschöne Themen zu erstellen.",
 		"create.also_available_in": "Auch verfügbar in:",
 
-		"article.authored_by": "Verfasst von",
-		"article.authored_on": "am {{date}}",
-		"article.updated_on": "(geändert {{date}})",
-
 		"submit.title": "Thema einreichen",
 		"submit.description":
 			"Reiche dein Thema ein, um es zu Rosé Pine hinzuzufügen.",

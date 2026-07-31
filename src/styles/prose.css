@@ -9,14 +9,57 @@
 .link,
 .prose a {
 	color: var(--color-iris);
+	font-weight: inherit;
+	text-decoration: underline;
 	text-underline-offset: 2px;
 }
 
+.prose strong {
+	color: var(--color-text);
+}
+
+ul.list,
 .prose ul {
 	padding: 0;
 }
 
-.list li,
+ol.list,
+.prose ol {
+	counter-reset: prose-counter;
+	padding: 0;
+}
+
+ol.list li,
+.prose ol li {
+	--_marker-size: 20px;
+
+	counter-increment: prose-counter;
+	position: relative;
+	list-style: none;
+	padding-inline-start: calc(var(--_marker-size) * 1.5);
+}
+
+ol.list li::before,
+.prose ol li::before {
+	content: counter(prose-counter);
+	position: absolute;
+	top: 50%;
+	inset-inline-start: 0;
+	translate: 0 -50%;
+	width: var(--_marker-size);
+	height: var(--_marker-size);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--color-text);
+	color: var(--color-surface);
+	border-radius: 50%;
+	font-size: 0.65em;
+	font-weight: 600;
+	line-height: 1;
+}
+
+ul.list li,
 .prose ul li {
 	--_marker-size: 16px;
 
@@ -71,7 +114,7 @@
 	font-size: var(--text-sm);
 	font-weight: 450;
 	background-color: var(--color-surface);
-	border: 1px solid --alpha(var(--color-muted) / 20%);
+	border: 1px solid var(--color-overlay);
 	border-radius: var(--radius-md);
 
 	&::before {
@@ -85,7 +128,7 @@
 
 .prose .astro-code {
 	background-color: var(--color-surface) !important;
-	border: 1px solid --alpha(var(--color-muted) / 20%);
+	border: 1px solid var(--color-overlay);
 	border-radius: var(--radius-md);
 }
 

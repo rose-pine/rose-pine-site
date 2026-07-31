@@ -1,3 +1,4 @@
-name: "Next.js Resume"
-image: "./nextjs-resume-template.webp"
 url: "https://nextjs-resume.hugw.cloud/"
+image: "./nextjs-resume-template.webp"
+title: "Next.js Resume"
+description: "Elegant, minimalist resume / portfolio template in Rosé Pine."

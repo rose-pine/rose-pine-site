@@ -11,11 +11,13 @@
 		ArrowDownIcon,
 		ArrowSWIcon,
 		ArrowUpIcon,
+		CameraIcon,
 		ChevronRightIcon,
 		Dice3Icon,
 		DiscordIcon,
 		FolderIcon,
 		GithubIcon,
+		HeartIcon,
 		HomeIcon,
 		InboxIcon,
 		RainbowIcon,
@@ -26,9 +28,11 @@
 	import ThemeIcon from "./theme-icon.svelte";
 
 	const iconComponents: Record<string, Component<{ size?: number }>> = {
+		camera: CameraIcon,
 		discord: DiscordIcon,
 		folder: FolderIcon,
 		github: GithubIcon,
+		heart: HeartIcon,
 		home: HomeIcon,
 		inbox: InboxIcon,
 		rainbow: RainbowIcon,

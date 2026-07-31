@@ -2,7 +2,7 @@ import { defineLocale } from "../utilities/i18n";
 
 export default defineLocale({
 	config: {
-		name: "Português (Brasil)",
+		name: "Português",
 	},
 	translations: {
 		"nav.home": "Home",
@@ -24,9 +24,5 @@ export default defineLocale({
 		"command.pages": "Páginas",
 		"command.featured_themes": "Temas em destaque",
 		"command.community": "Comuni",
-
-		"article.authored_by": "Escrito por",
-		"article.authored_on": "em {{date}}",
-		"article.updated_on": "(atualizado {{date}})",
 	},
 });
