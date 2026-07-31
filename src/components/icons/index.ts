@@ -31,5 +31,6 @@ export { default as SearchIcon } from "./search.svelte";
 export { default as SocialIcon } from "./social.svelte";
 export { default as SparklesIcon } from "./sparkles.svelte";
 export { default as TerminalIcon } from "./terminal.svelte";
+export { default as UserMustacheIcon } from "./user-mustache.svelte";
 export { default as UsersIcon } from "./users.svelte";
 export { default as XIcon } from "./x.svelte";

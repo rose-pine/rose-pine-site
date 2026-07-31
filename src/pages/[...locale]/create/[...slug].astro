@@ -1,6 +1,6 @@
 ---
 import { getCollection, getEntry, render } from "astro:content";
-import Flower5Icon from "../../../assets/flower5.svg";
+import Avatar from "../../../components/avatar.svelte";
 import { CalendarIcon } from "../../../components/icons";
 import Page from "../../../layouts/page.astro";
 import {
@@ -97,28 +97,15 @@ const updatedAt = formatDate(page.data.updatedAt, locale);
 					>
 						{(updatedAt || publishedAt) && (
 							<div class="flex items-center gap-2">
-								<CalendarIcon size={20} class="text-subtle" />
+								<CalendarIcon size={18} class="text-subtle" />
 								<span class="font-medium">{updatedAt ?? publishedAt}</span>
 							</div>
 						)}
 
 						{author && (
-							<a href={author.data.url ?? "#!"} class="flex items-center gap-2">
-								{author.data.image ? (
-									<div class="overflow-hidden rounded-md border border-overlay bg-surface">
-										<img
-											width="24"
-											height="24"
-											src={author.data.image}
-											alt={author.data.name}
-										/>
-									</div>
-								) : (
-									<div class="flex size-6 items-center justify-center overflow-hidden rounded-md border tonal-rose">
-										<Flower5Icon class="size-4 fill-rose/20 stroke-rose" />
-									</div>
-								)}
-								<span class="font-medium">{author.data.name}</span>
+							<a href={author.data.url} class="flex items-center gap-2">
+								<Avatar src={author.data.image} alt={author.data.name} />
+								{author.data.name}
 							</a>
 						)}
 					</div>
@@ -143,12 +130,7 @@ const updatedAt = formatDate(page.data.updatedAt, locale);
 									<a href={language.url} class="link">
 										{language.name}
 										{language.name !== language.localisedName && (
-											<>
-												{" "}
-												<span class="text-subtle">
-													({language.localisedName})
-												</span>
-											</>
+											<> ({language.localisedName})</>
 										)}
 									</a>
 									{index < availableLanguages.length - 1 && <span>, </span>}

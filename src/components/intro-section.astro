@@ -9,6 +9,14 @@ let { headline, subheadline, callout } = Astro.props;
 ---
 
 <section class="wrapper">
+	{
+		Astro.slots.has("icon") && (
+			<div class="animate-enter mb-8" style="--stagger: 0.75">
+				<slot name="icon" />
+			</div>
+		)
+	}
+
 	<h1
 		class="animate-enter mb-4 max-w-2xl text-4xl font-bold tracking-tight text-balance"
 		style="--stagger: 1"
