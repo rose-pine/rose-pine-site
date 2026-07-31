@@ -9,7 +9,7 @@ updatedAt: 2021-01-30T12:00:00-06:00
 This project is maintained for the benefit of the community, and we're grateful for any contributions to help improve it. We require that contributors:
 
 - Be kind to all 💛
-- Follow the [Code of Conduct](./CODE_OF_CONDUCT.md)
+- Follow the [Code of Conduct](/create/code-of-conduct)
 - Respect the time and effort of maintainers and other contributors
 
 ## What to contribute
