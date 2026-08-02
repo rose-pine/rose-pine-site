@@ -26,6 +26,16 @@ export const categoryColorMap = {
 	terminal: "tonal-iris",
 } satisfies Record<IconCategory, string>;
 
+export const categoryPressedColorMap = {
+	browser: "hover:tonal-pressed-love",
+	editor: "hover:tonal-pressed-gold",
+	library: "hover:tonal-pressed-rose",
+	none: "hover:tonal-pressed-subtle",
+	social: "hover:tonal-pressed-pine",
+	system: "hover:tonal-pressed-foam",
+	terminal: "hover:tonal-pressed-iris",
+} satisfies Record<IconCategory, string>;
+
 export const iconSizeMap = {
 	sm: 14,
 	md: 20,

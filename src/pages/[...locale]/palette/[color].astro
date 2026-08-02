@@ -46,11 +46,13 @@ const allColors = (
 			class="animate-enter mb-12 flex items-center justify-between gap-3"
 			style="--stagger: 1"
 		>
-			<a
-				href={translatePath("/palette")}
-				class="rounded-full py-1.5 ps-3 pe-4 text-sm font-medium text-subtle transition before:pe-1.5 before:content-['←'] hover:bg-muted/10 hover:text-text rtl:before:content-['→']"
-				>{t("palette.title")}</a
-			>
+			<a href={translatePath("/palette")} class="button button-secondary">
+				<div class="button-icon">
+					<span class="ltr:block rtl:hidden">&larr;</span>
+					<span class="ltr:hidden rtl:block">&rarr;</span>
+				</div>
+				{t("palette.title")}
+			</a>
 		</div>
 
 		<div class="flex flex-wrap justify-between gap-12 md:flex-nowrap">

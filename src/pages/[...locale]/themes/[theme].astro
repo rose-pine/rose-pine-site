@@ -15,6 +15,7 @@ import {
 } from "../../../utilities/i18n";
 import {
 	categoryColorMap,
+	categoryPressedColorMap,
 	isValidIconCategory,
 } from "../../../utilities/icons";
 
@@ -37,6 +38,13 @@ let t = useTranslations(locale);
 let translatePath = useTranslatedPath(locale);
 
 let { repo, relatedRepos = [] as Repo[] } = Astro.props;
+
+let tonalClass = isValidIconCategory(repo.category)
+	? categoryColorMap[repo.category]
+	: "tonal-iris";
+let tonalPressedClass = isValidIconCategory(repo.category)
+	? categoryPressedColorMap[repo.category]
+	: "hover:tonal-pressed-iris";
 ---
 
 <Page
@@ -48,7 +56,7 @@ let { repo, relatedRepos = [] as Repo[] } = Astro.props;
 		<div class="card">
 			<div class="card-body [--_gap:--spacing(12)]">
 				<div class="flex items-center justify-between gap-3">
-					<a href={translatePath("/themes")} class="button button-ghost">
+					<a href={translatePath("/themes")} class="button button-secondary">
 						<div class="button-icon">
 							<span class="ltr:block rtl:hidden">&larr;</span>
 							<span class="ltr:hidden rtl:block">&rarr;</span>
@@ -56,7 +64,11 @@ let { repo, relatedRepos = [] as Repo[] } = Astro.props;
 						{t("themes.title")}
 					</a>
 
-					<a href={repo.url} class="button button-primary">
+					<a
+						href={repo.url}
+						class="button"
+						class:list={[tonalClass, tonalPressedClass]}
+					>
 						<ArrowNEIcon class="button-icon" />
 						Visit repository
 					</a>

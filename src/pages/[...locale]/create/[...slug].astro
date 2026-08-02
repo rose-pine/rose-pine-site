@@ -67,11 +67,13 @@ const updatedAt = formatDate(page.data.updatedAt, locale);
 			class="animate-enter mb-12 flex items-center justify-between gap-3"
 			style="--stagger: 1"
 		>
-			<a
-				href={translatePath("/create")}
-				class="rounded-full py-1.5 ps-3 pe-4 text-sm font-medium text-subtle transition before:pe-1.5 before:content-['←'] hover:bg-muted/10 hover:text-text rtl:before:content-['→']"
-				>{t("create.title")}</a
-			>
+			<a href={translatePath("/create")} class="button button-secondary">
+				<div class="button-icon">
+					<span class="ltr:block rtl:hidden">&larr;</span>
+					<span class="ltr:hidden rtl:block">&rarr;</span>
+				</div>
+				{t("create.title")}
+			</a>
 		</div>
 
 		<article class="mx-auto w-full max-w-prose">
