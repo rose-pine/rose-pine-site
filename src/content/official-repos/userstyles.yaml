@@ -1,8 +1,8 @@
 name: Userstyles
 url: https://github.com/rose-pine/userstyles
 category: browser
-stargazersCount: 49
-updatedAt: 2026-07-24T12:33:47Z
+stargazersCount: 50
+updatedAt: 2026-08-02T15:16:36Z
 tags:
   - css
   - stylish
@@ -47,6 +47,9 @@ subthemes:
   - name: Jira
     author: Adrian Karlén
     url: https://github.com/rose-pine/userstyles/tree/main/styles/jira
+  - name: LeetCode
+    author: Jenish Boricha
+    url: https://github.com/rose-pine/userstyles/tree/main/styles/leetcode
   - name: NixOS Search
     author: JTrenerry
     url: https://github.com/rose-pine/userstyles/tree/main/styles/nixos-search
@@ -105,6 +108,9 @@ contributors:
   - name: jcyamo
     url: https://github.com/jcyamo
     image: https://avatars.githubusercontent.com/u/684434?v=4
+  - name: jenishboricha
+    url: https://github.com/jenishboricha
+    image: https://avatars.githubusercontent.com/u/144167321?v=4
   - name: ThatOneCalculator
     url: https://github.com/ThatOneCalculator
     image: https://avatars.githubusercontent.com/u/44733677?v=4
