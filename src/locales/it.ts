@@ -52,9 +52,15 @@ export default defineLocale({
 		"themes.search_placeholder": "Cerca temi...",
 		"themes.search_focus_cue": "Premi / per focalizzare",
 
+		"colophon.title": "Crediti",
+		"colophon.description": "Le radici del nostro giardino.",
+
 		"photography.title": "Fotografie",
 		"photography.description":
 			"Se non ti fermi un attimo, potresti perdere una vista perfetta.",
+
+		"made-with.title": "Realizzati con Rosé Pine",
+		"made-with.description": "Momenti salienti dalla community.",
 
 		"palette.title": "Tavolozza",
 		"palette.description": "Colori curati, pensati per ispirare.",
