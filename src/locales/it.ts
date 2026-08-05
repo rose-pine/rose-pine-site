@@ -10,6 +10,7 @@ export default defineLocale({
 		"nav.palette": "Tavolozza",
 		"nav.create": "Crea",
 		"nav.collection.photography": "Fotografie",
+		"nav.collection.made-with": "Realizzati con Rosé Pine",
 		"nav.language": "Lingua",
 		"nav.resources": "Risorse",
 		"nav.resource.create": "Crea un tema",
@@ -52,9 +53,15 @@ export default defineLocale({
 		"themes.search_placeholder": "Cerca temi...",
 		"themes.search_focus_cue": "Premi / per focalizzare",
 
+		"colophon.title": "Crediti",
+		"colophon.description": "Le radici del nostro giardino.",
+
 		"photography.title": "Fotografie",
 		"photography.description":
 			"Se non ti fermi un attimo, potresti perdere una vista perfetta.",
+
+		"made-with.title": "Realizzati con Rosé Pine",
+		"made-with.description": "Momenti salienti dalla community.",
 
 		"palette.title": "Tavolozza",
 		"palette.description": "Colori curati, pensati per ispirare.",
