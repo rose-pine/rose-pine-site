@@ -22,7 +22,7 @@ export default defineLocale({
 		"command.search_placeholder": "Шукати сторінки, теми та палітри",
 		"command.empty_results": "Нічого не знайдено",
 		"command.pages": "Сторінки",
-		"command.featured_themes": "Рекомендовані теми",
+		"command.recent_themes": "Нещодавно оновлені теми",
 		"command.community": "Спільнота",
 	},
 });

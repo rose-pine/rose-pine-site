@@ -1,5 +1,10 @@
 export type Contributor = { name: string; image?: string; url: string };
 
+export type Subtheme = {
+	name: string;
+	url: string;
+};
+
 export type Repo = {
 	slug: string;
 	name: string;
@@ -7,11 +12,9 @@ export type Repo = {
 	tags: string[];
 	contributors: Contributor[];
 	category: string;
-	subthemes: { name: string; author: string; url: string }[];
+	subthemes: Subtheme[];
 	related: string[];
-	featured: boolean;
 	searchText: string;
 	ogImage: string;
-	stargazersCount?: number;
 	updatedAt?: string;
 };

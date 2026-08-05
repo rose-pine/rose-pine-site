@@ -22,7 +22,7 @@ export default defineLocale({
 		"command.search_placeholder": "Sayfalar, temalar ve paletler arayın",
 		"command.empty_results": "Herhangi bir sonuç bulunamadı",
 		"command.pages": "Sayfalar",
-		"command.featured_themes": "Öne çıkan temalar",
+		"command.recent_themes": "Son güncellenen temalar",
 		"command.community": "Topluluk",
 	},
 });

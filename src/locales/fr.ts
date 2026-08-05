@@ -64,7 +64,7 @@ export default defineLocale({
 		"command.close": "Ferme le menu de commandes",
 		"command.empty_results": "Aucun résultat trouvé",
 		"command.pages": "Pages",
-		"command.featured_themes": "Thèmes en vedette",
+		"command.recent_themes": "Thèmes récemment mis à jour",
 		"command.community": "Communauté",
 
 		"submit.title": "Proposer un thème",

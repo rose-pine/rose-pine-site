@@ -22,7 +22,7 @@ export default defineLocale({
 		"command.search_placeholder": "Cerca pàgines, temes i paleta",
 		"command.empty_results": "Sense resultats",
 		"command.pages": "Pàgines",
-		"command.featured_themes": "Temes destacats",
+		"command.recent_themes": "Temes actualitzats recentment",
 		"command.community": "Comunitat",
 	},
 });

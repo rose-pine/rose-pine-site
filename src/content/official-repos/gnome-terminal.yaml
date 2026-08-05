@@ -1,8 +1,7 @@
 name: GNOME Terminal
 url: https://github.com/rose-pine/gnome-terminal
 category: terminal
-stargazersCount: 56
-updatedAt: 2026-07-07T19:23:53Z
+updatedAt: 2025-11-05T14:46:28Z
 tags:
   - hacktoberfest
   - terminal-emulator

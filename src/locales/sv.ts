@@ -22,7 +22,7 @@ export default defineLocale({
 		"command.search_placeholder": "Sök sidor, teman och palett",
 		"command.empty_results": "Inga resultat funna",
 		"command.pages": "Sidor",
-		"command.featured_themes": "Utvalda teman",
+		"command.recent_themes": "Nyligen uppdaterade teman",
 		"command.community": "Gemenskap",
 	},
 });

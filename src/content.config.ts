@@ -10,7 +10,6 @@ const contributorSchema = z.object({
 
 const subthemeSchema = z.object({
 	name: z.string(),
-	author: z.string(),
 	url: z.string(),
 });
 
@@ -21,9 +20,7 @@ export const collections = {
 			base: "./src/content/official-repos",
 		}),
 		schema: z.object({
-			featured: z.boolean().optional(),
 			url: z.string(),
-			stargazersCount: z.number(),
 			updatedAt: z.date().optional(),
 			tags: z.array(z.string()).optional(),
 			name: z.string().optional(),

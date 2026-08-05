@@ -27,7 +27,7 @@ export default defineLocale({
 		"command.close": "إغلاق قائمة الأوامر",
 		"command.empty_results": "لا توجد نتائج",
 		"command.feeling_lucky": "أشعر بالحظ",
-		"command.featured_themes": "السمات المميّزة",
+		"command.recent_themes": "السمات المحدثة مؤخرًا",
 		"command.pages": "الصفحات",
 		"command.community": "المجتمع",
 

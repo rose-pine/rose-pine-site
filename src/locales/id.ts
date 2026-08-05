@@ -22,7 +22,7 @@ export default defineLocale({
 		"command.search_placeholder": "Cari halaman, tema, dan palet",
 		"command.empty_results": "Hasil tidak ditemukan",
 		"command.pages": "halaman",
-		"command.featured_themes": "Tema unggulan",
+		"command.recent_themes": "Tema yang baru diperbarui",
 		"command.community": "Komunitas",
 	},
 });

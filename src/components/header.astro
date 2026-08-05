@@ -1,6 +1,6 @@
 ---
 import BadgeIcon from "../assets/badge.svg";
-import { getFeaturedRepos, getSortedRepos } from "../data";
+import { getRecentRepos, getSortedRepos } from "../data";
 import palette from "../data/palette.json";
 import {
 	getLocaleFromUrl,
@@ -14,9 +14,9 @@ let locale = getLocaleFromUrl(Astro.url);
 let t = useTranslations(locale);
 let translatePath = useTranslatedPath(locale);
 
-const [sortedRepos, featuredRepos] = await Promise.all([
+const [sortedRepos, recentRepos] = await Promise.all([
 	getSortedRepos(),
-	getFeaturedRepos(),
+	getRecentRepos(),
 ]);
 
 const repoSlugs = sortedRepos.map((r) => r.slug);
@@ -130,9 +130,9 @@ let searchGroups: Group[] = [
 let defaultGroups: Group[] = [
 	searchGroups[0],
 	{
-		heading: t("command.featured_themes"),
+		heading: t("command.recent_themes"),
 		kind: "theme",
-		items: featuredRepos.map((repo) => ({
+		items: recentRepos.map((repo) => ({
 			label: repo.name,
 			searchText: repo.searchText,
 			href: translatePath(`/themes/${repo.slug}`),

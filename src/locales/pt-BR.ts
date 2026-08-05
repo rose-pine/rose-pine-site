@@ -22,7 +22,7 @@ export default defineLocale({
 		"command.search_placeholder": "Pesquisar páginas, temas e paletas",
 		"command.empty_results": "Nenhum resultado encontrado",
 		"command.pages": "Páginas",
-		"command.featured_themes": "Temas em destaque",
+		"command.recent_themes": "Temas atualizados recentemente",
 		"command.community": "Comuni",
 	},
 });

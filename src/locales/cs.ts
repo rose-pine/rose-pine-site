@@ -26,7 +26,7 @@ export default defineLocale({
 		"command.close": "Zavřít příkazovou nabídku",
 		"command.empty_results": "Žádné výsledky",
 		"command.feeling_lucky": "Zkusím štěstí",
-		"command.featured_themes": "Vybrané motivy",
+		"command.recent_themes": "Nedávno aktualizované motivy",
 		"command.pages": "Stránky",
 		"command.community": "Komunita",
 

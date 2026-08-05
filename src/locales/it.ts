@@ -26,7 +26,7 @@ export default defineLocale({
 		"command.close": "Chiudi il menu dei comandi",
 		"command.empty_results": "Nessun risultato trovato",
 		"command.feeling_lucky": "Sorprendimi",
-		"command.featured_themes": "Temi in evidenza",
+		"command.recent_themes": "Temi aggiornati di recente",
 		"command.pages": "Pagine",
 		"command.community": "Comunità",
 

@@ -47,10 +47,8 @@ function normalizeOfficial(entry: CollectionEntry<"officialRepos">): Repo {
 		category: d.category,
 		subthemes,
 		related: d.related ?? [],
-		featured: (d.stargazersCount ?? 0) > 100,
 		ogImage: generatedOgImage(name),
 		searchText: buildSearchText(name, tags, subthemes),
-		stargazersCount: d.stargazersCount,
 		updatedAt: d.updatedAt?.toISOString(),
 	};
 }
@@ -71,7 +69,6 @@ function normalizeCommunity(entry: CollectionEntry<"communityRepos">): Repo {
 		category: d.category,
 		subthemes,
 		related: d.related ?? [],
-		featured: false,
 		ogImage: generatedOgImage(d.name),
 		searchText: buildSearchText(d.name, tags, subthemes),
 	};
@@ -88,12 +85,13 @@ export async function getAllRepos(): Promise<Repo[]> {
 	];
 }
 
-export async function getFeaturedRepos(): Promise<Repo[]> {
+export async function getRecentRepos(): Promise<Repo[]> {
 	const official = await getCollection("officialRepos");
 	return official
 		.map(normalizeOfficial)
-		.filter((r) => r.featured)
-		.sort((a, b) => (b.stargazersCount ?? 0) - (a.stargazersCount ?? 0));
+		.filter((r) => r.updatedAt)
+		.sort((a, b) => b.updatedAt!.localeCompare(a.updatedAt!))
+		.slice(0, 10);
 }
 
 export async function getSortedRepos(): Promise<Repo[]> {

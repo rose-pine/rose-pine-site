@@ -22,7 +22,7 @@ export default defineLocale({
 		"command.search_placeholder": "페이지, 테마 또는 팔레트 검색",
 		"command.empty_results": "검색 결과가 없습니다",
 		"command.pages": "페이지",
-		"command.featured_themes": "추천 테마",
+		"command.recent_themes": "최근 업데이트된 테마",
 		"command.community": "커뮤니티",
 	},
 });

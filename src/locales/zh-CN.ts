@@ -22,7 +22,7 @@ export default defineLocale({
 		"command.search_placeholder": "搜索页面、主题和调色板",
 		"command.empty_results": "未找到结果。",
 		"command.pages": "页面",
-		"command.featured_themes": "精选主题",
+		"command.recent_themes": "最近更新的主题",
 		"command.community": "社区",
 	},
 });
