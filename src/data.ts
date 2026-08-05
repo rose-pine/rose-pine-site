@@ -2,6 +2,9 @@ import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 import type { Contributor, Repo } from "./types/theme";
 
+const generatedOgImage = (name: string) =>
+	`https://rose-pine-images.vercel.app/${encodeURIComponent(name)}.png?theme=default`;
+
 function contributorImage(contributor: {
 	url: string;
 	image?: string;
@@ -45,6 +48,7 @@ function normalizeOfficial(entry: CollectionEntry<"officialRepos">): Repo {
 		subthemes,
 		related: d.related ?? [],
 		featured: (d.stargazersCount ?? 0) > 100,
+		ogImage: generatedOgImage(name),
 		searchText: buildSearchText(name, tags, subthemes),
 		stargazersCount: d.stargazersCount,
 		updatedAt: d.updatedAt?.toISOString(),
@@ -68,6 +72,7 @@ function normalizeCommunity(entry: CollectionEntry<"communityRepos">): Repo {
 		subthemes,
 		related: d.related ?? [],
 		featured: false,
+		ogImage: generatedOgImage(d.name),
 		searchText: buildSearchText(d.name, tags, subthemes),
 	};
 }

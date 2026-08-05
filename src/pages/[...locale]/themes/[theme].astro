@@ -39,7 +39,11 @@ let translatePath = useTranslatedPath(locale);
 let { repo, relatedRepos = [] as Repo[] } = Astro.props;
 ---
 
-<Page title={repo.name} description={`Soho vibes for ${repo.name}`}>
+<Page
+	title={repo.name}
+	description={`Soho vibes for ${repo.name}`}
+	ogImage={repo.ogImage}
+>
 	<section class="animate-enter wrapper" style="--stagger: 1">
 		<div class="card">
 			<div class="card-body [--_gap:--spacing(12)]">

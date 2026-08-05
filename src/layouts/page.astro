@@ -7,8 +7,9 @@ import { getLocaleFromUrl, languages } from "../utilities/i18n";
 type Props = {
 	title: string;
 	description: string;
+	ogImage?: string;
 };
-let { title, description } = Astro.props;
+let { title, description, ogImage } = Astro.props;
 
 let locale = getLocaleFromUrl(Astro.url);
 let dir = languages[locale]?.dir ?? "ltr";
@@ -29,6 +30,10 @@ let dir = languages[locale]?.dir ?? "ltr";
 		<link rel="icon" href="/favicon.png" />
 		<meta name="description" content={description} />
 		<meta name="generator" content={Astro.generator} />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		{ogImage && <meta property="og:image" content={ogImage} />}
+		{ogImage && <meta name="twitter:card" content="summary_large_image" />}
 		<title>{title} – Rosé Pine</title>
 
 		<script>

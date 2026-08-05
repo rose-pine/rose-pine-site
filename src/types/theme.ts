@@ -11,6 +11,7 @@ export type Repo = {
 	related: string[];
 	featured: boolean;
 	searchText: string;
+	ogImage: string;
 	stargazersCount?: number;
 	updatedAt?: string;
 };
