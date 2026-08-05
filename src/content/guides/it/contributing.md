@@ -1,5 +1,5 @@
 ---
-title: Contribuire
+title: Guida ai contributi
 description: Segnala bug, suggerisci feature e contribuisci con codice o documentazione.
 author: wawaverse
 publishedAt: 2026-08-05T12:00:00-06:00
