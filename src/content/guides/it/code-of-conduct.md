@@ -42,7 +42,7 @@ Questo Codice di Comportamento si applica sia all'interno degli spazi della comu
 
 ## Applicazione
 
-I casi di comportamento abusivo, molesto o altrimenti inaccettabile possono essere presentate contattando i responsabili dell'applicazione di questo Codice di Condotta della comunità all'indirizzo [INSERISCI INDIRIZZO EMAIL]. Tutti i reclami saranno prontamente esaminati ed indagati.
+I casi di comportamento abusivo, molesto o altrimenti inaccettabile possono essere presentate contattando i responsabili dell'applicazione di questo Codice di Condotta della comunità all'indirizzo hi@rosepinetheme.com. Tutti i reclami saranno prontamente esaminati ed indagati.
 
 Tutte le guide della comunità sono obbligate a mantenere la riservatezza della persona che ha riportato il caso.
 
