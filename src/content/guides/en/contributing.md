@@ -1,6 +1,6 @@
 ---
 title: Contributing
-description: Report bugs, suggest features and contribute code or documenation.
+description: Report bugs, suggest features and contribute code or documentation.
 author: mvllow
 publishedAt: 2021-01-30T12:00:00-06:00
 updatedAt: 2021-01-30T12:00:00-06:00
