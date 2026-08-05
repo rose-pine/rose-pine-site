@@ -10,6 +10,7 @@ export default defineLocale({
 		"nav.palette": "Tavolozza",
 		"nav.create": "Crea",
 		"nav.collection.photography": "Fotografie",
+		"nav.collection.made-with": "Realizzati con Rosé Pine",
 		"nav.language": "Lingua",
 		"nav.resources": "Risorse",
 		"nav.resource.create": "Crea un tema",
