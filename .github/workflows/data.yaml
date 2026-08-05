@@ -17,7 +17,7 @@ jobs:
           cache: pnpm
       - run: pnpm install
       - name: fetch data
-        run: node scripts/update-data.ts
+        run: pnpm run sync:official-repos
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: commit changes
