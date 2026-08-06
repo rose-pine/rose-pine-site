@@ -16,19 +16,19 @@ Noi ci impegniamo ad agire ed interagire per costruire una comunità aperta, acc
 
 Esempi di comportamenti che contribuiscono alla creazione di un ambiente positivo per la nostra comunità:
 
-* Dimostrare empatia e gentilezza verso le altre persone
-* Rispettare le opinioni, i punti di vista ed esperienze differenti
-* Fornire, con garbo, critiche costruttive
-* Prendersi la responsabilità di quanto sostenuto e scusarsi verso le persone colpite dai nostri sbagli, imparando da queste esperienze
-* Concentrarsi non su ciò che è meglio per noi come individui, ma su ciò che è meglio per la comunità
+- Dimostrare empatia e gentilezza verso le altre persone
+- Rispettare le opinioni, i punti di vista ed esperienze differenti
+- Fornire, con garbo, critiche costruttive
+- Prendersi la responsabilità di quanto sostenuto e scusarsi verso le persone colpite dai nostri sbagli, imparando da queste esperienze
+- Concentrarsi non su ciò che è meglio per noi come individui, ma su ciò che è meglio per la comunità
 
 Esempi di comportamento inaccettabile:
 
-* L'uso di linguaggio o immagini sessualizzate e l'attenzione sessuale o avance indesiderate
-* Comportamenti da troll, commenti offensivi e attacchi personali o politici
-* Molestie in pubblico o in privato
-* Pubblicazione di informazioni private altrui, ad esempio un indirizzo postale o elettronico, senza autorizzazione esplicita
-* Altri comportamenti che potrebbero ragionevolmente essere considerati inappropriati in un contesto professionale
+- L'uso di linguaggio o immagini sessualizzate e l'attenzione sessuale o avance indesiderate
+- Comportamenti da troll, commenti offensivi e attacchi personali o politici
+- Molestie in pubblico o in privato
+- Pubblicazione di informazioni private altrui, ad esempio un indirizzo postale o elettronico, senza autorizzazione esplicita
+- Altri comportamenti che potrebbero ragionevolmente essere considerati inappropriati in un contesto professionale
 
 ## Adempimento e Responsabilità
 
