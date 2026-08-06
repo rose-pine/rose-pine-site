@@ -13,11 +13,19 @@
 	xmlns="http://www.w3.org/2000/svg"
 	{...restProps}
 >
-	<foreignObject x="1" y="1" width="22" height="22">
+	<!-- Version with border -->
+	<!-- <foreignObject x="1" y="1" width="22" height="22"> -->
+	<!-- 	<div -->
+	<!-- 		xmlns="http://www.w3.org/1999/xhtml" -->
+	<!-- 		style="width:100%;height:100%;border-radius:50%;background:conic-gradient(var(--color-love) 0%,var(--color-love) 16.666%,var(--color-rose) 16.666%,var(--color-rose) 33.333%,var(--color-gold) 33.333%,var(--color-gold) 50%,var(--color-pine) 50%,var(--color-pine) 66.666%,var(--color-foam) 66.666%,var(--color-foam) 83.333%,var(--color-iris) 83.333%,var(--color-iris) 100%)" -->
+	<!-- 	></div> -->
+	<!-- </foreignObject> -->
+	<!-- <circle cx="12" cy="12" r="11" stroke="currentColor" stroke-width="2" /> -->
+
+	<foreignObject x="0" y="0" width="24" height="24">
 		<div
 			xmlns="http://www.w3.org/1999/xhtml"
 			style="width:100%;height:100%;border-radius:50%;background:conic-gradient(var(--color-love) 0%,var(--color-love) 16.666%,var(--color-rose) 16.666%,var(--color-rose) 33.333%,var(--color-gold) 33.333%,var(--color-gold) 50%,var(--color-pine) 50%,var(--color-pine) 66.666%,var(--color-foam) 66.666%,var(--color-foam) 83.333%,var(--color-iris) 83.333%,var(--color-iris) 100%)"
 		></div>
 	</foreignObject>
-	<circle cx="12" cy="12" r="11" stroke="currentColor" stroke-width="2" />
 </svg>
