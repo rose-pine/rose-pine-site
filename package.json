@@ -22,6 +22,7 @@
 	},
 	"devDependencies": {
 		"@astrojs/check": "^0.9.9",
+		"@netlify/edge-functions": "^3.0.8",
 		"@octokit/rest": "^22.0.1",
 		"prettier": "^3.9.5",
 		"prettier-plugin-astro": "^0.14.1",

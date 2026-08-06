@@ -1,0 +1,10 @@
+[build]
+  command = "pnpm run build"
+  publish = "dist"
+
+[dev]
+  command = "pnpm run dev"
+
+[[edge_functions]]
+  function = "geo-redirect"
+  path = "/"
