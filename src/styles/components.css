@@ -9,7 +9,7 @@
 		flex-shrink: 0;
 		align-items: center;
 		gap: --spacing(1.5);
-		transition-property: color, background-color, border-color, rotate;
+		transition-property: color, background-color, border-color;
 		transition-duration: 150ms;
 		transition-timing-function: ease-in-out;
 		-webkit-user-select: none;
@@ -21,7 +21,7 @@
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			transition-property: color, rotate;
+			transition-property: rotate;
 			transition-duration: 150ms;
 			transition-timing-function: ease-in-out;
 		}
