@@ -1,7 +1,7 @@
 name: Userstyles
 url: https://github.com/rose-pine/userstyles
 category: browser
-updatedAt: 2026-08-06T22:57:34Z
+updatedAt: 2026-08-07T15:10:08Z
 tags:
   - css
   - stylish
@@ -74,6 +74,9 @@ contributors:
   - name: Papa-Quill
     url: https://github.com/Papa-Quill
     image: https://avatars.githubusercontent.com/u/70424791?v=4
+  - name: jenishboricha
+    url: https://github.com/jenishboricha
+    image: https://avatars.githubusercontent.com/u/144167321?v=4
   - name: revsuine
     url: https://github.com/revsuine
     image: https://avatars.githubusercontent.com/u/10424281?v=4
@@ -83,9 +86,6 @@ contributors:
   - name: jcyamo
     url: https://github.com/jcyamo
     image: https://avatars.githubusercontent.com/u/684434?v=4
-  - name: jenishboricha
-    url: https://github.com/jenishboricha
-    image: https://avatars.githubusercontent.com/u/144167321?v=4
   - name: ThatOneCalculator
     url: https://github.com/ThatOneCalculator
     image: https://avatars.githubusercontent.com/u/44733677?v=4
