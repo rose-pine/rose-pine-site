@@ -2,7 +2,13 @@
 import Footer from "../components/footer.astro";
 import Header from "../components/header.astro";
 import "../styles/global.css";
-import { getLocaleFromUrl, languages } from "../utilities/i18n";
+import {
+	getLocaleFromUrl,
+	getUrlWithoutLocale,
+	languages,
+	useTranslatedPath,
+} from "../utilities/i18n";
+import { objectKeys } from "../utilities/object";
 
 type Props = {
 	title: string;
@@ -14,6 +20,13 @@ let { title, description, ogImage, ogImageAlt } = Astro.props;
 
 let locale = getLocaleFromUrl(Astro.url);
 let dir = languages[locale]?.dir ?? "ltr";
+
+let pathWithoutLocale = getUrlWithoutLocale(Astro.url);
+let alternates = objectKeys(languages).map((lang) => ({
+	hreflang: lang,
+	href: new URL(useTranslatedPath(lang)(pathWithoutLocale), Astro.site).href,
+}));
+let defaultHref = new URL(pathWithoutLocale, Astro.site).href;
 ---
 
 <!doctype html>
@@ -32,6 +45,12 @@ let dir = languages[locale]?.dir ?? "ltr";
 		<meta name="description" content={description} />
 		<meta name="generator" content={Astro.generator} />
 		<meta property="og:site_name" content="Rosé Pine" />
+		{
+			alternates.map(({ hreflang, href }) => (
+				<link rel="alternate" hreflang={hreflang} href={href} />
+			))
+		}
+		<link rel="alternate" hreflang="x-default" href={defaultHref} />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={description} />
 		{ogImage && <meta property="og:image" content={ogImage} />}
