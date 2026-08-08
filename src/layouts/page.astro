@@ -51,6 +51,8 @@ let defaultHref = new URL(pathWithoutLocale, Astro.site).href;
 			))
 		}
 		<link rel="alternate" hreflang="x-default" href={defaultHref} />
+		<!-- Bing Webmaster verification, used to populate DuckDuckGo -->
+		<meta name="msvalidate.01" content="38A9FFCE6888A7C1C245B7B24C1CCFB2" />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={description} />
 		{ogImage && <meta property="og:image" content={ogImage} />}
