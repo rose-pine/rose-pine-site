@@ -48,6 +48,7 @@ function normalizeOfficial(entry: CollectionEntry<"officialRepos">): Repo {
 		subthemes,
 		related: d.related ?? [],
 		ogImage: generatedOgImage(name),
+		ogImageAlt: `Rosé Pine for ${name}`,
 		searchText: buildSearchText(name, tags, subthemes),
 		updatedAt: d.updatedAt?.toISOString(),
 	};
@@ -70,6 +71,7 @@ function normalizeCommunity(entry: CollectionEntry<"communityRepos">): Repo {
 		subthemes,
 		related: d.related ?? [],
 		ogImage: generatedOgImage(d.name),
+		ogImageAlt: `Rosé Pine for ${d.name}`,
 		searchText: buildSearchText(d.name, tags, subthemes),
 	};
 }

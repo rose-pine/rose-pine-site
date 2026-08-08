@@ -8,8 +8,9 @@ type Props = {
 	title: string;
 	description: string;
 	ogImage?: string;
+	ogImageAlt?: string;
 };
-let { title, description, ogImage } = Astro.props;
+let { title, description, ogImage, ogImageAlt } = Astro.props;
 
 let locale = getLocaleFromUrl(Astro.url);
 let dir = languages[locale]?.dir ?? "ltr";
@@ -34,6 +35,11 @@ let dir = languages[locale]?.dir ?? "ltr";
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={description} />
 		{ogImage && <meta property="og:image" content={ogImage} />}
+		{
+			ogImage && ogImageAlt && (
+				<meta property="og:image:alt" content={ogImageAlt} />
+			)
+		}
 		{ogImage && <meta name="twitter:card" content="summary_large_image" />}
 		<title>{title} – Rosé Pine</title>
 

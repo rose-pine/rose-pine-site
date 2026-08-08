@@ -16,5 +16,6 @@ export type Repo = {
 	related: string[];
 	searchText: string;
 	ogImage: string;
+	ogImageAlt: string;
 	updatedAt?: string;
 };
