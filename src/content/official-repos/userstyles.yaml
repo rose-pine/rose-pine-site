@@ -1,7 +1,7 @@
 name: Userstyles
 url: https://github.com/rose-pine/userstyles
 category: browser
-updatedAt: 2026-08-07T15:10:08Z
+updatedAt: 2026-08-10T14:02:14Z
 tags:
   - css
   - stylish
@@ -27,6 +27,8 @@ subthemes:
     url: https://github.com/rose-pine/userstyles/tree/main/styles/docs.rs
   - name: Emby
     url: https://github.com/rose-pine/userstyles/tree/main/styles/emby
+  - name: Gemini
+    url: https://github.com/rose-pine/userstyles/tree/main/styles/gemini
   - name: GitHub
     url: https://github.com/rose-pine/userstyles/tree/main/styles/github
   - name: Hetzner Cloud
@@ -71,12 +73,12 @@ contributors:
   - name: ZT2wo
     url: https://github.com/ZT2wo
     image: https://avatars.githubusercontent.com/u/47440927?v=4
-  - name: Papa-Quill
-    url: https://github.com/Papa-Quill
-    image: https://avatars.githubusercontent.com/u/70424791?v=4
   - name: jenishboricha
     url: https://github.com/jenishboricha
     image: https://avatars.githubusercontent.com/u/144167321?v=4
+  - name: Papa-Quill
+    url: https://github.com/Papa-Quill
+    image: https://avatars.githubusercontent.com/u/70424791?v=4
   - name: revsuine
     url: https://github.com/revsuine
     image: https://avatars.githubusercontent.com/u/10424281?v=4
