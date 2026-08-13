@@ -1,10 +1,20 @@
 // @ts-check
 
 import netlify from "@astrojs/netlify";
+import sitemap from "@astrojs/sitemap";
 import svelte from "@astrojs/svelte";
 import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "astro/config";
 import { readdirSync, writeFileSync } from "fs";
+
+const LOCALES_DIR = new URL("src/locales/", import.meta.url);
+
+/** Locale codes, derived from the files in src/locales/. */
+function getLocaleCodes() {
+	return readdirSync(LOCALES_DIR)
+		.filter((f) => f.endsWith(".ts"))
+		.map((f) => f.slice(0, -3));
+}
 
 /**
  * Vite plugin that generates a strict Locale type from the locales directory,
@@ -12,11 +22,9 @@ import { readdirSync, writeFileSync } from "fs";
  */
 function localeTypes() {
 	function generate() {
-		const dir = new URL("src/locales/", import.meta.url);
-		const type = readdirSync(dir)
-			.filter((f) => f.endsWith(".ts")) // find .ts files
-			.map((f) => `"${f.slice(0, -3)}"`) // strip file extension
-			.join(" | "); // join with union delimiter
+		const type = getLocaleCodes()
+			.map((f) => `"${f}"`)
+			.join(" | ");
 		writeFileSync(
 			new URL("src/types/locale.gen.ts", import.meta.url),
 			`// Auto-generated — do not edit\nexport type Locale = ${type};\n`,
@@ -36,7 +44,23 @@ const NETLIFY_PREVIEW_SITE =
 export default defineConfig({
 	site: NETLIFY_PREVIEW_SITE || "https://rosepinetheme.com",
 	prefetch: true,
-	integrations: [svelte()],
+	integrations: [
+		svelte(),
+		sitemap({
+			i18n: {
+				defaultLocale: "en",
+				locales: Object.fromEntries(
+					getLocaleCodes().map((code) => [code, code]),
+				),
+			},
+			filter: (page) => !new URL(page).pathname.startsWith("/en/"),
+			namespaces: {
+				news: false,
+				image: false,
+				video: false,
+			},
+		}),
+	],
 	image: {
 		domains: ["avatars.githubusercontent.com", "raw.githubusercontent.com"],
 		responsiveStyles: true,
@@ -53,6 +77,8 @@ export default defineConfig({
 	// https://docs.astro.build/en/guides/integrations-guide/netlify/#static-sites-with-the-netlify-adapter
 	adapter: netlify({ imageCDN: false }),
 	redirects: {
+		"/en": "/",
+		"/en/:path*": "/:path*",
 		"/palette/ingredients": "/palette",
 		"/:lang/palette/ingredients": "/:lang/palette",
 		"/resources": "/create",
