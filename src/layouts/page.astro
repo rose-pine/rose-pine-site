@@ -27,6 +27,8 @@ let alternates = objectKeys(languages).map((lang) => ({
 	href: new URL(useTranslatedPath(lang)(pathWithoutLocale), Astro.site).href,
 }));
 let defaultHref = new URL(pathWithoutLocale, Astro.site).href;
+let canonical = new URL(Astro.url.pathname, Astro.site).href;
+let ogLocale = locale === "en" ? "en_US" : locale.replace("-", "_");
 ---
 
 <!doctype html>
@@ -45,6 +47,19 @@ let defaultHref = new URL(pathWithoutLocale, Astro.site).href;
 		<meta name="description" content={description} />
 		<meta name="generator" content={Astro.generator} />
 		<meta property="og:site_name" content="Rosé Pine" />
+		<link rel="canonical" href={canonical} />
+		<meta property="og:url" content={canonical} />
+		<meta property="og:locale" content={ogLocale} />
+		{
+			objectKeys(languages)
+				.filter((lang) => lang !== locale)
+				.map((lang) => (
+					<meta
+						property="og:locale:alternate"
+						content={lang === "en" ? "en_US" : lang.replace("-", "_")}
+					/>
+				))
+		}
 		{
 			alternates.map(({ hreflang, href }) => (
 				<link rel="alternate" hreflang={hreflang} href={href} />
