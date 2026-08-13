@@ -24,7 +24,12 @@ let allRepos = await getAllRepos();
 let REPOS_COUNT = String(Math.floor(allRepos.length / 10) * 10);
 ---
 
-<Page title={t("home.title")} description={t("home.description")}>
+<Page
+	title={t("home.title")}
+	description={t("home.description")}
+	ogImage={new URL("/opengraph-image.jpg", Astro.site)}
+	ogImageAlt="Rosé Pine"
+>
 	<section class="wrapper flex min-h-[58svh] flex-1 items-center">
 		<div class="grid grid-cols-1 gap-20 lg:grid-cols-2">
 			<div class="flex flex-col">
