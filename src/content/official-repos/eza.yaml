@@ -1,11 +1,10 @@
 url: https://github.com/rose-pine/eza
-category: none
-updatedAt: 2026-08-19T00:20:54Z
+category: terminal
+updatedAt: 2026-08-19T12:54:38Z
 tags:
   - cli
   - colorscheme
   - eza
-  - terminal
 contributors:
   - name: quentinlintz
     url: https://github.com/quentinlintz
