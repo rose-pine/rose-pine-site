@@ -38,7 +38,7 @@ export default defineLocale({
 		"home.primary_action": "Explorar temas",
 		"home.feature.colours_and_community.title": "Colores y comunidad",
 		"home.feature.colours_and_community.description":
-			"Rosé Pine es una paleta elegante presente en más de {{REPOS_COUNT}} de tus aplicaciones favoritas, gracias a nuestra simpática y generosa comunidad de contribuidoras/es.",
+			"Rosé Pine es una paleta elegante presente en más de {{REPOS_COUNT}} de tus aplicaciones favoritas, gracias a nuestra simpática y generosa comunidad de contribuyentes.",
 		"home.feature.passionately_subtle.title": "Apasionadamente discreto",
 		"home.feature.passionately_subtle.description":
 			"Con el foco puesto en la calidad y el propósito, nuestros colores están seleccionados para inspirar, no abrumar. Nos emociona que compartas tus creaciones con el mundo.",
@@ -50,7 +50,7 @@ export default defineLocale({
 		"themes.description": "Colección artesanal de personalización.",
 		"themes.all": "Todos",
 		"themes.ports": "Ports",
-		"themes.contributors": "Contribuidoras/es",
+		"themes.contributors": "Contribuyentes",
 		"themes.search_placeholder": "Buscar temas...",
 		"themes.search_focus_cue": "Pulsa / para enfocar",
 
@@ -75,7 +75,7 @@ export default defineLocale({
 		"create.also_available_in": "También disponible en:",
 
 		"submit.title": "Añade un tema",
-		"submit.description": "Envía tu tema para añadirlo a Rosé Pine.",
+		"submit.description": "Propón tu tema para ser añadido a Rosé Pine.",
 		"submit.form.link_label": "Enlace al repositorio",
 		"submit.form.category_label": "Categoría",
 		"submit.form.primary_action": "Enviar",

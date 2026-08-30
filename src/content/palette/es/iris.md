@@ -1,6 +1,6 @@
 ---
 name: Iris
-description: Aroma a consolidación
+description: Aroma a arraigo
 ---
 
 - Pistas, sugerencias

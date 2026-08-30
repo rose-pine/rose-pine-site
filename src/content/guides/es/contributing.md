@@ -22,7 +22,7 @@ Recibimos con los brazos abiertos tanto aportaciones de código como de otros ti
 - Peticiones de nueva funcionalidad
 - Opiniones y sugerencias
 
-Hasta la aportación más pequeña nos ayuda a liberar algo de nuestro tiempo para mantenimiento general y promoción de una experiencia positiva, funcional y accesible para todo el mundo ✨
+Hasta la aportación más pequeña nos ayuda a liberar algo de nuestro tiempo para mantenimiento general y fomento de una experiencia positiva, funcional y accesible para todo el mundo ✨
 
 ## Informes de errores y nueva funcionalidad
 

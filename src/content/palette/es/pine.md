@@ -1,6 +1,6 @@
 ---
 name: Pine
-description: Verdor fresco de invierno
+description: Fresco verdor de invierno
 ---
 
 - Palabras reservadas, declaraciones, control de flujo
