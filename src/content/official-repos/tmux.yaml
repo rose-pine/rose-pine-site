@@ -1,7 +1,7 @@
 name: tmux
 url: https://github.com/rose-pine/tmux
 category: terminal
-updatedAt: 2026-07-25T21:54:03Z
+updatedAt: 2026-09-01T17:55:35Z
 contributors:
   - name: mrs4ndman
     url: https://github.com/mrs4ndman
@@ -12,6 +12,9 @@ contributors:
   - name: cascassette
     url: https://github.com/cascassette
     image: https://avatars.githubusercontent.com/u/1914551?v=4
+  - name: mvllow
+    url: https://github.com/mvllow
+    image: https://avatars.githubusercontent.com/u/1474821?v=4
   - name: vk-hr
     url: https://github.com/vk-hr
     image: https://avatars.githubusercontent.com/u/77293145?v=4
@@ -45,6 +48,3 @@ contributors:
   - name: lluchkaa
     url: https://github.com/lluchkaa
     image: https://avatars.githubusercontent.com/u/37471864?v=4
-  - name: mvllow
-    url: https://github.com/mvllow
-    image: https://avatars.githubusercontent.com/u/1474821?v=4
