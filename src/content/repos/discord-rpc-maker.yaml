@@ -1,0 +1,18 @@
+type: official
+name: Discord RPC Maker
+url: https://github.com/rose-pine/discord-rpc-maker
+category: editor
+updatedAt: 2025-11-05T14:46:12Z
+tags:
+  - discord
+contributors:
+  - name: ThatOneCalculator
+    url: https://github.com/ThatOneCalculator
+    image: https://avatars.githubusercontent.com/u/44733677?v=4
+  - name: mvllow
+    url: https://github.com/mvllow
+    image: https://avatars.githubusercontent.com/u/1474821?v=4
+related:
+  - discord
+  - discord-mobile
+  - userstyles

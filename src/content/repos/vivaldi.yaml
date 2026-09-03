@@ -1,0 +1,15 @@
+type: official
+name: Vivaldi
+url: https://github.com/rose-pine/vivaldi
+category: browser
+updatedAt: 2025-11-05T14:51:14Z
+tags:
+  - rosepine
+  - vivaldi-theme
+contributors:
+  - name: SocietasEvanescentes
+    url: https://github.com/SocietasEvanescentes
+    image: https://avatars.githubusercontent.com/u/25782090?v=4
+  - name: mvllow
+    url: https://github.com/mvllow
+    image: https://avatars.githubusercontent.com/u/1474821?v=4

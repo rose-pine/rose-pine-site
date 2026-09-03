@@ -1,0 +1,14 @@
+type: official
+name: btop
+url: https://github.com/rose-pine/btop
+category: terminal
+updatedAt: 2025-11-05T14:45:59Z
+tags:
+  - btop-theme
+contributors:
+  - name: mrs4ndman
+    url: https://github.com/mrs4ndman
+    image: https://avatars.githubusercontent.com/u/121260905?v=4
+  - name: mvllow
+    url: https://github.com/mvllow
+    image: https://avatars.githubusercontent.com/u/1474821?v=4

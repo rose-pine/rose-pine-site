@@ -1,0 +1,12 @@
+type: community
+name: Telegram Desktop
+url: https://github.com/nymver/telegramdesktop
+category: social
+updatedAt: 2024-06-14T18:12:47Z
+contributors:
+  - name: nymver
+    url: https://github.com/nymver
+    image: https://avatars.githubusercontent.com/u/146001324?v=4
+  - name: sophyx
+    url: https://github.com/sophyx
+    image: https://avatars.githubusercontent.com/u/67917413?v=4

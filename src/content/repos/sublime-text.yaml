@@ -1,0 +1,23 @@
+type: official
+name: Sublime Text
+url: https://github.com/rose-pine/sublime-text
+category: editor
+updatedAt: 2025-11-05T14:50:52Z
+tags:
+  - hacktoberfest
+contributors:
+  - name: braver
+    url: https://github.com/braver
+    image: https://avatars.githubusercontent.com/u/2543659?v=4
+  - name: ThatOneCalculator
+    url: https://github.com/ThatOneCalculator
+    image: https://avatars.githubusercontent.com/u/44733677?v=4
+  - name: mvllow
+    url: https://github.com/mvllow
+    image: https://avatars.githubusercontent.com/u/1474821?v=4
+  - name: crhallberg
+    url: https://github.com/crhallberg
+    image: https://avatars.githubusercontent.com/u/451107?v=4
+  - name: Aarrayy
+    url: https://github.com/Aarrayy
+    image: https://avatars.githubusercontent.com/u/68795737?v=4

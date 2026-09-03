@@ -1,0 +1,26 @@
+type: community
+name: JetBrains IDEs
+url: https://github.com/bomgar/rose-pine-jetbrains
+category: editor
+updatedAt: 2026-09-02T10:28:56Z
+contributors:
+  - name: bomgar
+    url: https://github.com/bomgar
+    image: https://avatars.githubusercontent.com/u/402052?v=4
+  - name: mriehl
+    url: https://github.com/mriehl
+    image: https://avatars.githubusercontent.com/u/1955590?v=4
+  - name: actions-user
+    url: https://github.com/actions-user
+    image: https://avatars.githubusercontent.com/u/65916846?v=4
+tags:
+  - Android Studio
+  - CLion
+  - GoLand
+  - IntelliJ
+  - PhpStorm
+  - PyCharm
+  - Rider
+  - RubyMine
+  - RustRover
+  - WebStorm

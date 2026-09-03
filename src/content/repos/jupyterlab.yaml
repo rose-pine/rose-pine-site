@@ -1,0 +1,14 @@
+type: community
+name: JupyterLab
+url: https://github.com/aaravind100/jupyterlab
+category: editor
+updatedAt: 2026-08-31T16:28:42Z
+contributors:
+  - name: aaravind100
+    url: https://github.com/aaravind100
+    image: https://avatars.githubusercontent.com/u/98406957?v=4
+  - name: krassowski
+    url: https://github.com/krassowski
+    image: https://avatars.githubusercontent.com/u/5832902?v=4
+tags:
+  - notebook

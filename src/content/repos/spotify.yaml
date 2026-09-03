@@ -1,0 +1,15 @@
+type: community
+name: Spotify
+url: https://github.com/nicoleajoy/rose-pine-spotify
+category: social
+updatedAt: 2023-05-04T13:31:28Z
+contributors:
+  - name: nicoleajoy
+    url: https://github.com/nicoleajoy
+    image: https://avatars.githubusercontent.com/u/36486525?v=4
+  - name: azu0609
+    url: https://github.com/azu0609
+    image: https://avatars.githubusercontent.com/u/91050580?v=4
+tags:
+  - audio
+  - music

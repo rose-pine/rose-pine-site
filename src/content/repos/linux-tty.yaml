@@ -1,0 +1,18 @@
+type: official
+name: Linux TTY
+url: https://github.com/rose-pine/linux-tty
+category: terminal
+updatedAt: 2025-11-05T14:46:49Z
+contributors:
+  - name: ThatOneCalculator
+    url: https://github.com/ThatOneCalculator
+    image: https://avatars.githubusercontent.com/u/44733677?v=4
+  - name: mvllow
+    url: https://github.com/mvllow
+    image: https://avatars.githubusercontent.com/u/1474821?v=4
+  - name: olekawaii
+    url: https://github.com/olekawaii
+    image: https://avatars.githubusercontent.com/u/89757188?v=4
+  - name: prateektade
+    url: https://github.com/prateektade
+    image: https://avatars.githubusercontent.com/u/108054324?v=4

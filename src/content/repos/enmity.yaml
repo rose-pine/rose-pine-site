@@ -1,0 +1,12 @@
+type: community
+name: Enmity
+url: https://github.com/InvitedToHell/rosepine-enmity
+category: social
+updatedAt: 2023-04-15T18:42:08Z
+contributors:
+  - name: InvitedToHell
+    url: https://github.com/InvitedToHell
+    image: https://avatars.githubusercontent.com/u/73737531?v=4
+related:
+  - discord
+  - discord-mobile

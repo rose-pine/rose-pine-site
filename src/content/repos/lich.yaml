@@ -1,0 +1,12 @@
+type: community
+name: lich
+url: https://github.com/omartelo/rose-pine-lich
+category: terminal
+updatedAt: 2026-08-05T13:09:00Z
+contributors:
+  - name: omartelo
+    url: https://github.com/omartelo
+    image: https://avatars.githubusercontent.com/u/125408621?v=4
+tags:
+  - terminal
+  - agents

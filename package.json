@@ -9,7 +9,7 @@
 		"preview": "netlify serve",
 		"astro": "astro",
 		"format": "pnpm exec prettier --write .",
-		"sync:official-repos": "node --env-file=.env scripts/sync-official-repos.ts"
+		"sync": "node --env-file=.env scripts/sync.ts"
 	},
 	"dependencies": {
 		"@astrojs/netlify": "^8.1.2",
@@ -23,7 +23,7 @@
 	},
 	"devDependencies": {
 		"@astrojs/check": "^0.9.9",
-		"@octokit/rest": "^22.0.1",
+		"@types/node": "^26.4.1",
 		"prettier": "^3.9.5",
 		"prettier-plugin-astro": "^0.14.1",
 		"prettier-plugin-svelte": "^4.1.1",

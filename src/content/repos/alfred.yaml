@@ -1,0 +1,12 @@
+type: official
+name: Alfred
+url: https://github.com/rose-pine/alfred
+category: system
+updatedAt: 2026-06-25T08:07:31Z
+contributors:
+  - name: mvllow
+    url: https://github.com/mvllow
+    image: https://avatars.githubusercontent.com/u/1474821?v=4
+  - name: juliamertz
+    url: https://github.com/juliamertz
+    image: https://avatars.githubusercontent.com/u/35079666?v=4

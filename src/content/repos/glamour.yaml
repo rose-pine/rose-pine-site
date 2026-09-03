@@ -1,0 +1,14 @@
+type: community
+name: Glamour
+url: https://github.com/drluckyspin/rose-pine-glamour
+category: terminal
+updatedAt: 2026-06-25T09:02:44Z
+contributors:
+  - name: drluckyspin
+    url: https://github.com/drluckyspin
+    image: https://avatars.githubusercontent.com/u/1369669?v=4
+tags:
+  - code
+  - golang
+related:
+  - glow

@@ -1,0 +1,18 @@
+type: official
+name: fzf
+url: https://github.com/rose-pine/fzf
+category: terminal
+updatedAt: 2025-11-05T14:46:21Z
+contributors:
+  - name: ThatOneCalculator
+    url: https://github.com/ThatOneCalculator
+    image: https://avatars.githubusercontent.com/u/44733677?v=4
+  - name: mvllow
+    url: https://github.com/mvllow
+    image: https://avatars.githubusercontent.com/u/1474821?v=4
+  - name: jovark
+    url: https://github.com/jovark
+    image: https://avatars.githubusercontent.com/u/57330540?v=4
+  - name: cutbypham
+    url: https://github.com/cutbypham
+    image: https://avatars.githubusercontent.com/u/40050527?v=4

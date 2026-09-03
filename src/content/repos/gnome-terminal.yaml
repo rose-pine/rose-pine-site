@@ -1,0 +1,21 @@
+type: official
+name: GNOME Terminal
+url: https://github.com/rose-pine/gnome-terminal
+category: terminal
+updatedAt: 2025-11-05T14:46:28Z
+tags:
+  - hacktoberfest
+  - terminal-emulator
+contributors:
+  - name: mvllow
+    url: https://github.com/mvllow
+    image: https://avatars.githubusercontent.com/u/1474821?v=4
+  - name: ThatOneCalculator
+    url: https://github.com/ThatOneCalculator
+    image: https://avatars.githubusercontent.com/u/44733677?v=4
+  - name: ashbork
+    url: https://github.com/ashbork
+    image: https://avatars.githubusercontent.com/u/82605611?v=4
+  - name: diorcula
+    url: https://github.com/diorcula
+    image: https://avatars.githubusercontent.com/u/32682696?v=4

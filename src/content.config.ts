@@ -14,34 +14,19 @@ const userstyleSchema = z.object({
 });
 
 export const collections = {
-	officialRepos: defineCollection({
+	repos: defineCollection({
 		loader: glob({
 			pattern: "**/*.yaml",
-			base: "./src/content/official-repos",
+			base: "./src/content/repos",
 		}),
 		schema: z.object({
+			type: z.enum(["official", "community"]),
+			name: z.string(),
 			url: z.string(),
+			category: z.string(),
 			updatedAt: z.date().optional(),
 			tags: z.array(z.string()).optional(),
-			name: z.string().optional(),
-			category: z.string(),
 			contributors: z.array(contributorSchema),
-			userstyles: z.array(userstyleSchema).optional(),
-			related: z.array(z.string()).optional(),
-		}),
-	}),
-
-	communityRepos: defineCollection({
-		loader: glob({
-			pattern: "**/*.yaml",
-			base: "./src/content/community-repos",
-		}),
-		schema: z.object({
-			name: z.string(),
-			url: z.url(),
-			tags: z.array(z.string()).optional(),
-			contributors: z.array(contributorSchema),
-			category: z.string(),
 			userstyles: z.array(userstyleSchema).optional(),
 			related: z.array(z.string()).optional(),
 		}),
