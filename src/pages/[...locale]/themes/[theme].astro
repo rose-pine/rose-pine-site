@@ -106,17 +106,17 @@ let tonalPressedClass = isValidIconCategory(repo.category)
 				</div>
 
 				{
-					repo.subthemes.length > 0 && (
+					repo.userstyles.length > 0 && (
 						<div>
 							<h2 class="mb-4 text-lg font-semibold">{t("themes.title")}</h2>
 							<ul role="list" class="auto-grid-36 gap-3">
-								{repo.subthemes.map((subtheme) => (
+								{repo.userstyles.map((userstyle) => (
 									<li>
 										<a
-											href={subtheme.url}
+											href={userstyle.url}
 											class="button button-secondary w-full"
 										>
-											{subtheme.name}
+											{userstyle.name}
 										</a>
 									</li>
 								))}

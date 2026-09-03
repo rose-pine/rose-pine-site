@@ -1,6 +1,6 @@
 export type Contributor = { name: string; image?: string; url: string };
 
-export type Subtheme = {
+export type Userstyle = {
 	name: string;
 	url: string;
 };
@@ -12,7 +12,7 @@ export type Repo = {
 	tags: string[];
 	contributors: Contributor[];
 	category: string;
-	subthemes: Subtheme[];
+	userstyles: Userstyle[];
 	related: string[];
 	searchText: string;
 	ogImage: string;

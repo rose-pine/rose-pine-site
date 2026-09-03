@@ -15,7 +15,7 @@ type Repo =
 
 type Contributor = { name: string; image?: string; url: string };
 
-type Subtheme = { name: string; url: string };
+type Userstyle = { name: string; url: string };
 
 type RepoData = {
 	name?: string;
@@ -24,7 +24,7 @@ type RepoData = {
 	updatedAt: string;
 	tags?: string[];
 	contributors: Contributor[];
-	subthemes?: Subtheme[];
+	userstyles?: Userstyle[];
 	related?: string[];
 };
 
@@ -64,7 +64,7 @@ async function listContributors(
 	return users.map(toContributor);
 }
 
-async function listSubthemeDirs(octokit: Octokit): Promise<string[]> {
+async function listUserstyleDirs(octokit: Octokit): Promise<string[]> {
 	const { data } = await octokit.rest.repos.getContent({
 		owner: ORG,
 		repo: "userstyles",
@@ -78,7 +78,10 @@ async function listSubthemeDirs(octokit: Octokit): Promise<string[]> {
 		.map((entry) => entry.name);
 }
 
-async function getSubthemeName(octokit: Octokit, dir: string): Promise<string> {
+async function getUserstyleName(
+	octokit: Octokit,
+	dir: string,
+): Promise<string> {
 	const { data } = await octokit.rest.repos.getContent({
 		owner: ORG,
 		repo: "userstyles",
@@ -92,27 +95,27 @@ async function getSubthemeName(octokit: Octokit, dir: string): Promise<string> {
 	return style.name;
 }
 
-async function getSubtheme(octokit: Octokit, dir: string): Promise<Subtheme> {
-	const name = await getSubthemeName(octokit, dir);
+async function getUserstyle(octokit: Octokit, dir: string): Promise<Userstyle> {
+	const name = await getUserstyleName(octokit, dir);
 	return {
 		name,
 		url: `https://github.com/${ORG}/userstyles/tree/main/styles/${dir}`,
 	};
 }
 
-async function listSubthemes(octokit: Octokit): Promise<Subtheme[]> {
-	const dirs = await listSubthemeDirs(octokit);
+async function listUserstyles(octokit: Octokit): Promise<Userstyle[]> {
+	const dirs = await listUserstyleDirs(octokit);
 	return mapWithConcurrency(dirs, CONCURRENCY, (dir) =>
-		getSubtheme(octokit, dir),
+		getUserstyle(octokit, dir),
 	);
 }
 
 async function enrichRepo(octokit: Octokit, repo: Repo): Promise<RepoOutput> {
-	const [contributors, subthemes] = await Promise.all([
+	const [contributors, userstyles] = await Promise.all([
 		listContributors(octokit, repo.name),
-		repo.name === "userstyles" ? listSubthemes(octokit) : undefined,
+		repo.name === "userstyles" ? listUserstyles(octokit) : undefined,
 	]);
-	return toRepoData(repo, { contributors, subthemes });
+	return toRepoData(repo, { contributors, userstyles });
 }
 
 function visibleRepos(repos: Repo[]): Repo[] {
@@ -150,7 +153,7 @@ function isRepetitiveTopic(
 
 function toRepoData(
 	repo: Repo,
-	enrichment: { contributors: Contributor[]; subthemes?: Subtheme[] },
+	enrichment: { contributors: Contributor[]; userstyles?: Userstyle[] },
 ): RepoOutput {
 	const { name, html_url, pushed_at, topics, custom_properties } = repo;
 	const displayName =
@@ -169,7 +172,7 @@ function toRepoData(
 			category: custom_properties?.category ?? "",
 			updatedAt: pushed_at!,
 			tags: tags.length > 0 ? tags : undefined,
-			subthemes: enrichment.subthemes,
+			userstyles: enrichment.userstyles,
 			contributors: enrichment.contributors,
 		},
 	};
@@ -186,7 +189,7 @@ function mergeRepoData(
 		related: existing.related as string[] | undefined,
 		updatedAt: incoming.updatedAt,
 		tags: incoming.tags,
-		subthemes: incoming.subthemes,
+		userstyles: incoming.userstyles,
 		contributors: incoming.contributors,
 	};
 }

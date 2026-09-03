@@ -44,7 +44,7 @@
 		searchText: string;
 		href: string;
 		icon: string;
-		subthemes?: { name: string }[];
+		userstyles?: { name: string }[];
 	};
 
 	export type Group = {
@@ -102,10 +102,10 @@
 
 	function matchHint(item: Item): string | null {
 		if (!query || item.label.toLowerCase().includes(query)) return null;
-		const subtheme = item.subthemes?.find((s) =>
+		const userstyle = item.userstyles?.find((s) =>
 			s.name.toLowerCase().includes(query),
 		);
-		return subtheme?.name ?? null;
+		return userstyle?.name ?? null;
 	}
 
 	function openMenu() {

@@ -19,14 +19,14 @@ function contributorImage(contributor: {
 function buildSearchText(
 	name: string,
 	tags: string[],
-	subthemes: { name: string }[],
+	userstyles: { name: string }[],
 ): string {
 	return (
 		name +
 		" " +
 		tags.join(" ") +
 		" " +
-		subthemes.map((t) => t.name).join(" ")
+		userstyles.map((t) => t.name).join(" ")
 	).toLowerCase();
 }
 
@@ -34,7 +34,7 @@ function normalizeOfficial(entry: CollectionEntry<"officialRepos">): Repo {
 	const d = entry.data;
 	const name = d.name ?? entry.id;
 	const tags = d.tags ?? [];
-	const subthemes = d.subthemes ?? [];
+	const userstyles = d.userstyles ?? [];
 	return {
 		slug: entry.id,
 		name,
@@ -45,11 +45,11 @@ function normalizeOfficial(entry: CollectionEntry<"officialRepos">): Repo {
 			image: contributorImage(c),
 		})),
 		category: d.category,
-		subthemes,
+		userstyles,
 		related: d.related ?? [],
 		ogImage: generatedOgImage(name),
 		ogImageAlt: `Rosé Pine for ${name}`,
-		searchText: buildSearchText(name, tags, subthemes),
+		searchText: buildSearchText(name, tags, userstyles),
 		updatedAt: d.updatedAt?.toISOString(),
 	};
 }
@@ -57,7 +57,7 @@ function normalizeOfficial(entry: CollectionEntry<"officialRepos">): Repo {
 function normalizeCommunity(entry: CollectionEntry<"communityRepos">): Repo {
 	const d = entry.data;
 	const tags = d.tags ?? [];
-	const subthemes = d.subthemes ?? [];
+	const userstyles = d.userstyles ?? [];
 	return {
 		slug: d.name.toLowerCase().replaceAll(" ", "-"),
 		name: d.name,
@@ -68,11 +68,11 @@ function normalizeCommunity(entry: CollectionEntry<"communityRepos">): Repo {
 			image: contributorImage(c),
 		})),
 		category: d.category,
-		subthemes,
+		userstyles,
 		related: d.related ?? [],
 		ogImage: generatedOgImage(d.name),
 		ogImageAlt: `Rosé Pine for ${d.name}`,
-		searchText: buildSearchText(d.name, tags, subthemes),
+		searchText: buildSearchText(d.name, tags, userstyles),
 	};
 }
 

@@ -8,7 +8,7 @@ const contributorSchema = z.object({
 	url: z.url(),
 });
 
-const subthemeSchema = z.object({
+const userstyleSchema = z.object({
 	name: z.string(),
 	url: z.string(),
 });
@@ -26,7 +26,7 @@ export const collections = {
 			name: z.string().optional(),
 			category: z.string(),
 			contributors: z.array(contributorSchema),
-			subthemes: z.array(subthemeSchema).optional(),
+			userstyles: z.array(userstyleSchema).optional(),
 			related: z.array(z.string()).optional(),
 		}),
 	}),
@@ -42,7 +42,7 @@ export const collections = {
 			tags: z.array(z.string()).optional(),
 			contributors: z.array(contributorSchema),
 			category: z.string(),
-			subthemes: z.array(subthemeSchema).optional(),
+			userstyles: z.array(userstyleSchema).optional(),
 			related: z.array(z.string()).optional(),
 		}),
 	}),

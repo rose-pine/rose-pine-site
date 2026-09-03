@@ -6,7 +6,7 @@ tags:
   - css
   - stylish
   - stylus
-subthemes:
+userstyles:
   - name: 4Get
     url: https://github.com/rose-pine/userstyles/tree/main/styles/4get
   - name: Advent of Code

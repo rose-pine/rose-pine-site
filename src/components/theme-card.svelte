@@ -10,12 +10,12 @@
 	let locale = getLocaleFromUrl();
 	let translatePath = useTranslatedPath(locale);
 
-	let matchedSubtheme = $derived.by(() => {
+	let matchedUserstyle = $derived.by(() => {
 		if (!query) return null;
 		const q = query.toLowerCase();
 		if (theme.name.toLowerCase().includes(q)) return null;
 		return (
-			theme.subthemes.find((s) => s.name.toLowerCase().includes(q)) ?? null
+			theme.userstyles.find((s) => s.name.toLowerCase().includes(q)) ?? null
 		);
 	});
 </script>
@@ -35,9 +35,9 @@
 					<h2 id={theme.slug} class="shrink truncate font-semibold text-nowrap">
 						{theme.name}
 					</h2>
-					{#if matchedSubtheme}
+					{#if matchedUserstyle}
 						<span class="shrink-0 truncate text-xs font-medium text-subtle">
-							— "{matchedSubtheme.name}"
+							— "{matchedUserstyle.name}"
 						</span>
 					{/if}
 				</div>
