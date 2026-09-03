@@ -9,7 +9,7 @@
 		"preview": "netlify serve",
 		"astro": "astro",
 		"format": "pnpm exec prettier --write .",
-		"sync:official-repos": "node scripts/sync-official-repos.ts"
+		"sync:official-repos": "node --env-file=.env scripts/sync-official-repos.ts"
 	},
 	"dependencies": {
 		"@astrojs/netlify": "^8.1.2",
