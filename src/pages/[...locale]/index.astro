@@ -3,13 +3,13 @@ import Flower10Icon from "../../assets/flower10.svg";
 import Flower5Icon from "../../assets/flower5.svg";
 import Flower7Icon from "../../assets/flower7.svg";
 import Scribbles from "../../assets/scribbles.svg";
-import { getAllRepos } from "../../data";
 import Page from "../../layouts/page.astro";
 import {
 	useTranslatedPath,
 	useTranslations,
 	withLocalePaths,
 } from "../../utilities/i18n";
+import { getRepoCount } from "../../utilities/repos";
 
 export async function getStaticPaths() {
 	return await withLocalePaths();
@@ -19,15 +19,13 @@ let { locale = "en" } = Astro.params;
 let t = useTranslations(locale);
 let translatePath = useTranslatedPath(locale);
 
-let allRepos = await getAllRepos();
-
-let REPOS_COUNT = String(Math.floor(allRepos.length / 10) * 10);
+let REPOS_COUNT = String(Math.floor((await getRepoCount()) / 10) * 10);
 ---
 
 <Page
 	title={t("home.title")}
 	description={t("home.description")}
-	ogImage={new URL("/opengraph-image.jpg", Astro.site)}
+	ogImage={new URL("/opengraph-image.jpg", Astro.site).href}
 	ogImageAlt="Rosé Pine"
 >
 	<section class="wrapper flex min-h-[58svh] flex-1 items-center">

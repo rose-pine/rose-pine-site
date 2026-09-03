@@ -1,6 +1,6 @@
 ---
 import BadgeIcon from "../assets/badge.svg";
-import { getRecentRepos, getSortedRepos } from "../data";
+import { getRecentRepos, getSortedRepos } from "../utilities/repos";
 import palette from "../data/palette.json";
 import {
 	getLocaleFromUrl,
@@ -44,51 +44,51 @@ let searchGroups: Group[] = [
 		items: [
 			{
 				label: t("nav.home"),
-				searchText: t("nav.home").toLowerCase(),
 				href: translatePath("/"),
 				icon: "home",
+				searchText: t("nav.home").toLowerCase(),
 			},
 			{
 				label: t("nav.themes"),
-				searchText: t("nav.themes").toLowerCase(),
 				href: translatePath("/themes"),
 				icon: "folder",
+				searchText: t("nav.themes").toLowerCase(),
 			},
 			{
 				label: t("nav.palette"),
-				searchText: t("nav.palette").toLowerCase(),
 				href: translatePath("/palette"),
 				icon: "rainbow",
+				searchText: t("nav.palette").toLowerCase(),
 			},
 			{
 				label: t("nav.create"),
-				searchText: t("nav.create").toLowerCase(),
 				href: translatePath("/create"),
 				icon: "sparkles",
+				searchText: t("nav.create").toLowerCase(),
 			},
 			{
 				label: t("nav.collection.photography"),
-				searchText: t("nav.collection.photography").toLowerCase(),
 				href: translatePath("/collections/photography"),
 				icon: "camera",
+				searchText: t("nav.collection.photography").toLowerCase(),
 			},
 			{
 				label: t("nav.collection.made-with"),
-				searchText: t("nav.collection.made-with").toLowerCase(),
 				href: translatePath("/collections/made-with"),
 				icon: "heart",
+				searchText: t("nav.collection.made-with").toLowerCase(),
 			},
 		],
 	},
 	{
 		heading: t("nav.themes"),
 		kind: "theme",
-		items: sortedRepos.map((repo) => ({
-			label: repo.name,
-			searchText: repo.searchText,
-			href: translatePath(`/themes/${repo.slug}`),
-			icon: repo.category,
-			userstyles: repo.userstyles,
+		items: sortedRepos.map((r) => ({
+			label: r.name,
+			href: translatePath(`/themes/${r.slug}`),
+			icon: r.category,
+			userstyles: r.userstyles,
+			searchText: r.searchText,
 		})),
 	},
 	{
@@ -96,9 +96,9 @@ let searchGroups: Group[] = [
 		kind: "color",
 		items: palette.main.map((color) => ({
 			label: color.name,
-			searchText: color.name.toLowerCase(),
 			href: translatePath(`/palette/${color.slug}`),
 			icon: color.slug,
+			searchText: color.name.toLowerCase(),
 		})),
 	},
 	{
@@ -107,21 +107,21 @@ let searchGroups: Group[] = [
 		items: [
 			{
 				label: "Email",
-				searchText: "email",
 				href: "mailto:hi@rosepinetheme.com",
 				icon: "inbox",
+				searchText: "email",
 			},
 			{
 				label: "Discord",
-				searchText: "discord",
 				href: "/discord",
 				icon: "discord",
+				searchText: "discord",
 			},
 			{
 				label: "GitHub",
-				searchText: "github",
 				href: "https://github.com/rose-pine",
 				icon: "github",
+				searchText: "github",
 			},
 		],
 	},
@@ -132,11 +132,11 @@ let defaultGroups: Group[] = [
 	{
 		heading: t("command.recent_themes"),
 		kind: "theme",
-		items: recentRepos.map((repo) => ({
-			label: repo.name,
-			searchText: repo.searchText,
-			href: translatePath(`/themes/${repo.slug}`),
-			icon: repo.category,
+		items: recentRepos.map((r) => ({
+			label: r.name,
+			href: translatePath(`/themes/${r.slug}`),
+			icon: r.category,
+			searchText: r.searchText,
 		})),
 	},
 	...searchGroups.slice(2),

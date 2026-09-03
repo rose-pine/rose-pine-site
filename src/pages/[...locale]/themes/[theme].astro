@@ -3,9 +3,8 @@ import Avatar from "../../../components/avatar.svelte";
 import { ArrowNEIcon } from "../../../components/icons";
 import ThemeCard from "../../../components/theme-card.svelte";
 import ThemeIcon from "../../../components/theme-icon.svelte";
-import { getAllRepos } from "../../../data";
 import Page from "../../../layouts/page.astro";
-import type { Repo } from "../../../types/theme";
+import type { StrictRepo } from "../../../types/repo";
 import {
 	formatDate,
 	getLocaleFromUrl,
@@ -18,6 +17,7 @@ import {
 	categoryPressedColorMap,
 	isValidIconCategory,
 } from "../../../utilities/icons";
+import { getAllRepos } from "../../../utilities/repos";
 
 export async function getStaticPaths() {
 	const repos = await getAllRepos();
@@ -37,7 +37,7 @@ let locale = getLocaleFromUrl(Astro.url);
 let t = useTranslations(locale);
 let translatePath = useTranslatedPath(locale);
 
-let { repo, relatedRepos = [] as Repo[] } = Astro.props;
+let { repo, relatedRepos = [] as StrictRepo[] } = Astro.props;
 
 let tonalClass = isValidIconCategory(repo.category)
 	? categoryColorMap[repo.category]
@@ -106,7 +106,7 @@ let tonalPressedClass = isValidIconCategory(repo.category)
 				</div>
 
 				{
-					repo.userstyles.length > 0 && (
+					repo.userstyles && repo.userstyles.length > 0 && (
 						<div>
 							<h2 class="mb-4 text-lg font-semibold">{t("themes.title")}</h2>
 							<ul role="list" class="auto-grid-36 gap-3">

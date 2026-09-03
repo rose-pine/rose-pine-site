@@ -4,8 +4,8 @@ import { defineCollection, reference } from "astro:content";
 
 const contributorSchema = z.object({
 	name: z.string(),
-	image: z.url().optional(),
 	url: z.url(),
+	image: z.url().optional(),
 });
 
 const userstyleSchema = z.object({

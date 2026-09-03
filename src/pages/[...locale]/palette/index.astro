@@ -4,10 +4,10 @@ import CopyColorButton from "../../../components/copy-color-button.svelte";
 import IntroSection from "../../../components/intro-section.astro";
 import PaletteColumnActions from "../../../components/palette-column-actions.svelte";
 import PaletteStyleToggle from "../../../components/palette-style-toggle.svelte";
-import { formatColor } from "../../../color";
 import palette from "../../../data/palette.json";
 import Page from "../../../layouts/page.astro";
 import type { Variant } from "../../../types/palette";
+import { formatColor } from "../../../utilities/color";
 import {
 	useTranslatedPath,
 	useTranslations,

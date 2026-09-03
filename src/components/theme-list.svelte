@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { themeSearch } from "../state.svelte";
-	import type { Repo } from "../types/theme";
+	import type { StrictRepo } from "../types/repo";
 	import ThemeCard from "./theme-card.svelte";
 
-	let { themes }: { themes: Repo[] } = $props();
+	let { themes }: { themes: StrictRepo[] } = $props();
 
 	let filteredThemes = $derived(
 		themes.filter(
