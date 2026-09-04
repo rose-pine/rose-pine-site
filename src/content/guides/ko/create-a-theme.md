@@ -1,9 +1,9 @@
 ---
 title: 테마 만들기
 description: 자주 사용하는 플랫폼에 Rosé Pine을 적용하기 위한 종합 가이드.
-author: Taeyoon Kim
-publishedAt: 2025-11-09T12:00:00-06:00
-updatedAt: 2025-11-09T12:00:00-06:00
+author: partrita
+publishedAt: 2026-09-04T12:00:00-06:00
+updatedAt: 2026-09-04T12:00:00-06:00
 ---
 
 Rosé Pine 멤버들은 커뮤니티 테마를 위해 절제된 팔레트를 창의적이고 다양하게 해석하는 것을 언제나 장려합니다. 만약 가이드와 함께 보다 체계적인 방식을 선호하신다면, 팀이 도움을 드릴 수 있는 Rosé Pine GitHub 조직의 공식 테마로 등록하는 것도 환영합니다.

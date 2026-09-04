@@ -1,9 +1,9 @@
 ---
 title: 번역 추가하기
 description: Rosé Pine 웹사이트 다국어 번역을 위한 안내 가이드.
-author: Taeyoon Kim
-publishedAt: 2025-11-09T12:00:00-06:00
-updatedAt: 2025-11-09T12:00:00-06:00
+author: partrita
+publishedAt: 2026-09-04T12:00:00-06:00
+updatedAt: 2026-09-04T12:00:00-06:00
 ---
 
 언어는 아름다우며 여러분의 언어를 다른 사람들과 공유해 주셔서 진심으로 감사드립니다! 아래에서는 웹사이트와 문서의 다양한 부분을 번역하는 방법을 안내합니다.
