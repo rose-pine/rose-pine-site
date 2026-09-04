@@ -24,9 +24,7 @@ type GithubRepo = {
 	name: string;
 	full_name: string;
 	private: boolean;
-	owner: {
-		login: string;
-	};
+	owner: GithubContributor;
 	html_url: string;
 	pushed_at: string;
 	archived: boolean;
@@ -115,18 +113,39 @@ async function fetchRepo(fullName: string): Promise<GithubRepo> {
 	return await github(`/repos/${fullName}`);
 }
 
-async function fetchContributors(fullName: string): Promise<Contributor[]> {
+async function fetchContributors(
+	fullName: string,
+	owner?: GithubContributor,
+): Promise<Contributor[]> {
 	try {
-		const contributors = await Array.fromAsync(
-			paginate<GithubContributor>(`/repos/${fullName}/contributors`),
+		const contributors = (
+			await Array.fromAsync(
+				paginate<GithubContributor>(`/repos/${fullName}/contributors`),
+			)
+		).filter((contributor) => !contributor.login.includes("[bot]"));
+
+		return (
+			contributors
+				.map((contributor) => ({
+					name: contributor.login,
+					url: contributor.html_url,
+					image: contributor.avatar_url,
+				}))
+				// If there are no contributors, fall back to the repository
+				// owner. Contributors can be empty when no commits have a
+				// contributor matching an active GitHub email.
+				.concat(
+					!contributors.length && owner
+						? [
+								{
+									name: owner.login,
+									url: owner.html_url,
+									image: owner.avatar_url,
+								},
+							]
+						: [],
+				)
 		);
-		return contributors
-			.filter((contributor) => !contributor.login.includes("[bot]"))
-			.map((contributor) => ({
-				name: contributor.login,
-				url: contributor.html_url,
-				image: contributor.avatar_url,
-			}));
 	} catch (error) {
 		console.warn(
 			`Skipping contributors for ${fullName}: ${(error as Error).message}`,
@@ -183,7 +202,7 @@ async function enrichRepo(
 ): Promise<RepoData> {
 	const org = isOrgRepo(remote);
 	const fullName = githubSlugFromURL(remote.html_url) ?? "";
-	const contributors = await fetchContributors(fullName);
+	const contributors = await fetchContributors(fullName, remote.owner);
 	const userstyles =
 		fullName === `${ORG}/userstyles`
 			? await fetchUserstyles()
