@@ -154,7 +154,10 @@ async function fetchContributors(
 	}
 }
 
-async function fetchUserstyles(): Promise<Userstyle[]> {
+async function fetchUserstyles(
+	localUserstyles?: Userstyle[],
+): Promise<Userstyle[]> {
+	const cache = localUserstyles ?? [];
 	const dirs = (
 		await github<GithubContent[]>(`/repos/${ORG}/userstyles/contents/styles`)
 	)
@@ -172,6 +175,15 @@ async function fetchUserstyles(): Promise<Userstyle[]> {
 				url: `https://github.com/${ORG}/userstyles/tree/main/styles/${name}`,
 			};
 		} catch (error) {
+			const cached = cache.find((userstyle) =>
+				userstyle.url.endsWith(`/styles/${name}`),
+			);
+			if (cached) {
+				console.warn(
+					`Keeping cached userstyle ${name}: ${(error as Error).message}`,
+				);
+				return cached;
+			}
 			console.warn(`Skipping userstyle ${name}: ${(error as Error).message}`);
 			return null;
 		}
@@ -205,7 +217,7 @@ async function enrichRepo(
 	const contributors = await fetchContributors(fullName, remote.owner);
 	const userstyles =
 		fullName === `${ORG}/userstyles`
-			? await fetchUserstyles()
+			? await fetchUserstyles(local?.userstyles)
 			: local?.userstyles;
 
 	return {
