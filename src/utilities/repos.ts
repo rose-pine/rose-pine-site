@@ -1,15 +1,15 @@
 import { getCollection, type CollectionEntry } from "astro:content";
-import type { StrictRepo } from "../types/repo";
+import type { Repo } from "../types/repo";
 
-let reposPromise: Promise<StrictRepo[]> | undefined;
+let reposPromise: Promise<Repo[]> | undefined;
 
-function allRepos(): Promise<StrictRepo[]> {
+function allRepos(): Promise<Repo[]> {
 	return (reposPromise ??= getCollection("repos").then((entries) =>
 		entries.map(normalizeRepo),
 	));
 }
 
-export async function getAllRepos(): Promise<StrictRepo[]> {
+export async function getAllRepos(): Promise<Repo[]> {
 	return allRepos();
 }
 
@@ -17,14 +17,14 @@ export async function getRepoCount(): Promise<number> {
 	return (await allRepos()).length;
 }
 
-export async function getSortedRepos(): Promise<StrictRepo[]> {
+export async function getSortedRepos(): Promise<Repo[]> {
 	return (await allRepos()).sort((a, b) => a.name.localeCompare(b.name));
 }
 
-export async function getRecentRepos(): Promise<StrictRepo[]> {
+export async function getRecentRepos(): Promise<Repo[]> {
 	return (await allRepos())
 		.filter((r) => r.updatedAt)
-		.sort((a, b) => b.updatedAt!.localeCompare(a.updatedAt!))
+		.sort((a, b) => b.updatedAt!.getTime() - a.updatedAt!.getTime())
 		.slice(0, 10);
 }
 
@@ -35,7 +35,7 @@ export async function getContributorCount(): Promise<number> {
 	return names.size;
 }
 
-export function normalizeRepo(entry: CollectionEntry<"repos">): StrictRepo {
+export function normalizeRepo(entry: CollectionEntry<"repos">): Repo {
 	const repo = entry.data;
 	const tags = repo.tags ?? [];
 	const userstyles = repo.userstyles ?? [];
@@ -49,10 +49,7 @@ export function normalizeRepo(entry: CollectionEntry<"repos">): StrictRepo {
 		category: repo.category,
 		userstyles: repo.userstyles ?? [],
 		related: repo.related ?? [],
-		ogImage: `https://rose-pine-images.vercel.app/${encodeURIComponent(repo.name)}.png?theme=default`,
-		ogImageAlt: `Rosé Pine for ${repo.name}`,
-		// TODO: toISOString in sync script
-		updatedAt: repo.updatedAt?.toISOString() ?? "",
+		updatedAt: repo.updatedAt ?? undefined,
 		searchText: [
 			repo.name,
 			repo.category,

@@ -9,6 +9,19 @@ export type Userstyle = {
 	url: string;
 };
 
+export type RepoData = {
+	type: "official" | "community";
+	slug?: string;
+	name: string;
+	url: string;
+	category: string;
+	tags?: string[];
+	contributors: Contributor[];
+	userstyles?: Userstyle[];
+	updatedAt?: Date;
+	related?: string[];
+};
+
 export type Repo = {
 	type: "official" | "community";
 	slug: string;
@@ -17,11 +30,8 @@ export type Repo = {
 	category: string;
 	tags: string[];
 	contributors: Contributor[];
-	userstyles?: Userstyle[];
-	updatedAt?: string;
-	related?: string[];
-	ogImage?: string;
-	ogImageAlt?: string;
+	userstyles: Userstyle[];
+	updatedAt?: Date;
+	related: string[];
+	searchText: string;
 };
-
-export type StrictRepo = Required<Repo> & { searchText: string };

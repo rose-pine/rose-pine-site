@@ -1,24 +1,12 @@
 import { readdir, readFile, writeFile } from "node:fs/promises";
 import { parse, stringify } from "yaml";
-import type { Contributor, Userstyle } from "../src/types/repo.ts";
+import type { Contributor, RepoData, Userstyle } from "../src/types/repo.ts";
 
 const ORG = "rose-pine";
 const OUTPUT = "./src/content/repos";
 const BATCH_SIZE = 20;
 
 const GITHUB_URL_PATTERN = /github\.com\/([^/\s]+)\/([^/\s/?#]+)/;
-
-type LocalRepo = {
-	type: "official" | "community";
-	name: string;
-	url: string;
-	category: string;
-	updatedAt?: string;
-	tags?: string[];
-	contributors: Contributor[];
-	userstyles?: Userstyle[];
-	related?: string[];
-};
 
 type GithubContent = {
 	name: string;
@@ -175,11 +163,11 @@ async function fetchUserstyles(): Promise<Userstyle[]> {
 	);
 }
 
-async function readLocalRepos(): Promise<{ repo: LocalRepo; file: string }[]> {
+async function readLocalRepos(): Promise<{ repo: RepoData; file: string }[]> {
 	const files = (await readdir(OUTPUT)).filter((f) => f.endsWith(".yaml"));
 	return await Promise.all(
 		files.map(async (file) => ({
-			repo: parse(await readFile(`${OUTPUT}/${file}`, "utf-8")) as LocalRepo,
+			repo: parse(await readFile(`${OUTPUT}/${file}`, "utf-8")) as RepoData,
 			file,
 		})),
 	);
@@ -190,9 +178,9 @@ function isOrgRepo(remote: GithubRepo): boolean {
 }
 
 async function enrichRepo(
-	local: LocalRepo | undefined,
+	local: RepoData | undefined,
 	remote: GithubRepo,
-): Promise<LocalRepo> {
+): Promise<RepoData> {
 	const org = isOrgRepo(remote);
 	const fullName = githubSlugFromURL(remote.html_url) ?? "";
 	const contributors = await fetchContributors(fullName);
@@ -204,19 +192,21 @@ async function enrichRepo(
 	return {
 		...local,
 		type: org ? "official" : "community",
-		name: org ? (remote.custom_properties?.name ?? remote.name) : local!.name,
+		name: org
+			? (remote.custom_properties?.name ?? remote.name)
+			: (local?.name ?? remote.name),
 		category: remote.custom_properties?.category ?? local?.category ?? "none",
 		url: remote.html_url,
-		tags: org ? ordinaryTopics(remote) : local!.tags,
+		tags: org ? (ordinaryTopics(remote) ?? []) : local?.tags,
 		contributors,
-		updatedAt: remote.pushed_at,
+		updatedAt: new Date(remote.pushed_at),
 		...(userstyles && { userstyles }),
 	};
 }
 
 async function seedOrgRepos(
-	localRepos: { repo: LocalRepo; file: string }[],
-): Promise<{ repo: LocalRepo; file: string }[]> {
+	localRepos: { repo: RepoData; file: string }[],
+): Promise<{ repo: RepoData; file: string }[]> {
 	const remotes = await fetchOrgRepos();
 	const newRepos = await Promise.all(
 		remotes
@@ -244,9 +234,9 @@ async function seedOrgRepos(
 }
 
 async function enrichEntry(entry: {
-	repo: LocalRepo;
+	repo: RepoData;
 	file: string;
-}): Promise<{ repo: LocalRepo; file: string }> {
+}): Promise<{ repo: RepoData; file: string }> {
 	const { repo: local, file } = entry;
 	const fullName = githubSlugFromURL(local.url);
 	if (!fullName) {
@@ -273,7 +263,7 @@ async function enrichEntry(entry: {
 }
 
 async function writeRepos(
-	items: { repo: LocalRepo; file: string }[],
+	items: { repo: RepoData; file: string }[],
 ): Promise<void> {
 	const written = new Set<string>();
 	const seen = new Set<string>();

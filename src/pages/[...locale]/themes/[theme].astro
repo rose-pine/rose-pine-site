@@ -4,7 +4,7 @@ import { ArrowNEIcon } from "../../../components/icons";
 import ThemeCard from "../../../components/theme-card.svelte";
 import ThemeIcon from "../../../components/theme-icon.svelte";
 import Page from "../../../layouts/page.astro";
-import type { StrictRepo } from "../../../types/repo";
+import type { Repo } from "../../../types/repo";
 import {
 	formatDate,
 	getLocaleFromUrl,
@@ -37,7 +37,7 @@ let locale = getLocaleFromUrl(Astro.url);
 let t = useTranslations(locale);
 let translatePath = useTranslatedPath(locale);
 
-let { repo, relatedRepos = [] as StrictRepo[] } = Astro.props;
+let { repo, relatedRepos = [] as Repo[] } = Astro.props;
 
 let tonalClass = isValidIconCategory(repo.category)
 	? categoryColorMap[repo.category]
@@ -50,7 +50,7 @@ let tonalPressedClass = isValidIconCategory(repo.category)
 <Page
 	title={repo.name}
 	description={`Soho vibes for ${repo.name}`}
-	ogImage={repo.ogImage}
+	ogImage={`https://rose-pine-images.vercel.app/${encodeURIComponent(repo.name)}.png?theme=default`}
 	ogImageAlt={`Rosé Pine for ${repo.name}`}
 >
 	<section class="animate-enter wrapper" style="--stagger: 1">

@@ -1,11 +1,11 @@
 <script lang="ts">
-	import type { StrictRepo } from "../types/repo";
+	import type { Repo } from "../types/repo";
 	import { getLocaleFromUrl, useTranslatedPath } from "../utilities/i18n";
 	import { isValidIconCategory } from "../utilities/icons";
 	import { UsersIcon } from "./icons";
 	import ThemeIcon from "./theme-icon.svelte";
 
-	let { theme, query = "" }: { theme: StrictRepo; query?: string } = $props();
+	let { theme, query = "" }: { theme: Repo; query?: string } = $props();
 
 	let locale = getLocaleFromUrl();
 	let translatePath = useTranslatedPath(locale);
