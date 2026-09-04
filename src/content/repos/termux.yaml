@@ -2,7 +2,7 @@ type: official
 name: Termux
 url: https://github.com/rose-pine/termux
 category: terminal
-updatedAt: 2025-11-05T14:51:01Z
+updatedAt: 2025-11-05T14:51:01.000Z
 tags:
   - mobile
 contributors:

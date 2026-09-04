@@ -2,7 +2,7 @@ type: official
 name: Terminator
 url: https://github.com/rose-pine/terminator
 category: terminal
-updatedAt: 2025-11-28T04:18:05Z
+updatedAt: 2025-11-28T04:18:05.000Z
 tags:
   - terminal-emulator
 contributors:

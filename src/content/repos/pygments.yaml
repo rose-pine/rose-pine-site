@@ -2,7 +2,7 @@ type: official
 name: Pygments
 url: https://github.com/rose-pine/pygments
 category: library
-updatedAt: 2026-02-02T21:03:50Z
+updatedAt: 2026-02-02T21:03:50.000Z
 tags:
   - ipython
   - pygments-style

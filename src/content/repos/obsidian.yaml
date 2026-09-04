@@ -2,7 +2,7 @@ type: official
 name: Obsidian
 url: https://github.com/rose-pine/obsidian
 category: editor
-updatedAt: 2026-07-30T07:32:50Z
+updatedAt: 2026-07-30T07:32:50.000Z
 contributors:
   - name: JTrenerry
     url: https://github.com/JTrenerry
@@ -16,3 +16,4 @@ contributors:
   - name: nicolaskemp03
     url: https://github.com/nicolaskemp03
     image: https://avatars.githubusercontent.com/u/179891880?v=4
+tags: []

@@ -2,7 +2,7 @@ type: official
 name: Helix
 url: https://github.com/rose-pine/helix
 category: editor
-updatedAt: 2026-04-16T23:44:01Z
+updatedAt: 2026-04-16T23:44:01.000Z
 tags:
   - hacktoberfest
 contributors:

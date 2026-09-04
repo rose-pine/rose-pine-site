@@ -2,7 +2,7 @@ type: official
 name: Sublime Text
 url: https://github.com/rose-pine/sublime-text
 category: editor
-updatedAt: 2025-11-05T14:50:52Z
+updatedAt: 2025-11-05T14:50:52.000Z
 tags:
   - hacktoberfest
 contributors:

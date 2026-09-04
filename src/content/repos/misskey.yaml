@@ -2,7 +2,7 @@ type: official
 name: Misskey
 url: https://github.com/rose-pine/misskey
 category: browser
-updatedAt: 2025-11-05T14:46:56Z
+updatedAt: 2025-11-05T14:46:56.000Z
 tags:
   - misskey-theme
 contributors:

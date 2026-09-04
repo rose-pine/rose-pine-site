@@ -2,7 +2,7 @@ type: official
 name: Typst
 url: https://github.com/rose-pine/typst
 category: terminal
-updatedAt: 2026-04-30T00:30:54Z
+updatedAt: 2026-04-30T00:30:54.000Z
 contributors:
   - name: oplik0
     url: https://github.com/oplik0
@@ -16,3 +16,4 @@ contributors:
   - name: mvllow
     url: https://github.com/mvllow
     image: https://avatars.githubusercontent.com/u/1474821?v=4
+tags: []

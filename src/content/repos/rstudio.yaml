@@ -2,7 +2,7 @@ type: official
 name: Rstudio
 url: https://github.com/rose-pine/rstudio
 category: editor
-updatedAt: 2025-11-05T14:50:42Z
+updatedAt: 2025-11-05T14:50:42.000Z
 contributors:
   - name: wujackwill
     url: https://github.com/wujackwill
@@ -10,3 +10,4 @@ contributors:
   - name: mvllow
     url: https://github.com/mvllow
     image: https://avatars.githubusercontent.com/u/1474821?v=4
+tags: []

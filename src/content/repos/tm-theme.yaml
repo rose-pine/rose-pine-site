@@ -2,7 +2,7 @@ type: official
 name: TextMate
 url: https://github.com/rose-pine/tm-theme
 category: editor
-updatedAt: 2026-06-22T15:20:27Z
+updatedAt: 2026-06-22T15:20:27.000Z
 contributors:
   - name: mvllow
     url: https://github.com/mvllow
@@ -16,3 +16,4 @@ contributors:
   - name: wzykubek
     url: https://github.com/wzykubek
     image: https://avatars.githubusercontent.com/u/37913333?v=4
+tags: []

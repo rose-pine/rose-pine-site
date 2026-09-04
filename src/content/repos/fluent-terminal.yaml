@@ -2,7 +2,7 @@ type: official
 name: Fluent Terminal
 url: https://github.com/rose-pine/fluent-terminal
 category: terminal
-updatedAt: 2025-11-05T14:46:19Z
+updatedAt: 2025-11-05T14:46:19.000Z
 tags:
   - terminal-emulator
 contributors:

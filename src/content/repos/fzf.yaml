@@ -2,7 +2,7 @@ type: official
 name: fzf
 url: https://github.com/rose-pine/fzf
 category: terminal
-updatedAt: 2025-11-05T14:46:21Z
+updatedAt: 2025-11-05T14:46:21.000Z
 contributors:
   - name: ThatOneCalculator
     url: https://github.com/ThatOneCalculator
@@ -16,3 +16,4 @@ contributors:
   - name: cutbypham
     url: https://github.com/cutbypham
     image: https://avatars.githubusercontent.com/u/40050527?v=4
+tags: []

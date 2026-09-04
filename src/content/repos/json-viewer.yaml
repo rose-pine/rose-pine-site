@@ -2,5 +2,8 @@ type: community
 name: JSON Viewer
 url: https://github.com/emlez/json-viewer
 category: browser
-updatedAt: 2022-04-09T06:05:30Z
-contributors: []
+updatedAt: 2022-04-09T06:05:30.000Z
+contributors:
+  - name: emlez
+    url: https://github.com/emlez
+    image: https://avatars.githubusercontent.com/u/64607766?v=4

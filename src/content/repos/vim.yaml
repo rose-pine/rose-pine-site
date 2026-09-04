@@ -2,7 +2,7 @@ type: official
 name: Vim
 url: https://github.com/rose-pine/vim
 category: editor
-updatedAt: 2026-06-05T17:42:35Z
+updatedAt: 2026-06-05T17:42:35.000Z
 contributors:
   - name: prateektade
     url: https://github.com/prateektade
@@ -19,3 +19,4 @@ contributors:
   - name: tjkirch
     url: https://github.com/tjkirch
     image: https://avatars.githubusercontent.com/u/13994?v=4
+tags: []

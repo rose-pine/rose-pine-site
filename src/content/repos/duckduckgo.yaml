@@ -2,7 +2,7 @@ type: community
 name: DuckDuckGo
 url: https://github.com/cobcobs/duckduckgo
 category: browser
-updatedAt: 2022-03-08T12:40:16Z
+updatedAt: 2022-03-08T12:40:16.000Z
 contributors:
   - name: cobcobs
     url: https://github.com/cobcobs

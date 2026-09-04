@@ -2,7 +2,7 @@ type: official
 name: pywal
 url: https://github.com/rose-pine/pywal
 category: library
-updatedAt: 2025-11-05T14:50:29Z
+updatedAt: 2025-11-05T14:50:29.000Z
 tags:
   - terminal
   - terminal-emulator

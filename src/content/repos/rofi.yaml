@@ -2,7 +2,7 @@ type: official
 name: Rofi
 url: https://github.com/rose-pine/rofi
 category: system
-updatedAt: 2025-11-16T14:37:12Z
+updatedAt: 2025-11-16T14:37:12.000Z
 contributors:
   - name: ThatOneCalculator
     url: https://github.com/ThatOneCalculator
@@ -13,3 +13,4 @@ contributors:
   - name: milanglacier
     url: https://github.com/milanglacier
     image: https://avatars.githubusercontent.com/u/45728125?v=4
+tags: []

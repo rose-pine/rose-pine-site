@@ -2,7 +2,7 @@ type: official
 name: Limine
 url: https://github.com/rose-pine/limine
 category: system
-updatedAt: 2026-02-22T16:30:53Z
+updatedAt: 2026-02-22T16:30:53.000Z
 tags:
   - bootloader
   - limine-bootloader

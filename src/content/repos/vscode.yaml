@@ -2,7 +2,7 @@ type: official
 name: Visual Studio Code
 url: https://github.com/rose-pine/vscode
 category: editor
-updatedAt: 2026-07-16T19:01:36Z
+updatedAt: 2026-07-16T19:01:36.000Z
 tags:
   - hacktoberfest
   - vscode

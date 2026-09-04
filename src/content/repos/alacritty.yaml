@@ -2,7 +2,7 @@ type: official
 name: Alacritty
 url: https://github.com/rose-pine/alacritty
 category: terminal
-updatedAt: 2025-11-19T20:04:17Z
+updatedAt: 2025-11-19T20:04:17.000Z
 tags:
   - terminal-emulator
 contributors:

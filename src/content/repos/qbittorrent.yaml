@@ -2,7 +2,7 @@ type: official
 name: qBittorrent
 url: https://github.com/rose-pine/qbittorrent
 category: editor
-updatedAt: 2025-11-05T14:50:30Z
+updatedAt: 2025-11-05T14:50:30.000Z
 contributors:
   - name: juliamertz
     url: https://github.com/juliamertz
@@ -10,3 +10,4 @@ contributors:
   - name: mvllow
     url: https://github.com/mvllow
     image: https://avatars.githubusercontent.com/u/1474821?v=4
+tags: []

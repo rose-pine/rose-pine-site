@@ -2,7 +2,7 @@ type: official
 name: Yazi
 url: https://github.com/rose-pine/yazi
 category: terminal
-updatedAt: 2026-02-23T19:28:55Z
+updatedAt: 2026-02-23T19:28:55.000Z
 contributors:
   - name: Mintass
     url: https://github.com/Mintass
@@ -13,3 +13,4 @@ contributors:
   - name: hikaru-kajita
     url: https://github.com/hikaru-kajita
     image: https://avatars.githubusercontent.com/u/61526956?v=4
+tags: []

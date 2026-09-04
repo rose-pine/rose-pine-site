@@ -2,7 +2,7 @@ type: official
 name: Revolt
 url: https://github.com/rose-pine/revolt
 category: browser
-updatedAt: 2025-11-05T14:50:35Z
+updatedAt: 2025-11-05T14:50:35.000Z
 tags:
   - css
   - hacktoberfest

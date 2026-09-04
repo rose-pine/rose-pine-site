@@ -2,7 +2,7 @@ type: official
 name: Zellij
 url: https://github.com/rose-pine/zellij
 category: terminal
-updatedAt: 2025-11-05T14:51:25Z
+updatedAt: 2025-11-05T14:51:25.000Z
 contributors:
   - name: anihm136
     url: https://github.com/anihm136
@@ -16,3 +16,4 @@ contributors:
   - name: mvllow
     url: https://github.com/mvllow
     image: https://avatars.githubusercontent.com/u/1474821?v=4
+tags: []

@@ -2,7 +2,7 @@ type: official
 name: Hyprland
 url: https://github.com/rose-pine/hyprland
 category: system
-updatedAt: 2026-06-20T11:52:46Z
+updatedAt: 2026-06-20T11:52:46.000Z
 tags:
   - color-palette
   - tiling-window-manager

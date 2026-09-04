@@ -2,7 +2,7 @@ type: official
 name: tmux
 url: https://github.com/rose-pine/tmux
 category: terminal
-updatedAt: 2026-09-01T17:55:35Z
+updatedAt: 2026-09-01T17:55:35.000Z
 contributors:
   - name: mrs4ndman
     url: https://github.com/mrs4ndman
@@ -49,3 +49,4 @@ contributors:
   - name: lluchkaa
     url: https://github.com/lluchkaa
     image: https://avatars.githubusercontent.com/u/37471864?v=4
+tags: []

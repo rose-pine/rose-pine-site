@@ -2,7 +2,7 @@ type: official
 name: Zed
 url: https://github.com/rose-pine/zed
 category: editor
-updatedAt: 2026-07-30T18:15:49Z
+updatedAt: 2026-07-30T18:15:49.000Z
 contributors:
   - name: ThatOneCalculator
     url: https://github.com/ThatOneCalculator
@@ -31,3 +31,4 @@ contributors:
   - name: mvllow
     url: https://github.com/mvllow
     image: https://avatars.githubusercontent.com/u/1474821?v=4
+tags: []

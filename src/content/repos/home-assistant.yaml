@@ -2,7 +2,7 @@ type: official
 name: Home Assistant
 url: https://github.com/rose-pine/home-assistant
 category: none
-updatedAt: 2026-08-13T08:03:33Z
+updatedAt: 2026-08-13T08:03:33.000Z
 contributors:
   - name: juliamertz
     url: https://github.com/juliamertz
@@ -10,3 +10,4 @@ contributors:
   - name: SDenny
     url: https://github.com/SDenny
     image: https://avatars.githubusercontent.com/u/3668475?v=4
+tags: []

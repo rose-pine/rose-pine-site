@@ -2,7 +2,7 @@ type: official
 name: Wallpapers
 url: https://github.com/rose-pine/wallpapers
 category: system
-updatedAt: 2026-08-19T02:36:59Z
+updatedAt: 2026-08-19T02:36:59.000Z
 contributors:
   - name: ThatOneCalculator
     url: https://github.com/ThatOneCalculator
@@ -46,3 +46,4 @@ contributors:
   - name: whyevery
     url: https://github.com/whyevery
     image: https://avatars.githubusercontent.com/u/294159133?v=4
+tags: []

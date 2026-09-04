@@ -2,7 +2,7 @@ type: official
 name: lazygit
 url: https://github.com/rose-pine/lazygit
 category: terminal
-updatedAt: 2025-11-05T14:46:47Z
+updatedAt: 2025-11-05T14:46:47.000Z
 contributors:
   - name: Mintass
     url: https://github.com/Mintass
@@ -10,3 +10,4 @@ contributors:
   - name: mvllow
     url: https://github.com/mvllow
     image: https://avatars.githubusercontent.com/u/1474821?v=4
+tags: []

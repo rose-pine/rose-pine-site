@@ -2,7 +2,7 @@ type: official
 name: Instatus
 url: https://github.com/rose-pine/instatus
 category: browser
-updatedAt: 2025-11-05T14:46:39Z
+updatedAt: 2025-11-05T14:46:39.000Z
 tags:
   - css
   - status-page

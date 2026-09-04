@@ -2,7 +2,7 @@ type: official
 name: Surfingkeys
 url: https://github.com/rose-pine/surfingkeys
 category: browser
-updatedAt: 2025-11-05T14:50:54Z
+updatedAt: 2025-11-05T14:50:54.000Z
 contributors:
   - name: cutbypham
     url: https://github.com/cutbypham
@@ -16,3 +16,4 @@ contributors:
   - name: maiykill
     url: https://github.com/maiykill
     image: https://avatars.githubusercontent.com/u/70015530?v=4
+tags: []

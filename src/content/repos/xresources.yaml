@@ -2,7 +2,7 @@ type: official
 name: Xresources
 url: https://github.com/rose-pine/xresources
 category: terminal
-updatedAt: 2025-11-05T14:51:22Z
+updatedAt: 2025-11-05T14:51:22.000Z
 contributors:
   - name: harishnkr
     url: https://github.com/harishnkr
@@ -13,3 +13,4 @@ contributors:
   - name: mvllow
     url: https://github.com/mvllow
     image: https://avatars.githubusercontent.com/u/1474821?v=4
+tags: []

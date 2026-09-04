@@ -1,8 +1,0 @@
-type: community
-name: Kakoune
-url: https://gitea.nulo.in/Nulo/rose-pine.kak
-tags: []
-contributors:
-  - name: Nulo
-    url: https://nulo.in
-category: editor

@@ -2,7 +2,7 @@ type: official
 name: Starship
 url: https://github.com/rose-pine/starship
 category: terminal
-updatedAt: 2025-11-05T14:50:49Z
+updatedAt: 2025-11-05T14:50:49.000Z
 tags:
   - shell
 contributors:

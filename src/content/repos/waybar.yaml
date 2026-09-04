@@ -2,7 +2,7 @@ type: official
 name: Waybar
 url: https://github.com/rose-pine/waybar
 category: system
-updatedAt: 2025-11-05T14:51:17Z
+updatedAt: 2025-11-05T14:51:17.000Z
 tags:
   - color-palette
 contributors:

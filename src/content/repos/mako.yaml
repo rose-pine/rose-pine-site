@@ -2,7 +2,7 @@ type: official
 name: mako
 url: https://github.com/rose-pine/mako
 category: system
-updatedAt: 2025-11-05T14:46:52Z
+updatedAt: 2025-11-05T14:46:52.000Z
 contributors:
   - name: stanekondrej
     url: https://github.com/stanekondrej
@@ -10,3 +10,4 @@ contributors:
   - name: mvllow
     url: https://github.com/mvllow
     image: https://avatars.githubusercontent.com/u/1474821?v=4
+tags: []

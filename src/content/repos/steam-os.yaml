@@ -2,7 +2,7 @@ type: official
 name: SteamOS
 url: https://github.com/rose-pine/steam-os
 category: system
-updatedAt: 2025-11-05T14:50:51Z
+updatedAt: 2025-11-05T14:50:51.000Z
 tags:
   - steam
   - steam-os

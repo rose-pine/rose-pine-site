@@ -2,7 +2,7 @@ type: official
 name: OBS Studio
 url: https://github.com/rose-pine/obs
 category: editor
-updatedAt: 2025-11-05T14:50:19Z
+updatedAt: 2025-11-05T14:50:19.000Z
 tags:
   - obs
   - obsstudio

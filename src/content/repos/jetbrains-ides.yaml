@@ -2,7 +2,7 @@ type: community
 name: JetBrains IDEs
 url: https://github.com/bomgar/rose-pine-jetbrains
 category: editor
-updatedAt: 2026-09-02T10:28:56Z
+updatedAt: 2026-09-02T10:28:56.000Z
 contributors:
   - name: bomgar
     url: https://github.com/bomgar

@@ -2,7 +2,7 @@ type: official
 name: GlazeWM
 url: https://github.com/rose-pine/glazewm
 category: system
-updatedAt: 2025-11-05T14:46:27Z
+updatedAt: 2025-11-05T14:46:27.000Z
 contributors:
   - name: jishnurajendran
     url: https://github.com/jishnurajendran
@@ -13,3 +13,4 @@ contributors:
   - name: mvllow
     url: https://github.com/mvllow
     image: https://avatars.githubusercontent.com/u/1474821?v=4
+tags: []

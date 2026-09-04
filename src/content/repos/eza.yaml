@@ -2,7 +2,7 @@ type: official
 name: eza
 url: https://github.com/rose-pine/eza
 category: terminal
-updatedAt: 2026-08-19T12:54:38Z
+updatedAt: 2026-08-19T12:54:38.000Z
 tags:
   - cli
   - colorscheme

@@ -2,7 +2,7 @@ type: official
 name: MailSpring
 url: https://github.com/rose-pine/mailspring
 category: social
-updatedAt: 2025-11-05T15:00:06Z
+updatedAt: 2025-11-05T15:00:06.000Z
 contributors:
   - name: bengotow
     url: https://github.com/bengotow
@@ -19,3 +19,4 @@ contributors:
   - name: toxicmender
     url: https://github.com/toxicmender
     image: https://avatars.githubusercontent.com/u/13049649?v=4
+tags: []

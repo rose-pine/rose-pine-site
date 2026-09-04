@@ -2,7 +2,7 @@ type: official
 name: Terminal.app
 url: https://github.com/rose-pine/terminal.app
 category: terminal
-updatedAt: 2025-11-05T13:41:24Z
+updatedAt: 2025-11-05T13:41:24.000Z
 tags:
   - terminal-app
   - terminal-emulator

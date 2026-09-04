@@ -2,7 +2,7 @@ type: official
 name: foot
 url: https://github.com/rose-pine/foot
 category: terminal
-updatedAt: 2026-03-09T19:07:58Z
+updatedAt: 2026-03-09T19:07:58.000Z
 tags:
   - foot-terminal
   - terminal-emulator

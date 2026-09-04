@@ -2,7 +2,7 @@ type: official
 name: Slack
 url: https://github.com/rose-pine/slack
 category: browser
-updatedAt: 2025-11-05T14:50:46Z
+updatedAt: 2025-11-05T14:50:46.000Z
 tags:
   - css
   - hacktoberfest

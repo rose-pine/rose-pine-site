@@ -2,7 +2,7 @@ type: official
 name: iTerm2
 url: https://github.com/rose-pine/iterm
 category: terminal
-updatedAt: 2025-11-05T15:07:40Z
+updatedAt: 2025-11-05T15:07:40.000Z
 tags:
   - iterm
   - terminal-emulator

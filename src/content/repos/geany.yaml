@@ -2,7 +2,7 @@ type: official
 name: Geany
 url: https://github.com/rose-pine/geany
 category: editor
-updatedAt: 2025-11-05T14:46:23Z
+updatedAt: 2025-11-05T14:46:23.000Z
 contributors:
   - name: bonbuggie
     url: https://github.com/bonbuggie
@@ -22,3 +22,4 @@ contributors:
   - name: nekowinston
     url: https://github.com/nekowinston
     image: https://avatars.githubusercontent.com/u/79978224?v=4
+tags: []

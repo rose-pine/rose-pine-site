@@ -2,7 +2,7 @@ type: official
 name: GRUB
 url: https://github.com/rose-pine/grub
 category: system
-updatedAt: 2025-11-05T14:46:31Z
+updatedAt: 2025-11-05T14:46:31.000Z
 contributors:
   - name: ThatOneCalculator
     url: https://github.com/ThatOneCalculator
@@ -19,3 +19,4 @@ contributors:
   - name: quunnb
     url: https://github.com/quunnb
     image: https://avatars.githubusercontent.com/u/76442633?v=4
+tags: []

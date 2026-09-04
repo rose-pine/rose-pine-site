@@ -2,7 +2,7 @@ type: official
 name: Firefox
 url: https://github.com/rose-pine/firefox
 category: browser
-updatedAt: 2026-03-07T16:20:23Z
+updatedAt: 2026-03-07T16:20:23.000Z
 tags:
   - addon
   - firefox-addon

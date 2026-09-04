@@ -2,7 +2,7 @@ type: official
 name: GoToSocial
 url: https://github.com/rose-pine/gotosocial
 category: browser
-updatedAt: 2025-12-14T16:57:25Z
+updatedAt: 2025-12-14T16:57:25.000Z
 tags:
   - custom-css
   - fediverse

@@ -2,7 +2,7 @@ type: official
 name: GitKraken
 url: https://github.com/rose-pine/gitkraken
 category: editor
-updatedAt: 2025-11-05T14:46:26Z
+updatedAt: 2025-11-05T14:46:26.000Z
 tags:
   - git
   - hacktoberfest

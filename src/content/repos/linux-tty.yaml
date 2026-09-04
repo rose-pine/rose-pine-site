@@ -2,7 +2,7 @@ type: official
 name: Linux TTY
 url: https://github.com/rose-pine/linux-tty
 category: terminal
-updatedAt: 2025-11-05T14:46:49Z
+updatedAt: 2025-11-05T14:46:49.000Z
 contributors:
   - name: ThatOneCalculator
     url: https://github.com/ThatOneCalculator
@@ -16,3 +16,4 @@ contributors:
   - name: prateektade
     url: https://github.com/prateektade
     image: https://avatars.githubusercontent.com/u/108054324?v=4
+tags: []

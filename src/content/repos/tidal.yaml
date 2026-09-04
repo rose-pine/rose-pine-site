@@ -2,7 +2,7 @@ type: official
 name: TIDAL
 url: https://github.com/rose-pine/tidal
 category: browser
-updatedAt: 2025-11-05T14:51:02Z
+updatedAt: 2025-11-05T14:51:02.000Z
 tags:
   - music
 contributors:

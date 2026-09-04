@@ -2,7 +2,7 @@ type: official
 name: ct.js
 url: https://github.com/rose-pine/ct.js
 category: editor
-updatedAt: 2025-11-05T14:46:06Z
+updatedAt: 2025-11-05T14:46:06.000Z
 contributors:
   - name: ehanahamed
     url: https://github.com/ehanahamed
@@ -10,3 +10,4 @@ contributors:
   - name: mvllow
     url: https://github.com/mvllow
     image: https://avatars.githubusercontent.com/u/1474821?v=4
+tags: []

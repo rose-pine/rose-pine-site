@@ -2,7 +2,7 @@ type: official
 name: SumatraPDF
 url: https://github.com/rose-pine/sumatrapdf
 category: editor
-updatedAt: 2025-11-05T14:50:53Z
+updatedAt: 2025-11-05T14:50:53.000Z
 contributors:
   - name: darkthemer
     url: https://github.com/darkthemer
@@ -10,3 +10,4 @@ contributors:
   - name: mvllow
     url: https://github.com/mvllow
     image: https://avatars.githubusercontent.com/u/1474821?v=4
+tags: []

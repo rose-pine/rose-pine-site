@@ -2,7 +2,7 @@ type: official
 name: fish
 url: https://github.com/rose-pine/fish
 category: terminal
-updatedAt: 2026-03-09T15:40:11Z
+updatedAt: 2026-03-09T15:40:11.000Z
 tags:
   - shell
 contributors:

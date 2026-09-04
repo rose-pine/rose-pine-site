@@ -2,7 +2,7 @@ type: official
 name: Amfora
 url: https://github.com/rose-pine/amfora
 category: terminal
-updatedAt: 2025-11-05T14:45:53Z
+updatedAt: 2025-11-05T14:45:53.000Z
 tags:
   - cli
 contributors:

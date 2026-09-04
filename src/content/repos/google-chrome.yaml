@@ -2,7 +2,7 @@ type: official
 name: Chrome
 url: https://github.com/rose-pine/google-chrome
 category: browser
-updatedAt: 2026-07-29T09:33:56Z
+updatedAt: 2026-07-29T09:33:56.000Z
 contributors:
   - name: fvrests
     url: https://github.com/fvrests
@@ -19,3 +19,4 @@ contributors:
   - name: mvllow
     url: https://github.com/mvllow
     image: https://avatars.githubusercontent.com/u/1474821?v=4
+tags: []

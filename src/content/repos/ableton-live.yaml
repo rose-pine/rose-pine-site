@@ -2,8 +2,9 @@ type: official
 name: Ableton Live
 url: https://github.com/rose-pine/ableton-live
 category: editor
-updatedAt: 2026-07-17T12:58:26Z
+updatedAt: 2026-07-17T12:58:26.000Z
 contributors:
   - name: juliamertz
     url: https://github.com/juliamertz
     image: https://avatars.githubusercontent.com/u/35079666?v=4
+tags: []

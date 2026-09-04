@@ -2,7 +2,7 @@ type: official
 name: i3
 url: https://github.com/rose-pine/i3
 category: system
-updatedAt: 2026-06-24T20:00:34Z
+updatedAt: 2026-06-24T20:00:34.000Z
 tags:
   - window-manager
 contributors:

@@ -2,7 +2,7 @@ type: official
 name: Konsole
 url: https://github.com/rose-pine/konsole
 category: terminal
-updatedAt: 2025-11-05T14:46:44Z
+updatedAt: 2025-11-05T14:46:44.000Z
 tags:
   - terminal-emulator
 contributors:

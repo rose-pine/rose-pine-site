@@ -2,7 +2,7 @@ type: official
 name: Zen Browser
 url: https://github.com/rose-pine/zen-browser
 category: browser
-updatedAt: 2026-05-28T19:57:18Z
+updatedAt: 2026-05-28T19:57:18.000Z
 contributors:
   - name: wzykubek
     url: https://github.com/wzykubek
@@ -19,3 +19,4 @@ contributors:
   - name: mvllow
     url: https://github.com/mvllow
     image: https://avatars.githubusercontent.com/u/1474821?v=4
+tags: []

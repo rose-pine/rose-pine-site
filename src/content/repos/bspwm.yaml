@@ -2,7 +2,7 @@ type: official
 name: bspwm
 url: https://github.com/rose-pine/bspwm
 category: system
-updatedAt: 2025-11-05T14:45:58Z
+updatedAt: 2025-11-05T14:45:58.000Z
 contributors:
   - name: Jimmysit0
     url: https://github.com/Jimmysit0
@@ -16,3 +16,4 @@ contributors:
   - name: mvllow
     url: https://github.com/mvllow
     image: https://avatars.githubusercontent.com/u/1474821?v=4
+tags: []

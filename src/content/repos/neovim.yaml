@@ -2,7 +2,7 @@ type: official
 name: Neovim
 url: https://github.com/rose-pine/neovim
 category: editor
-updatedAt: 2026-05-15T15:21:54Z
+updatedAt: 2026-05-15T15:21:54.000Z
 tags:
   - lua
   - neovim-theme

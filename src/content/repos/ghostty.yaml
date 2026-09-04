@@ -2,7 +2,7 @@ type: official
 name: Ghostty
 url: https://github.com/rose-pine/ghostty
 category: terminal
-updatedAt: 2026-07-21T15:27:10Z
+updatedAt: 2026-07-21T15:27:10.000Z
 contributors:
   - name: mvllow
     url: https://github.com/mvllow
@@ -16,3 +16,4 @@ contributors:
   - name: mininerva
     url: https://github.com/mininerva
     image: https://avatars.githubusercontent.com/u/145420456?v=4
+tags: []

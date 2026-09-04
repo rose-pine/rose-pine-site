@@ -2,7 +2,7 @@ type: official
 name: btop
 url: https://github.com/rose-pine/btop
 category: terminal
-updatedAt: 2025-11-05T14:45:59Z
+updatedAt: 2025-11-05T14:45:59.000Z
 tags:
   - btop-theme
 contributors:

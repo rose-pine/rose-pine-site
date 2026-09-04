@@ -2,7 +2,7 @@ type: official
 name: Dark Reader
 url: https://github.com/rose-pine/dark-reader
 category: browser
-updatedAt: 2025-11-05T14:46:09Z
+updatedAt: 2025-11-05T14:46:09.000Z
 contributors:
   - name: ThatOneCalculator
     url: https://github.com/ThatOneCalculator
@@ -13,3 +13,4 @@ contributors:
   - name: nathansCodes
     url: https://github.com/nathansCodes
     image: https://avatars.githubusercontent.com/u/99505972?v=4
+tags: []

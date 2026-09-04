@@ -2,7 +2,7 @@ type: community
 name: WezTerm
 url: https://github.com/neapsix/wezterm
 category: terminal
-updatedAt: 2024-05-11T16:40:59Z
+updatedAt: 2024-05-11T16:40:59.000Z
 contributors:
   - name: neapsix
     url: https://github.com/neapsix
