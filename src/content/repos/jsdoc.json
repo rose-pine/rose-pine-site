@@ -1,0 +1,29 @@
+{
+	"type": "community",
+	"name": "JSDoc",
+	"url": "https://github.com/sometimesdigital/rose-pine-jsdoc",
+	"category": "browser",
+	"updatedAt": "2024-01-17T19:18:26Z",
+	"contributors": [
+		{
+			"name": "julie-ng",
+			"url": "https://github.com/julie-ng",
+			"image": "https://avatars.githubusercontent.com/u/1269507?v=4"
+		},
+		{
+			"name": "nonnullish",
+			"url": "https://github.com/nonnullish",
+			"image": "https://avatars.githubusercontent.com/u/20538005?v=4"
+		},
+		{
+			"name": "gamtiq",
+			"url": "https://github.com/gamtiq",
+			"image": "https://avatars.githubusercontent.com/u/1177323?v=4"
+		},
+		{
+			"name": "paul-mckay",
+			"url": "https://github.com/paul-mckay",
+			"image": "https://avatars.githubusercontent.com/u/1892575?v=4"
+		}
+	]
+}

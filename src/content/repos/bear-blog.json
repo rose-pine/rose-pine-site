@@ -1,0 +1,15 @@
+{
+	"type": "official",
+	"name": "Bear Blog",
+	"url": "https://github.com/rose-pine/bear-blog",
+	"category": "browser",
+	"updatedAt": "2025-11-05T14:45:56Z",
+	"tags": ["bear", "hacktoberfest"],
+	"contributors": [
+		{
+			"name": "mvllow",
+			"url": "https://github.com/mvllow",
+			"image": "https://avatars.githubusercontent.com/u/1474821?v=4"
+		}
+	]
+}

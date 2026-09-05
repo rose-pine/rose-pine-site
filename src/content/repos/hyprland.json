@@ -1,0 +1,30 @@
+{
+	"type": "official",
+	"name": "Hyprland",
+	"url": "https://github.com/rose-pine/hyprland",
+	"category": "system",
+	"updatedAt": "2026-06-20T11:52:46Z",
+	"tags": ["color-palette", "tiling-window-manager"],
+	"contributors": [
+		{
+			"name": "jishnurajendran",
+			"url": "https://github.com/jishnurajendran",
+			"image": "https://avatars.githubusercontent.com/u/10544069?v=4"
+		},
+		{
+			"name": "mvllow",
+			"url": "https://github.com/mvllow",
+			"image": "https://avatars.githubusercontent.com/u/1474821?v=4"
+		},
+		{
+			"name": "JustGoodGame",
+			"url": "https://github.com/JustGoodGame",
+			"image": "https://avatars.githubusercontent.com/u/50297980?v=4"
+		},
+		{
+			"name": "Tasztalos69",
+			"url": "https://github.com/Tasztalos69",
+			"image": "https://avatars.githubusercontent.com/u/42411122?v=4"
+		}
+	]
+}

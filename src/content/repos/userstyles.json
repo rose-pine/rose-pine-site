@@ -1,0 +1,187 @@
+{
+	"type": "official",
+	"name": "Userstyles",
+	"url": "https://github.com/rose-pine/userstyles",
+	"category": "browser",
+	"updatedAt": "2026-08-27T09:17:55Z",
+	"tags": ["css", "stylish", "stylus"],
+	"userstyles": [
+		{
+			"name": "4Get",
+			"url": "https://github.com/rose-pine/userstyles/tree/main/styles/4get"
+		},
+		{
+			"name": "Advent of Code",
+			"url": "https://github.com/rose-pine/userstyles/tree/main/styles/advent-of-code"
+		},
+		{
+			"name": "Atlassian Cloud",
+			"url": "https://github.com/rose-pine/userstyles/tree/main/styles/atlassian-cloud"
+		},
+		{
+			"name": "Bluesky",
+			"url": "https://github.com/rose-pine/userstyles/tree/main/styles/bluesky"
+		},
+		{
+			"name": "Brave Search",
+			"url": "https://github.com/rose-pine/userstyles/tree/main/styles/brave-search"
+		},
+		{
+			"name": "ChatGPT",
+			"url": "https://github.com/rose-pine/userstyles/tree/main/styles/chatgpt"
+		},
+		{
+			"name": "Claude",
+			"url": "https://github.com/rose-pine/userstyles/tree/main/styles/claude"
+		},
+		{
+			"name": "Discord",
+			"url": "https://github.com/rose-pine/userstyles/tree/main/styles/discord"
+		},
+		{
+			"name": "Docs.rs",
+			"url": "https://github.com/rose-pine/userstyles/tree/main/styles/docs.rs"
+		},
+		{
+			"name": "Emby",
+			"url": "https://github.com/rose-pine/userstyles/tree/main/styles/emby"
+		},
+		{
+			"name": "Gemini",
+			"url": "https://github.com/rose-pine/userstyles/tree/main/styles/gemini"
+		},
+		{
+			"name": "GitHub",
+			"url": "https://github.com/rose-pine/userstyles/tree/main/styles/github"
+		},
+		{
+			"name": "Hetzner Cloud",
+			"url": "https://github.com/rose-pine/userstyles/tree/main/styles/hetzner-cloud"
+		},
+		{
+			"name": "Jira",
+			"url": "https://github.com/rose-pine/userstyles/tree/main/styles/jira"
+		},
+		{
+			"name": "LeetCode",
+			"url": "https://github.com/rose-pine/userstyles/tree/main/styles/leetcode"
+		},
+		{
+			"name": "NixOS Search",
+			"url": "https://github.com/rose-pine/userstyles/tree/main/styles/nixos-search"
+		},
+		{
+			"name": "Octopus",
+			"url": "https://github.com/rose-pine/userstyles/tree/main/styles/octopus"
+		},
+		{
+			"name": "Phemex",
+			"url": "https://github.com/rose-pine/userstyles/tree/main/styles/phemex"
+		},
+		{
+			"name": "Proton",
+			"url": "https://github.com/rose-pine/userstyles/tree/main/styles/proton"
+		},
+		{
+			"name": "Scribe",
+			"url": "https://github.com/rose-pine/userstyles/tree/main/styles/scribe"
+		},
+		{
+			"name": "status.cafe",
+			"url": "https://github.com/rose-pine/userstyles/tree/main/styles/status.cafe"
+		},
+		{
+			"name": "Twitch",
+			"url": "https://github.com/rose-pine/userstyles/tree/main/styles/twitch"
+		},
+		{
+			"name": "Wikiwand",
+			"url": "https://github.com/rose-pine/userstyles/tree/main/styles/wikiwand"
+		},
+		{
+			"name": "YouTube",
+			"url": "https://github.com/rose-pine/userstyles/tree/main/styles/youtube"
+		},
+		{
+			"name": "Zimbra",
+			"url": "https://github.com/rose-pine/userstyles/tree/main/styles/zimbra"
+		}
+	],
+	"contributors": [
+		{
+			"name": "juliamertz",
+			"url": "https://github.com/juliamertz",
+			"image": "https://avatars.githubusercontent.com/u/35079666?v=4"
+		},
+		{
+			"name": "mvllow",
+			"url": "https://github.com/mvllow",
+			"image": "https://avatars.githubusercontent.com/u/1474821?v=4"
+		},
+		{
+			"name": "adriankarlen",
+			"url": "https://github.com/adriankarlen",
+			"image": "https://avatars.githubusercontent.com/u/113891532?v=4"
+		},
+		{
+			"name": "jenishboricha",
+			"url": "https://github.com/jenishboricha",
+			"image": "https://avatars.githubusercontent.com/u/144167321?v=4"
+		},
+		{
+			"name": "JTrenerry",
+			"url": "https://github.com/JTrenerry",
+			"image": "https://avatars.githubusercontent.com/u/105094182?v=4"
+		},
+		{
+			"name": "ZT2wo",
+			"url": "https://github.com/ZT2wo",
+			"image": "https://avatars.githubusercontent.com/u/47440927?v=4"
+		},
+		{
+			"name": "Papa-Quill",
+			"url": "https://github.com/Papa-Quill",
+			"image": "https://avatars.githubusercontent.com/u/70424791?v=4"
+		},
+		{
+			"name": "revsuine",
+			"url": "https://github.com/revsuine",
+			"image": "https://avatars.githubusercontent.com/u/10424281?v=4"
+		},
+		{
+			"name": "Ari-43",
+			"url": "https://github.com/Ari-43",
+			"image": "https://avatars.githubusercontent.com/u/80327369?v=4"
+		},
+		{
+			"name": "jcyamo",
+			"url": "https://github.com/jcyamo",
+			"image": "https://avatars.githubusercontent.com/u/684434?v=4"
+		},
+		{
+			"name": "ThatOneCalculator",
+			"url": "https://github.com/ThatOneCalculator",
+			"image": "https://avatars.githubusercontent.com/u/44733677?v=4"
+		},
+		{
+			"name": "MichaelJacobRoss",
+			"url": "https://github.com/MichaelJacobRoss",
+			"image": "https://avatars.githubusercontent.com/u/104172948?v=4"
+		},
+		{
+			"name": "vidjul",
+			"url": "https://github.com/vidjul",
+			"image": "https://avatars.githubusercontent.com/u/25385500?v=4"
+		},
+		{
+			"name": "bunfluff",
+			"url": "https://github.com/bunfluff",
+			"image": "https://avatars.githubusercontent.com/u/177128418?v=4"
+		},
+		{
+			"name": "thairanaru",
+			"url": "https://github.com/thairanaru",
+			"image": "https://avatars.githubusercontent.com/u/106037630?v=4"
+		}
+	]
+}

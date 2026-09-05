@@ -1,0 +1,15 @@
+{
+	"type": "community",
+	"name": "Cmus",
+	"url": "https://github.com/Iorvethe/cmus",
+	"category": "terminal",
+	"updatedAt": "2021-08-25T12:26:04Z",
+	"contributors": [
+		{
+			"name": "Iorvethe",
+			"url": "https://github.com/Iorvethe",
+			"image": "https://avatars.githubusercontent.com/u/58810330?v=4"
+		}
+	],
+	"tags": ["audio", "music"]
+}

@@ -1,0 +1,41 @@
+{
+	"type": "official",
+	"name": "Discord Mobile",
+	"url": "https://github.com/rose-pine/discord-mobile",
+	"category": "social",
+	"updatedAt": "2025-11-05T14:46:11Z",
+	"contributors": [
+		{
+			"name": "mudrhiod",
+			"url": "https://github.com/mudrhiod",
+			"image": "https://avatars.githubusercontent.com/u/88912716?v=4"
+		},
+		{
+			"name": "mvllow",
+			"url": "https://github.com/mvllow",
+			"image": "https://avatars.githubusercontent.com/u/1474821?v=4"
+		},
+		{
+			"name": "Cirkutry",
+			"url": "https://github.com/Cirkutry",
+			"image": "https://avatars.githubusercontent.com/u/149087292?v=4"
+		},
+		{
+			"name": "DokterKaj",
+			"url": "https://github.com/DokterKaj",
+			"image": "https://avatars.githubusercontent.com/u/54882101?v=4"
+		},
+		{
+			"name": "NECOtype",
+			"url": "https://github.com/NECOtype",
+			"image": "https://avatars.githubusercontent.com/u/89935904?v=4"
+		},
+		{
+			"name": "Ace-Extrenof",
+			"url": "https://github.com/Ace-Extrenof",
+			"image": "https://avatars.githubusercontent.com/u/167178552?v=4"
+		}
+	],
+	"related": ["discord", "discord-mobile"],
+	"tags": ["mobile-app"]
+}

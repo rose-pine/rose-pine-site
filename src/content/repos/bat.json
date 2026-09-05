@@ -1,0 +1,30 @@
+{
+	"type": "community",
+	"name": "bat",
+	"url": "https://github.com/drluckyspin/rose-pine-bat",
+	"category": "terminal",
+	"updatedAt": "2026-06-23T11:26:16Z",
+	"contributors": [
+		{
+			"name": "drluckyspin",
+			"url": "https://github.com/drluckyspin",
+			"image": "https://avatars.githubusercontent.com/u/1369669?v=4"
+		},
+		{
+			"name": "Szizoid",
+			"url": "https://github.com/Szizoid",
+			"image": "https://avatars.githubusercontent.com/u/126173099?v=4"
+		},
+		{
+			"name": "cursoragent",
+			"url": "https://github.com/cursoragent",
+			"image": "https://avatars.githubusercontent.com/u/199161495?v=4"
+		},
+		{
+			"name": "Copilot",
+			"url": "https://github.com/apps/copilot-swe-agent",
+			"image": "https://avatars.githubusercontent.com/in/1143301?v=4"
+		}
+	],
+	"tags": ["shell", "cat"]
+}

@@ -1,0 +1,19 @@
+{
+	"type": "community",
+	"name": "Zathura",
+	"url": "https://github.com/edunfelt/zathura",
+	"category": "editor",
+	"updatedAt": "2024-12-20T07:57:44Z",
+	"contributors": [
+		{
+			"name": "edunfelt",
+			"url": "https://github.com/edunfelt",
+			"image": "https://avatars.githubusercontent.com/u/29271899?v=4"
+		},
+		{
+			"name": "fixerer",
+			"url": "https://github.com/fixerer",
+			"image": "https://avatars.githubusercontent.com/u/172546662?v=4"
+		}
+	]
+}

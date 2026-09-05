@@ -1,0 +1,35 @@
+{
+	"type": "official",
+	"name": "Chrome",
+	"url": "https://github.com/rose-pine/google-chrome",
+	"category": "browser",
+	"updatedAt": "2026-07-29T09:33:56Z",
+	"contributors": [
+		{
+			"name": "fvrests",
+			"url": "https://github.com/fvrests",
+			"image": "https://avatars.githubusercontent.com/u/47515065?v=4"
+		},
+		{
+			"name": "juliamertz",
+			"url": "https://github.com/juliamertz",
+			"image": "https://avatars.githubusercontent.com/u/35079666?v=4"
+		},
+		{
+			"name": "cutbypham",
+			"url": "https://github.com/cutbypham",
+			"image": "https://avatars.githubusercontent.com/u/40050527?v=4"
+		},
+		{
+			"name": "meorionel",
+			"url": "https://github.com/meorionel",
+			"image": "https://avatars.githubusercontent.com/u/120046369?v=4"
+		},
+		{
+			"name": "mvllow",
+			"url": "https://github.com/mvllow",
+			"image": "https://avatars.githubusercontent.com/u/1474821?v=4"
+		}
+	],
+	"tags": []
+}

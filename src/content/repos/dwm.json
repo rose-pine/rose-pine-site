@@ -1,0 +1,20 @@
+{
+	"type": "official",
+	"name": "dwm",
+	"url": "https://github.com/rose-pine/dwm",
+	"category": "system",
+	"updatedAt": "2025-11-05T14:46:14Z",
+	"contributors": [
+		{
+			"name": "butteronarchbtw",
+			"url": "https://github.com/butteronarchbtw",
+			"image": "https://avatars.githubusercontent.com/u/152636161?v=4"
+		},
+		{
+			"name": "mvllow",
+			"url": "https://github.com/mvllow",
+			"image": "https://avatars.githubusercontent.com/u/1474821?v=4"
+		}
+	],
+	"tags": []
+}

@@ -1,0 +1,25 @@
+{
+	"type": "official",
+	"name": "Xresources",
+	"url": "https://github.com/rose-pine/xresources",
+	"category": "terminal",
+	"updatedAt": "2025-11-05T14:51:22Z",
+	"contributors": [
+		{
+			"name": "harishnkr",
+			"url": "https://github.com/harishnkr",
+			"image": "https://avatars.githubusercontent.com/u/48408097?v=4"
+		},
+		{
+			"name": "piperbly",
+			"url": "https://github.com/piperbly",
+			"image": "https://avatars.githubusercontent.com/u/8343978?v=4"
+		},
+		{
+			"name": "mvllow",
+			"url": "https://github.com/mvllow",
+			"image": "https://avatars.githubusercontent.com/u/1474821?v=4"
+		}
+	],
+	"tags": []
+}

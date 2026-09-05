@@ -1,0 +1,13 @@
+{
+	"type": "community",
+	"name": "PyRadio",
+	"url": "https://codeberg.org/thairanaru/pyradio",
+	"tags": ["audio", "music"],
+	"contributors": [
+		{
+			"name": "thairanaru",
+			"url": "https://codeberg.org/thairanaru"
+		}
+	],
+	"category": "terminal"
+}

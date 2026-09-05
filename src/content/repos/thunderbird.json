@@ -1,0 +1,14 @@
+{
+	"type": "community",
+	"name": "Thunderbird",
+	"url": "https://github.com/graknow/thunderbird",
+	"category": "social",
+	"updatedAt": "2025-07-24T03:02:48Z",
+	"contributors": [
+		{
+			"name": "graknow",
+			"url": "https://github.com/graknow",
+			"image": "https://avatars.githubusercontent.com/u/90077604?v=4"
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"type": "official",
+	"name": "Waybar",
+	"url": "https://github.com/rose-pine/waybar",
+	"category": "system",
+	"updatedAt": "2025-11-05T14:51:17Z",
+	"tags": ["color-palette"],
+	"contributors": [
+		{
+			"name": "DankoFox",
+			"url": "https://github.com/DankoFox",
+			"image": "https://avatars.githubusercontent.com/u/79992320?v=4"
+		},
+		{
+			"name": "mvllow",
+			"url": "https://github.com/mvllow",
+			"image": "https://avatars.githubusercontent.com/u/1474821?v=4"
+		}
+	]
+}

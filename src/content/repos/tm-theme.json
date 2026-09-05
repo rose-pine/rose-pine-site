@@ -1,0 +1,30 @@
+{
+	"type": "official",
+	"name": "TextMate",
+	"url": "https://github.com/rose-pine/tm-theme",
+	"category": "editor",
+	"updatedAt": "2026-06-22T15:20:27Z",
+	"contributors": [
+		{
+			"name": "mvllow",
+			"url": "https://github.com/mvllow",
+			"image": "https://avatars.githubusercontent.com/u/1474821?v=4"
+		},
+		{
+			"name": "arrrgi",
+			"url": "https://github.com/arrrgi",
+			"image": "https://avatars.githubusercontent.com/u/18177842?v=4"
+		},
+		{
+			"name": "simono",
+			"url": "https://github.com/simono",
+			"image": "https://avatars.githubusercontent.com/u/874148?v=4"
+		},
+		{
+			"name": "wzykubek",
+			"url": "https://github.com/wzykubek",
+			"image": "https://avatars.githubusercontent.com/u/37913333?v=4"
+		}
+	],
+	"tags": []
+}

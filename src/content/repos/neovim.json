@@ -1,0 +1,395 @@
+{
+	"type": "official",
+	"name": "Neovim",
+	"url": "https://github.com/rose-pine/neovim",
+	"category": "editor",
+	"updatedAt": "2026-05-15T15:21:54Z",
+	"tags": ["lua", "neovim-theme", "nvim", "vim", "vim-theme"],
+	"contributors": [
+		{
+			"name": "mvllow",
+			"url": "https://github.com/mvllow",
+			"image": "https://avatars.githubusercontent.com/u/1474821?v=4"
+		},
+		{
+			"name": "sjclayton",
+			"url": "https://github.com/sjclayton",
+			"image": "https://avatars.githubusercontent.com/u/21167492?v=4"
+		},
+		{
+			"name": "danymat",
+			"url": "https://github.com/danymat",
+			"image": "https://avatars.githubusercontent.com/u/5306901?v=4"
+		},
+		{
+			"name": "ikws4",
+			"url": "https://github.com/ikws4",
+			"image": "https://avatars.githubusercontent.com/u/47056144?v=4"
+		},
+		{
+			"name": "will",
+			"url": "https://github.com/will",
+			"image": "https://avatars.githubusercontent.com/u/1973?v=4"
+		},
+		{
+			"name": "fvrests",
+			"url": "https://github.com/fvrests",
+			"image": "https://avatars.githubusercontent.com/u/47515065?v=4"
+		},
+		{
+			"name": "mrtnvgr",
+			"url": "https://github.com/mrtnvgr",
+			"image": "https://avatars.githubusercontent.com/u/48406064?v=4"
+		},
+		{
+			"name": "fitrh",
+			"url": "https://github.com/fitrh",
+			"image": "https://avatars.githubusercontent.com/u/55179750?v=4"
+		},
+		{
+			"name": "pcattori",
+			"url": "https://github.com/pcattori",
+			"image": "https://avatars.githubusercontent.com/u/1477317?v=4"
+		},
+		{
+			"name": "andreihh",
+			"url": "https://github.com/andreihh",
+			"image": "https://avatars.githubusercontent.com/u/5368018?v=4"
+		},
+		{
+			"name": "fdcote",
+			"url": "https://github.com/fdcote",
+			"image": "https://avatars.githubusercontent.com/u/48247604?v=4"
+		},
+		{
+			"name": "aileot",
+			"url": "https://github.com/aileot",
+			"image": "https://avatars.githubusercontent.com/u/46470475?v=4"
+		},
+		{
+			"name": "Slotos",
+			"url": "https://github.com/Slotos",
+			"image": "https://avatars.githubusercontent.com/u/314453?v=4"
+		},
+		{
+			"name": "bomgar",
+			"url": "https://github.com/bomgar",
+			"image": "https://avatars.githubusercontent.com/u/402052?v=4"
+		},
+		{
+			"name": "kabouzeid",
+			"url": "https://github.com/kabouzeid",
+			"image": "https://avatars.githubusercontent.com/u/256352301?v=4"
+		},
+		{
+			"name": "repl6669",
+			"url": "https://github.com/repl6669",
+			"image": "https://avatars.githubusercontent.com/u/5587309?v=4"
+		},
+		{
+			"name": "briandipalma",
+			"url": "https://github.com/briandipalma",
+			"image": "https://avatars.githubusercontent.com/u/1597820?v=4"
+		},
+		{
+			"name": "HectorOvid",
+			"url": "https://github.com/HectorOvid",
+			"image": "https://avatars.githubusercontent.com/u/38364108?v=4"
+		},
+		{
+			"name": "vlanx",
+			"url": "https://github.com/vlanx",
+			"image": "https://avatars.githubusercontent.com/u/30477293?v=4"
+		},
+		{
+			"name": "SWiegandt",
+			"url": "https://github.com/SWiegandt",
+			"image": "https://avatars.githubusercontent.com/u/12746569?v=4"
+		},
+		{
+			"name": "eaxly",
+			"url": "https://github.com/eaxly",
+			"image": "https://avatars.githubusercontent.com/u/62254492?v=4"
+		},
+		{
+			"name": "cmdrrobin",
+			"url": "https://github.com/cmdrrobin",
+			"image": "https://avatars.githubusercontent.com/u/2082795?v=4"
+		},
+		{
+			"name": "piersolenski",
+			"url": "https://github.com/piersolenski",
+			"image": "https://avatars.githubusercontent.com/u/1285419?v=4"
+		},
+		{
+			"name": "Pkcarreno",
+			"url": "https://github.com/Pkcarreno",
+			"image": "https://avatars.githubusercontent.com/u/34664891?v=4"
+		},
+		{
+			"name": "VoxelPrismatic",
+			"url": "https://github.com/VoxelPrismatic",
+			"image": "https://avatars.githubusercontent.com/u/45671764?v=4"
+		},
+		{
+			"name": "UsuallySleebee",
+			"url": "https://github.com/UsuallySleebee",
+			"image": "https://avatars.githubusercontent.com/u/81906761?v=4"
+		},
+		{
+			"name": "0oAstro",
+			"url": "https://github.com/0oAstro",
+			"image": "https://avatars.githubusercontent.com/u/79555780?v=4"
+		},
+		{
+			"name": "NTBBloodbath",
+			"url": "https://github.com/NTBBloodbath",
+			"image": "https://avatars.githubusercontent.com/u/36456999?v=4"
+		},
+		{
+			"name": "myuwi",
+			"url": "https://github.com/myuwi",
+			"image": "https://avatars.githubusercontent.com/u/42811084?v=4"
+		},
+		{
+			"name": "matze",
+			"url": "https://github.com/matze",
+			"image": "https://avatars.githubusercontent.com/u/115270?v=4"
+		},
+		{
+			"name": "luissimas",
+			"url": "https://github.com/luissimas",
+			"image": "https://avatars.githubusercontent.com/u/41878330?v=4"
+		},
+		{
+			"name": "the-spanish-guy",
+			"url": "https://github.com/the-spanish-guy",
+			"image": "https://avatars.githubusercontent.com/u/32144508?v=4"
+		},
+		{
+			"name": "tommarien",
+			"url": "https://github.com/tommarien",
+			"image": "https://avatars.githubusercontent.com/u/1032545?v=4"
+		},
+		{
+			"name": "MeanderingProgrammer",
+			"url": "https://github.com/MeanderingProgrammer",
+			"image": "https://avatars.githubusercontent.com/u/52591095?v=4"
+		},
+		{
+			"name": "YarLama",
+			"url": "https://github.com/YarLama",
+			"image": "https://avatars.githubusercontent.com/u/52606645?v=4"
+		},
+		{
+			"name": "kaplanz",
+			"url": "https://github.com/kaplanz",
+			"image": "https://avatars.githubusercontent.com/u/50176264?v=4"
+		},
+		{
+			"name": "abvee",
+			"url": "https://github.com/abvee",
+			"image": "https://avatars.githubusercontent.com/u/82954751?v=4"
+		},
+		{
+			"name": "kunchenguid",
+			"url": "https://github.com/kunchenguid",
+			"image": "https://avatars.githubusercontent.com/u/3233006?v=4"
+		},
+		{
+			"name": "nanozuki",
+			"url": "https://github.com/nanozuki",
+			"image": "https://avatars.githubusercontent.com/u/4208028?v=4"
+		},
+		{
+			"name": "dav-cho",
+			"url": "https://github.com/dav-cho",
+			"image": "https://avatars.githubusercontent.com/u/78996780?v=4"
+		},
+		{
+			"name": "estevesnp",
+			"url": "https://github.com/estevesnp",
+			"image": "https://avatars.githubusercontent.com/u/147717227?v=4"
+		},
+		{
+			"name": "bakageddy",
+			"url": "https://github.com/bakageddy",
+			"image": "https://avatars.githubusercontent.com/u/91826760?v=4"
+		},
+		{
+			"name": "jostaub",
+			"url": "https://github.com/jostaub",
+			"image": "https://avatars.githubusercontent.com/u/67969701?v=4"
+		},
+		{
+			"name": "mortezadadgar",
+			"url": "https://github.com/mortezadadgar",
+			"image": "https://avatars.githubusercontent.com/u/27911493?v=4"
+		},
+		{
+			"name": "numToStr",
+			"url": "https://github.com/numToStr",
+			"image": "https://avatars.githubusercontent.com/u/24727447?v=4"
+		},
+		{
+			"name": "jfkisafk",
+			"url": "https://github.com/jfkisafk",
+			"image": "https://avatars.githubusercontent.com/u/42366677?v=4"
+		},
+		{
+			"name": "yuhixyz",
+			"url": "https://github.com/yuhixyz",
+			"image": "https://avatars.githubusercontent.com/u/50203860?v=4"
+		},
+		{
+			"name": "aarnphm",
+			"url": "https://github.com/aarnphm",
+			"image": "https://avatars.githubusercontent.com/u/29749331?v=4"
+		},
+		{
+			"name": "akthe-at",
+			"url": "https://github.com/akthe-at",
+			"image": "https://avatars.githubusercontent.com/u/105152139?v=4"
+		},
+		{
+			"name": "adrior11",
+			"url": "https://github.com/adrior11",
+			"image": "https://avatars.githubusercontent.com/u/166428581?v=4"
+		},
+		{
+			"name": "Masstronaut",
+			"url": "https://github.com/Masstronaut",
+			"image": "https://avatars.githubusercontent.com/u/9017393?v=4"
+		},
+		{
+			"name": "Yagua",
+			"url": "https://github.com/Yagua",
+			"image": "https://avatars.githubusercontent.com/u/65829671?v=4"
+		},
+		{
+			"name": "winter-again",
+			"url": "https://github.com/winter-again",
+			"image": "https://avatars.githubusercontent.com/u/63322884?v=4"
+		},
+		{
+			"name": "Diaoul",
+			"url": "https://github.com/Diaoul",
+			"image": "https://avatars.githubusercontent.com/u/319220?v=4"
+		},
+		{
+			"name": "anupam-basu",
+			"url": "https://github.com/anupam-basu",
+			"image": "https://avatars.githubusercontent.com/u/25940600?v=4"
+		},
+		{
+			"name": "arkrost",
+			"url": "https://github.com/arkrost",
+			"image": "https://avatars.githubusercontent.com/u/1239844?v=4"
+		},
+		{
+			"name": "Asthestarsfalll",
+			"url": "https://github.com/Asthestarsfalll",
+			"image": "https://avatars.githubusercontent.com/u/72954905?v=4"
+		},
+		{
+			"name": "Iorvethe",
+			"url": "https://github.com/Iorvethe",
+			"image": "https://avatars.githubusercontent.com/u/58810330?v=4"
+		},
+		{
+			"name": "davepgreene",
+			"url": "https://github.com/davepgreene",
+			"image": "https://avatars.githubusercontent.com/u/1459753?v=4"
+		},
+		{
+			"name": "davkk",
+			"url": "https://github.com/davkk",
+			"image": "https://avatars.githubusercontent.com/u/40724893?v=4"
+		},
+		{
+			"name": "dhruvinsh",
+			"url": "https://github.com/dhruvinsh",
+			"image": "https://avatars.githubusercontent.com/u/33428164?v=4"
+		},
+		{
+			"name": "Ercument5038",
+			"url": "https://github.com/Ercument5038",
+			"image": "https://avatars.githubusercontent.com/u/127831257?v=4"
+		},
+		{
+			"name": "emilford",
+			"url": "https://github.com/emilford",
+			"image": "https://avatars.githubusercontent.com/u/63003?v=4"
+		},
+		{
+			"name": "echasnovski",
+			"url": "https://github.com/echasnovski",
+			"image": "https://avatars.githubusercontent.com/u/24854248?v=4"
+		},
+		{
+			"name": "fedeya",
+			"url": "https://github.com/fedeya",
+			"image": "https://avatars.githubusercontent.com/u/40874033?v=4"
+		},
+		{
+			"name": "ubmit",
+			"url": "https://github.com/ubmit",
+			"image": "https://avatars.githubusercontent.com/u/8797405?v=4"
+		},
+		{
+			"name": "GuillaumeAllain",
+			"url": "https://github.com/GuillaumeAllain",
+			"image": "https://avatars.githubusercontent.com/u/13963457?v=4"
+		},
+		{
+			"name": "haydenrou",
+			"url": "https://github.com/haydenrou",
+			"image": "https://avatars.githubusercontent.com/u/21108297?v=4"
+		},
+		{
+			"name": "HieuDao-code",
+			"url": "https://github.com/HieuDao-code",
+			"image": "https://avatars.githubusercontent.com/u/106801182?v=4"
+		},
+		{
+			"name": "hansumane",
+			"url": "https://github.com/hansumane",
+			"image": "https://avatars.githubusercontent.com/u/88616652?v=4"
+		},
+		{
+			"name": "tomtomjhj",
+			"url": "https://github.com/tomtomjhj",
+			"image": "https://avatars.githubusercontent.com/u/19489738?v=4"
+		},
+		{
+			"name": "EdenEast",
+			"url": "https://github.com/EdenEast",
+			"image": "https://avatars.githubusercontent.com/u/2746374?v=4"
+		},
+		{
+			"name": "James-Kni",
+			"url": "https://github.com/James-Kni",
+			"image": "https://avatars.githubusercontent.com/u/61782266?v=4"
+		},
+		{
+			"name": "chillax",
+			"url": "https://github.com/chillax",
+			"image": "https://avatars.githubusercontent.com/u/1151848?v=4"
+		},
+		{
+			"name": "Toorero",
+			"url": "https://github.com/Toorero",
+			"image": "https://avatars.githubusercontent.com/u/22551563?v=4"
+		},
+		{
+			"name": "sorachii",
+			"url": "https://github.com/sorachii",
+			"image": "https://avatars.githubusercontent.com/u/48826429?v=4"
+		},
+		{
+			"name": "TinusgragLin",
+			"url": "https://github.com/TinusgragLin",
+			"image": "https://avatars.githubusercontent.com/u/57218218?v=4"
+		}
+	]
+}

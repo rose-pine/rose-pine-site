@@ -1,0 +1,15 @@
+{
+	"type": "community",
+	"name": "FlorisBoard",
+	"url": "https://github.com/NECOtype/florisboard",
+	"category": "system",
+	"tags": ["android", "keyboard"],
+	"contributors": [
+		{
+			"name": "NECOtype",
+			"url": "https://github.com/NECOtype",
+			"image": "https://avatars.githubusercontent.com/u/89935904?v=4"
+		}
+	],
+	"updatedAt": "2026-07-30T10:03:37Z"
+}

@@ -1,0 +1,19 @@
+{
+	"type": "community",
+	"name": "k9s",
+	"url": "https://github.com/sasoria/k9s-theme",
+	"category": "terminal",
+	"updatedAt": "2024-12-27T10:19:20Z",
+	"contributors": [
+		{
+			"name": "sasoria",
+			"url": "https://github.com/sasoria",
+			"image": "https://avatars.githubusercontent.com/u/7903076?v=4"
+		},
+		{
+			"name": "bomgar",
+			"url": "https://github.com/bomgar",
+			"image": "https://avatars.githubusercontent.com/u/402052?v=4"
+		}
+	]
+}

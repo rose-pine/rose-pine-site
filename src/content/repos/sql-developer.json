@@ -1,0 +1,15 @@
+{
+	"type": "official",
+	"name": "sql-developer",
+	"category": "none",
+	"url": "https://github.com/rose-pine/sql-developer",
+	"tags": ["color-scheme", "editor", "plsql", "sql", "sqldeveloper"],
+	"contributors": [
+		{
+			"name": "Serge2702",
+			"url": "https://github.com/Serge2702",
+			"image": "https://avatars.githubusercontent.com/u/9486356?v=4"
+		}
+	],
+	"updatedAt": "2026-09-04T02:40:50Z"
+}

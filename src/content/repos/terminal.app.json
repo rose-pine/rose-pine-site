@@ -1,0 +1,25 @@
+{
+	"type": "official",
+	"name": "Terminal.app",
+	"url": "https://github.com/rose-pine/terminal.app",
+	"category": "terminal",
+	"updatedAt": "2025-11-05T13:41:24Z",
+	"tags": ["terminal-app", "terminal-emulator"],
+	"contributors": [
+		{
+			"name": "mvllow",
+			"url": "https://github.com/mvllow",
+			"image": "https://avatars.githubusercontent.com/u/1474821?v=4"
+		},
+		{
+			"name": "ThatOneCalculator",
+			"url": "https://github.com/ThatOneCalculator",
+			"image": "https://avatars.githubusercontent.com/u/44733677?v=4"
+		},
+		{
+			"name": "fvrests",
+			"url": "https://github.com/fvrests",
+			"image": "https://avatars.githubusercontent.com/u/47515065?v=4"
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"type": "community",
+	"name": "HeliBoard",
+	"url": "https://github.com/Star-Trowa/heliboard",
+	"category": "system",
+	"updatedAt": "2026-06-16T22:11:58Z",
+	"contributors": [
+		{
+			"name": "Star-Trowa",
+			"url": "https://github.com/Star-Trowa",
+			"image": "https://avatars.githubusercontent.com/u/273855342?v=4"
+		}
+	],
+	"tags": ["android", "keyboard"]
+}
