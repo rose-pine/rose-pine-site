@@ -12,7 +12,7 @@ Aunque no es estrictamente necesario, tener un entorno de desarrollo local te pe
 
 ## Prepara el entorno de desarrollo
 
-1. Haz un *fork* y clona el [sitio web de Rosé Pine](https://github.com/rose-pine/rose-pine-site).
+1. Haz un _fork_ y clona el [sitio web de Rosé Pine](https://github.com/rose-pine/rose-pine-site).
 2. Instala [Node.js](https://nodejs.org/es/download) y [pnpm](https://pnpm.io/es/installation) siguiendo sus manuales oficiales.
 3. Inicia el servidor de desarrollo con `pnpm dev` para tener una vista previa en tiempo real del contenido.
 
@@ -56,7 +56,7 @@ Usando como referencia la versión en inglés, crea la guía a traducir:
 
 Observa que hemos creado una carpeta `sd` para nuestro ejemplo, el sindarin, mientras que el nombre del archivo con el texto es el mismo.
 
-Actualiza el *frontmatter*—metadatos al principio del archivo, entre dos líneas formadas por `---`—con un título, una descripción, autoría y fechas.
+Actualiza el _frontmatter_—metadatos al principio del archivo, entre dos líneas formadas por `---`—con un título, una descripción, autoría y fechas.
 
 ```
 ---
@@ -79,4 +79,4 @@ El nombre de usuario se corresponderá con un archivo en la carpeta `src/content
 
 ## Solicita incorporar tus cambios
 
-Crea una *pull request* en [rose-pine/rose-pine-site](https://github.com/rose-pine/rose-pine-site). La revisaremos y, una vez integradas las modificaciones, ¡te compartiremos nuestro aprecio por hacer Rosé Pine un poquito más accesible!
+Crea una _pull request_ en [rose-pine/rose-pine-site](https://github.com/rose-pine/rose-pine-site). La revisaremos y, una vez integradas las modificaciones, ¡te compartiremos nuestro aprecio por hacer Rosé Pine un poquito más accesible!

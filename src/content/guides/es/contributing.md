@@ -18,7 +18,7 @@ Recibimos con los brazos abiertos tanto aportaciones de código como de otros ti
 
 - Correcciones de ortografía
 - Mejoras en la documentación
-- Revisiones de *pull requests*
+- Revisiones de _pull requests_
 - Peticiones de nueva funcionalidad
 - Opiniones y sugerencias
 
@@ -26,7 +26,7 @@ Hasta la aportación más pequeña nos ayuda a liberar algo de nuestro tiempo pa
 
 ## Informes de errores y nueva funcionalidad
 
-Antes de abrir un *issue*, busca entre los existentes, incluyendo los cerrados.
+Antes de abrir un _issue_, busca entre los existentes, incluyendo los cerrados.
 
 **Si ya existe:**
 
@@ -35,7 +35,7 @@ Antes de abrir un *issue*, busca entre los existentes, incluyendo los cerrados.
 
 **En otro caso:**
 
-Abre un *issue* que contenga lo siguiente:
+Abre un _issue_ que contenga lo siguiente:
 
 _Informes de errores:_
 
@@ -58,15 +58,15 @@ No podemos garantizar que los problemas se resuelvan inmediatamente, pero apreci
 **Implementa tus cambios:**
 
 - No añadas archivos no relacionados con el proyecto. Véase [global gitignore](https://gist.github.com/subfuzion/db7f57fff2fb6998a16c) para buenas prácticas generales
-- Crea un *fork* del repositorio y realiza los *commits* con los cambios en una rama con un nombre descriptivo
-- En la medida de lo posible, agrupa los cambios en ramas y *commits* dedicados y lógicos
-- Adhiérete a un formato de código existente, por ejemplo mensajes de *commit* en minúscula
+- Crea un _fork_ del repositorio y realiza los _commits_ con los cambios en una rama con un nombre descriptivo
+- En la medida de lo posible, agrupa los cambios en ramas y _commits_ dedicados y lógicos
+- Adhiérete a un formato de código existente, por ejemplo mensajes de _commit_ en minúscula
 
 **Envía una PR:**
 
-- Envía una *pull request* al repositorio principal con tus cambios y cualquier información adicional, explicación o contexto que estimes oportunos
+- Envía una _pull request_ al repositorio principal con tus cambios y cualquier información adicional, explicación o contexto que estimes oportunos
 
-- Si la *pull request* está relacionada con un *issue* existente, referéncialo en la descripción de la misma, por ejemplo `arregla #123`
+- Si la _pull request_ está relacionada con un _issue_ existente, referéncialo en la descripción de la misma, por ejemplo `arregla #123`
 
 ## Gracias
 

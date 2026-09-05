@@ -42,7 +42,8 @@ export default defineLocale({
 		"home.feature.passionately_subtle.title": "Apasionadamente discreto",
 		"home.feature.passionately_subtle.description":
 			"Con el foco puesto en la calidad y el propósito, nuestros colores están seleccionados para inspirar, no abrumar. Nos emociona que compartas tus creaciones con el mundo.",
-		"home.feature.inclusive_equal_diverse.title": "Inclusividad, igualdad, diversidad",
+		"home.feature.inclusive_equal_diverse.title":
+			"Inclusividad, igualdad, diversidad",
 		"home.feature.inclusive_equal_diverse.description":
 			"Nos esforzamos a diario para ofrecer un ambiente seguro y motivador para todo el mundo. Encuentra aquí aprecio y consideración.",
 

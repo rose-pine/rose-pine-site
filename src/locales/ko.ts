@@ -70,8 +70,7 @@ export default defineLocale({
 		"palette.colours": "색상",
 
 		"create.title": "만들기",
-		"create.description":
-			"아름다운 테마를 제작하기 위한 가이드, 도구 및 영감.",
+		"create.description": "아름다운 테마를 제작하기 위한 가이드, 도구 및 영감.",
 		"create.also_available_in": "다른 언어로 보기:",
 
 		"submit.title": "테마 제출하기",
@@ -81,4 +80,3 @@ export default defineLocale({
 		"submit.form.primary_action": "제출하기",
 	},
 });
-
