@@ -1,0 +1,40 @@
+{
+	"type": "community",
+	"name": "YouTube",
+	"url": "https://github.com/aleck07/youtube",
+	"category": "social",
+	"updatedAt": "2025-06-12T20:48:58Z",
+	"contributors": [
+		{
+			"name": "aleck07",
+			"url": "https://github.com/aleck07",
+			"image": "https://avatars.githubusercontent.com/u/45907943?v=4"
+		},
+		{
+			"name": "cement-drinker",
+			"url": "https://github.com/cement-drinker",
+			"image": "https://avatars.githubusercontent.com/u/119074275?v=4"
+		},
+		{
+			"name": "juliamertz",
+			"url": "https://github.com/juliamertz",
+			"image": "https://avatars.githubusercontent.com/u/35079666?v=4"
+		},
+		{
+			"name": "aleckrsek",
+			"url": "https://github.com/aleckrsek",
+			"image": "https://avatars.githubusercontent.com/u/146286859?v=4"
+		},
+		{
+			"name": "IdecEddy",
+			"url": "https://github.com/IdecEddy",
+			"image": "https://avatars.githubusercontent.com/u/4871249?v=4"
+		},
+		{
+			"name": "Legend28469",
+			"url": "https://github.com/Legend28469",
+			"image": "https://avatars.githubusercontent.com/u/1295971?v=4"
+		}
+	],
+	"tags": ["css"]
+}

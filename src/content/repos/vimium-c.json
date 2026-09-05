@@ -1,0 +1,20 @@
+{
+	"type": "official",
+	"name": "Vimium C",
+	"url": "https://github.com/rose-pine/vimium-c",
+	"category": "browser",
+	"updatedAt": "2025-11-05T14:51:12Z",
+	"contributors": [
+		{
+			"name": "zxx457",
+			"url": "https://github.com/zxx457",
+			"image": "https://avatars.githubusercontent.com/u/114141362?v=4"
+		},
+		{
+			"name": "mvllow",
+			"url": "https://github.com/mvllow",
+			"image": "https://avatars.githubusercontent.com/u/1474821?v=4"
+		}
+	],
+	"tags": []
+}

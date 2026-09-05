@@ -1,0 +1,14 @@
+{
+	"type": "community",
+	"name": "LeftWM",
+	"url": "https://github.com/KiranWells/leftwm-verdigris",
+	"category": "system",
+	"updatedAt": "2023-06-20T14:05:07Z",
+	"contributors": [
+		{
+			"name": "KiranWells",
+			"url": "https://github.com/KiranWells",
+			"image": "https://avatars.githubusercontent.com/u/64935184?v=4"
+		}
+	]
+}

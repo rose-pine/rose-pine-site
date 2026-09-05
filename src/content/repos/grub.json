@@ -1,0 +1,35 @@
+{
+	"type": "official",
+	"name": "GRUB",
+	"url": "https://github.com/rose-pine/grub",
+	"category": "system",
+	"updatedAt": "2025-11-05T14:46:31Z",
+	"contributors": [
+		{
+			"name": "ThatOneCalculator",
+			"url": "https://github.com/ThatOneCalculator",
+			"image": "https://avatars.githubusercontent.com/u/44733677?v=4"
+		},
+		{
+			"name": "mvllow",
+			"url": "https://github.com/mvllow",
+			"image": "https://avatars.githubusercontent.com/u/1474821?v=4"
+		},
+		{
+			"name": "revsuine",
+			"url": "https://github.com/revsuine",
+			"image": "https://avatars.githubusercontent.com/u/10424281?v=4"
+		},
+		{
+			"name": "nofishleft",
+			"url": "https://github.com/nofishleft",
+			"image": "https://avatars.githubusercontent.com/u/38971061?v=4"
+		},
+		{
+			"name": "quunnb",
+			"url": "https://github.com/quunnb",
+			"image": "https://avatars.githubusercontent.com/u/76442633?v=4"
+		}
+	],
+	"tags": []
+}

@@ -1,0 +1,19 @@
+{
+	"type": "community",
+	"name": "Base16",
+	"url": "https://github.com/edunfelt/base16-rose-pine-scheme",
+	"category": "library",
+	"updatedAt": "2025-03-13T15:25:59Z",
+	"contributors": [
+		{
+			"name": "edunfelt",
+			"url": "https://github.com/edunfelt",
+			"image": "https://avatars.githubusercontent.com/u/29271899?v=4"
+		},
+		{
+			"name": "punkfairie",
+			"url": "https://github.com/punkfairie",
+			"image": "https://avatars.githubusercontent.com/u/23287005?v=4"
+		}
+	]
+}

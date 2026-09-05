@@ -1,0 +1,15 @@
+{
+	"type": "official",
+	"name": "GoToSocial",
+	"url": "https://github.com/rose-pine/gotosocial",
+	"category": "browser",
+	"updatedAt": "2025-12-14T16:57:25Z",
+	"tags": ["custom-css", "fediverse", "self-hosted"],
+	"contributors": [
+		{
+			"name": "wzykubek",
+			"url": "https://github.com/wzykubek",
+			"image": "https://avatars.githubusercontent.com/u/37913333?v=4"
+		}
+	]
+}

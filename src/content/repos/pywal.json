@@ -1,0 +1,25 @@
+{
+	"type": "official",
+	"name": "pywal",
+	"url": "https://github.com/rose-pine/pywal",
+	"category": "library",
+	"updatedAt": "2025-11-05T14:50:29Z",
+	"tags": ["terminal", "terminal-emulator"],
+	"contributors": [
+		{
+			"name": "mvllow",
+			"url": "https://github.com/mvllow",
+			"image": "https://avatars.githubusercontent.com/u/1474821?v=4"
+		},
+		{
+			"name": "jrc03c",
+			"url": "https://github.com/jrc03c",
+			"image": "https://avatars.githubusercontent.com/u/255934?v=4"
+		},
+		{
+			"name": "fvrests",
+			"url": "https://github.com/fvrests",
+			"image": "https://avatars.githubusercontent.com/u/47515065?v=4"
+		}
+	]
+}

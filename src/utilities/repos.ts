@@ -24,7 +24,7 @@ export async function getSortedRepos(): Promise<Repo[]> {
 export async function getRecentRepos(): Promise<Repo[]> {
 	return (await allRepos())
 		.filter((r) => r.updatedAt)
-		.sort((a, b) => b.updatedAt!.getTime() - a.updatedAt!.getTime())
+		.sort((a, b) => (b.updatedAt ?? "").localeCompare(a.updatedAt ?? ""))
 		.slice(0, 10);
 }
 

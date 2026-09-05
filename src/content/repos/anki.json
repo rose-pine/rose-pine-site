@@ -1,0 +1,19 @@
+{
+	"type": "community",
+	"name": "Anki",
+	"url": "https://github.com/rafailmdzdv/anki-rosepine",
+	"category": "library",
+	"updatedAt": "2026-07-25T19:42:19Z",
+	"contributors": [
+		{
+			"name": "rafailmdzdv",
+			"url": "https://github.com/rafailmdzdv",
+			"image": "https://avatars.githubusercontent.com/u/66784042?v=4"
+		},
+		{
+			"name": "MaySeikatsu",
+			"url": "https://github.com/MaySeikatsu",
+			"image": "https://avatars.githubusercontent.com/u/127960577?v=4"
+		}
+	]
+}

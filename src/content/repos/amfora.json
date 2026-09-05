@@ -1,0 +1,15 @@
+{
+	"type": "official",
+	"name": "Amfora",
+	"url": "https://github.com/rose-pine/amfora",
+	"category": "terminal",
+	"updatedAt": "2025-11-05T14:45:53Z",
+	"tags": ["cli"],
+	"contributors": [
+		{
+			"name": "mvllow",
+			"url": "https://github.com/mvllow",
+			"image": "https://avatars.githubusercontent.com/u/1474821?v=4"
+		}
+	]
+}

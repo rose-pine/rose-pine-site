@@ -16,7 +16,7 @@ const userstyleSchema = z.object({
 export const collections = {
 	repos: defineCollection({
 		loader: glob({
-			pattern: "**/*.yaml",
+			pattern: "**/*.json",
 			base: "./src/content/repos",
 		}),
 		schema: z.object({
@@ -24,7 +24,7 @@ export const collections = {
 			name: z.string(),
 			url: z.string(),
 			category: z.string(),
-			updatedAt: z.date().optional(),
+			updatedAt: z.string().optional(),
 			tags: z.array(z.string()).optional(),
 			contributors: z.array(contributorSchema),
 			userstyles: z.array(userstyleSchema).optional(),

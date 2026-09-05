@@ -1,0 +1,25 @@
+{
+	"type": "official",
+	"name": "highlight.js",
+	"url": "https://github.com/rose-pine/hljs",
+	"category": "library",
+	"updatedAt": "2025-11-05T14:46:34Z",
+	"contributors": [
+		{
+			"name": "ThatOneCalculator",
+			"url": "https://github.com/ThatOneCalculator",
+			"image": "https://avatars.githubusercontent.com/u/44733677?v=4"
+		},
+		{
+			"name": "mvllow",
+			"url": "https://github.com/mvllow",
+			"image": "https://avatars.githubusercontent.com/u/1474821?v=4"
+		},
+		{
+			"name": "JaninaWibker",
+			"url": "https://github.com/JaninaWibker",
+			"image": "https://avatars.githubusercontent.com/u/16372321?v=4"
+		}
+	],
+	"tags": []
+}

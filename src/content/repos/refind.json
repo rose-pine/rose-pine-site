@@ -1,0 +1,14 @@
+{
+	"type": "community",
+	"name": "rEFInd",
+	"url": "https://github.com/blackma9ick/refind",
+	"category": "system",
+	"updatedAt": "2026-02-27T16:28:59Z",
+	"contributors": [
+		{
+			"name": "blackma9ick",
+			"url": "https://github.com/blackma9ick",
+			"image": "https://avatars.githubusercontent.com/u/24714832?v=4"
+		}
+	]
+}

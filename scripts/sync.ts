@@ -1,5 +1,4 @@
 import { readdir, readFile, writeFile } from "node:fs/promises";
-import { parse, stringify } from "yaml";
 import type { Contributor, RepoData, Userstyle } from "../src/types/repo.ts";
 
 const ORG = "rose-pine";
@@ -195,10 +194,12 @@ async function fetchUserstyles(
 }
 
 async function readLocalRepos(): Promise<{ repo: RepoData; file: string }[]> {
-	const files = (await readdir(OUTPUT)).filter((f) => f.endsWith(".yaml"));
+	const files = (await readdir(OUTPUT)).filter((f) => f.endsWith(".json"));
 	return await Promise.all(
 		files.map(async (file) => ({
-			repo: parse(await readFile(`${OUTPUT}/${file}`, "utf-8")) as RepoData,
+			repo: JSON.parse(
+				await readFile(`${OUTPUT}/${file}`, "utf-8"),
+			) as RepoData,
 			file,
 		})),
 	);
@@ -230,7 +231,7 @@ async function enrichRepo(
 		url: remote.html_url,
 		tags: org ? (ordinaryTopics(remote) ?? []) : local?.tags,
 		contributors,
-		updatedAt: new Date(remote.pushed_at),
+		updatedAt: remote.pushed_at,
 		...(userstyles && { userstyles }),
 	};
 }
@@ -247,7 +248,7 @@ async function seedOrgRepos(
 			)
 			.map(async (remote) => ({
 				repo: await enrichRepo(undefined, remote),
-				file: `${remote.name}.yaml`,
+				file: `${remote.name}.json`,
 			})),
 	);
 
@@ -289,7 +290,7 @@ async function enrichEntry(entry: {
 	}
 
 	const repo = await enrichRepo(local, remote);
-	const newFile = moved && isOrgRepo(remote) ? `${remote.name}.yaml` : file;
+	const newFile = moved && isOrgRepo(remote) ? `${remote.name}.json` : file;
 	return { repo, file: newFile };
 }
 
@@ -305,12 +306,12 @@ async function writeRepos(
 			continue;
 		}
 		seen.add(file);
-		await writeFile(`${OUTPUT}/${file}`, stringify(repo));
+		await writeFile(`${OUTPUT}/${file}`, JSON.stringify(repo, null, "\t"));
 		written.add(file);
 	}
 
 	const leftover = (await readdir(OUTPUT))
-		.filter((f) => f.endsWith(".yaml"))
+		.filter((f) => f.endsWith(".json"))
 		.filter((f) => !written.has(f));
 
 	for (const file of leftover) {

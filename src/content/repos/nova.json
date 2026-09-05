@@ -1,0 +1,14 @@
+{
+	"type": "community",
+	"name": "Nova",
+	"url": "https://github.com/daveyholler/rose-pine-nova",
+	"category": "editor",
+	"updatedAt": "2021-12-21T16:38:52Z",
+	"contributors": [
+		{
+			"name": "daveyholler",
+			"url": "https://github.com/daveyholler",
+			"image": "https://avatars.githubusercontent.com/u/739960?v=4"
+		}
+	]
+}

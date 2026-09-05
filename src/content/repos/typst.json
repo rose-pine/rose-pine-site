@@ -1,0 +1,30 @@
+{
+	"type": "official",
+	"name": "Typst",
+	"url": "https://github.com/rose-pine/typst",
+	"category": "terminal",
+	"updatedAt": "2026-04-30T00:30:54Z",
+	"contributors": [
+		{
+			"name": "oplik0",
+			"url": "https://github.com/oplik0",
+			"image": "https://avatars.githubusercontent.com/u/25460763?v=4"
+		},
+		{
+			"name": "Iorvethe",
+			"url": "https://github.com/Iorvethe",
+			"image": "https://avatars.githubusercontent.com/u/58810330?v=4"
+		},
+		{
+			"name": "PuddingisPOG",
+			"url": "https://github.com/PuddingisPOG",
+			"image": "https://avatars.githubusercontent.com/u/238396589?v=4"
+		},
+		{
+			"name": "mvllow",
+			"url": "https://github.com/mvllow",
+			"image": "https://avatars.githubusercontent.com/u/1474821?v=4"
+		}
+	],
+	"tags": []
+}

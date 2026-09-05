@@ -1,0 +1,25 @@
+{
+	"type": "official",
+	"name": "GlazeWM",
+	"url": "https://github.com/rose-pine/glazewm",
+	"category": "system",
+	"updatedAt": "2025-11-05T14:46:27Z",
+	"contributors": [
+		{
+			"name": "jishnurajendran",
+			"url": "https://github.com/jishnurajendran",
+			"image": "https://avatars.githubusercontent.com/u/10544069?v=4"
+		},
+		{
+			"name": "jovark",
+			"url": "https://github.com/jovark",
+			"image": "https://avatars.githubusercontent.com/u/57330540?v=4"
+		},
+		{
+			"name": "mvllow",
+			"url": "https://github.com/mvllow",
+			"image": "https://avatars.githubusercontent.com/u/1474821?v=4"
+		}
+	],
+	"tags": []
+}

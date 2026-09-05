@@ -18,7 +18,7 @@ export type RepoData = {
 	tags?: string[];
 	contributors: Contributor[];
 	userstyles?: Userstyle[];
-	updatedAt?: Date;
+	updatedAt?: string;
 	related?: string[];
 };
 
@@ -31,7 +31,7 @@ export type Repo = {
 	tags: string[];
 	contributors: Contributor[];
 	userstyles: Userstyle[];
-	updatedAt?: Date;
+	updatedAt?: string;
 	related: string[];
 	searchText: string;
 };
