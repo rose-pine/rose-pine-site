@@ -8,7 +8,7 @@ import {
 	useTranslations,
 } from "../utilities/i18n";
 import { objectEntries } from "../utilities/object";
-import { ChevronDownIcon, DocumentIcon } from "./icons";
+import { ChevronDownIcon, DocumentIcon, LanguagesIcon } from "./icons";
 import LoveAll from "./love-all.astro";
 import SiteAppearance from "./site-appearance.svelte";
 
@@ -98,6 +98,7 @@ let socialItems = [
 			<div class="cluster items-start justify-end">
 				<details class="group/dropdown dropdown dropdown-up">
 					<summary class="button button-ghost">
+						<LanguagesIcon size={16} />
 						<span
 							>{
 								languages[locale as keyof typeof languages]?.name ?? "English"

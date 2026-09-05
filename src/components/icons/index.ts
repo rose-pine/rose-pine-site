@@ -23,6 +23,7 @@ export { default as HeartIcon } from "./heart.svelte";
 export { default as HomeIcon } from "./home.svelte";
 export { default as InboxIcon } from "./inbox.svelte";
 export { default as IndentIcon } from "./indent.svelte";
+export { default as LanguagesIcon } from "./languages.svelte";
 export { default as LayersIcon } from "./layers.svelte";
 export { default as LibraryIcon } from "./library.svelte";
 export { default as NotebookIcon } from "./notebook.svelte";
