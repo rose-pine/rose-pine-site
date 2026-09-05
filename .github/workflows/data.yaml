@@ -16,7 +16,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: format
-        run: npx --yes prettier --write src/content/repos/*.json
+        run: npx --yes prettier --no-config --use-tabs --write src/content/repos/*.json
       - name: commit changes
         run: |
           git config --global user.name "github-actions[bot]"
