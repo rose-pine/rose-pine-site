@@ -111,8 +111,13 @@ ul.list li,
 }
 
 .prose blockquote {
-	color: var(--color-pine);
-	border-color: var(--color-pine);
+	color: var(--color-subtle);
+	border-color: var(--color-overlay);
+
+	p::before,
+	p::after {
+		content: none;
+	}
 }
 
 .prose blockquote p {
