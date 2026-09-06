@@ -9,7 +9,7 @@ updatedAt: 2026-09-05T12:00:00-06:00
 Rosé Pine is maintained for the benefit of the community, and we're grateful for
 any contributions that help improve it. We require that contributors:
 
-- Follow the [Code of Conduct](/code-of-conduct)
+- Follow the [Code of Conduct](/create/code-of-conduct)
 - Be kind and respect the time and effort of maintainers and other contributors
 
 ## What to contribute
