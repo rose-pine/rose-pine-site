@@ -16,6 +16,7 @@ export { default as DesktopIcon } from "./desktop.svelte";
 export { default as Dice3Icon } from "./dice-3.svelte";
 export { default as DiscordIcon } from "./discord.svelte";
 export { default as DocumentIcon } from "./document.svelte";
+export { default as EditIcon } from "./edit.svelte";
 export { default as FolderIcon } from "./folder.svelte";
 export { default as GithubIcon } from "./github.svelte";
 export { default as GridIcon } from "./grid.svelte";
