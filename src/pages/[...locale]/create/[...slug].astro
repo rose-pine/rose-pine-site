@@ -1,7 +1,7 @@
 ---
 import { getCollection, getEntry, render } from "astro:content";
 import Avatar from "../../../components/avatar.svelte";
-import { CalendarIcon } from "../../../components/icons";
+import { CalendarIcon, EditIcon } from "../../../components/icons";
 import Page from "../../../layouts/page.astro";
 import {
 	defaultLocale,
@@ -33,7 +33,7 @@ export async function getStaticPaths() {
 	});
 }
 
-const { locale = "en" } = Astro.params;
+const { locale = "en", slug } = Astro.params;
 let t = useTranslations(locale);
 let translatePath = useTranslatedPath(locale);
 
@@ -41,7 +41,6 @@ const { page } = Astro.props;
 const author = await getEntry(page.data.author);
 const { Content } = await render(page);
 
-const slug = page.id.split("/").slice(1).join("/");
 const allPages = await getCollection("guides");
 const displayNames = new Intl.DisplayNames([locale, "en"], {
 	type: "language",
@@ -118,13 +117,11 @@ const updatedAt = formatDate(page.data.updatedAt, locale);
 
 			<div class="animate-enter prose prose-lg mb-8" style="--stagger: 2.5">
 				<Content />
-			</div>
 
-			{
-				availableLanguages.length > 0 && (
-					<>
-						<div class="my-8 h-px bg-muted/20" />
+				<div class="my-8 h-0.5 bg-overlay"></div>
 
+				{
+					availableLanguages.length > 0 && (
 						<p class="mb-8 text-lg">
 							{t("create.also_available_in")}&nbsp;
 							{availableLanguages.map((language, index) => (
@@ -139,9 +136,17 @@ const updatedAt = formatDate(page.data.updatedAt, locale);
 								</>
 							))}
 						</p>
-					</>
-				)
-			}
+					)
+				}
+
+				<a
+					href={`https://github.com/rose-pine/rose-pine-site/edit/main/${page.filePath}`}
+					class="button button-secondary"
+				>
+					<span class="pbe-px">Edit on GitHub</span>
+					<EditIcon size={16} class="button-icon" />
+				</a>
+			</div>
 		</article>
 	</div>
 </Page>

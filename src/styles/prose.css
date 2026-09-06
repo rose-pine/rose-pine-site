@@ -6,12 +6,21 @@
 	color: var(--color-text);
 }
 
-.link,
-.prose a {
+.link:not(.button),
+.prose a:not(.button) {
 	color: var(--color-iris);
 	font-weight: inherit;
 	text-decoration: underline;
 	text-underline-offset: 2px;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.prose a.button {
+	color: inherit;
+	text-decoration: none;
 }
 
 .prose strong {
@@ -34,6 +43,7 @@ ol.list li,
 	--_marker-size: 20px;
 
 	counter-increment: prose-counter;
+	line-height: 2rem;
 	position: relative;
 	list-style: none;
 	padding-inline-start: calc(var(--_marker-size) * 1.5);
@@ -42,10 +52,10 @@ ol.list li,
 ol.list li::before,
 .prose ol li::before {
 	content: counter(prose-counter);
+	line-height: 2rem;
 	position: absolute;
-	top: 50%;
+	inset-block-start: calc(0.5lh - (var(--_marker-size) / 2));
 	inset-inline-start: 0;
-	translate: 0 -50%;
 	width: var(--_marker-size);
 	height: var(--_marker-size);
 	display: flex;
@@ -56,13 +66,13 @@ ol.list li::before,
 	border-radius: 50%;
 	font-size: 0.65em;
 	font-weight: 600;
-	line-height: 1;
 }
 
 ul.list li,
 .prose ul li {
 	--_marker-size: 16px;
 
+	line-height: 2rem;
 	position: relative;
 	list-style: none;
 	padding-inline-start: calc(var(--_marker-size) * 1.5);
@@ -87,6 +97,7 @@ ul.list li,
 		--_rotation: 0;
 
 		content: "";
+		line-height: 2rem;
 		position: absolute;
 		inset-block-start: calc(0.5lh - (var(--_marker-size) / 2));
 		inset-inline-start: 0;
