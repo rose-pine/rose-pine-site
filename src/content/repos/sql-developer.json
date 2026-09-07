@@ -1,9 +1,9 @@
 {
 	"type": "official",
-	"name": "sql-developer",
-	"category": "none",
+	"name": "SQL Developer",
+	"category": "editor",
 	"url": "https://github.com/rose-pine/sql-developer",
-	"tags": ["color-scheme", "editor", "plsql", "sql", "sqldeveloper"],
+	"tags": ["color-scheme", "plsql", "sql", "sqldeveloper"],
 	"contributors": [
 		{
 			"name": "Serge2702",

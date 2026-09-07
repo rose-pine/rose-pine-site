@@ -1,0 +1,15 @@
+{
+	"type": "official",
+	"name": "Godot",
+	"category": "editor",
+	"url": "https://github.com/rose-pine/godot",
+	"tags": ["colorscheme", "gdscript"],
+	"contributors": [
+		{
+			"name": "rznn7",
+			"url": "https://github.com/rznn7",
+			"image": "https://avatars.githubusercontent.com/u/160644362?v=4"
+		}
+	],
+	"updatedAt": "2026-09-06T13:55:23Z"
+}
