@@ -68,6 +68,18 @@ No podemos garantizar que los problemas se resuelvan inmediatamente, pero apreci
 
 - Si la _pull request_ está relacionada con un _issue_ existente, referéncialo en la descripción de la misma, por ejemplo `arregla #123`
 
+## AI contributions policy
+
+We follow
+[Zig's Strict No LLM/No AI Policy](https://ziglang.org/code-of-conduct/#strict-no-llm-no-ai-policy).
+We do not accept contributions of any kind that are created or edited using
+generative artificial intelligence tools. This includes but is not limited to
+pull requests, issues, artwork and comments.
+
+This policy relies on trust and the help of our maintainers. It does _not_
+guarantee that no AI-assisted code or prose exists in the project, but aims to
+discourage and prevent further AI-assisted contributions.
+
 ## Gracias
 
 ¡Gracias por tu apoyo y felices contribuciones! 🌸

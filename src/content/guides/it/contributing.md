@@ -67,6 +67,18 @@ Non possiamo garantire che le issue vengano risolte immediatamente, ma apprezzia
 - Invia una pull request alla repositoria principale con le tue modifiche e qualsiasi informazione di supporto, spiegazione o contesto che ritieni opportuno
 - Se il tuo contributo è collegato a un'issue, fai riferimento ad essa nella descrizione della PR, ad es. `fixes #123`
 
+## AI contributions policy
+
+We follow
+[Zig's Strict No LLM/No AI Policy](https://ziglang.org/code-of-conduct/#strict-no-llm-no-ai-policy).
+We do not accept contributions of any kind that are created or edited using
+generative artificial intelligence tools. This includes but is not limited to
+pull requests, issues, artwork and comments.
+
+This policy relies on trust and the help of our maintainers. It does _not_
+guarantee that no AI-assisted code or prose exists in the project, but aims to
+discourage and prevent further AI-assisted contributions.
+
 ## Grazie
 
 Grazie per il tuo supporto e buon lavoro! 🌸
