@@ -3,7 +3,7 @@
 	"name": "Obsidian",
 	"url": "https://github.com/rose-pine/obsidian",
 	"category": "editor",
-	"updatedAt": "2026-09-07T08:54:01Z",
+	"updatedAt": "2026-09-15T00:32:03Z",
 	"contributors": [
 		{
 			"name": "JTrenerry",
@@ -19,6 +19,11 @@
 			"name": "mvllow",
 			"url": "https://github.com/mvllow",
 			"image": "https://avatars.githubusercontent.com/u/1474821?v=4"
+		},
+		{
+			"name": "imhalawa",
+			"url": "https://github.com/imhalawa",
+			"image": "https://avatars.githubusercontent.com/u/109009756?v=4"
 		},
 		{
 			"name": "nicolaskemp03",
