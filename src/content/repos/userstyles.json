@@ -3,7 +3,7 @@
 	"name": "Userstyles",
 	"url": "https://github.com/rose-pine/userstyles",
 	"category": "browser",
-	"updatedAt": "2026-08-27T09:17:55Z",
+	"updatedAt": "2026-09-16T16:11:51Z",
 	"tags": ["css", "stylish", "stylus"],
 	"userstyles": [
 		{
@@ -124,6 +124,11 @@
 			"image": "https://avatars.githubusercontent.com/u/113891532?v=4"
 		},
 		{
+			"name": "ZT2wo",
+			"url": "https://github.com/ZT2wo",
+			"image": "https://avatars.githubusercontent.com/u/47440927?v=4"
+		},
+		{
 			"name": "jenishboricha",
 			"url": "https://github.com/jenishboricha",
 			"image": "https://avatars.githubusercontent.com/u/144167321?v=4"
@@ -132,11 +137,6 @@
 			"name": "JTrenerry",
 			"url": "https://github.com/JTrenerry",
 			"image": "https://avatars.githubusercontent.com/u/105094182?v=4"
-		},
-		{
-			"name": "ZT2wo",
-			"url": "https://github.com/ZT2wo",
-			"image": "https://avatars.githubusercontent.com/u/47440927?v=4"
 		},
 		{
 			"name": "Papa-Quill",
