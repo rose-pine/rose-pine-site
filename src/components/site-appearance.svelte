@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from "svelte";
-	import { ChevronDownIcon, RainbowIcon } from "./icons";
+	import Dropdown from "./dropdown.svelte";
+	import { RainbowIcon } from "./icons";
 
 	type ThemeValue = "system" | "main" | "moon" | "dawn";
 	let themes: ThemeValue[] = ["system", "main", "moon", "dawn"];
@@ -28,31 +29,24 @@
 			localStorage.theme = appearance;
 		}
 	}
-
-	let detailsElement: HTMLDetailsElement;
-
-	function selectTheme(theme: ThemeValue) {
-		updateTheme(theme);
-		detailsElement.open = false;
-	}
 </script>
 
-<details bind:this={detailsElement} class="group/dropdown dropdown dropdown-up">
-	<summary class="button button-ghost">
-		<RainbowIcon size={16} />
-		<span class="pbe-px"
-			>{themeNameMap[appearance as ThemeValue] || themeNameMap.system}</span
-		>
-		<ChevronDownIcon
-			size={14}
-			class="transition-transform duration-150 group-open/dropdown:rotate-180"
-		/>
-	</summary>
-	<div class="dropdown-menu">
+<Dropdown align="end" direction="above">
+	{#snippet trigger()}
+		<RainbowIcon />
+		{themeNameMap[appearance as ThemeValue] || themeNameMap.system}
+	{/snippet}
+
+	<ul>
 		{#each themes as theme}
-			<button class="dropdown-item" onclick={() => selectTheme(theme)}>
-				{themeNameMap[theme]}
-			</button>
+			<li>
+				<button
+					onclick={() => updateTheme(theme)}
+					aria-current={appearance === theme ? "true" : undefined}
+				>
+					{themeNameMap[theme]}
+				</button>
+			</li>
 		{/each}
-	</div>
-</details>
+	</ul>
+</Dropdown>

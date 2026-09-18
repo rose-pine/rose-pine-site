@@ -39,6 +39,11 @@ export const languages = Object.fromEntries(
 	{ name: string; dir: "ltr" | "rtl"; translations: Partial<Translations> }
 >;
 
+export const buildDisplayNames = (locale: Locale) =>
+	new Intl.DisplayNames([locale, "en"], {
+		type: "language",
+	});
+
 export const defaultLocale = "en" as const;
 export const showDefaultLocale = false;
 
