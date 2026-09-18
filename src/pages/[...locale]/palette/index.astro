@@ -135,23 +135,19 @@ function buildSyntaxes(variant: Variant, format: "hex" | "hsl" | "rgb") {
 											return (
 												<tr class="bg-surface *:py-(--cell-gutter) even:bg-muted/5">
 													<td class="ps-card-gutters">
-														<div class="flex">
-															<a
-																href={translatePath(`/palette/${color.slug}`)}
-																class="flex items-center gap-2 rounded-card-inner px-(--cell-offset) py-[calc(var(--cell-offset)/2)] hover:bg-muted/10"
-															>
-																<div
-																	class="size-4 rounded-full border border-muted/20"
-																	style={{ background: `#${color.hex}` }}
-																/>
-																<div class="pbe-px text-[15px] font-medium">
-																	{color.name}
-																</div>
-															</a>
-														</div>
+														<a
+															href={translatePath(`/palette/${color.slug}`)}
+															class="button button-ghost button-sm -ms-card-gutters-half"
+														>
+															<div
+																class="button-icon rounded-full border border-muted/10"
+																style={{ background: `#${color.hex}` }}
+															/>
+															{color.name}
+														</a>
 													</td>
 
-													<td class="ps-(--col-gap)">
+													<td class="ps-(--col-gap) pe-card-gutters-half">
 														<CopyColorButton
 															client:only="svelte"
 															formattedStyled={formatColor(color, "hex", true)}
@@ -159,7 +155,7 @@ function buildSyntaxes(variant: Variant, format: "hex" | "hsl" | "rgb") {
 														/>
 													</td>
 
-													<td class="ps-(--col-gap)">
+													<td class="ps-(--col-gap) pe-card-gutters-half">
 														<CopyColorButton
 															client:only="svelte"
 															formattedStyled={formatColor(color, "hsl", true)}
@@ -167,7 +163,7 @@ function buildSyntaxes(variant: Variant, format: "hex" | "hsl" | "rgb") {
 														/>
 													</td>
 
-													<td class="ps-(--col-gap)">
+													<td class="ps-(--col-gap) pe-card-gutters-half">
 														<CopyColorButton
 															client:only="svelte"
 															formattedStyled={formatColor(color, "rgb", true)}

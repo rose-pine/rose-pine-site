@@ -37,22 +37,26 @@
 	}
 </script>
 
-<details bind:this={detailsElement} class="group/dropdown dropdown dropdown-up">
+<details bind:this={detailsElement} class="dropdown">
 	<summary class="button button-ghost">
-		<RainbowIcon size={16} />
-		<span class="pbe-px"
-			>{themeNameMap[appearance as ThemeValue] || themeNameMap.system}</span
-		>
-		<ChevronDownIcon
-			size={14}
-			class="transition-transform duration-150 group-open/dropdown:rotate-180"
-		/>
+		<RainbowIcon class="button-icon" />
+		{themeNameMap[appearance as ThemeValue] || themeNameMap.system}
+		<ChevronDownIcon class="summary-caret" />
 	</summary>
-	<div class="dropdown-menu">
+	<ul
+		role="list"
+		class="dropdown-menu dropdown-menu-align-end dropdown-menu-open-up"
+	>
 		{#each themes as theme}
-			<button class="dropdown-item" onclick={() => selectTheme(theme)}>
-				{themeNameMap[theme]}
-			</button>
+			<li>
+				<button
+					class="dropdown-item"
+					onclick={() => selectTheme(theme)}
+					aria-current={appearance === theme ? "true" : undefined}
+				>
+					{themeNameMap[theme]}
+				</button>
+			</li>
 		{/each}
-	</div>
+	</ul>
 </details>

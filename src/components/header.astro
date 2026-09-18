@@ -3,16 +3,21 @@ import BadgeIcon from "../assets/badge.svg";
 import { getRecentRepos, getSortedRepos } from "../utilities/repos";
 import palette from "../data/palette.json";
 import {
+	buildDisplayNames,
 	getLocaleFromUrl,
+	getUrlWithoutLocale,
+	languages,
 	useTranslatedPath,
 	useTranslations,
 } from "../utilities/i18n";
 import CommandMenu, { type Group } from "./command-menu.svelte";
-import { ChevronDownIcon, SparklesIcon } from "./icons";
+import { ChevronDownIcon, LanguagesIcon, SparklesIcon } from "./icons";
+import { objectEntries } from "../utilities/object";
 
 let locale = getLocaleFromUrl(Astro.url);
 let t = useTranslations(locale);
 let translatePath = useTranslatedPath(locale);
+let languageNames = buildDisplayNames(locale);
 
 const [sortedRepos, recentRepos] = await Promise.all([
 	getSortedRepos(),
@@ -144,7 +149,7 @@ let defaultGroups: Group[] = [
 ---
 
 <header
-	class="relative wrapper mt-page-start flex items-center gap-6 py-card-gutters-half"
+	class="relative wrapper mt-page-start flex items-center gap-(--nav-item-space-lg) py-card-gutters-half"
 >
 	<a
 		title={t("nav.home")}
@@ -157,17 +162,53 @@ let defaultGroups: Group[] = [
 		>
 	</a>
 
-	<div class="flex flex-1 items-center justify-end">
+	<div
+		class="z-50 flex flex-1 items-center justify-end gap-(--nav-item-space-lg)"
+	>
 		<CommandMenu
 			client:only="svelte"
 			{defaultGroups}
 			{searchGroups}
 			{repoSlugs}
 		/>
+
+		<details class="dropdown">
+			<summary
+				class="button button-ghost max-md:h-(--badge-size) max-md:rounded-card-inner"
+			>
+				<LanguagesIcon class="button-icon" />
+				<ChevronDownIcon class="summary-caret" />
+			</summary>
+			<ul role="list" class="dropdown-menu dropdown-menu-align-end">
+				{
+					objectEntries(languages).map(([lang, { name }]) => {
+						let localisedName = languageNames.of(lang) ?? name;
+						return (
+							<li>
+								<a
+									href={`${translatePath(getUrlWithoutLocale(Astro.url), lang)}?lang=${lang}`}
+									class="dropdown-item"
+									aria-current={locale === lang ? "page" : undefined}
+								>
+									<div class="flex flex-wrap items-center gap-1.5 leading-tight">
+										<span>{name}</span>
+										{name !== localisedName && (
+											<span class="text-xs text-subtle">{localisedName}</span>
+										)}
+									</div>
+								</a>
+							</li>
+						);
+					})
+				}
+			</ul>
+		</details>
+
+		<div class="z-50 h-7 w-px bg-text/20"></div>
 	</div>
 
 	<nav aria-label={t("nav.header_label")} class="hidden lg:block">
-		<ul class="flex items-center gap-1.5">
+		<ul class="flex items-center gap-(--nav-item-space)">
 			{
 				menuItems.map((item) => (
 					<li>
@@ -178,15 +219,12 @@ let defaultGroups: Group[] = [
 				))
 			}
 			<li>
-				<details class="group/dropdown dropdown">
+				<details class="dropdown">
 					<summary class="button button-ghost">
-						<span>{t("nav.collections")}</span>
-						<ChevronDownIcon
-							size={14}
-							class="transition-transform duration-150 group-open/dropdown:rotate-180"
-						/>
+						{t("nav.collections")}
+						<ChevronDownIcon class="summary-caret" />
 					</summary>
-					<div class="dropdown-menu">
+					<div class="dropdown-menu dropdown-menu-align-end">
 						{
 							collectionItems.map((item) => (
 								<a href={item.href} class="dropdown-item">
@@ -197,7 +235,7 @@ let defaultGroups: Group[] = [
 					</div>
 				</details>
 			</li>
-			<li class="ps-3">
+			<li>
 				<a href={translatePath("/create")} class="button button-outline">
 					<SparklesIcon size={16} class="button-icon" />
 					<span class="pbe-px">{t("nav.create")}</span>
@@ -208,14 +246,13 @@ let defaultGroups: Group[] = [
 
 	<details class="animate-details group/menu block select-none lg:hidden">
 		<summary
-			class="relative z-50 flex size-(--badge-size) items-center justify-center rounded-card-inner transition hover:bg-muted/10"
+			class="button button-ghost relative z-50 size-(--badge-size) rounded-card-inner"
 		>
 			<svg
-				width="20"
-				height="20"
 				viewBox="0 0 16 16"
 				fill="currentColor"
 				xmlns="http://www.w3.org/2000/svg"
+				class="button-icon"
 			>
 				<rect
 					x="0"
@@ -256,15 +293,12 @@ let defaultGroups: Group[] = [
 					))
 				}
 				<li>
-					<details class="group/collection">
+					<details>
 						<summary
 							class="flex h-14 w-full items-center justify-between rounded-card-inner pe-card-gutters text-xl font-semibold transition-[background-color,padding] hover:bg-muted/10 hover:ps-card-gutters"
 						>
 							<span>{t("nav.collections")}</span>
-							<ChevronDownIcon
-								size={18}
-								class="transition-transform duration-150 group-open/collection:rotate-180"
-							/>
+							<ChevronDownIcon class="summary-caret" />
 						</summary>
 						<ul class="flex flex-col ps-card-gutters">
 							{
@@ -302,5 +336,7 @@ let defaultGroups: Group[] = [
 <style>
 	header {
 		--badge-size: 44px;
+		--nav-item-space: 0.375rem;
+		--nav-item-space-lg: calc(var(--nav-item-space) * 2);
 	}
 </style>
