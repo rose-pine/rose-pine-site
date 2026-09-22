@@ -1,6 +1,5 @@
 // @ts-check
 
-import netlify from "@astrojs/netlify";
 import sitemap from "@astrojs/sitemap";
 import svelte from "@astrojs/svelte";
 import tailwindcss from "@tailwindcss/vite";
@@ -72,22 +71,5 @@ export default defineConfig({
 		shikiConfig: {
 			themes: { dark: "rose-pine", light: "rose-pine-dawn" },
 		},
-	},
-	// use netlify adapter to translate redirects to the proper _redirects format
-	// https://docs.astro.build/en/guides/integrations-guide/netlify/#static-sites-with-the-netlify-adapter
-	adapter: netlify({ imageCDN: false }),
-	redirects: {
-		"/en": "/",
-		"/en/:path*": "/:path*",
-		"/palette/ingredients": "/palette",
-		"/:lang/palette/ingredients": "/:lang/palette",
-		"/resources": "/create",
-		"/:lang/resources": "/:lang/create",
-		"/resources/:slug*": "/create/:slug*",
-		"/:lang/resources/:slug*": "/:lang/create/:slug*",
-
-		"/discord": "https://discord.gg/M7UBHVuerY",
-		"/new":
-			"https://github.com/rose-pine/rose-pine-site/issues/new?template=theme.yaml",
 	},
 });

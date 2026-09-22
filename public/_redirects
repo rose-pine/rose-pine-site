@@ -1,0 +1,21 @@
+
+/resources/                    /create                                                                       301
+/resources                     /create                                                                       301
+/resources/:slug*/             /create/:slug*                                                                301
+/resources/:slug*              /create/:slug*                                                                301
+/palette/ingredients/          /palette                                                                      301
+/palette/ingredients           /palette                                                                      301
+/new/                          https://github.com/rose-pine/rose-pine-site/issues/new?template=theme.yaml    301
+/new                           https://github.com/rose-pine/rose-pine-site/issues/new?template=theme.yaml    301
+/en/                           /                                                                             301
+/en                            /                                                                             301
+/en/:path*/                    /:path*                                                                       301
+/en/:path*                     /:path*                                                                       301
+/discord/                      https://discord.gg/M7UBHVuerY                                                 301
+/discord                       https://discord.gg/M7UBHVuerY                                                 301
+/:lang/resources/              /:lang/create                                                                 301
+/:lang/resources               /:lang/create                                                                 301
+/:lang/resources/:slug*/       /:lang/create/:slug*                                                          301
+/:lang/resources/:slug*        /:lang/create/:slug*                                                          301
+/:lang/palette/ingredients/    /:lang/palette                                                                301
+/:lang/palette/ingredients     /:lang/palette                                                                301

@@ -5,14 +5,13 @@
 	"scripts": {
 		"dev": "astro dev",
 		"build": "astro build",
-		"check": "astro check; pnpm exec svelte-check",
-		"preview": "netlify serve",
+		"check": "pnpm exec svelte-check",
+		"preview": "astro preview",
 		"astro": "astro",
 		"format": "pnpm exec prettier --write .",
 		"sync": "node --env-file=.env scripts/sync.ts && pnpm exec prettier --write src/content/repos/*.json"
 	},
 	"dependencies": {
-		"@astrojs/netlify": "^8.1.2",
 		"@astrojs/sitemap": "^3.7.3",
 		"@astrojs/svelte": "9.0.1",
 		"@tailwindcss/typography": "^0.5.20",
@@ -22,7 +21,6 @@
 		"tailwindcss": "^4.3.3"
 	},
 	"devDependencies": {
-		"@astrojs/check": "^0.9.9",
 		"@types/node": "^26.4.1",
 		"prettier": "^3.9.5",
 		"prettier-plugin-astro": "^0.14.1",
