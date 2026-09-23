@@ -42,9 +42,7 @@
 	</div>
 </div>
 
-<style is:global>
-	@reference "../styles/global.css";
-
+<style>
 	.paris {
 		--unit: 12px;
 		--dit-width: calc(var(--unit) * 1);
@@ -98,10 +96,10 @@
 	@keyframes dance {
 		0%,
 		100% {
-			gap: --spacing(4);
+			gap: 1rem;
 		}
 		50% {
-			gap: --spacing(6);
+			gap: 1.5rem;
 			transform: rotate(2deg);
 		}
 	}
