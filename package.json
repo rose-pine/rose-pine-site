@@ -11,6 +11,9 @@
 		"format": "pnpm exec prettier --write .",
 		"sync": "node --env-file=.env scripts/sync.ts && pnpm exec prettier --write src/content/repos/*.json"
 	},
+	"imports": {
+		"#global.css": "./src/styles/global.css"
+	},
 	"dependencies": {
 		"@astrojs/sitemap": "^3.7.3",
 		"@astrojs/svelte": "9.0.1",

@@ -193,26 +193,15 @@
 	aria-label={t("command.trigger")}
 	aria-haspopup="dialog"
 	aria-keyshortcuts="Control+k Meta+k"
-	class="hidden h-7 items-center justify-center gap-1.5 rounded-full border border-muted/20 bg-muted/5 px-2 transition hover:bg-muted/10 md:flex"
+	class="button button-ghost button-touch"
 >
-	<SearchIcon size={16} />
+	<SearchIcon />
 	<kbd
 		aria-hidden="true"
-		class="rounded-full font-mono text-sm tracking-widest text-subtle">⌘K</kbd
+		class="rounded-full font-mono text-sm tracking-widest text-subtle
+	 max-lg:hidden">⌘K</kbd
 	>
 </button>
-
-<button
-	type="button"
-	onclick={openMenu}
-	aria-haspopup="dialog"
-	aria-label={t("command.trigger")}
-	class="relative z-50 flex size-(--badge-size) items-center justify-center rounded-card-inner transition hover:bg-muted/10 md:hidden"
->
-	<SearchIcon size={20} />
-</button>
-
-<div class="z-50 ms-6 h-7 w-px bg-text/20 md:-me-(--nav-item-space)"></div>
 
 <dialog
 	bind:this={dialogElement}
