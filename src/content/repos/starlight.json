@@ -3,12 +3,17 @@
 	"name": "Starlight",
 	"url": "https://github.com/trueberryless-org/starlight-theme-rose-pine",
 	"category": "browser",
-	"updatedAt": "2026-09-26T13:03:52Z",
+	"updatedAt": "2026-09-28T00:50:56Z",
 	"contributors": [
 		{
 			"name": "trueberryless",
 			"url": "https://github.com/trueberryless",
 			"image": "https://avatars.githubusercontent.com/u/99918022?v=4"
+		},
+		{
+			"name": "trueberryless-bot",
+			"url": "https://github.com/trueberryless-bot",
+			"image": "https://avatars.githubusercontent.com/u/324652437?v=4"
 		}
 	]
 }
