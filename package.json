@@ -15,11 +15,11 @@
 		"#global.css": "./src/styles/global.css"
 	},
 	"dependencies": {
-		"@astrojs/sitemap": "^3.7.3",
+		"@astrojs/sitemap": "^3.7.4",
 		"@astrojs/svelte": "9.0.1",
 		"@tailwindcss/typography": "^0.5.20",
 		"@tailwindcss/vite": "^4.3.3",
-		"astro": "7.1.1",
+		"astro": "7.3.5",
 		"svelte": "^5.56.6",
 		"tailwindcss": "^4.3.3"
 	},
