@@ -1,9 +1,9 @@
 {
 	"type": "official",
-	"name": "futo",
-	"category": "none",
+	"name": "FUTO Keyboard",
+	"category": "system",
 	"url": "https://github.com/rose-pine/futo",
-	"tags": ["futo-keyboard"],
+	"tags": [],
 	"contributors": [
 		{
 			"name": "gatinSy",

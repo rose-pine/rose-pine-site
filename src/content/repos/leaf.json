@@ -1,0 +1,15 @@
+{
+	"type": "official",
+	"name": "leaf",
+	"category": "terminal",
+	"url": "https://github.com/rose-pine/leaf",
+	"tags": ["markdown"],
+	"contributors": [
+		{
+			"name": "simono",
+			"url": "https://github.com/simono",
+			"image": "https://avatars.githubusercontent.com/u/874148?v=4"
+		}
+	],
+	"updatedAt": "2026-09-29T16:31:04Z"
+}
