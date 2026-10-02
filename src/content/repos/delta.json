@@ -1,0 +1,15 @@
+{
+	"type": "official",
+	"name": "delta",
+	"category": "terminal",
+	"url": "https://github.com/rose-pine/delta",
+	"tags": [],
+	"contributors": [
+		{
+			"name": "mvllow",
+			"url": "https://github.com/mvllow",
+			"image": "https://avatars.githubusercontent.com/u/1474821?v=4"
+		}
+	],
+	"updatedAt": "2026-10-01T17:23:04Z"
+}
