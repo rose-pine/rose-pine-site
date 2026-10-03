@@ -3,16 +3,22 @@ import BadgeIcon from "../assets/badge.svg";
 import { getRecentRepos, getSortedRepos } from "../utilities/repos";
 import palette from "../data/palette.json";
 import {
+	buildDisplayNames,
 	getLocaleFromUrl,
+	getUrlWithoutLocale,
+	languages,
 	useTranslatedPath,
 	useTranslations,
 } from "../utilities/i18n";
 import CommandMenu, { type Group } from "./command-menu.svelte";
-import { ChevronDownIcon, SparklesIcon } from "./icons";
+import Dropdown from "./dropdown.svelte";
+import { LanguagesIcon, SparklesIcon } from "./icons";
+import { objectEntries } from "../utilities/object";
 
 let locale = getLocaleFromUrl(Astro.url);
 let t = useTranslations(locale);
 let translatePath = useTranslatedPath(locale);
+let languageNames = buildDisplayNames(locale);
 
 const [sortedRepos, recentRepos] = await Promise.all([
 	getSortedRepos(),
@@ -143,31 +149,63 @@ let defaultGroups: Group[] = [
 ];
 ---
 
-<header
-	class="relative wrapper mt-page-start flex items-center gap-6 py-card-gutters-half"
+<nav
+	data-root
+	aria-label={t("nav.header_label")}
+	class="relative wrapper mt-page-start flex flex-wrap items-center gap-3 py-page-gutters-half"
+	style="--insignia-size: 44px"
 >
-	<a
-		title={t("nav.home")}
-		href={translatePath("/")}
-		class="z-50 flex shrink-0 items-center gap-3 rounded-lg"
-	>
-		<BadgeIcon class="size-(--badge-size) shrink-0" />
-		<span class="pe-1 font-serif text-xl font-medium tracking-tight italic"
-			>Rosé Pine</span
+	<div class="z-50">
+		<a
+			href={translatePath("/")}
+			title={t("nav.home")}
+			class="flex shrink-0 items-center gap-3 font-serif text-xl font-medium tracking-tight whitespace-nowrap italic"
 		>
-	</a>
-
-	<div class="flex flex-1 items-center justify-end">
-		<CommandMenu
-			client:only="svelte"
-			{defaultGroups}
-			{searchGroups}
-			{repoSlugs}
-		/>
+			<BadgeIcon class="size-(--insignia-size) shrink-0" />
+			Rosé Pine
+		</a>
 	</div>
 
-	<nav aria-label={t("nav.header_label")} class="hidden lg:block">
-		<ul class="flex items-center gap-1.5">
+	<div class="flex flex-1 items-center justify-end gap-3">
+		<div class="z-50 flex items-center gap-3">
+			<CommandMenu
+				client:only="svelte"
+				{defaultGroups}
+				{searchGroups}
+				{repoSlugs}
+			/>
+
+			<Dropdown triggerSize="touch" align="end">
+				<Fragment slot="trigger"><LanguagesIcon /></Fragment>
+
+				<ul>
+					{
+						objectEntries(languages).map(([lang, { name }]) => {
+							let localisedName = languageNames.of(lang) ?? name;
+							return (
+								<li>
+									<a
+										aria-current={locale === lang ? "true" : undefined}
+										href={translatePath(getUrlWithoutLocale(Astro.url), lang)}
+									>
+										<div class="flex flex-col flex-wrap">
+											{name}
+											{name.toLowerCase() !== localisedName.toLowerCase() && (
+												<div class="text-xs text-subtle">{localisedName}</div>
+											)}
+										</div>
+									</a>
+								</li>
+							);
+						})
+					}
+				</ul>
+			</Dropdown>
+
+			<div class="h-7 w-px bg-text/20"></div>
+		</div>
+
+		<ul class="hidden items-center gap-3 lg:flex">
 			{
 				menuItems.map((item) => (
 					<li>
@@ -177,130 +215,86 @@ let defaultGroups: Group[] = [
 					</li>
 				))
 			}
+
 			<li>
-				<details class="group/dropdown dropdown">
-					<summary class="button button-ghost">
-						<span>{t("nav.collections")}</span>
-						<ChevronDownIcon
-							size={14}
-							class="transition-transform duration-150 group-open/dropdown:rotate-180"
-						/>
-					</summary>
-					<div class="dropdown-menu">
+				<Dropdown align="end">
+					<Fragment slot="trigger">{t("nav.collections")}</Fragment>
+
+					<ul>
 						{
 							collectionItems.map((item) => (
-								<a href={item.href} class="dropdown-item">
-									{item.name}
-								</a>
+								<li>
+									<a href={item.href}>{item.name}</a>
+								</li>
 							))
 						}
-					</div>
-				</details>
+					</ul>
+				</Dropdown>
 			</li>
-			<li class="ps-3">
+
+			<li>
 				<a href={translatePath("/create")} class="button button-outline">
-					<SparklesIcon size={16} class="button-icon" />
-					<span class="pbe-px">{t("nav.create")}</span>
+					<SparklesIcon size={16} />
+					{t("nav.create")}
 				</a>
 			</li>
 		</ul>
-	</nav>
 
-	<details class="animate-details group/menu block select-none lg:hidden">
-		<summary
-			class="relative z-50 flex size-(--badge-size) items-center justify-center rounded-card-inner transition hover:bg-muted/10"
-		>
-			<svg
-				width="20"
-				height="20"
-				viewBox="0 0 16 16"
-				fill="currentColor"
-				xmlns="http://www.w3.org/2000/svg"
+		<details class="animate-details group/menu block select-none lg:hidden">
+			<summary class="button button-ghost relative z-50 max-lg:button-lg">
+				<svg
+					viewBox="0 0 16 16"
+					fill="currentColor"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<rect
+						x="0"
+						y="7.5"
+						width="16"
+						height="1.5"
+						rx="0.5"
+						class="origin-center translate-y-[-3.5px] transition-transform duration-150 group-open/menu:translate-y-0 group-open/menu:rotate-45"
+					></rect>
+					<rect
+						x="0"
+						y="7.5"
+						width="16"
+						height="1.5"
+						rx="0.5"
+						class="origin-center translate-y-[3.5px] transition-transform duration-150 group-open/menu:translate-y-0 group-open/menu:-rotate-45"
+					></rect>
+				</svg>
+			</summary>
+
+			<div
+				class="absolute inset-x-page-gutters-half top-0 z-40 overflow-hidden rounded-card border border-overlay bg-surface/80 pbs-[calc(var(--spacing-page-gutters-half)+var(--insignia-size))] shadow-md shadow-black/5 backdrop-blur-xl backdrop-saturate-150"
 			>
-				<rect
-					x="0"
-					y="7.5"
-					width="16"
-					height="1.5"
-					rx="0.5"
-					class="origin-center translate-y-[-3.5px] transition-transform duration-150 group-open/menu:translate-y-0 group-open/menu:rotate-45"
-				></rect>
-				<rect
-					x="0"
-					y="7.5"
-					width="16"
-					height="1.5"
-					rx="0.5"
-					class="origin-center translate-y-[3.5px] transition-transform duration-150 group-open/menu:translate-y-0 group-open/menu:-rotate-45"
-				></rect>
-			</svg>
-		</summary>
+				<ul class="flex flex-col p-page-gutters-half">
+					{
+						[...menuItems, ...collectionItems].map((item) => (
+							<li>
+								<a
+									aria-label={item.name}
+									href={item.href}
+									class="flex h-14 w-full shrink-0 items-center rounded-card-inner text-xl font-semibold transition-[background-color,padding] select-none hover:bg-muted/10 motion-safe:hover:px-5 motion-reduce:px-5"
+								>
+									{item.name}
+								</a>
+							</li>
+						))
+					}
 
-		<nav
-			aria-label={t("nav.header_label")}
-			class="card absolute inset-x-page-gutters-half top-0 z-40 bg-surface/80 pbs-(--badge-size) shadow-lg shadow-black/10 backdrop-blur-xl backdrop-saturate-150 transition"
-		>
-			<div class="h-card-gutters-half"></div>
-			<ul class="flex flex-col p-card-gutters-half">
-				{
-					menuItems.map((item) => (
-						<li>
-							<a
-								aria-label={item.name}
-								href={item.href}
-								class="flex h-14 w-full items-center rounded-card-inner text-xl font-semibold transition-[background-color,padding] hover:bg-muted/10 hover:ps-card-gutters"
-							>
-								{item.name}
-							</a>
-						</li>
-					))
-				}
-				<li>
-					<details class="group/collection">
-						<summary
-							class="flex h-14 w-full items-center justify-between rounded-card-inner pe-card-gutters text-xl font-semibold transition-[background-color,padding] hover:bg-muted/10 hover:ps-card-gutters"
+					<li>
+						<a
+							href={translatePath("/create")}
+							class="button button-outline button-full mt-3 button-xl"
 						>
-							<span>{t("nav.collections")}</span>
-							<ChevronDownIcon
-								size={18}
-								class="transition-transform duration-150 group-open/collection:rotate-180"
-							/>
-						</summary>
-						<ul class="flex flex-col ps-card-gutters">
-							{
-								collectionItems.map((item) => (
-									<li>
-										<a
-											href={item.href}
-											class="flex h-12 w-full items-center rounded-card-inner pe-card-gutters text-lg font-medium transition-[background-color,padding] hover:bg-muted/10 hover:ps-card-gutters"
-										>
-											{item.name}
-										</a>
-									</li>
-								))
-							}
-						</ul>
-					</details>
-				</li>
-				<li class="w-full pt-3">
-					<a
-						href={translatePath("/create")}
-						class="group/cta flex h-14 shrink-0 items-center justify-center gap-4 rounded-card-inner border-2 border-text ps-4 pe-5 font-serif text-xl font-medium italic transition hover:border-gold hover:bg-gold/10 hover:text-gold"
-					>
-						<SparklesIcon
-							size={24}
-							class="transition-transform group-hover/cta:-rotate-3"
-						/>
-						<span class="pbe-px">{t("nav.create")}</span>
-					</a>
-				</li>
-			</ul>
-		</nav>
-	</details>
-</header>
-
-<style>
-	header {
-		--badge-size: 44px;
-	}
-</style>
+							<SparklesIcon />
+							{t("nav.create")}
+						</a>
+					</li>
+				</ul>
+			</div>
+		</details>
+	</div>
+</nav>

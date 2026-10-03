@@ -79,9 +79,9 @@ function buildSyntaxes(variant: Variant, format: "hex" | "hsl" | "rgb") {
 				{
 					variants.map((variant) => (
 						<article class="card">
-							<div class="flex flex-wrap items-center justify-between gap-2 p-card-gutters [--badge-size:36px]">
+							<div class="flex flex-wrap items-center justify-between gap-2 p-card-gutters">
 								<div class="flex items-center gap-2">
-									<BadgeIcon class="size-(--badge-size) shrink-0" />
+									<BadgeIcon class="size-9 shrink-0" />
 									<div class="font-serif text-lg font-medium tracking-tight capitalize italic">
 										Rosé Pine {variant === "main" ? "" : variant}
 									</div>
@@ -135,23 +135,19 @@ function buildSyntaxes(variant: Variant, format: "hex" | "hsl" | "rgb") {
 											return (
 												<tr class="bg-surface *:py-(--cell-gutter) even:bg-muted/5">
 													<td class="ps-card-gutters">
-														<div class="flex">
-															<a
-																href={translatePath(`/palette/${color.slug}`)}
-																class="flex items-center gap-2 rounded-card-inner px-(--cell-offset) py-[calc(var(--cell-offset)/2)] hover:bg-muted/10"
-															>
-																<div
-																	class="size-4 rounded-full border border-muted/20"
-																	style={{ background: `#${color.hex}` }}
-																/>
-																<div class="pbe-px text-[15px] font-medium">
-																	{color.name}
-																</div>
-															</a>
-														</div>
+														<a
+															href={translatePath(`/palette/${color.slug}`)}
+															class="button button-ghost -ms-card-gutters-half button-sm"
+														>
+															<div
+																class="button-icon rounded-full border border-muted/10"
+																style={{ background: `#${color.hex}` }}
+															/>
+															{color.name}
+														</a>
 													</td>
 
-													<td class="ps-(--col-gap)">
+													<td class="ps-(--col-gap) pe-card-gutters-half">
 														<CopyColorButton
 															client:only="svelte"
 															formattedStyled={formatColor(color, "hex", true)}
@@ -159,7 +155,7 @@ function buildSyntaxes(variant: Variant, format: "hex" | "hsl" | "rgb") {
 														/>
 													</td>
 
-													<td class="ps-(--col-gap)">
+													<td class="ps-(--col-gap) pe-card-gutters-half">
 														<CopyColorButton
 															client:only="svelte"
 															formattedStyled={formatColor(color, "hsl", true)}
@@ -167,7 +163,7 @@ function buildSyntaxes(variant: Variant, format: "hex" | "hsl" | "rgb") {
 														/>
 													</td>
 
-													<td class="ps-(--col-gap)">
+													<td class="ps-(--col-gap) pe-card-gutters-half">
 														<CopyColorButton
 															client:only="svelte"
 															formattedStyled={formatColor(color, "rgb", true)}
