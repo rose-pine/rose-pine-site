@@ -71,11 +71,6 @@
 			"image": "https://avatars.githubusercontent.com/u/71222289?v=4"
 		},
 		{
-			"name": "risixdzn",
-			"url": "https://github.com/risixdzn",
-			"image": "https://avatars.githubusercontent.com/u/102877738?v=4"
-		},
-		{
 			"name": "RenerPires",
 			"url": "https://github.com/RenerPires",
 			"image": "https://avatars.githubusercontent.com/u/78770187?v=4"
@@ -136,9 +131,14 @@
 			"image": "https://avatars.githubusercontent.com/u/16621507?v=4"
 		},
 		{
-			"name": "AndCorradi",
-			"url": "https://github.com/AndCorradi",
-			"image": "https://avatars.githubusercontent.com/u/62003732?v=4"
+			"name": "meluiz",
+			"url": "https://github.com/meluiz",
+			"image": "https://avatars.githubusercontent.com/u/52682525?v=4"
+		},
+		{
+			"name": "risixdzn",
+			"url": "https://github.com/risixdzn",
+			"image": "https://avatars.githubusercontent.com/u/102877738?v=4"
 		},
 		{
 			"name": "Ricardofreitasdev",
@@ -201,9 +201,9 @@
 			"image": "https://avatars.githubusercontent.com/u/37658262?v=4"
 		},
 		{
-			"name": "papey08",
-			"url": "https://github.com/papey08",
-			"image": "https://avatars.githubusercontent.com/u/81183518?v=4"
+			"name": "AndCorradi",
+			"url": "https://github.com/AndCorradi",
+			"image": "https://avatars.githubusercontent.com/u/62003732?v=4"
 		},
 		{
 			"name": "anurag-roy",
@@ -334,11 +334,6 @@
 			"name": "luisorbaiceta",
 			"url": "https://github.com/luisorbaiceta",
 			"image": "https://avatars.githubusercontent.com/u/44276180?v=4"
-		},
-		{
-			"name": "meluiz",
-			"url": "https://github.com/meluiz",
-			"image": "https://avatars.githubusercontent.com/u/52682525?v=4"
 		}
 	],
 	"related": ["vscode"]
