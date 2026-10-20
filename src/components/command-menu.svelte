@@ -211,7 +211,7 @@
 		open = dialogElement?.open ?? false;
 	}}
 	onclose={closeMenu}
-	class="fixed top-auto bottom-0 left-1/2 z-90 w-full max-w-xl -translate-x-1/2 overflow-hidden rounded-t-dialog border-0 bg-surface p-0 shadow-xl open:backdrop:bg-black/50 sm:top-20 sm:bottom-auto sm:w-9/10 sm:rounded-b-dialog"
+	class="fixed top-auto bottom-0 left-1/2 z-90 w-full max-w-xl -translate-x-1/2 overflow-hidden rounded-t-dialog border-0 bg-surface p-0 shadow-xl open:backdrop:bg-black/50 sm:top-20 sm:bottom-auto sm:w-9/10 sm:rounded-b-dialog rtl:right-1/2 rtl:translate-x-1/2"
 >
 	<h2 id="command-title" class="sr-only">{t("command.title")}</h2>
 
