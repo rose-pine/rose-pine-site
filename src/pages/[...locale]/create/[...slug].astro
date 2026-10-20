@@ -4,6 +4,7 @@ import Avatar from "../../../components/avatar.svelte";
 import { CalendarIcon, EditIcon } from "../../../components/icons";
 import Page from "../../../layouts/page.astro";
 import {
+	buildDisplayNames,
 	defaultLocale,
 	formatDate,
 	isLocale,
@@ -36,15 +37,13 @@ export async function getStaticPaths() {
 const { locale = "en", slug } = Astro.params;
 let t = useTranslations(locale);
 let translatePath = useTranslatedPath(locale);
+let languageNames = buildDisplayNames(locale);
 
 const { page } = Astro.props;
 const author = await getEntry(page.data.author);
 const { Content } = await render(page);
 
 const allPages = await getCollection("guides");
-const displayNames = new Intl.DisplayNames([locale, "en"], {
-	type: "language",
-});
 const availableLanguages = objectEntries(languages)
 	.filter(
 		([code]) =>
@@ -52,7 +51,7 @@ const availableLanguages = objectEntries(languages)
 	)
 	.map(([code, { name }]) => ({
 		name,
-		localisedName: displayNames.of(code) ?? name,
+		localisedName: languageNames.of(code) ?? name,
 		url: useTranslatedPath(code)(`/create/${slug}`),
 	}));
 
@@ -144,7 +143,7 @@ const updatedAt = formatDate(page.data.updatedAt, locale);
 					class="button button-secondary"
 				>
 					<span class="pbe-px">Edit on GitHub</span>
-					<EditIcon size={16} class="button-icon" />
+					<EditIcon />
 				</a>
 			</div>
 		</article>

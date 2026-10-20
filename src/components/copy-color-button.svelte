@@ -30,15 +30,16 @@
 		aria-live="polite"
 		onclick={copyToClipboard}
 		disabled={copied}
-		class="group -mx-(--cell-offset) flex items-center gap-1.5 rounded-card-inner px-(--cell-offset) py-[calc(var(--cell-offset)/2)] font-mono text-sm hover:bg-muted/10 hover:font-semibold disabled:tonal-gold disabled:font-semibold disabled:select-none"
+		class="group button button-ghost -mx-(--cell-offset) px-(--cell-offset) py-[calc(var(--cell-offset)/2)] font-mono button-sm disabled:select-none"
 	>
 		<div
-			class="group-enabled:invisible group-enabled:text-subtle group-enabled:group-hover:visible"
+			class="group-enabled:opacity-0
+			group-enabled:group-hover:opacity-100"
 		>
 			{#if copied}
-				<CopyCheckIcon size={15} />
+				<CopyCheckIcon />
 			{:else}
-				<CopyIcon size={15} />
+				<CopyIcon />
 			{/if}
 		</div>
 

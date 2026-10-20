@@ -1,7 +1,7 @@
 ---
 import Footer from "../components/footer.astro";
 import Header from "../components/header.astro";
-import "../styles/global.css";
+import "#global.css";
 import {
 	getLocaleFromUrl,
 	getUrlWithoutLocale,
@@ -88,14 +88,17 @@ let ogLocale = locale === "en" ? "en_US" : locale.replace("-", "_");
 			}
 
 			document.addEventListener("click", (e) => {
-				const target = e.target;
-				if ((target as HTMLElement).closest("a")) return;
+				const target = e.target as HTMLElement;
+				if (target.closest("a")) return;
 
 				const open = document.querySelectorAll("details[open]");
 				if (!open.length) return;
 
 				open.forEach((d) => {
-					if (!d.contains(target as Node)) {
+					if (
+						!d.contains(target) ||
+						target.closest("[data-dropdown] li > button")
+					) {
 						d.removeAttribute("open");
 						// Re-calculate heights after closing
 						(d as HTMLElement).offsetHeight;
