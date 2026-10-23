@@ -48,7 +48,7 @@ let socialItems = [
 
 <footer class="wrapper py-page-start">
 	<nav id="footer-nav" aria-label={t("nav.footer_label")}>
-		<div class="cluster-20 pbe-page-start *:last:ms-auto">
+		<div class="flex flex-wrap gap-20 pbe-page-start *:last:ms-auto">
 			<section class="stack">
 				<h2>{t("nav.resources")}</h2>
 				<ul class="stack-2">
@@ -88,7 +88,7 @@ let socialItems = [
 				</ul>
 			</section>
 
-			<div class="cluster items-start justify-end">
+			<div class="flex flex-wrap items-center justify-end gap-3">
 				<SiteAppearance client:only="svelte" />
 				<a href={translatePath("/colophon")} class="button button-ghost">
 					<DocumentIcon size={16} />
@@ -102,7 +102,7 @@ let socialItems = [
 		</div>
 	</nav>
 
-	<div class="cluster justify-center pbs-page-start">
+	<div class="flex justify-center pbs-page-start">
 		<LoveAll />
 	</div>
 </footer>

@@ -159,15 +159,15 @@ let defaultGroups: Group[] = [
 		<a
 			href={translatePath("/")}
 			title={t("nav.home")}
-			class="flex shrink-0 items-center gap-3 font-serif text-xl font-medium tracking-tight whitespace-nowrap italic"
+			class="flex shrink-0 items-center gap-1.5 pr-0.5 font-serif text-lg font-medium tracking-tight whitespace-nowrap italic sm:gap-3 sm:text-xl"
 		>
 			<BadgeIcon class="size-(--insignia-size) shrink-0" />
 			Rosé Pine
 		</a>
 	</div>
 
-	<div class="flex flex-1 items-center justify-end gap-3">
-		<div class="z-50 flex items-center gap-3">
+	<div class="flex flex-1 items-center justify-end gap-1.5 sm:gap-3">
+		<div class="z-50 flex items-center gap-1.5 sm:gap-3">
 			<CommandMenu
 				client:only="svelte"
 				{defaultGroups}

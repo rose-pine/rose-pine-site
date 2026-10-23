@@ -21,7 +21,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	gap: calc(var(--spacing) * --value(integer, --default(4)));
-	align-items: flex-start;
+	align-items: center;
 	justify-content: flex-start;
 }
 
