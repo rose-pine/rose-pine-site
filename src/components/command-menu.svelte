@@ -11,8 +11,10 @@
 		ArrowDownIcon,
 		ArrowSWIcon,
 		ArrowUpIcon,
+		BrowserIcon,
 		CameraIcon,
 		ChevronRightIcon,
+		DocumentIcon,
 		Dice3Icon,
 		DiscordIcon,
 		FolderIcon,
@@ -20,6 +22,8 @@
 		HeartIcon,
 		HomeIcon,
 		InboxIcon,
+		LanguagesIcon,
+		PlusIcon,
 		RainbowIcon,
 		SearchIcon,
 		SparklesIcon,
@@ -28,13 +32,18 @@
 	import ThemeIcon from "./theme-icon.svelte";
 
 	const iconComponents: Record<string, Component<{ size?: number }>> = {
+		"arrow-up": ArrowUpIcon,
+		browser: BrowserIcon,
 		camera: CameraIcon,
+		document: DocumentIcon,
 		discord: DiscordIcon,
 		folder: FolderIcon,
 		github: GithubIcon,
 		heart: HeartIcon,
 		home: HomeIcon,
 		inbox: InboxIcon,
+		languages: LanguagesIcon,
+		plus: PlusIcon,
 		rainbow: RainbowIcon,
 		sparkles: SparklesIcon,
 	};

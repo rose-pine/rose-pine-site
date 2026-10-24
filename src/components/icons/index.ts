@@ -28,6 +28,7 @@ export { default as LanguagesIcon } from "./languages.svelte";
 export { default as LayersIcon } from "./layers.svelte";
 export { default as LibraryIcon } from "./library.svelte";
 export { default as NotebookIcon } from "./notebook.svelte";
+export { default as PlusIcon } from "./plus.svelte";
 export { default as RainbowIcon } from "./rainbow.svelte";
 export { default as SearchIcon } from "./search.svelte";
 export { default as SocialIcon } from "./social.svelte";
