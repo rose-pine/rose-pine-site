@@ -69,7 +69,7 @@ export const collections = {
 				image: image(),
 				title: z.string(),
 				description: z.string(),
-				order: z.number().default(99),
+				order: z.number().prefault(99),
 			}),
 	}),
 
