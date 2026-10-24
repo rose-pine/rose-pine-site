@@ -13,7 +13,9 @@ export async function getStaticPaths() {
 let { locale = "en" } = Astro.params;
 let t = useTranslations(locale);
 
-const madeWith = await getCollection("madeWith");
+const madeWith = (await getCollection("madeWith")).sort(
+	(a, b) => a.data.order - b.data.order,
+);
 ---
 
 <Page title={t("made-with.title")} description={t("made-with.description")}>
