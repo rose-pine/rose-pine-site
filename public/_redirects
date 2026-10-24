@@ -1,3 +1,20 @@
+# BEGIN AUTO-GENERATED LOCALE REDIRECTS
+/  /ar/  302!  Language=ar
+/  /ca/  302!  Language=ca
+/  /cs/  302!  Language=cs
+/  /de/  302!  Language=de
+/  /es/  302!  Language=es
+/  /fr/  302!  Language=fr
+/  /id/  302!  Language=id
+/  /it/  302!  Language=it
+/  /ko/  302!  Language=ko
+/  /nl/  302!  Language=nl
+/  /pt-BR/  302!  Language=pt-BR
+/  /sv/  302!  Language=sv
+/  /tr/  302!  Language=tr
+/  /uk/  302!  Language=uk
+/  /zh-CN/  302!  Language=zh-CN
+# END AUTO-GENERATED LOCALE REDIRECTS
 
 /resources/                    /create                                                                       301
 /resources                     /create                                                                       301

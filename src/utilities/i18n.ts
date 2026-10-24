@@ -45,7 +45,7 @@ export const buildDisplayNames = (locale: Locale) =>
 	});
 
 export const defaultLocale = "en" as const;
-export const showDefaultLocale = false;
+export const showDefaultLocale = true;
 
 if (!languages[defaultLocale]) {
 	throw new Error(
@@ -67,9 +67,8 @@ export async function withLocalePaths<T extends GetStaticPathsItem>(
 ): Promise<LocalePath<T>[]> {
 	const locales: LocaleParam[] = objectKeys(languages);
 
-	if (!showDefaultLocale) {
-		locales.push(undefined);
-	}
+	// Always use the default language for un-prefixed paths.
+	locales.push(undefined);
 
 	if (entries.length === 0) {
 		return locales.map((locale) => ({ params: { locale } }) as LocalePath<T>);

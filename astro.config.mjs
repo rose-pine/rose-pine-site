@@ -4,7 +4,7 @@ import sitemap from "@astrojs/sitemap";
 import svelte from "@astrojs/svelte";
 import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "astro/config";
-import { readdirSync, writeFileSync } from "fs";
+import { readdirSync, readFileSync, writeFileSync } from "fs";
 
 const LOCALES_DIR = new URL("src/locales/", import.meta.url);
 
@@ -26,11 +26,53 @@ function localeTypes() {
 			.join(" | ");
 		writeFileSync(
 			new URL("src/types/locale.gen.ts", import.meta.url),
-			`// Auto-generated — do not edit\nexport type Locale = ${type};\n`,
+			`// AUTO-GENERATED LOCALE TYPES\nexport type Locale = ${type};\n`,
 		);
 	}
 	return {
 		name: "locale-types",
+		buildStart: generate,
+	};
+}
+
+/**
+ * Vite plugin that generates _redirects from the locales directory.
+ */
+function localeRedirects() {
+	const redirectsFile = new URL("public/_redirects", import.meta.url);
+
+	const defaultLocale = "en";
+	const startMarker = "# BEGIN AUTO-GENERATED LOCALE REDIRECTS";
+	const endMarker = "# END AUTO-GENERATED LOCALE REDIRECTS";
+
+	function generate() {
+		const locales = getLocaleCodes()
+			.filter((locale) => locale !== defaultLocale)
+			.sort();
+
+		const generated = [
+			startMarker,
+			...locales.map((locale) => `/  /${locale}/  302!  Language=${locale}`),
+			endMarker,
+		].join("\n");
+
+		const existing = readFileSync(redirectsFile, "utf8");
+		const start = existing.indexOf(startMarker);
+		const end = existing.indexOf(endMarker);
+
+		const updated =
+			start !== -1 && end !== -1 && end > start
+				? existing.slice(0, start) +
+					generated +
+					existing.slice(end + endMarker.length)
+				: `${generated}\n\n${existing}`;
+
+		if (updated !== existing) {
+			writeFileSync(redirectsFile, updated);
+		}
+	}
+	return {
+		name: "locale-redirects",
 		buildStart: generate,
 	};
 }
@@ -65,7 +107,7 @@ export default defineConfig({
 		responsiveStyles: true,
 	},
 	vite: {
-		plugins: [tailwindcss(), localeTypes()],
+		plugins: [tailwindcss(), localeTypes(), localeRedirects()],
 	},
 	markdown: {
 		shikiConfig: {
