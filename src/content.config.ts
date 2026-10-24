@@ -16,8 +16,8 @@ const userstyleSchema = z.object({
 export const collections = {
 	repos: defineCollection({
 		loader: glob({
-			pattern: "**/*.json",
 			base: "./src/content/repos",
+			pattern: "**/*.json",
 		}),
 		schema: z.object({
 			type: z.enum(["official", "community"]),
