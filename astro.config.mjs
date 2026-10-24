@@ -95,11 +95,6 @@ export default defineConfig({
 				),
 			},
 			filter: (page) => !new URL(page).pathname.startsWith("/en/"),
-			namespaces: {
-				news: false,
-				image: false,
-				video: false,
-			},
 		}),
 	],
 	image: {
