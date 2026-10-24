@@ -11,14 +11,14 @@ body:
   - type: input
     attributes:
       label: Author URL
-      description: Used for attribution
+      description: Used for theme attribution.
       placeholder: e.g., https://github.com/mvllow
     validations:
       required: true
   - type: checkboxes
     attributes:
       label: Transfer to Rosé Pine
-      description: Please ensure your theme follows our template at https://github.com/rose-pine/rose-pine-template and supports all three variants where possible
+      description: Please ensure your theme follows our template at https://github.com/rose-pine/rose-pine-template and supports all three variants where possible. Owners of transferred repos will retain full read/write access.
       options:
         - label: Invite me to the org and I'll transfer the repo over
           required: false
@@ -26,7 +26,7 @@ body:
     id: category
     attributes:
       label: Theme category
-      description: Select the category that best matches your theme
+      description: Select the category that best matches your theme.
       multiple: false
       options:
         - Browser
