@@ -59,34 +59,55 @@ type LocalePath<T extends GetStaticPathsItem> = Omit<T, "params"> & {
 };
 
 /**
- * Generates localized static paths by combining entries with each locale
+ * Generates localised static paths by combining entries with each locale
  * variant. If no entries are provided, returns one path per locale.
+ *
+ * Pass a function instead of an array when the entries differ per locale.
  */
 export async function withLocalePaths<T extends GetStaticPathsItem>(
-	entries: T[] = [],
+	entries: T[] | ((locale: LocaleParam) => T | T[]) = [],
 ): Promise<LocalePath<T>[]> {
 	const locales: LocaleParam[] = objectKeys(languages);
 
 	// Always use the default language for un-prefixed paths.
 	locales.push(undefined);
 
+	const withLocale = (locale: LocaleParam, entry: T): LocalePath<T> => ({
+		...entry,
+		params: {
+			...entry.params,
+			locale,
+		},
+	});
+
+	if (typeof entries === "function") {
+		return locales.flatMap((locale) => {
+			const entry = entries(locale);
+			const list = Array.isArray(entry) ? entry : [entry];
+			return list.map((item) => withLocale(locale, item));
+		});
+	}
+
 	if (entries.length === 0) {
 		return locales.map((locale) => ({ params: { locale } }) as LocalePath<T>);
 	}
 
 	return locales.flatMap((locale) =>
-		entries.map((entry) => ({
-			...entry,
-			params: {
-				...entry.params,
-				locale,
-			},
-		})),
+		entries.map((entry) => withLocale(locale, entry)),
 	);
 }
 
 export function isLocale(value: string): value is Locale {
 	return value in languages;
+}
+
+export function parseLocalisedId(id: string) {
+	const [locale, ...slugParts] = id.split("/");
+
+	return {
+		locale: isLocale(locale) ? locale : defaultLocale,
+		slug: slugParts.join("/"),
+	};
 }
 
 export function getUrlWithoutLocale(url: URL = new URL(window.location.href)) {

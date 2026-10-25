@@ -9,57 +9,84 @@ import {
 	formatDate,
 	isLocale,
 	languages,
-	showDefaultLocale,
+	parseLocalisedId,
 	useTranslatedPath,
 	useTranslations,
+	withLocalePaths,
 } from "../../../utilities/i18n";
-import { objectEntries } from "../../../utilities/object";
+import { objectKeys } from "../../../utilities/object";
 
 export async function getStaticPaths() {
-	const pages = await getCollection("guides", ({ data }) => {
-		return import.meta.env.PROD ? data.draft !== true : true;
-	});
+	const pages = await getCollection(
+		"guides",
+		({ data }) => !import.meta.env.PROD || data.draft !== true,
+	);
 
-	return pages.map((page) => {
-		const [first, ...rest] = page.id.split("/");
-		const locale = isLocale(first) ? first : defaultLocale;
-		return {
-			params: {
-				locale:
-					!showDefaultLocale && locale === defaultLocale ? undefined : locale,
-				slug: rest.join("/") || undefined,
-			},
-			props: { page },
-		};
+	const pagesById = new Map(pages.map((page) => [page.id, page]));
+	const slugs = [
+		...new Set(pages.map((page) => parseLocalisedId(page.id).slug)),
+	];
+
+	return await withLocalePaths((locale) => {
+		const contentLocale = locale ?? defaultLocale;
+
+		return slugs.flatMap((slug) => {
+			const page =
+				pagesById.get(`${contentLocale}/${slug}`) ??
+				pagesById.get(`${defaultLocale}/${slug}`);
+
+			return page ? [{ params: { slug }, props: { page } }] : [];
+		});
 	});
 }
 
-const { locale = "en", slug } = Astro.params;
-let t = useTranslations(locale);
-let translatePath = useTranslatedPath(locale);
-let languageNames = buildDisplayNames(locale);
+const { locale = defaultLocale, slug } = Astro.params as {
+	locale?: string;
+	slug: string;
+};
+const uiLocale = isLocale(locale) ? locale : defaultLocale;
+const uiDir = languages[uiLocale].dir;
+let t = useTranslations(uiLocale);
+let translatePath = useTranslatedPath(uiLocale);
+let languageNames = buildDisplayNames(uiLocale);
 
 const { page } = Astro.props;
+const { locale: contentLocale } = parseLocalisedId(page.id);
+const contentDir = languages[contentLocale].dir;
+const isFallback = contentLocale !== uiLocale;
+
 const author = await getEntry(page.data.author);
 const { Content } = await render(page);
 
-const allPages = await getCollection("guides");
-const availableLanguages = objectEntries(languages)
-	.filter(
-		([code]) =>
-			code !== locale && allPages.some((page) => page.id === `${code}/${slug}`),
-	)
-	.map(([code, { name }]) => ({
-		name,
-		localisedName: languageNames.of(code) ?? name,
+const allPages = await getCollection(
+	"guides",
+	({ data }) => !import.meta.env.PROD || data.draft !== true,
+);
+const translatedLocales = objectKeys(languages).filter((code) =>
+	allPages.some((page) => page.id === `${code}/${slug}`),
+);
+
+const availableLanguages = translatedLocales
+	.filter((code) => code !== contentLocale)
+	.map((code) => ({
+		name: languages[code].name,
+		localisedName: languageNames.of(code) ?? languages[code].name,
 		url: useTranslatedPath(code)(`/create/${slug}`),
 	}));
 
-const publishedAt = formatDate(page.data.publishedAt, locale);
-const updatedAt = formatDate(page.data.updatedAt, locale);
+const canonical = new URL(`/create/${slug}/`, Astro.site).href;
+
+const publishedAt = formatDate(page.data.publishedAt, uiLocale);
+const updatedAt = formatDate(page.data.updatedAt, uiLocale);
 ---
 
-<Page title={page.data.title} description={page.data.description}>
+<Page
+	title={page.data.title}
+	description={page.data.description}
+	availableLocales={translatedLocales}
+	canonical={isFallback ? canonical : undefined}
+	noindex={isFallback}
+>
 	<div class="wrapper">
 		<div
 			class="animate-enter mb-12 flex items-center justify-between gap-3"
@@ -74,7 +101,24 @@ const updatedAt = formatDate(page.data.updatedAt, locale);
 			</a>
 		</div>
 
-		<article class="mx-auto w-full max-w-prose">
+		<article
+			class="mx-auto w-full max-w-prose"
+			lang={contentLocale}
+			dir={contentDir}
+		>
+			{
+				isFallback && (
+					<p
+						class="animate-enter mb-8 font-medium text-love"
+						style="--stagger: 0.5"
+					>
+						{t("create.fallback_notice", {
+							language: languages[uiLocale].name,
+						})}
+					</p>
+				)
+			}
+
 			<h1
 				class="animate-enter mb-4 max-w-2xl text-5xl font-bold tracking-tight text-balance"
 				style="--stagger: 1"
@@ -121,7 +165,7 @@ const updatedAt = formatDate(page.data.updatedAt, locale);
 
 				{
 					availableLanguages.length > 0 && (
-						<p class="mb-8 text-lg">
+						<p class="mb-8 text-lg" lang={uiLocale} dir={uiDir}>
 							{t("create.also_available_in")}&nbsp;
 							{availableLanguages.map((language, index) => (
 								<>
