@@ -2,6 +2,7 @@
 import Footer from "../components/footer.astro";
 import Header from "../components/header.astro";
 import "#global.css";
+import type { Locale } from "../types/locale.gen";
 import {
 	defaultLocale,
 	getLocaleFromUrl,
@@ -16,8 +17,19 @@ type Props = {
 	description: string;
 	ogImage?: string;
 	ogImageAlt?: string;
+	availableLocales?: Locale[];
+	canonical?: string;
+	noindex?: boolean;
 };
-let { title, description, ogImage, ogImageAlt } = Astro.props;
+let {
+	title,
+	description,
+	ogImage,
+	ogImageAlt,
+	availableLocales = objectKeys(languages),
+	canonical: canonicalOverride,
+	noindex = false,
+} = Astro.props;
 
 function toOgLocale(code: string) {
 	let { language, region } = new Intl.Locale(code).maximize();
@@ -29,7 +41,7 @@ let dir = languages[locale]?.dir ?? "ltr";
 let isHomePage = Astro.url.pathname === "/";
 
 let pathWithoutLocale = getUrlWithoutLocale(Astro.url);
-let alternates = objectKeys(languages).map((lang) => ({
+let alternates = availableLocales.map((lang) => ({
 	hreflang: lang,
 	href: new URL(
 		lang === defaultLocale
@@ -40,9 +52,10 @@ let alternates = objectKeys(languages).map((lang) => ({
 }));
 let defaultHref = new URL(pathWithoutLocale, Astro.site).href;
 let canonical =
-	locale === defaultLocale
+	canonicalOverride ??
+	(locale === defaultLocale
 		? defaultHref
-		: new URL(Astro.url.pathname, Astro.site).href;
+		: new URL(Astro.url.pathname, Astro.site).href);
 let ogLocale = toOgLocale(locale);
 ---
 
@@ -64,10 +77,11 @@ let ogLocale = toOgLocale(locale);
 		<meta name="generator" content={Astro.generator} />
 		<meta property="og:site_name" content="Rosé Pine" />
 		<link rel="canonical" href={canonical} />
+		{noindex && <meta name="robots" content="noindex, follow" />}
 		<meta property="og:url" content={canonical} />
 		<meta property="og:locale" content={ogLocale} />
 		{
-			objectKeys(languages)
+			availableLocales
 				.filter((lang) => lang !== locale)
 				.map((lang) => (
 					<meta property="og:locale:alternate" content={toOgLocale(lang)} />

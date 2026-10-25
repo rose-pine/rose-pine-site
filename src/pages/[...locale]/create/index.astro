@@ -5,14 +5,13 @@ import Page from "../../../layouts/page.astro";
 import type { Locale } from "../../../types/locale.gen";
 import {
 	defaultLocale,
-	isLocale,
 	languages,
-	showDefaultLocale,
+	parseLocalisedId,
 	useTranslatedPath,
 	useTranslations,
+	withLocalePaths,
 	type LocaleParam,
 } from "../../../utilities/i18n";
-import { objectKeys } from "../../../utilities/object";
 import { ArrowNEIcon } from "../../../components/icons";
 
 export async function getStaticPaths() {
@@ -25,7 +24,7 @@ export async function getStaticPaths() {
 		);
 
 		const existingSlugs = new Set(
-			guidesInLocale.map((g) => g.id.split("/").slice(1).join("/")),
+			guidesInLocale.map((guide) => parseLocalisedId(guide.id).slug),
 		);
 
 		// fill in guides not yet translated with english versions
@@ -35,7 +34,7 @@ export async function getStaticPaths() {
 						({ id, data }) =>
 							id.startsWith(`${defaultLocale}/`) &&
 							(!import.meta.env.PROD || !data.draft) &&
-							!existingSlugs.has(id.split("/").slice(1).join("/")),
+							!existingSlugs.has(parseLocalisedId(id).slug),
 					)
 				: [];
 
@@ -44,11 +43,8 @@ export async function getStaticPaths() {
 		);
 	};
 
-	const locales: LocaleParam[] = objectKeys(languages);
-	if (!showDefaultLocale) locales.push(undefined);
-
-	return locales.map((locale) => ({
-		params: { locale },
+	return await withLocalePaths((locale) => ({
+		params: {},
 		props: { pages: buildPages(locale ?? defaultLocale) },
 	}));
 }
@@ -59,14 +55,8 @@ const resolvedLocale = locale ?? defaultLocale;
 const t = useTranslations(resolvedLocale);
 const translatePath = useTranslatedPath(resolvedLocale);
 
-// pass the guide's own locale so english fallbacks link correctly
-const guideHref = (id: string) => {
-	const [first, ...rest] = id.split("/");
-	return translatePath(
-		`/create/${rest.join("/")}`,
-		isLocale(first) ? first : defaultLocale,
-	);
-};
+const guideHref = (id: string) =>
+	translatePath(`/create/${parseLocalisedId(id).slug}`);
 ---
 
 <Page title={t("create.title")} description={t("create.description")}>
@@ -81,8 +71,7 @@ const guideHref = (id: string) => {
 
 			{
 				pages.map((page) => {
-					const [first] = page.id.split("/");
-					const pageLocale = isLocale(first) ? first : defaultLocale;
+					const { locale: pageLocale } = parseLocalisedId(page.id);
 					const href = guideHref(page.id);
 					return (
 						<a

@@ -7,12 +7,32 @@ import { defineConfig } from "astro/config";
 import { readdirSync, readFileSync, writeFileSync } from "fs";
 
 const LOCALES_DIR = new URL("src/locales/", import.meta.url);
+const GUIDES_DIR = new URL("src/content/guides/", import.meta.url);
 
 /** Locale codes, derived from the files in src/locales/. */
 function getLocaleCodes() {
 	return readdirSync(LOCALES_DIR)
 		.filter((f) => f.endsWith(".ts"))
 		.map((f) => f.slice(0, -3));
+}
+
+function getGuideIds() {
+	return new Set(
+		readdirSync(GUIDES_DIR, { recursive: true, encoding: "utf8" })
+			.filter((file) => file.endsWith(".md"))
+			.map((file) => file.slice(0, -3).replaceAll("\\", "/")),
+	);
+}
+
+/**
+ * @param {string} pathname
+ */
+function parseGuidePath(pathname) {
+	const [locale, section, ...slugParts] = pathname.split("/").filter(Boolean);
+
+	if (section !== "create" || slugParts.length === 0) return;
+
+	return { locale, slug: slugParts.join("/") };
 }
 
 /**
@@ -81,6 +101,9 @@ function localeRedirects() {
 const NETLIFY_PREVIEW_SITE =
 	process.env.CONTEXT !== "production" && process.env.DEPLOY_PRIME_URL;
 
+const localeCodes = new Set(getLocaleCodes());
+const guideIds = getGuideIds();
+
 // https://astro.build/config
 export default defineConfig({
 	site: NETLIFY_PREVIEW_SITE || "https://rosepinetheme.com",
@@ -94,7 +117,16 @@ export default defineConfig({
 					getLocaleCodes().map((code) => [code, code]),
 				),
 			},
-			filter: (page) => !new URL(page).pathname.startsWith("/en/"),
+			filter: (page) => {
+				const { pathname } = new URL(page);
+
+				if (pathname.startsWith("/en/")) return false;
+
+				const guide = parseGuidePath(pathname);
+				if (!guide || !localeCodes.has(guide.locale)) return true;
+
+				return guideIds.has(`${guide.locale}/${guide.slug}`);
+			},
 		}),
 	],
 	image: {

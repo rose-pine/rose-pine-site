@@ -73,6 +73,8 @@ export default defineLocale({
 		"create.description":
 			"Guides, tools, and inspiration for creating beautiful themes.",
 		"create.also_available_in": "Also available in:",
+		"create.fallback_notice":
+			"This guide hasn't been translated into {{language}} yet, so the English version is shown.",
 
 		"submit.title": "Submit a theme",
 		"submit.description": "Send in your theme to be added to Rosé Pine.",
