@@ -3,6 +3,7 @@ import Footer from "../components/footer.astro";
 import Header from "../components/header.astro";
 import "#global.css";
 import {
+	defaultLocale,
 	getLocaleFromUrl,
 	getUrlWithoutLocale,
 	languages,
@@ -18,17 +19,31 @@ type Props = {
 };
 let { title, description, ogImage, ogImageAlt } = Astro.props;
 
+function toOgLocale(code: string) {
+	let { language, region } = new Intl.Locale(code).maximize();
+	return `${language}_${region ?? language.toUpperCase()}`;
+}
+
 let locale = getLocaleFromUrl(Astro.url);
 let dir = languages[locale]?.dir ?? "ltr";
+let isHomePage = Astro.url.pathname === "/";
 
 let pathWithoutLocale = getUrlWithoutLocale(Astro.url);
 let alternates = objectKeys(languages).map((lang) => ({
 	hreflang: lang,
-	href: new URL(useTranslatedPath(lang)(pathWithoutLocale), Astro.site).href,
+	href: new URL(
+		lang === defaultLocale
+			? pathWithoutLocale
+			: useTranslatedPath(lang)(pathWithoutLocale),
+		Astro.site,
+	).href,
 }));
 let defaultHref = new URL(pathWithoutLocale, Astro.site).href;
-let canonical = new URL(Astro.url.pathname, Astro.site).href;
-let ogLocale = locale === "en" ? "en_US" : locale.replace("-", "_");
+let canonical =
+	locale === defaultLocale
+		? defaultHref
+		: new URL(Astro.url.pathname, Astro.site).href;
+let ogLocale = toOgLocale(locale);
 ---
 
 <!doctype html>
@@ -55,11 +70,22 @@ let ogLocale = locale === "en" ? "en_US" : locale.replace("-", "_");
 			objectKeys(languages)
 				.filter((lang) => lang !== locale)
 				.map((lang) => (
-					<meta
-						property="og:locale:alternate"
-						content={lang === "en" ? "en_US" : lang.replace("-", "_")}
-					/>
+					<meta property="og:locale:alternate" content={toOgLocale(lang)} />
 				))
+		}
+		{
+			isHomePage && (
+				<script
+					is:inline
+					type="application/ld+json"
+					set:html={JSON.stringify({
+						"@context": "https://schema.org",
+						"@type": "WebSite",
+						name: "Rosé Pine",
+						url: new URL("/", Astro.site).href,
+					})}
+				/>
+			)
 		}
 		{
 			alternates.map(({ hreflang, href }) => (
