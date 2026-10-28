@@ -1,0 +1,15 @@
+{
+	"type": "official",
+	"name": "vis",
+	"category": "editor",
+	"url": "https://github.com/rose-pine/vis",
+	"tags": ["rose-pine-moon", "rose-pine-theme", "themes", "vis"],
+	"contributors": [
+		{
+			"name": "matteobianchetti",
+			"url": "https://github.com/matteobianchetti",
+			"image": "https://avatars.githubusercontent.com/u/181941877?v=4"
+		}
+	],
+	"updatedAt": "2026-10-28T09:31:39Z"
+}
