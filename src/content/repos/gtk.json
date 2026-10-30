@@ -3,7 +3,7 @@
 	"name": "GTK",
 	"url": "https://github.com/rose-pine/gtk",
 	"category": "system",
-	"updatedAt": "2025-11-05T14:46:32Z",
+	"updatedAt": "2026-10-29T15:03:31Z",
 	"contributors": [
 		{
 			"name": "ThatOneCalculator",
@@ -29,6 +29,11 @@
 			"name": "IamGianluca",
 			"url": "https://github.com/IamGianluca",
 			"image": "https://avatars.githubusercontent.com/u/4025968?v=4"
+		},
+		{
+			"name": "AdrianColaianni",
+			"url": "https://github.com/AdrianColaianni",
+			"image": "https://avatars.githubusercontent.com/u/45860660?v=4"
 		},
 		{
 			"name": "VLPatton",
