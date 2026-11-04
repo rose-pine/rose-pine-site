@@ -3,7 +3,7 @@
 	"name": "tmux",
 	"url": "https://github.com/rose-pine/tmux",
 	"category": "terminal",
-	"updatedAt": "2026-09-01T17:55:35Z",
+	"updatedAt": "2026-11-03T18:16:54Z",
 	"contributors": [
 		{
 			"name": "mrs4ndman",
@@ -14,6 +14,11 @@
 			"name": "haydenrou",
 			"url": "https://github.com/haydenrou",
 			"image": "https://avatars.githubusercontent.com/u/21108297?v=4"
+		},
+		{
+			"name": "ArtemisFromTheBog",
+			"url": "https://github.com/ArtemisFromTheBog",
+			"image": "https://avatars.githubusercontent.com/u/2012844?v=4"
 		},
 		{
 			"name": "cascassette",
