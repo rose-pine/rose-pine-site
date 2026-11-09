@@ -1,0 +1,5 @@
+order: 2
+url: https://jimmysit0.github.io/clordle/
+image: clordle.webp
+title: "(clordle)"
+description: "Wordle, but every answer is a Clojure function!"
