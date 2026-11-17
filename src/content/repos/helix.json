@@ -3,7 +3,7 @@
 	"name": "Helix",
 	"url": "https://github.com/rose-pine/helix",
 	"category": "editor",
-	"updatedAt": "2026-04-16T23:44:01Z",
+	"updatedAt": "2026-11-16T04:40:18Z",
 	"tags": ["hacktoberfest"],
 	"contributors": [
 		{
@@ -25,6 +25,11 @@
 			"name": "th7mo",
 			"url": "https://github.com/th7mo",
 			"image": "https://avatars.githubusercontent.com/u/73542945?v=4"
+		},
+		{
+			"name": "evanleck",
+			"url": "https://github.com/evanleck",
+			"image": "https://avatars.githubusercontent.com/u/21947?v=4"
 		},
 		{
 			"name": "guillermoap",
